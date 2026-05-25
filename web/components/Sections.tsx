@@ -1,4 +1,11 @@
-import type { MarketIndicator, NewsStory, PortfolioMover, WatchItem } from "@/lib/types";
+import type {
+  MarketIndicator,
+  NRLFixture,
+  NewsStory,
+  PortfolioMover,
+  Urgency,
+  WatchItem,
+} from "@/lib/types";
 
 function ChangePill({ pct }: { pct: number }) {
   const positive = pct >= 0;
@@ -121,16 +128,62 @@ export function StoriesSection({
   );
 }
 
+const URGENCY_STYLES: Record<Urgency, { border: string; text: string; bg: string; label: string }> = {
+  red:    { border: "border-l-negative", text: "text-negative", bg: "bg-negative/5", label: "Urgent" },
+  orange: { border: "border-l-accent",   text: "text-accent",   bg: "bg-accent/5",   label: "Watch" },
+  green:  { border: "border-l-positive", text: "text-positive", bg: "bg-positive/5", label: "FYI" },
+};
+
 export function WatchTodaySection({ items }: { items: WatchItem[] }) {
   if (!items?.length) return null;
   return (
-    <section className="section-card p-5 mb-4 border-accent/40">
+    <section className="section-card p-5 mb-4">
       <h2 className="text-lg font-semibold mb-3">👀 Watch Today</h2>
-      <ul className="space-y-3">
-        {items.map((w, i) => (
-          <li key={i}>
-            <div className="text-sm font-semibold text-accent">{w.title}</div>
-            <div className="text-sm text-gray-300 mt-0.5">{w.detail}</div>
+      <ul className="space-y-2.5">
+        {items.map((w, i) => {
+          const styles = URGENCY_STYLES[w.urgency] ?? URGENCY_STYLES.green;
+          return (
+            <li
+              key={i}
+              className={`border-l-4 ${styles.border} ${styles.bg} pl-3 pr-2 py-2 rounded-r`}
+            >
+              <div className="flex items-center gap-2">
+                <span className={`text-[10px] uppercase tracking-widest font-bold ${styles.text}`}>
+                  {styles.label}
+                </span>
+              </div>
+              <div className="text-sm font-semibold mt-0.5">{w.title}</div>
+              <div className="text-sm text-gray-300 mt-0.5">{w.detail}</div>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+}
+
+export function NRLDrawSection({ fixtures }: { fixtures: NRLFixture[] }) {
+  if (!fixtures?.length) return null;
+  return (
+    <section className="section-card p-5 mb-4">
+      <h2 className="text-lg font-semibold mb-3">🏉 NRL — This Week</h2>
+      <ul className="divide-y divide-white/5">
+        {fixtures.map((f, i) => (
+          <li key={i} className="py-2.5 flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <div className="text-sm leading-tight">
+                <span className="font-medium">{f.home}</span>
+                <span className="text-muted mx-1.5">v</span>
+                <span className="font-medium">{f.away}</span>
+              </div>
+              {f.venue && (
+                <div className="text-[11px] text-muted mt-0.5 truncate">{f.venue}</div>
+              )}
+            </div>
+            <div className="text-right text-xs shrink-0">
+              <div className="text-gray-300 font-medium">{f.day}</div>
+              <div className="text-muted">{f.time}</div>
+            </div>
           </li>
         ))}
       </ul>

@@ -11,7 +11,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from claude_summary import generate_digest  # noqa: E402
 from fetch_news import fetch_topic  # noqa: E402
+from fetch_nrl import fetch_nrl_draw  # noqa: E402
 from fetch_stocks import fetch_all  # noqa: E402
+from fetch_weather import fetch_weather  # noqa: E402
 from send_notification import send_push  # noqa: E402
 
 
@@ -27,7 +29,6 @@ def gather_raw_data() -> dict:
     indicators = portfolio_cfg["market_indicators"]
 
     holdings_quotes = fetch_all([h["yfinance"] for h in holdings])
-    # attach name/exchange metadata for Claude
     by_ticker = {h["yfinance"]: h for h in holdings}
     for q in holdings_quotes:
         meta = by_ticker.get(q["ticker"], {})
@@ -48,8 +49,13 @@ def gather_raw_data() -> dict:
     for ticker, queries in topics_cfg["portfolio_news"]["per_ticker_queries"].items():
         per_ticker_news[ticker] = fetch_topic(queries, per_query_max=3)
 
+    weather = fetch_weather()
+    nrl_draw = fetch_nrl_draw()
+
     return {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "weather": weather,
+        "nrl_draw": nrl_draw,
         "holdings": holdings_quotes,
         "indicators": indicator_quotes,
         "news": news,
@@ -60,11 +66,17 @@ def gather_raw_data() -> dict:
 def main() -> int:
     print("[digest] gathering raw data…")
     raw = gather_raw_data()
-    print(f"[digest] got {len(raw['holdings'])} holdings, {len(raw['indicators'])} indicators.")
+    print(
+        f"[digest] got {len(raw['holdings'])} holdings, {len(raw['indicators'])} indicators, "
+        f"{len(raw['nrl_draw'])} NRL fixtures, weather={'OK' if 'error' not in raw['weather'] else 'ERR'}."
+    )
 
     print("[digest] calling Claude for summary…")
     digest = generate_digest(raw)
 
+    # Merge in factual data Claude shouldn't fabricate
+    digest["weather"] = raw["weather"]
+    digest["nrl_draw"] = raw["nrl_draw"]
     digest["generated_at_utc"] = raw["generated_at_utc"]
 
     out_path = ROOT / "data" / "latest.json"

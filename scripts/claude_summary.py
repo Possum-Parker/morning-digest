@@ -13,7 +13,7 @@ from anthropic import Anthropic
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
 
 
-SYSTEM_PROMPT = """You are a sharp, concise morning briefing writer for an Australian investor based in Brisbane.
+SYSTEM_PROMPT = """You are a sharp, concise morning briefing writer for an Australian investor based on the Gold Coast.
 
 You write a daily digest that helps the reader make informed decisions about their share portfolio
 and stay across Australian politics, the AI industry, and major sport — without wasting their time.
@@ -24,9 +24,15 @@ no clickbait, no hedging clichés ("it remains to be seen"). Aussie-friendly phr
 Rules:
 - Include 3-6 portfolio movers, largest absolute moves first. Skip holdings that didn't move much.
 - For politics, AI, and sport: include 3-5 stories each. Drop anything that's just noise.
-- "watch_today" should be 0-3 items. Use an empty list if nothing genuinely warrants attention.
+- "watch_today" should be 0-6 items. Each item MUST have an urgency:
+    * "red"    = act / decide today (e.g. major earnings, sharp portfolio move, regulatory shock)
+    * "orange" = something to watch this week (e.g. upcoming data print, building risk, news developing)
+    * "green"  = informational / good-to-know (e.g. tailwind for a holding, useful background)
+  Use an empty list if nothing genuinely warrants attention. Don't pad it for the sake of it.
 - NEVER fabricate prices, percentages, links, or sources. Use only what's in the provided data.
 - If a section has no usable data, return an empty stories list with a short summary explaining why.
+- Weather and NRL draw are fetched separately and shown in the app — do NOT include them in your output.
+  But you may reference them in your headline or watch_today if relevant (e.g. heavy rain affecting a surf event).
 
 Call the submit_digest tool with the structured digest. Do not output any text — only the tool call."""
 
@@ -131,8 +137,13 @@ DIGEST_TOOL = {
                     "properties": {
                         "title": {"type": "string"},
                         "detail": {"type": "string"},
+                        "urgency": {
+                            "type": "string",
+                            "enum": ["red", "orange", "green"],
+                            "description": "red = act today, orange = watch this week, green = informational",
+                        },
                     },
-                    "required": ["title", "detail"],
+                    "required": ["title", "detail", "urgency"],
                 },
             },
         },
