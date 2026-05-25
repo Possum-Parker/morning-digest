@@ -1,0 +1,47 @@
+{
+  "australian_politics": {
+    "label": "Australian Politics",
+    "queries": [
+      "Australian federal politics policy",
+      "RBA Reserve Bank Australia interest rates",
+      "Australian budget economy treasurer",
+      "Albanese government legislation"
+    ],
+    "exclude_keywords": ["arrested", "stabbing", "murder", "robbery", "assault", "crash"]
+  },
+  "ai_world": {
+    "label": "AI World",
+    "queries": [
+      "OpenAI Anthropic Google AI release",
+      "artificial intelligence regulation",
+      "AI model launch announcement",
+      "Claude GPT Gemini new model"
+    ],
+    "exclude_keywords": []
+  },
+  "sport": {
+    "label": "Sport",
+    "queries": [
+      "NRL results round news",
+      "NRL trade signing news",
+      "Australian surfing championship WSL",
+      "AFL major news",
+      "Wallabies Matildas Socceroos",
+      "Australian Open Wimbledon tennis"
+    ],
+    "exclude_keywords": []
+  },
+  "portfolio_news": {
+    "label": "Portfolio Company News",
+    "per_ticker_queries": {
+      "GOOGL":   ["Alphabet Google earnings news"],
+      "MSFT":    ["Microsoft earnings news"],
+      "TTWO":    ["Take-Two Interactive GTA Rockstar news"],
+      "FUEL.AX": ["global energy oil prices outlook"],
+      "CBA.AX":  ["Commonwealth Bank Australia earnings rates"],
+      "VDHG.AX": ["Vanguard ETF Australia market outlook"],
+      "VGE.AX":  ["emerging markets ETF outlook"],
+      "VTS.AX":  ["US total market ETF outlook"]
+    }
+  }
+}
