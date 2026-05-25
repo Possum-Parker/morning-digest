@@ -1,9 +1,11 @@
-"""Send raw stock + news data to Claude and ask for a structured morning digest."""
+"""Send raw stock + news data to Claude and ask for a structured morning digest.
+
+Uses Claude tool-use to guarantee valid JSON output matching the schema below.
+"""
 from __future__ import annotations
 
 import json
 import os
-import re
 
 from anthropic import Anthropic
 
@@ -17,78 +19,150 @@ You write a daily digest that helps the reader make informed decisions about the
 and stay across Australian politics, the AI industry, and major sport — without wasting their time.
 
 Tone: plain English, opinionated but not reckless, honest when something is uncertain. No fluff,
-no clickbait, no hedging clichés ("it remains to be seen"). Aussie-friendly phrasing.
-
-Output STRICT JSON matching this shape:
-
-{
-  "headline": "<one sentence top-of-mind summary for the day>",
-  "portfolio": {
-    "summary": "<2-3 sentence overall portfolio read>",
-    "movers": [
-      { "ticker": "...", "name": "...", "change_pct": <number>, "note": "<one line: why it moved or what to watch>" }
-    ]
-  },
-  "markets": {
-    "summary": "<2-3 sentences on overnight global markets + commodities + AUD>",
-    "indicators": [
-      { "name": "...", "value": "...", "change_pct": <number>, "note": "<optional short note>" }
-    ]
-  },
-  "politics": {
-    "summary": "<2-4 sentences on what genuinely matters in Australian politics today>",
-    "stories": [
-      { "title": "...", "why_it_matters": "<one line>", "source": "...", "link": "..." }
-    ]
-  },
-  "ai": {
-    "summary": "<2-3 sentences on AI industry today>",
-    "stories": [
-      { "title": "...", "why_it_matters": "<one line>", "source": "...", "link": "..." }
-    ]
-  },
-  "sport": {
-    "summary": "<2-3 sentences covering NRL + major Aussie sport overnight>",
-    "stories": [
-      { "title": "...", "category": "NRL|Surfing|AFL|Tennis|Other", "source": "...", "link": "..." }
-    ]
-  },
-  "watch_today": [
-    { "title": "<short callout>", "detail": "<one line on what to watch or consider>" }
-  ]
-}
+no clickbait, no hedging clichés ("it remains to be seen"). Aussie-friendly phrasing is welcome.
 
 Rules:
-- Include 3-6 portfolio movers (largest absolute moves first). If a holding didn't move much, you can skip it.
+- Include 3-6 portfolio movers, largest absolute moves first. Skip holdings that didn't move much.
 - For politics, AI, and sport: include 3-5 stories each. Drop anything that's just noise.
-- "watch_today" should be 1-3 items. Skip the section (empty list) if nothing genuinely warrants attention.
+- "watch_today" should be 0-3 items. Use an empty list if nothing genuinely warrants attention.
 - NEVER fabricate prices, percentages, links, or sources. Use only what's in the provided data.
 - If a section has no usable data, return an empty stories list with a short summary explaining why.
-- Output JSON only. No prose before or after."""
+
+Call the submit_digest tool with the structured digest. Do not output any text — only the tool call."""
 
 
-def _extract_json(text: str) -> dict:
-    text = text.strip()
-    if text.startswith("```"):
-        text = re.sub(r"^```(?:json)?\s*", "", text)
-        text = re.sub(r"\s*```$", "", text)
-    return json.loads(text)
+def _story_schema(extra_props: dict | None = None) -> dict:
+    props = {
+        "title": {"type": "string"},
+        "why_it_matters": {"type": "string"},
+        "source": {"type": "string"},
+        "link": {"type": "string"},
+    }
+    if extra_props:
+        props.update(extra_props)
+    return {
+        "type": "object",
+        "properties": props,
+        "required": ["title"],
+    }
+
+
+DIGEST_TOOL = {
+    "name": "submit_digest",
+    "description": "Submit the structured morning digest. Call this exactly once with all sections filled in.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "headline": {
+                "type": "string",
+                "description": "One sentence top-of-mind summary for the day.",
+            },
+            "portfolio": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "movers": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "ticker": {"type": "string"},
+                                "name": {"type": "string"},
+                                "change_pct": {"type": "number"},
+                                "note": {"type": "string"},
+                            },
+                            "required": ["ticker", "name", "change_pct", "note"],
+                        },
+                    },
+                },
+                "required": ["summary", "movers"],
+            },
+            "markets": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "indicators": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "name": {"type": "string"},
+                                "value": {"type": "string"},
+                                "change_pct": {"type": "number"},
+                                "note": {"type": "string"},
+                            },
+                            "required": ["name", "value", "change_pct"],
+                        },
+                    },
+                },
+                "required": ["summary", "indicators"],
+            },
+            "politics": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "stories": {"type": "array", "items": _story_schema()},
+                },
+                "required": ["summary", "stories"],
+            },
+            "ai": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "stories": {"type": "array", "items": _story_schema()},
+                },
+                "required": ["summary", "stories"],
+            },
+            "sport": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "stories": {
+                        "type": "array",
+                        "items": _story_schema({"category": {"type": "string"}}),
+                    },
+                },
+                "required": ["summary", "stories"],
+            },
+            "watch_today": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "title": {"type": "string"},
+                        "detail": {"type": "string"},
+                    },
+                    "required": ["title", "detail"],
+                },
+            },
+        },
+        "required": ["headline", "portfolio", "markets", "politics", "ai", "sport", "watch_today"],
+    },
+}
 
 
 def generate_digest(raw_data: dict) -> dict:
     client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
     user_content = (
-        "Here is today's raw data. Write the digest as instructed.\n\n"
+        "Here is today's raw data. Write the digest by calling the submit_digest tool.\n\n"
         f"```json\n{json.dumps(raw_data, indent=2, default=str)}\n```"
     )
 
     response = client.messages.create(
         model=MODEL,
-        max_tokens=4000,
+        max_tokens=8000,
         system=SYSTEM_PROMPT,
+        tools=[DIGEST_TOOL],
+        tool_choice={"type": "tool", "name": "submit_digest"},
         messages=[{"role": "user", "content": user_content}],
     )
 
-    text = "".join(block.text for block in response.content if block.type == "text")
-    return _extract_json(text)
+    for block in response.content:
+        if block.type == "tool_use" and block.name == "submit_digest":
+            return block.input
+
+    raise ValueError(
+        f"Claude did not return a submit_digest tool call. Stop reason: {response.stop_reason}. "
+        f"Content blocks: {[b.type for b in response.content]}"
+    )
