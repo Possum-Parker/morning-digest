@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { OneSignalInit } from "@/components/OneSignalInit";
 
 export const metadata: Metadata = {
   title: "Morning Digest",
@@ -25,10 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="apple-touch-icon" href="/icon-192.png" />
       </head>
-      <body>
-        <OneSignalInit />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

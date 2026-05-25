@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 
+import { NotificationManager } from "@/components/NotificationManager";
 import {
   MarketsSection,
   NRLDrawSection,
@@ -47,6 +48,7 @@ export default function Page() {
 
   return (
     <main className="max-w-xl mx-auto px-4 pt-6 pb-12">
+      <NotificationManager />
       <header className="mb-4">
         <div className="text-xs uppercase tracking-widest text-muted">Morning Digest</div>
         {digest && (
