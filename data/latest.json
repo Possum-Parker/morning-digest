@@ -1,191 +1,185 @@
 {
-  "headline": "Take-Two gets hammered on GTA 6 jitters while Labor's CGT-linked tax cuts dominate Aussie politics — markets steady overall but rain's coming to the GC.",
+  "headline": "Take-Two gets hammered on GTA 6 jitters while Labor's tax-cut-for-CGT-reform deal dominates the domestic agenda.",
   "portfolio": {
-    "summary": "Take-Two is the standout loser, down 4.4% as GTA 6 anxiety lingers. Alphabet slipped 1.2% despite solid recent earnings — likely some profit-taking. Emerging markets ETF (VGE) was the bright spot, up 1.2%. The rest of the portfolio was largely flat.",
+    "summary": "TTWO is the big mover — down over 4% on ongoing GTA 6 uncertainty. GOOGL slipped 1.2% despite solid recent earnings. On the ASX side, VGE and VTS both pushed higher, reflecting emerging market and US broad market strength. FUEL.AX and MSFT were essentially flat.",
     "movers": [
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": -4.42,
-        "note": "Dropped sharply — GTA 6 concerns about scope and cost creep dominate headlines. No hard catalyst but sentiment is wobbly."
+        "note": "GTA 6 angst continues — commentary circulating that the title has become a massive risk for Rockstar. No new release date news, just sentiment drag."
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet Inc. (Google)",
         "change_pct": -1.21,
-        "note": "Mild pullback despite positive recent earnings backdrop. New Gemini Omni announcement could be a catalyst to watch."
+        "note": "Pulled back despite recent earnings strength. Google launched Gemini Omni today — AI product pipeline remains active but market taking a breather."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard FTSE Emerging Markets ETF",
         "change_pct": 1.17,
-        "note": "Solid gain — rising AUD and easing global risk sentiment supporting EM assets."
+        "note": "Solid session. AUD/USD lifting slightly helps unhedged positions less, but underlying EM equities were strong."
       },
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market Shares ETF",
         "change_pct": 0.74,
-        "note": "Steady lift tracking a broadly positive US session."
+        "note": "US broad market gains flowing through. S&P 500 up 0.37% overnight."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": 0.68,
-        "note": "Modest gain, consistent with broad market tone."
+        "note": "Steady lift in line with global equity tailwinds."
       },
       {
         "ticker": "CBA.AX",
         "name": "Commonwealth Bank of Australia",
         "change_pct": -0.65,
-        "note": "Small dip — RBA rate hike uncertainty and bond market repricing applying light pressure on bank valuations."
+        "note": "Minor dip. RBA rate hike bets unwinding — mixed for banks. Still richly valued by most measures."
       }
     ]
   },
   "markets": {
-    "summary": "All three major indices edged higher. S&P 500 up 0.37%, ASX 200 up 0.40%, NASDAQ up 0.19%. Gold flat, crude oil unchanged at $96.60. The AUD pushed up to 0.7174, a 0.35% gain — partly driven by unwinding of RBA rate hike bets rather than domestic strength.",
+    "summary": "Broadly positive session. S&P 500 and ASX 200 both edged up, NASDAQ was muted. Gold barely moved. Oil flat at $96.60. AUD/USD ticking higher to 0.717 despite fading RBA rate hike expectations — the bond market is pricing out tightening and that's actually supporting the currency through risk-on flows.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,692",
         "change_pct": 0.4,
-        "note": "Solid session, tracking global risk-on mood."
+        "note": "Solid Monday session"
       },
       {
         "name": "S&P 500",
         "value": "7,473",
         "change_pct": 0.37,
-        "note": "Steady gains, no major drama."
+        "note": "Modest overnight gain"
       },
       {
         "name": "NASDAQ Composite",
         "value": "26,344",
         "change_pct": 0.19,
-        "note": "Tech slightly lagging broader market."
+        "note": "Tech underperformed slightly"
       },
       {
         "name": "AUD/USD",
-        "value": "0.7174",
-        "change_pct": 0.35,
-        "note": "Rising despite softening RBA hike expectations — worth watching."
+        "value": "0.7170",
+        "change_pct": 0.3,
+        "note": "Rising despite softening RBA hike bets — risk-on tone"
       },
       {
         "name": "Crude Oil (WTI)",
         "value": "$96.60",
         "change_pct": 0.0,
-        "note": "Flat — US-Iran deal hopes capping upside despite supply tightness."
+        "note": "Flat; US-Iran deal hopes capping upside"
       },
       {
         "name": "Gold",
         "value": "$4,523",
         "change_pct": 0.05,
-        "note": "Essentially unchanged."
+        "note": "Barely moved"
       }
     ]
   },
   "politics": {
-    "summary": "The big domestic story is Labor floating a package that ties popular income tax cuts to CGT and negative gearing reforms — a politically loaded move that could reshape property investment calculus. Separately, RBA rate expectations are shifting fast, with bond markets repricing and the AUD diverging from rate differentials.",
+    "summary": "The big domestic story is Labor floating a plan to tie personal income tax cuts to CGT and negative gearing reforms — a politically loaded move that could reshape property investor calculus. Meanwhile, RBA rate hike expectations are unwinding fast, with bond demand surging as inflation fears ease temporarily.",
     "stories": [
       {
         "title": "Labor to tie tax cuts to CGT and negative gearing changes",
         "source": "AFR",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0xTdUdGa1czOHVNQ0NXVEYydGFxTkpoOXRsdkx6TUNFZm5BUHpVTnNBb0FIVVFUQjVHcmoxUVRPMm0yOHBBTXAzTjdNSWpYWUhYeEN6aGpnd1FENHoyYVVwWkdweWlrRXBWeGc0ZG1sMWx0SGh0WW9KckN1Mk5yUUN0Q1o1SHJQOFl3SjNFdDBOVUxRckNCbzVvUVlBTl9zNDBaVXdENUd1Wkdxa2F3",
-        "why_it_matters": "This is a major policy signal. If Labor bundles income tax cuts with CGT and negative gearing changes, it forces a political and financial reckoning for property investors. Direct relevance to anyone holding property or planning asset strategy."
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0xTdUdGa1czOHVNQ0NXVEYydGFxTkpoOXRsdkx6TUNFZm5BUHpVTnNBb0FIVVFUQjVHcmoxUVRPMm0yOHBBTXAzTjdNSWpYWUhYeEN6aGpnd1FENHoyYVVwWkdweWlrRXBWeGc4ZG1sMWx0SGh0WW9KckN1Mk5yUUN0Q1o1SHJQOFl3SjNFdDBOVUxRckNCbzVvUVlBTl9zNDBaVXdENUd1Wkdxa2F3?oc=5",
+        "why_it_matters": "If this gets through, property investors face higher CGT and the end of negative gearing — a significant shift for anyone holding investment property or REIT-adjacent stocks. Watch CBA and the broader banks if sentiment on housing turns."
       },
       {
-        "title": "RBA rate rise bets and government debt fears unwind, lifting demand for Australian bonds",
+        "title": "RBA rate rise bets unwind, triggering demand for Australian bonds",
         "source": "AFR",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZHZsRmZfREZrYlNXRmtDOEZZUGJLR2V6RnRPRzUydDFmLXRnUWtQaGc3bldTSnkwNmlhXzlKYWhjOG1udmVlNmc4V1E0SzhiZV9yR1JqaFE5b3lkQlBSS0Y4eWRDbjhMczZudkx5bEw2TG9YQ1FISjBiSzQ0bTVhN2xBLS1heUlSaDE2Rm9sNEFCczIxdC1ib2QxaDBrZjdpWC1sS1BMYU9KSFJXbFE5eHBOV0I1Wm1KNHBFWnNoa3Q",
-        "why_it_matters": "Bond markets are repricing RBA rate expectations downward. This is relevant to CBA and broader financials — lower rate expectations can compress bank margins but also support growth valuations."
-      },
-      {
-        "title": "Why is the Australian Dollar rising despite weakening RBA rate hike odds?",
-        "source": "FXStreet",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU24xVm9MbE9nZEtsUFlFSkY2YzhIMFI4UmV4NXp5MTJ1QTI4OHVWUWlrcjN6NzRpYk12SHcwMlM2SlFvMkwxRllTS2RnZlJtRHBObFczdXVFdUdtM0xHM3VFOS1qaWJfWG13eTIybjlxaDVFekV6Wi1hcl9PU1pQR3QyN3BfTjcxNzBGOURHVDZqd0ZyVzUwR2VQMFcwYWlYNDJLRGhFR2VHQTZRODNFTkk5VUhnYnlPZmF1TkJiMzIzRlh2bm40Sg",
-        "why_it_matters": "AUD rising while rate hike bets fall is unusual — suggests capital inflows or commodity support driving it. Worth understanding if you're holding USD-denominated assets like GOOGL, MSFT, and TTWO, as a stronger AUD erodes returns when converted back."
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZHZsRmZfREZrYlNXRmtDOEZZUGJLR2V6RnRPRzUydDFmLXRnUWtQaGc3bldTSnkwNmlhXzlKYWhjOG1udmVlNmc4V1E0SzhiZV9yR1JqaFE5b3lkQlBSS0Y4eWRDbjhMczZudkx5bEw2TG9YQ1FISjBiSzQ0bTVhN2xBLS1heUlSaDE2Rm9sNEFCczIxdC1ib2QxaDBrZjdpWC1sS1BMYU9KSFJXbFE5eHBOV0I1Wm1KNHBFWnNoa3Q?oc=5",
+        "why_it_matters": "Markets are pricing out RBA hikes, pushing bond yields down and supporting growth assets. Good for your equity holdings in the near term, but watch what the RBA actually says next meeting."
       },
       {
         "title": "Temporary fall in inflation won't ease RBA fears",
         "source": "AAP News",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNlgwRUVQMUJVNGRsMTJHYnUzWEFpQ3pLOXlFUk9VaG10UWRkSmJ1WmtlSndzU1NwOGN4YnBuQUUwM2d5ek5JOUNDZ0V5WV9IX0JtRGNLQTVjWHFHZER2WUJicTk1Q05jWnByRlBwZ2RFUkVINFF0UnhGb2RHeU9HYW9lTEhWX1U",
-        "why_it_matters": "Even with a short-term dip in inflation, the RBA is unlikely to cut rates in a hurry. Steady rates keep pressure on mortgage holders and consumer spending — headwind for domestic retail and bank credit growth."
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNlgwRUVQMUJVNGRsMTJHYnUzWEFpQ3pLOXlFUk9VaG10UWRkSmJ1WmtlSndzU1NwOGN4YnBuQUUwM2d5ek5JOUNDZ0V5WV9IX0JtRGNLQTVjWHFHZER2WUJicTk1Q05jWnByRlBwZ2RFUkVINFF0UnhGb2RHeU9HYW9lTEhWX1U?oc=5",
+        "why_it_matters": "Despite the market unwind of hike bets, the RBA still has inflation concerns. Don't assume cuts are coming — the path forward is murky."
       }
     ]
   },
   "ai": {
-    "summary": "The dominant AI story today is actually from the Vatican — Pope Leo XIV has issued his first encyclical explicitly calling for robust AI regulation, citing risks in finance, warfare, and human dignity. Meanwhile, Google quietly dropped a significant product announcement: Gemini Omni.",
+    "summary": "Today's AI news is dominated by a single big theme: Pope Leo XIV's first encyclical calling for robust global AI regulation, particularly around autonomous weapons and financial systems. It's a moral framing, not a policy mechanism, but it adds to the global chorus for oversight. The other story worth watching is Google's launch of Gemini Omni.",
     "stories": [
       {
-        "title": "Introducing Gemini Omni",
-        "source": "blog.google",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWlaMUVtdkx6SklzdmNOYnZibDJSak96Mi0zZXhoUVdsamQ2M1VIeEUtcTdWVVJrV09PcTRPWVFCQzlzSW5RUzM1Ui1FRmJtR1N2aVNkeWtEM192TDcxUFhxNGN5MGhpYjk0aEJJdWJrcDlUNG1mQ2xodS1YNXEtVUxPSnpWNGVjZlpwXw",
-        "why_it_matters": "Google just launched Gemini Omni — a major multimodal AI model. This matters directly for your GOOGL position. It's a signal that Alphabet is pushing hard to compete with OpenAI and Anthropic, and recent earnings already showed AI revenue momentum."
-      },
-      {
-        "title": "Pope Leo XIV calls for robust regulation of AI — warns some weapons now beyond human control",
+        "title": "Pope Leo XIV urges robust AI regulation in first encyclical",
         "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWko0ZE13QUlLMHNBWGhlS2NMV0JIQ0FZOFRwRE1uRzhsREgxN3RoVHpEZVFOVi16Q2VkWVZHNE9hb0drNEx1V1V5SFd0SVlYbk13N2IzUUJ3TjdYeXdueVB4OGJMM01fblh5LTRyOTRJT3RTNWpIRXlCNklZdVR4TmJxMGltZF9VZEh0eDBIcUJ4MEx3Y0Y3cnVGSWRXWXMwWWFZcmo3dWxoa3dyMHB0R25YNFNFTlU",
-        "why_it_matters": "The Pope's encyclical is the most high-profile moral voice yet calling for AI regulation. While not binding, it adds significant political pressure on governments — especially in Europe — to accelerate regulatory frameworks. Medium-term risk for AI companies facing compliance costs."
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWko0ZE13QUlLMHNBWGhlS2NMV0JIQ0FZOFRwRE1uRzhsREgxN3RoVHpEZVFOVi16Q2VkWVZHNE9hb0drNEx1V1V5SFd0SVlYbk13N2IzUUJ3TjdYeXdueVB4OGJMM01fblh5LTRyOTRJT3RTNWpIRXlCNklZdVR4TmJxMGltZF9VZEh0eDBIcUJ4MEx3Y0Y3cnVGSWRXWXMwWWFZcmo3dWxoa3dyMHB0R25YNFNFTlU?oc=5",
+        "why_it_matters": "The Vatican's intervention adds moral weight to the AI regulation debate. No immediate policy impact, but it signals growing consensus that AI governance needs to go well beyond self-regulation — relevant for any AI-exposed holdings like GOOGL and MSFT."
       },
       {
-        "title": "Pope Leo Warns of AI Risks, Calls for Oversight in Finance & War",
-        "source": "Global Banking & Finance Review",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbXcwdE42TmltSVNFZEo1bUNsZDhwY2d0dW43cmdsOFVnWXduTElGb256cU4xVXN6dXVwcUhmR0xnS3BPR0ZnNFIwalZ3STRpeFBoMThBMS1HdDc5SzZvQWZZdHZOVzVqVWkzbHRzYlY0X0FOd0tJUjc4bGdDMGp3WTVYdXRaS3RXNUY2LUhPZUNvTUk",
-        "why_it_matters": "The specific callout of AI in financial markets is worth noting. Autonomous trading and AI-driven financial products are already mainstream — regulatory pushback in this space could affect fintech and quant-heavy funds."
+        "title": "Pope warns some weapons now beyond human control",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWko0ZE13QUlLMHNBWGhlS2NMV0JIQ0FZOFRwRE1uRzhsREgxN3RoVHpEZVFOVi16Q2VkWVZHNE9hb0drNEx1V1V5SFd0SVlYbk13N2IzUUJ3TjdYeXdueVB4OGJMM01fblh5LTRyOTRJT3RTNWpIRXlCNklZdVR4TmJxMGltZF9VZEh0eDBIcUJ4MEx3Y0Y3cnVGSWRXWXMwWWFZcmo3dWxoa3dyMHB0R25YNFNFTlU?oc=5",
+        "why_it_matters": "The autonomous weapons angle is the sharpest part of the encyclical — and the most likely to gain traction with policymakers debating AI in defence contexts."
+      },
+      {
+        "title": "Google launches Gemini Omni",
+        "source": "blog.google",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWlaMUVtdkx6SklzdmNOYnZibDJSak96Mi0zZXhoUVdsamQ2M1VIeEUtcTdWVVJrV09PcTRPWVFCQzlzSW5RUzM1Ui1FRmJtR1N2aVNkeWtEM192TDcxUFhxNGN5MGhpYjk0aEJJdWJrcDlUNG1mQ2xodS1YNXEtVUxPSnpWNGVjZlpwXw?oc=5",
+        "why_it_matters": "GOOGL is actively shipping new AI products. Gemini Omni appears to be a multimodal model update — reinforces that Google is not sitting still in the AI race despite the stock's recent dip."
       }
     ]
   },
   "sport": {
-    "summary": "AFL dominates today with the sad passing of Neale Daniher at 65 — a genuine legend and the face of Fight MND for over a decade. NRL is gearing up for Round 13 with key injury clouds over Origin stars and Warriors/Tigers. A World Surf League event in NZ was put on hold after a photographer was bitten by what may have been a shark.",
+    "summary": "AFL is in mourning after Neale Daniher's death at 65 — a genuinely significant moment for the game. NRL is gearing up for Round 13 with Origin stars' availability unclear. A WSL surf event in NZ was halted after an Australian photographer was bitten by what may have been a shark or sea lion.",
     "stories": [
       {
         "title": "Neale Daniher, football legend and Fight MND campaigner, dies aged 65",
         "source": "afl.com.au",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeGwxeGNOb2NlUUdOMzdTZXM3NU1wV2pJTkRnX2RXVGVCUzh0YXVhTTFNZVMtQ293M1FpNHZXNmNpZzRMY3hCQVI3TjFCMDFZRXJZa3IwaXVSMkVTaW93RG1LT1NDY19yVXBCNnU1QzgyeHlWck5vU2l1N0xJWjYzXzdZMmJoY19CdDJ6TUxYRkRTWEh4aHNrTWJsa01uZmhtZmRMek1ZZ0VHejBTSVFORVdrR1JIZXpQTWVFREFDTUFDYWUzWmxj",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeGwxeGNOb2NlUUdOMzdTZXM3NU1wV2pJTkRnX2RXVGVCUzh0YXVhTTFNZVMtQ293M1FpNHZXNmNpZzRMY3hCQVI3TjFCMDFZRXJZa3IwaXVSMkVTaW93RG1LT1NDY19yVXBCNnU1QzgyeHlWck5vU2l1N0xJWjYzXzdZMmJoY19CdDJ6TUxYRkRTWEh4aHNrTWJsa01uZmhtZmRMek1ZZ0VHejBTSVFORVdrR1JIZXpQTWVFREFDTUFDYWUzWmxj?oc=5",
         "category": "AFL",
-        "why_it_matters": "One of the most beloved figures in Australian sport has passed. Daniher's 13-year battle with MND was fought publicly and inspired a movement. The AFL and wider sporting community will be in mourning this week."
+        "why_it_matters": "Daniher coached Melbourne to finals and became one of the most admired figures in Australian sport through his 13-year public battle with MND. A huge loss."
       },
       {
-        "title": "NRL round 13 predicted teams: Mystery surrounds Origin stars; Tigers, Warriors cop major injury blows",
+        "title": "NRL Round 13 predicted teams: Mystery surrounds Origin stars; Tigers and Warriors cop major injury blows",
         "source": "Nine.com.au",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT0JYY3dEejZJN21hb0RvTE90Y0QzRDQtOVVNMGxsTF9hODM2ckV2Tk9vVmhKellrZ1htX1RfbDlhT2JEbTFsMWhxcld2TWRSdEhQaFRfdDlPdlJpX3pZajBxSDNieV9URDdtRkZwemZYNUFOdnVta1RPeEpvc2NPZlVodERIRmdhZnFaNkc1cWdzYzkxdnBvbG9xTTlQMkNaMlNTTGV1MnotT0JXOGZaZm5HU3MwZkUtMUloNUxB0gF3QVVfeXFMTnAxUnZneXRTeExkdHBUcV8tcTVpYmoxVnZoM0NlSE8tSnFXc1ZyZ2FjTlplM3B1QVl2YkRXdExYdHdyVl9PMFJaUUtKb3JRZkkxNFZ4NE01NFFQTFYzMzJISHNqMTYtMy04WkdIUjY2UjhETG5YNnc",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT0JYY3dEejZJN21hb0RvTE90Y0QzRDQtOVVNMGxsTF9hODM2ckV2Tk9vVmhKellrZ1htX1RfbDlhT2JEbTFsMWhxcld2TWRSdEhQaFRfdDlPdlJpX3pZajBxSDNieV9URDdtRkZwemZYNUFOdnVta1RPeEpvc2NPZlVodERIRmdhZnFaNkc1cWdzYzkxdnBvbG9xTTlQMkNaMlNTTGV1MnotT0JXOGZaZm5HU3MwZkUtMUloNUxB0gF3QVVfeXFMTnAxUnZneXRTeExkdHBUcV8tcTVpYmoxVnZoM0NlSE8tSnFXc1ZyZ2FjTlplM3B1QVl2YkRXdExYdHdyVl9PMFJaUUtKb3JRZkkxNFZ4NE01NFFQTFYzMzJISHNqMTYtMy04WkdIUjY2UjhETG5YNnc?oc=5",
         "category": "NRL",
-        "why_it_matters": "Origin selections are muddying team lists ahead of Round 13. Tigers and Warriors fans bracing for more pain with fresh injury concerns."
+        "why_it_matters": "Origin selections are creating lineup chaos heading into Round 13. Tigers and Warriors already hurting — worth watching if you follow either club."
       },
       {
         "title": "World Surf League event in NZ put on hold after Australian photographer bitten by 'shark or a sea lion'",
         "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeC1ubHhxNXZFUjY4ZGJBUDhRekNWcXBxbzhLNVlHaXFpSWw3UGZmWUgxcGZid2lfSS16eU9iWFIwZDMzaURUODZUWjc0SG1UbFZEYXJNNzdmMnh2eE9ZbUZqVzFuaEMzQnY3Z1NVRENsTW10Sm4zUldBMmxRbnJWaEpBUmpaMzA2cmFGaGp3VWsyOUVKTlVzM3lZRU44cEh2WUJpazVXT04",
-        "category": "Surfing",
-        "why_it_matters": "WSL event suspended in NZ after a scary incident. Given the Gold Coast surfing community, this is worth knowing — conditions can change fast and events getting called off is always disruptive for competitors and spectators."
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeC1ubHhxNXZFUjY4ZGJBUDhRekNWcXBxbzhLNVlHaXFpSWw3UGZmWUgxcGZid2lfSS16eU9iWFIwZDMzaURUODZUWjc4SG1UbFZEYXJNNzdmMnh2eE9ZbUZqVzFuaEMzQnY3Z1NVRENsTW10Sm4zUldBMmxRbnJWaEpBUmpaMzA2cmFGaGp3VWsyOUVKTlVzM3lZRU44cEh2WUJpazVXT04?oc=5",
+        "category": "Surf",
+        "why_it_matters": "WSL event halted — unclear if it resumes. Incident highlights the real-world risks at surf competitions in NZ waters."
       },
       {
         "title": "AFL Round 12: Team news, fixtures, games, tips, odds — everything you need to know",
         "source": "ESPN",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEh3MWJ4Wnl1N2tWZ3g1OHVxSGJKa2Mta3d5SWhOeEdmRVNWUEN6MDJueU5wUlcwQkxVNGUtS2w2bTlSWTRFekZqRF9EQXZUZkJDMTQzQTJvUkt2Rm42S2I0QVdfN0NIR002cUJhZVNUQWx3Z0lkckN3dUpLajQ4ZFd0WlFKcmtEa3hPZVhCcmZneXVtY0lrZHBpX0trdERCNXhaTThNZjUyc2NON0hHLVljSXkzZDRTeHdRb3doYlhsQ1AtMnFjSnczenRuV3ZoQnoxWjlIUQ",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEh3MWJ4Wnl1N2tWZ3g1OHVxSGJKa2Mta3d5SWhOeEdmRVNWUEN6MDJueU5wUlcwQkxVNGUtS2w2bTlSWTRFekZqRF9EQXZUZkJDMTQzQTJvUkt2Rm42S2I0QVdfN0NIR002cUJhZVNUQWx3Z0lkckN3dUpLajQ4ZFd0WlFKcmtEa3hPZVhCcmZneXVtY0lrZHBpX0trdERCNXhaTThNZjUyc2NON0hHLVljSXkzZDRTeHdRb3doYlhsQ1AtMnFjSnczenRuV3ZoQnoxWjlIUQ?oc=5",
         "category": "AFL",
-        "why_it_matters": "Full Round 12 wrap and Round 13 preview — useful for the weekend's games."
+        "why_it_matters": "Round 12 wrap and Round 13 preview — all the fixture info in one place."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "TTWO down 4.4% — monitor for further weakness",
-      "detail": "Take-Two's drop is driven by sentiment around GTA 6's cost and scope rather than hard news. If further negative commentary emerges this week, there's downside risk. No need to act today unless your position sizing concerns you.",
+      "title": "TTWO down 4.4% — GTA 6 risk building",
+      "detail": "Take-Two has dropped sharply and the narrative around GTA 6 being 'too big to succeed on schedule' is gaining traction. No earnings catalyst today, but worth deciding if your conviction holds at this price or if the risk/reward has shifted.",
       "urgency": "orange"
     },
     {
-      "title": "Labor's CGT + negative gearing package",
-      "detail": "Labor is tying income tax cuts to CGT and negative gearing reforms. If this gains traction, it's a material shift for property investors and could affect bank sentiment (CBA). Watch for Albanese government confirmation or denial this week.",
+      "title": "Labor's CGT/negative gearing reform proposal",
+      "detail": "Labor is reportedly linking personal tax cuts to CGT and negative gearing changes. If this progresses, it's a material shift for property investors and could pressure bank stocks including CBA. Early stages — watch for further detail this week.",
       "urgency": "orange"
     },
     {
-      "title": "Google's Gemini Omni launch is a tailwind for GOOGL",
-      "detail": "A major new multimodal AI product launch from Alphabet. Combined with strong recent earnings, this is a positive signal for the GOOGL position. No action needed but good context for holding.",
+      "title": "Google's Gemini Omni launch — positive for GOOGL thesis",
+      "detail": "Google shipped a new multimodal AI model today. Reinforces the AI product pipeline story even as the stock dipped. No action needed, but good confirmation of the long-term holding case.",
       "urgency": "green"
     },
     {
-      "title": "AUD rising despite falling RBA rate hike expectations",
-      "detail": "Your USD-denominated holdings (GOOGL, MSFT, TTWO) generate lower AUD returns when the dollar strengthens. AUD at 0.7174 and climbing — worth keeping in mind when assessing portfolio performance in local currency.",
+      "title": "RBA rate hike bets unwinding",
+      "detail": "Bond markets are pricing out RBA hikes. Good near-term tailwind for growth equities and your VDHG/VTS/VGE positions. Watch for any RBA commentary that pushes back on this narrative.",
       "urgency": "green"
     }
   ],
@@ -200,5 +194,5 @@
     "rain_mm": 6.1
   },
   "nrl_draw": [],
-  "generated_at_utc": "2026-05-25T13:39:41.408930+00:00"
+  "generated_at_utc": "2026-05-25T13:49:10.097617+00:00"
 }
