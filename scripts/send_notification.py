@@ -44,10 +44,11 @@ def send_push(headline: str) -> dict | None:
             continue
 
         body = resp.json() if resp.text else {}
-        # OneSignal returns 200 even when delivery is rejected — check for errors + recipients
+        # OneSignal returns 200 even when delivery is rejected — only treat as success
+        # if we got a notification id back AND there are no errors.
         if body.get("errors"):
             continue
-        if (body.get("recipients") or 0) > 0:
+        if body.get("id"):
             return body
 
     return last_response.json() if (last_response and last_response.text) else None
