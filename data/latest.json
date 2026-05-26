@@ -1,202 +1,189 @@
 {
-  "headline": "Take-Two Interactive got hammered last night while oil cratered 5%, but the ASX held up relatively well today — and Google just dropped a major new AI model called Gemini Omni.",
+  "headline": "Take-Two Interactive smashed last night after GTA 6 release fears, while Labor doubles down on linking tax cuts to property investor changes — a big week for Aussie politics and your portfolio.",
   "portfolio": {
-    "summary": "A quiet day on the ASX for your local holdings, with everything barely moving. The action was really last night on the US side — Take-Two Interactive (TTWO) was the big story, dropping 4.4%. GOOGL also slipped 1.2%. Your ASX-listed ETFs (VDHG, VGE, VTS, FUEL) all closed within a fraction of their previous prices, which is pretty much a non-event.",
+    "summary": "A pretty quiet day for ASX holdings — most barely moved at today's close. The action was mostly in US stocks last night, where Take-Two Interactive copped a serious hit, dropping over 4%. Google also slipped about 1.2%. Your ASX ETFs (VDHG, VTS, VGE, CBA, FUEL) were all flat to marginally lower, suggesting the local market is in a bit of a holding pattern.",
     "movers": [
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": -4.42,
-        "note": "Big drop last night — down 4.4% to $227.55. No specific earnings catalyst in the data, but GTA 6 collector's edition pre-order news is circulating, suggesting hype is building ahead of release. The drop may reflect broader market nerves or profit-taking after a strong run."
+        "note": "Dropped $10.53 last night to $227.55 USD — a sharp fall of over 4%. GTA 6 pre-order and release timeline speculation is swirling, and any uncertainty around that game (their biggest ever bet) tends to spook investors. Worth keeping a close eye on any official Rockstar announcements."
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet Inc. (Google)",
         "change_pct": -1.21,
-        "note": "Down 1.2% to $382.97 last night despite recent strong earnings. Google did just drop a major new AI model called Gemini Omni today — that could be a positive catalyst when US markets open tonight."
+        "note": "Slipped $4.69 last night to $382.97 USD. No major company-specific bad news — the broader tech mood was mixed. Google just announced a new AI model called Gemini Omni (more in the AI section), so the fundamentals story remains intact. The dip looks more like general market rotation than anything structural."
       },
       {
         "ticker": "FUEL.AX",
         "name": "BetaShares Global Energy Companies ETF",
         "change_pct": -0.9,
-        "note": "Down 0.9% at today's ASX close to $8.78. Oil (WTI crude) cratered 5% last night to $91.76 — that's the real pressure point here. OPEC also cut its global oil demand growth forecast for 2026, which isn't helping sentiment for energy stocks."
+        "note": "Fell about 0.9% today to $8.78. Crude oil (WTI) dropped nearly 5% last night to $91.82 USD a barrel — that's a big move for oil. OPEC also cut its global oil demand growth forecast for 2026, which adds more downward pressure on energy stocks. FUEL tracks global energy companies, so cheaper oil directly hurts the fund's value."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard FTSE Emerging Markets ETF",
-        "change_pct": 0.26,
-        "note": "The one bright spot today — up 0.26% to $92.62 at the ASX close. The Aussie dollar ticking up slightly (now 71.7 US cents) can sometimes help emerging market ETFs priced in AUD."
+        "change_pct": 0.25,
+        "note": "The one bright spot today — up a modest 0.25% to $92.61. The Aussie dollar ticked up slightly (now 71.7 US cents), which can sometimes dampen returns on overseas holdings, but emerging markets held up well regardless."
       },
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market Shares ETF",
-        "change_pct": -0.32,
-        "note": "Edged down 0.32% to $515.43 at today's close, tracking the mild softness in US markets from last night's session."
+        "change_pct": -0.27,
+        "note": "Edged down 0.27% to $515.68 today. The US S&P 500 and NASDAQ actually rose last night, but the AUD strengthened slightly, which reduces the value of US-denominated holdings when converted back to Aussie dollars."
       },
       {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": -0.12,
-        "note": "Essentially flat last night — down just 0.12% to $418.57. AI and cloud momentum continues to be the narrative, with analysts watching whether revenue growth can keep pace with the AI hype."
+        "ticker": "CBA.AX",
+        "name": "Commonwealth Bank of Australia",
+        "change_pct": -0.06,
+        "note": "Essentially flat — down just 10 cents to $164.50. Nothing to see here today, though the ongoing debate about RBA rate rises (see Politics) is always worth tracking for bank stocks."
       }
     ]
   },
   "markets": {
-    "summary": "Last night on Wall Street, both the S&P 500 and NASDAQ finished slightly positive — the S&P up 0.37% and the NASDAQ up 0.19%. The ASX 200 closed today down 0.42% at 8,655. The big mover was crude oil, which plunged 5% last night to $91.76 — that's a meaningful drop. Gold ticked up 0.35% to $4,537/oz. The Aussie dollar climbed to 71.7 US cents, up 0.22%.",
+    "summary": "US markets finished in the green last night — the S&P 500 up 0.37% and NASDAQ up 0.19% — a decent enough session. The ASX 200 gave back 0.43% today though, closing at 8,654. The big macro story is oil: WTI crude oil crashed nearly 5% last night to under $92 a barrel after OPEC trimmed its demand growth outlook. Gold continued its run higher, up 0.35% to $4,537 USD per ounce. The Aussie dollar is holding firm at 71.7 US cents, slightly stronger than yesterday.",
     "indicators": [
       {
         "name": "ASX 200",
-        "value": "8,655",
-        "change_pct": -0.42,
-        "note": "Today's close — mild selloff, nothing dramatic."
+        "value": "8,654",
+        "change_pct": -0.43,
+        "note": "Modest pullback today after recent gains."
       },
       {
         "name": "S&P 500",
         "value": "7,473",
         "change_pct": 0.37,
-        "note": "Last night's session — edged higher."
+        "note": "Last night's session — solid gains led by broad market buying."
       },
       {
         "name": "NASDAQ Composite",
         "value": "26,344",
         "change_pct": 0.19,
-        "note": "Last night's session — small gain despite some tech names slipping."
+        "note": "Last night — modest tech gains despite some individual stock weakness."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$91.76",
-        "change_pct": -5.01,
-        "note": "Last night — big drop. OPEC cut its demand forecast for 2026, pushing oil sharply lower."
+        "value": "$91.82 USD",
+        "change_pct": -4.95,
+        "note": "Big drop last night — OPEC cut its 2026 demand forecast, sending oil sharply lower."
       },
       {
         "name": "Gold",
-        "value": "$4,537",
+        "value": "$4,537 USD/oz",
         "change_pct": 0.35,
-        "note": "Last night — nudged higher, continues to hold elevated levels."
+        "note": "Continues its strong run — investors still seeking safe havens."
       },
       {
         "name": "AUD/USD",
-        "value": "0.7173",
-        "change_pct": 0.22,
-        "note": "Aussie dollar rising even as RBA rate hike odds are fading — traders seem more focused on global risk appetite."
+        "value": "0.7171",
+        "change_pct": 0.19,
+        "note": "Aussie dollar ticking up despite cooling RBA rate hike expectations — global risk appetite is supportive."
       }
     ]
   },
   "politics": {
-    "summary": "The big domestic story today is Labor pushing ahead with a package that links new tax cuts for middle-income earners to changes in how property investors get tax breaks. The RBA rate debate is also heating up, with one expert loudly calling for hikes while markets are actually pricing in fewer rises.",
+    "summary": "It's a big week for economic policy in Australia. Labor is pressing ahead with a plan to link popular income tax cuts to changes affecting property investors, and there's fresh debate about whether the RBA should actually be raising interest rates rather than cutting them. These stories matter directly for your mortgage, investments, and tax bill.",
     "stories": [
       {
-        "title": "Labor ties popular tax cuts to CGT and negative gearing changes",
+        "title": "Labor ties income tax cuts to CGT and negative gearing changes",
         "source": "AFR",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0xTdUdGa1czOHVNQ0NXVEYydGFxTkpoOXRsdkx6TUNFZm5BUHpVTnNBb0FIVVFUQjVHcmoxUVRPMm0yOHBBTXAzTjdNSWpYWUhYeEN6aGpnd1FENHoyYVVwWkdweWlrRXBWeGc4ZG1sMWx0SGh0WW9KckN1Mk5yUUN0Q1o1SHJQOFl3SjNFdDBOVUxRckNCbzVvUVlBTl9zNDBaVXdENUd1Wkdxa2F3?oc=5",
-        "why_it_matters": "Labor is linking new income tax cuts — aimed at Australians earning under $135,000 — to changes in two major property investment tax perks: the CGT (capital gains tax) discount and negative gearing. Currently, if you sell an investment property you've held over 12 months, you only pay tax on half the profit (the 50% CGT discount). Labor wants to reduce that discount. Negative gearing — where you claim losses on an investment property against your regular income — would also be tightened on existing properties. If you're a property investor, this one hits you directly. The ABC reports Labor is ignoring calls to pause on these changes and is pressing ahead despite pushback."
+        "why_it_matters": "Labor wants to deliver income tax cuts but is tying them to two controversial changes: reducing the capital gains tax (CGT) discount — that's the 50% tax break investors currently get when they sell an asset they've held over a year, which Labor wants to cut — and tightening negative gearing rules on existing investment properties (negative gearing lets landlords deduct rental losses against their income tax). If you own investment property, this hits you directly. The ABC reports Labor is ignoring calls to pause these CGT changes, signalling they're pressing ahead regardless of industry pushback."
       },
       {
-        "title": "Labor to ignore call for pause on CGT changes",
-        "source": "Australian Broadcasting Corporation",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObERONl9XelZYVnVoOXZ0LTFsT2ZmcjhZM0p1NHh1b2ljdWQxSl9zUVFWdmVzTnJtd3cteEFWVlB6RnV0MFVuWF9ORlZYRXBySlQzSkJoVE5uRWJoVmRIdkduRVZJQmtLSFBfVnFrd0ZCOUI1WXFaUnJOVEJNTkhLamJwLXFFeHc0ZFh1UG1Ka18xX2VrMmlSQVAzV045UExQZHB3MnhjUklaX3BxRi00?oc=5",
-        "why_it_matters": "Despite industry calls to slow down and consult further, the Labor government is pushing full steam ahead with its CGT and negative gearing changes. This means property investors and anyone holding assets with large capital gains (like shares) should pay close attention — these changes could be moving faster than expected. No date confirmed yet, but the political momentum is clearly in one direction."
-      },
-      {
-        "title": "'Get on with it': Expert defies consensus and demands RBA hikes rates",
+        "title": "Expert breaks from consensus and calls for RBA to hike rates",
         "source": "Sky News Australia",
         "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNZkstSzh1LUhTTjdLRnlobllzVmZWV1lZYlB6bFBWdGs3akJsaGM3T0hUbDl0ZFF1eVNzOUtqZ0tUVXZmUjlOMHhSdUlnd3l2R1g4ZW00aTlURE9zanFKb0pFT3ZRbkY2RU5WejZaWHhISUlEdjJaZkpRQjVkSnpiQmQ1YWxHcGhfM18zemF4S1FDTm5tY0FRdEU4cGFNdjZKS0YyVEVhZWg0QjVDb2laalplek0wRXNGOUh4cEtaY2d6TkYwblFfQU45OEJoWW1hV3ZmU1JNbzFWZi1vRnlpSkxwQ3lmbVJlTEhrU1JMVzRFOW1td1FLSGJOY2pLYUZRUzhSaWxjN3NUVXpteTRxTlhBSVZvMU14V3fSAZ8CQVVfeXFMTmxZVmVhMy1NcktnZ1U1bTA5N3BsOHo5OUZqV0ZNS3pIeWlXSzlmbG5RdF9LRG9ES1YxaU9KT0J4N0N1d0RyMnlmVG5BWTBFWnFPR2xVdkZoUzJWRWlORmxiV2EzRTBJRGR0allydk9jQ2ItQ28yUVhndDI3VV9CSklMcXJ6aVh6Zm9HU285dTZrZkxQdE1QZkIxYl82Z05QVThjdXpNT1dqSnh4N0tzNTVzY3Rlc3FUS21adHdIZGE0Q3B3ODdZeGtyZGEwQ21DdDl0S0VtWU5OeGV2d2QyclNQMTFVcjZlZ09jQUlJMEhVRDZ0SVB3NkFTblA2czNMNnU2Q05LX2ZnZzEta0ptUVhSZXFHcG1nRjdRNnNCczQ?oc=5",
-        "why_it_matters": "One prominent economist is going against the grain and calling on the RBA (Reserve Bank of Australia — the body that sets interest rates) to keep raising rates to fight inflation. But the broader market consensus has shifted the other way: traders are now betting the RBA won't hike as aggressively as previously thought. This has caused a rush of buying in Australian government bonds (essentially people lending money to the government), which drives bond prices up and yields — the interest rate the government pays — down. For you as an investor, softer rate expectations generally support growth assets like shares."
+        "why_it_matters": "While most economists expect the RBA (Reserve Bank of Australia) to be done with rate hikes, at least one expert is publicly calling for more increases. Meanwhile, bond markets are actually moving the other way — the AFR reports that fears of government debt and rate hike bets are unwinding, meaning investors are buying Australian government bonds again (which happens when people expect rates to fall or stay steady). For mortgage holders, this is a mixed signal — the mainstream view is rates are close to their peak, but not everyone agrees."
       },
       {
-        "title": "Why is the Australian Dollar rising despite weakening RBA rate hike odds?",
+        "title": "Why is the Aussie dollar rising despite cooling rate hike expectations?",
         "source": "FXStreet",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU24xVm9MbE9nZEtsUFlFSkY2YzhIMFI4UmV4NXp5MTJ1QTI4OHVWUWlrcjN6NzRpYk12SHcwMlM2SlFvMkwxRllTS2RnZlJtRHBObFczdXVFdUdtM0xHM3VFOS1qaWJfWG13eTIybjlxaDVFekV6Wi1hcl9PU1pQR3QyN3BfTjcxNzBGOURHVDZqd0ZyVzUwR2VQMFcwYWlYNDJLRGhFR2VHQTZRODNFTkk5VUhnYnlPZmF1TkJiMzIzRlh2bm40Sg?oc=5",
-        "why_it_matters": "Normally, when people expect the RBA to raise rates less, the Aussie dollar falls (because higher rates attract foreign money, boosting the currency). But the AUD actually rose today to 71.7 US cents — an apparent contradiction. The likely reason is broader global risk appetite improving, with investors feeling more comfortable and buying into higher-yielding currencies like the AUD regardless of the domestic rate outlook. A stronger AUD is good news if you're buying imported goods, but it does slightly reduce the Aussie-dollar value of your US-denominated holdings (GOOGL, MSFT, TTWO)."
+        "why_it_matters": "Normally, if the RBA looks less likely to raise rates, the Aussie dollar would fall (because lower rates make Australian savings less attractive to foreign investors). But the AUD is actually rising right now — sitting at 71.7 US cents. The reason appears to be global: the US dollar is weakening broadly, which lifts most other currencies including the Aussie, regardless of what the RBA is doing. For your US-listed holdings (GOOGL, MSFT, TTWO), a stronger AUD means their value in Australian dollar terms is slightly reduced."
       }
     ]
   },
   "ai": {
-    "summary": "The big AI story today is Google's launch of Gemini Omni — a brand new, more powerful AI model. Meanwhile, the Pope has released a major document calling for global AI regulation, warning that some autonomous weapons are already beyond meaningful human control. Both stories have real implications.",
+    "summary": "The big AI story today is Google dropping a brand new model called Gemini Omni — worth paying attention to as a GOOGL holder. Separately, Pope Leo has released a major document calling for strict global AI regulation, which is making waves as a signal that pressure on governments to rein in AI (and autonomous weapons in particular) is building from unexpected directions.",
     "stories": [
       {
-        "title": "Google launches Gemini Omni",
+        "title": "Google launches Gemini Omni — a new all-in-one AI model",
         "source": "blog.google",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWlaMUVtdkx6SklzdmNOYnZibDJSak96Mi0zZXhoUVdsamQ2M1VIeEUtcTdWVVJrV09PcTRPWVFCQzlzSW5RUzM1Ui1FRmJtR1N2aVNkeWtEM192TDcxUFhxNGN5MGhpYjk0aEJJdWJrcDlUNG1mQ2xodS1YNXEtVUxPSnpWNGVjZlpwXw?oc=5",
-        "why_it_matters": "Google has just announced Gemini Omni, the latest addition to its Gemini AI family. The 'Omni' branding typically signals a model that can handle text, images, audio and video all in one — so think of it as a single AI that can see, hear and read simultaneously rather than needing separate tools. This is directly relevant to your GOOGL holding: Google is staying firmly in the AI race and this announcement could be a positive catalyst when US markets open tonight, potentially helping offset yesterday's 1.2% price dip."
+        "why_it_matters": "Google has announced Gemini Omni, described as a multimodal model — meaning it can handle text, images, audio, and video all in one go, rather than being limited to just one type of input. Details from the blog post are limited at this stage, but this is Google's direct answer to OpenAI's GPT-4o and signals they're continuing to invest heavily in AI capability. As a GOOGL shareholder, AI momentum is a core part of the bull case for Alphabet — this keeps them in the race."
       },
       {
-        "title": "Pope Leo calls for robust global AI regulation and warns autonomous weapons are ungovernable",
+        "title": "Pope Leo calls for tough global AI regulation and warns autonomous weapons are ungovernable",
         "source": "AP News",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVjMxWVlpUUhJb1JjYnFPRXpkeE1qaTc3aDNQQXltRWZYNmo4T1dmN095X3R6bDY5NmkxdHBwTERrNkg1ajFIZDFZR09VQzd6a2oyalZTM2tkcjRwMFVyXzM5RUhkZWNQQ216cExQbkI1OGN0RS1CazVJV1dvTV9aYUt2cVVsc3Z6LVJDanZySTdMOHdEWmlIVTI4VVI?oc=5",
-        "why_it_matters": "Pope Leo has published what's being described as a manifesto on AI and humanity's future. The key warnings: some autonomous weapons systems (think AI-guided drones or missiles) have already reached a point where humans can't meaningfully intervene once they're deployed. The Pope is calling on world governments to establish binding international regulation — not voluntary guidelines — for AI development. This isn't just a moral statement; if major economies respond with legislation, it could significantly affect how companies like Google and Microsoft develop and deploy AI products. Something to watch as the regulatory conversation intensifies globally."
+        "why_it_matters": "Pope Leo has published what's being described as a major manifesto on AI and humanity's future, calling for robust international regulation of artificial intelligence and specifically flagging that some autonomous weapons (AI-powered military systems that can make kill decisions without human input) have already reached a point where they're impossible for humans to meaningfully control. This is significant not because the Pope makes policy, but because it adds heavyweight moral authority to growing calls — from governments, academics, and now religious leaders — for binding global AI rules. Regulatory risk is one of the key uncertainties hanging over big AI investors like Google and Microsoft."
       },
       {
-        "title": "Data Privacy and AI Progress — the growing tension",
+        "title": "Data privacy versus AI progress — the regulatory tightrope",
         "source": "The Regulatory Review",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeFY2VVdXa2Z4b2FjX3JCZ3M3cWp5aGFUNUg3bUdsbmc5b05LWjlFeEtzUGM4aGZRNmRtVGFTUEw5ZG4tY0RGSzkxUllzWnFyZHM2Ml9aeGt3RTBoODg5QWI2dThaRmZnRzV4dE5ZQ2M4TVJOdkhJc1lpMThGUVF3UHY1bll0ZjBLWkdIdA?oc=5",
-        "why_it_matters": "A regulatory analysis piece out today explores the fundamental tension between feeding AI models more data (which makes them smarter) and protecting individual privacy. The core issue: the better AI gets, the more data it tends to need — but stricter privacy rules limit what data companies can use. For investors in GOOGL and MSFT, this regulatory tug-of-war is a long-running background risk that could slow AI development timelines or increase compliance costs if governments tighten the rules."
+        "why_it_matters": "A policy analysis piece exploring the tension between protecting personal data and allowing AI companies to train and improve their models. The core dilemma: AI gets better the more data it can access, but stricter privacy laws limit that access. No article text available for specific details, but this is the regulatory debate that will shape how companies like Google and Microsoft can operate in Europe and increasingly in Australia over the next few years."
       }
     ]
   },
   "sport": {
-    "summary": "NRL Round 13 team news is dropping with some significant injury and suspension news. AFL is mourning the death of Neale Daniher, one of the game's most beloved figures. And a World Surf League event in New Zealand was halted after an Australian photographer was bitten — possibly by a shark.",
+    "summary": "The AFL world is in mourning today after the passing of Neale Daniher, one of the game's most beloved figures. In NRL, Round 13 injury news is rolling in ahead of this week's games, with the Warriors and Tigers both taking hits. And a World Surf League event in New Zealand was suspended after an Australian photographer was bitten — possibly by a shark.",
     "stories": [
       {
-        "title": "Neale Daniher passes away — AFL mourns a giant of the game",
+        "title": "Neale Daniher passes away — AFL legend and MND advocate remembered",
         "source": "afl.com.au",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUTFQdE5zZTl5cXNfVmk4VHFWMF9mcjh6S0dyV3JvYWp6endEdzVNeDJJWkE3ZGhTRlNuQU9Ld2s5OWlodVlaZmhtLXZHa3loSzV3X0xfREVremlrTUVBRGIwN1hNUHVqcHJuV0Z0Y2RmcXBid19kVGZaRmJxV3NSTzdVWWdvTXhaTWs5dlJVOENNd1h3dDF4bTlhYXpGWE9JUmJiOGtvRlJ5cmQ2Z3RERmZSM2ZkOUNzb3c?oc=5",
         "category": "AFL",
-        "why_it_matters": "Neale Daniher, the former Melbourne Demons coach and long-time Motor Neurone Disease (MND) awareness campaigner, has passed away. Daniher coached Melbourne from 1998 to 2007 and was diagnosed with MND in 2013. He became one of the most respected figures in Australian sport — not just for football but for his extraordinary courage and fundraising work, helping raise tens of millions of dollars for MND research through the Big Freeze event at the MCG. Garry Lyon and the broader AFL world are paying tribute today, and Lyon has called on PM Anthony Albanese to take action on MND funding in Daniher's honour."
+        "why_it_matters": "Neale Daniher, the former Melbourne Demons coach who became famous for his decade-long battle with MND (motor neurone disease) and his tireless fundraising through the Fight MND campaign, has passed away. He raised tens of millions of dollars for MND research and was one of the most respected figures in Australian sport. Garry Lyon led tributes today and has called on Prime Minister Anthony Albanese to honour Daniher's legacy with meaningful support for MND research funding. A genuinely sad day for footy fans."
       },
       {
-        "title": "NRL Round 13 team tips: Warriors and Tigers cop major injury blows",
+        "title": "NRL Round 13: Warriors and Tigers both hit by injury ahead of the week's games",
         "source": "Nine.com.au",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT0JYY3dEejZJN21hb0RvTE90Y0QzRDQtOVVNMGxsTF9hODM2ckV2Tk9vVmhKellrZ1htX1RfbDlhT2JEbTFsMWhxcld2TWRSdEhQaFRfdDlPdlJpX3pZajBxSDNieV9URDdtRkZwemZYNUFOdnVta1RPeEpvc2NPZlVodERIRmdhZnFaNkc5cWdzYzkxdnBvbG9xTTlQMkNaMlNTTGV1MnotT0JXOGZaZm5HU3MwZkUtMUloNUxB0gF3QVVfeXFMTnAxUnZneXRTeExkdHBUcV8tcTVpYmoxVnZoM0NlSE8tSnFXc1ZyZ2FjTlplM3B1QVl2YkRXdExYdHdyVl9PMFJaUUtKb3JRZkkxNFZ4NE01NFFQTFYzMzJISHNqMTYtMy04WkdIUjY2UjhETG5YNnc?oc=5",
         "category": "NRL",
-        "why_it_matters": "Heading into Round 13, both the Warriors and Tigers have been hit hard by injury. Fox Sports reports that one Warriors hero has confirmed his season is over ('that's my footy done'), while there's also a late twist around Isaah Yeo and Origin selections creating uncertainty across multiple squads. The Tigers are also without key players. There's mystery surrounding several State of Origin stars and whether they'll feature for their clubs this weekend. Check the full team lists before locking in your NRL Fantasy lineup."
+        "why_it_matters": "Heading into Round 13, both the Warriors and Tigers are dealing with significant injury concerns. Fox Sports reports a Warriors hero has confirmed his season is over ('That's my footy done'), while there's also a twist involving Moses. The Tigers are also short on troops. Mystery surrounds which State of Origin stars will be released back to their clubs in time to play. Check the app for the full draw — the Titans play Sea Eagles on Saturday night."
       },
       {
-        "title": "World Surf League event halted in New Zealand after photographer bitten by 'shark or sea lion'",
+        "title": "World Surf League event in New Zealand suspended after Australian photographer bitten by suspected shark",
         "source": "The Guardian",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeC1ubHhxNXZFUjY4ZGJBUDhRekNWcXBxbzhLNVlHaXFpSWw3UGZmWUgxcGZid2lfSS16eU9iWFIwZDMzaURUODZUWjc4SG1UbFZEYXJNNzdmMnh2eE9ZbUZqVzFuaEMzQnY3Z1NVRENsTW10Sm4zUldBMmxRbnJWaEpBUmpaMzA2cmFGaGp3VWsyOUVKTlVzM3lZRU44cEh2WUJpazVXT04?oc=5",
         "category": "Surfing",
-        "why_it_matters": "A World Surf League competition in New Zealand was put on hold after an Australian photographer was bitten while in the water. Authorities haven't confirmed whether it was a shark or a sea lion, but the WSL suspended the event as a precaution while investigations are underway. No life-threatening injuries reported, but it's a significant disruption to the contest. The incident is a reminder of the real risks for water sports professionals and will likely prompt a safety review before competition resumes."
-      },
-      {
-        "title": "AFL's Lions slaughter exposes the competition's biggest structural problem",
-        "source": "Fox Sports",
-        "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNSjdwLVZ3cFY5X3EyWWN0aDhCNUpKZTYzdmI2N0NQUFRBNzNZR1FYNEJtZHNCeDQyNURicF83bWdvT0xOcUNqeUFvTlZ4aHZJTzluSmh4LTFyTmlsUVNrck8zN2RTdlhxMThWbUVPVVVPdFg4aWs0cHVZRHhaN0dLSTVZRE1hQnVTLUZmb1JVNl9rR1J3bm5IUEtxM0JFbWozZzQxc0dDQlZGbkdBa3g2aG5DbXpQX0Y3dDdLMUlZaGM0SC1oRmh5ZC0yYk96SUUtUHptTTIxU2ExX1pNaDlhd1B1UjQ2RVg0c3k5TE12NFUyQmJITlpaYnhZNXRTb2h2WW0zaDRwYllVVUZmSklBaUcyeVBVZWFZOVR1cm9uVjFCeEVOVFVLTGlXazFEaks1MXVWbFptU1JXOWpyVldULVRnTllSR2ppbEVCZHlyUDdZSzV6cm1zYXAxcldrT2UxYWlCZUNGbHJJTFBWOVQtR1ZEUmN1b2ZX0gH4AkFVX3lxTE1KN3AtVndwVjlfcTJZY3RoOEI1SkplNjN2YjY3Q1BQVEE3M1lHUVg0Qm1kc0J4NDI1RGJwXzdtZ29PTE5xQ2p5QW9OVnhodklPOW5KaHgtMXJOaWxRU2tyTzM3ZFN2WHExOFZtRU9VVU90WDhpazRwdVlEeFo3R0tJNVlETWFCdVMtRmZvUlU2X2tHUndubkhQS3EzQkVtajNnNDFzR0NCVkZuR0FreDZobkNtelBfRjd0N0sxSVloYzRILWhGaHlkLTJiT3pJRS1Qem1NMjFTYTFfWk1oOWF3UHVSNDZFWDRzeTlMTXY0VTJCYkhOWlpieFk1dFNvaHZZbTNoNHBiWVVVRmZKSUFpRzJ5UFVlYVk5VHVyb25WMUJ4RU5UVUtMaVdrMURqSzUxdVZsWm1TUlc5anJWV1QtVGdOWVJHamlsRUJkeXJQN1lLNXpybXNhcDFyV2tPZTFhaUJlQ0ZscklMUFY5VC1HVkRSY3VvZlc?oc=5",
-        "category": "AFL",
-        "why_it_matters": "Fox Sports columnist Healy has used Brisbane Lions' recent dominant victory as a springboard to call out what he describes as a 'farce' in how AFL handles competition balance — specifically the draft and salary cap system allowing powerhouse clubs to run roughshod over the competition. The piece argues there's one remaining lever the AFL can pull to address the imbalance, though it stops short of a full fix. Good context for anyone following the competition this season."
+        "why_it_matters": "A World Surf League competition in New Zealand was put on hold after an Australian photographer was bitten while in the water — with authorities unsure whether it was a shark or a sea lion. The photographer was treated for injuries. The event was suspended as a precaution while the incident was investigated. No competitors were involved, but it's a dramatic interruption to the WSL tour."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "GOOGL: Gemini Omni launch could reverse yesterday's dip tonight",
-      "ticker": "GOOGL",
-      "action": "hold",
-      "detail": "Google dropped 1.2% last night but has just launched Gemini Omni — a powerful new multimodal AI model (meaning it can handle text, images, audio and video together). This is a meaningful product announcement that could lift sentiment when US markets open tonight around 11:30 PM AEST. Hold and watch tonight's open.",
-      "urgency": "orange"
-    },
-    {
-      "title": "TTWO: Sharp 4.4% drop — worth monitoring for a bounce",
+      "title": "TTWO: Hold but watch closely — GTA 6 uncertainty is the risk",
       "ticker": "TTWO",
       "action": "hold",
-      "detail": "Take-Two fell 4.4% to $227.55 last night with no clear single catalyst in the news. GTA 6 pre-order buzz is building (collector's editions incoming), which is a medium-term positive. Unless you see further deterioration tonight, this looks like noise rather than a structural problem. Hold for now.",
+      "detail": "Take-Two dropped over 4% last night — that's a $10+ per share move in one session. The GTA 6 release is the company's entire story right now, and any hint of delay or pre-order news creates big swings. No bad fundamental news today, but this kind of volatility is worth watching. If you're uncomfortable with the ride, it's worth thinking about your position size. Hold for now unless an official delay is announced.",
       "urgency": "orange"
     },
     {
-      "title": "FUEL.AX: Oil down 5% — energy ETF under pressure",
+      "title": "FUEL.AX: Hold — but oil's 5% drop overnight is a real headwind",
       "ticker": "FUEL.AX",
       "action": "hold",
-      "detail": "WTI crude oil crashed 5% last night to $91.76, and OPEC just cut its global oil demand growth forecast for 2026. FUEL.AX only fell 0.9% today which is actually pretty resilient, but if oil stays weak this week there could be more downside to come. Nothing to panic about, but keep an eye on the oil price.",
+      "detail": "Crude oil (WTI) fell nearly 5% last night to under $92 a barrel after OPEC cut its 2026 demand growth forecast. FUEL tracks global energy companies, so this directly drags on the fund. No need to panic — oil prices are still elevated historically — but if the oil price continues falling, expect FUEL to follow. Keep an eye on WTI crude this week.",
       "urgency": "orange"
     },
     {
-      "title": "Labor's CGT and negative gearing changes — act if you hold investment properties",
-      "detail": "Labor is pushing ahead with plans to reduce the CGT (capital gains tax) discount — currently you only pay tax on 50% of the profit from selling an asset held over 12 months — and to tighten negative gearing rules on existing properties. These changes are moving faster than expected. If you hold investment properties or are planning to sell assets with large capital gains, it's worth talking to your accountant sooner rather than later.",
-      "urgency": "red"
+      "title": "Labor's CGT and negative gearing changes — know what's coming",
+      "detail": "If you own investment property or assets with large capital gains (shares held a long time), Labor's proposed changes — cutting the CGT discount and tightening negative gearing on existing properties — matter to you. No legislation has passed yet, but Labor is signalling they're not backing down. Worth reviewing your tax position with your accountant before any changes are locked in.",
+      "urgency": "orange"
     },
     {
-      "title": "RBA rate outlook softening — good for growth assets",
-      "detail": "Markets are increasingly pricing in fewer RBA rate hikes, which is generally a tailwind for shares and property. Your VDHG and VTS holdings benefit from a lower-rate environment. Nothing to act on today, but the macro wind is shifting in a supportive direction for your portfolio.",
+      "title": "GOOGL: Gemini Omni launch is a green flag for the AI story",
+      "ticker": "GOOGL",
+      "action": "hold",
+      "detail": "Google dropped Gemini Omni today — a new all-in-one AI model handling text, images, audio and video. GOOGL dipped 1.2% last night but that looks like general market noise rather than anything company-specific. The AI momentum story remains intact. Hold confidently.",
+      "urgency": "green"
+    },
+    {
+      "title": "AUD strengthening — watch the impact on your US holdings",
+      "detail": "The Aussie dollar is up to 71.7 US cents and trending higher. A stronger AUD reduces the value of your US-listed holdings (GOOGL, MSFT, TTWO) and your VTS.AX ETF when converted back to Australian dollars. Nothing to act on today, but something to be aware of if the trend continues.",
       "urgency": "green"
     }
   ],
@@ -204,7 +191,7 @@
     "location": "Gold Coast",
     "icon": "☁️",
     "condition": "Overcast",
-    "temperature_c": 21.9,
+    "temperature_c": 21.6,
     "high_c": 22.2,
     "low_c": 18.8,
     "rain_chance_pct": 98,
@@ -220,18 +207,330 @@
   },
   "nrl_draw": [
     {
-      "home": "Bethlehem Steel",
-      "away": "New York RB II",
+      "home": "Raiders",
+      "away": "Dolphins",
       "home_badge": "",
       "away_badge": "",
-      "home_score": 1,
-      "away_score": 5,
-      "completed": true,
-      "day": "Thu 23 Jul",
-      "time": "10:36 am",
-      "venue": "Subaru Park",
-      "datetime_iso": "2020-07-23T10:36:00+10:00"
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Thu 21 May",
+      "time": "7:50 pm",
+      "venue": "GIO Stadium",
+      "datetime_iso": "2026-05-21T19:50:00+10:00"
+    },
+    {
+      "home": "Bulldogs",
+      "away": "Storm",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Fri 22 May",
+      "time": "8:00 pm",
+      "venue": "Accor Stadium",
+      "datetime_iso": "2026-05-22T20:00:00+10:00"
+    },
+    {
+      "home": "Dragons",
+      "away": "Warriors",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 23 May",
+      "time": "5:30 pm",
+      "venue": "Netstrata Jubilee Stadium",
+      "datetime_iso": "2026-05-23T17:30:00+10:00"
+    },
+    {
+      "home": "Sea Eagles",
+      "away": "Titans",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 23 May",
+      "time": "7:30 pm",
+      "venue": "4 Pines Park",
+      "datetime_iso": "2026-05-23T19:30:00+10:00"
+    },
+    {
+      "home": "Cowboys",
+      "away": "Rabbitohs",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sun 24 May",
+      "time": "4:05 pm",
+      "venue": "Qld Country Bank Stadium",
+      "datetime_iso": "2026-05-24T16:05:00+10:00"
+    },
+    {
+      "home": "Sharks",
+      "away": "Sea Eagles",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Fri 29 May",
+      "time": "8:00 pm",
+      "venue": "Sharks Stadium",
+      "datetime_iso": "2026-05-29T20:00:00+10:00"
+    },
+    {
+      "home": "Knights",
+      "away": "Eels",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 30 May",
+      "time": "3:00 pm",
+      "venue": "McDonald Jones Stadium",
+      "datetime_iso": "2026-05-30T15:00:00+10:00"
+    },
+    {
+      "home": "Tigers",
+      "away": "Bulldogs",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 30 May",
+      "time": "5:30 pm",
+      "venue": "Commbank Stadium",
+      "datetime_iso": "2026-05-30T17:30:00+10:00"
+    },
+    {
+      "home": "Storm",
+      "away": "Roosters",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 30 May",
+      "time": "7:30 pm",
+      "venue": "AAMI Park",
+      "datetime_iso": "2026-05-30T19:30:00+10:00"
+    },
+    {
+      "home": "Broncos",
+      "away": "Dragons",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sun 31 May",
+      "time": "2:00 pm",
+      "venue": "Suncorp Stadium",
+      "datetime_iso": "2026-05-31T14:00:00+10:00"
+    },
+    {
+      "home": "Raiders",
+      "away": "Cowboys",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sun 31 May",
+      "time": "4:05 pm",
+      "venue": "GIO Stadium",
+      "datetime_iso": "2026-05-31T16:05:00+10:00"
+    },
+    {
+      "home": "Panthers",
+      "away": "Warriors",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sun 31 May",
+      "time": "6:15 pm",
+      "venue": "Commbank Stadium",
+      "datetime_iso": "2026-05-31T18:15:00+10:00"
+    },
+    {
+      "home": "Sea Eagles",
+      "away": "Rabbitohs",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Thu 04 Jun",
+      "time": "7:50 pm",
+      "venue": "4 Pines Park",
+      "datetime_iso": "2026-06-04T19:50:00+10:00"
+    },
+    {
+      "home": "Storm",
+      "away": "Knights",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Fri 05 Jun",
+      "time": "6:00 pm",
+      "venue": "AAMI Park",
+      "datetime_iso": "2026-06-05T18:00:00+10:00"
+    },
+    {
+      "home": "Raiders",
+      "away": "Roosters",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Fri 05 Jun",
+      "time": "8:00 pm",
+      "venue": "GIO Stadium",
+      "datetime_iso": "2026-06-05T20:00:00+10:00"
+    },
+    {
+      "home": "Cowboys",
+      "away": "Dolphins",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 06 Jun",
+      "time": "5:30 pm",
+      "venue": "Qld Country Bank Stadium",
+      "datetime_iso": "2026-06-06T17:30:00+10:00"
+    },
+    {
+      "home": "Broncos",
+      "away": "Titans",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 06 Jun",
+      "time": "7:30 pm",
+      "venue": "Suncorp Stadium",
+      "datetime_iso": "2026-06-06T19:30:00+10:00"
+    },
+    {
+      "home": "Tigers",
+      "away": "Panthers",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sun 07 Jun",
+      "time": "2:00 pm",
+      "venue": "Commbank Stadium",
+      "datetime_iso": "2026-06-07T14:00:00+10:00"
+    },
+    {
+      "home": "Sharks",
+      "away": "Dragons",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sun 07 Jun",
+      "time": "4:05 pm",
+      "venue": "Sharks Stadium",
+      "datetime_iso": "2026-06-07T16:05:00+10:00"
+    },
+    {
+      "home": "Bulldogs",
+      "away": "Eels",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Mon 08 Jun",
+      "time": "4:05 pm",
+      "venue": "Accor Stadium",
+      "datetime_iso": "2026-06-08T16:05:00+10:00"
+    },
+    {
+      "home": "Rabbitohs",
+      "away": "Broncos",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Thu 11 Jun",
+      "time": "7:50 pm",
+      "venue": "Accor Stadium",
+      "datetime_iso": "2026-06-11T19:50:00+10:00"
+    },
+    {
+      "home": "Dolphins",
+      "away": "Roosters",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Fri 12 Jun",
+      "time": "8:00 pm",
+      "venue": "Suncorp Stadium",
+      "datetime_iso": "2026-06-12T20:00:00+10:00"
+    },
+    {
+      "home": "Warriors",
+      "away": "Sharks",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 13 Jun",
+      "time": "5:30 pm",
+      "venue": "Go Media Stadium",
+      "datetime_iso": "2026-06-13T17:30:00+10:00"
+    },
+    {
+      "home": "Eels",
+      "away": "Raiders",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sat 13 Jun",
+      "time": "7:30 pm",
+      "venue": "Commbank Stadium",
+      "datetime_iso": "2026-06-13T19:30:00+10:00"
+    },
+    {
+      "home": "Tigers",
+      "away": "Titans",
+      "home_badge": "",
+      "away_badge": "",
+      "home_score": null,
+      "away_score": null,
+      "completed": false,
+      "day": "Sun 14 Jun",
+      "time": "4:05 pm",
+      "venue": "Leichhardt Oval",
+      "datetime_iso": "2026-06-14T16:05:00+10:00"
     }
   ],
-  "generated_at_utc": "2026-05-26T04:24:06.139473+00:00"
+  "generated_at_utc": "2026-05-26T04:34:06.216131+00:00"
 }
