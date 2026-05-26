@@ -1,9 +1,15 @@
 name: Daily Digest
 
 on:
-  # 22:00 UTC = 08:00 AEST (Brisbane, no DST)
+  # Brisbane is UTC+10 year-round. 22:xx UTC = 08:xx AEST.
+  # We schedule at multiple off-minute times because GitHub Actions notoriously
+  # delays or skips scheduled runs at the top of the hour (high contention).
+  # The script is idempotent — only the first successful run of the day generates.
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "5 22 * * *"   # ~8:05 AM AEST primary
+    - cron: "25 22 * * *"  # ~8:25 AM AEST fallback 1
+    - cron: "47 22 * * *"  # ~8:47 AM AEST fallback 2
+    - cron: "15 23 * * *"  # ~9:15 AM AEST fallback 3 (deep fallback)
   workflow_dispatch:
 
 permissions:
@@ -37,6 +43,8 @@ jobs:
           ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
           ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
           PWA_URL: ${{ vars.PWA_URL }}
+          # Manual triggers always force regeneration; scheduled fallbacks respect idempotency.
+          FORCE_GENERATE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
         run: python scripts/generate_digest.py
 
       - name: Commit updated digest
@@ -47,6 +55,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No digest changes to commit."
           else
-            git commit -m "chore: daily digest $(date -u +%Y-%m-%d)"
+            git commit -m "chore: daily digest $(TZ=Australia/Brisbane date +%Y-%m-%d)"
             git push
           fi

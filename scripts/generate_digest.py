@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -17,8 +19,32 @@ from fetch_weather import fetch_weather  # noqa: E402
 from send_notification import send_push  # noqa: E402
 
 
+BRISBANE = ZoneInfo("Australia/Brisbane")
+
+
 def _load_json(path: Path) -> dict:
     return json.loads(path.read_text())
+
+
+def already_generated_today() -> bool:
+    """True if data/latest.json was generated today (Brisbane local date)."""
+    latest = ROOT / "data" / "latest.json"
+    if not latest.exists():
+        return False
+    try:
+        data = json.loads(latest.read_text())
+        generated_iso = data.get("generated_at_utc")
+        if not generated_iso:
+            return False
+        # tolerate both ...+00:00 and ...Z
+        normalized = generated_iso.replace("Z", "+00:00")
+        generated_utc = datetime.fromisoformat(normalized)
+        generated_bne = generated_utc.astimezone(BRISBANE).date()
+        today_bne = datetime.now(timezone.utc).astimezone(BRISBANE).date()
+        return generated_bne == today_bne
+    except Exception as e:
+        print(f"[digest] idempotency check failed (will regenerate): {e}")
+        return False
 
 
 def gather_raw_data() -> dict:
@@ -64,6 +90,10 @@ def gather_raw_data() -> dict:
 
 
 def main() -> int:
+    if already_generated_today() and not os.environ.get("FORCE_GENERATE"):
+        print("[digest] already generated today — skipping (set FORCE_GENERATE=1 to override).")
+        return 0
+
     print("[digest] gathering raw data…")
     raw = gather_raw_data()
     print(
