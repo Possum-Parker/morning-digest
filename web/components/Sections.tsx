@@ -1,4 +1,5 @@
 import type {
+  Action,
   MarketIndicator,
   NRLFixture,
   NewsStory,
@@ -134,6 +135,23 @@ const URGENCY_STYLES: Record<Urgency, { border: string; text: string; bg: string
   green:  { border: "border-l-positive", text: "text-positive", bg: "bg-positive/5", label: "FYI" },
 };
 
+const ACTION_STYLES: Record<Action, string> = {
+  buy:  "bg-positive text-ink",
+  hold: "bg-white/10 text-gray-200",
+  sell: "bg-negative text-white",
+};
+
+function ActionBadge({ action, ticker }: { action: Action; ticker?: string }) {
+  return (
+    <span
+      className={`inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded ${ACTION_STYLES[action]}`}
+    >
+      <span>{action}</span>
+      {ticker && <span className="font-mono opacity-90">{ticker}</span>}
+    </span>
+  );
+}
+
 export function WatchTodaySection({ items }: { items: WatchItem[] }) {
   if (!items?.length) return null;
   return (
@@ -147,10 +165,11 @@ export function WatchTodaySection({ items }: { items: WatchItem[] }) {
               key={i}
               className={`border-l-4 ${styles.border} ${styles.bg} pl-3 pr-2 py-2 rounded-r`}
             >
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 flex-wrap">
                 <span className={`text-[10px] uppercase tracking-widest font-bold ${styles.text}`}>
                   {styles.label}
                 </span>
+                {w.action && <ActionBadge action={w.action} ticker={w.ticker} />}
               </div>
               <div className="text-sm font-semibold mt-0.5">{w.title}</div>
               <div className="text-sm text-gray-300 mt-0.5">{w.detail}</div>
@@ -158,7 +177,88 @@ export function WatchTodaySection({ items }: { items: WatchItem[] }) {
           );
         })}
       </ul>
+      <div className="text-[10px] text-muted mt-3 leading-relaxed border-t border-white/5 pt-2">
+        AI-generated suggestions based on news and price data. Not financial advice — do your own
+        research before acting.
+      </div>
     </section>
+  );
+}
+
+/* ---------- NRL ---------- */
+
+function TeamRow({
+  name,
+  badge,
+  score,
+  isWinner,
+}: {
+  name: string;
+  badge?: string;
+  score?: number | null;
+  isWinner: boolean;
+}) {
+  return (
+    <div className="flex items-center gap-2 min-w-0">
+      {badge ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={badge} alt="" className="w-5 h-5 shrink-0 object-contain" />
+      ) : (
+        <span className="w-5 h-5 shrink-0 rounded-full bg-white/10" />
+      )}
+      <span
+        className={`text-sm truncate ${isWinner ? "font-semibold" : "font-medium"}`}
+      >
+        {name}
+      </span>
+      {score != null && (
+        <span
+          className={`ml-auto text-sm font-mono shrink-0 ${
+            isWinner ? "font-bold text-positive" : "text-muted"
+          }`}
+        >
+          {score}
+        </span>
+      )}
+    </div>
+  );
+}
+
+function NRLCard({ fixture }: { fixture: NRLFixture }) {
+  const completed = Boolean(
+    fixture.completed && fixture.home_score != null && fixture.away_score != null
+  );
+  const homeWins = completed && (fixture.home_score ?? 0) > (fixture.away_score ?? 0);
+  const awayWins = completed && (fixture.away_score ?? 0) > (fixture.home_score ?? 0);
+
+  return (
+    <div className="border border-white/5 rounded-lg p-3 flex items-center justify-between gap-3">
+      <div className="space-y-1.5 min-w-0 flex-1">
+        <TeamRow
+          name={fixture.home}
+          badge={fixture.home_badge}
+          score={completed ? fixture.home_score : null}
+          isWinner={homeWins}
+        />
+        <TeamRow
+          name={fixture.away}
+          badge={fixture.away_badge}
+          score={completed ? fixture.away_score : null}
+          isWinner={awayWins}
+        />
+      </div>
+      {!completed && (
+        <div className="text-right text-xs shrink-0 self-center">
+          <div className="text-gray-300 font-medium whitespace-nowrap">{fixture.day}</div>
+          <div className="text-muted whitespace-nowrap">{fixture.time}</div>
+        </div>
+      )}
+      {completed && (
+        <div className="text-[10px] uppercase tracking-widest text-muted shrink-0 self-center">
+          Full Time
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -166,27 +266,12 @@ export function NRLDrawSection({ fixtures }: { fixtures: NRLFixture[] }) {
   if (!fixtures?.length) return null;
   return (
     <section className="section-card p-5 mb-4">
-      <h2 className="text-lg font-semibold mb-3">🏉 NRL — This Week</h2>
-      <ul className="divide-y divide-white/5">
+      <h2 className="text-lg font-semibold mb-3">🏉 NRL — Results & Fixtures</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {fixtures.map((f, i) => (
-          <li key={i} className="py-2.5 flex items-center justify-between gap-3">
-            <div className="min-w-0">
-              <div className="text-sm leading-tight">
-                <span className="font-medium">{f.home}</span>
-                <span className="text-muted mx-1.5">v</span>
-                <span className="font-medium">{f.away}</span>
-              </div>
-              {f.venue && (
-                <div className="text-[11px] text-muted mt-0.5 truncate">{f.venue}</div>
-              )}
-            </div>
-            <div className="text-right text-xs shrink-0">
-              <div className="text-gray-300 font-medium">{f.day}</div>
-              <div className="text-muted">{f.time}</div>
-            </div>
-          </li>
+          <NRLCard key={i} fixture={f} />
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

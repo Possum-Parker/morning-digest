@@ -21,11 +21,14 @@ export interface NewsStory {
 }
 
 export type Urgency = "red" | "orange" | "green";
+export type Action = "buy" | "hold" | "sell";
 
 export interface WatchItem {
   title: string;
   detail: string;
   urgency: Urgency;
+  action?: Action;
+  ticker?: string;
 }
 
 export interface Weather {
@@ -43,6 +46,11 @@ export interface Weather {
 export interface NRLFixture {
   home: string;
   away: string;
+  home_badge?: string;
+  away_badge?: string;
+  home_score?: number | null;
+  away_score?: number | null;
+  completed?: boolean;
   day: string;
   time: string;
   venue?: string;
