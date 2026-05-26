@@ -1,4 +1,14 @@
-"""Fetch NRL fixtures (past results + upcoming) with team badges via TheSportsDB."""
+"""Fetch NRL fixtures (past results + upcoming) with team badges via TheSportsDB.
+
+Strategy: TheSportsDB's "next/past 15 events" endpoints often miss data during bye
+weeks (State of Origin, finals window, etc.). We fix this by:
+  1. Pulling the entire current season via eventsseason.php (most complete).
+  2. Combining with next+past for safety.
+  3. Filtering to a wide window (-7 to +21 days) so we typically get the current
+     round + the next round even when the schedule is irregular.
+  4. If literally nothing falls in the window (rare), falling back to the 8 events
+     closest to today so the section is never empty for no good reason.
+"""
 from __future__ import annotations
 
 import os
@@ -38,7 +48,6 @@ def _fetch_events(endpoint: str, params: dict | None = None) -> list[dict]:
 
 
 def _fetch_team_badges() -> dict[str, str]:
-    """Returns {team_id: badge_url} for every NRL team — one API call total."""
     data = _get("lookup_all_teams.php", {"id": NRL_LEAGUE_ID})
     teams = data.get("teams") or []
     badges = {
@@ -82,41 +91,60 @@ def _parse_event(ev: dict, badges: dict[str, str], now_utc: datetime) -> dict | 
     }
 
 
-def fetch_nrl_draw(*, lookback_days: int = 4, lookahead_days: int = 7) -> list[dict]:
-    upcoming = _fetch_events("eventsnextleague.php", {"id": NRL_LEAGUE_ID})
-    past = _fetch_events("eventspastleague.php", {"id": NRL_LEAGUE_ID})
+def fetch_nrl_draw(*, lookback_days: int = 7, lookahead_days: int = 21) -> list[dict]:
+    now_bne = datetime.now(BRISBANE)
+    season = str(now_bne.year)
 
-    # Fallback: if both primary endpoints return nothing, try the current season
-    if not upcoming and not past:
-        season = str(datetime.now(BRISBANE).year)
-        print(f"[nrl] primary endpoints empty — trying season fallback ({season})")
-        season_events = _fetch_events("eventsseason.php", {"id": NRL_LEAGUE_ID, "s": season})
-        past = season_events
-        upcoming = []
+    # Primary: pull the entire current season
+    season_events = _fetch_events("eventsseason.php", {"id": NRL_LEAGUE_ID, "s": season})
+
+    # If empty (e.g. very early in the year), try last year too
+    if not season_events:
+        prev = str(now_bne.year - 1)
+        season_events = _fetch_events("eventsseason.php", {"id": NRL_LEAGUE_ID, "s": prev})
+
+    # Belt-and-braces: also pull next+past in case they have something season doesn't
+    next_events = _fetch_events("eventsnextleague.php", {"id": NRL_LEAGUE_ID})
+    past_events = _fetch_events("eventspastleague.php", {"id": NRL_LEAGUE_ID})
+
+    # Dedupe across sources by event id
+    seen_ids: set[str] = set()
+    all_events: list[dict] = []
+    for ev in season_events + next_events + past_events:
+        eid = ev.get("idEvent")
+        if not eid or eid in seen_ids:
+            continue
+        seen_ids.add(eid)
+        all_events.append(ev)
+
+    print(f"[nrl] combined unique events from all sources: {len(all_events)}")
 
     badges = _fetch_team_badges()
     now_utc = datetime.now(timezone.utc)
     lookback = now_utc - timedelta(days=lookback_days)
     lookahead = now_utc + timedelta(days=lookahead_days)
 
-    seen_ids: set[str] = set()
-    fixtures: list[dict] = []
+    # Parse everything once
+    parsed_all: list[dict] = []
+    for ev in all_events:
+        p = _parse_event(ev, badges, now_utc)
+        if p:
+            parsed_all.append(p)
 
-    for ev in past + upcoming:
-        ev_id = ev.get("idEvent")
-        if not ev_id or ev_id in seen_ids:
-            continue
-        seen_ids.add(ev_id)
+    # Filter to the date window
+    in_window = [p for p in parsed_all if lookback <= p["_dt_utc"] <= lookahead]
+    in_window.sort(key=lambda p: p["_dt_utc"])
+    print(f"[nrl] fixtures in window (-{lookback_days}d to +{lookahead_days}d): {len(in_window)}")
 
-        parsed = _parse_event(ev, badges, now_utc)
-        if not parsed:
-            continue
-        if parsed["_dt_utc"] < lookback or parsed["_dt_utc"] > lookahead:
-            continue
+    # Last-resort fallback: if nothing's in the window, show the 8 events closest to today
+    if not in_window and parsed_all:
+        parsed_all.sort(key=lambda p: abs((p["_dt_utc"] - now_utc).total_seconds()))
+        in_window = sorted(parsed_all[:8], key=lambda p: p["_dt_utc"])
+        print(f"[nrl] window was empty — falling back to {len(in_window)} closest events")
 
-        parsed.pop("_dt_utc", None)
-        fixtures.append(parsed)
+    # Strip internal datetime field before returning
+    for p in in_window:
+        p.pop("_dt_utc", None)
 
-    fixtures.sort(key=lambda f: f["datetime_iso"])
-    print(f"[nrl] final window fixtures: {len(fixtures)}")
-    return fixtures
+    print(f"[nrl] final fixtures returned: {len(in_window)}")
+    return in_window

@@ -263,15 +263,21 @@ function NRLCard({ fixture }: { fixture: NRLFixture }) {
 }
 
 export function NRLDrawSection({ fixtures }: { fixtures: NRLFixture[] }) {
-  if (!fixtures?.length) return null;
   return (
     <section className="section-card p-5 mb-4">
       <h2 className="text-lg font-semibold mb-3">🏉 NRL — Results & Fixtures</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {fixtures.map((f, i) => (
-          <NRLCard key={i} fixture={f} />
-        ))}
-      </div>
+      {fixtures?.length ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {fixtures.map((f, i) => (
+            <NRLCard key={i} fixture={f} />
+          ))}
+        </div>
+      ) : (
+        <p className="text-sm text-muted py-3 leading-relaxed">
+          No NRL fixtures available right now. This is usually a bye round
+          (State of Origin or off-season) — the next round will show here as soon as data is available.
+        </p>
+      )}
     </section>
   );
 }
