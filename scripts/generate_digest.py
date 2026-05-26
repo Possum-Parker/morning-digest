@@ -26,8 +26,20 @@ def _load_json(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
-def already_generated_today() -> bool:
-    """True if data/latest.json was generated today (Brisbane local date)."""
+IDEMPOTENCY_WINDOW_HOURS = 4
+
+
+def recently_generated() -> bool:
+    """True if data/latest.json was generated in the last IDEMPOTENCY_WINDOW_HOURS hours.
+
+    Why hours, not "today": the daily-digest workflow has 4 staggered cron times (5:30,
+    5:50, 6:15, 6:45 PM AEST) for reliability — we want only the FIRST of those to
+    actually generate, not all of them. But if we used "today" instead of "hours", a
+    manual test run earlier in the day would suppress the 5:30 PM scheduled run, which
+    would mean no push notification at the user's expected time. 4 hours is comfortably
+    longer than the cron fallback window (~75 min) but short enough that a manual
+    morning/afternoon test doesn't block the evening's scheduled run.
+    """
     latest = ROOT / "data" / "latest.json"
     if not latest.exists():
         return False
@@ -36,12 +48,10 @@ def already_generated_today() -> bool:
         generated_iso = data.get("generated_at_utc")
         if not generated_iso:
             return False
-        # tolerate both ...+00:00 and ...Z
         normalized = generated_iso.replace("Z", "+00:00")
         generated_utc = datetime.fromisoformat(normalized)
-        generated_bne = generated_utc.astimezone(BRISBANE).date()
-        today_bne = datetime.now(timezone.utc).astimezone(BRISBANE).date()
-        return generated_bne == today_bne
+        age_hours = (datetime.now(timezone.utc) - generated_utc).total_seconds() / 3600
+        return age_hours < IDEMPOTENCY_WINDOW_HOURS
     except Exception as e:
         print(f"[digest] idempotency check failed (will regenerate): {e}")
         return False
@@ -92,8 +102,8 @@ def gather_raw_data() -> dict:
 
 
 def main() -> int:
-    if already_generated_today() and not os.environ.get("FORCE_GENERATE"):
-        print("[digest] already generated today — skipping (set FORCE_GENERATE=1 to override).")
+    if recently_generated() and not os.environ.get("FORCE_GENERATE"):
+        print(f"[digest] already generated within the last {IDEMPOTENCY_WINDOW_HOURS}h — skipping.")
         return 0
 
     print("[digest] gathering raw data…")
