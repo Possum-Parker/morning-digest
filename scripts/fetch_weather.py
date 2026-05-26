@@ -1,4 +1,4 @@
-"""Fetch weather forecast for Gold Coast via Open-Meteo (free, no API key)."""
+"""Fetch weather for Gold Coast via Open-Meteo (free, no API key) — today + tomorrow."""
 from __future__ import annotations
 
 import requests
@@ -41,10 +41,31 @@ WEATHER_CODES: dict[int, tuple[str, str]] = {
 }
 
 
-def _first(arr, default=None):
-    if arr and len(arr) > 0:
-        return arr[0]
-    return default
+def _at(arr, idx):
+    if arr and idx < len(arr):
+        return arr[idx]
+    return None
+
+
+def _round_or_none(val, ndigits=1):
+    return round(val, ndigits) if val is not None else None
+
+
+def _day_forecast(daily: dict, idx: int) -> dict:
+    code = _at(daily.get("weather_code"), idx)
+    label, icon = WEATHER_CODES.get(int(code), ("Unknown", "🌡️")) if code is not None else ("Unknown", "🌡️")
+    high = _at(daily.get("temperature_2m_max"), idx)
+    low = _at(daily.get("temperature_2m_min"), idx)
+    chance = _at(daily.get("precipitation_probability_max"), idx)
+    mm = _at(daily.get("precipitation_sum"), idx)
+    return {
+        "icon": icon,
+        "condition": label,
+        "high_c": _round_or_none(high),
+        "low_c": _round_or_none(low),
+        "rain_chance_pct": int(chance) if chance is not None else None,
+        "rain_mm": _round_or_none(mm),
+    }
 
 
 def fetch_weather() -> dict:
@@ -53,7 +74,7 @@ def fetch_weather() -> dict:
         f"?latitude={LAT}&longitude={LON}"
         "&current=temperature_2m,weather_code,precipitation"
         "&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,weather_code"
-        "&timezone=Australia/Brisbane&forecast_days=1"
+        "&timezone=Australia/Brisbane&forecast_days=2"
     )
     try:
         r = requests.get(url, timeout=15)
@@ -66,24 +87,27 @@ def fetch_weather() -> dict:
     current = data.get("current") or {}
     daily = data.get("daily") or {}
 
-    code = current.get("weather_code")
-    if code is None:
-        code = _first(daily.get("weather_code"), 0)
-    label, icon = WEATHER_CODES.get(int(code), ("Unknown", "🌡️"))
-
+    # Current "now" conditions
+    code_now = current.get("weather_code")
+    if code_now is None:
+        code_now = _at(daily.get("weather_code"), 0) or 0
+    label_now, icon_now = WEATHER_CODES.get(int(code_now), ("Unknown", "🌡️"))
     temp = current.get("temperature_2m")
-    high = _first(daily.get("temperature_2m_max"))
-    low = _first(daily.get("temperature_2m_min"))
-    rain_chance = _first(daily.get("precipitation_probability_max"))
-    rain_mm = _first(daily.get("precipitation_sum"))
+
+    today = _day_forecast(daily, 0)
+    tomorrow = _day_forecast(daily, 1)
 
     return {
         "location": "Gold Coast",
-        "icon": icon,
-        "condition": label,
-        "temperature_c": round(temp, 1) if temp is not None else None,
-        "high_c": round(high, 1) if high is not None else None,
-        "low_c": round(low, 1) if low is not None else None,
-        "rain_chance_pct": int(rain_chance) if rain_chance is not None else None,
-        "rain_mm": round(rain_mm, 1) if rain_mm is not None else None,
+        # current conditions (flat fields kept for backward compat)
+        "icon": icon_now,
+        "condition": label_now,
+        "temperature_c": _round_or_none(temp),
+        # today's day-forecast
+        "high_c": today["high_c"],
+        "low_c": today["low_c"],
+        "rain_chance_pct": today["rain_chance_pct"],
+        "rain_mm": today["rain_mm"],
+        # tomorrow's full forecast (new)
+        "tomorrow": tomorrow,
     }

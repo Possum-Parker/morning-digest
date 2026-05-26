@@ -31,6 +31,15 @@ export interface WatchItem {
   ticker?: string;
 }
 
+export interface DayForecast {
+  icon?: string;
+  condition?: string;
+  high_c?: number | null;
+  low_c?: number | null;
+  rain_chance_pct?: number | null;
+  rain_mm?: number | null;
+}
+
 export interface Weather {
   location: string;
   icon?: string;
@@ -40,6 +49,7 @@ export interface Weather {
   low_c?: number | null;
   rain_chance_pct?: number | null;
   rain_mm?: number | null;
+  tomorrow?: DayForecast;
   error?: string;
 }
 
