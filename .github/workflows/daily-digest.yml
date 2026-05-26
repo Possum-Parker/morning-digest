@@ -1,15 +1,15 @@
 name: Daily Digest
 
 on:
-  # Brisbane is UTC+10 year-round. 22:xx UTC = 08:xx AEST.
+  # Brisbane is UTC+10 year-round. 07:xx UTC = 5:xx PM AEST.
   # We schedule at multiple off-minute times because GitHub Actions notoriously
   # delays or skips scheduled runs at the top of the hour (high contention).
   # The script is idempotent — only the first successful run of the day generates.
   schedule:
-    - cron: "5 22 * * *"   # ~8:05 AM AEST primary
-    - cron: "25 22 * * *"  # ~8:25 AM AEST fallback 1
-    - cron: "47 22 * * *"  # ~8:47 AM AEST fallback 2
-    - cron: "15 23 * * *"  # ~9:15 AM AEST fallback 3 (deep fallback)
+    - cron: "30 7 * * *"   # ~5:30 PM AEST primary
+    - cron: "50 7 * * *"   # ~5:50 PM AEST fallback 1
+    - cron: "15 8 * * *"   # ~6:15 PM AEST fallback 2
+    - cron: "45 8 * * *"   # ~6:45 PM AEST fallback 3 (deep fallback)
   workflow_dispatch:
 
 permissions:

@@ -31,7 +31,7 @@ def send_push(headline: str) -> dict | None:
             "app_id": app_id,
             "target_channel": "push",
             "included_segments": [segment],
-            "headings": {"en": "Morning Digest ready"},
+            "headings": {"en": "Today's digest is ready"},
             "contents": {"en": headline[:180]},
             "url": os.environ.get("PWA_URL", ""),
         }
