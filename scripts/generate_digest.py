@@ -76,12 +76,14 @@ def gather_raw_data() -> dict:
         per_ticker_news[ticker] = fetch_topic(queries, per_query_max=3)
 
     weather = fetch_weather()
-    nrl_draw = fetch_nrl_draw()
+    nrl_info = fetch_nrl_draw()
 
     return {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "weather": weather,
-        "nrl_draw": nrl_draw,
+        "nrl_round": nrl_info.get("round_label", ""),
+        "nrl_draw": nrl_info.get("fixtures", []),
+        "nrl_byes": nrl_info.get("byes", []),
         "holdings": holdings_quotes,
         "indicators": indicator_quotes,
         "news": news,
@@ -106,7 +108,9 @@ def main() -> int:
 
     # Merge in factual data Claude shouldn't fabricate
     digest["weather"] = raw["weather"]
+    digest["nrl_round"] = raw["nrl_round"]
     digest["nrl_draw"] = raw["nrl_draw"]
+    digest["nrl_byes"] = raw["nrl_byes"]
     digest["generated_at_utc"] = raw["generated_at_utc"]
 
     out_path = ROOT / "data" / "latest.json"

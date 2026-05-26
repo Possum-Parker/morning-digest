@@ -76,6 +76,8 @@ export interface Digest {
   politics: { summary: string; stories: NewsStory[] };
   ai: { summary: string; stories: NewsStory[] };
   sport: { summary: string; stories: NewsStory[] };
+  nrl_round?: string;
   nrl_draw: NRLFixture[];
+  nrl_byes?: string[];
   watch_today: WatchItem[];
 }

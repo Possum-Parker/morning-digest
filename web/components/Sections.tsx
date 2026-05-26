@@ -262,10 +262,19 @@ function NRLCard({ fixture }: { fixture: NRLFixture }) {
   );
 }
 
-export function NRLDrawSection({ fixtures }: { fixtures: NRLFixture[] }) {
+export function NRLDrawSection({
+  fixtures,
+  roundLabel,
+  byes,
+}: {
+  fixtures: NRLFixture[];
+  roundLabel?: string;
+  byes?: string[];
+}) {
+  const heading = roundLabel ? `🏉 NRL ${roundLabel}` : "🏉 NRL";
   return (
     <section className="section-card p-5 mb-4">
-      <h2 className="text-lg font-semibold mb-3">🏉 NRL — Results & Fixtures</h2>
+      <h2 className="text-lg font-semibold mb-3">{heading}</h2>
       {fixtures?.length ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {fixtures.map((f, i) => (
@@ -274,9 +283,13 @@ export function NRLDrawSection({ fixtures }: { fixtures: NRLFixture[] }) {
         </div>
       ) : (
         <p className="text-sm text-muted py-3 leading-relaxed">
-          No NRL fixtures available right now. This is usually a bye round
-          (State of Origin or off-season) — the next round will show here as soon as data is available.
+          No NRL fixtures available right now. Likely an off-season window.
         </p>
+      )}
+      {byes && byes.length > 0 && (
+        <div className="mt-3 pt-3 border-t border-white/5 text-xs text-muted">
+          <span className="font-semibold text-gray-300">Byes:</span> {byes.join(", ")}
+        </div>
       )}
     </section>
   );

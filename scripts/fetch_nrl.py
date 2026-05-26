@@ -1,23 +1,21 @@
-"""Fetch NRL fixtures: TheSportsDB live data + static season-draw JSON fallback.
+"""Fetch NRL fixtures for the CURRENT ROUND ONLY, with live scores overlaid.
 
-Why: TheSportsDB's free tier returns very little NRL data during bye rounds
-(State of Origin, finals, etc.) — sometimes 0-1 events. To guarantee the section
-is always populated, we keep a static copy of the season draw in
-config/nrl_draw_{year}.json (parsed once from the NRL's official PDF — see
-scripts/parse_nrl_pdf.py).
-
-Strategy each run:
-  1. Try TheSportsDB (season + next + past endpoints) — these have SCORES for
-     completed games.
-  2. Load the static JSON draw — has fixtures + times but NO scores.
-  3. Merge: live API wins for any given (date, home, away) so we keep scores
-     when available. Static fills gaps when the API has no data.
+Logic:
+  1. Load the static draw JSON (parsed from the official NRL PDF — see
+     scripts/parse_nrl_pdf.py).
+  2. Determine the current round = the earliest round whose last match date
+     is still >= today's Brisbane date. This means:
+       - Mon-Wed: shows the upcoming round (its games start Thu/Fri).
+       - Thu-Sun: shows that round as it plays out.
+       - Once Sunday night's last game has passed, Monday rolls over to the next round.
+  3. For each match in the current round, fetch live API scores from TheSportsDB
+     and overlay them. Games that haven't been played yet just show the kickoff time.
 """
 from __future__ import annotations
 
 import json
 import os
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -27,12 +25,12 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 NRL_LEAGUE_ID = 4435
 BRISBANE = ZoneInfo("Australia/Brisbane")
-SYDNEY = ZoneInfo("Australia/Sydney")  # the PDF's AEDT column is really Sydney local
+SYDNEY = ZoneInfo("Australia/Sydney")  # PDF "AEDT" column == Sydney local time
 API_KEY = os.environ.get("THESPORTSDB_KEY", "3")
 BASE = f"https://www.thesportsdb.com/api/v1/json/{API_KEY}"
 
 
-# Order matters: multi-word nicknames first
+# Multi-word nicknames first so they match before single-word ones
 NICKNAMES = [
     "sea eagles",
     "broncos", "bulldogs", "cowboys", "dolphins", "dragons", "eels",
@@ -40,9 +38,22 @@ NICKNAMES = [
     "storm", "tigers", "titans", "warriors",
 ]
 
+WORD_TO_NUM = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+    "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12,
+    "thirteen": 13, "fourteen": 14, "fifteen": 15, "sixteen": 16,
+    "seventeen": 17, "eighteen": 18, "nineteen": 19, "twenty": 20,
+    "twenty-one": 21, "twenty one": 21,
+    "twenty-two": 22, "twenty two": 22,
+    "twenty-three": 23, "twenty three": 23,
+    "twenty-four": 24, "twenty four": 24,
+    "twenty-five": 25, "twenty five": 25,
+    "twenty-six": 26, "twenty six": 26,
+    "twenty-seven": 27, "twenty seven": 27,
+}
+
 
 def _normalize_team(name: str) -> str:
-    """Strip city prefixes so 'New Zealand Warriors' and 'Warriors' match."""
     s = (name or "").lower().strip()
     for nick in NICKNAMES:
         if s.endswith(nick):
@@ -50,11 +61,24 @@ def _normalize_team(name: str) -> str:
     return s
 
 
+def _round_to_number(round_name: str):
+    if not round_name:
+        return None
+    s = round_name.strip().lower()
+    if s.isdigit():
+        return int(s)
+    return WORD_TO_NUM.get(s)
+
+
 def _format_time(dt) -> str:
     return dt.strftime("%I:%M %p").lstrip("0").lower()
 
 
-# ---------- TheSportsDB ----------
+def _fixture_key(date_str: str, home: str, away: str) -> str:
+    return f"{date_str[:10]}|{_normalize_team(home)}|{_normalize_team(away)}"
+
+
+# ---------- TheSportsDB (for live scores only) ----------
 
 def _get(endpoint: str, params: dict | None = None) -> dict:
     try:
@@ -67,14 +91,7 @@ def _get(endpoint: str, params: dict | None = None) -> dict:
         return {}
 
 
-def _fetch_events(endpoint: str, params: dict | None = None) -> list[dict]:
-    events = _get(endpoint, params).get("events") or []
-    print(f"[nrl]   {endpoint}: {len(events)} events")
-    return events
-
-
-def _fetch_team_badges_by_name() -> dict[str, str]:
-    """Return {normalized_team_nickname: badge_url}."""
+def _fetch_team_badges() -> dict[str, str]:
     data = _get("lookup_all_teams.php", {"id": NRL_LEAGUE_ID})
     teams = data.get("teams") or []
     badges: dict[str, str] = {}
@@ -83,179 +100,160 @@ def _fetch_team_badges_by_name() -> dict[str, str]:
         badge = t.get("strBadge") or t.get("strTeamBadge") or ""
         if nick and badge:
             badges[nick] = badge
-    print(f"[nrl]   team badges loaded: {len(badges)}")
+    print(f"[nrl]   badges loaded: {len(badges)}")
     return badges
 
 
-def _parse_api_event(ev: dict, badges: dict[str, str], now_utc: datetime):
-    date_s = ev.get("dateEvent")
-    time_s = ev.get("strTime") or "00:00:00"
-    if not date_s:
-        return None
-    try:
-        dt_utc = datetime.fromisoformat(f"{date_s}T{time_s}").replace(tzinfo=timezone.utc)
-    except Exception:
-        return None
-
-    dt_bne = dt_utc.astimezone(BRISBANE)
-    is_past = dt_utc < now_utc
-    hs = ev.get("intHomeScore")
-    as_ = ev.get("intAwayScore")
-    completed = bool(is_past and hs not in (None, "") and as_ not in (None, ""))
-
-    home = ev.get("strHomeTeam") or "TBC"
-    away = ev.get("strAwayTeam") or "TBC"
-    return {
-        "home": home,
-        "away": away,
-        "home_badge": badges.get(_normalize_team(home), ""),
-        "away_badge": badges.get(_normalize_team(away), ""),
-        "home_score": int(hs) if completed else None,
-        "away_score": int(as_) if completed else None,
-        "completed": completed,
-        "day": dt_bne.strftime("%a %d %b"),
-        "time": _format_time(dt_bne),
-        "venue": ev.get("strVenue") or "",
-        "datetime_iso": dt_bne.isoformat(),
-        "_dt_utc": dt_utc,
-        "_key": _fixture_key(date_s, home, away),
-    }
-
-
-def _fetch_from_api(now_utc: datetime, badges: dict[str, str]) -> list[dict]:
-    season = str(now_utc.astimezone(BRISBANE).year)
-    season_events = _fetch_events("eventsseason.php", {"id": NRL_LEAGUE_ID, "s": season})
-    if not season_events:
-        season_events = _fetch_events("eventsseason.php", {"id": NRL_LEAGUE_ID, "s": str(int(season) - 1)})
-
-    next_events = _fetch_events("eventsnextleague.php", {"id": NRL_LEAGUE_ID})
-    past_events = _fetch_events("eventspastleague.php", {"id": NRL_LEAGUE_ID})
-
-    seen: set[str] = set()
-    parsed: list[dict] = []
-    for ev in season_events + next_events + past_events:
-        eid = ev.get("idEvent")
-        if not eid or eid in seen:
+def _fetch_api_scores() -> dict[str, dict]:
+    """Returns {fixture_key: {home_score, away_score, completed}} from TheSportsDB."""
+    year = str(datetime.now(BRISBANE).year)
+    events = (
+        (_get("eventsseason.php", {"id": NRL_LEAGUE_ID, "s": year}).get("events") or [])
+        + (_get("eventspastleague.php", {"id": NRL_LEAGUE_ID}).get("events") or [])
+        + (_get("eventsnextleague.php", {"id": NRL_LEAGUE_ID}).get("events") or [])
+    )
+    scores: dict[str, dict] = {}
+    for ev in events:
+        date_s = ev.get("dateEvent")
+        home = ev.get("strHomeTeam")
+        away = ev.get("strAwayTeam")
+        if not date_s or not home or not away:
             continue
-        seen.add(eid)
-        p = _parse_api_event(ev, badges, now_utc)
-        if p:
-            parsed.append(p)
-    print(f"[nrl] parsed {len(parsed)} fixtures from TheSportsDB")
-    return parsed
+        hs = ev.get("intHomeScore")
+        as_ = ev.get("intAwayScore")
+        completed = hs not in (None, "") and as_ not in (None, "")
+        if not completed:
+            continue
+        key = _fixture_key(date_s, home, away)
+        scores[key] = {
+            "home_score": int(hs),
+            "away_score": int(as_),
+            "completed": True,
+        }
+    print(f"[nrl] API: {len(scores)} completed games with scores")
+    return scores
 
 
-# ---------- Static fallback (PDF -> JSON) ----------
+# ---------- Static draw (the source of truth for fixtures) ----------
 
-def _fixture_key(date_iso: str, home: str, away: str) -> str:
-    return f"{date_iso[:10]}|{_normalize_team(home)}|{_normalize_team(away)}"
+def _load_static() -> dict | None:
+    year = datetime.now(BRISBANE).year
+    for path in (
+        ROOT / "config" / f"nrl_draw_{year}.json",
+        ROOT / "config" / f"nrl_draw_{year - 1}.json",
+    ):
+        if path.exists():
+            print(f"[nrl] static draw: {path.name}")
+            return json.loads(path.read_text())
+    print("[nrl] no static draw JSON found")
+    return None
 
 
 def _parse_static_time(date_str: str, time_str: str):
-    """Convert PDF date + Sydney-local time -> Brisbane-aware datetime. Returns None for TBC."""
-    if not time_str or time_str.upper() == "TBC":
-        # Use date with 00:00 so we can still sort/show it
-        try:
-            d = datetime.strptime(date_str, "%Y-%m-%d")
-            return d.replace(hour=0, minute=0, tzinfo=SYDNEY).astimezone(BRISBANE)
-        except Exception:
-            return None
+    """Static draw's time is Sydney-local (AEDT column). Convert to Brisbane."""
+    if not date_str:
+        return None
     try:
-        # "8:00 PM" or "8:00PM"
-        clean = time_str.upper().replace(" ", "")
-        # Split off AM/PM
+        d = datetime.strptime(date_str, "%Y-%m-%d")
+    except Exception:
+        return None
+    ts = (time_str or "").strip().upper()
+    if not ts or ts == "TBC":
+        return d.replace(hour=0, minute=0, tzinfo=SYDNEY).astimezone(BRISBANE)
+    try:
+        clean = ts.replace(" ", "")
+        ampm = "PM"
         if clean.endswith("AM"):
-            hm, ampm = clean[:-2], "AM"
+            clean, ampm = clean[:-2], "AM"
         elif clean.endswith("PM"):
-            hm, ampm = clean[:-2], "PM"
-        else:
-            hm, ampm = clean, "PM"
-        h, m = hm.split(":")
+            clean, ampm = clean[:-2], "PM"
+        h, m = clean.split(":")
         h, m = int(h), int(m)
         if ampm == "PM" and h < 12:
             h += 12
         if ampm == "AM" and h == 12:
             h = 0
-        d = datetime.strptime(date_str, "%Y-%m-%d")
-        dt_syd = d.replace(hour=h, minute=m, tzinfo=SYDNEY)
-        return dt_syd.astimezone(BRISBANE)
+        return d.replace(hour=h, minute=m, tzinfo=SYDNEY).astimezone(BRISBANE)
     except Exception:
         return None
 
 
-def _load_static_fallback(badges: dict[str, str], now_utc: datetime) -> list[dict]:
-    year = now_utc.astimezone(BRISBANE).year
-    candidates = [
-        ROOT / "config" / f"nrl_draw_{year}.json",
-        ROOT / "config" / f"nrl_draw_{year - 1}.json",  # in case it's early in the year
-    ]
-    for path in candidates:
-        if path.exists():
-            print(f"[nrl] loading static fallback: {path.name}")
-            data = json.loads(path.read_text())
-            return _flatten_static(data, badges)
-    print("[nrl] no static fallback JSON found")
-    return []
-
-
-def _flatten_static(data: dict, badges: dict[str, str]) -> list[dict]:
-    out: list[dict] = []
-    for r in data.get("rounds") or []:
+def _find_current_round(static_data: dict, today_bne_date):
+    """Return the round whose last match date is the earliest still >= today."""
+    candidates = []
+    for r in static_data.get("rounds") or []:
+        dates = []
         for m in r.get("matches") or []:
-            date_str = m.get("date")
-            if not date_str:
-                continue
-            time_str = (m.get("aedt_time") or "").strip()
-            dt_bne = _parse_static_time(date_str, time_str)
-            if not dt_bne:
-                continue
-            dt_utc = dt_bne.astimezone(timezone.utc)
-            home = m.get("home") or "TBC"
-            away = m.get("away") or "TBC"
-            out.append({
-                "home": home,
-                "away": away,
-                "home_badge": badges.get(_normalize_team(home), ""),
-                "away_badge": badges.get(_normalize_team(away), ""),
-                "home_score": None,
-                "away_score": None,
-                "completed": False,  # static has no scores
-                "day": dt_bne.strftime("%a %d %b"),
-                "time": "TBC" if time_str.upper() == "TBC" else _format_time(dt_bne),
-                "venue": m.get("venue") or "",
-                "datetime_iso": dt_bne.isoformat(),
-                "_dt_utc": dt_utc,
-                "_key": _fixture_key(date_str, home, away),
-            })
-    print(f"[nrl] static fallback yielded {len(out)} fixtures")
-    return out
+            try:
+                dates.append(datetime.strptime(m["date"], "%Y-%m-%d").date())
+            except Exception:
+                pass
+        if not dates:
+            continue
+        last = max(dates)
+        if last >= today_bne_date:
+            candidates.append((last, r))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda x: x[0])
+    return candidates[0][1]
 
 
 # ---------- Public entrypoint ----------
 
-def fetch_nrl_draw(*, lookback_days: int = 7, lookahead_days: int = 21) -> list[dict]:
-    now_utc = datetime.now(timezone.utc)
-    badges = _fetch_team_badges_by_name()
+def fetch_nrl_draw() -> dict:
+    """Returns {round_label, fixtures, byes}."""
+    static_data = _load_static()
+    if not static_data:
+        return {"round_label": "", "fixtures": [], "byes": []}
 
-    api_fixtures = _fetch_from_api(now_utc, badges)
-    static_fixtures = _load_static_fallback(badges, now_utc)
+    today_bne = datetime.now(BRISBANE).date()
+    current = _find_current_round(static_data, today_bne)
+    if not current:
+        print("[nrl] no upcoming round in static draw (off-season?)")
+        return {"round_label": "Off-Season", "fixtures": [], "byes": []}
 
-    # Merge: API wins (has scores). Static fills any gap.
-    merged: dict[str, dict] = {}
-    for f in static_fixtures:
-        merged[f["_key"]] = f
-    for f in api_fixtures:
-        merged[f["_key"]] = f
+    round_name = (current.get("round") or "").strip()
+    round_num = _round_to_number(round_name)
+    round_label = f"Round {round_num}" if round_num else (f"Round {round_name}" if round_name else "")
+    byes = current.get("byes") or []
 
-    lookback = now_utc - timedelta(days=lookback_days)
-    lookahead = now_utc + timedelta(days=lookahead_days)
-    in_window = [f for f in merged.values() if lookback <= f["_dt_utc"] <= lookahead]
-    in_window.sort(key=lambda f: f["_dt_utc"])
+    badges = _fetch_team_badges()
+    api_scores = _fetch_api_scores()
 
-    print(f"[nrl] merged total: {len(merged)}; in window: {len(in_window)}")
+    fixtures: list[dict] = []
+    for m in current.get("matches") or []:
+        date_str = m.get("date", "")
+        time_str = (m.get("aedt_time") or "").strip()
+        dt_bne = _parse_static_time(date_str, time_str)
+        if not dt_bne:
+            continue
 
-    for f in in_window:
-        f.pop("_dt_utc", None)
-        f.pop("_key", None)
+        home = m.get("home") or "TBC"
+        away = m.get("away") or "TBC"
+        key = _fixture_key(date_str, home, away)
 
-    return in_window
+        fixture = {
+            "home": home,
+            "away": away,
+            "home_badge": badges.get(_normalize_team(home), ""),
+            "away_badge": badges.get(_normalize_team(away), ""),
+            "home_score": None,
+            "away_score": None,
+            "completed": False,
+            "day": dt_bne.strftime("%a %d %b"),
+            "time": "TBC" if time_str.upper() == "TBC" else _format_time(dt_bne),
+            "venue": m.get("venue") or "",
+            "datetime_iso": dt_bne.isoformat(),
+        }
+
+        score = api_scores.get(key)
+        if score:
+            fixture.update(score)
+
+        fixtures.append(fixture)
+
+    fixtures.sort(key=lambda f: f["datetime_iso"])
+    print(f"[nrl] {round_label}: {len(fixtures)} fixtures, byes={byes}")
+
+    return {"round_label": round_label, "fixtures": fixtures, "byes": byes}
