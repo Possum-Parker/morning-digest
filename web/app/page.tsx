@@ -50,7 +50,7 @@ export default function Page() {
     <main className="max-w-xl mx-auto px-4 pt-6 pb-12">
       <NotificationManager />
       <header className="mb-4">
-        <div className="text-xs uppercase tracking-widest text-muted">Morning Digest</div>
+        <div className="text-xs uppercase tracking-widest text-muted">Daily Digest</div>
         {digest && (
           <div className="text-sm text-gray-400 mt-0.5">{formatDate(digest.generated_at_utc)}</div>
         )}

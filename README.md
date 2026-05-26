@@ -1,6 +1,6 @@
-# Morning Digest
+# Daily Digest
 
-A personal, AI-generated morning briefing for an Australian investor.
+A personal, AI-generated daily briefing for an Australian investor.
 
 - **What you get:** every morning at 8 AM Brisbane time, an opinionated digest covering your share portfolio, global markets & commodities, Australian politics, the AI industry, and major sport — delivered as a PWA on your phone with a push notification.
 - **Who it's for:** just you. This is a personal repo. Keep it private.

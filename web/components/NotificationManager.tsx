@@ -75,7 +75,7 @@ export function NotificationManager() {
       <div className="section-card p-3 mb-4 border-accent/40 text-sm">
         <div className="font-semibold text-accent mb-1">🔔 Notifications blocked</div>
         <div className="text-xs text-gray-300 leading-relaxed">
-          Open iOS Settings → Morning Digest → Notifications → toggle Allow Notifications ON.
+          Open iOS Settings → Daily Digest → Notifications → toggle Allow Notifications ON.
         </div>
       </div>
     );

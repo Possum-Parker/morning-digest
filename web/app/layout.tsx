@@ -2,11 +2,11 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Morning Digest",
+  title: "Daily Digest",
   description: "Your personal morning briefing — markets, politics, AI, sport.",
   appleWebApp: {
     capable: true,
-    title: "Morning Digest",
+    title: "Daily Digest",
     statusBarStyle: "black-translucent",
   },
 };

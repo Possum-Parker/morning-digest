@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Morning Digest",
+    name: "Daily Digest",
     short_name: "Digest",
-    description: "Your personal morning briefing — markets, politics, AI, sport.",
+    description: "Your personal daily briefing — markets, politics, AI, sport.",
     start_url: "/",
     display: "standalone",
     orientation: "portrait",
