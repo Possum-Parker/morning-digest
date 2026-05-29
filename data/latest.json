@@ -1,222 +1,211 @@
 {
-  "headline": "Microsoft surges 3.3% last night on AI earnings momentum, while CBA drops 2% at today's close in a rough session for the ASX.",
+  "headline": "CBA surges to a new high while Anthropic overtakes OpenAI as the world's most valuable AI startup — big week for your portfolio.",
   "portfolio": {
-    "summary": "A mixed day across the portfolio. CBA was the standout loser on the ASX today, dropping over 2% — likely dragged down by cooling rate-hike expectations after softer inflation data (less rate pain is usually good for borrowers but can compress bank profit margins). VGE also took a solid hit, down 1.6%. On the US side (last night's session), Microsoft was the star, jumping 3.3% on continued AI revenue enthusiasm. GOOGL edged up slightly, TTWO barely moved.",
+    "summary": "A strong session on the ASX today, led by CBA charging to $165 — a solid 2.2% gain. Your energy ETF FUEL slipped as oil prices fell on a US-Iran ceasefire deal. Overnight on Wall Street, MSFT and TTWO both had strong nights, while GOOGL gave back nearly 2%. The broad diversified funds (VDHG, VGE, VTS) were quiet but positive.",
     "movers": [
       {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": 3.33,
-        "note": "Big jump last night — AI revenue story is gaining momentum, with analysts suggesting Microsoft's AI income may actually be larger than what's being reported. The Build Conference is also in focus with a new AI coding model announcement."
-      },
-      {
         "ticker": "CBA.AX",
-        "name": "Commonwealth Bank",
-        "change_pct": -2.06,
-        "note": "Dropped $3.40 to close at $161.41 today. Softer-than-expected inflation data is making traders think the RBA won't raise rates as much — which can squeeze bank lending margins over time."
-      },
-      {
-        "ticker": "VGE.AX",
-        "name": "Vanguard Emerging Markets ETF",
-        "change_pct": -1.59,
-        "note": "Down 1.6% at today's close to $91.50. Emerging markets remain sensitive to global risk sentiment and a slightly softer Aussie dollar."
-      },
-      {
-        "ticker": "FUEL.AX",
-        "name": "BetaShares Global Energy ETF",
-        "change_pct": -0.46,
-        "note": "Small dip to $8.60 today despite oil holding relatively steady. Middle East tensions (Strait of Hormuz risk) are in the background but haven't been enough to push energy stocks higher today."
-      },
-      {
-        "ticker": "VDHG.AX",
-        "name": "Vanguard Diversified High Growth ETF",
-        "change_pct": -0.54,
-        "note": "Edged down 0.5% to $75.40 today — nothing dramatic, just tracking the mild ASX softness."
+        "name": "Commonwealth Bank of Australia",
+        "change_pct": 2.24,
+        "note": "CBA had a great session today, closing at $165.02 — up $3.61. No major company-specific news, but the broader ASX financials sector was lifted by softer expectations around how far the RBA will hike rates, which generally helps banks."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
-        "change_pct": -0.39,
-        "note": "Basically flat last night at $217.61. GTA 6 hype continues but the stock is treading water ahead of the release."
+        "change_pct": 3.71,
+        "note": "TTWO jumped 3.7% last night to $225.95. GTA 6 hype is running hot — Rockstar's boss was out publicly teasing a PC port and online mode, and there was also a rare interview explaining the 13-year gap since GTA 5. Positive buzz for Take-Two's biggest asset."
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": 3.61,
+        "note": "Microsoft had a strong night, up 3.6% to $442.39. The company announced a new AI coding model at its Build developer conference, which got a warm reception from the market. AI momentum continues to drive MSFT higher."
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc. (Google)",
+        "change_pct": -1.98,
+        "note": "Google slipped nearly 2% last night to $382.40. Rival Anthropic made headlines by overtaking OpenAI as the world's most valuable AI startup, and Anthropic's new Claude Opus 4.8 model is being reported as beating Google's Gemini 3.1 Pro on coding benchmarks. More competitive pressure on Google's AI efforts."
+      },
+      {
+        "ticker": "FUEL.AX",
+        "name": "BetaShares Global Energy Companies ETF",
+        "change_pct": -1.63,
+        "note": "FUEL dropped 1.6% today to $8.46. Oil prices fell about 1.9% last night after reports of a US-Iran ceasefire deal eased fears of Middle East supply disruptions — less geopolitical risk means lower oil prices, which hits energy stocks."
+      },
+      {
+        "ticker": "VDHG.AX",
+        "name": "Vanguard Diversified High Growth ETF",
+        "change_pct": 0.8,
+        "note": "VDHG nudged up 0.8% to $76.00 today. Steady gains across global markets flowing through to this diversified fund."
       }
     ]
   },
   "markets": {
-    "summary": "Last night on Wall Street, both major US indices pushed higher — the NASDAQ had a particularly good session, up 0.91%, driven largely by tech and AI names. Gold had a standout night, jumping over 2% to $4,537 USD/oz, suggesting investors are still a bit nervous and looking for safe havens. Oil was roughly flat. The AUD barely moved, sitting around 71.7 US cents. ASX 200 data wasn't available at time of writing — the index had a rough day based on how individual stocks performed.",
+    "summary": "Last night on Wall Street, both the S&P 500 and NASDAQ edged up slightly — nothing dramatic but still holding near highs. Gold is surging, up nearly 2% to a remarkable US$4,588/oz. Oil fell on ceasefire news. The Aussie dollar is stronger at 71.86 US cents, which is worth keeping an eye on for your US holdings. ASX 200 data wasn't available for today's close.",
     "indicators": [
       {
         "name": "S&P 500",
-        "value": "7,565.53",
-        "change_pct": 0.6,
-        "note": "Last night's session — solid gains, broad-based rally."
+        "value": "7,576.56",
+        "change_pct": 0.17,
+        "note": "Last night's session — a modest gain, market holding firm near record levels."
       },
       {
         "name": "NASDAQ Composite",
-        "value": "26,918.30",
-        "change_pct": 0.91,
-        "note": "Last night — tech led the charge, Microsoft a big contributor."
-      },
-      {
-        "name": "Gold (WTI)",
-        "value": "$4,537.50 USD/oz",
-        "change_pct": 2.02,
-        "note": "Big move last night — gold surging as investors seek safety amid geopolitical uncertainty."
+        "value": "26,950.87",
+        "change_pct": 0.12,
+        "note": "Last night's session — tech stocks barely moved overall, though individual names like MSFT and TTWO ran hard."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$88.98 USD/bbl",
-        "change_pct": 0.34,
-        "note": "Essentially flat last night despite ongoing Middle East tensions."
+        "value": "US$87.23",
+        "change_pct": -1.88,
+        "note": "Oil fell after reports of a US-Iran ceasefire deal reduced fears of supply disruption from the Middle East."
+      },
+      {
+        "name": "Gold",
+        "value": "US$4,588.20",
+        "change_pct": 1.98,
+        "note": "Gold is on a tear — up nearly 2% and sitting at an extraordinary level above US$4,500. Investors are parking money in safe havens."
       },
       {
         "name": "AUD/USD",
-        "value": "0.7166",
-        "change_pct": -0.06,
-        "note": "Barely budged — Aussie dollar holding steady near 71.7 US cents."
+        "value": "0.7186",
+        "change_pct": 0.75,
+        "note": "The Aussie dollar strengthened as traders now reckon the RBA won't hike rates as aggressively as feared. A stronger AUD slightly reduces the value of your US holdings when converted back to Australian dollars."
       }
     ]
   },
   "politics": {
-    "summary": "Two big themes in Australian politics today: the Albanese government is pushing ahead with tax reform legislation, and softer inflation data is shifting expectations around interest rates — with bond markets now pricing in only one more RBA rate rise rather than several.",
+    "summary": "The big domestic story today is a split between the major banks on RBA rate expectations — NAB is bucking consensus and flagging more hikes are possible, while the Aussie dollar is reflecting market bets that the RBA is actually close to done. Mixed signals for borrowers and investors alike.",
     "stories": [
       {
-        "title": "Inflation surprise cools rate-hike bets",
-        "source": "AFR / 9News",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa2xsWnBwMTU5bXIzWjVRczBfUFRkTGRpZzVKSW9ZRUxtazlBZmxQRGdxVWVwaXhUVjBvaFF1MFZaYXNxaGF0Q0Nxd2JRQjAxV0pnM2pGUVM0NkxfRGFhX1NULXFTazFSRTNzWkZxSDRuOS1TRGRNdGdFX1BfQWRONFgwRFp1M05tRDBfaDhxNzRpSmNvM1d6V2hYNmdxUEFyaTJfZWVBVDl0LXc4dDdUNGhfclc3aHM?oc=5",
-        "why_it_matters": "Australia's latest inflation print came in softer than expected, meaning prices aren't rising as fast as feared. Bond markets — which are basically the big money bets on where interest rates are going — have now dialled back their expectations, pricing in just one more RBA rate hike rather than multiple rises. For everyday Aussies with mortgages, this is welcome news: the end of the rate-rise cycle looks closer than it did a month ago. For CBA and other bank shareholders, it's a bit more nuanced — fewer rate hikes can eventually pressure bank profit margins."
+        "title": "NAB defies consensus, flags more RBA rate hikes still possible",
+        "source": "Yahoo Finance Australia",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcFVEd0tHYnZrb0NTbFhVMzJfdFU4ZWNQWjBKYWlrY0xKR1pXd19aRmVnU0cxYVF1Si0zQlBNX3dqTjI3aTA1RDB0NEZlMkVLa2o0Z19tNFBYMzNlSExoVlhJUUQxY05yenBJakRBdEwzMnhReFRlU1pzVktvM1E2T3Vac0lBUVFRLXBFY2gzMU9hZHM0NWM4Y2xMdTkzTkJ2NGdHS2VVZ2QzdTNfQ19yRm5hNlNYb08yRkZka0tDYWtQNWNkQzVV?oc=5",
+        "why_it_matters": "NAB is pushing back against the market narrative that the RBA is done raising rates, saying it's 'not ready to rule out' further hikes. This matters because if NAB is right, mortgage repayments could rise further for variable-rate borrowers. It also puts pressure on rate-sensitive sectors like property and banking — ironic, given CBA jumped today. Watch for RBA meeting minutes for clues."
       },
       {
-        "title": "Government introduces first tranche of tax reform legislation",
-        "source": "The National Tribune",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdmtzYWkyZTNnRVdKbWtMMXo1cGZzOVRBMlF5RVVBRFVPV3ItYVpYY2U2X0NkQUpHQTNaakYxcU1DYlB5YmV4VDJCWGY3WlE5bjRPUDY2Mjd4eUdmcHo5RVN2bVZnT2NNQ2xkWEpqYzAxRjB0cUx5OGRoSWhWb044NlQycWYyYzM0RlVxUm5JNzNINjRlWXdtUlE5amlLdw?oc=5",
-        "why_it_matters": "The Albanese government has introduced the first tranche (first instalment) of its tax reform legislation into parliament. The package is contentious — businesses say they're still negotiating but the government appears to be moving ahead regardless. The reforms are expected to include changes that affect how investments and properties are taxed, though the full details of this tranche are still emerging. Worth watching if you hold investment properties or assets with capital gains."
-      },
-      {
-        "title": "Sky News host accuses government of 'ramming through' tax changes",
-        "source": "facebook.com / Sky News",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZnYwTUROZ2lzYjNDY2Yzc0JzMXNtbGszMDNoRXlHRjh3Z2FuRElfTjlzaWpDaFJSMUVkaVRIRVVQc0t4ODVjaUhuY0k5Nmd4dnB5WUZFR1g1aUQwWXdYWktEdmRvbVlDSE1wSlhEU2RlR3ZobllkemVJLUJodWpUT0ZIMUpkMmxobnp0QUNmQVo1N0RMSkp6bkk4RGdZYmVYclc2VUpTei1ZN0RjWFE0dVVJREN2ZG5lV3g2VnZWTVhOajZlR1lZWUtpX1hHWHA4N01MRVlxTDRZQmI5Qkdn?oc=5",
-        "why_it_matters": "Sky News host Sharri Markson is accusing the Albanese government of pushing through 'highly contentious' tax changes too quickly, despite the government's assurance that it's still in negotiation with the business community. The political fight over these reforms is heating up — the government is trying to sell them as fair while critics say businesses haven't had enough say. If the legislation changes how capital gains tax (CGT) — the tax you pay when you sell an asset for a profit — or negative gearing works, it could directly affect property investors and share traders."
+        "title": "Australian dollar slips as RBA rate hike odds decrease",
+        "source": "FXStreet",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTm1qZTBFU21ta1pjbkJKSzZ5UWV0YXFsT1JHRVZmck5KeS1hRU5RQm1kWlFPS0ZFSWpDbjB0SC1Qay05SUxQMV9JaDBlQWxfU01SNGl1bHBwY0FUb1JreHVhV2pSYmRfUTdGMzBhM1J4dWtONFdCaDhPcHZhQmZyc3U0bFBWZHkwMGhwTDZWYTJ0ZzFkbUNxX3FTMHd2SEhRcVZN?oc=5",
+        "why_it_matters": "The Aussie dollar was under pressure earlier in the day as bond market traders reduced their bets on further RBA rate hikes. When markets think rates will stay lower, the AUD tends to weaken because Australian interest-bearing assets look less attractive to foreign investors. However, the AUD still closed stronger on the day at 71.86 US cents — suggesting other factors (like risk appetite and commodity prices) were also at play."
       }
     ]
   },
   "ai": {
-    "summary": "A big day in AI news. Anthropic has launched a new flagship model that it claims beats both OpenAI and Google's latest offerings. Meanwhile, Microsoft is doubling down on AI coding tools at its Build conference — good news for MSFT holders. And a new study finds that basically every major AI model on the market is breaking EU rules.",
+    "summary": "Huge week in AI — Anthropic has overtaken OpenAI as the world's most valuable AI startup, and its new Claude Opus 4.8 model is beating rivals on coding benchmarks. The AI coding race is intensifying with Microsoft, Anthropic, Google, and even Elon Musk's Grok all competing hard. Meanwhile, a fascinating experiment showed Claude was the 'safest' AI in a simulated society — Grok essentially caused its own civilisation's collapse.",
     "stories": [
       {
-        "title": "Anthropic launches Claude Opus 4.8, claims it beats GPT-5.5 and Gemini 3.1 Pro",
+        "title": "Anthropic overtakes OpenAI as world's most valuable AI startup",
+        "source": "The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSi1XZmpReGJ1X3dWZ0JsQ1BHXzloYm93YjV2N09HX0VlRTFDa2huRE9jX3h6cWxQSDJDdVhnR1Awc01WZDRtVW13Zk50T3dINkJvSS13RkQ3WTM3d2NhRWpZWDV5VEhwV0FQMGRwNEJCdy1idFhIZXBqR3hUX0RHOHdEOU9lZU1GNXc?oc=5",
+        "why_it_matters": "Anthropic — the company behind the Claude AI assistant — has now surpassed OpenAI (maker of ChatGPT) in startup valuation. This is a big deal because for years OpenAI was seen as the unchallenged leader. Anthropic is backed by billions from Amazon and Google. For your GOOGL holding, this is a double-edged sword: Google has a financial stake in Anthropic's success, but Claude is also directly competing with Google's own Gemini AI products."
+      },
+      {
+        "title": "Anthropic launches Claude Opus 4.8 — beats GPT-5.5 and Gemini 3.1 Pro on coding",
         "source": "TradingKey",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTEFpMENaZDI1ZHlrMkJFY3V4R1BJMnpOaXZVT3hHZUNReWZPYVdBMlUyVVlTQ0RWRl8zMklLTVdNRi1vcjNQQVBVMHNjNkxlTEtzenFYSVhrM0MzTEhfOUp0RnhSdHdOV1pWeDJKekhnVHpzMFBaVHRpN1RxNTI3Wl9VYUtRby16OTJaeUpiN09iX2wzWnR3MzBOVzliQ29HYjJfUE5HbnVSbWdZYXB6VzVpLUtsRkthWEVUXzZZS1I?oc=5",
-        "why_it_matters": "Anthropic — the AI company backed partly by Google — has released Claude Opus 4.8, its most powerful model yet. The company claims it outperforms OpenAI's GPT-5.5 and Google's Gemini 3.1 Pro on benchmarks (standardised tests used to compare AI performance). This is relevant for GOOGL holders: Google's AI division is under increasing competitive pressure from both Anthropic (which Google itself funds) and OpenAI. The AI race is moving extremely fast, and being second-best even briefly can cost market share."
+        "why_it_matters": "Anthropic's new Claude Opus 4.8 model has reportedly topped benchmarks against both OpenAI's GPT-5.5 and Google's Gemini 3.1 Pro, particularly on coding tasks. This is the kind of news that matters for your GOOGL holding — Google's AI products are being outcompeted in one of the most commercially important areas (coding tools for developers). It also adds context to why GOOGL fell nearly 2% last night."
       },
       {
-        "title": "Microsoft to launch new AI coding model at Build Conference",
+        "title": "Microsoft unveils new AI coding model at Build Conference",
         "source": "Global Banking & Finance Review",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanU5OGk1NkE3aUV0N2pjd28yaGpzUjMwbjgyUXJxZ2NtaEgxd0UyRnZYN3VtVHRxYzVrME50MnVzNlFXNURRU2phWlRoUXN6bXgxM1BOaUp3bV9mcUwxTHVoVmc3S1JzWkw1S1Q0RDQyb0VoNjA2RWl5aFBwX3d5NjUxR1lEcm8yMUlrOXM2RmkwWHdrd1AybElVeVVsQQ?oc=5",
-        "why_it_matters": "Microsoft is using its annual Build developer conference to unveil a new AI model specifically designed for writing and improving code. This is a direct push into one of the most commercially valuable AI use cases — software development. Analysts are already suggesting Microsoft's AI revenue may be bigger than reported. A new coding-focused model could accelerate uptake of tools like GitHub Copilot, which charges businesses per user per month. Good news for MSFT holders."
+        "why_it_matters": "Microsoft used its annual Build developer conference to launch a new AI model specifically targeting coding — a market that's worth billions as businesses pay up for tools that write and review software. This directly contributed to MSFT's strong 3.6% night last night. For your MSFT holding, this is a clear tailwind: the market rewarded the announcement and Microsoft is staying competitive in the AI arms race."
       },
       {
-        "title": "All major AI models violate EU regulations — study",
-        "source": "Computerworld",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYUZUMnBoSUJvbTJGX3RYRndMT0wwc0x1Z01ldHl5V3FtTlJFcEtDU29iM05oVmMzbl9xaHpiNE45X2RzeHE0TUtDazlXR2V3cHVQUV9mdUZmRnVobjlEVTMtUU11aHFlRHhrWUJyZ3F0QkZ3QjdYZGhEM1M4NjA1YUlvQnU1NzVmTngweGpCcUFQajNkV1VBUXNOdjFoREd1?oc=5",
-        "why_it_matters": "A new study has found that every major AI model currently on the market — including those from OpenAI, Google, Anthropic and others — is in breach of the EU's AI Act (Europe's new set of rules for how AI must behave safely and transparently). This is a significant finding: it means the world's biggest AI companies are all technically operating illegally in Europe right now. For investors in GOOGL and MSFT, this creates regulatory risk — potential fines or forced changes to how their AI products work in a market of 450 million people."
-      },
-      {
-        "title": "OpenAI and Anthropic dominate AI revenue — and communicate very differently",
-        "source": "PR Newswire",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTzVfZ0ZQMFRubm5sTmJTaEVoRDd1bGtRLURPbTEzc3c4UmJNelFLSl9xQWFncGpQWDJJdHhMTThMVmFYaG5WdS0xTEFMcGVFTUlESHlBcVc2SXNKWWRaVmJKUnN0dDlaRkV5S3ZBNXEteVhqeWpjZ1Vya2FzejF0aFExeVluN2IxLXNvbDlHQlpZZFpfaTc0V3VyNTB3MnMxRllMV25aTEVlQWtyWnJRbGI2TlhMOHl3YXprUUxLMDNKQ3lXWVY2N3Rn?oc=5",
-        "why_it_matters": "A new market analysis shows OpenAI and Anthropic are pulling away from the pack in terms of actual AI revenue — not just hype. The report also highlights how the two companies take very different approaches to public communication: OpenAI is flashy and consumer-focused, Anthropic is quieter and enterprise-focused. For GOOGL holders, this is a reminder that Google's Gemini is competing in a market where the top two revenue spots are held by rivals."
+        "title": "Researchers ran a simulated society with AI models — Claude thrived, Grok went extinct",
+        "source": "Fortune",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVXJvbDVxSVRGU1NuZ1FhNUotNVpFdDBQTGpyLVdHanlsREZGVGxRVHVoblVPMmdTRUdQZlZCeE9oNzY4ZDFqZE5KVkpWNzBTRmhQdmdZT3FCMDhpb2hMWDVEYkN3TzVaLWRfaU9UR3JnbllrV2JCWGtoM3ZCTU5Yam5tb1E?oc=5",
+        "why_it_matters": "Researchers put Claude, ChatGPT, Gemini, and Grok in a simulated city to see how each AI-run society would evolve. Claude's society was the most stable and cooperative. Grok — Elon Musk's AI — caused societal collapse within days, with its civilisation going extinct. ChatGPT and Gemini fell somewhere in between. It's a quirky but telling experiment about the behavioural differences between AI systems — relevant as businesses choose which AI to trust with real decisions."
       }
     ]
   },
   "sport": {
-    "summary": "State of Origin is the talk of the sporting nation after Game 1 delivered one of the most dramatic finishes in the series' history. NRL Round 13 kicks off tomorrow night. AFL has its own controversy brewing over a baffling no-goal call.",
+    "summary": "NRL Round 13 kicks off tonight with Sharks v Sea Eagles at 8pm. There's a big injury cloud over the Sharks and NSW Blues after Nicho Hynes' replacement shone but hooker Cam Brailey suffered a suspected broken arm. In AFL, Geelong copped a reality check in a thriller, and the AFL handed down a verdict on a controversial no-goal call.",
     "stories": [
       {
-        "title": "'Greatest escape' — NSW make history in stunning Origin send-off drama",
-        "source": "Fox Sports",
-        "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOYjNBUE1wWXFOX3EtOFZ2a0VNX0xLYWdjQk8yR2Y0MlQ3ZGdUS1JuVDdTbjJUcXpKWWNFSUswTHc2Z3lmdzhUS251Z0VIUEVvM2FhUnQ4bnNTYnNnbUxKTzBnbUtjeHBtaWxJbUFSdGNTcWZMY3RadVdkOXkzT2xsaU9HdW50dnp5QlVoUy13Wk1mMks1cFk4eV9rdnhqZmo0OXo2Sy1SZE9OTEprajh1VlM4VjMzam1ubE0zVmJ2NE1SemthQl96R2JiNFFvQkZjQ1JzWWVaeklsemJJUklGNno0Yno4YUhRMk1ZUDhDSlhtcW9SVEszZTYxQzBlUDYyQWtDbFJ1aGhabi1Kd1MyMV95SHk1ZFlkdGtCblVNYmJGbmNBdEd5UnRXZmVkdWNWM1BKN3FNZmwwM2dxY3c?oc=5",
-        "category": "NRL / State of Origin",
-        "why_it_matters": "Game 1 of the 2026 State of Origin series delivered one of the most extraordinary results the series has ever seen. NSW pulled off what's being called the 'greatest escape' in Origin history after a send-off dramatically changed the game. The Ponga send-off is at the centre of the controversy — a fiery post-match debate erupted, with a former Blue clashing with reporters and the NRL handing down its official verdict on the incident. The ref-Bunker exchange has been described as 'startling' and Queensland fans are furious about how it unfolded."
-      },
-      {
-        "title": "NRL Round 13 team lists confirmed",
-        "source": "Sporting News",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMFc4ZmVZNnJQMFVXbm1uSGthRE1LbGd5dkNMNjNRektpTnl0M0tEcTBzeGdNWGRWRkFhSmRKc255cmFPVmh2aENvUVhXYmdNWUJfUkF3UjdWVnZzNENKWkhtQ0dKMXR5cFdKdWphakJaTkVUTEdrbU9KOWFRc1ZHWVRFOWZnRUdGVC1qalVkOVljTE5uTHR4Tk5HTlBVNFR6RHdSNHBMc3N6RlZTX3lhaWFFTDhJZnNhck4xcVVoa2ptM1J4SkdqSmdGS3k?oc=5",
+        "title": "Sharks hooker Cam Brailey suffers suspected broken arm in win over Manly",
+        "source": "SMH.com.au",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbFdXd0JjdE1IbFZEUng2VGdwR2w2alpnbHFSdmFnVzNtQVRzSXVvSFBwYWRMci1Ld05rQ09ic0gzUVBvQXc0MGpsZHIxUmhqQnVGMVRYM1pUT3lnLV9iTkg3SUlDRndVc3poSHlibktJVktPaFFLcTFHSV9uZDlEU1VMT3RNeUtGZy1RUE9nbWtaMkRPa1diV2UtVDVfN1NDRnlnZHExTHZabmpOQmZ5ZzlzdXpuU0NhQ2p1WEFGNGRQYUlnUjVv?oc=5",
         "category": "NRL",
-        "why_it_matters": "All Round 13 team lists are now confirmed. The round kicks off tomorrow night (Friday 29 May) with Sharks vs Sea Eagles at 8pm. The Dolphins, Rabbitohs and Titans are all on the bye this week. Broncos host the Dragons on Sunday at Suncorp Stadium — the local game to watch for Gold Coast fans. Panthers take on the Warriors Sunday evening."
+        "why_it_matters": "Cronulla hooker Cam Brailey is feared to have broken his arm in tonight's match against Manly — a potentially season-ending injury. This is a double blow: it's a massive loss for the Sharks heading into the back half of the season, and Brailey is also a NSW State of Origin squad member, putting his rep season in serious doubt. The Sharks still won the game, with their backup playmaker stepping up in Nicho Hynes' absence."
       },
       {
-        "title": "AFL baffled by 'extraordinary error' as Hawks seek please explain over no-goal",
-        "source": "Fox Sports",
-        "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPdnNVYWk2STAwQzFPeExPYmt2NHp3aE1FcjRfOEkxWXctTWQ3QWNfTTVzUEdScWN3V3Z3Ukd0cl9HVUhCdGlZRHdBaE5iQ2lKU0ZGUTdSenhmUjBCbUp0Y0pRNHc5c2hYZThadFFhSUpnOEZEa2JYVVhXUDViUWJ6Y0NyMFU2V29KUjdfTmdBYkd6a0t4c1o5SW91Q21YajZuUy1ZWDJiX3RHbEthdjJoWXg0bVlTTEtxVnhLYWpoYURoVlJveGtDdllrX0MxUGgtRkk5NmUtNGVJTWVOOFFtaFBvVDYtRk9INGJPOEpKOVlYQWtwcmI1eGtuZGpaLTRIV3dTTk1ub1V4RlJHTnJ1U2xLUlUzeXJrNDV5UFN6dmd4NnRDVEhmMmZvYlNYNm5KUkZMQTMxMzBsOW1vX0E5SDNFTTNTaXIxNGJmd1VQMDBKb0tBc1d4QjdnYURsM1BLUVFXUWdxWTk3UQ?oc=5",
+        "title": "NRL Round 13 tips: Ricky Stuart's blow-up expected to get a reaction",
+        "source": "Nine.com.au",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVFFRc2FpV0djT3IxN1ByLS1USEY3U0EzRlVwNEp2X2VWbGpuenl5NWxvbkJqSHViQ3FLeUpmNi13M1JDcEt6a0ZFTnQ2Ykkydk5KTUNKT1FMejNEU1Y3eTBJNFFnN0psVWZRQUlvTlVGZTBKTGRBcXFpWlFMV29XZTZkOXhtTmdGRTJvVmNnbVl5U1FtYzlyS0wtbFNvVUhkSGVOMkdSRGxCN1o0S0lULVBaNVZhcDVJV3fSAXdBVV95cUxQSTB6c2RqbzZ6dy1MX1NPa3JKM1BWZXkwLUJJM3NTa2RBTlZoVnNfUkkxV2xIcTdRVmU5YjlsbmpGQnFYNV9pWEFWY2hQa0pkUWdnekVsZUtzMlpVOE9MNHZjRE5ZRkhfUC0tQ3pyYU1nYmJCNHlVVQ?oc=5",
+        "category": "NRL",
+        "why_it_matters": "Round 13 tippers are pointing to Raiders v Cowboys as the most intriguing match, with Raiders coach Ricky Stuart reportedly having a 'big blow-up' during the week that pundits expect to fire up his team. Raiders host the Cowboys on Sunday at GIO Stadium. Also worth watching: Panthers v Warriors at Commbank Stadium on Sunday evening — Panthers are heavy favourites."
+      },
+      {
+        "title": "AFL: Geelong cops reality check in epic thriller",
+        "source": "News.com.au",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQkR0OER1cEZncDExZEhFMWVRTkF0d0lvVEhIdXItdTBrNHJ3RGM3TDRxSVNRRWlOZHI5NUtKejduLWlKSzRKOHQ2YkpmLUt5T29LYUFVaHB3TktJLVFGNEdjVlRBWFRJb2REUWRMdDVBcjF1elBZRmtBQTBvazBWUzI4aUNjRlp2OWg4a2wxUDhTcUU2ZnhHcF93RlBRaFpNWElNUFMxNXlmU2RCYWxkMVlYc01WQnJzekJuLTl4SlpDV185WEN6NTd4WnBpSXhGZThyYtIB2gFBVV95cUxQX1NIdUlNcFlpdldMaXByS0trbUEtT1pnblFaSWFwdlhWeTJuU3ZJZ2trRlhOT25wclpPYXNPWWRFc1ZuNGs1NjhJNTE1T216Ri1KOWtjUG9aYU9xRXNfd2VfMWZfRkszeUVfUnl6N0NabjdMUFNuVnpjMWZmODFkRUktTkc3MFdLZ2M5NHBhZU9SVlpOLVI5amZLSjJocXAtT2NIOXdaUV9wczRydkhVOUg4YjJDT2FmcUxmcW1mcW94cEJHdkE5M21JanhCd0Z5a1JxLXVZWHpvdw?oc=5",
         "category": "AFL",
-        "why_it_matters": "Hawthorn are furious after what the AFL world is calling an 'extraordinary error' — a legitimate goal was ruled a no-goal in a recent match, potentially costing the Hawks crucial points. The club has formally requested a please explain from the AFL. The incident has left commentators and fans across the competition 'baffled', reigniting the ongoing debate about the reliability of the AFL's goal review technology and officiating standards."
+        "why_it_matters": "Geelong were taken to the limit in what's being described as an AFL 'epic' this week, suffering a loss that brings them back to earth after a strong start to the season. No specific scoreline available from the article, but the result is significant in the context of the premiership race — the Cats are no longer unbeatable."
       },
       {
-        "title": "Origin fallout: biggest loser, unexpected winners and the real aftermath",
-        "source": "CODE Sports",
-        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNbDdmWUE1d2s5SndTYWZjSGFFYnNBb1pZNldkY2RibDh2d1d2WVRrSEpIenVaVHpsMk01c1ZacF9jcFVsM3dwT0tNSTJDZWVva2hKblFaMEhBOGlHX3NYVkpkWExCb3RLTUNuV3BtcnEwWFVUcTBXS0E4dFBfOGxuV3Z3dlZ3STV2S013cUdOTkl3NnRVNGlnektEQmdhNGlfNHN6bW5ObEJpVkR3M19LMzN1c3J1MjhkbjkzcmtwM2drUG5zR1JIcVJxR1JYN3loSUxnNmwwcG9FakZCS2ZuRVEzZnFVMEp5b09rcnM0djFUOEFZRDFwTXJTZFNoa2VOS3F1Y1JGQlRPYmc?oc=5",
-        "category": "NRL / State of Origin",
-        "why_it_matters": "CODE Sports has dug into the real fallout from Origin Game 1 beyond just the result. The send-off drama involving Ponga is identified as the pivotal moment, with analysis of who truly lost out (Queensland and their selection calls) and who emerged as surprise beneficiaries on the NSW side. The piece also looks at what the result means for the series and how both camps will approach Game 2."
+        "title": "AFL hands down verdict on controversial no-goal call — rules it an 'extraordinary error'",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPdnNVYWk2STAwQzFPeExPYmt2NHp3aE1FcjRfOEkxWXctTWQ3QWNfTTVzUEdScWN3V3Z3Ukd0cl9HVUhCdGlZRHdBaE5iQ2lKU0ZGUTdSenhmUjBCbUp0Y0pRNHc5c2hYZThadFFhSUpnOEZEa2JYVVhXUDViUWJ6Y0NyMFU2V29KUjdfTmdBYkd6a0t4c1o5SW91Q21YajZuUy1ZWDJiX3RHbEthdjJoWXg0bVlTTEtxVnhLYWpoYURoVlJveGtDdllrX0MxUGgtRkk5NmUtNGVJTWVOOFFtaFBvVDYtRk9INGJPOEpKOVlYQWtwcmI1eGtuZGpaLTRIV3dTTk1ub1V4RlJHTnJ1U2xLUlUzeXJrNDV5UFN6dmd4NnRDVEhmMmZvYlNYNm5KUkZMQTMxMzBsOW1vX0E5SDNFTTNTaXIxNGJmd1VQMDBKb0tBc1d4QjdnYURsM1BLUVFXUWdxWTk3UdIB6gJBVV95cUxPdnNVYWk2STAwQzFPeExPYmt2NHp3aE1FcjRfOEkxWXctTWQ3QWNfTTVzUEdScWN3V3Z3Ukd0cl9HVUhCdGlZRHdBaE5iQ2lKU0ZGUTdSenhmUjBCbUp0Y0pRNHc5c2hYZThadFFhSUpnOEZEa2JYVVhXUDViUWJ6Y0NyMFU2V29KUjdfTmdBYkd6a0t4c1o5SW91Q21YajZuUy1ZWDJiX3RHbEthdjJoWXg0bVlTTEtxVnhLYWpoYURoVlJveGtDdllrX0MxUGgtRkk5NmUtNGVJTWVOOFFtaFBvVDYtRk9INGJPOEpKOVlYQWtwcmI1eGtuZGpaLTRIV3dTTk1ub1V4RlJHTnJ1U2xLUlUzeXJrNDV5UFN6dmd4NnRDVEhmMmZvYlNYNm5KUkZMQTMxMzBsOW1vX0E5SDNFTTNTaXIxNGJmd1VQMDBKb0tBc1d4QjdnYURsM1BLUVFXUWdxWTk3UQ?oc=5",
+        "category": "AFL",
+        "why_it_matters": "The AFL today handed down its review of a controversial no-goal decision from a recent match, calling it an 'extraordinary error' by officiating. The AFL's verdict is notable because it's a rare public admission of a significant officiating mistake. No detail on which clubs were affected is available from the headline alone, but it adds to the ongoing conversation about the standard of AFL officiating in 2026."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "MSFT: Hold — AI tailwind is real",
+      "title": "MSFT: AI coding momentum is real — hold confidently",
+      "detail": "Microsoft's Build conference announcement of a new AI coding model got a strong market reaction last night (+3.6%). This isn't a one-off — it's part of a sustained AI strategy that's working. No reason to sell. If you've been sitting on the fence about adding more, the fundamentals remain strong.",
+      "urgency": "green",
       "ticker": "MSFT",
-      "action": "hold",
-      "detail": "Microsoft jumped 3.3% last night and the fundamental story keeps getting stronger. New AI coding model at Build, analysts saying AI revenue is probably being underreported, and Azure cloud growth all point in the right direction. No reason to sell — but after a big single-night move, don't chase it either. Hold and let the story play out.",
-      "urgency": "green"
+      "action": "hold"
     },
     {
-      "title": "CBA.AX: Hold — softer rates are a double-edged sword",
-      "ticker": "CBA.AX",
-      "action": "hold",
-      "detail": "CBA dropped 2% to $161.41 today. The RBA rate story is the driver — fewer rate hikes sounds good but can squeeze what banks earn on loans over time. CBA is still trading at a hefty premium to its actual value by most measures. No need to panic-sell today's dip, but equally no screaming reason to add more at this price.",
-      "urgency": "orange"
+      "title": "GOOGL: Under genuine competitive pressure from Anthropic",
+      "detail": "Google fell nearly 2% last night as Anthropic officially overtook OpenAI in valuation and its new Claude Opus 4.8 beat Gemini 3.1 Pro on coding benchmarks. Google's AI moat is being challenged. That said, Google has a stake in Anthropic AND its own AI products, so it's not all bad. Hold for now — no need to panic — but this is worth monitoring closely over coming weeks.",
+      "urgency": "orange",
+      "ticker": "GOOGL",
+      "action": "hold"
     },
     {
-      "title": "VGE.AX: Hold — emerging markets drag continues",
-      "ticker": "VGE.AX",
-      "action": "hold",
-      "detail": "Down 1.6% today to $91.50. Emerging markets are sensitive to global jitters and a stronger USD. No specific bad news — just broader pressure. If you're long-term on emerging markets, stay the course.",
-      "urgency": "green"
-    },
-    {
-      "title": "EU AI regulations: watch the GOOGL and MSFT risk",
-      "detail": "A new study found every major AI model — including Google's Gemini and Microsoft's Copilot — is technically in breach of EU AI regulations. The EU has 450 million consumers and real teeth when it comes to fines (they've hit Google before for billions). This is a slow-burn risk worth keeping an eye on over coming months as enforcement ramps up.",
-      "urgency": "orange"
-    },
-    {
-      "title": "Gold surging — safe haven demand rising",
-      "detail": "Gold jumped over 2% last night to $4,537 USD/oz. When gold moves this sharply it usually signals that big investors are nervous about something — could be Middle East tensions, US debt concerns, or broader uncertainty. Not a direct portfolio move today but worth watching as a signal of where global risk appetite is heading.",
-      "urgency": "orange"
-    },
-    {
-      "title": "TTWO: Hold — GTA 6 narrative intact",
+      "title": "TTWO: GTA 6 hype building — PC and online mode teased",
+      "detail": "Take-Two's stock is up 3.7% last night and the GTA 6 PC port and online mode tease from Rockstar's boss is adding fuel to the fire. GTA 6 is shaping up to be one of the biggest game launches ever. Hold — the story is still playing out and the positive catalyst is intact.",
+      "urgency": "green",
       "ticker": "TTWO",
-      "action": "hold",
-      "detail": "Take-Two's CEO is talking confidently about GTA 6 not cannibalising GTA Online revenue, and says there's 'a lot of work to do' post-launch — hinting at years of DLC and monetisation ahead. The stock barely moved last night. The GTA 6 release is the big catalyst — sit tight.",
+      "action": "hold"
+    },
+    {
+      "title": "FUEL.AX: Oil fell on US-Iran ceasefire news — watch the situation",
+      "detail": "Crude oil dropped 1.9% after reports of a US-Iran ceasefire deal reduced Middle East supply risk. FUEL.AX fell 1.6% today as a result. If the ceasefire holds, oil prices could stay under pressure. If it breaks down (these things often do), oil snaps back. Keep an eye on Middle East news this week before making any moves.",
+      "urgency": "orange",
+      "ticker": "FUEL.AX",
+      "action": "hold"
+    },
+    {
+      "title": "AUD strengthening — slightly reduces the value of your US holdings",
+      "detail": "The Aussie dollar is now at 71.86 US cents, up 0.75% today. A stronger AUD means your US-denominated holdings (GOOGL, MSFT, TTWO) are worth slightly less when converted back to Australian dollars. Nothing to act on right now, but worth being aware of if the AUD keeps climbing.",
       "urgency": "green"
     }
   ],
   "weather": {
     "location": "Gold Coast",
-    "icon": "⛅",
-    "condition": "Partly cloudy",
-    "temperature_c": 14.1,
-    "high_c": 21.0,
-    "low_c": 13.9,
-    "rain_chance_pct": 12,
+    "icon": "☀️",
+    "condition": "Clear sky",
+    "temperature_c": 16.5,
+    "high_c": 21.8,
+    "low_c": 14.4,
+    "rain_chance_pct": 2,
     "rain_mm": 0.0,
     "tomorrow": {
-      "icon": "🌤️",
-      "condition": "Mainly clear",
-      "high_c": 21.1,
-      "low_c": 14.0,
-      "rain_chance_pct": 0,
-      "rain_mm": 0.0
+      "icon": "🌦️",
+      "condition": "Light drizzle",
+      "high_c": 21.3,
+      "low_c": 12.6,
+      "rain_chance_pct": 12,
+      "rain_mm": 0.2
     }
   },
   "nrl_round": "Round 13",
@@ -318,5 +307,5 @@
     "Rabbitohs",
     "Titans"
   ],
-  "generated_at_utc": "2026-05-28T18:24:51.532518+00:00"
+  "generated_at_utc": "2026-05-29T18:20:17.436432+00:00"
 }
