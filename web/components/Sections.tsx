@@ -228,6 +228,11 @@ function NRLCard({ fixture }: { fixture: NRLFixture }) {
   const completed = Boolean(
     fixture.completed && fixture.home_score != null && fixture.away_score != null
   );
+  const live = Boolean(
+    !completed && fixture.live_label && fixture.home_score != null && fixture.away_score != null
+  );
+  const showScores = completed || live;
+
   const homeWins = completed && (fixture.home_score ?? 0) > (fixture.away_score ?? 0);
   const awayWins = completed && (fixture.away_score ?? 0) > (fixture.home_score ?? 0);
 
@@ -237,17 +242,17 @@ function NRLCard({ fixture }: { fixture: NRLFixture }) {
         <TeamRow
           name={fixture.home}
           badge={fixture.home_badge}
-          score={completed ? fixture.home_score : null}
+          score={showScores ? fixture.home_score : null}
           isWinner={homeWins}
         />
         <TeamRow
           name={fixture.away}
           badge={fixture.away_badge}
-          score={completed ? fixture.away_score : null}
+          score={showScores ? fixture.away_score : null}
           isWinner={awayWins}
         />
       </div>
-      {!completed && (
+      {!completed && !live && (
         <div className="text-right text-xs shrink-0 self-center">
           <div className="text-gray-300 font-medium whitespace-nowrap">{fixture.day}</div>
           <div className="text-muted whitespace-nowrap">{fixture.time}</div>
@@ -256,6 +261,14 @@ function NRLCard({ fixture }: { fixture: NRLFixture }) {
       {completed && (
         <div className="text-[10px] uppercase tracking-widest text-muted shrink-0 self-center">
           Full Time
+        </div>
+      )}
+      {live && (
+        <div className="shrink-0 self-center flex items-center gap-1.5">
+          <span className="w-1.5 h-1.5 rounded-full bg-negative animate-pulse" />
+          <span className="text-[10px] uppercase tracking-widest font-bold text-negative">
+            {fixture.live_label}
+          </span>
         </div>
       )}
     </div>

@@ -61,6 +61,7 @@ export interface NRLFixture {
   home_score?: number | null;
   away_score?: number | null;
   completed?: boolean;
+  live_label?: string | null; // e.g. "1st Half", "Half Time", "2nd Half"
   day: string;
   time: string;
   venue?: string;
