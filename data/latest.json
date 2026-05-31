@@ -1,206 +1,213 @@
 {
-  "headline": "ASX surges 1.6% to close at 8,732 as CBA hits a fresh high, while MSFT jumped 5.5% last night on strong momentum — but GOOGL slipped 2.5%.",
+  "headline": "ASX 200 surged 1.6% to close at 8,731 today while CBA hit a new high — but MSFT's 5.5% jump last night is the big overnight story heading into a fresh US week.",
   "portfolio": {
-    "summary": "A mixed bag across the portfolio today. CBA was the standout on the ASX, closing up 2.2% to $165.02 — a strong session for the bank. FUEL.AX slipped 1.6% as oil prices fell last night. On the US side (last night's session), MSFT had a cracker — up 5.5% to $450.24 — while GOOGL shed 2.5% to $380.34. TTWO nudged up 2.9%. The Vanguard ETFs were all quietly positive.",
+    "summary": "A solid day overall. CBA was the standout on the ASX, closing up 2.2% to $165.02 — a strong move for a big bank. VDHG and the emerging markets ETF (VGE) both nudged higher. On the US side (last night's session), Microsoft ripped 5.5% higher while GOOGL slid 2.5% — a real tale of two tech giants. FUEL.AX dipped slightly as oil prices fell.",
     "movers": [
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": 5.45,
-        "note": "Big night for Microsoft last session — up 5.5% to USD $450.24. Strong momentum, likely driven by continued enthusiasm around its AI products and cloud growth. Compare that to Amazon, whose revenue trends have been drawing less favourable comparisons lately."
+        "note": "Jumped 5.5% last night to $450.24 USD — a big single-session move. Amazon vs. Microsoft revenue trend analysis is doing the rounds, suggesting MSFT's cloud and AI business is pulling ahead. Strong momentum heading into tonight's US session."
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet (Google)",
         "change_pct": -2.51,
-        "note": "Google gave back 2.5% last session, closing at USD $380.34. No specific news today, but the stock has been under pressure as Microsoft and others gain ground in the AI race."
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "change_pct": 2.89,
-        "note": "Take-Two closed up 2.9% last session at USD $224.16. Rockstar Games (a Take-Two studio) made headlines with GTA 6 developers announcing a union — a major first for the gaming industry."
+        "note": "Fell 2.5% last night to $380.34 USD with no major news catalyst in the data. Underperforming against MSFT in the AI race is likely weighing on sentiment."
       },
       {
         "ticker": "CBA.AX",
         "name": "Commonwealth Bank",
         "change_pct": 2.24,
-        "note": "CBA had a strong session today, closing up 2.2% at $165.02. The broader ASX financials sector benefited from a solid market day, with the ASX 200 up 1.6%."
+        "note": "Closed up 2.2% to $165.02 AUD today — riding a broadly strong ASX session. Banks often move with the overall market, and today's 1.6% ASX 200 gain lifted the whole sector."
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "change_pct": 2.89,
+        "note": "Up 2.9% last night to $224.16 USD. GTA-related news flow continues — Rockstar Games developers announced a union, which is a big industry moment but likely won't derail GTA 6 hype."
       },
       {
         "ticker": "FUEL.AX",
         "name": "BetaShares Global Energy ETF",
         "change_pct": -1.63,
-        "note": "FUEL slipped 1.6% today to $8.46, tracking a fall in oil prices last night (WTI crude down 1.7% to $87.36). Goldman Sachs is also warning that energy markets may be entering a 'demand destruction phase' — meaning high prices are starting to cause people and businesses to use less energy, which pushes prices down."
+        "note": "Slipped 1.6% to $8.46 today as crude oil fell 1.7% to $87.36/barrel. Goldman Sachs has warned energy markets may be entering a 'demand destruction' phase — meaning high prices are starting to reduce how much oil people and businesses use."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": 0.8,
-        "note": "Quiet positive session for VDHG, up 0.8% to $76.00 on the back of a strong ASX day."
+        "note": "Quietly ticked up 0.8% to $76.00 today, tracking the broader ASX and global market gains."
       }
     ]
   },
   "markets": {
-    "summary": "The ASX 200 had a solid session today, closing up 1.6% at 8,732 — a meaningful one-day gain. Last night in the US, both the S&P 500 (+0.2% to 7,580) and NASDAQ (+0.2% to 26,973) nudged up modestly. Gold surged 2.1% to a lofty USD $4,593/oz, suggesting investors are still seeking safe havens. Oil fell 1.7% to $87.36. The Aussie dollar is sitting at USD 71.86 cents, up slightly.",
+    "summary": "The ASX 200 had a cracking session today, up 1.6% to close at 8,731 — a big single-day move for the local market. Last night on Wall Street, both the S&P 500 and NASDAQ edged marginally higher (around +0.2%), so the ASX outperformed. Gold surged over 2% last night to a massive $4,593/oz USD, while oil slid 1.7%. The Aussie dollar is sitting at 71.9 US cents, up slightly.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,731.7",
         "change_pct": 1.62,
-        "note": "Strong close today — up 1.6% for the session."
+        "note": "Strong local session — up 1.6% today."
       },
       {
         "name": "S&P 500",
         "value": "7,580.1",
         "change_pct": 0.22,
-        "note": "Last night's session — modest gains of 0.2%."
+        "note": "Marginal gain last night — essentially flat."
       },
       {
         "name": "NASDAQ Composite",
         "value": "26,972.6",
         "change_pct": 0.2,
-        "note": "Last night's session — flat to slightly positive."
+        "note": "Flat last night despite MSFT's big move."
+      },
+      {
+        "name": "Gold (WTI)",
+        "value": "$4,593.00",
+        "change_pct": 2.08,
+        "note": "Gold surging — up 2% last night to near all-time highs."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "USD $87.36",
+        "value": "$87.36",
         "change_pct": -1.73,
-        "note": "Oil fell 1.7% last night — headwind for FUEL.AX."
-      },
-      {
-        "name": "Gold",
-        "value": "USD $4,593",
-        "change_pct": 2.08,
-        "note": "Gold surged 2.1% last night — investors still keen on safe havens."
+        "note": "Oil dropped 1.7% last night — Goldman warning on demand destruction."
       },
       {
         "name": "AUD/USD",
         "value": "0.7186",
         "change_pct": 0.3,
-        "note": "Aussie dollar up slightly at ~71.9 US cents."
+        "note": "Aussie dollar holding firm near 71.9 US cents."
       }
     ]
   },
   "politics": {
-    "summary": "A busy weekend for Australian economic policy. The RBA has lifted the cash rate (the interest rate it sets for banks, which flows through to mortgages and savings accounts), and Albanese's government is looking to the Greens to push through a tax plan that hit some turbulence after the election. GDP data is also due this week — a key read on how the economy is tracking.",
+    "summary": "Three political stories worth knowing today: GDP data is due and RBA officials are speaking, which could shape rate expectations. Labor's gambling reforms are copping heat for being too soft. And Albanese is reportedly leaning on the Greens to pass a contentious tax package after an election backflip.",
     "stories": [
       {
-        "title": "Savings account rates rise after RBA cash rate hike",
-        "source": "Savings.com.au",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EaGx4d19CN3BsNnUxb1NyZkdMX2JDUjhGOXZGVGlHeVpyYXF2S0l1OUd3UnJoWUxFaGtmRW1nR2VEZXBwTnNaSzFjay1jQTVDbUN5blAyM0VFR2tkeW5SSVQtR3hTZkFSMHhLWWVR?oc=5",
-        "why_it_matters": "The RBA has raised its cash rate again, meaning banks are now passing higher interest rates on to savings accounts. If you've got a high-interest savings account, you may see your rate nudge up — that's the silver lining. The flip side is that anyone with a variable-rate mortgage will be paying more. Worth checking your bank's current rate."
-      },
-      {
-        "title": "GDP data tops the agenda this week, RBA officials to speak",
+        "title": "GDP data and RBA speeches top the economic agenda",
         "source": "AAP News",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR1pIYlgxM0FTQ2NYSmhDZ0xJUW45MkdXUGJLSi1IVFlFZS1PX0RKQm9sVERTeGZEc2NDd0RnYmN4WVBrQVhiWkItWjQ5RmdmVHZGV1M4SnhqYjZCXzRWeHJuNW43dWRZTWVldUVpS3hqYVIwZ3NlOW96SlowN3dia2tNT2ZGcFJodGtDQzRn?oc=5",
-        "why_it_matters": "Australia's GDP (Gross Domestic Product — the total value of everything the economy produces) figures are due this week, and RBA officials are scheduled to speak publicly. These numbers will give the clearest picture yet of whether the economy is slowing down as rate hikes bite. Markets will be watching closely for any hint about what the RBA does next with interest rates."
+        "why_it_matters": "Fresh GDP (gross domestic product — basically a measure of how much the whole economy is producing) numbers are out this week, alongside speeches from Reserve Bank officials. These two things together will give the clearest signal yet on whether interest rates are going up, down, or staying put. For mortgage holders and investors alike, this is the most important local economic event of the week. Watch for RBA commentary on inflation — if they sound relaxed, rate cut hopes will build."
       },
       {
-        "title": "Albanese banks on Greens to pass tax plan after election backflip",
+        "title": "'Loopholes and deflections': Labor's gambling reform slammed",
+        "source": "AFR",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTUtVRUkzajBmRXlEbTEwN2xOZ0NnYk9fbFVoRzZtV2hRSFZCZXNrbUd4TVVaTXVvdUlmejBJVHh3MVY4WmNHWTMtd3VXZ0prMmo4U2tFaFF3dFo2Um9wbkdBcHZtS2VmWm1GU2lySmE3UXdGQkpDYXBLanhSZ0ViYjE3enZDRThnQWp3SG1BTWlrNzlIN3pGMl8ydnB6bmtBdDlUdGN2MEVBckYtUFJpeWR5Zm9tM01B?oc=5",
+        "why_it_matters": "Labor's gambling reform package is being accused of being full of holes — critics say it lets the industry off too lightly and deflects from meaningful change. No article text was available, but the story suggests the reform isn't going as far as advocates hoped. For everyday Aussies, this means problem gambling protections may remain weaker than promised heading into an election cycle."
+      },
+      {
+        "title": "Albanese banks on Greens to pass tax package after election backflip",
         "source": "Sky News Australia",
         "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPWnpqajFFUkZFQ0ZQeXA1QXE3SUxSc0tTcXd3RGdTYmZtcnV3YjRobzJTb2lyQXlWUzRZWVVNTWtIbmhPZl9tckVXWnRObWlTMDRGZU5LSXNLSGt2WlQ1SmZxRExFdGtSdXQ1S3JBb0xUTmlvei1QUElqR0tWUWszYUszZ0FydUYxcmFUY3NPSHh1cFFabWpBYXZJWC1uTzc5UHpBQ0J3MnFnZDNzLTN4VkkxMElnQnhmRHNjV01mTEJfcTFWOG1oWXp0aGlGQkJiLUFyc3dDYkVpT2hfazN3MF9nLUI0VFNST3BtRGlpZkdwSkdvODhPcl93STVLXzBqN0huNlZaRXJQT0V3RFRKM3Z1SmZTQjdCekZtOW5sQ3htOU1yN1hmX29R0gGvAkFVX3lxTE0talBWaHl6cnZWTUQ3UThpRTZ6cXZ1S1BhTmhsVFRhSlMtZ0lrVW9mVy05WWcxRHQwVXNrMzZXYTNQRmJZS1IycDJYVnptQXFfdnJGTXcxMktPZmUyQmtoWkRDb2FNb0gySWRWMkZNTXN4QWNSeHBWaDVPN1llRFFGU0ZmM0ZRZ3hKX0NEdjE5Y05yY1NEejJVYV9xaHRYX3cyaEx3SGY2LWdmTk9iZURGdTdtZ01rbUNkSmY4VkpHLWt0REdXeW5PdjVfOEhENjEzSDNRSHZnTFZ3S01haVR1a3lfQnV0cjZKa2VHSXN1WG4yUUhwREVVR1I1UXJFcC1tNTN4U2pNNXdfd2dVYVhkTmZSNVpaU2taZEdLbU9SRG4wQmF1ZWhVU1lRN1dsZw?oc=5",
-        "why_it_matters": "After shifting its position on tax policy post-election, the Albanese government is now leaning on the Greens in the Senate to get its tax legislation through. The details of the specific tax plan aren't fully outlined in the article, but it signals the government will need to negotiate and potentially make concessions to minor parties. This could affect tax settings relevant to investors and property owners depending on what's ultimately agreed."
+        "why_it_matters": "Albanese has apparently reversed his position on a tax policy since the election and is now relying on the Greens to get it through parliament. No full article text available, but this signals a potential shift left on tax policy and raises the question of what concessions the Greens might extract. Investors with property or share portfolios should keep an eye on this — Greens support often comes with strings attached around capital gains tax (CGT) or negative gearing reform."
       }
     ]
   },
   "ai": {
-    "summary": "This week's AI conversation has swung between big-picture governance debates and practical tools. The Vatican and Pope Leo XIV have been vocal on AI ethics — calling for a ban on lethal autonomous weapons and warning about AI monopolies. Meanwhile, a useful concept called 'meta-cognitive regulation' is getting attention as the key skill for working effectively with AI tools.",
+    "summary": "The big AI story this weekend is Pope Leo weighing in on artificial intelligence regulation — calling for strict international controls on lethal AI weapons. There's also a thought-provoking piece on 'meta-cognitive regulation' as the key skill for working with AI, and a couple of cheap deals on bundled AI subscriptions.",
     "stories": [
       {
-        "title": "Pope Leo XIV calls on EU to ban lethal autonomous AI weapons",
-        "source": "EUobserver",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdmJiOXd0WXZ5Q3lOeWVreFhKckg2dTROR0pSSmhwc0VWWkhFeTVtd3d4a0liX0oteWFuMkVEM0UtOUtPR2lEZ1JqbHo1ZGFyS0JSUmVqQW1keEtjUWx4TkdVUllRQjIxVG8yakpjY2FhN2V6N19FX2JOWVI0LVhWTjc3dlpTaUdGOHRrMEV6OFFJdXc4MUc3TEFUc0VsUWNzeEJpSA?oc=5",
-        "why_it_matters": "Pope Leo XIV has publicly backed the EU's push to ban AI-powered weapons that can kill without a human deciding to pull the trigger — so-called 'lethal autonomous weapons'. The Pope's argument is that machines should never make life-or-death decisions. It's a rare case of the Catholic Church wading into tech regulation, and it adds moral pressure on European policymakers who are already debating AI weapons rules. Not an immediate market mover, but it shapes the regulatory environment for defence-tech companies."
+        "title": "Pope Leo calls for robust regulation of AI, especially lethal weapons",
+        "source": "Rocky Mount Telegram / EUobserver",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOXJrU3ByOGdVLTk2dlZXdFJBR1VsUG9UQ0dFY3pCQ3NOMi1TTVVHQUxZV1lGcGxPdFhBcGhxTzM2WGZHRWtzRGZjS3VfajUzVVJnYU9ZenFuV2NKNWgyaWhDVlh2c0NQYWVFay15emRScGV4WGx3TjA5dVV3Zk5TbldXOWlSUEl0dFI4Z2dXUVhUYVdnaHJaZHNId1hYUE9ybnFxdHV5VkNJUGFEeWZYMS0zSWNhY29hMU5jcnZGbm5raUJCRS1aS1JtRDBlNTZkUTR4cjFCSmZwYlZ0elEwcWN5VmNCdlY0aVdxbDd6UWQ?oc=5",
+        "why_it_matters": "Pope Leo has published what's being described as a manifesto on AI, calling on world governments — and specifically the EU — to ban or tightly regulate lethal autonomous weapons (think: drones or robots that can decide to kill without a human pulling the trigger). He's also pushing for broader AI governance frameworks. It's a significant moral and political intervention — when the Vatican speaks on tech policy, European legislators tend to pay attention. This adds momentum to existing EU efforts to regulate AI, which could affect how companies like Google and Microsoft operate in key markets."
       },
       {
-        "title": "Vatican's 'AI Monopolies' talk risks encouraging bad tech policy — ITIF pushes back",
-        "source": "Information Technology and Innovation Foundation (ITIF)",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaWU5YVNqWTRteldHVjlEbUhBcFBUNElpQnBVVTdhTnhpa2ZHXzJGVVJfRlFyYnlaMWZIay05WjEwYXNfX2N2M2M4SnJzWmlibDZPZjVWQXQ5QmpaMF9IdWw4ZFlkdGw2OFpDaFdEQnBiSWhwNnp6VTBmWmw5MXpfd3JieFYtc1FPVHB6X25ZZ3p5ZnJ0RUlRSkF6YXp4RFlKVk1UeTV3?oc=5",
-        "why_it_matters": "The Vatican has been warning about big tech companies having too much control over AI — what they call 'AI monopolies'. A leading US tech policy think tank (ITIF) is pushing back, arguing this framing could lead to heavy-handed regulations that actually slow down innovation without solving real problems. The debate matters because it feeds directly into how governments — including the EU — decide to regulate companies like Google (GOOGL) and Microsoft (MSFT)."
-      },
-      {
-        "title": "Meta-cognitive regulation: the AI skill nobody's talking about",
+        "title": "Meta-cognitive regulation: the AI skill nobody is talking about",
         "source": "Towards Data Science",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNblRJWnpoSWluQm9iSmtYcnJUX3ZuSG9lVUZNX09JVDMzQWc5X3NTcko3OWQ1N1E3eGM5bDFObnY3LTBGeUNyeEFRZUR3QVRJUlduNVRHVkF6Q29vUEE4R2t2MGsySjR6YXN3VklwbUZnZTZ4REt6ODVrMnZ1ZlY1RENwRnRqcThUaHZRdE9MZk9UbS0wd3pYeEFFNmZyeFpGQWJRc3QwbkVhVnVkVG5Tb0U0R0RIbE8yR2c?oc=5",
-        "why_it_matters": "A growing argument in AI circles is that the most valuable skill isn't knowing how to use specific tools, but 'meta-cognitive regulation' — basically, understanding your own thinking process well enough to guide an AI effectively. In plain terms: knowing when to trust AI output, when to push back, and how to break down problems so the AI can actually help. As AI tools become standard in workplaces, this kind of self-awareness about how you think and problem-solve may matter more than technical know-how."
+        "why_it_matters": "This piece argues that the most valuable skill when working with AI tools isn't knowing how to write a good prompt — it's 'meta-cognitive regulation', which basically means knowing when to trust the AI, when to question it, and when to do the work yourself. The idea is that people who get the most out of AI are the ones who stay mentally engaged rather than just outsourcing all thinking to the machine. Practical takeaway: if you're using ChatGPT or Copilot for work, staying critical and checking the AI's reasoning is more important than any single trick."
+      },
+      {
+        "title": "Lifetime access to ChatGPT, Gemini, and Claude for under $70",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMU42NFJKajNJZ1JkZWhsM3R0VDMxaXhNUnFxakpvTkhaajlOSDBJMnFMS3QzdmV6NWRzTVk2OGVQS3MzckhXVGtSMjVBUWdNb0tseUIzRm50YXBlQXlZM0E2M2JDSll4WHdyUmdxeWY2YmtZQnpJTnF1c0hnR2dVT3dDcC1iTFE5ZU1ESHhUZU96UQ?oc=5",
+        "why_it_matters": "A third-party bundle is offering lifetime access to ChatGPT, Google Gemini, Claude, and more AI tools for a one-off payment of around $60–$70 USD — the deal expires today (May 31). Worth a look if you're currently paying monthly for multiple AI subscriptions. Note: these 'lifetime' bundles are typically from resellers, not directly from OpenAI or Anthropic, so read the fine print before buying."
       }
     ]
   },
   "sport": {
-    "summary": "A big weekend of NRL with some upsets and a heartbreaking off-field story dominating the headlines. The Dragons snapped their losing streak with a stunning upset of the Broncos in Brisbane, while the Raiders are currently thumping the Cowboys. And Ben Cousins' MND diagnosis has shaken the whole sporting community.",
+    "summary": "Round 13 NRL is done and dusted — Panthers scraped home in a thriller against the Warriors, the Dragons pulled off an upset over the Broncos at Suncorp, and Ben Cousins' MND diagnosis has shaken the AFL world. Big weekend all round.",
     "stories": [
       {
-        "title": "Ben Cousins diagnosed with MND — AFL world in shock",
-        "source": "News.com.au",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWmZqb1hkMHBmcXBBTFZIekNSSjVRMjJoQ3FRYzdhcEV5NG5SOFFXdUJRYmtZZzdGdXFvWnBwQWFNYi16WWstVktFU0xMT19yRDdsdlNvNHMySkMtcHNiS1RkOEdTNFp1TFdDQkJoQnNGUGR5NDJ1SjhRb2hwSFJXYU85bG8zcXlZSnpmZGdERVM2V0ZPdWg2b3RuWU02NnBaNVNJWDdMZ0VGN2F6LUo0VnJTNDJLdDJJSk1PM1ZFR1RqcFIydERyUzY3ZmFFNTQxSXfSAdcBQVVfeXFMTWpNWHloZXJUU2p3QVlZTmZ2TldyRmhKU2xNYXlaM0FMMkVUZVQzbzNvQWJXVHNlZ2V4N1A2X2RRZ1BDQXcwcy16TWtTTU5nY1RGbHhVdWg1U1VnSE9nbDhxTklkV2xSZjg4eXNvaTc0Vk9GWWUzeDRtUnNCdHR6Qi04T0psTkd2bXlmNlUyandMd2FUZ0J2cE1zbHZRdWVYQ0lNSjU2NlNFTkN4RXk5TjkxSEh2a2RfakE5bmhNSjRYLVRmNk9vLW9LZTkzTWM4SmFuT1RSODQ?oc=5",
-        "category": "AFL",
-        "why_it_matters": "AFL legend Ben Cousins has been diagnosed with Motor Neurone Disease (MND) — a progressive disease that attacks the nervous system and has no cure. The news has devastated the AFL community, with players, coaches and fans rallying around the Cousins family. Cousins, one of the most celebrated but also troubled figures in Australian football, had spoken publicly about trying to rebuild his life in recent years. This is a genuinely heartbreaking story."
-      },
-      {
-        "title": "Dragons end losing streak with stunning upset of the Broncos",
-        "source": "ESPN",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdjE0Q2doRjU0YV9XMUpEMmYyQllGME5RNmlKZk82ZWZkQnNUc1l1UFpvbnlWZzZSN2xrS3lXSlpIUFd2MVBSWWZSdUlNTlNwaGpkOWIxZ2wwQTN4U1A4MmpRZVQ0QTh3cUg5cE9ucUhDRlN3SzNEOW5WWU9aVG1LdkZrMkpRNHJld3FlOWhkRm5iNFBLMUVta3ZYU0h6R2pFUnBBdW5mRVhTWHdmWFdzcQ?oc=5",
-        "category": "NRL",
-        "why_it_matters": "The St George Illawarra Dragons pulled off arguably the upset of the season, beating the Brisbane Broncos 30-26 at Suncorp Stadium today. The Dragons had been on a horror losing run and were massive underdogs heading into the game. The win will be a massive confidence boost for the red-and-white, while the Broncos will be licking their wounds at home."
-      },
-      {
-        "title": "Raiders pummel Cowboys in Canberra — live in 2nd half",
-        "source": "ABC",
+        "title": "Panthers hang on to beat Warriors 20-18 in a wild finish",
+        "source": "ABC / NRL.com",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2pBTzQ4Q3J3TTNzbFdWOHV5aTdlTzRpVkVvOG1rU0ZzOXRFS2RRRHAyQ2NCSDhlMEM4cEtDT1dPRGxwcGZVcnZCb0JrUGdkVlc5OERDbjhhZFBLZzBndXZXWm9qTkhDZXlpbWFWVHFqcDVGSUNDYjNTUFdFN2VHT0RjU0ZCR21tbjdPdV9ldnpNUTFqeGN5ZXJENDBRQWFXZGJlVG1NcUswaTZOYkxZek5Jdw?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Raiders are currently leading the Cowboys 26-12 in the second half at GIO Stadium in Canberra. The Raiders have been in dominant form today, turning on the style in front of the home crowd. Result still to be confirmed — check the app for the final score."
+        "why_it_matters": "Penrith held off the Warriors 20-18 in a remarkable finish at CommBank Stadium. According to ABC, Alamoti 'made amends' — suggesting a redemption moment after an earlier error nearly cost the Panthers the game. Typical Panthers grit to win it close. The Warriors will be frustrated to come away with nothing from a game they nearly had."
       },
       {
-        "title": "Wests Tigers edge Bulldogs in controversial match",
-        "source": "ABC",
+        "title": "Dragons stun Broncos 30-26 at Suncorp Stadium",
+        "source": "NRL.com",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2MtMjl2NjA3NHRkOXVPZktrRDhDdkhRMjI5Rm9wWGJlVU1EanVNQ0VtRnQxRzk2MzlvT19UelYzVFpqMEFkMVVnMzdtS0NCSTFEczh5QnpJMzhmTG5EM0owWEdLUVJZbXhraHBkSzN1Sko4UU1PbTM0RUFqQm9YMmVNYUJ1N0NiYTEzN1dsZjdwV2o2QWdzYWJvWHZnSm9BZzhPQ0t6bFIwc2ZW?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The Dragons travelled to Suncorp and knocked over the Broncos 30-26 — a big upset on Brisbane's home turf. The Raiders also beat the Cowboys 26-12 in Canberra. It was a sizzling Sunday of NRL with three games all delivering results that will shake up the ladder."
+      },
+      {
+        "title": "Cousins' MND diagnosis rocks Australian sport",
+        "source": "News.com.au / Yahoo News Australia",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWmZqb1hkMHBmcXBBTFZIekNSSjVRMjJoQ3FRYzdhcEV5NG5SOFFXdUJRYmtZZzdGdXFvWnBwQWFNYi16WWstVktFU0xMT19yRDdsdlNvNHMySkMtcHNiS1RkOEdTNFp1TFdDQkJoQnNGUGR5NDJ1SjhRb2hwSFJXYU85bG8zcXlZSnpmZGdERVM2V0ZPdWg2b3RuWU02NnBaNVNJWDdMZ0VGN2F6LUo0VnJTNDJLdDJJSk1PM1ZFR1RqcFIydERyUzY3ZmFFNTQxSXfSAdcBQVVfeXFMTWpNWHloZXJUU2p3QVlZTmZ2TldyRmhKU2xNYXlaM0FMMkVUZVQzbzNvQWJXVHNlZ2V4N1A2X2RRZ1BDQXcwcy16TWtTTU5nY1RGbHhVdWg1U1VnSE9nbDhxTklkV2xSZjg4eXNvaTc0Vk9GWWUzeDRtUnNCdHR6Qi04T0psTkd2bXlmNlUyandMd2FUZ0J2cE1zbHZRdWVYQ0lNSjU2NlNFTkN4RXk5TjkxSEh2a2RfakE5bmhNSjRYLVRmNk9vLW9LZTkzTWM4SmFuT1RSODQ?oc=5",
+        "category": "AFL",
+        "why_it_matters": "Former West Coast Eagles champion Ben Cousins has been diagnosed with Motor Neurone Disease (MND) — a degenerative condition that progressively affects the nervous system and muscles, for which there is no cure. The AFL world has rallied around the Cousins family, with widespread tributes from clubs and players. It's a heartbreaking development for one of the game's most complicated but beloved figures, and has prompted an outpouring of support across Australian sport."
+      },
+      {
+        "title": "Tigers 'dodge a bullet' as Bulldogs fume over ref calls",
+        "source": "ABC Sport",
         "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcTU1OWZrbnpiUzhpRklUNVZPb2pOWkZUSVEyR0lWYnhNbE5VVVl4YnZoWGRPSDZ0ZUs3VzBRQXdmNXRtMElrTmRNaGstTFVtbkVYaTdNbXJPZWd1U0lyWjB6enlNNWdWMWJ1dGJtQmVrVzJxRHZKVkNWT21Meks4ZVk4djBlV3ZYTTc4UEVKbVRqY3Q2eG1FcG5nQWZvT1QwUlFlT0J6Z0V0Yi03U0E?oc=5",
         "category": "NRL",
-        "why_it_matters": "Wests Tigers beat the Bulldogs 22-16 at CommBank Stadium on Saturday, but the result was overshadowed by a string of controversial refereeing calls. The Bulldogs were furious post-match, with the ABC reporting the Tigers 'dodged a bullet'. The refs are under the microscope again — expect plenty of noise from the Bulldogs camp this week."
+        "why_it_matters": "Wests Tigers beat the Bulldogs 22-16 on Saturday, but it's the controversy that's making headlines. The Bulldogs are fuming over refereeing decisions they believe cost them the game, with the Tigers reportedly admitting they 'dodged a bullet'. Referee consistency continues to be a hot-button issue in the NRL competition this season."
+      },
+      {
+        "title": "Rockstar Games developers announce a union — major industry move",
+        "source": "GameLuster",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwbXNjRFJyUTAyTzc1VFpGUlNEdWJFQlprX0lsbUhaQ0Y4TXZiRkd5QXR4ZXA0eFhkNzZJLTl4elZ0aGM0dGtGTHR3SUdaUlJRQ1YxUXNTMFZMekQwRk55OTFNUDlXdFpIdU8wRm1R?oc=5",
+        "category": "Gaming",
+        "why_it_matters": "Developers at Rockstar Games — the studio behind GTA 6 — have announced they're forming a union, in what's being called a landmark moment for the games industry. This is the first major unionisation at a AAA (big-budget blockbuster) games studio in recent memory. For Take-Two Interactive (TTWO) shareholders, it could mean higher labour costs and potential development delays down the track, though GTA 6's release timeline hasn't been flagged as immediately at risk."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "MSFT: Big jump last night — riding the AI wave",
+      "title": "MSFT: Big jump last night — hold and watch",
       "ticker": "MSFT",
       "action": "hold",
-      "detail": "Microsoft surged 5.5% last session to USD $450.24. That's a strong move — likely driven by ongoing enthusiasm for its AI products (Copilot, Azure AI) and comparisons that put it ahead of Amazon on revenue trends. No reason to sell into strength here; the momentum is real. Hold and let it run.",
-      "urgency": "green"
+      "detail": "Microsoft surged 5.45% last night to $450.24 USD — a significant move. The catalyst appears to be growing confidence in MSFT's AI and cloud revenue growth versus peers like Amazon. No negative news. Hold comfortably, but be aware the stock may consolidate after such a sharp single-day move. Tonight's US session will be telling.",
+      "urgency": "orange"
     },
     {
-      "title": "GOOGL: Slipping while competitors surge",
+      "title": "GOOGL: Underperforming vs. MSFT — keep watching",
       "ticker": "GOOGL",
       "action": "hold",
-      "detail": "Google dropped 2.5% last session to $380.34, and the narrative continues to favour Microsoft and others in the AI space. No company-specific bad news today, but the relative underperformance is worth watching. No need to panic, but keep an eye on whether this gap keeps widening when Google reports next.",
+      "detail": "GOOGL dropped 2.5% last night to $380.34 USD while MSFT soared — a stark contrast. No specific bad news catalyst in the data, but the narrative of Microsoft winning the AI race is hurting Google's relative valuation. Not a sell yet, but worth watching closely over the next few weeks for any further divergence.",
       "urgency": "orange"
     },
     {
-      "title": "FUEL.AX: Goldman warns of 'demand destruction' in energy markets",
+      "title": "FUEL.AX: Goldman warns on energy demand — keep an eye on oil",
       "ticker": "FUEL.AX",
       "action": "hold",
-      "detail": "FUEL fell 1.6% today as oil slid 1.7% last night to $87.36. Goldman Sachs is now warning that energy markets may be entering a 'demand destruction phase' — meaning prices are high enough that consumers and businesses are cutting back, which pushes prices lower. This is a headwind for FUEL.AX over the coming weeks. Worth watching, but no need to bail just yet.",
+      "detail": "Goldman Sachs has warned that energy markets may be entering a 'demand destruction' phase — meaning oil prices are high enough that consumers and businesses are starting to cut back, which pushes prices lower. WTI crude fell 1.7% last night to $87.36/barrel. FUEL.AX slipped 1.6% today as a result. No need to sell yet, but this is a developing headwind for energy holdings.",
       "urgency": "orange"
     },
     {
-      "title": "TTWO: Rockstar Games workers form a union — watch for cost implications",
+      "title": "RBA speeches and GDP data this week — rates outlook in focus",
+      "detail": "This week's GDP print and Reserve Bank official speeches are the most important local economic events of the coming days. If the economy looks softer than expected or RBA officials sound cautious about further rate hikes, it's a tailwind for CBA.AX, VDHG.AX and the broader ASX. Stay tuned.",
+      "urgency": "orange"
+    },
+    {
+      "title": "TTWO: Rockstar union formation — longer-term cost watch",
       "ticker": "TTWO",
       "action": "hold",
-      "detail": "GTA 6 developers at Rockstar Games (owned by Take-Two) have announced a union — a first for a major AAA game studio. Unions typically lead to better pay and conditions for workers, which is good news for the people making the game, but could mean higher development costs for Take-Two down the track. TTWO is up 2.9% despite the news, so the market isn't panicking. Hold, but keep this on the radar as negotiations develop.",
-      "urgency": "orange"
-    },
-    {
-      "title": "Australia GDP data due this week — could move the ASX",
-      "detail": "Australia's GDP figures drop this week, and they'll be a key signal on whether the RBA's rate hikes are slowing the economy as intended. If growth is weaker than expected, it could fuel hopes the RBA is done hiking — good for shares generally. If growth holds up, more rate hikes may be on the table. Keep an eye on this mid-week.",
-      "urgency": "orange"
+      "detail": "Rockstar Games developers forming a union is a meaningful industry event. Unions can lead to higher wages and improved conditions, which raises costs for the studio over time. GTA 6 is not immediately at risk, but investors should monitor whether this causes any delays or cost blowouts in future project updates. Hold for now.",
+      "urgency": "green"
     }
   ],
   "weather": {
     "location": "Gold Coast",
     "icon": "☀️",
     "condition": "Clear sky",
-    "temperature_c": 17.1,
+    "temperature_c": 14.0,
     "high_c": 21.5,
     "low_c": 12.4,
     "rain_chance_pct": 0,
@@ -293,8 +300,8 @@
       "away_badge": "https://www.nrl.com/.theme/cowboys/badge.svg",
       "home_score": 26,
       "away_score": 12,
-      "completed": false,
-      "live_label": "2nd Half",
+      "completed": true,
+      "live_label": null,
       "day": "Sun 31 May",
       "time": "4:05 pm",
       "venue": "GIO Stadium",
@@ -305,9 +312,9 @@
       "away": "Warriors",
       "home_badge": "https://www.nrl.com/.theme/panthers/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/warriors/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 20,
+      "away_score": 18,
+      "completed": true,
       "live_label": null,
       "day": "Sun 31 May",
       "time": "6:15 pm",
@@ -320,5 +327,5 @@
     "Rabbitohs",
     "Titans"
   ],
-  "generated_at_utc": "2026-05-31T07:55:06.061537+00:00"
+  "generated_at_utc": "2026-05-31T12:06:20.527380+00:00"
 }
