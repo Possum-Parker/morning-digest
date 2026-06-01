@@ -1,215 +1,203 @@
 {
-  "headline": "Microsoft surged 5.5% last night while Google slipped 2.5% — a split tech session as oil jumps sharply and the ASX barely moved today.",
+  "headline": "Microsoft surges 2.3% on a $600 price target from Morningstar while oil spikes nearly 6% — a big night for energy holdings.",
   "portfolio": {
-    "summary": "A mixed bag across the portfolio. Microsoft was the standout last night, jumping over 5% to close at $450. Google slid 2.5% — no specific news driving the drop, just a rough session. On the ASX today, CBA pulled back just over 1%, while VGE (emerging markets ETF) was the bright spot, up about 1%. The energy ETF FUEL edged up slightly despite some warning signals about the oil market (more on that below).",
+    "summary": "A mixed session across the portfolio. Microsoft was the standout mover last night, jumping over 2% after Morningstar put a $600 fair value on the stock. CBA had a rough day on the ASX, slipping just over 1% amid a wobbly banking sector. The emerging markets ETF (VGE) quietly had a solid session, up 1%. GOOGL gave back about 1% with no clear news catalyst. Oil's near-6% spike is the big story for FUEL.AX holders — it closed up 0.7% today but watch for more upside.",
     "movers": [
       {
         "ticker": "MSFT",
         "name": "Microsoft",
-        "change_pct": 5.45,
-        "note": "Big jump last night to $450.24 USD — up over $23. No single breaking headline, but corporate earnings have been broadly strong for big tech and MSFT continues to benefit from AI tailwinds across its cloud and productivity businesses."
+        "change_pct": 2.28,
+        "note": "Strong night last session — Morningstar published a report arguing MSFT is worth $600, well above its current ~$460 price. That kind of institutional endorsement tends to attract buying interest."
+      },
+      {
+        "ticker": "CL=F",
+        "name": "Crude Oil (WTI)",
+        "change_pct": 5.85,
+        "note": "Oil jumped nearly 6% last night to $92.47/barrel. That's a big move and a tailwind for your FUEL.AX energy ETF."
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet (Google)",
-        "change_pct": -2.51,
-        "note": "Slipped $9.79 to $380.34 USD last night with no specific news catalyst. Could be rotation out of Google into Microsoft, or broader sentiment around its AI competition. One to watch."
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "change_pct": 2.89,
-        "note": "Up nearly 3% to $224.16 USD last night. GTA 6 buzz continues — developers at Rockstar went public with the company's first union, and speculation about a new GTA 6 trailer dropping in June is building excitement around the stock."
-      },
-      {
-        "ticker": "VGE.AX",
-        "name": "Vanguard Emerging Markets ETF",
-        "change_pct": 1.08,
-        "note": "Solid session today, up 1.08% to $92.99. Emerging markets got a lift partly from the slightly stronger Aussie dollar (now 71.8 US cents), which flows through into this ETF's returns."
+        "change_pct": -1.04,
+        "note": "Gave back about 1% last session with no specific news driving the dip. Likely some general rotation out of big tech on a day when Microsoft grabbed the spotlight."
       },
       {
         "ticker": "CBA.AX",
         "name": "Commonwealth Bank",
         "change_pct": -1.04,
-        "note": "Gave back $1.72 to close at $163.30 today. No specific news — likely some profit-taking after a strong run. CBA remains highly valued by historical standards, so mild pullbacks like this aren't unusual."
+        "note": "Slipped $1.72 to $163.30 in today's ASX session amid mixed sentiment across the banking sector. No major CBA-specific news — broader sector caution appears to be the culprit."
       },
       {
-        "ticker": "FUEL.AX",
-        "name": "BetaShares Global Energy ETF",
-        "change_pct": 0.71,
-        "note": "Nudged up 0.71% to $8.52 today. Oil (WTI crude) jumped over 3.5% last night to $90.47 a barrel, which is a clear tailwind for energy companies in this ETF — though Goldman Sachs has warned demand could be approaching a 'destruction' point (where prices get so high people cut back usage)."
+        "ticker": "VGE.AX",
+        "name": "Vanguard Emerging Markets ETF",
+        "change_pct": 1.08,
+        "note": "A quiet but solid session today, up about 1% to $92.99. Emerging markets getting a lift as the AUD held steady and global risk appetite stayed reasonable."
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "change_pct": 1.26,
+        "note": "Up 1.26% last session. GTA 6 hype continues to simmer — Take-Two's CEO was out publicly saying even former Rockstar employees find GTA's success hard to replicate, reinforcing the franchise's unique position ahead of launch."
       }
     ]
   },
   "markets": {
-    "summary": "Last night's US session was calm at the index level — the S&P 500 crept up 0.22% to 7,580 and the NASDAQ added 0.2%. The big action was in oil, which surged 3.56% to $90.47 a barrel. Gold dipped slightly. The Aussie dollar strengthened a touch to 71.8 US cents. The ASX 200 was essentially flat today, down just 0.03%.",
+    "summary": "Last night's US session was quietly positive. The S&P 500 and NASDAQ both ticked higher, with the NASDAQ up 0.42% — solid but not dramatic. The big story was crude oil surging nearly 6%, which rippled through energy stocks. Gold slipped 1% to $4,515/oz as investors rotated slightly away from safe havens. The Aussie dollar was basically flat at 71.7 US cents. ASX 200 data wasn't available for today's close.",
     "indicators": [
       {
-        "name": "ASX 200",
-        "value": "8,729",
-        "change_pct": -0.03,
-        "note": "Basically flat today — the market trod water ahead of upcoming RBA commentary."
-      },
-      {
         "name": "S&P 500",
-        "value": "7,580",
-        "change_pct": 0.22,
-        "note": "Quiet positive session last night. Markets holding near highs."
+        "value": "7,599.96",
+        "change_pct": 0.26,
+        "note": "Mild gains last night — market holding up well near all-time highs."
       },
       {
-        "name": "NASDAQ",
-        "value": "26,973",
-        "change_pct": 0.2,
-        "note": "Slight gain last night despite Google's drag — Microsoft and others picked up the slack."
+        "name": "NASDAQ Composite",
+        "value": "27,086.81",
+        "change_pct": 0.42,
+        "note": "Tech-heavy index edged higher last night, led by Microsoft."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$90.47",
-        "change_pct": 3.56,
-        "note": "Sharp jump last night — oil back above $90, which helps FUEL.AX but raises cost-of-living concerns."
+        "value": "$92.47",
+        "change_pct": 5.85,
+        "note": "Nearly 6% spike last night — a major move. Good news for energy holdings like FUEL.AX."
       },
       {
         "name": "Gold",
-        "value": "$4,524",
-        "change_pct": -0.8,
-        "note": "Mild pullback last night as risk appetite returned slightly."
+        "value": "$4,515.00",
+        "change_pct": -1.0,
+        "note": "Pulled back 1% last night as investors shifted toward risk assets."
       },
       {
         "name": "AUD/USD",
-        "value": "0.7183",
-        "change_pct": 0.27,
-        "note": "Aussie dollar ticked up slightly — now buying about 71.8 US cents."
+        "value": "0.7168",
+        "change_pct": 0.05,
+        "note": "Flat — the Aussie dollar barely moved, sitting just above 71.6 US cents."
       }
     ]
   },
   "politics": {
-    "summary": "A few policy stories bubbling today — gambling reform is drawing fire, Labor is leaning on the Greens to get a tax package through, and the RBA is in focus ahead of upcoming speeches.",
-    "stories": [
-      {
-        "title": "Labor banks on Greens support to pass tax package after election backflip",
-        "source": "Sky News Australia",
-        "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPWnpqajFFUkZFQ0ZQeXA1QXE3SUxSc0tTcXd3RGdTYmZtcnV3YjRobzJTb2lyQXlWUzRZWVVNTWtIbmhPZl9tckVXWnRObWlTMDRGZU5LSXNLSGt2WlQ1SmZxRExFdGtSdXQ1S3JBb0xUTmlvei1QUElqR0tWUWszYUszZ0FydUYxcmFUY3NPSHh1cFFabWpBYXZJWC1uTzc5UHpBQ0J3MnFnZDNzLTN4VkkxMElnQnhmRHNjV01mTEJfcTFWOG1oWXp0aGlGQkJiLUFyc3dDYkVpT2hfazN3MF9nLUI0VFNST3BtRGlpZkdwSkdvODhPcl93STVLXzBqN0huNlZaRXJQT0V3RFRKM3Z1SmZTQjdCekZtOW5sQ3htOU1yN1hmX29R0gGvAkFVX3lxTE0talBWaHl6cnZWTUQ3UThpRTZ6cXZ1S1BhTmhsVFRhSlMtZ0lrVW9mVy05WWcxRHQwVXNrMzZXYTNQRmJZS1IycDJYVnptQXFfdnJGTXcxMktPZmUyQmtoWkRDb2FNb0gySWRWMkZNTXN4QWNSeHBWaDVPN1llRFFGU0ZmM0ZRZ3hKX0NEdjE5Y05yY1NEejJVYV9xaHRYX3cyaEx3SGY2LWdmTk9iZURGdTdtZ01rbUNkSmY4VkpHLWt0REdXeW5PdjVfOEhENjEzSDNRSHZnTFZ3S01haVR1a3lfQnV0cjZKa2VHSXN1WG4yUUhwREVVR1I1UXJFcC1tNTN4U2pNNXdfd2dVYVhkTmZSNVpaU2taZEdLbU9SRG4wQmF1ZWhVU1lRN1dsZw",
-        "why_it_matters": "Labor is trying to push through a tax package that it promised before the election, but after apparently changing tack on some details, it now needs the Greens to get it over the line in the Senate. The specifics of what changed aren't fully detailed in the available reporting, but the reliance on the Greens means further negotiation and potential amendments are likely. For investors, any shift in personal tax settings or related economic policy can affect household spending and broader market sentiment."
-      },
-      {
-        "title": "'Loopholes and deflections': Opponents slam Labor's gambling reform",
-        "source": "AFR",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTUtVRUkzajBmRXlEbTEwN2xOZ0NnYk9fbFVoRzZtV2hRSFZCZXNrbUd4TVVaTXVvdUlmejBJVHh3MVY4WmNHWTMtd3VXZ0prMmo4U2tFaFF3dFo2Um9wbkdBcHZtS2VmWm1GU2lySmE3UXdGQkpDYXBLanhSZ0ViYjE3enZDRThnQWp3SG1BTWlrNzlIN3pGMl8ydnB6bmtBdDlUdGN2MEVBckYtUFJpeWR5Zm9tM01B",
-        "why_it_matters": "Labor's gambling reform legislation is copping heat from opponents who say it's full of loopholes that water down the intent of the reforms. Critics are using words like 'deflections' to describe the government's response to scrutiny. No specific figures are available from the headline alone, but the political fight suggests the reforms may end up weaker than advertised — relevant to anyone watching the gaming and wagering sector."
-      },
-      {
-        "title": "ASX eyes lower open as investors await RBA speeches",
-        "source": "AFR",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRUVYdnBEdEItTzlBbTROWm9VaFAyMlNob1pGcTdWcFJjbmhJNVpDRUpjVFhKcVBwOTllWFJualN5V0hVWHJTdVdjYkFGWFZJU3BqQklPLUU3YlZ0MEJNcVhUcVVtYzJIWWRjd2YtMHREZjhQS1NnLTZpNTF5NHc0Zkhrb1NxYWJRUzJvam5MMjR2NS12dVphSGlfdHh3c0s5NlY4cnBOdzY5RlNzS29r",
-        "why_it_matters": "Investors were watching closely for signals from Reserve Bank of Australia (RBA) officials speaking this week. The RBA's commentary matters because it shapes expectations about whether interest rates will rise, stay put, or fall — which directly affects mortgage repayments, bank profits (including CBA), and the broader share market. The ASX's flat session today suggests investors are in 'wait and see' mode ahead of those speeches."
-      }
-    ]
+    "summary": "No Australian political stories came through in today's feeds. Could be a quiet Monday on the political front, or a data gap — either way, nothing to report today.",
+    "stories": []
   },
   "ai": {
-    "summary": "The big AI story today is an unusual one — the Pope has waded into the debate, calling for global regulation of AI. Meanwhile, banks are rushing to adopt AI faster than regulators can keep up, and China is tightening investment rules with security implications for tech.",
+    "summary": "Today's AI news cycle was dominated by policy and regulation — governments and researchers are trying to map out the fast-growing patchwork of AI rules across health care, geopolitics, and US Congress. Not a lot of 'wow new feature' news today, but the regulatory picture is increasingly important for big AI companies like Google and Microsoft.",
     "stories": [
       {
-        "title": "Pope Leo XIV issues encyclical calling for AI regulation",
-        "source": "Let's Data Science / Rocky Mount Telegram",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPXy1xZ0FwX1Q4N2Rrb00zOGJHV3FjSzQ4WEcwYVVBRXpIOGhEYV83VDB3d3ZWRkxCanpZaXAtMmM1Q0lUcTdhdWtqdVBTa3BrVEdtUTVWNGhkY0dlZVIyVk5DbzliWDhURVNfWGtGeXZGVEF2MHdIYnl5YWQ3UEJwSzA3N205c3RIbzFYWm9HSlRrWElEekxFbmdRX2RzUm8",
-        "why_it_matters": "Pope Leo XIV has issued what's called an encyclical — essentially a formal letter or manifesto sent to Catholics worldwide and beyond — specifically calling for robust regulation of artificial intelligence. It's a significant moment because it signals AI governance has moved from a tech-industry debate to a global moral and political one. When major world institutions like the Catholic Church weigh in, it tends to accelerate pressure on governments to act. For investors in AI-heavy stocks like Google and Microsoft, more regulation could mean compliance costs and limits on certain applications down the track."
+        "title": "National index tracks AI health care regulations as policy patchwork grows",
+        "source": "Medical Xpress",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQanNXSndxV2lZVW5JbDFuUk5wTnpuRFlVS3puNjNSVS04bEhYN3gyUHkxZWo4X2x6eUIxSXpWUFphS3Y3QmZPblBYZk41dzBKR2VBdHNfTm9Cb3pMSGxFS1c4bWNGSVdsZ0xraTJYbkxnRFN0dXFWOThvLUR1ZDNyZA?oc=5",
+        "why_it_matters": "A new national index has been launched to track the growing web of AI regulations specifically in health care. The US currently has no single federal AI law — instead, rules are being made state by state and agency by agency. For investors in companies like Google and Microsoft (both deep in health AI), this regulatory patchwork creates both risk and opportunity: whoever navigates compliance best gets a competitive edge."
       },
       {
-        "title": "Banks accelerating AI adoption faster than regulators can handle",
-        "source": "Telecom Review Africa",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNai1zYXA5S2pXR1drXy1oTGQ3bmpsbXJXYkFHcWVxUjRKWnpSNl9QWl80ZWIxT2Q0U05FcVNLX2VRcklQWXFhUWJnZ1IzVmFPLVNONFhGZmVrSFpoR184TXlGVzRUczRWbFh4SFlfZWZMaXZQaThBcm9YWVlFTi1oaXJsSzJ4d0FyY0dQM19YVVluWElLU3BlMnZrUlh0eEF0RjBGeWlHYWtCd1BSVjVXX0RZNF83cWxlVXRGb0tZTS1ZUHVETGVqQ25SeTZ3VjZ0",
-        "why_it_matters": "Banks around the world are rolling out AI tools — for fraud detection, customer service, lending decisions — at a pace that's outrunning the ability of regulators to write the rules. This creates a risk: if something goes wrong (biased lending decisions, privacy breaches), banks could face big fines or forced changes later. For CBA holders, it's worth knowing that Australian banks are in the same race, and regulatory catch-up is coming. The upside is that AI is genuinely cutting costs and improving efficiency for banks right now."
+        "title": "The geopolitical gains of EU Artificial Intelligence regulation",
+        "source": "Escudo Digital",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVl9XVm5uN0JneEdNUWNTQXJFalI3MDlwemppT3hDaFBNbWtna2xYRkhweU93S2pPNHZfbDl6OEc3V1JhUW43UlV2dkR0RlZQSHFBMnNsZEE2UG1DSER3bmpxSVRwTVZHYVdraTFkbVlOZFppSFhfTFE0V0IwOFZwMWJHWTFzR09QTWU3SEpTN3FnV2ZFVmJyejVHd0lycnBOMDRaaENhMmhLa2NEUXEtS2VjYzRYVm1VQjBVbjkxSW5sSWRjTGh4WXl5bFJaUXZNUlE?oc=5",
+        "why_it_matters": "Analysis out today argues that the EU's strict AI Act isn't just about consumer protection — it's a geopolitical play. By setting the global standard for AI rules (similar to how the EU did with privacy via GDPR), Europe could force US and Chinese tech giants to comply with its framework or lose access to the EU market. That's meaningful for GOOGL and MSFT, which do significant business in Europe."
       },
       {
-        "title": "China tightens outbound investment rules with eye on security",
-        "source": "The Business Times",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZzBrQUpQWjc4RVRBVnFWdWl4VmFpb2V0NzNZTjdwSUxRQ1JYOW92MDIzcWVHR08yY2VIcm9nc2JUNWF0VlBiQlNBUkM3YVhocmtBUURFRVFTMEhudnVNVkV6NzgybFJ3WENoSThCa21EdTdZY3BoWk14VTBQcjRpaS1wVi1YMjNBTGdrTFFYaTJhaDJiNkFGYkMxSE1yNkFOM0E",
-        "why_it_matters": "China is tightening rules around Chinese companies or investors putting money overseas, with national security as the stated reason. This matters for your VGE emerging markets ETF, which has significant exposure to Chinese companies. Tighter capital controls can dampen the ability of Chinese firms to grow internationally and may signal a more inward-looking policy stance — which markets historically don't love. Worth keeping an eye on how this develops over the coming weeks."
+        "title": "A new project aims to map the AI policy ecosystem",
+        "source": "marketplace.org",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY0NKWE0yUU1wbUVSdmk0OVVua21WRWhIbkVaQ3VndV9ZVVgwTUZZZnAyY2F5T1hRbUl2RXZwenQ5QTh5WjhZQ3A2ZFgyLTFLdndCek9rbDhxd1BrV1JxSExWd3lHc1VpQTY5ZTR6QU14Z0pUdXd3VGlrdXFtcFMxM0JXQk9ENVlVcTh6VHNLbVlFQ1MwWnZ6UHRUNEt3ckxQOVFhUDhFWjA?oc=5",
+        "why_it_matters": "Researchers are building a comprehensive map of the AI policy landscape — tracking who's regulating what, where, and how fast. The takeaway: AI governance is fragmenting globally, making it harder for tech companies to operate consistently across borders. For investors, this adds a compliance cost layer to big AI players like Google and Microsoft that's easy to underestimate."
+      },
+      {
+        "title": "Cancel your Claude sub and get lifetime access to ChatGPT, Gemini, Claude, and more for $60",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMU42NFJKajNJZ1JkZWhsM3R0VDMxaXhNUnFxakpvTkhaajlOSDBJMnFMS3QzdmV6NWRzTVk2OGVQS3MzckhXVGtSMjVBUWdNb0tseUIzRm50YXBlQXlZM0E2M2JDSll4WHdyUmdxeWY2YmtZQnpJTnF1c0hnR2dVT3dDcC1iTFE5ZU1ESHhUZU96UQ?oc=5",
+        "why_it_matters": "A third-party deal is offering lifetime access to bundled AI tools — ChatGPT, Gemini (Google), Claude and others — for a one-off $60 payment. It's a sign of how commoditised AI subscriptions are becoming, which could pressure the recurring revenue models that companies like Google and Microsoft are building around AI. Worth watching as a trend rather than a crisis."
       }
     ]
   },
   "sport": {
-    "summary": "Ben Cousins' MND diagnosis has shocked Australian sport, the Broncos are under pressure heading into Round 14, and the NRL's newest star put on a show in Round 13. Plus, there's transfer news with the Tigers closing in on a halves replacement.",
+    "summary": "Round 13 wrapped up over the weekend with some cracking results — the Panthers won a classic, the Raiders got up, and the Dragons broke a drought. Round 14 kicks off Thursday night. AFL Round 12 coaches' votes are in, with Nick Daicos still leading the Brownlow count. Perth Bears news continues to trickle out ahead of their 2027 NRL debut.",
     "stories": [
       {
-        "title": "Ben Cousins diagnosed with MND — Aussie sport in mourning",
-        "source": "News.com.au / Yahoo News Australia",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWmZqb1hkMHBmcXBBTFZIekNSSjVRMjJoQ3FRYzdhcEV5NG5SOFFXdUJRYmtZZzdGdXFvWnBwQWFNYi16WWstVktFU0xMT19yRDdsdlNvNHMySkMtcHNiS1RkOEdTNFp1TFdDQkJoQnNGUGR5NDJ1SjhRb2hwSFJXYU85bG8zcXlZSnpmZGdERVM2V0ZPdWg2b3RuWU02NnBaNVNJWDdMZ0VGN2F6LUo0VnJTNDJLdDJJSk1PM1ZFR1RqcFIydERyUzY3ZmFFNTQxSXc",
-        "category": "AFL",
-        "why_it_matters": "Former West Coast Eagles captain and 2005 Brownlow Medallist Ben Cousins has been diagnosed with Motor Neurone Disease (MND) — a devastating, degenerative condition that affects the nerves controlling movement, with no cure. Cousins, who had a very public battle with drug addiction after his playing days, had been living a relatively private life in recent years. The AFL world has rallied around his family with an outpouring of support. An incredibly sad story for one of the most talented and troubled figures in Australian sport."
-      },
-      {
-        "title": "Broncos' bad run continues — Haas calls out 'BS' as Maguire urges caution",
-        "source": "ABC",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2pBTzQ4Q3J3TTNzbFdWOHV5aTdlTzRpVkVvOG1rU0ZzOXRFS2RRRHAyQ2NCSDhlMEM4cEtDT1dPRGxwcGZVcnZCb0JrUGdkVlc5OERDbjhhZFBLZzBndXZXWm9qTkhDZXlpbWFWVHFqcDVGSUNDYjNTUFdFN2VHT0RjU0ZCR21tbjdPdV9ldnpNUTFqeGN5ZXJENDBRQWFXZGJlVG1NcUswaTZOYkxZek5Jdw",
+        "title": "Panthers win a classic, Raiders salute, Dragons break drought — Round 13 wrap",
+        "source": "NRL.com",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2MtMjl2NjA3NHRkOXVPZktrRDhDdkhRMjI5Rm9wWGJlVU1EanVNQ0VtRnQxRzk2MzlvT19UelYzVFpqMEFkMVVnMzdtS0NCSTFEczh5QnpJMzhmTG5EM0owWEdLUVJZbXhraHBkSzN1Sko4UU1PbTM0RUFqQm9YMmVNYUJ1N0NiYTEzN1dsZjdwV2o2QWdzYWJvWHZnSm9BZzhPQ0t6bFIwc2ZW?oc=5",
         "category": "NRL",
-        "why_it_matters": "Payne Haas has publicly vented frustration at what he called 'BS' surrounding the Broncos, as the club's poor form continues to draw scrutiny. Coach Jason Maguire is urging the side not to rely on another miracle comeback and to fix their problems properly. With the Broncos hosting the Titans at Suncorp Stadium on Saturday night in Round 14, there's plenty of pressure on — and for Gold Coast fans, the Titans will be looking to capitalise."
+        "why_it_matters": "Three big results from Round 13: the Panthers won a high-quality game that'll have fans talking, the Raiders picked up a win to keep their season alive, and the Dragons snapped what had been a lengthy losing streak. Round 14 starts Thursday night with Sea Eagles vs Rabbitohs at 4 Pines Park (7:50 PM). Broncos host the Titans at Suncorp on Saturday night — the Queensland derby to watch."
       },
       {
-        "title": "Tigers close in on Luai replacement from Dolphins",
+        "title": "Broncos 'BS' exposed in Madge nightmare; NSW Origin bolter's stunning statement",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPYklHckZ0d2FxcXdLTmxiY0xiZ3JuLTFybDctSTNMZHVRczFRSEhuTUY5N3phVGhYMWxaYVpoenNxNC1ZRUpLUWlCbUNsY3B1Q1BaSjFJaXhpQ3FydU5xYUp0aDVZQWRGVnp0dFlaTGdpakI1NHNPd1JLZVE0QjBEdDR2dGlldjdBWlJaSC10YVQ1NWs4b2dsRjAxd3V6VnVsYXNiMEV5T0lXN1hsU3Q2aXZkTmNIaUo0NFhUUlc1UlF6RUV5WkhhN1RuLXM0cDQ3WmdpX1pRNlhMZFczanpLaE1TMHpNZjVGeGh1U0FHdkYtTVktdE1XVGpCaHktZG1QcF9yYWNhUmZvc2otMzNIZ0JGSmtiR1VZN2R5Ri14QXhPOVlqZDRTMDNxZVFJQm9FRW5DMEZuNEcxY2FFV0JmS3RDT050SFZOMDhWS0Y2NXQ?oc=5",
+        "category": "NRL",
+        "why_it_matters": "Fox Sports is calling out the Broncos after what's being described as a nightmare result under coach Michael Maguire. There's also an unexpected name reportedly pushing for a NSW State of Origin spot — described as a 'stunning statement' performance. No specific player named in the available data, but it's worth keeping an eye on as Origin selection looms."
+      },
+      {
+        "title": "Every Perth Bears signing so far, best 17 for 2027 NRL season",
         "source": "CODE Sports",
-        "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVmJ5NV90WEdGRUVNWU9rUmh5VGY1UnpoM3F0Z1V4YTdaUFhvT0tMNzR2M0RJZ1V3ZFRrTnVTVUw5VVd5Zk13NWt3MkNfVFBZU0RSMlVMV0hVVEk2SERXeWYwbUk0b3lpanN3ZnlIQXFxU2ZyUm4wX3k0YzhqNDRqUVgzQWpXTkZ3VUFPUHhhemVSSXNvZDZTdHJrdzVPbTJHRVp4V3NZMGtMZHVjRndkY1gyRDFMZG9wSXViUUhyMVdhdmFTSklhNjQwMXR5YkotNTdSYXk5a1plWE1fU3lvNGhDREszYmQ5VlN5SEl1VmhCSGJkV3dTdVk2M2oyTUFVeWgxUW84SQ",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNV2pyZm5vblVQRGJ2ci1OR0wzbC1VVWR4N1VZQzdLNTdXVjFjcURTR0NObkVpNm16bUhaeWRFNkpKbkUtRGlobU83WGNEMEc5N3NFQ29YVy0xMUlKVW8xc3ZiRnVRRmY5Um5HUVVBM3Y1OWpsMmMyZmdmYWRfNjY1dVVQOUt2QW1YVXBtVHhiTUFub1BPbnZTOG05b3FQWXJNVk91aW1pVXEzekc1S293VUI3c1FTbXRJbXhFWVludDJCTGtJQTdzMVgzTFR4RGc3WXJJR091LWJYdWx3c2FSYUJFRWk2R3doa2szR0U5TTAzbVhqWk4zQQ?oc=5",
         "category": "NRL",
-        "why_it_matters": "Wests Tigers are reportedly close to signing a halfback from the Dolphins to replace Jarome Luai, who departed the club. The player's name wasn't confirmed in the headline, but it signals the Tigers are actively rebuilding their halves combination. With the Tigers hosting the Panthers at CommBank Stadium on Sunday in Round 14, the timing of this news adds some transfer drama to the lead-up."
+        "why_it_matters": "The Perth Bears are building their squad ahead of entering the NRL in 2027. CODE Sports has compiled every signing made so far and put together a projected best 17. It's early days but the Bears are actively recruiting — a pathways (development) signing was also confirmed today, giving a young player a Top 30 squad deal. The new team is shaping up as a genuine expansion story to follow."
       },
       {
-        "title": "GTA 6 developers form Rockstar Games' first-ever union",
-        "source": "GTA BOOM",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbXRNRzI0QTZUeUxhNVhHX3dJQi1JeklpYXo0V2kyNGZvVlpHdjE0Z0dNa2taMllfRFJzYVBPLV9IS0RQTkZTbFVONGJlTFQyX1FnZmkzNVN5Zy00QUtEMHRiMFN5RXpFUWNqT3JPYkQwWU45aktGX1ZTYXdrcVQzazZpU0NKdjFOSXZTb2tRNjQ",
-        "category": "Gaming",
-        "why_it_matters": "Developers working on GTA 6 at Rockstar Games have gone public as the studio's first-ever union. This is a landmark moment for the games industry — Rockstar is one of the biggest and most profitable studios in the world. For Take-Two Interactive (TTWO) shareholders, unionisation could mean higher labour costs and potentially slower development timelines, though it may also improve retention of key talent. GTA 6 is the most anticipated game release in years and its success is critical to Take-Two's share price outlook."
+        "title": "Coaches' votes R12: Swans star among five perfect 10s, Daicos stays top",
+        "source": "afl.com.au",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOFp1WHV4cndiNl83Z0NkOGtGUkd1djl5MERqTUozSWJlOGhFNW5RM0VEMVgyQldWMnNnQU83OENDZk5zbGxIYkkyRGVXOHRfdVFLWTlaa2NiRV9SZ2ZlZjN2d29TZHYzZlNFZ29vblRuMkpZMXlDV3hfczdnSmlvb2RscExMbUlnV0lQeFExNm1hSDM4Skk2aG1OSnI1bTdTS0ZlY1NEeVpPbmxyejRRVG0zSk43aklrMGU3WHJTTGsySGZmcXpGOG1R?oc=5",
+        "category": "AFL",
+        "why_it_matters": "Round 12 coaches' votes are in for the AFL Brownlow Medal tracker. Nick Daicos (Collingwood) remains the leader. A Sydney Swans player was one of five players to receive a perfect 10 votes from coaches in Round 12 — a standout performance that boosts their Brownlow credentials heading into the business end of the season."
+      },
+      {
+        "title": "'What's the point?' Pies' brutal gauntlet explained — and why it could spark ruthless purge",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNeXhqWEpja0tYOG5CWDN1OHFBQjl0UVF6QnJNbkRxYTlWNldBWlJ2cnMxTkRhdHlXX0F0dm1fZ2ZwYU9NYWNsMFprUW52OGM1bjNOWTluTkpyVFQ3azNjUHdaaVFCNHVkRVNoM3VzajAyZXRoYTZzT2JTd05ZMlVQMy1kXzdhU2VobjQxUzA3eHlzYTN4SDV0b212SzhhZ0tHUDAzOER2amdLbDk5QkRnbnNIU096bWpmT3NzUE1iZUNEQ3p0XzFERG0yQS1PbjZ0U1FidUdsWEtFOWNvRTRIY19IY0VzTF9EUEFJUUQwWG9wMWlpSnF3alhmQUh6NjRDeXp3Yw?oc=5",
+        "category": "AFL",
+        "why_it_matters": "Collingwood is facing a seriously tough run of games coming up, and Fox Sports is asking whether this brutal fixture could force the club's hand on player list decisions — potentially triggering a ruthless culling of underperformers. With Daicos leading the Brownlow and the Pies under pressure, this is a club at a crossroads mid-season."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "MSFT: Hold after big jump — don't chase it",
+      "title": "MSFT: Morningstar says it's worth $600 — still a hold, but a comfortable one",
+      "detail": "Morningstar published a report today arguing Microsoft is fairly valued at $600, about 30% above last night's close of $460. That's a big gap, and it's the kind of research that tends to attract institutional buyers over time. No need to chase it today, but this reinforces holding confidently.",
+      "urgency": "green",
       "ticker": "MSFT",
-      "action": "hold",
-      "detail": "Microsoft surged 5.45% last night to $450.24 — a great result, but after a move that big it's worth resisting the urge to add more at the top. No single catalyst has been confirmed, and the stock may consolidate in the near term. Sit tight and enjoy the gain.",
-      "urgency": "green"
+      "action": "hold"
     },
     {
-      "title": "GOOGL: Watch for a bounce or further weakness",
-      "ticker": "GOOGL",
-      "action": "hold",
-      "detail": "Google dropped 2.5% last night to $380.34 with no clear news driver. Could be rotation from Google into Microsoft or Apple, or nerves about AI competition. No reason to sell — but keep an eye on it this week. If it keeps sliding without a news reason, it might be worth revisiting your position.",
-      "urgency": "orange"
-    },
-    {
-      "title": "TTWO: GTA 6 union news — mild risk to watch",
-      "ticker": "TTWO",
-      "action": "hold",
-      "detail": "Rockstar developers have formed the studio's first union. Short-term, this doesn't change the GTA 6 release outlook — but if it leads to industrial action or delays, Take-Two's most important product could be impacted. Stock is up 2.9% anyway on GTA hype. Hold for now, watch for any escalation.",
-      "urgency": "orange"
-    },
-    {
-      "title": "Oil above $90 — FUEL.AX gets a tailwind, but Goldman warns of demand risk",
+      "title": "Oil spiked 5.85% last night — watch FUEL.AX for follow-through",
+      "detail": "Crude oil jumped from $87 to $92.47 per barrel overnight — a nearly 6% move. FUEL.AX (your global energy ETF) only moved 0.71% today on the ASX, so it may not have fully priced in that oil move yet. US energy stocks could push it higher when they trade tonight.",
+      "urgency": "orange",
       "ticker": "FUEL.AX",
-      "action": "hold",
-      "detail": "WTI crude oil jumped 3.56% last night to $90.47 — that's good for your energy ETF in the short run. But Goldman Sachs has flagged that energy markets may be entering a 'demand destruction' phase, meaning prices could be getting high enough that consumers and businesses start cutting back, which would eventually drag oil back down. Fine to hold, but be aware this strength may not last.",
-      "urgency": "orange"
+      "action": "hold"
     },
     {
-      "title": "RBA speeches this week — watch for interest rate signals",
-      "detail": "Reserve Bank of Australia officials are speaking this week, and markets are listening closely. Any hint that rates are staying higher for longer could put pressure on the ASX — particularly rate-sensitive stocks like CBA. Keep an eye on headlines Wednesday–Friday.",
-      "urgency": "orange"
+      "title": "CBA slipped 1% today — no panic, but worth watching",
+      "detail": "CBA closed at $163.30, down $1.72 on the day. The move appears to be sector-wide caution rather than CBA-specific bad news. At these levels CBA is still trading at a significant premium to peers on a P/E (price-to-earnings) basis — meaning it's already pricing in a lot of good news. Not a sell signal, but not a screaming buy either.",
+      "urgency": "orange",
+      "ticker": "CBA.AX",
+      "action": "hold"
+    },
+    {
+      "title": "GTA 6 launch narrative building around TTWO",
+      "detail": "Take-Two's CEO was publicly out today saying GTA's success is almost impossible to replicate — even for former Rockstar staff. This kind of commentary ahead of GTA 6's expected launch is designed to set expectations and drum up hype. TTWO was up 1.26% last night. The stock's upside is heavily tied to GTA 6 delivering — stay across any launch date news.",
+      "urgency": "orange",
+      "ticker": "TTWO",
+      "action": "hold"
+    },
+    {
+      "title": "No Australian politics news today",
+      "detail": "The politics feed came up empty today — a quiet Monday in Canberra. Nothing to act on, but keep an eye on any RBA-related commentary this week as rate expectations continue to shape bank stocks like CBA.",
+      "urgency": "green"
     }
   ],
   "weather": {
     "location": "Gold Coast",
-    "icon": "☀️",
-    "condition": "Clear sky",
-    "temperature_c": 15.8,
-    "high_c": 19.6,
-    "low_c": 11.4,
+    "icon": "☁️",
+    "condition": "Overcast",
+    "temperature_c": 9.9,
+    "high_c": 21.1,
+    "low_c": 9.9,
     "rain_chance_pct": 0,
     "rain_mm": 0.0,
     "tomorrow": {
-      "icon": "☁️",
-      "condition": "Overcast",
-      "high_c": 21.2,
-      "low_c": 9.9,
+      "icon": "☀️",
+      "condition": "Clear sky",
+      "high_c": 22.1,
+      "low_c": 13.4,
       "rain_chance_pct": 0,
       "rain_mm": 0.0
     }
@@ -332,5 +320,5 @@
   "nrl_byes": [
     "Warriors"
   ],
-  "generated_at_utc": "2026-06-01T08:21:01.112667+00:00"
+  "generated_at_utc": "2026-06-01T21:10:00.183370+00:00"
 }
