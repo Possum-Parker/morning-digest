@@ -68,11 +68,35 @@ export interface NRLFixture {
   datetime_iso?: string;
 }
 
+export interface PortfolioPosition {
+  ticker: string;
+  shares: number;
+  currency: "AUD" | "USD" | string;
+  current_price: number | null;
+  current_value_native: number | null;
+  current_value_aud: number | null;
+  total_invested: number;
+  total_invested_aud: number;
+  pnl_native: number | null;
+  pnl_aud: number | null;
+  pnl_pct: number | null;
+}
+
+export interface PortfolioTotals {
+  positions: PortfolioPosition[];
+  total_invested_aud: number;
+  total_value_aud: number;
+  total_pnl_aud: number;
+  total_pnl_pct: number | null;
+  aud_usd_rate: number;
+}
+
 export interface Digest {
   generated_at_utc: string;
   headline: string;
   weather: Weather;
   portfolio: { summary: string; movers: PortfolioMover[] };
+  portfolio_totals?: PortfolioTotals;
   markets: { summary: string; indicators: MarketIndicator[] };
   politics: { summary: string; stories: NewsStory[] };
   ai: { summary: string; stories: NewsStory[] };

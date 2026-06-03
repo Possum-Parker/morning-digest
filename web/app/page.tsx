@@ -82,7 +82,11 @@ export default function Page() {
         <>
           {digest.weather && <WeatherWidget weather={digest.weather} />}
           <WatchTodaySection items={digest.watch_today} />
-          <PortfolioSection summary={digest.portfolio.summary} movers={digest.portfolio.movers} />
+          <PortfolioSection
+            summary={digest.portfolio.summary}
+            movers={digest.portfolio.movers}
+            totals={digest.portfolio_totals}
+          />
           <MarketsSection summary={digest.markets.summary} indicators={digest.markets.indicators} />
           <StoriesSection
             icon="🇦🇺"

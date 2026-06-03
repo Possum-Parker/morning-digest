@@ -1,9 +1,13 @@
+import Link from "next/link";
+
 import type {
   Action,
   MarketIndicator,
   NRLFixture,
   NewsStory,
   PortfolioMover,
+  PortfolioPosition,
+  PortfolioTotals,
   Urgency,
   WatchItem,
 } from "@/lib/types";
@@ -22,30 +26,132 @@ function ChangePill({ pct }: { pct: number }) {
   );
 }
 
+function formatAud(n: number | null | undefined): string {
+  if (n == null) return "—";
+  const sign = n < 0 ? "-" : "";
+  const abs = Math.abs(n);
+  return `${sign}$${abs.toLocaleString("en-AU", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+}
+
+function PortfolioTotalsHeader({ totals }: { totals: PortfolioTotals }) {
+  const pnlPositive = (totals.total_pnl_aud ?? 0) >= 0;
+  return (
+    <div className="mb-4 pb-4 border-b border-white/5">
+      <div className="text-xs uppercase tracking-widest text-muted">Portfolio Value</div>
+      <div className="flex items-baseline gap-3 mt-1">
+        <span className="text-3xl font-semibold tracking-tight">
+          {formatAud(totals.total_value_aud)}
+        </span>
+        <span className="text-xs text-muted">AUD</span>
+      </div>
+      <div className="text-sm mt-1.5">
+        <span className={pnlPositive ? "text-positive" : "text-negative"}>
+          {pnlPositive ? "+" : ""}
+          {formatAud(totals.total_pnl_aud)}
+        </span>
+        <span className="text-muted ml-2">
+          ({pnlPositive ? "+" : ""}
+          {totals.total_pnl_pct != null ? totals.total_pnl_pct.toFixed(2) : "—"}%)
+        </span>
+        <span className="text-muted ml-2">on {formatAud(totals.total_invested_aud)} invested</span>
+      </div>
+    </div>
+  );
+}
+
+function PositionRow({ position, note }: { position: PortfolioPosition; note?: string }) {
+  const pnl = position.pnl_aud;
+  const pnlPositive = (pnl ?? 0) >= 0;
+  const currency = position.currency;
+  const valNative = position.current_value_native;
+  const invNative = position.total_invested;
+
+  return (
+    <li className="flex items-start justify-between gap-3">
+      <div className="min-w-0 flex-1">
+        <div className="flex items-center gap-2">
+          <span className="font-mono text-sm font-semibold">{position.ticker}</span>
+          <span className="text-[11px] text-muted">{position.shares} sh</span>
+          <Link
+            href={`/edit/${encodeURIComponent(position.ticker)}?shares=${position.shares}&invested=${position.total_invested}`}
+            className="ml-auto text-[11px] text-muted hover:text-gray-200 underline-offset-2 hover:underline"
+          >
+            Edit
+          </Link>
+        </div>
+        <div className="text-sm text-gray-300 mt-0.5">
+          {valNative != null ? (
+            <span>
+              {currency === "USD" ? "US$" : "$"}
+              {valNative.toFixed(2)} {currency}
+              {invNative != null && (
+                <span className="text-muted">
+                  {" "}
+                  on {currency === "USD" ? "US$" : "$"}
+                  {invNative.toFixed(2)} invested
+                </span>
+              )}
+            </span>
+          ) : (
+            <span className="text-muted">No price data</span>
+          )}
+        </div>
+        {note && <div className="text-xs text-gray-400 mt-1">{note}</div>}
+      </div>
+      <div className="text-right shrink-0">
+        <div
+          className={`text-sm font-semibold ${pnlPositive ? "text-positive" : "text-negative"}`}
+        >
+          {pnl != null ? `${pnlPositive ? "+" : ""}${formatAud(pnl)}` : "—"}
+        </div>
+        {position.pnl_pct != null && (
+          <div className={`text-[11px] ${pnlPositive ? "text-positive" : "text-negative"}`}>
+            {pnlPositive ? "+" : ""}
+            {position.pnl_pct.toFixed(2)}%
+          </div>
+        )}
+      </div>
+    </li>
+  );
+}
+
 export function PortfolioSection({
   summary,
   movers,
+  totals,
 }: {
   summary: string;
   movers: PortfolioMover[];
+  totals?: PortfolioTotals;
 }) {
+  // Match Claude's per-mover notes to their position by ticker
+  const notesByTicker = new Map(movers.map((m) => [m.ticker, m.note]));
+
   return (
     <section className="section-card p-5 mb-4">
-      <h2 className="text-lg font-semibold mb-2">📈 Your Portfolio</h2>
+      <h2 className="text-lg font-semibold mb-3">📈 Your Portfolio</h2>
+      {totals && <PortfolioTotalsHeader totals={totals} />}
       <p className="text-sm text-gray-300 leading-relaxed mb-4">{summary}</p>
       <ul className="space-y-3">
-        {movers.map((m) => (
-          <li key={m.ticker} className="flex items-start justify-between gap-3">
-            <div className="min-w-0">
-              <div className="flex items-center gap-2">
-                <span className="font-mono text-sm font-semibold">{m.ticker}</span>
-                <span className="text-xs text-muted truncate">{m.name}</span>
-              </div>
-              <div className="text-sm text-gray-300 mt-0.5">{m.note}</div>
-            </div>
-            <ChangePill pct={m.change_pct} />
-          </li>
-        ))}
+        {totals && totals.positions.length > 0
+          ? totals.positions
+              .slice()
+              .sort((a, b) => Math.abs(b.pnl_aud ?? 0) - Math.abs(a.pnl_aud ?? 0))
+              .map((p) => (
+                <PositionRow key={p.ticker} position={p} note={notesByTicker.get(p.ticker)} />
+              ))
+          : movers.map((m) => (
+              <li key={m.ticker} className="flex items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2">
+                    <span className="font-mono text-sm font-semibold">{m.ticker}</span>
+                    <span className="text-xs text-muted truncate">{m.name}</span>
+                  </div>
+                  <div className="text-sm text-gray-300 mt-0.5">{m.note}</div>
+                </div>
+                <ChangePill pct={m.change_pct} />
+              </li>
+            ))}
       </ul>
     </section>
   );

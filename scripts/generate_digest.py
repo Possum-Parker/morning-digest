@@ -16,6 +16,7 @@ from fetch_news import fetch_topic  # noqa: E402
 from fetch_nrl import fetch_nrl_draw  # noqa: E402
 from fetch_stocks import fetch_all  # noqa: E402
 from fetch_weather import fetch_weather  # noqa: E402
+import portfolio_pnl  # noqa: E402
 from send_notification import send_push  # noqa: E402
 
 
@@ -88,6 +89,20 @@ def gather_raw_data() -> dict:
     weather = fetch_weather()
     nrl_info = fetch_nrl_draw()
 
+    # Compute portfolio P&L from holdings file + the prices we just fetched
+    aud_usd_rate = None
+    for q in indicator_quotes:
+        if q.get("ticker") == "AUDUSD=X" and q.get("price"):
+            aud_usd_rate = float(q["price"])
+            break
+    holdings_data = portfolio_pnl.load_holdings()
+    pnl = portfolio_pnl.compute(holdings_data, holdings_quotes, aud_usd_rate)
+    print(
+        f"[pnl] {len(pnl['positions'])} positions, "
+        f"total value ${pnl['total_value_aud']:.2f} AUD, "
+        f"P&L ${pnl['total_pnl_aud']:.2f} ({pnl['total_pnl_pct']}%)"
+    )
+
     return {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "weather": weather,
@@ -98,6 +113,7 @@ def gather_raw_data() -> dict:
         "indicators": indicator_quotes,
         "news": news,
         "portfolio_news": per_ticker_news,
+        "portfolio_pnl": pnl,
     }
 
 
@@ -121,6 +137,7 @@ def main() -> int:
     digest["nrl_round"] = raw["nrl_round"]
     digest["nrl_draw"] = raw["nrl_draw"]
     digest["nrl_byes"] = raw["nrl_byes"]
+    digest["portfolio_totals"] = raw["portfolio_pnl"]
     digest["generated_at_utc"] = raw["generated_at_utc"]
 
     out_path = ROOT / "data" / "latest.json"
