@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 
 import type {
@@ -60,57 +63,81 @@ function PortfolioTotalsHeader({ totals }: { totals: PortfolioTotals }) {
 }
 
 function PositionRow({ position, note }: { position: PortfolioPosition; note?: string }) {
+  const [expanded, setExpanded] = useState(false);
   const pnl = position.pnl_aud;
   const pnlPositive = (pnl ?? 0) >= 0;
   const currency = position.currency;
   const valNative = position.current_value_native;
   const invNative = position.total_invested;
+  const symbol = currency === "USD" ? "US$" : "$";
+  const hasNote = Boolean(note);
 
   return (
-    <li className="flex items-start justify-between gap-3">
-      <div className="min-w-0 flex-1">
-        <div className="flex items-center gap-2">
-          <span className="font-mono text-sm font-semibold">{position.ticker}</span>
-          <span className="text-[11px] text-muted">{position.shares} sh</span>
+    <li className="border border-white/5 rounded-lg">
+      <div className="p-3">
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center gap-2 min-w-0">
+            <span className="font-mono text-sm font-semibold">{position.ticker}</span>
+            <span className="text-[11px] text-muted inline-flex items-center gap-1">
+              <span className="text-accent text-[10px]">▲</span>
+              {position.shares}
+            </span>
+          </div>
           <Link
             href={`/edit/${encodeURIComponent(position.ticker)}?shares=${position.shares}&invested=${position.total_invested}`}
-            className="ml-auto text-[11px] text-muted hover:text-gray-200 underline-offset-2 hover:underline"
+            className="text-[11px] text-muted hover:text-gray-200 underline-offset-2 hover:underline shrink-0"
           >
             Edit
           </Link>
         </div>
-        <div className="text-sm text-gray-300 mt-0.5">
-          {valNative != null ? (
-            <span>
-              {currency === "USD" ? "US$" : "$"}
-              {valNative.toFixed(2)} {currency}
-              {invNative != null && (
-                <span className="text-muted">
-                  {" "}
-                  on {currency === "USD" ? "US$" : "$"}
+
+        <div className="flex items-end justify-between gap-2 mt-1.5">
+          <div className="text-sm text-gray-300 min-w-0">
+            {valNative != null && invNative != null ? (
+              <>
+                <span className="font-medium">
+                  {symbol}
+                  {valNative.toFixed(2)}
+                </span>
+                <span className="text-[11px] text-muted ml-1.5">
+                  · {symbol}
                   {invNative.toFixed(2)} invested
                 </span>
-              )}
-            </span>
-          ) : (
-            <span className="text-muted">No price data</span>
-          )}
-        </div>
-        {note && <div className="text-xs text-gray-400 mt-1">{note}</div>}
-      </div>
-      <div className="text-right shrink-0">
-        <div
-          className={`text-sm font-semibold ${pnlPositive ? "text-positive" : "text-negative"}`}
-        >
-          {pnl != null ? `${pnlPositive ? "+" : ""}${formatAud(pnl)}` : "—"}
-        </div>
-        {position.pnl_pct != null && (
-          <div className={`text-[11px] ${pnlPositive ? "text-positive" : "text-negative"}`}>
-            {pnlPositive ? "+" : ""}
-            {position.pnl_pct.toFixed(2)}%
+              </>
+            ) : (
+              <span className="text-muted">No price data</span>
+            )}
           </div>
-        )}
+          <div className="text-right shrink-0">
+            <div className={`text-sm font-semibold ${pnlPositive ? "text-positive" : "text-negative"}`}>
+              {pnl != null ? `${pnlPositive ? "+" : ""}${formatAud(pnl)}` : "—"}
+            </div>
+            {position.pnl_pct != null && (
+              <div className={`text-[11px] ${pnlPositive ? "text-positive" : "text-negative"}`}>
+                {pnlPositive ? "+" : ""}
+                {position.pnl_pct.toFixed(2)}%
+              </div>
+            )}
+          </div>
+        </div>
       </div>
+
+      {hasNote && (
+        <>
+          <button
+            onClick={() => setExpanded((v) => !v)}
+            className="w-full px-3 py-1.5 border-t border-white/5 flex items-center justify-between text-[11px] text-muted hover:bg-white/5 transition"
+          >
+            <span>Why it moved</span>
+            <span className={`transition-transform ${expanded ? "rotate-180" : ""}`}>▾</span>
+          </button>
+          {expanded && (
+            <div className="px-3 py-2 text-xs text-gray-300 leading-relaxed border-t border-white/5 bg-white/[0.02] rounded-b-lg">
+              {note}
+            </div>
+          )}
+        </>
+      )}
     </li>
   );
 }
