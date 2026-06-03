@@ -132,6 +132,11 @@ def main() -> int:
     print("[digest] calling Claude for summary…")
     digest = generate_digest(raw)
 
+    # Defensive: ensure optional sections always exist so the frontend never breaks
+    digest.setdefault("watch_today", [])
+    if not digest.get("watch_today"):
+        print("[digest] WARNING: watch_today came back empty.")
+
     # Merge in factual data Claude shouldn't fabricate
     digest["weather"] = raw["weather"]
     digest["nrl_round"] = raw["nrl_round"]

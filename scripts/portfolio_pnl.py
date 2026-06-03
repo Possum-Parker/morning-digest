@@ -62,6 +62,7 @@ def compute(
                 "pnl_native": None,
                 "pnl_aud": None,
                 "pnl_pct": None,
+                "day_change_pct": None,
             })
             total_invested_aud += invested_aud
             continue
@@ -73,6 +74,8 @@ def compute(
         pnl_native = value_native - invested_native
         pnl_aud = value_aud - invested_aud
         pnl_pct = (pnl_native / invested_native * 100) if invested_native > 0 else None
+
+        day_change = quote.get("change_pct")
 
         positions.append({
             "ticker": ticker,
@@ -86,6 +89,7 @@ def compute(
             "pnl_native": round(pnl_native, 2),
             "pnl_aud": round(pnl_aud, 2),
             "pnl_pct": round(pnl_pct, 2) if pnl_pct is not None else None,
+            "day_change_pct": round(float(day_change), 2) if day_change is not None else None,
         })
 
         total_invested_aud += invested_aud

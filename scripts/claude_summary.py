@@ -47,14 +47,16 @@ SPECIFICITY — every story's "why_it_matters" must be SELF-CONTAINED:
   - Aim for 2-4 sentences per why_it_matters, packed with actual facts from the article text.
   - If the article text isn't available (no "text" field), be honest and brief rather than vague.
 
-BUY / HOLD / SELL CALLS (in watch_today):
-  When you see a clear signal in the news or price data that's relevant to one of the user's holdings
-  (GOOGL, MSFT, TTWO, FUEL.AX, CBA.AX, VDHG.AX, VGE.AX, VTS.AX), include an explicit recommendation
-  by setting "action" to "buy", "hold", or "sell" and "ticker" to the relevant symbol.
-  - Be honest. If there's no clear signal on a ticker, don't force an action.
-  - Most days, most stocks should be "hold" — only call buy/sell when there's a genuine reason.
+WATCH TODAY (watch_today) — THIS IS THE MOST IMPORTANT SECTION. NEVER leave it empty.
+  Always return 3-6 watch_today items. This is the headline takeaway the user opens the app for.
+  When you see a signal in the news or price data relevant to one of the user's holdings
+  (GOOG, MSFT, TTWO, FUEL.AX, VDHG.AX, VGE.AX, VTS.AX, GXAI.AX, PLS.AX), include an explicit
+  recommendation by setting "action" to "buy", "hold", or "sell" and "ticker" to the relevant symbol.
+  - Be honest. If there's no strong signal on a ticker, "hold" is the right call — but still include it.
+  - At least 2-3 of your items should carry a buy/hold/sell action on a specific holding.
   - Use the "detail" field to explain WHY in plain English (the news, the price action, the catalyst).
-  - You can also include non-action watch items (no action/ticker) for general things to keep an eye on.
+  - You can also include non-action watch items (no action/ticker) for general things to keep an eye on
+    (e.g. "RBA decision Tuesday", "oil spiking on Middle East tension").
 
 URGENCY (every watch_today item must have one):
   * "red"    = act / decide soon (e.g. earnings tonight US time, sharp portfolio move, regulatory shock)
@@ -126,6 +128,31 @@ DIGEST_TOOL = {
                 },
                 "required": ["summary", "movers"],
             },
+            "watch_today": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "title": {"type": "string"},
+                        "detail": {"type": "string"},
+                        "urgency": {
+                            "type": "string",
+                            "enum": ["red", "orange", "green"],
+                            "description": "red = act soon, orange = watch this week, green = informational",
+                        },
+                        "action": {
+                            "type": "string",
+                            "enum": ["buy", "hold", "sell"],
+                            "description": "Optional. Only include for ticker-specific recommendations.",
+                        },
+                        "ticker": {
+                            "type": "string",
+                            "description": "Optional. The ticker the action applies to (e.g. GOOG, PLS.AX).",
+                        },
+                    },
+                    "required": ["title", "detail", "urgency"],
+                },
+            },
             "markets": {
                 "type": "object",
                 "properties": {
@@ -173,33 +200,8 @@ DIGEST_TOOL = {
                 },
                 "required": ["summary", "stories"],
             },
-            "watch_today": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "title": {"type": "string"},
-                        "detail": {"type": "string"},
-                        "urgency": {
-                            "type": "string",
-                            "enum": ["red", "orange", "green"],
-                            "description": "red = act soon, orange = watch this week, green = informational",
-                        },
-                        "action": {
-                            "type": "string",
-                            "enum": ["buy", "hold", "sell"],
-                            "description": "Optional. Only include for ticker-specific recommendations.",
-                        },
-                        "ticker": {
-                            "type": "string",
-                            "description": "Optional. The ticker the action applies to (e.g. GOOGL, CBA.AX).",
-                        },
-                    },
-                    "required": ["title", "detail", "urgency"],
-                },
-            },
         },
-        "required": ["headline", "portfolio", "markets", "politics", "ai", "sport", "watch_today"],
+        "required": ["headline", "portfolio", "watch_today", "markets", "politics", "ai", "sport"],
     },
 }
 
@@ -214,7 +216,7 @@ def generate_digest(raw_data: dict) -> dict:
 
     response = client.messages.create(
         model=MODEL,
-        max_tokens=8000,
+        max_tokens=16000,
         system=SYSTEM_PROMPT,
         tools=[DIGEST_TOOL],
         tool_choice={"type": "tool", "name": "submit_digest"},

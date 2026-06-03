@@ -91,33 +91,51 @@ function PositionRow({ position, note }: { position: PortfolioPosition; note?: s
           </Link>
         </div>
 
-        <div className="flex items-end justify-between gap-2 mt-1.5">
-          <div className="text-sm text-gray-300 min-w-0">
-            {valNative != null && invNative != null ? (
-              <>
-                <span className="font-medium">
-                  {symbol}
-                  {valNative.toFixed(2)}
-                </span>
-                <span className="text-[11px] text-muted ml-1.5">
-                  · {symbol}
-                  {invNative.toFixed(2)} invested
-                </span>
-              </>
+        <div className="text-sm text-gray-300 mt-1.5">
+          {valNative != null && invNative != null ? (
+            <>
+              <span className="font-medium">
+                {symbol}
+                {valNative.toFixed(2)}
+              </span>
+              <span className="text-[11px] text-muted ml-1.5">
+                · {symbol}
+                {invNative.toFixed(2)} invested
+              </span>
+            </>
+          ) : (
+            <span className="text-muted">No price data</span>
+          )}
+        </div>
+
+        <div className="flex items-stretch gap-2 mt-2">
+          <div className="flex-1 rounded-md bg-white/[0.03] px-2.5 py-1.5">
+            <div className="text-[9px] uppercase tracking-widest text-muted">Today</div>
+            {position.day_change_pct != null ? (
+              <div
+                className={`text-sm font-semibold ${
+                  position.day_change_pct >= 0 ? "text-positive" : "text-negative"
+                }`}
+              >
+                {position.day_change_pct >= 0 ? "▲ " : "▼ "}
+                {position.day_change_pct >= 0 ? "+" : ""}
+                {position.day_change_pct.toFixed(2)}%
+              </div>
             ) : (
-              <span className="text-muted">No price data</span>
+              <div className="text-sm text-muted">—</div>
             )}
           </div>
-          <div className="text-right shrink-0">
+          <div className="flex-1 rounded-md bg-white/[0.03] px-2.5 py-1.5">
+            <div className="text-[9px] uppercase tracking-widest text-muted">Total P&amp;L</div>
             <div className={`text-sm font-semibold ${pnlPositive ? "text-positive" : "text-negative"}`}>
               {pnl != null ? `${pnlPositive ? "+" : ""}${formatAud(pnl)}` : "—"}
+              {position.pnl_pct != null && (
+                <span className="text-[11px] font-normal ml-1">
+                  ({pnlPositive ? "+" : ""}
+                  {position.pnl_pct.toFixed(2)}%)
+                </span>
+              )}
             </div>
-            {position.pnl_pct != null && (
-              <div className={`text-[11px] ${pnlPositive ? "text-positive" : "text-negative"}`}>
-                {pnlPositive ? "+" : ""}
-                {position.pnl_pct.toFixed(2)}%
-              </div>
-            )}
           </div>
         </div>
       </div>

@@ -80,6 +80,7 @@ export interface PortfolioPosition {
   pnl_native: number | null;
   pnl_aud: number | null;
   pnl_pct: number | null;
+  day_change_pct: number | null;
 }
 
 export interface PortfolioTotals {
