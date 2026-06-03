@@ -83,7 +83,6 @@ export default function Page() {
           {digest.weather && <WeatherWidget weather={digest.weather} />}
           <WatchTodaySection items={digest.watch_today} />
           <PortfolioSection
-            summary={digest.portfolio.summary}
             movers={digest.portfolio.movers}
             totals={digest.portfolio_totals}
           />

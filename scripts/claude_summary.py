@@ -63,18 +63,18 @@ URGENCY (every watch_today item must have one):
   * "orange" = something to watch this week (e.g. building risk, news developing, upcoming data print)
   * "green"  = informational / good-to-know (e.g. tailwind for a holding, useful background)
 
-PORTFOLIO P&L CONTEXT:
-  The raw data now includes a `portfolio_pnl` block with real dollar amounts:
+PORTFOLIO MOVERS (portfolio.movers):
+  The raw data includes a `portfolio_pnl` block with real dollar amounts:
     - Each position has shares, current_value_aud, total_invested_aud, pnl_aud (in AUD), pnl_pct
-    - There's a total_value_aud, total_pnl_aud, total_pnl_pct for the whole portfolio
-  USE THESE in your portfolio summary and movers. Speak in actual dollars, not just percentages.
-    - Good: "GOOG is up $12.50 since you bought in" or "you're up $187 across the portfolio"
-    - Bad: "GOOG is up 24%" (the percentage alone misses the magnitude when shares are tiny)
-  The portfolio summary should start with the dollar total (e.g., "Your portfolio sits at $1,847 AUD,
-  up $208 from your $1,639 invested"). Then call out the standout movers in dollar terms.
+  For each notable holding, write a `note` explaining WHY it moved in its last session — this is shown
+  as a "Why it moved" dropdown under each holding in the app. There is NO portfolio summary anymore,
+  so all portfolio commentary lives in these per-holding notes and in watch_today.
+  - Speak plainly. Explain the actual cause: "GOOG fell because the market is favouring Microsoft's AI story".
+  - Keep each note to 1-3 sentences. Be specific about the catalyst when the news data supports it.
 
 Rules:
-- Include 3-6 portfolio movers, largest absolute moves first. Skip holdings that didn't move much.
+- Include a mover entry for EVERY holding that has price data (so each gets a "why it moved" note),
+  ordered by largest absolute move first.
 - For politics, AI, and sport: include 3-5 stories each. Drop anything that's just noise.
 - "watch_today" should be 0-6 items. Don't pad it.
 - NEVER fabricate prices, percentages, links, or sources. Use only what's in the provided data.
@@ -111,7 +111,6 @@ DIGEST_TOOL = {
             "portfolio": {
                 "type": "object",
                 "properties": {
-                    "summary": {"type": "string"},
                     "movers": {
                         "type": "array",
                         "items": {
@@ -126,7 +125,7 @@ DIGEST_TOOL = {
                         },
                     },
                 },
-                "required": ["summary", "movers"],
+                "required": ["movers"],
             },
             "watch_today": {
                 "type": "array",

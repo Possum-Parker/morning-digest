@@ -96,7 +96,7 @@ export interface Digest {
   generated_at_utc: string;
   headline: string;
   weather: Weather;
-  portfolio: { summary: string; movers: PortfolioMover[] };
+  portfolio: { summary?: string; movers: PortfolioMover[] };
   portfolio_totals?: PortfolioTotals;
   markets: { summary: string; indicators: MarketIndicator[] };
   politics: { summary: string; stories: NewsStory[] };

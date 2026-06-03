@@ -161,11 +161,9 @@ function PositionRow({ position, note }: { position: PortfolioPosition; note?: s
 }
 
 export function PortfolioSection({
-  summary,
   movers,
   totals,
 }: {
-  summary: string;
   movers: PortfolioMover[];
   totals?: PortfolioTotals;
 }) {
@@ -176,8 +174,7 @@ export function PortfolioSection({
     <section className="section-card p-5 mb-4">
       <h2 className="text-lg font-semibold mb-3">📈 Your Portfolio</h2>
       {totals && <PortfolioTotalsHeader totals={totals} />}
-      <p className="text-sm text-gray-300 leading-relaxed mb-4">{summary}</p>
-      <ul className="space-y-3">
+      <ul className="space-y-3 mt-4">
         {totals && totals.positions.length > 0
           ? totals.positions
               .slice()
