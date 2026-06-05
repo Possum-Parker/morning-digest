@@ -1,210 +1,238 @@
 {
-  "headline": "PLS.AX slides nearly 4% as lithium pessimism deepens, while the ASX 200 dropped 0.7% today and the RBA rate outlook continues to dominate headlines.",
+  "headline": "A rough night on Wall St dragged most of your portfolio lower, with PLS taking the biggest hit today as lithium sentiment stays sour and oil's sharp drop weighed on FUEL.",
   "portfolio": {
     "movers": [
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": -3.75,
-        "note": "Pilbara dropped 3.75% today as lithium stocks broadly sold off across the ASX mining sector. Investor sentiment on lithium remains divided — analysts are debating whether the cycle has bottomed or has further to fall. PLS is now down 12.3% from your entry price."
+        "note": "PLS had a tough session today, dropping 3.75% to $5.91. Lithium sentiment remains deeply divided — analysts are split on whether prices have bottomed or have further to fall. The broader ASX mining sector was in the red today, with lithium and gold stocks sliding across the board."
       },
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": -1.74,
-        "note": "The AI ETF slipped 1.74% today, dragged lower by weakness in chip stocks. Broadcom tumbled ~13% in its last US session after its AI chip revenue guidance disappointed markets, which knocked the broader AI/semiconductor space and flowed through to GXAI here on the ASX."
+        "note": "The AI ETF slipped 1.74% today to $18.05. It tracks global AI-related stocks, so last night's sharp NASDAQ fall (down 3%) is feeding through — when US tech sneezes, this ETF catches a cold."
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": -2.01,
+        "note": "Microsoft dropped 2% last night to $419.44. No specific breaking bad news — it was caught in a broad NASDAQ sell-off. The stock is still underwater in your portfolio at -5.3% overall."
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "change_pct": -1.03,
+        "note": "Take-Two slipped about 1% last night to $214.42, largely carried down by the wider tech and gaming sector sell-off on the NASDAQ. Still down 7.5% overall in your portfolio."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": -0.94,
-        "note": "Emerging markets dipped 0.94% today. No single catalyst — general risk-off tone on the ASX, combined with a slightly stronger Aussie dollar (which reduces the AUD value of foreign assets), weighed on this one."
+        "note": "VGE fell 0.94% today to $92.03. Emerging markets got hit by the weaker Australian dollar (which fell 1.15% against the USD) and broader risk-off sentiment flowing from the US."
       },
       {
         "ticker": "FUEL.AX",
         "name": "BetaShares Global Energy ETF",
         "change_pct": -0.8,
-        "note": "FUEL slid 0.8% today as oil prices softened. OPEC cut its oil demand forecast for 2026, and crude (WTI) fell to around $92/barrel in the last US session. Lower expected demand = lower energy company revenues = lower ETF price."
+        "note": "FUEL dipped 0.8% today to $8.70. Crude oil (WTI) dropped sharply last night — down 3.35% to $89.92 a barrel — as OPEC cut its demand forecast for 2026, meaning they now expect the world to need less oil than previously thought. Less demand = lower prices = weaker energy stocks."
       },
       {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": 0.17,
-        "note": "Microsoft nudged up 0.17% in its last US session — a quiet, positive day. The stock continues to benefit from its strong AI positioning. Q1 earnings showed Microsoft outperforming most automation software peers, keeping sentiment steady."
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "change_pct": 0.39,
-        "note": "Take-Two rose 0.39% in its last US session. There's some fun buzz around GTA 6 — the Rockstar boss actually became a playable character in a promotional move — keeping the game in the news cycle ahead of its anticipated release."
-      },
-      {
-        "ticker": "VDHG.AX",
-        "name": "Vanguard Diversified High Growth ETF",
-        "change_pct": 0.12,
-        "note": "VDHG edged up 0.12% today — a small, steady gain. As a diversified high-growth fund it largely tracked the mixed market conditions, with US exposure (via VTS-type holdings inside the fund) providing a slight tailwind."
+        "ticker": "GOOG",
+        "name": "Alphabet (Google)",
+        "change_pct": -0.69,
+        "note": "Google edged down 0.69% last night to $366.74, a relatively small move in what was a rough night for the broader NASDAQ. No specific company news — general tech sector pressure. Still up 26.9% overall in your portfolio, the strongest performer."
       },
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market ETF",
         "change_pct": 0.31,
-        "note": "VTS rose 0.31% today, reflecting last night's positive S&P 500 session (up 0.41%). The broad US market held up well despite some tech weakness, and that flowed through to VTS's ASX close today."
+        "note": "VTS nudged up 0.31% today to $521.82, a solid result given it tracks US stocks — the ASX-listed version can move slightly differently to the underlying US market due to currency and timing effects. Small but positive."
       },
       {
-        "ticker": "GOOG",
-        "name": "Alphabet Inc. (Google)",
-        "change_pct": 0.0,
-        "note": "No live price data available for GOOG today — the previous close was $355.68 USD. Keep an eye on it tonight when US markets open; Broadcom's AI chip guidance miss last session rattled some AI names, but Google separately announced an $85B expansion bet which was well received."
+        "ticker": "VDHG.AX",
+        "name": "Vanguard Diversified High Growth ETF",
+        "change_pct": 0.12,
+        "note": "VDHG was essentially flat today, edging up 0.12% to $75.95. Its diversification across asset classes is doing its job — cushioning the blow when individual sectors sell off hard."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "PLS.AX: Lithium pain continues — hold or trim?",
+      "title": "PLS.AX — Lithium pain continues",
+      "detail": "Pilbara dropped 3.75% today and is now down 12.3% overall in your portfolio. The lithium market remains deeply split — some analysts think prices have bottomed, others see more downside. No clear catalyst to buy more right now. Hold and watch for any signs of lithium price stabilisation.",
+      "urgency": "orange",
       "ticker": "PLS.AX",
-      "action": "hold",
-      "detail": "Pilbara dropped another 3.75% today and is now 12.3% below your cost price. Kalkine describes the stock as a 'battleground' with investors split on whether lithium has bottomed. There's no clear positive catalyst right now, but selling locks in the loss. Hold unless your conviction on the lithium recovery thesis has changed.",
-      "urgency": "orange"
+      "action": "hold"
     },
     {
-      "title": "GXAI.AX: Broadcom shock hits AI ETF — hold",
+      "title": "MSFT — NASDAQ sell-off hit hard last night",
+      "detail": "Microsoft fell 2% last night as the NASDAQ dropped 3%. It's your second-largest holding by value and is already 5.3% underwater. No fundamental bad news, just broad market pressure. No reason to sell, but worth watching if the US sell-off continues tonight.",
+      "urgency": "orange",
+      "ticker": "MSFT",
+      "action": "hold"
+    },
+    {
+      "title": "GXAI.AX — AI ETF sliding with the NASDAQ",
+      "detail": "GXAI fell 1.74% today and is down 5.15% overall. It mirrors global AI stocks, so when the NASDAQ falls 3% (as it did last night), this follows. If you believe in the long-term AI theme, this dip isn't alarming — but watch tonight's US open for further direction.",
+      "urgency": "orange",
       "ticker": "GXAI.AX",
-      "action": "hold",
-      "detail": "GXAI fell 1.74% today after Broadcom dropped ~13% in the last US session when its AI chip guidance disappointed. The ETF is now 5.15% below your cost. The broader AI story remains intact (Google's $85B expansion, continued model launches), so this looks like a sector wobble rather than a trend change. Hold and watch tonight's US session.",
-      "urgency": "orange"
+      "action": "hold"
     },
     {
-      "title": "Broadcom fallout: watch US markets tonight",
-      "detail": "Broadcom's 13% tumble last US session on softer-than-expected AI chip guidance rattled the semiconductor sector — the SOXX chip index fell 2.1%. This affects GXAI.AX directly and could also weigh on GOOG and MSFT tonight when US markets open around 11:30pm AEST. Worth checking in later.",
+      "title": "FUEL.AX — Oil's big drop worth watching",
+      "detail": "Crude oil fell 3.35% last night to $89.92 a barrel after OPEC cut its 2026 demand forecast. FUEL dropped 0.8% today in response. If oil keeps sliding, expect more pressure on this ETF. It's still slightly in the green overall (+2.86%), but the trend bears watching this week.",
+      "urgency": "orange",
+      "ticker": "FUEL.AX",
+      "action": "hold"
+    },
+    {
+      "title": "US markets open tonight — brace for volatility",
+      "detail": "The S&P 500 fell 1.84% and the NASDAQ dropped 3% last night. Gold also sold off sharply (-2.83%) and the Aussie dollar fell 1.15% against the USD to 70.5 cents. Risk-off sentiment (investors pulling back from riskier assets) is building. Tonight's US open will be key — if selling continues, your US holdings (GOOG, MSFT, TTWO) will feel it.",
       "urgency": "red"
     },
     {
-      "title": "MSFT: Steady as she goes — hold",
-      "ticker": "MSFT",
-      "action": "hold",
-      "detail": "Microsoft is up 0.17% in its last session and continues to be the market's favourite AI play. Microsoft's AI CEO Mustafa Suleyman says his team is 'more concerned' about Anthropic than Google or Meta as competition. Q1 earnings showed MSFT outperforming automation software peers. Still down 3.4% from your entry — no rush to do anything here.",
+      "title": "Labor's tax legislation passes the lower house",
+      "detail": "The Albanese government's new tax laws have passed the House of Representatives despite questions about constitutional validity. If it clears the Senate, changes could affect investors through modifications to tax policy. Worth keeping an eye on as it moves to the Senate.",
       "urgency": "green"
-    },
-    {
-      "title": "RBA rate cut expectations building — good for your Aussie holdings",
-      "detail": "CBA has formally forecast RBA interest rate cuts, and the RBA itself flagged an early housing slowdown as rate rises bite. Markets are now pricing in cuts sooner than previously expected. Lower rates typically boost ASX valuations and reduce mortgage stress — a tailwind for your VDHG.AX, VTS.AX and any Australian equity exposure inside those funds.",
-      "urgency": "green"
-    },
-    {
-      "title": "FUEL.AX: Oil demand outlook weakens — hold",
-      "ticker": "FUEL.AX",
-      "action": "hold",
-      "detail": "OPEC cut its 2026 oil demand forecast, and crude (WTI) is sitting around $92/barrel. FUEL slipped 0.8% today but is still 2.86% above your cost price — a small winner in your portfolio. The energy sector faces headwinds if demand forecasts keep being revised down, but you're still in profit. Hold for now.",
-      "urgency": "orange"
     }
   ],
   "markets": {
-    "summary": "The ASX 200 had a soft day today, falling 0.7% to close at 8,625. The broader mood was cautious — lithium, gold and mining stocks dragged the local market lower. Over in the US last night, it was a mixed picture: the S&P 500 rose a solid 0.41% to 7,584, but the NASDAQ barely moved (down 0.09%), weighed down by Broadcom's big drop after its AI chip guidance disappointed. Gold hit a fresh high near $4,489 USD/oz, oil softened to around $92/barrel, and the Aussie dollar is holding steady at about 71.4 US cents.",
+    "summary": "Last night was ugly on Wall Street. The NASDAQ shed 3% and the S&P 500 fell 1.84%, dragged down by broad tech selling. Gold dropped nearly 3% and oil fell over 3% after OPEC trimmed its demand outlook — meaning they expect global oil consumption to be lower than previously forecast. The Aussie dollar also weakened, falling 1.15% to around 70.5 US cents, which means your US-denominated holdings are worth slightly less in AUD terms. ASX 200 data wasn't available at close today.",
     "indicators": [
       {
-        "name": "ASX 200",
-        "value": "8,625",
-        "change_pct": -0.7,
-        "note": "Soft close today — mining and lithium stocks led the losses"
-      },
-      {
         "name": "S&P 500",
-        "value": "7,584",
-        "change_pct": 0.41,
-        "note": "Last night's session — solid gain, broad market held up well"
+        "value": "7,444.58",
+        "change_pct": -1.84,
+        "note": "Broad US sell-off last night — tech led the losses"
       },
       {
-        "name": "NASDAQ",
-        "value": "26,831",
-        "change_pct": -0.09,
-        "note": "Last night — basically flat, Broadcom's 13% drop offset gains elsewhere"
+        "name": "NASDAQ Composite",
+        "value": "26,023.13",
+        "change_pct": -3.01,
+        "note": "Tech hammered last night, worst of the major indices"
+      },
+      {
+        "name": "ASX 200",
+        "value": "N/A",
+        "change_pct": 0.0,
+        "note": "Data unavailable at today's close"
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$92.36",
-        "change_pct": -0.73,
-        "note": "OPEC cut demand forecasts for 2026, oil drifting lower"
+        "value": "$89.92",
+        "change_pct": -3.35,
+        "note": "OPEC cut 2026 demand forecast — less expected consumption = lower prices"
       },
       {
         "name": "Gold",
-        "value": "$4,489",
-        "change_pct": 0.29,
-        "note": "Continuing its strong run — near record highs"
+        "value": "$4,349.30",
+        "change_pct": -2.83,
+        "note": "Sharp sell-off last night — unusual for gold, which usually holds up in downturns"
       },
       {
         "name": "AUD/USD",
-        "value": "0.7137",
-        "change_pct": 0.03,
-        "note": "Steady — RBA cut expectations keeping a lid on any big AUD surge"
+        "value": "0.7053",
+        "change_pct": -1.15,
+        "note": "Aussie dollar weakened — makes US holdings worth less in AUD terms"
       }
     ]
   },
-  "politics": "{\"summary\": \"The big domestic story today is the RBA rate outlook — multiple forecasters now expect cuts, while the RBA itself flagged housing is already slowing. Meanwhile, Labor's budget legislation is in political trouble, with the Coalition and Greens blocking key bills in the Senate.\", \"stories\": [{\"title\": \"CBA officially forecasts RBA interest rate cuts\", \"source\": \"MacroBusiness\", \"link\": \"https://news.google.com/rss/articles/CBMihAFBVV95cUxQTXpOQi10a2laVjlYRThKZk1idGdiUkRaQjhya3NZT00waHNuUzhWdllIZ3EyYVhYd0kzTkFfTjVCSlh4Vzg3UFljUG5STjl1eEtFX00xbjh3MmJ3NlVIc0JqTkZ5OEZfSDZHVUNrVHhlSjB1U3dCYnZ5LTVUNGxuMjFLWkw?oc=5\", \"why_it_matters\": \"Commonwealth Bank — Australia's biggest bank — has now formally pencilled in RBA rate cuts. This is significant because CBA has one of the most closely watched economics teams in the country. If cuts come through, mortgage holders get relief, property prices get a boost, and growth-oriented shares (like what's inside your VDHG) tend to do better. The RBA itself also flagged this week that the housing market is already showing an early slowdown from rate rises biting.\"}, {\"title\": \"Coalition and Greens put Labor's major budget bills in limbo\", \"source\": \"SMH.com.au\", \"link\": \"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOW85cW9VQmNvZngzYmpFb3dUOG9lYzNxZ1ZVOWxJc2ZiNW9mMm12WXp0dkFfd0lOX3p3eEpldm83d2dEd2VxR1p6RTBSRmxEblZ4ZGpUTDBlQlVWM2lfb21CdHI4ZlRERnRodDZITHRTVy1qVWQtbGp2LVlibUVTM1JfX3YxSWpYMmNxbGVzUmlSMTVtTVdoZU9Rck9FLUR0bTktdlJUdU5Xbm9MMGdEQmdfZnZtc2ZqUHg1VFBMUE9YVjlqMEJOel91TjJrRGhSdE9DOUtucl8?oc=5\", \"why_it_matters\": \"Labor's key budget legislation is stalled in the Senate, blocked by both the Coalition and the Greens. This puts significant spending and tax measures in limbo — neither side of the crossbench is playing ball, leaving Treasurer Chalmers in a difficult position. The budget is already heading for record debt of around $53-54 billion, and now the government can't pass the laws needed to implement it.\"}, {\"title\": \"Labor's new tax legislation faces 'constitutionally invalid' claims\", \"source\": \"Sky News Australia\", \"link\": \"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQaG9IUC1zN0ZpdzdWUHhncTBBYVlsTEVZd3BjcGpJZTE4ZmY2XzZJRWNkQ252QWJqcVdXTEljUzk3aFRLZHBzb0JFdWdZY2NiTkxXT0hOeXZGZS11QVdGNEdYM3BCMTZxSVFsY1ZGVjBpeVp2Y2Z6anU4c3BhUEtZQ0NheU5pTDNKcFRwU2xKWldSdlpvdTRWZ1E0WU5nNjZrR2dhUk5QNHppSXV5MnFSNEhnYnhtNy13QldESDJXZi1KODdUUVJRZ29qWGNtNFZlTzRnVnYzdjR5eDVtOHpUZXRYVUF0aFNrY2RZXy1reTFuRHPSAfgBQVVfeXFMT2FRamtZNTN2RnZSWkNBSWx4Mmh2dFFiNHotOFVNX2l2dzJsb3JBeUFYLXk3c0ZabjFQQlZBTDluNk9GamtMVmVCYi1RaUpNeXJKLWZaUFRfc2FmUTdfZ0M3YjZqd3o3WlpIRkVIeWEwMmFYTGxqZi1wNVlZbWtZcFc1OHZDTUVKWWhOakJ0dkdhS3M1dFFqZmpiVVdZTENoQWwtSGJ3TmpONk16aDhaTFd3SWE4dHdRczR2aVRWSkladGxEbGFtY2JranJ3c0EwMGFoWlo0STduTVdQWncyS2VYLUkzRUloZC1mcTJjdUJOd1FqQjREclA?oc=5\", \"why_it_matters\": \"Sky News host Sharri Markson is reporting that legal experts believe the Albanese government's new tax legislation could be constitutionally invalid. If that's true, it would mean the laws could be challenged and struck down in court — a major headache for a government already struggling to get its budget through Parliament. Albanese is reportedly digging in, arguing the reforms are good for 'democracy and social cohesion'.\"}, {\"title\": \"Treasurer defends $53 billion debt burden as 'not a lot'\", \"source\": \"AAP News\", \"link\": \"https://news.google.com/rss/articles/CBMigwFBVV95cUxOYTVmSXp4S1JMV2hOcGNQUWFmY1MxdzJWOG85U2pjbUY1cVNkSFdMck4xRGVDRy1ZVVpfaWJQMmRmcEplTUVVT2pYWEQ1NXNkaTZRVFlzeVNKcUpmdHZwUkJCM1EwTkVfMThsM21GcWtTb1NQWlc4dkh3RWRHaEg0TGhubw?oc=5\", \"why_it_matters\": \"Treasurer Jim Chalmers is defending the federal budget's projected $53 billion debt, saying it's 'not a lot' in the context of the overall economy. South Australia has taken a subtle dig at Chalmers as the budget heads for what could be a record $54 billion deficit. With interest rates elevated, carrying that level of debt costs billions in interest payments each year — money that can't be spent on services.\"}}]}",
-  "ai": {
-    "summary": "A big week for AI governance — tech giants including Google, Microsoft, OpenAI and Anthropic signed a joint letter warning about AI-enabled bioweapons, while US lawmakers are moving to block individual states from regulating AI. There's also fresh competition data showing GPT-5.5 dominating real-world tests.",
+  "politics": {
+    "summary": "Federal budget debt is front and centre this week, with Treasurer Jim Chalmers defending a projected $53-54 billion debt burden. Meanwhile, Labor's new tax legislation has passed the lower house despite legal questions, and the PM is standing firm on the reforms.",
     "stories": [
       {
-        "title": "Tech giants warn AI + synthetic DNA = bioweapons risk",
-        "source": "GIGAZINE",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQR1RWTnRzd0hmOGRxeWo2eFM1V0R1Yy1hbGxJdF9paU80VHVhcm4tU2Q5ejdiZFJKRlpScmdsQXZ1TjdSWi1pMEdTbTFDUEFORFFadi1DU0lyWGdnb0xuc3AyQ2k1bERGX1NNSWY0RGxMLXlKNmItSG9yZW41S1BBVQ?oc=5",
-        "why_it_matters": "OpenAI, Anthropic, Google, Microsoft and other major AI players have co-signed an open letter sounding the alarm about a specific risk: synthetic DNA and RNA sequences that could be repurposed to make biological weapons are already accessible online — and AI can now teach people how to use them. The letter is essentially calling on governments to urgently regulate access to this combination of tools before a 'shock event' forces their hand. This is the industry admitting publicly that AI poses risks they can't self-manage alone."
+        "title": "'Not a lot': Chalmers defends $53 billion debt burden",
+        "source": "AAP News",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYTVmSXp4S1JMV2hOcGNQUWFmY1MxdzJWOG85U2pjbUY1cVNkSFdMck4xRGVDRy1ZVVpfaWJQMmRmcEplTUVVT2pYWEQ1NXNkaTZRVFlzeVNKcUpmdHZwUkJCM1EwTkVfMThsM21GcWtTb1NQWlc4dkh3RWRHaEg0TGhubw?oc=5",
+        "why_it_matters": "Treasurer Jim Chalmers is defending the federal budget's projected debt of around $53-54 billion, calling it 'not a lot' in the context of the overall economy. South Australia has reportedly taken a subtle dig at Chalmers over the figures. For investors, high government debt can eventually put upward pressure on interest rates or lead to spending cuts — worth keeping in the back of your mind."
       },
       {
-        "title": "US House drafts bill to strip states of AI regulation power",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcG5Sb0owaXRhbUlnSGpYRWV3c3lYOTRva2FsdE1ZYjZDYTRmU2FYS0wwa2VNYTBSblB3cHRsbjJOXzNMQllnU1QzNjU0THJmZ0ZhVmllV2hGZllQU2NZaEVhOTlYWTJxeVZPa2psOG5kOFdEaEx0MU9vSzlhemRycGotbkJUWE95aElJbjVweFhMaXZGS0tMdFRn?oc=5",
-        "why_it_matters": "US House lawmakers have released a draft bill that would prevent individual US states from passing their own AI regulations — all AI rules would have to come from the federal level. This is a big deal for the industry: instead of navigating 50 different state rulebooks, companies like Google, Microsoft and OpenAI would only have to deal with one (potentially more industry-friendly) federal framework. Critics argue it guts consumer protections that states like California have been building."
+        "title": "Labor's tax legislation passes the lower house amid constitutional questions",
+        "source": "Sky News Australia",
+        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNdWdrakJQSUdGX2NWa0Ewbno2c01VNlRTQXIwa3ZzdVFaWkxqaEJqbU9qMUJULUxlNGZYNFBfZk56STBTMzEyLUh3TW8xU3RPRjNVN2FDUUlGQUs0c1hnN2VKVW83emRielVhOUplXzlUWm04UXNWNGRmSzVaS0tTclVjR2VMRjZvTlZ0eFN3UFBtQy03MmFNNEd2RmM2SW9sWHoxM09RaWRTMncyWk96Nl9HMnNhMHFVYnhqNG1rQThWalRWRzBaZ0p1WVJlT0p3amFlNGFIVTRiTTNvdFV5R0NvUC1JcnVXdGtRLVI3cExadnJyamRKWk5QaWhRTG1HLWRYQkJVUmR5b2lXQkhCa2tlMVhQc3g5OWJBVEVCaEtMMTDSAagCQVVfeXFMTjlGb0pNaXV1NHFPVmZYdlVramQ3MVpmanRBUzZIbS1xSUlyTTUyeU1Cc2dCNjlaUjhGcnEwY2Ywc3BVdU9XRHJ3OEIzcXMyRG1QVnRQNmFld2FDSWdXdkgyUDFaS1VYelp0ejBtQnBQSlRreS1KdkczOWVjMW9qSmpkVEV6NHJOQW9VTU54eS1oX3JIdzdvZzN4bmRTd3ZZc1pIYjRPbUZ4c3VNYmZQNV9hOGtVVzBSYUd4dzFfMXQ1WFZPZXlpZ0lMaDQ2Q1RzeDFKdXRWUVpNTnRkNkYxd1FQdEdCUEpveVV2blFhelNjUjJqSGtaLWlOaExjTUdiQ1RxTjBYVlJmY1I3N0lzclVmSFJuUmh3MWZyR3dISVJxa291dWxCbVI?oc=5",
+        "why_it_matters": "Labor's new tax legislation has cleared the House of Representatives. Sky News host Sharri Markson and others are raising concerns it may be constitutionally invalid — meaning it could face a legal challenge before it ever takes effect. Labor has also rejected calls to address bracket creep (where inflation pushes workers into higher tax brackets without a real pay rise). The bill now heads to the Senate."
       },
       {
-        "title": "Microsoft's AI chief says Anthropic is their biggest worry — not Google",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNTnFKNGdLNkRuNWdSR3ItMVdnVXU0Tm5hUFR5V2t6RFdyeDlrYm5qU0dJaUxkc1hrNUItX1VqeGZ5c21hZGFGUzhIM3djaE9uTWdYQ0VWRmFGQXBxTWppTHhrYlp1YXNOdk80YUJBM1RiNjJERGdZTWo4b2RxbXg4MEFDdHAyLXVWT1NjVms5WmFQcW9aeDBiVjJsNkw2QVppQnNYd0JDUkh5ZW9rSi1EQ3B5OHBhcC1lMF9vTzVRbUlwZ0I5NExlRTM3bXlNVGVQMUdpZlVpNTlwRGxxQkZjamxpZFVSczg5bldfMGJ1NXJ1NWNxRGVrX0NaVXByMjUzTVJaOGhMRGFYVW1WOVkxNnE4c2F0dENDVzR0cWdiX1DSAaYCQVVfeXFMTnRWcUdvV252TDBRU1dUdldYdTFlMElTMjdPYmFpLXdXcno0bE1peHZKMExhSVFKZWMwdTRiVTg3RHFkWG1SWlpaZTN2Z0prR2VTcU5zbG1DSnZ4MVpLY0lfaUFrZjJOWmxDOHFKaXoxMnRtNDQ0V1FEbzdWM0lxVDBWOVpudUduRElHd3RLZE9BOHMtY3g3OGpLZjJla3BNUVhQTHFEeDE1VGlsbUxfWEZPTEVHN3FKWWVSaUViOC1HRXROdHdxVE9vdjNmSlVLRVVEZnZJQURxQmhmRHRvT2VUa1ZIVDduVWc0b29KX1VXTThmeVo2SUNHcDZDdDRwVW9xYzZWdXEwcDVkb1F4cE1kXzdSZzRjd3EtTkMwUjBxRUlOa2dB?oc=5",
-        "why_it_matters": "Microsoft's AI CEO Mustafa Suleyman says his team watches Anthropic (maker of the Claude models) more closely than Google, Meta or OpenAI when it comes to competitive threats. This is a candid admission about how fast Anthropic is moving. For MSFT holders, it's worth knowing that Microsoft is clearly taking the competition seriously — which tends to drive continued investment and innovation rather than complacency."
+        "title": "Albanese digs in on tax reforms, says they're good for 'democracy and social cohesion'",
+        "source": "Crikey",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFdYQXk2LU9SY0Qwcjl1WF9hRmdnSnlWZzZsWTJ1NXNwSjhQbUZCeEdoRzRnX2JWN3RtWkJ4Q2dwcEdGX2d3VG9SUGt5OEFmd21mQUJNa2E0YXZUNXV4QThIOWZiamh2OFBvT2pjRnFCTFExRWNFSXNwcWFJaENYbXJWSVVSd203QXQtUm85MF9neGNpYWFacVI2cTgwWS1WZl8zVlkwbkRjWjl1dUNUX0pjRmRKTmtPNmFZQUQzNlRZeGQ2cjdJLU5R?oc=5",
+        "why_it_matters": "Prime Minister Albanese is standing firm on the government's tax reform package, framing it as being about fairness and social cohesion rather than just fiscal policy. He's not backing down despite political pressure and legal questions. This signals the government intends to push the legislation through the Senate, so it's likely to remain a hot political topic over the coming weeks."
       },
       {
-        "title": "GPT-5.5 dominates $1,500 real-world hacking test; Gemini refused to participate",
+        "title": "SA takes a dig at Chalmers as budget heads for record $54b debt",
+        "source": "AFR",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYTRSd0hBY1hlRE9ZaFplcU9HMlRqYTRFNU5iMzlmOXF6dzB4NWs3NWtVZmZ1cU9tbnNOdzNnTTZSNEkwVlRMaW5MY3g0ajlQR3VDVWdUNjBhX0tKX2JjNmdzZm9EbkhyR2NnYWZzQlJPNzYybW1xYzd3M1E3THV4U0RUTUdfQk1VclhsZEIzNTRuVUVRcEtELTZJalpxVlAwZjhhWXhfVGUwOFlrODl3N2E2Z1lnTTJC?oc=5",
+        "why_it_matters": "The AFR reports South Australia has taken a swipe at Treasurer Chalmers as the federal budget tracks toward a record $54 billion debt. The inter-government tension adds political noise to what's already a difficult budget environment. A growing debt pile can mean less fiscal flexibility for future governments — relevant if you're thinking about the longer-term economic backdrop."
+      }
+    ]
+  },
+  "ai": {
+    "summary": "The big AI story today is a rare show of unity: the CEOs of OpenAI, Anthropic, Google, and Microsoft have jointly called for a law requiring DNA screening to prevent synthetic biology being weaponised. Separately, AI regulation is under fire from multiple angles — the UN, the Archbishop of Canterbury, and a new US bipartisan bill are all pushing for tougher rules.",
+    "stories": [
+      {
+        "title": "OpenAI, Anthropic, Google & Microsoft CEOs call for DNA screening law",
+        "source": "GIGAZINE / qz.com",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrUVp3UmVlYUxwckVqWDF3VVN1YkprQldkWTZnX19ISE1KLVo4eFRQNWRKZTV4NHRJVWNTekk5MW9BaUVxQlZGc2ota0hKZ0NGZ2VUeHMxUThfell2TWJBYml1dmtvS2cwQXFDM3h0c3JKQTZpa1dpY2IxQVFYZw?oc=5",
+        "why_it_matters": "The heads of the world's top AI labs — OpenAI, Anthropic, Google, and Microsoft — have co-signed an open letter calling for laws requiring DNA screening of synthetic biology orders. Their argument: in an era where AI can teach almost anyone how to create dangerous pathogens, synthetic DNA and RNA that could be repurposed for biological weapons is too easy to order online. It's a striking moment of cross-industry agreement on a safety issue, and signals AI companies are increasingly aware their technology has dual-use risks beyond just disinformation."
+      },
+      {
+        "title": "GPT-5.5 dominates $1,500 LLM hacking test while Gemini refuses to even try",
         "source": "Notebookcheck",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaklJRlNxU2xoOVJuRVlCeE1FMjVWa1o5c3N1QWZrMXFzVkowUW9EYmg4TDFXZFpmWFd0eUFKMUhiUlBHV0g4U21pRGo0UXJzbmRndFFSQWc1RmpWbjYzcVlTLS1aamxCY0hpR2FDcVEtYVE3WXVlaGpDTThDT1R3TXlHS0p0dVhfclk2TkFuREh3QVZBTUNDc0NkcnlmVkpvRWdvdTZNYVVJT1NidThNa0ZDTzRQaUNiaXc?oc=5",
-        "why_it_matters": "In a real-world cybersecurity test costing $1,500, OpenAI's GPT-5.5 dominated the field — apparently the best at identifying and exploiting vulnerabilities. More striking: Google's Gemini reportedly refused to even attempt the test. This kind of benchmark matters because it shows practical capability gaps between models, and raises fresh questions about AI being used for offensive hacking. It's also a reminder that the AI race is intensifying fast."
+        "why_it_matters": "In a $1,500 AI benchmark test focused on security (essentially testing how well AI models can find and exploit vulnerabilities — a common use in cybersecurity), OpenAI's GPT-5.5 came out on top. Meanwhile, Google's Gemini reportedly refused to even attempt the task. This matters for your GOOG holding: if Gemini keeps being seen as overly cautious or less capable than GPT-5.5 in competitive benchmarks, it could weigh on Google's AI credibility with enterprise customers."
       },
       {
-        "title": "Broadcom's AI chip miss dents sector confidence",
-        "source": "StartupHub.ai",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPanpyaUxHZGRQSzhHT1N5dGZfT1psM1F0NnNsQ3ZEV1VqRUYwWWFLeVN1NGhwSW96ZDU5WnlLMEZCY2ZnS0xZS3EtR2V4NHVMOHVoZ2xOYktIblZhajBEcVE4UmJwYWlBWVFWMzRrNDdFc1NodndpNk1mTGdxZkotYg?oc=5",
-        "why_it_matters": "Broadcom fell 13% in the last US session after its AI chip revenue guidance came in below what Wall Street was hoping for. The broader chip ETF (SOXX) fell 2.1% as a result. This is the tension in the AI trade right now: the software and model side keeps impressing, but some of the hardware infrastructure companies are struggling to meet sky-high expectations. Google separately announced an $85 billion expansion bet which was well received — showing the AI investment cycle isn't over, just more selective."
+        "title": "UN calls for AI regulation as environmental footprint grows",
+        "source": "Jurist.org",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQamg2U25XZGdQeVp4azZoQmhGaVoxbnVjVF9xdEV6SDZxd2h4ZFBtaWQ0bFVMNDZBOXJVTHZ5OGp0Wk0zc29FOHRuOFlEZTV1WTdZRC1UaHBIMWJDWXFMb29NeG5vM1N5OVJtYjZfX2lwTlM1X25rb05uejk0b3hEUVVXQmg2NEQ0d1FLOXNQWENiVlhMOVhBS3NRbC11VmVXTmJVRG0xbkJ2OTN4Y0xyUjF3VVNyX09w?oc=5",
+        "why_it_matters": "The United Nations is calling for stronger global AI regulation, citing the growing environmental cost of running AI systems at scale — think massive data centres consuming huge amounts of electricity and water. The UN wants international rules, not just country-by-country approaches. For investors in AI-related stocks or ETFs like GXAI.AX, increased regulation could slow adoption or raise operating costs for AI companies."
+      },
+      {
+        "title": "A bipartisan US bill on AI takes shape in Washington",
+        "source": "IAPP",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbU9kZW41MThaMVVkR3E0WmlmYjZfUFREa3lNbnhMcnd0dndTdm80bVRiWVIybVpZcEdyZEJNSDd1c1hzM0NVVUszNFFoblEza1ZWWkVyQ05EV1p2Tjlwa3lqaGhMTWRCNjRfVFIzZmxMV056V1VySEFsX3lDSjQ?oc=5",
+        "why_it_matters": "A rare bipartisan (both Democrat and Republican) AI regulation bill is being discussed in Washington DC. Getting politicians from both sides of the aisle to agree on tech regulation is genuinely unusual. The details aren't fully public yet, but any US federal AI law would have major implications for how companies like Google and Microsoft build and deploy their AI products — and could reshape the competitive landscape."
+      },
+      {
+        "title": "Archbishop of Canterbury tells Parliament AI rules fail to protect human dignity",
+        "source": "The Independent",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNFFMZ0lRSVp5eVFsMGJiRXg2VTRKWXAwZ2pVTEM3NmFCMVlTbm5TN0xVNVBXb3lWZDdCT3ViQ1AtUkREWGhKTjA4cDIxMTF5WDRIdjlLZGd3RnJzUlgwUFNPSjVRNmtuSmdvN0huM3dUb1E3UTlTa2NDajlzWEFuNWRTenp6U2tyUE0tWVVpZ0FwdmdXcTdPQkwwR0NLRU02NHE0?oc=5",
+        "why_it_matters": "The Archbishop of Canterbury has told the UK Parliament that current AI regulations are 'inadequate' and fail to protect human dignity. He's calling for rules that go beyond just economic and safety concerns to include ethical and social dimensions. It's a sign that AI governance is moving beyond tech circles into mainstream moral and political debate — the kind of pressure that often precedes real regulatory change."
       }
     ]
   },
   "sport": {
-    "summary": "Manly won last night's NRL opener for Round 14, beating the Rabbitohs 28-14. There's some controversy over a 'sticky spray' ruling. AFL is in its bye round and the Jordan Dawson health story is dominating footy headlines. Wimbledon chatter is also starting to heat up.",
+    "summary": "Big NRL Round 14 action underway — the Storm survived a thriller against the Knights, the Roosters smashed the Raiders, and there's a huge Storm injury blow. In AFL, Adelaide captain Jordan Dawson is generating emotional support after some news this week. Wimbledon prep is heating up in tennis.",
     "stories": [
       {
-        "title": "Sea Eagles 28 def. Rabbitohs 14 — but win comes with controversy",
-        "source": "Fox Sports",
-        "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPM3RIejM2NW43b3hkN1V2bFBhd2hUS2ZIUWpxMlF2SHh3Q3diMVN6NXZvUVlyMUJIUDNWWGVad2ZtTDBVMTUwQ1BBN2FPS3F6eDNPOS1qTC1YaGlhakM1N1lWVHdhTEdEQWRoNThrMndXWXdBMU14NnRJSmxMNXc4dndNX2paM1M4STBIX1pKUHVPbW1La1luWjU4cnB0MTVqWFlJSmNxcHlrVW04RE5jY2I4ZnhZaDhiQjZEakhpSnJFSE5WcmJnMXpMdmVlSk9lbUw3SDNScERTVlJLM3lRU0pGREZvX1ZhbDJ4a2w3dl9IWDVvV2hFLTRpR3dTc1VqNFZISTJ3VkNtT3dtbldqYVJtY1BBU0dNSTlpVHFvTTRmWVBPYkJwWllBTdIBqwJBVV95cUxPM3RIejM2NW43b3hkN1V2bFBhd2hUS2ZIUWpxMlF2SHh3Q3diMVN6NXZvUVlyMUJIUDNWWGVad2ZtTDBVMTUwQ1BBN2FPS3F6eDNPOS1qTC1YaGlhakM1N1lWVHdhTEdEQWRoNThrMndXWXdBMU14NnRJSmxMNXc4dndNX2paM1M4STBIX1pKUHVPbW1La1luWjU4cnB0MTVqWFlJSmNxcHlrVW04RE5jY2I4ZnhZaDhiQjZEakhpSnJFSE5WcmJnMXpMdmVlSk9lbUw3SDNScERTVlJLM3lRU0pGREZvX1ZhbDJ4a2w3dl9IWDVvV2hFLTRpR3dTc1VqNFZISTJ3VkNtT3dtbldqYVJtY1BBU0dNSTlpVHFvTTRmWVBPYkJwWllBTQ?oc=5",
+        "title": "Storm survive 62-point thriller vs Knights but lose star for the season",
+        "source": "Fox Sports / ABC",
+        "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPdzVYSnJhQlkzczEzVlhEX2pmdFlqM3ZyRFY3TnAxZWt5N2tpcGU5d0VJdnYzbTYwRHZpeHZyQ1dFNXBpa0FwYWlncHVtbU1ISEtMbkJNalo3NFFSVUtpV1NRNHY3TUM4UzNXd3VyMmZYNlRpeTh4SjRXdnR6MHlobFZ3ZmFuckZCZE10SnBoN3pXZTFBcWtBa2tmek5ZX0VuMURMQ3hGR2ZDaU4yWTJJc0JfY2xPNHZIVzhUZC11dm5PVTVMXzB5cUZNVWFrM1YxNm9lWk1VQ2k2R0p3MHJMcndZQVY3b3JGdW15LW5JcmxRSzhCdHBRb2Vjb3ZvQjlOOXBFc0NKRDZwaVJ0SkpaX25xbkRBUHBMc0RXWVBTWThCajFTenZ2dE5oUlQzWjh0ZjFtdVJtLVF5emduMEhNSEI2ZWJjWkNTOXNEWW5sdmZQMjNIN0ZnWTE4QQ?oc=5",
         "category": "NRL",
-        "why_it_matters": "Manly beat the Rabbitohs 28-14 at 4 Pines Park last night to kick off Round 14. The result continues the Sea Eagles' strong form behind the Kieran Foran resurgence. Souths were stung by a controversial 'sticky spray' no-call ruling — the referee later gave a surprise explanation for not penalising it. The win came at a cost for Manly though, with injury concerns to be monitored."
+        "why_it_matters": "Melbourne Storm edged the Newcastle Knights 32–30 in a wild 62-point game at AAMI Park tonight. The drama was off the field too — a Storm superstar has been ruled out for the season after being sent to hospital during the match. This is a significant blow to Melbourne's premiership hopes for the second half of the season."
       },
       {
-        "title": "Broncos halfback succession plan hits a twist — Suncorp derby on Saturday",
+        "title": "Roosters demolish Raiders 26–0, with DCE and Walker starring in Blues audition",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPd3k2WVJRRnA5YTNnc1pFU083eURxX0xWY2hIZUw1MUdJZGxmaUhRZkNMQnV4R2FDYWI0Um9rdW4xT3NhRENzamtfZC0wQllzUlVIOGIyNmV3VEQ1V1RtQXpEZ2xzVkFkaEFyVGpRaDl4eDZxajdHRE9Bb1c0ZzYzMV9sLWtlVnJ2UHU1MWVydGxiUFZYQ0hFTExyZ3Q4dXYzMTlnODN4bF9NUGhXeWxOYktPQWE4VHVzQzRoamhWNEgxYWhQZ3RtNnVySWJyRzFxTEIzd0xSVjg0bk0tY0hSVF9yckoxbHpSVmo2eWM1WVEzaTBrLUVBZ1FpZko1bnAyVUFDdlpoZFY4MlVPQ0xzdzBxVjZvX2hBZlBoV05YZDh5d9IBogJBVV95cUxPd3k2WVJRRnA5YTNnc1pFU083eURxX0xWY2hIZUw1MUdJZGxmaUhRZkNMQnV4R2FDYWI0Um9rdW4xT3NhRENzamtfZC0wQllzUlVIOGIyNmV3VEQ1V1RtQXpEZ2xzVkFkaEFyVGpRaDl4eDZxajdHRE9Bb1c0ZzYzMV9sLWtlVnJ2UHU1MWVydGxiUFZYQ0hFTExyZ3Q4dXYzMTlnODN4bF9NUGhXeWxOYktPQWE4VHVzQzRoamhWNEgxYWhQZ3RtNnVySWJyRzFxTEIzd0xSVjg0bk0tY0hSVF9yckoxbHpSVmo2eWM1WVEzaTBrLUVBZ1FpZko1bnAyVUFDdlpoZFY4MlVPQ0xzdzBxVjZvX2hBZlBoV05YZDh5d?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The Sydney Roosters put on a clinic against the Canberra Raiders tonight, winning 26–0 at GIO Stadium. According to Fox Sports, winger performances and contributions from Nathan Cleary's rival halfbacks including Daly Cherry-Evans (DCE) and Adam Walker served as strong State of Origin auditions — with Blues selection pressure building ahead of the series."
+      },
+      {
+        "title": "AFL rallies around 'superhuman' Adelaide captain Jordan Dawson",
+        "source": "7NEWS",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNandMVWdQYTNlYXhGdzZqR0NHOHpfalNvVjlRMEFkTFl6cm5JaGZuTnExM1M1eVRwUHhreHJMYTBUQnFNcXVXbVBOdlZOS1FYLW4xbFlDbUV0Uy1CaTRzOXo2SGxDZ2V1MjZwSkpGSkRNLTRZX2tFeGV4QWl2blZFel85LWFzNDlMclh2QkhGNzg4LWg3bG9KQm5SUlc2UzlXaFJGSW01dmI1X2twcWdMZ2d3MnBsRTc5dUFXQ08yTk83Yk4walZGbtIBzgFBVV95cUxPOG9mVEFzeDE2LU5wQURLUHJ1VXgyWkdmcl9WU1JmZEQySXN3QmRfZDhzWEIwTi1EbFZSX3F5VkZXME1RWlI5OFVXM1MzQVBGNlNCN09jZnV0SlJWWExsNWhBa3dGTktod1FCVG1uNl8zUHZXbkRsMnhFem9HZ0RFcEJvSU40NDQyN3hSVS04UXlqWndtQkw1cVdUQmRDN3MyLXlobFVkTjFCOTZaQlJMamk4Z3hQMXpPTENkR3JZTHNsOVJQM0FjNFhkLUh1dw?oc=5",
+        "category": "AFL",
+        "why_it_matters": "The AFL world has rallied around Adelaide Crows captain Jordan Dawson following emotional scenes this week. Dawson, described as 'superhuman' by teammates and opponents alike, has drawn an outpouring of support from across the football community. Teammate Isaac Cumming also revealed his top five AFL players, with Dawson making a strong impression on those around him."
+      },
+      {
+        "title": "Broncos halfback succession plan hit by major contract twist",
         "source": "Fox Sports",
         "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZ3dNOXRFVF8wN0RCOU8xWkI0dW5mdWlZT1EtQ0l0SWNZellPYTB1ZWhvcU1seDJKenU1SHJXYTdZMHIweVBXTl9hVEhrSFJUQmNRSXhnelpqSjRVMEtmVHlLRTgyXzRaX194bnRxd3hVc25RZjRsSTJyNnNlV0dSVlhYOVNWMUtuMlJjQXJWZjFGM3lSV1lFbVV1czNDakk0QkQwZjdwQnlxSHlDdFhnTGlVOXpKT0JBdmpncWJOcEtBek9pc0l1YmVsZkF5Z1d6VTNYcVA3TkdEUVctaFV1UTNxcGRBU0dvUEthOVJVblB5RlNhVzMwWV9WYzMxaVpGdGJDc1hR0gGGAkFVX3lxTE5nd005dEVUXzA3REI5TzFaQjR1bmZ1aVlPUS1DSXRJY1l6WU9hMHVlaG9xTWx4Mkp6dTVIcldhN1kwcjB5UFdOX2FUSGtIUlRCY1FJeGd6WmpKNFUwS2ZUeUtFODJfNFpfX3hudHF3eFVzblFmNGxJMnI2c2VXR1JWWFg5U1YxS24yUmNBclZmMUYzeVJXWUVtVXVzM0NqSThCRDBmN3BCeXFIeUN0WGdMaVU5ekpPQkF2amdxYk5wS0F6T2lzSXViZWxmQXlnV3pVM1hxUDdOR0RRVy1oVXVRM3FwZEFTR29QS2E5UlVuUHlGU2FXMzBZX1ZjMzFpWkZ0YkNzWFE?oc=5",
         "category": "NRL",
-        "why_it_matters": "There's a major contract twist brewing at the Broncos around their halfback succession plan, with Fox Sports reporting shock heat on key stars ahead of the Broncos vs Titans Suncorp Stadium derby on Saturday night. The details are under wraps but it's the kind of internal drama that can unsettle a squad mid-season. Keep an eye on team lists dropping tomorrow."
-      },
-      {
-        "title": "AFL world rallies around Adelaide captain Jordan Dawson",
-        "source": "7NEWS",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNandMVWdQYTNlYXhGdzZqR0NHOHpfalNvVjlRMEFkTFl6cm5JaGZuTnExM1M1eVRwUHhreHJMYTBUQnFNcXVXbVBOdlZOS1FYLW4xbFlDbUV0Uy1CaTRzOXo2SGxDZ2V1MjZwSkpGSkRNLTRZX2tFeGV4QWl2blZFel85LWFzNDlMclh2QkhGNzg4LWg3bG9KQm5SUlc2UzlXaFJGSW01dmI1X2twcWdMZ2d3MnBsRTc5dUFXQ08yTk83Yk4walZGbtIBzgFBVV95cUxPOG9mVEFzeDE2LU5wQURLUHJ1VXgyWkdmcl9WU1JmZEQySXN3QmRfZDhzWEIwTi1EbFZSX3F5VkZXME1RWlI5OFVXM1MzQVBGNlNCN09jZnV0SlJWWExsNWhBa3dGTktod1FCVG1uNl8zUHZXbkRsMnhFem9HZ0RFcEJvSU40NDQyN3hSVS04UXlqWndtQkw1cVdUQmRDN3MyLXlobFVkTjFCOTZaQlJMamk0Z3hQMXpPTENkR3JZTHNsOVJQM0FjNFhkLUh1dw?oc=5",
-        "category": "AFL",
-        "why_it_matters": "Adelaide Crows captain Jordan Dawson is going through something serious off the field and has been described as 'superhuman' by the AFL world rallying around him. The 7NEWS report says emotions poured out as teammates, opponents and fans united in support. No further details on the nature of the situation were available at time of publishing, but the outpouring of support suggests it's significant."
-      },
-      {
-        "title": "Greg Rusedski flags concern about Djokovic ahead of Wimbledon",
-        "source": "Tennishead",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWRsQmFsYU1ncWNNeENMcTdJSmMwUkZKLU5SR1l5UkNEX183WE1sXy1vbnVZa21lUDY0MWdySzFpRVNLLVVnRzR3TzhrZzdxYWJwNkp4VV9wbHpWUWRYOFMxN0lvelZhOWFyUW12cVpYZW9vUjM5OVFaOXRRS3E0RHNoVWlYX0t4VFR1ZGlPeTk0QV8wb1NydQ?oc=5",
-        "category": "Tennis",
-        "why_it_matters": "Former British No.1 Greg Rusedski says he has 'one concern' about Novak Djokovic's readiness for Wimbledon, which is now just weeks away. No specific detail from the article text was available, but the broader Wimbledon build-up is underway with Serena Williams also reportedly confirmed to make a doubles comeback alongside her partner ahead of the tournament."
+        "why_it_matters": "There's a contract drama brewing at the Brisbane Broncos around their halfback succession plan — the club's strategy to replace their current playmaker has hit an unexpected twist, putting 'shock heat' on several squad members according to Fox Sports' whispers column. With the Broncos hosting the Titans at Suncorp tomorrow night, the timing adds extra intrigue to what's already a Queensland derby."
       }
     ]
   },
@@ -212,18 +240,18 @@
     "location": "Gold Coast",
     "icon": "☀️",
     "condition": "Clear sky",
-    "temperature_c": 15.1,
-    "high_c": 19.8,
-    "low_c": 12.4,
+    "temperature_c": 11.0,
+    "high_c": 20.0,
+    "low_c": 10.6,
     "rain_chance_pct": 0,
     "rain_mm": 0.0,
     "tomorrow": {
-      "icon": "☀️",
-      "condition": "Clear sky",
-      "high_c": 19.9,
-      "low_c": 10.3,
-      "rain_chance_pct": 0,
-      "rain_mm": 0.0
+      "icon": "🌦️",
+      "condition": "Light drizzle",
+      "high_c": 20.4,
+      "low_c": 14.7,
+      "rain_chance_pct": 27,
+      "rain_mm": 0.6
     }
   },
   "nrl_round": "Round 14",
@@ -247,9 +275,9 @@
       "away": "Knights",
       "home_badge": "https://www.nrl.com/.theme/storm/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/knights/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 32,
+      "away_score": 30,
+      "completed": true,
       "live_label": null,
       "day": "Fri 05 Jun",
       "time": "6:00 pm",
@@ -261,9 +289,9 @@
       "away": "Roosters",
       "home_badge": "https://www.nrl.com/.theme/raiders/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/roosters/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 0,
+      "away_score": 26,
+      "completed": true,
       "live_label": null,
       "day": "Fri 05 Jun",
       "time": "8:00 pm",
@@ -350,43 +378,43 @@
         "ticker": "GOOG",
         "shares": 0.173,
         "currency": "USD",
-        "current_price": NaN,
-        "current_value_native": NaN,
-        "current_value_aud": NaN,
+        "current_price": 366.74,
+        "current_value_native": 63.45,
+        "current_value_aud": 89.96,
         "total_invested": 50.0,
-        "total_invested_aud": 70.06,
-        "pnl_native": NaN,
-        "pnl_aud": NaN,
-        "pnl_pct": NaN,
-        "day_change_pct": NaN
+        "total_invested_aud": 70.89,
+        "pnl_native": 13.45,
+        "pnl_aud": 19.06,
+        "pnl_pct": 26.89,
+        "day_change_pct": -0.69
       },
       {
         "ticker": "MSFT",
         "shares": 0.6319,
         "currency": "USD",
-        "current_price": 428.05,
-        "current_value_native": 270.48,
-        "current_value_aud": 378.99,
+        "current_price": 419.44,
+        "current_value_native": 265.04,
+        "current_value_aud": 375.79,
         "total_invested": 280.0,
-        "total_invested_aud": 392.32,
-        "pnl_native": -9.52,
-        "pnl_aud": -13.33,
-        "pnl_pct": -3.4,
-        "day_change_pct": 0.17
+        "total_invested_aud": 396.99,
+        "pnl_native": -14.96,
+        "pnl_aud": -21.2,
+        "pnl_pct": -5.34,
+        "day_change_pct": -2.01
       },
       {
         "ticker": "TTWO",
         "shares": 1.5098,
         "currency": "USD",
-        "current_price": 216.65,
-        "current_value_native": 327.1,
-        "current_value_aud": 458.31,
+        "current_price": 214.415,
+        "current_value_native": 323.72,
+        "current_value_aud": 458.99,
         "total_invested": 350.0,
-        "total_invested_aud": 490.4,
-        "pnl_native": -22.9,
-        "pnl_aud": -32.09,
-        "pnl_pct": -6.54,
-        "day_change_pct": 0.39
+        "total_invested_aud": 496.24,
+        "pnl_native": -26.28,
+        "pnl_aud": -37.26,
+        "pnl_pct": -7.51,
+        "day_change_pct": -1.03
       },
       {
         "ticker": "FUEL.AX",
@@ -473,11 +501,11 @@
         "day_change_pct": -3.75
       }
     ],
-    "total_invested_aud": 1914.78,
-    "total_value_aud": NaN,
-    "total_pnl_aud": NaN,
-    "total_pnl_pct": NaN,
-    "aud_usd_rate": 0.7137
+    "total_invested_aud": 1926.13,
+    "total_value_aud": 1866.78,
+    "total_pnl_aud": -59.35,
+    "total_pnl_pct": -3.08,
+    "aud_usd_rate": 0.7053
   },
-  "generated_at_utc": "2026-06-05T07:52:21.410363+00:00"
+  "generated_at_utc": "2026-06-05T16:44:15.825404+00:00"
 }
