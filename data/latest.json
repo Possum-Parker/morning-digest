@@ -1,251 +1,253 @@
 {
-  "headline": "PLS and FUEL lead the ASX higher today while MSFT took a decent knock last night — oil is falling on US-Iran tension easing and gold is surging past $4,174.",
+  "headline": "PLS.AX rockets nearly 10% on a bullish lithium swing while the ASX 200 surges to 8,804 — a strong day across the board except for oil and Microsoft.",
   "portfolio": {
     "movers": [
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
-        "change_pct": 3.12,
-        "note": "Pilbara bounced strongly today, up 3.1% to $5.94, as ASX lithium stocks broadly attracted buying interest. Analysts are watching whether lithium prices are forming a floor — a key test for the sector. Still down ~12% on your cost base, but today's move is an encouraging sign of renewed market attention on the space."
-      },
-      {
-        "ticker": "FUEL.AX",
-        "name": "BetaShares Global Energy ETF",
-        "change_pct": 2.35,
-        "note": "FUEL jumped 2.35% today to $8.72, driven by ongoing news around US strikes in Iran and fears of Strait of Hormuz supply disruptions. Despite oil itself actually falling last night (more on that below), the geopolitical risk premium kept energy company stocks bid up on the ASX today."
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": -2.35,
-        "note": "Microsoft dropped 2.35% last night to $388.04 — one of its sharper single-session falls in recent months. Market chatter points to mixed sentiment around recent earnings and whether Microsoft's heavy AI investment spend is translating fast enough into revenue growth. You're now down about $49.50 AUD on this position."
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "change_pct": 1.49,
-        "note": "Take-Two edged up 1.49% last night to $213.60. GTA 6 hype continues to simmer — fans are debating the leaked map and anticipating a third trailer. The stock remains in a positive mood as the GTA 6 release window approaches, though you're still down about $39 AUD on this one overall."
-      },
-      {
-        "ticker": "GOOG",
-        "name": "Alphabet Inc. (Google)",
-        "change_pct": -0.8,
-        "note": "Google dipped 0.8% last night to $350.50, a modest pullback. No major negative catalyst — the broader NASDAQ actually had a strong night, so this looks like mild profit-taking. Google's AI pricing cuts (see AI section) could be a long-term positive but near-term the market is digesting a lot of AI news."
+        "change_pct": 9.76,
+        "note": "Pilbara had a cracking session today, jumping nearly 10% to $6.52. Lithium sentiment has been turning — GM reportedly rethinking its preference for cheaper LFP battery chemistry in favour of lithium, and analysts are flagging a potential supply deficit ahead. That kind of bullish shift gets lithium miners like Pilbara moving fast."
       },
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
-        "change_pct": -0.59,
-        "note": "GXAI slipped a small 0.59% today to $16.91. With MSFT under pressure last night and the broader AI theme seeing some noise around regulation, the ETF drifted slightly. You're down about $22 AUD on this position overall — it's been a tough run since entry."
+        "change_pct": 2.96,
+        "note": "A solid day for the AI ETF, up nearly 3% to $17.41. The broader AI infrastructure boom is getting attention on the ASX, and last night's strong NASDAQ rally — up 2.5% — gave global AI stocks a nice tailwind that flowed through today."
       },
       {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market ETF",
-        "change_pct": -0.6,
-        "note": "VTS eased 0.6% today to $513.40, reflecting last night's mixed US session pricing through to today's ASX trade. The S&P and NASDAQ actually had a solid night last night, so expect VTS to potentially recoup this when it reprices again tomorrow."
-      },
-      {
-        "ticker": "VGE.AX",
-        "name": "Vanguard Emerging Markets ETF",
-        "change_pct": -0.23,
-        "note": "VGE slipped a marginal 0.23% today to $90.90 — essentially flat. Emerging markets are being buffeted by US-Iran tensions and a broadly cautious mood. No major news specific to this ETF today."
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": -1.77,
+        "note": "Microsoft was the standout laggard last night, dropping 1.77% to $390.34 while the rest of the NASDAQ surged. There's growing chatter that investors are reassessing Microsoft's AI spending versus actual returns — the market seems to be favouring Google's story right now, where AI price cuts are seen as a competitive strength rather than a margin risk."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
-        "change_pct": -0.11,
-        "note": "VDHG was almost perfectly flat today, down just 0.11% to $75.20. As a broadly diversified fund across global and Aussie shares, the small dip reflects the mixed day rather than any specific news. This one just does its thing quietly — all good."
+        "change_pct": 1.33,
+        "note": "VDHG had a good day, up 1.33% to $76.20. As a diversified fund with heavy exposure to global and Australian shares, it rode the wave of the ASX 200's near-2% surge today."
+      },
+      {
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market Shares ETF",
+        "change_pct": 1.22,
+        "note": "VTS closed up 1.22% today to $519.67, reflecting last night's strong US session where the S&P 500 gained 1.75%. The ETF tracks the entire US market, so a broad-based rally there flows straight through."
+      },
+      {
+        "ticker": "FUEL.AX",
+        "name": "BetaShares Global Energy Companies ETF",
+        "change_pct": -1.03,
+        "note": "FUEL slipped 1.03% today to $8.63. Crude oil (WTI) dropped $1.63 to $86.08 last night — OPEC cut its 2026 demand growth forecast again, which spooked energy markets. Lower expected oil demand means lower expected earnings for the energy companies inside this ETF."
+      },
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet Inc. (Google)",
+        "change_pct": 0.92,
+        "note": "Google edged up 0.92% last night to $356.56. The market liked Google's aggressive AI pricing moves — they've been cutting API costs sharply, putting real pressure on OpenAI and Anthropic. Investors seem to see this as Google playing to win the enterprise AI race."
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "change_pct": 0.77,
+        "note": "Take-Two ticked up 0.77% last night to $212.08, riding the general NASDAQ lift. No specific company news driving this — it's broadly moving with the market."
+      },
+      {
+        "ticker": "VGE.AX",
+        "name": "Vanguard FTSE Emerging Markets ETF",
+        "change_pct": 0.46,
+        "note": "VGE nudged up 0.46% today to $91.32. Emerging markets got a gentle boost from the stronger AUD and positive global risk sentiment, though the move was modest compared to the broader market rally."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "PLS.AX — Lithium bouncing, but is it real?",
+      "title": "PLS.AX — hold after a massive single-day move",
+      "detail": "Pilbara Minerals jumped nearly 10% today to $6.52. The lithium narrative is turning bullish — GM reconsidering LFP battery preference, supply deficit talk heating up — but a 10% single-day spike often invites a pullback. You're still slightly underwater overall (-3.26%). Hold and watch for follow-through next week before adding.",
+      "urgency": "orange",
       "ticker": "PLS.AX",
-      "action": "hold",
-      "detail": "Pilbara jumped 3.1% today and there's a wave of analyst commentary about lithium stocks testing a price floor. That's encouraging, but the fundamental oversupply story hasn't changed yet. Hold what you have — the risk/reward doesn't justify adding more until there's a clearer signal on lithium spot prices recovering.",
-      "urgency": "orange"
+      "action": "hold"
     },
     {
-      "title": "MSFT — Took a 2.35% hit last night, worth watching",
+      "title": "MSFT — underperforming while NASDAQ rips",
+      "detail": "Microsoft dropped 1.77% last night while the NASDAQ gained 2.54%. That's a meaningful divergence. The market seems worried that Microsoft's heavy AI investment isn't converting to revenue fast enough, especially as Google slashes its AI pricing. You're down 11.91% overall on this position. No reason to panic, but worth watching if it keeps lagging when the broader market is strong.",
+      "urgency": "orange",
       "ticker": "MSFT",
-      "action": "hold",
-      "detail": "Microsoft fell 2.35% last night to $388, its sharpest single-session drop in a while, on mixed sentiment about AI spend vs revenue. You're already down ~$49.50 AUD on this position. No need to panic — MSFT's fundamentals are solid — but keep an eye on whether this selloff deepens over the next few sessions. Hold for now.",
-      "urgency": "orange"
+      "action": "hold"
     },
     {
-      "title": "FUEL.AX — Geopolitical energy play still live",
-      "ticker": "FUEL.AX",
-      "action": "hold",
-      "detail": "FUEL gained 2.35% today despite crude oil actually falling last night. The split tells you the market is pricing in geopolitical risk (US-Iran, Strait of Hormuz) separately from the short-term oil price. If the Iran situation de-escalates, FUEL could give back some of these gains. You're in the green on this one — hold and watch the news flow.",
-      "urgency": "orange"
-    },
-    {
-      "title": "Oil dropping sharply — watch the energy trade",
-      "detail": "Crude oil (WTI) fell 2.82% last night to $87.49 a barrel. Despite the US-Iran tension headlines, traders appear to be pricing in some resolution or at least less supply disruption than feared. If oil keeps sliding, FUEL.AX gains could reverse quickly. Keep an eye on this through the week.",
-      "urgency": "orange"
-    },
-    {
-      "title": "Gold surging past $4,174 — safe haven demand is real",
-      "detail": "Gold jumped 1.61% last night to $4,174 — a big move. This is the market buying safety amid US-Iran tensions and uncertainty about the US economy. You don't hold gold directly, but it signals investors are nervous, which can weigh on growth stocks like MSFT and GOOG. Good context for why markets feel jittery right now.",
-      "urgency": "green"
-    },
-    {
-      "title": "GXAI.AX — AI regulation headwinds building globally",
+      "title": "GXAI.AX — AI ETF picking up steam",
+      "detail": "GXAI jumped 2.96% today to $17.41, its best day in a while. The NASDAQ's 2.54% surge last night plus growing attention on ASX AI ETFs is providing real momentum. You're still down 8.51% overall, but the trend is improving. Hold and let the AI infrastructure theme do its work.",
+      "urgency": "green",
       "ticker": "GXAI.AX",
-      "action": "hold",
-      "detail": "GXAI slipped again today and the broader AI news cycle is dominated by regulation — Trump's new AI oversight order in the US, Canada moving to regulate AI chatbots, and EU reform debates. More red tape generally means slower commercialisation for AI companies. You're down 11% on this position — hold, but don't add until there's more regulatory clarity.",
+      "action": "hold"
+    },
+    {
+      "title": "RBA decision Monday — rate hold expected, but watch your mortgage",
+      "detail": "The RBA meets on Tuesday 16 June and a Reuters poll of economists points firmly to a hold at 4.35%. Several banks have already cut home loan rates ahead of the decision, anticipating the RBA is done hiking. If you're on a variable mortgage or considering refinancing, this week is a good time to shop around — some banks are moving before the official call.",
       "urgency": "orange"
+    },
+    {
+      "title": "FUEL.AX — oil headwinds from OPEC demand cuts",
+      "detail": "OPEC has cut its 2026 global oil demand growth forecast again, sending crude down to $86 a barrel last night. This is a structural headwind for FUEL.AX, which holds global energy companies. There's a counter-narrative — Rystad Energy is warning oil could spike to $150 if Iran conflict escalates — but for now the trend is soft. Hold unless you have a specific view on geopolitical risk.",
+      "urgency": "orange",
+      "ticker": "FUEL.AX",
+      "action": "hold"
+    },
+    {
+      "title": "GOOG — AI price war is a tailwind, not a threat",
+      "detail": "Google's aggressive cuts to its AI model pricing (Gemini API) are rattling OpenAI and Anthropic but being read positively by the market — Google rose 0.92% last night. As a GOOG holder, this is good news: lower prices drive higher adoption, and Google has the scale to absorb the margin hit better than its rivals.",
+      "urgency": "green",
+      "ticker": "GOOG",
+      "action": "hold"
     }
   ],
   "markets": {
-    "summary": "Last night's US session was actually pretty solid — the S&P 500 gained 1.29% and the NASDAQ jumped 1.65%, suggesting the broader market is in reasonable shape. The standout moves were in commodities: gold surged to $4,174 (up 1.61%) as investors sought safety amid US-Iran tensions, while crude oil fell sharply by 2.82% to $87.49 — suggesting traders think the supply disruption risk is less severe than initially feared. The Aussie dollar held steady just above 70.3 US cents.",
+    "summary": "A strong day all round. The ASX 200 closed up 1.98% at 8,804 — a big move for a single session. Last night in the US, the NASDAQ surged 2.54% and the S&P 500 gained 1.75%, so the local market had plenty of momentum to ride. Gold had an exceptional night, jumping 2.65% to $4,199 USD/oz — investors are piling in as a safe haven amid global uncertainty. Oil was the odd one out, falling 1.86% to $86.08 after OPEC trimmed its demand forecasts. The Aussie dollar strengthened slightly to 70.3 US cents, which is worth keeping in mind — a stronger AUD slightly reduces the local value of your US holdings (GOOG, MSFT, TTWO) when converted back.",
     "indicators": [
       {
-        "name": "S&P 500",
-        "value": "7,360.55",
-        "change_pct": 1.29,
-        "note": "Strong session last night — up 1.29%"
-      },
-      {
-        "name": "NASDAQ Composite",
-        "value": "25,585.94",
-        "change_pct": 1.65,
-        "note": "Tech had a good night overall despite MSFT weakness"
-      },
-      {
         "name": "ASX 200",
-        "value": "~8,653 (prev close)",
-        "change_pct": 0.0,
-        "note": "Today's close data unavailable — prior close shown"
+        "value": "8,804",
+        "change_pct": 1.98,
+        "note": "Strong close today — broad-based rally across sectors"
+      },
+      {
+        "name": "S&P 500",
+        "value": "7,394",
+        "change_pct": 1.75,
+        "note": "Last night's session — solid broad US market gain"
+      },
+      {
+        "name": "NASDAQ",
+        "value": "25,810",
+        "change_pct": 2.54,
+        "note": "Last night's session — tech led the charge"
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$87.49",
-        "change_pct": -2.82,
-        "note": "Dropped sharply last night despite Iran tensions"
+        "value": "$86.08",
+        "change_pct": -1.86,
+        "note": "OPEC cut demand forecasts again, weighing on price"
       },
       {
         "name": "Gold",
-        "value": "$4,174.20",
-        "change_pct": 1.61,
-        "note": "Surging — investors buying safety amid geopolitical uncertainty"
+        "value": "$4,199",
+        "change_pct": 2.65,
+        "note": "Big safe-haven move last night — near record levels"
       },
       {
         "name": "AUD/USD",
-        "value": "0.7030",
-        "change_pct": 0.1,
-        "note": "Essentially flat — holding just above 70 US cents"
+        "value": "0.7027",
+        "change_pct": 0.47,
+        "note": "Aussie dollar edging higher — mild headwind for USD holdings"
       }
     ]
   },
   "politics": {
-    "summary": "The big domestic stories today are around interest rates and the NDIS. Multiple banks are cutting home loan rates for new customers despite the RBA not yet moving, and state governments are pushing back hard on the federal government's NDIS overhaul plans.",
+    "summary": "The big local story is the RBA — markets and homeowners are watching Tuesday's rate decision closely, with economists expecting a hold at 4.35%. Meanwhile, the NDIS shake-up is causing a stoush between Canberra and the states.",
     "stories": [
       {
-        "title": "Banks slash home loan rates for new customers — defying the RBA",
-        "source": "Yahoo Finance Australia / realestate.com.au",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYmxiYVNMREtVYm5kRGdLSEpObnNoSC1aMkJxTzFrZG9PdWFVbGc4ZDZ2dEdZcHY5d0IzYjlZSWNXWEpRWnZVZ3k3YWdFWlg5SEoxVXBNalRxNllfYVlsTjFQbmNReHJhdzR2T0p0Yy1zaXNrTWNuRkl2ZU5VaGxEdDRBN2NoaTk2eUxHa3NkV2tHOVhVNGlBMVZIVUlheUlPZk1yR3JQTFFkcDc3Y3BFWl9n?oc=5",
-        "why_it_matters": "Several major banks are independently cutting home loan rates for new customers even though the Reserve Bank of Australia hasn't officially lowered the cash rate yet. This is banks competing for mortgage business by getting ahead of expected RBA cuts. If you're a new borrower or thinking about refinancing, now is a good time to shop around — you don't have to wait for the RBA to move. Existing variable rate customers may need to ask their bank to match new customer rates."
+        "title": "RBA expected to hold rates at 4.35% on June 16 — but relief is coming",
+        "source": "nine.com.au / FXStreet",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaHZrRVl3Y21QQmxKQklEcGVld2o1TjV4WWxEV2dKQmItQUV4U2JBMEpuOURXSVpxUFhTX3VqNUh5bGw4ZUNfbms3UUhZUjIyRjM5RUxIRnR6RjJvUUYzaURMVkd2VnRJSDl2ampRUHg2RG5aTG1rWVM3V3JTeURpNWdfZEdUUWZJU2daMU0ySU1DbkcxUjhpUHhqVlFDUkFjNlJtdzBqeVF2X0hXX2c?oc=5",
+        "why_it_matters": "A Reuters poll of economists is firmly pointing to the RBA holding the cash rate at 4.35% at Tuesday's meeting. However, multiple banks have already jumped ahead of the decision and cut their home loan rates — suggesting the market believes the rate hiking cycle is done. The AFR is reporting the RBA itself sees the housing market facing tax 'headwinds'. If you're a homeowner or have a variable mortgage, the direction of travel is improving even if Tuesday brings no change."
       },
       {
-        "title": "Experts broadly expect the RBA's next move to be a rate cut",
-        "source": "FXStreet",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQVNCaHoxUWpCVnhuYlpBVUJaeHlQSHdQd1RIdkEtVXFSWW1tTDNSaE9YbUh0NXl1N1RQcXpQLW10OGhESk55TGFzOFBucTZhbmF3ckl4eHM0UTRtS2tUMVYzQjd4Zm0xUFptakJCODlPM0Ruc0FkR3NrcmpEQjJldXpiSEZoaEwyMHgzSnJEV00xU1FEUGdTTEhZSGdfODhBM3ljZnBwdjhLakRzRGVTR3MyOWY1bnF0VGc?oc=5",
-        "why_it_matters": "Market economists and analysts are now broadly in agreement: the RBA's next interest rate move will be a cut, not a hike. This is good news for anyone with a mortgage or variable rate debt. For investors, lower rates generally support asset prices — shares, property and bonds all tend to benefit when borrowing costs come down. The timing is still uncertain, but the direction of travel looks clear."
+        "title": "Banks cutting home loan rates ahead of RBA decision",
+        "source": "Yahoo Finance Australia",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYmxiYVNMREtVYm5kRGdLSEpObnNoSC1aMkJxTzFrZG9PdWFVbGc4ZDZ2dEdZcHY5d0IzYjlZSWNXWEpRWnZVZ3k3YWdFWlg5SEoxVXBNalRxNllfYVlsTjFQbmNReHJhdzR2T0p0Yy1zaXNrTWNuRkl2ZU5VaGxEdDRBN2NoaTk2eUxHa3NkV2tHOVhVNGlBMVZIVUlheUlPZk1yR1JQTFFkcDc3Y3BFWl9n?oc=5",
+        "why_it_matters": "Several of Australia's major banks are cutting home loan interest rates before the RBA even meets, betting the central bank is finished with rate hikes. This is unusual — banks typically wait for the RBA to move first. It signals strong confidence in the market that borrowing costs have peaked, which is good news for homeowners and property investors, though it also reflects weak housing demand that banks are trying to stimulate."
       },
       {
-        "title": "Fears the RBA won't be able to cut rates if recession hits",
-        "source": "The West Australian",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNEtiTUg3UW9wc2UxV1I3ZHBFWEttRXl1YWtpeTlkVG9oa0k0NU0zUEh1aXlWMndDeFZudUoxZU02MkFKdG1vbm03QmFNY19lOWlYUlUzSXlQMjc2cDhVZXEtaENWMGNROE9HdTQySTN5MTg3b3lHTjV3N1VYQTdYVHhDeWZqNTNyOThZdHN4Z3hoakxfc3QxVEQ5bkVnRWRqSUlXNTJxRVFPeFhPMDQ4elZ4M2NxLUFjbk9HRE40aUVJQkNrT255UHRxNkZncC1hOTI2Tg?oc=5",
-        "why_it_matters": "There's a counter-argument worth knowing: some economists worry that if Australia tips into a recession (two consecutive quarters of economic contraction), the RBA may have already used up its rate-cutting firepower or face constraints that limit how much it can cut. This is a tail risk — not the base case — but it's worth keeping in mind when reading optimistic rate-cut headlines."
-      },
-      {
-        "title": "State governments warn Canberra: we can't replace NDIS services for those cut off",
+        "title": "States warn federal government: we can't replace NDIS services for those cut off",
         "source": "The Guardian / ABC",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQekxPSjdMUmJTYkx6OEgzRkRIbGxpME9RNy1GTU1JNVNJdElCNkFIaHZrd1dSYlZ5TGVTTk1LQTRPVWNISWlBRnNGS05hT05QVWVXa0NFOER2cFNnSUFVWmRqZnBWNl9DZlo3ZTMxWTVnNFByS2p0NG45QzhURFZnWWFxSlNMaU82XzJJWHdQR1FhVGw3T21sd1M3QU9EYkJOTWc?oc=5",
-        "why_it_matters": "State and territory disability ministers have united to warn the Albanese government that they simply cannot provide 'like-for-like' services for the thousands of people who will be removed from the NDIS under the federal overhaul. The states are saying they don't have the funding or infrastructure to pick up the slack. This is shaping up as a major political fight between Canberra and the states, with real consequences for people with disability and their families."
+        "why_it_matters": "State disability ministers have publicly lashed the Albanese government's overhaul of the NDIS (National Disability Insurance Scheme), which is removing some participants from the scheme. The states are warning they simply don't have the funding or services to pick up the slack for people who get cut. This is a politically sensitive fight — the federal government says the scheme needed to be reined in financially, but states say vulnerable people will fall through the cracks without a proper alternative."
       }
     ]
   },
   "ai": {
-    "summary": "The AI story today is dominated by two things: Google aggressively cutting its AI API prices to undercut competitors, and a wave of new government regulation — Trump in the US, Canada, and ongoing EU debates. Plus, Anthropic's new Claude Fable 5 model is going head-to-head with GPT-5.5 and Gemini 3.1 Pro.",
+    "summary": "The AI pricing war is heating up fast — Google, OpenAI and Anthropic are slashing prices to grab market share. Meanwhile, regulators around the world are scrambling to catch up, and Anthropic's CEO is warning about weapons-grade risk if AI goes unregulated.",
     "stories": [
       {
-        "title": "Google slashes AI prices — bad news for OpenAI and Anthropic",
-        "source": "inc.com",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX01DbW9sb3RKdG5WdEhManRzVFhHYzdPZWpRLUJiaWhVYy1RbzhOd3RxRWh4OUtwRWJKSXdxb2xVRmZxX2lRWXc0X2EzeEp6Mkp4SXhHV25qbDhNYXlZYW5zeENDNDY5R1ZTV0o4S2dwWHdOYUtHU0p0Ml9TemNYMUc2d1Q4WDhSQzVLeU5mOHNFa2VfQzh2TldNMTRfeGx3LW5jRTAzOTVWVEts?oc=5",
-        "why_it_matters": "Google has cut the prices it charges developers to use its AI models through its API (the programming interface businesses use to build AI-powered apps). The cuts are significant enough to put real pressure on OpenAI and Anthropic, who charge more for comparable capabilities. For Google (GOOG), this is a land-grab strategy — sacrifice margin now to win market share. It's a bullish long-term signal for Alphabet's AI business, even if it compresses short-term revenue. You hold GOOG, so this is worth watching."
+        "title": "Google slashes AI prices, putting OpenAI and Anthropic under real pressure",
+        "source": "Sherwood News / inc.com",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbEk2SGk3VUgwVXJaM2dTNzRScVZmeU1uSlRhZkZyem5Gb2lqSlV2TWdnVnFIekd1bHkxUlBqaTd4d3ZWS1RzWEQzTE93SHNfenRkZ3dxV0ppSE92bDNCeUVydDV0LXQzdnpKZER2eXlGeUhzNzN0eVNzVzU4T1BPbGdXRVNHbGZGV0t3eFpjQkVfUS13UEE?oc=5",
+        "why_it_matters": "Google has dramatically cut the cost of using its Gemini AI models via API (the way businesses plug AI into their apps). This is forcing OpenAI and Anthropic to respond with their own cuts, kicking off what looks like a full-blown price war. For GOOG shareholders, this is a calculated power move — Google has the infrastructure scale to win a price war that could squeeze smaller rivals. For businesses using AI tools, cheaper access means faster adoption."
       },
       {
-        "title": "Trump signs new AI executive order — could reshape how models are launched in the US",
+        "title": "Trump signs new AI executive order — could change how top models are launched",
         "source": "MSN",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZTl2WktZNWRheTV1a3k3Um1yOEIwVFA4UlhBU1VvTDBTeFdsWFlUTnFWOWhSTWRFX1RheWxFQmI0M2psalJkSjZJWXdyN2VROFQ1TEFPN21qcFNRYkhDSU1TOWZhYzdzRHhPSkZ1YXBtYklLUEN4ZU90M2dCY1BOOWVMdWJyUUphcnF3eVZSS1NsODhxeU0yRGhWMGhpNlp0OWhUZHQxSGhPZmV3cFExZW15ZldtTDQxNVNXMm5wMElrSVZZUlNFZmFJUU14MjQ?oc=5",
-        "why_it_matters": "President Trump has signed a new executive order that would change the rules around how AI companies like OpenAI, Google, and Anthropic can release new models in the US. The details are still emerging, but it signals the 'hands-off' era of US AI regulation is ending. More oversight could slow the pace of new model launches and add compliance costs for the big AI players — relevant for your GOOG and GXAI.AX holdings."
+        "why_it_matters": "Trump has signed a new AI executive order that could require OpenAI, Google and Anthropic to follow new rules around how and when they release AI models to the public. The details are still emerging, but it signals the US federal government is stepping in to shape AI development — something that could slow certain model releases or require more safety testing before launch. This adds regulatory uncertainty for US AI companies, including Google."
       },
       {
-        "title": "Anthropic's Claude Fable 5 takes on GPT-5.5 and Gemini 3.1 Pro",
-        "source": "Moneycontrol.com / MSN",
-        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNSE5ZYUVoTFotQmtLY010Y1ZVSWo4dlpTQXNrWG1LdFQ0c2NQQ05NV0VESFlKLTFuU09uUTJuMk1najZfTXVHcWpqQ0FOb2ZrTVZwZnh4RTgzOUdMWE9USW5PR0s1Q216eEhDQlhDNmRjRUdsWWJ2QWRvWkdIUE9rLUVpRjJvUnFvSDl4RHd4dF9laEI5a1pfMTRiQUNMUFdqOHF1UkVnWm9GaWZBMXZ0MUFWMEk0NUhOb1YycFNHLVRkRmpsUFY5MEJLWDJKa1doWk4zN2hZMF9wVWs1ZXZ5OFE3VkVxRjFkR2dyTmRhZ1A1eDJDOWhGZGxGNF96UFNROVNUdDNFZTliR0nSAZACQVVfeXFMUDJTaGprY0JQRmtkdVFmb3VLRXdLWTN4dnFaVmZFTHNneEhYaDd1b2k1eTV6NkhkbHdsVEczdEluWEhNbHFSYlg4c2JpVFZoeVBOMDlMcVZmM1dxdE5RUzVtUVNwdVlHWFBQYVhtbllHNHJLU3hxSm5IeEZ2MEJTd0tiQVdIaDVpY19QTVp4cHRJSkRnaTR3dExCVENKR3RhaXBGNF9RLVh6bEJ3SXZ0d0gyYW9Rd0pTd01VM2twZ1J2akc1UGQ1WUIxd3BOcERZQzBMSmdOY0lrNmVsYmI1NUxvd3lBaFJlZWZUaFkyS01oMUtQX3loczBBQTBpdS13ZnQwXzM3LVpXX2Zob0Z6Y2Q?oc=5",
-        "why_it_matters": "Anthropic has released Claude Fable 5, its latest flagship model, and benchmarks show it's now genuinely competitive with OpenAI's GPT-5.5 and Google's Gemini 3.1 Pro — particularly in image understanding tasks. This is the AI arms race in real-time: three companies all roughly neck-and-neck on capability. For everyday users, the practical upshot is that all three top AI assistants are now extremely capable at reading and analysing images, charts, and documents — not just text."
+        "title": "Anthropic CEO warns unregulated AI could become a 'weapon of mass destruction'",
+        "source": "Barron's",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObjZJQ1RNSDhQcVZBYVFwZkwtT1ltTWNUMTEzODJqaS00aTZLRDQxbG9qNUVsQ3BGQk5ubkRYY3oxRGU5VUhDRUhKVnZtbnY5c2NKMk5jUTFZRzdUbWU2YmVlUDdqTW9xTlIwOXNvTUZzUnA2bHpNTHJQUjU3VDJhSi1oUkJwWno5aFlJ?oc=5",
+        "why_it_matters": "Anthropic's CEO (maker of the Claude AI) has issued a stark public warning that without proper regulation, AI systems could be weaponised at a scale comparable to weapons of mass destruction. This is notable because it's coming from inside the industry — not from an outside critic. The timing coincides with Trump's new AI order and global regulatory scrambles in the EU, Canada and Latin America, all of which are trying to put guardrails on AI development."
       },
       {
-        "title": "Canada moves to regulate social media and AI chatbots",
-        "source": "Jurist.org",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTlFtejQ1N1h0bnFqYTYzaDhyOWNCT09wSUhlRER4Z0UtWUNmcjdlc0gtaWVIeG1OVlJhRHB6YXNZZ09lS193QlF4Ql94MTAxRUl1SnlVNXktLS1CVGVHR29yRWswRVllcl94Uy1vWThSZENnMVlWeVd2SHgwWHpPR2lUdFNnRks0STlYSEV5aHhBa0pM?oc=5",
-        "why_it_matters": "Canada has introduced legislation targeting both social media platforms and AI chatbots, requiring them to meet new standards around content and transparency. It's part of a global regulatory wave — alongside the EU AI Act and Trump's new US order — that's tightening the rules for AI companies. More compliance requirements globally means higher costs for the big tech platforms, which is a headwind worth watching for GOOG and MSFT."
+        "title": "Anthropic blindsides its business partners with surprise move",
+        "source": "The Information",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZFd5RENQSG5HcURocGQ4RFh6UXVtQ3dWX0lDTFBGMW50NG5UUTFJdDVwdHVwNGd4dHFBcEI1eEE3T3lDa2YxSGdkVlRTZnVwc2c4WnVQeERIN195SzFHRm1UMWFsTm9BQktPUnh3b3VzNDJnUFdmVWVfUUpJU0VWV3NUWjE?oc=5",
+        "why_it_matters": "The Information is reporting that Anthropic made a surprise move that caught its business partners off guard — though full details aren't public yet. In the context of the AI pricing war and the new regulatory environment, any sudden strategic shifts from a major AI player are worth watching. It could relate to pricing, model access terms, or partnerships."
+      },
+      {
+        "title": "Claude Fable 5 vs GPT 5.5 vs Gemini 3.1 Pro — the AI model race heats up",
+        "source": "MSN",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa3AwcWpIRFRPakZaVURaaG0xbDk5bXJWeFl4WTg4Y1BfVGNuV2NVZnVVQlZRcUZrVFE0R201Skx0Q21ibnBuaXN0ZWpnUE9CQllNdXM5OTZJVlNQY1d2YVJqRjZYV2VOajlXcTVYeE9EbHBDRmhaUTRDOEQ0bkdXZVpHdUhfSlFjSFVCZ2dxRDVFMkVVcU1IUHJ2RUZZLWhtLXZEYS1qb3g1TWdE?oc=5",
+        "why_it_matters": "The next generation of frontier AI models is hitting the market almost simultaneously — Anthropic's Claude Fable 5, OpenAI's GPT 5.5, and Google's Gemini 3.1 Pro are all in the race. This is the sharp end of the AI competition and it's moving fast. For investors in GOOG or GXAI.AX, this arms race is the core driver of value — whoever wins model performance benchmarks tends to win enterprise contracts."
       }
     ]
   },
   "sport": {
-    "summary": "Big NRL night — the Rabbitohs demolished the Broncos 48-6 in an emotional Round 15 opener at Accor Stadium, with Jai Arrow's return the emotional centrepiece. Dolphins host the Roosters tomorrow night at Suncorp. AFL has a few stories bubbling too.",
+    "summary": "The Rabbitohs absolutely demolished the Broncos last night in an emotional Round 15 opener, and the AFL finals race is getting tight with eight clubs still fighting for spots.",
     "stories": [
       {
-        "title": "Rabbitohs smash Broncos 48-6 in emotional Round 15 opener",
-        "source": "ABC / SMH",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRFhPTlpaMEhNRlQ1b0lKNGdUdDAwTE04NENaNXZpTDNsdU4xcklNU0ctVldCOUplVlQxeUxnR2w1Wk9SY0VpRFRuaFg5NHJaZmNoSFNDMTdZaHdOeTU4SFU3RVBGeW5RVW1ySmRlTHVaNXh3ZmFWVmxuSlFFaElZMEhFWUNHTWYzOGR4anNFajlnU01LOEJOU1d2NXNTeWN2Z0hZbk9DYXk?oc=5",
+        "title": "Rabbitohs thrash Broncos 48-6 in emotional Jai Arrow tribute game",
+        "source": "SMH / ABC",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdTNLQmdpWm1zRjdNVG5NZkpyZXkwTkJ0TmhSbmtFWUtlWjAyTWJodlY1ZnRDb3FhRi14eERhSi1rQ1pxYVVWR2xMQnhwUm56bWQ2MkU1b2ctVkZjOUpjT1ExQzBXNVNGRGstSkFLS0pfQVcyaHJZNzNTZVpGbmtkVGRnc0RRdUliallBTTNkNWtocjZNOXlVWnR1ZkJQMHdscF9vN0d3T0RvUnJrQlE?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Rabbitohs ran riot at Accor Stadium on Thursday night, belting the Broncos 48-6 in a performance that had the whole ground emotional. The catalyst was the return of Jai Arrow, whose story had players and fans alike trying not to cry. Campbell Johnston was also outstanding, bringing the crowd to its feet. For the Broncos, it's now six straight losses and they're copping real heat — they were down two players to injury during the match, adding to the misery."
+        "why_it_matters": "South Sydney put in a stunning performance last night at Accor Stadium, hammering the Broncos 48-6. The game was charged with emotion around Jai Arrow, who had the crowd in tears (Arrow has been dealing with personal hardship). Alex Johnston was reportedly electric, bringing fans to their feet. For the Broncos, this was their biggest halftime deficit in the club's history — a shocking result."
       },
       {
-        "title": "Broncos' miserable run continues — six straight losses and double injury blow",
-        "source": "Nine.com.au",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQcDMwLXJCX0pmRFRWSlNYNlVNc2tPR2pLNzFQSHNnVmpsc3ktS2d4RzIzaC1TTmlXUy1pMTBYVnlpV0hRNXdnTVhmeUdSSTJCaFdDSjNLb0pmdmlwcTlQa2JXd2k1dGFfWnlOMXNBeTN3NDdvdVF5MmRzNXV1V0REZ1NVdjkwRXA2WTFsdnMwTlA5cUpaX2p6N1VsWEtRTThkVVZNc0g1UGVBWlJBVXc3b2NTeXZEdnhYUm9ySk5oMmpMZHh6VlJpSGhFajlIbl9uUm5JcUFpWHhYYnZhTk5jT1N5OXVRYTJjU29UR0FrT1RIaERENHc?oc=5",
+        "title": "Dolphins vs Roosters tonight at Suncorp — Gold Coast local interest",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeTYwNTZiSjF4N1dhUmp0a21LOFlESnAtZEFla24tWmswdW1YQnEwN254RFdCWWphckhxRXczUTczQk9VcU5CZXpCWHZjRXp4MlItd0NkdVRPbGRHUmpJLXh2Y2p0UjBfZ2FGa0RxMnVtclJ0UExkMDRZVWN5NjhFWURjbnBYUGh1TUU2WlhBeWF2QlE?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Broncos copped a double injury blow during the 48-6 thrashing, making a horror night even worse. Six consecutive losses is a crisis point for any NRL club — Brisbane will need to seriously examine their form and roster heading into the second half of the season. The Dolphins host the Roosters tomorrow night at Suncorp, giving local Gold Coast fans another reason to tune in."
+        "why_it_matters": "Tonight's big game is Dolphins vs Roosters at Suncorp Stadium in Brisbane, kicking off at 8:00 PM. Worth watching if you're a Gold Coast local with an eye on the Queensland teams — the Dolphins are fighting for finals relevance in Round 15."
       },
       {
         "title": "SA locks in AFL Gather Round until 2029",
-        "source": "Australian Broadcasting Corporation",
+        "source": "ABC",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVUNZU3hpVnJzRXMydmY4SVA1dHc5ck5UYU5EUUIwM3owNFVpVFg4MEdPRFl0YUpIT0FlZHpDa2NlazBfZFJ6VWdWYklhWUpudnB0NjJ5d1NBY3RMenl2ZEtLTUNQd01CTlFsSjA1Y3JWZnlQMTZFLVQ5NWpwQkRDSEk1ZFE0RDlCMWpZWWlJZw?oc=5",
         "category": "AFL",
-        "why_it_matters": "South Australia has secured AFL Gather Round — the festival round where all 18 clubs play in Adelaide over one weekend — until at least 2029. The deal is locked in but venue decisions are still being finalised. It's a big win for South Australian tourism and the Adelaide AFL clubs, and cements Gather Round as a permanent fixture on the AFL calendar."
+        "why_it_matters": "South Australia has locked in hosting the AFL's Gather Round festival until 2029, though no decision has been made yet on which venues will be used. Gather Round — where all 18 AFL teams play in one location over a long weekend — has become one of the calendar's marquee events. Adelaide locked it in for at least three more years, good news for SA tourism and the AFL's innovation agenda."
       },
       {
-        "title": "World Cup wagering — bigger than 30 Super Bowls or 20 AFL grand finals",
-        "source": "The Straight",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN1dnYlVSc2NrQzlYb0FZTU9WTV90RDFGRGRtaVh1RVM3VGlDd2dqVS01cHVOUkRJNkp2dThmX29CbUVKYWxRNVRuQW9oUlZ5eHBuY0pQN0xxS0hhREZHUXBrVTNFSVRqeUhnOEZvX3p0V2dqTjRHRGwwOTRZZXptTU5MMmdBZ1NIcENxTGF0bUFibXhaUW5qSV9xRUdFRV8tWjdUazJOZnJ2NGExUi1ud0d5VWNwQlZLNWVYbzlENEtCdnc?oc=5",
-        "category": "Football",
-        "why_it_matters": "A fascinating piece on the scale of World Cup betting — the article claims the FIFA World Cup generates the equivalent wagering value of 30 Super Bowls or 20 AFL grand finals combined, making it the single most valuable sporting event for the global betting industry. With the 2026 World Cup coming up, sports betting platforms and media companies are gearing up for massive revenue opportunities."
+        "title": "Eight clubs in frantic fight for last four AFL finals spots",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPN0Z6TzhtNlcxWEhhcUozM2hiSXU4RDNMV3cwOWZnYWExZnVrSEdYWlpBY2RCZ0xTQy13UXFTOHpjVncwWWg3aXJjTC1uUjBRWEY3OTFVbU9BZHA3WTR5OVVycm00Y0ZyV2pZRm5obXNMZFJPYUtINWhIZHNmaVVFM0VzVzRBYWdwekxidmtONHo0aHdYNUpPX1R1Q3cwM0hMeTlLc3FLSDh0SGVLQ2FFcjF0b1cyTEcyenZpdVZpLXY0MHdaVmZub3JhV3gtQUpoblEyQnZ5LTlMd1A4azhfQzQ0bXdDVW5WdHF4bUsxRXNWSEJKLUtvNGVVTmNEQU9ob2c?oc=5",
+        "category": "AFL",
+        "why_it_matters": "With the AFL season past the halfway mark, eight clubs are still genuinely fighting for the last four finals positions. Fox Sports describes the battle as a race to avoid 'no man's land' — the dreaded mid-table finish where you're too good to get a top draft pick but too bad to make finals. Expect the next four rounds to be high-stakes footy across the competition."
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "☁️",
-    "condition": "Overcast",
-    "temperature_c": 16.6,
-    "high_c": 20.8,
-    "low_c": 16.2,
-    "rain_chance_pct": 53,
-    "rain_mm": 0.4,
+    "icon": "🌤️",
+    "condition": "Mainly clear",
+    "temperature_c": 19.0,
+    "high_c": 20.9,
+    "low_c": 15.7,
+    "rain_chance_pct": 47,
+    "rain_mm": 1.1,
     "tomorrow": {
       "icon": "🌦️",
-      "condition": "Light drizzle",
-      "high_c": 21.0,
+      "condition": "Drizzle",
+      "high_c": 21.1,
       "low_c": 16.1,
-      "rain_chance_pct": 35,
-      "rain_mm": 1.3
+      "rain_chance_pct": 37,
+      "rain_mm": 3.1
     }
   },
   "nrl_round": "Round 15",
@@ -336,134 +338,134 @@
         "ticker": "GOOG",
         "shares": 0.173,
         "currency": "USD",
-        "current_price": 350.5,
-        "current_value_native": 60.64,
-        "current_value_aud": 86.25,
+        "current_price": 356.56,
+        "current_value_native": 61.68,
+        "current_value_aud": 87.78,
         "total_invested": 50.0,
-        "total_invested_aud": 71.12,
-        "pnl_native": 10.64,
-        "pnl_aud": 15.13,
-        "pnl_pct": 21.27,
-        "day_change_pct": -0.8
+        "total_invested_aud": 71.15,
+        "pnl_native": 11.68,
+        "pnl_aud": 16.63,
+        "pnl_pct": 23.37,
+        "day_change_pct": 0.92
       },
       {
         "ticker": "MSFT",
         "shares": 0.6319,
         "currency": "USD",
-        "current_price": 388.04,
-        "current_value_native": 245.2,
-        "current_value_aud": 348.79,
+        "current_price": 390.34,
+        "current_value_native": 246.66,
+        "current_value_aud": 351.01,
         "total_invested": 280.0,
-        "total_invested_aud": 398.29,
-        "pnl_native": -34.8,
-        "pnl_aud": -49.5,
-        "pnl_pct": -12.43,
-        "day_change_pct": -2.35
+        "total_invested_aud": 398.46,
+        "pnl_native": -33.34,
+        "pnl_aud": -47.45,
+        "pnl_pct": -11.91,
+        "day_change_pct": -1.77
       },
       {
         "ticker": "TTWO",
         "shares": 1.5098,
         "currency": "USD",
-        "current_price": 213.6,
-        "current_value_native": 322.49,
-        "current_value_aud": 458.74,
+        "current_price": 212.08,
+        "current_value_native": 320.2,
+        "current_value_aud": 455.67,
         "total_invested": 350.0,
-        "total_invested_aud": 497.87,
-        "pnl_native": -27.51,
-        "pnl_aud": -39.13,
-        "pnl_pct": -7.86,
-        "day_change_pct": 1.49
+        "total_invested_aud": 498.08,
+        "pnl_native": -29.8,
+        "pnl_aud": -42.41,
+        "pnl_pct": -8.51,
+        "day_change_pct": 0.77
       },
       {
         "ticker": "FUEL.AX",
         "shares": 23.647,
         "currency": "AUD",
-        "current_price": 8.72,
-        "current_value_native": 206.2,
-        "current_value_aud": 206.2,
+        "current_price": 8.63,
+        "current_value_native": 204.07,
+        "current_value_aud": 204.07,
         "total_invested": 200.0,
         "total_invested_aud": 200.0,
-        "pnl_native": 6.2,
-        "pnl_aud": 6.2,
-        "pnl_pct": 3.1,
-        "day_change_pct": 2.35
+        "pnl_native": 4.07,
+        "pnl_aud": 4.07,
+        "pnl_pct": 2.04,
+        "day_change_pct": -1.03
       },
       {
         "ticker": "VDHG.AX",
         "shares": 1.99,
         "currency": "AUD",
-        "current_price": 75.2,
-        "current_value_native": 149.65,
-        "current_value_aud": 149.65,
+        "current_price": 76.2,
+        "current_value_native": 151.64,
+        "current_value_aud": 151.64,
         "total_invested": 150.0,
         "total_invested_aud": 150.0,
-        "pnl_native": -0.35,
-        "pnl_aud": -0.35,
-        "pnl_pct": -0.23,
-        "day_change_pct": -0.11
+        "pnl_native": 1.64,
+        "pnl_aud": 1.64,
+        "pnl_pct": 1.09,
+        "day_change_pct": 1.33
       },
       {
         "ticker": "VGE.AX",
         "shares": 0.3942,
         "currency": "AUD",
-        "current_price": 90.9,
-        "current_value_native": 35.83,
-        "current_value_aud": 35.83,
+        "current_price": 91.32,
+        "current_value_native": 36.0,
+        "current_value_aud": 36.0,
         "total_invested": 37.0,
         "total_invested_aud": 37.0,
-        "pnl_native": -1.17,
-        "pnl_aud": -1.17,
-        "pnl_pct": -3.15,
-        "day_change_pct": -0.23
+        "pnl_native": -1.0,
+        "pnl_aud": -1.0,
+        "pnl_pct": -2.71,
+        "day_change_pct": 0.46
       },
       {
         "ticker": "VTS.AX",
         "shares": 0.4363,
         "currency": "AUD",
-        "current_price": 513.4,
-        "current_value_native": 224.0,
-        "current_value_aud": 224.0,
+        "current_price": 519.67,
+        "current_value_native": 226.73,
+        "current_value_aud": 226.73,
         "total_invested": 225.0,
         "total_invested_aud": 225.0,
-        "pnl_native": -1.0,
-        "pnl_aud": -1.0,
-        "pnl_pct": -0.45,
-        "day_change_pct": -0.6
+        "pnl_native": 1.73,
+        "pnl_aud": 1.73,
+        "pnl_pct": 0.77,
+        "day_change_pct": 1.22
       },
       {
         "ticker": "GXAI.AX",
         "shares": 10.5097,
         "currency": "AUD",
-        "current_price": 16.91,
-        "current_value_native": 177.72,
-        "current_value_aud": 177.72,
+        "current_price": 17.41,
+        "current_value_native": 182.97,
+        "current_value_aud": 182.97,
         "total_invested": 200.0,
         "total_invested_aud": 200.0,
-        "pnl_native": -22.28,
-        "pnl_aud": -22.28,
-        "pnl_pct": -11.14,
-        "day_change_pct": -0.59
+        "pnl_native": -17.03,
+        "pnl_aud": -17.03,
+        "pnl_pct": -8.51,
+        "day_change_pct": 2.96
       },
       {
         "ticker": "PLS.AX",
         "shares": 22.2551,
         "currency": "AUD",
-        "current_price": 5.94,
-        "current_value_native": 132.2,
-        "current_value_aud": 132.2,
+        "current_price": 6.52,
+        "current_value_native": 145.1,
+        "current_value_aud": 145.1,
         "total_invested": 150.0,
         "total_invested_aud": 150.0,
-        "pnl_native": -17.8,
-        "pnl_aud": -17.8,
-        "pnl_pct": -11.87,
-        "day_change_pct": 3.12
+        "pnl_native": -4.9,
+        "pnl_aud": -4.9,
+        "pnl_pct": -3.26,
+        "day_change_pct": 9.76
       }
     ],
-    "total_invested_aud": 1929.28,
-    "total_value_aud": 1819.38,
-    "total_pnl_aud": -109.9,
-    "total_pnl_pct": -5.7,
-    "aud_usd_rate": 0.703
+    "total_invested_aud": 1929.7,
+    "total_value_aud": 1840.98,
+    "total_pnl_aud": -88.71,
+    "total_pnl_pct": -4.6,
+    "aud_usd_rate": 0.7027
   },
-  "generated_at_utc": "2026-06-11T18:37:49.053515+00:00"
+  "generated_at_utc": "2026-06-12T07:36:05.858372+00:00"
 }
