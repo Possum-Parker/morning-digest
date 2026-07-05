@@ -1,232 +1,231 @@
 {
-  "headline": "ASX surged 1.37% to close above 8,844 today while gold hit a new high near $4,187 USD — your portfolio got a boost from PLS, TTWO, and MSFT last night.",
+  "headline": "ASX surges 1.37% to close near 8,844 — a strong Sunday session led by broad gains, while gold hits a record-breaking $4,187 USD and Pilbara Minerals pops nearly 2% on the local bourse.",
   "portfolio": {
     "movers": [
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": 1.87,
-        "note": "TTWO climbed 1.87% last night, continuing its strong run on GTA 6 hype. Forbes published a piece calling it a 'rebel strategy' — the market is betting the GTA 6 launch will be one of the biggest entertainment events ever. Your position is now up over 11% overall."
+        "note": "Take-Two had a solid session last night, up 1.87% to $254.99 USD. No specific news catalyst in the data, but the stock has been riding broader gaming and risk-on sentiment. Still sitting on a healthy +11.2% overall gain from your entry."
       },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": 1.95,
-        "note": "PLS was today's standout, jumping 1.95% at the close. Sentiment in lithium is improving — competitor Mineral Resources reportedly restarting lithium mines signals the industry thinks prices may be bottoming. Still well underwater overall (down ~22%), but today was a step in the right direction."
+        "note": "Pilbara jumped +1.95% today to $5.23, its best move in recent sessions. Lithium stocks got a lift as the broader ASX surged and risk appetite returned. Still down -22.4% overall from your cost base, so this is a welcome bounce but not yet a trend reversal."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": 1.62,
-        "note": "Microsoft rose 1.62% last night, outperforming the broader NASDAQ. Earnings are coming up and analysts are previewing what to expect — the market seems optimistic, possibly reflecting confidence in Microsoft's AI products like Copilot driving revenue growth."
+        "note": "Microsoft rose 1.62% to $390.49 USD last night. The market is warming to Microsoft's massive AI infrastructure bet — the company is reportedly spending $190 billion on AI in 2026, and investors are starting to price in that payoff. Still down about 11.9% from your average entry price, but momentum is improving."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": 0.57,
-        "note": "VDHG nudged up 0.57% today, riding a strong ASX session. As a diversified fund holding Australian and global shares, it benefited from the broad market rally."
+        "note": "VDHG ticked up 0.57% today to $76.21, carried along by a strong ASX session. As a diversified growth fund, it benefits when broad markets rise — today's 1.37% ASX 200 rally did most of the work here."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard FTSE Emerging Markets ETF",
         "change_pct": 0.17,
-        "note": "VGE edged up 0.17% today. Emerging markets were fairly quiet — a small positive move in line with a mild risk-on day globally."
+        "note": "VGE edged up 0.17% today to $95.10. Emerging markets had a quiet session — a rising AUD (up 0.39% to 69.43 US cents) can mildly dampen returns on this fund since it holds foreign assets, but overall a steady close."
       },
       {
         "ticker": "GXAI.AX",
         "name": "Global X Artificial Intelligence ETF",
         "change_pct": 0.06,
-        "note": "GXAI was essentially flat today, up just 0.06%. The AI ETF tracks global AI companies — with the NASDAQ soft last night, there wasn't much fuel for a bigger move. Still down about 11% overall, so worth keeping an eye on upcoming US tech earnings."
-      },
-      {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market Shares ETF",
-        "change_pct": -0.42,
-        "note": "VTS dipped 0.42% today. This ETF mirrors the US total sharemarket, and last night's NASDAQ was soft (down 0.8%), which weighed on VTS's ASX price today. The AUD also ticked up slightly, which can mildly reduce the AUD value of US-focused holdings."
+        "note": "GXAI was essentially flat today, up just 0.06% to $16.74. The AI ETF space is in a holding pattern — some research this week suggested the biggest AI gains may flow to companies that USE AI rather than those that build it, which has weighed on pure-play AI funds. Still down 11.4% from your entry."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc. (Google)",
         "change_pct": -0.48,
-        "note": "GOOG slipped 0.48% last night. Nothing dramatic — the slight dip may reflect some rotation out of Google into Microsoft as the market anticipates both companies' earnings. Alphabet's earnings preview is circulating and investors seem cautiously positioned ahead of the result."
+        "note": "Google dipped 0.48% to $356.18 USD last night. No specific news, but the NASDAQ slipped 0.8% overall and Google was caught in the downdraft. Microsoft's AI narrative is stealing some of the spotlight from Alphabet right now, though Google is still up a solid +15.9% from your entry."
+      },
+      {
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market Shares ETF",
+        "change_pct": -0.42,
+        "note": "VTS slipped 0.42% today to $533.26. This fund tracks the entire US share market, and last night's mild NASDAQ pullback (down 0.8%) flowed through into today's ASX pricing of the ETF. Still up 3.4% overall from your cost base."
       },
       {
         "ticker": "FUEL.AX",
         "name": "BetaShares Global Energy Companies ETF",
         "change_pct": 0.0,
-        "note": "FUEL didn't move today, closing flat. Oil prices were barely changed overnight (WTI crude around $68.78 USD), so global energy stocks had no real catalyst. The IEA has flagged that the Iran situation is reshaping the oil market outlook, but uncertainty is keeping prices in a holding pattern."
+        "note": "FUEL was flat today at $7.67, unchanged from the previous close. Oil prices (WTI crude) barely moved overnight, up just 0.13% to $68.78 USD a barrel — not enough to shift energy stocks either way."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "GOOG & MSFT earnings coming — big moment for your US holdings",
-      "detail": "Both Alphabet (GOOG) and Microsoft (MSFT) have earnings previews circulating. These results are approaching and will be the biggest catalyst for both stocks in months. GOOG slipped slightly last night while MSFT rose 1.62% — the market is already positioning. Hold both and watch the earnings dates closely.",
-      "urgency": "red",
-      "ticker": "GOOG",
-      "action": "hold"
-    },
-    {
-      "title": "TTWO riding GTA 6 momentum — still a hold",
-      "detail": "Take-Two rose 1.87% last night and Forbes is running big pieces on the 'GTA 6 strategy'. Your position is up over 11%. The GTA 6 launch remains the key catalyst — no reason to sell ahead of that, but it's priced for a lot of optimism so don't add at these levels.",
-      "urgency": "orange",
-      "ticker": "TTWO",
-      "action": "hold"
-    },
-    {
-      "title": "PLS bouncing — lithium sector showing signs of life",
-      "detail": "Pilbara Minerals jumped 1.95% today, its best session in a while. Mineral Resources restarting lithium mines is a signal that the sector thinks prices are near a floor. PLS is still down 22% in your portfolio — hold and monitor whether this is the start of a real recovery or just a dead-cat bounce.",
+      "title": "PLS.AX — Pilbara bouncing, but still deep in the red",
+      "detail": "PLS jumped +1.95% today to $5.23, which is encouraging. But you're still sitting -22.4% overall on this position. Watch whether this bounce has legs — a sustained move above $5.40 would be a more convincing signal. For now, hold and watch.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "Gold hit $4,187 USD — a new high, and it matters for your portfolio",
-      "detail": "Gold surged 1.81% last night to nearly $4,187 USD per ounce. This is a safe-haven signal — investors are nervous about something (likely geopolitical tension and US fiscal concerns). Worth noting your VDHG and VGE have some indirect exposure, and it reinforces holding diversified assets.",
+      "title": "MSFT — Big AI spending story building momentum",
+      "detail": "Microsoft rose 1.62% last night to $390.49 and news is circulating that the company plans to spend $190 billion on AI infrastructure in 2026. That's an enormous bet, and the market is starting to believe it'll pay off. You're still down ~11.9% overall, but the narrative is shifting in MSFT's favour. Worth holding — could be a buy on any pullback.",
+      "urgency": "orange",
+      "ticker": "MSFT",
+      "action": "hold"
+    },
+    {
+      "title": "Gold smashing records — what it means for your portfolio",
+      "detail": "Gold surged $74.60 overnight to $4,187 USD an ounce — a massive single-session move. This usually signals investors are nervous about something bigger (inflation, geopolitical risk, or currency concerns). None of your holdings are direct gold plays, but it's worth watching as a warning sign for broader risk assets.",
       "urgency": "orange"
     },
     {
-      "title": "GXAI still underwater — watch US tech earnings for a re-rate",
-      "detail": "Your Global X AI ETF is down ~11% overall and barely moved today. The big swing factor will be US tech earnings (Google, Microsoft, and others in the index report soon). If AI revenue numbers impress, GXAI could get a meaningful lift. Hold for now and reassess post-earnings.",
+      "title": "GXAI.AX — AI ETF flat while the debate about AI investing heats up",
+      "detail": "GXAI barely moved today (+0.06%), and research doing the rounds this week argues the biggest AI gains will go to companies that USE AI (like retailers, banks, health firms) rather than AI builders themselves. Your GXAI fund focuses on AI companies directly, so this is a headwind worth watching. Down 11.4% overall — hold for now but keep an eye on the thesis.",
       "urgency": "orange",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "ASX had a cracking day — up 1.37%",
-      "detail": "The ASX 200 closed at 8,844 today, up 119 points or 1.37%. That's a strong broad-market day that lifted most of your local holdings. The AUD also rose slightly to 69.4 US cents, which is a mild headwind for the AUD value of your US stocks.",
+      "title": "ASX 200 rips +1.37% — a very strong local session",
+      "detail": "The ASX closed at 8,844 today, up nearly 120 points. This broad-based rally lifted most of your ASX holdings. The AUD also rose to 69.43 US cents, which is a mild headwind for your US-denominated holdings (GOOG, MSFT, TTWO) when converted back to AUD.",
       "urgency": "green"
+    },
+    {
+      "title": "TTWO — Take-Two holding gains, GTA VI hype still simmering",
+      "detail": "Take-Two is up 1.87% last night to $254.99 and is your best-performing position overall at +11.2%. No fresh news catalyst, but sentiment remains positive. Hold your position — no reason to trim yet.",
+      "urgency": "green",
+      "ticker": "TTWO",
+      "action": "hold"
     }
   ],
   "markets": {
-    "summary": "The ASX had a strong session today, closing up 1.37% at 8,844 — a solid broad-market rally. Last night on Wall Street, the S&P 500 was virtually flat but the NASDAQ dropped 0.8%, dragged by some softness in tech names. Gold was the big story last night, surging nearly 2% to around $4,187 USD — a new high, suggesting investors are seeking safety. Oil was barely changed. The Aussie dollar ticked up to about 69.4 US cents.",
+    "summary": "The ASX 200 had a cracking Sunday session, closing up 1.37% at 8,844 — one of its stronger single-day moves in recent weeks. Over in last night's US session, the S&P 500 was essentially flat (basically unchanged at 7,483), while the NASDAQ pulled back 0.8% as some tech names lost ground. The big story in markets is gold, which exploded higher by $74.60 to a remarkable $4,187 USD an ounce — that's a serious move that suggests investors are hedging against something. The Aussie dollar strengthened to 69.43 US cents, up 0.39%, which is good news if you're travelling but a mild drag on returns from US investments when converted back to AUD. Oil was barely moved, up just 13 cents to $68.78 a barrel.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,844",
         "change_pct": 1.37,
-        "note": "Strong local session, up 119 points"
+        "note": "Strong local session — broad-based gains across the market"
       },
       {
         "name": "S&P 500",
         "value": "7,483",
         "change_pct": 0.0,
-        "note": "Essentially flat last night"
+        "note": "Essentially flat last night — a pause after recent gains"
       },
       {
         "name": "NASDAQ Composite",
         "value": "25,833",
         "change_pct": -0.8,
-        "note": "Tech sold off mildly last night"
+        "note": "Mild tech pullback last night, dragged by a few large names"
       },
       {
-        "name": "Gold (WTI)",
-        "value": "$4,187 USD",
+        "name": "Gold (USD/oz)",
+        "value": "$4,187",
         "change_pct": 1.81,
-        "note": "Gold surged to a new high last night"
+        "note": "Massive single-session surge — investors piling into safe havens"
       },
       {
-        "name": "Crude Oil (WTI)",
-        "value": "$68.78 USD",
+        "name": "Crude Oil WTI (USD/bbl)",
+        "value": "$68.78",
         "change_pct": 0.13,
-        "note": "Barely moved — market in a holding pattern"
+        "note": "Barely budged — energy markets in a holding pattern"
       },
       {
         "name": "AUD/USD",
         "value": "0.6943",
         "change_pct": 0.39,
-        "note": "Aussie dollar crept higher"
+        "note": "Aussie dollar firming — traders less worried about rate cuts"
       }
     ]
   },
   "politics": {
-    "summary": "No Australian political stories were available in today's data feed. This may reflect a quiet news day locally given it's a Saturday.",
-    "stories": []
-  },
-  "ai": {
-    "summary": "Today's AI news is dominated by the global tug-of-war over regulation — with the US heading toward a hands-off approach while Europe, Kenya, and the Philippines all push for tighter rules. There's also a practical angle: multi-model AI access is getting cheaper for consumers.",
+    "summary": "No Australian political news came through today's feed — it's a Sunday in early July, so Canberra appears to be quiet. We'll pick up any breaking political stories as the week gets going.",
     "stories": [
       {
-        "title": "Trump will oppose heavy US AI regulation, says outgoing tech adviser",
-        "source": "Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNW9USXIyLVQtZ1MzMjU1U2JrQ20tWlVkVU5KOW9GRlNmMVBibkNCLTFCdjNxcHJzRng0eURnbXFaR09iZDVyZEFiamVtTk1fM09oRXp3cWxtSUF5NzNHWTI3cmZhM09WVW1Ib0ltZG5NTGhHYVBrQUFoZ19WYjloTi02Nms?oc=5",
-        "why_it_matters": "The outgoing White House tech adviser has confirmed that the Trump administration will actively resist heavy-handed AI regulation in the US. This means American AI companies like Google, Microsoft, and OpenAI will likely face far fewer restrictions than their European counterparts, potentially giving them a competitive edge. For your GOOG and MSFT holdings, a light-touch regulatory environment is a tailwind — less compliance cost, more freedom to deploy AI products at scale."
+        "title": "No Australian political stories today",
+        "why_it_matters": "The news feed returned no Australian politics stories for today (Sunday 5 July). This is not unusual for a weekend. Check back Monday for any developments from Canberra or state governments."
+      }
+    ]
+  },
+  "ai": {
+    "summary": "The big AI theme this weekend is regulation — the CEOs of OpenAI, Anthropic and Google have jointly called for a new US law requiring DNA screening, China is cracking down on personalised AI agents, and a new Chinese AI model called DeepSeek V4 has dropped, directly challenging ChatGPT, Claude and Gemini.",
+    "stories": [
+      {
+        "title": "OpenAI, Anthropic and Google CEOs jointly call for DNA screening law",
+        "source": "qz.com",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrUVp3UmVlYUxwckVqWDF3VVN1YkprQldkWTZnX19ISE1KLVo4eFRQNWRKZTV4NHRJVWNTekk5MW9BaUVxQlZGc2ota0hKZ0NGZ2VUeHMxUThfell2TWJBYml1dmtvS2cwQXFDM3h0c3JKQTZpa1dpY2IxQVFYZw?oc=5",
+        "why_it_matters": "The heads of the three biggest AI companies in the world — Sam Altman (OpenAI), Dario Amodei (Anthropic), and Sundar Pichai (Google) — have made a rare joint call for US legislation requiring DNA screening, though details of exactly what they're proposing aren't fully available in this feed. The fact that these three competitors are agreeing on anything is notable. For investors in GOOG and MSFT, it signals AI companies are getting ahead of regulation rather than fighting it — which is generally seen as a more stable long-term position."
       },
       {
-        "title": "AI outpaces regulation, Europe's top bankers and regulators warn",
-        "source": "The News International",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNGpCWmZpS25iby1TbU1SamtjcVYxeW5wMEhYSi13SzUwMFdHZkFpNmw4X3cwRkR5QW1PT1RjdnFma0swUzlaeDduUTFGTDA5TEJ4TzJuZEViUzRPWjJ4SDN5di1IVFhmTE5idm96Q05XNzl6RkYwQ194cm5LYWpzQV9velNZTWZqUlBUVXVSZ2JUaHBfY2NPSHBZdDY5VkVKQlh4b3BBOA?oc=5",
-        "why_it_matters": "Europe's top banking and financial regulators are sounding the alarm that AI is being adopted in finance far faster than any rule-making can keep up. This creates a risk: AI-driven trading and lending decisions are happening without clear guardrails. For investors with global exposure (like your VDHG or VGE), this is worth monitoring — financial instability driven by unregulated AI in European banks could ripple through markets."
+        "title": "DeepSeek V4 arrives — how does it stack up against ChatGPT, Claude and Gemini?",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLXRWZ1ZVaXI5MDBqdWtjLWc0VFB4Y1hMRl84M0FCQ1haa3JvRjBNVnQtUzlxYm5lcm9ScUx3QXVPV2ZjcGoyRWo5Njk1NnEwdXVIZ09ScDd5aFpJLU1JblpObkRIbENvcFh4ZDl6ZkNSVHVuZW9nLUZzNFdiSThyVWlaeF9JeDlI?oc=5",
+        "why_it_matters": "China's DeepSeek has released its fourth-generation large language model (a type of AI that can hold conversations and answer questions), putting it directly in competition with OpenAI's ChatGPT, Anthropic's Claude, and Google's Gemini. DeepSeek models have historically punched above their weight at a fraction of the cost of US rivals, which is why Wall Street takes these releases seriously. If DeepSeek V4 is competitive, it adds pricing pressure on US AI services — a mild headwind for GOOG and MSFT."
       },
       {
-        "title": "Kenya Artificial Intelligence Bill proposes new regulator, risk-based rules",
-        "source": "Bantu Gazette",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd3I1WGF1a05mcngzNjA0a184eTkxWGMxQXpuWXIxUkE4V0FxOThMZEl4VWNIeFhlOGtVbFlPRnVNUTBwS2RZeWhPLU9vUDBTLXBJUml5eW1wa08wT2N4MFJHby1KT1c0bnFJLUh5eVJydkxHalhld3RMVlpHQ1JaRnljWnlucHFyMmZZZ0JTNVBYZG1vWFRWbkIzcEdqdkU5WEE?oc=5",
-        "why_it_matters": "Kenya is drafting a dedicated AI law that would create a new government regulator and apply different rules depending on how risky an AI system is (think stricter oversight for AI used in healthcare or policing versus a chatbot). It's part of a broader global wave of countries trying to get ahead of AI risks. Interesting context for the emerging markets exposure in your VGE — African tech regulation is starting to mature."
+        "title": "China forces Doubao and Qwen AI agents to shut down personalised features by July 15",
+        "source": "Global Times",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aTjAwZ1VjMzdqcG5hV2NjZFpjM3I1aXczUUV0YWxBTlI0YjdHd014U1pXdjdnVlFfZklkaTVsb2lsM1VybXZhMFl3SHBHQk1hNUJ0czJKLWZzbksyeHFxNUNR?oc=5",
+        "why_it_matters": "Two of China's leading AI assistants — Doubao (from ByteDance, the TikTok parent) and Qwen (from Alibaba) — must shut down their personalised AI agent features by July 15 to comply with new Chinese government rules. AI agents are programs that can take actions on your behalf, like booking appointments or making purchases. This is a significant regulatory tightening in China and shows governments are getting nervous about AI operating autonomously. Good context for understanding how differently the US and China are approaching AI governance."
       },
       {
-        "title": "Ditch ChatGPT — get Claude, Gemini, and 17+ AI models for life for $55",
-        "source": "Popular Science",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVzYzd1FkY1FCNmlNZ3E1eHBVcnc4aG1LX0dwcVdmWjFyNEhSdWdDNkJGNFl5MXFIUHpXTVZ3c0ptZTZzd1cwYlJZU1NncFpBXzhNTzgyOWhHOEFSM0NWYVIzZXdlTUVjRGVMdjZ0cW8zRFV0ZmZiUXVUSkJUTVJFUmlXVnBjY2FTb3NsTHdHWHFpSGpITlNRbXNOdktSX01VTlNhVURQNHpPYTgwaVN0dUVTeW85QWx5TmVJXy0zNUJTYXdiYUJiV1YyaVkwdzZL?oc=5",
-        "why_it_matters": "A lifetime deal is circulating that gives you access to Claude, Gemini, GPT, and more than 17 other AI models all in one place for a one-time payment of around $55 AUD. For everyday users tired of juggling multiple AI subscriptions, this is worth knowing about. It signals the AI tools market is getting commoditised — which is good for consumers but could pressure the subscription revenue models of individual AI providers."
+        "title": "New research argues the biggest AI gains won't go to AI stocks — but to companies that use AI",
+        "source": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQTnRjZDBSdnlDTGt4NnJkRjdENGdUbF9hSVo4bmFEVXZpUHBFb09xamI5Wk8xNGtJRHA1RUxsandJV19vMTNwbTdRMGVMY0NwemNWOHNOdHk4YWNnZEZMOUg0VFJtQklXQTV6LUFSeDZxVFJkZWNnWXVWeEtzWVBYWktNVnhqTnRja0UwMjFOVG5GbDRCNTFMZlhsQ0FVZjdLYnNwY05NOHc2OUZrRDVRVURvYWgyd0kxRThYVlFrcS1pT3J4aEV3NEt3MGJVakI0aUtlMmc0LVNqai1PR1M5WTlGUUs1MDZBWGVDQmxENUdzMjVDelZrZF9XT2laWl8wM1llNUFqcE92eW1lQ2pv?oc=5",
+        "why_it_matters": "Research published this week suggests that pure-play AI companies (the ones building the actual AI) may not capture most of the profits — instead, it's the companies that adopt AI to cut costs and boost productivity (banks, retailers, health companies) that will see the biggest gains. This is relevant if you hold GXAI.AX, which focuses on AI builders. The argument is that AI may become a utility — like electricity — where the power company doesn't necessarily make the most money."
       }
     ]
   },
   "sport": {
-    "summary": "Panthers thumped the Rabbitohs last night in Round 18, GWS snapped Fremantle's AFL win streak in a big upset, and Melbourne demolished Hawthorn in Tasmania. Wimbledon is underway with Alex de Minaur looking well placed after an open draw.",
+    "summary": "It's been a big weekend of NRL Round 18, with the Sharks thumping the Broncos at Suncorp in Brisbane's eighth straight loss, the Eels beating Manly, and the Knights scraping past the Dolphins. On the global stage, Wimbledon has delivered some massive upsets — Filipino teenager Alexandra Eala knocked out world No.1 Iga Swiatek, while Serena Williams' comeback stalled again. AFL Round 17 also had plenty of drama.",
     "stories": [
       {
-        "title": "Panthers 36 def. Rabbitohs 14 — comfortable Round 18 win",
-        "source": "NRL.com",
-        "category": "NRL",
-        "why_it_matters": "Penrith put Souths to the sword last night at CommBank Stadium, winning 36–14 in what was a one-sided affair. The Panthers continue to look ominous in 2026. The Rabbitohs' top-8 hopes take a hit with this kind of scoreline."
-      },
-      {
-        "title": "How rugby league became Australia's most valuable football code",
+        "title": "Sharks sink Broncos 28-16 at Suncorp — Brisbane's eighth straight loss",
         "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa2FwLXNZWlNINzlQUHdBcHp6Zi1ubjZDRWw1Y1ZEa3p1dzZqM2Jpd3M4c3czR3U4YWZwNHVYOFpkbV9fYTZESzRnLVRsWEp3M2Fxd09OSnZGN0RXOUNXbWo2QWN5Um12Ymk5MDdJMGFXVDFLU211SFg2YjU4ME04cms1czM0QlVvVFpaYjNKcE1xUEFzLWkwNS16R19yTlp0MTFkZk9BdXYxSVZSd1I4?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObUlfN0l1NWNDd2RKcHppYUhYUWw0ajlfZVQwajl4LWl6TG9raW5aTWF4bXYtTU0xTUtoNzBTZ3Z6ZEk0VFVoMXB4bmg4ZzhCV0sxMlAxZUVzbHFYNGhzczFta0Y4OUNHNFl5NEswUmFVUE9NcGdqUm1ERURmUEc3cFY0VmhsQ2xHcVk0SnNCdnVzNTJDTi1j?oc=5",
         "category": "NRL",
-        "why_it_matters": "ABC News has published a deep-dive on how the NRL has overtaken AFL, soccer, and rugby union to become Australia's most commercially valuable football code. The piece examines broadcast rights, crowd numbers, and sponsorship — timely reading as NRL Round 18 gets underway this weekend."
+        "why_it_matters": "The Sharks beat the Broncos 28-16 at Suncorp Stadium on Saturday night, handing Brisbane their eighth consecutive defeat — a horrendous run that is putting enormous pressure on coach Michael Maguire. Fox Sports is calling for bold decisions from Madge, with the Broncos' season now in serious danger of falling off a cliff. The Sharks, meanwhile, look genuine finals contenders."
       },
       {
-        "title": "Melbourne Demons destroy Hawthorn in Tasmania — AFL shock result",
+        "title": "Eels beat Manly 23-14, handing Sea Eagles a top-four reality check",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPOXA1SWRvVGk1ZWFPbnRGZHBXYlVoV0VYZXREVzRnb0dLeHVydWFyRWRPLWJZOVdVZkZxTXUyWDNMYXNEbm5XV0F3NmxSTVhfMTZLSFRLNno3czB5c0E1Z2QxeWRNTmdoWW5Qa19TRDBUZkVSQlkwaUxpRXdJWkNwUFRLQ0JQWkQwWkxnMkU0alpveWpaQ09DUk1kY3lXejFrRXpCbk9sU1Rfcy1mOGNMamc4S0lGbFJkQ3RCZlRJUDlsMk4ybVk4TUlJVjVkNVZJYzl3SGx2SXU2VWl3Y0tqMWZJWEFLUjBNNk14Y3hGRFdFLUlqczU3VjdnOFE4dkxDaWc0WUVTbG9XZWN4RWlxa3J3VWs1TW1ZRVBzOWhrcEt4NkEtUFZneXYxdFk2MnFTbUotSl80aUZSb2xKZXVDd2JHc3RXOTZIOURDU01VVWRtUmRt0gHUAkFVX3lxTE85cDVJZG9UaTVlYU9udEZkcFdiVWhXRVhldERXNGdvR0t4dXJ1YXJFZE8tYlk5V1VmRnFNdTJYM0xhc0RubldXQXc2bFJNWF8xNktIVEs2ejdzMHlzQTVnZDF5ZE1OZ2hZblBrX1NEMFRmRVJCWTBpTGlFd0laQ3BQVEtDQlBaRDBaTGcyRTRqWm95alpDT0NSTWRjeVd6MWtFekJuT2xTVF9zLWY4Y0xqZzhLSUZsUmRDdEJmVElQOWwyTjJtWThNSUlWNWQ1VkljOXdIbHZJdTZVaXdjS2oxZklYQUtSME02TXhjeEZEV0UtSWpzNTdWN2c4UTh2TENpZzRZRVNsb1dlY3hFaXFrcndVazVNbVlFUHM5aGtwS3g2QS1QVmd5djF0WTYycVNtSi1KXzRpRlJvbEpldUN3YkdzdFc5Nkg5REMNTVVVZG1SZG0?oc=5",
+        "category": "NRL",
+        "why_it_matters": "Parramatta Eels beat Manly Sea Eagles 23-14 at CommBank Stadium on Sunday afternoon, handing Manly a reality check about their top-four ambitions. Fox Sports reports a veteran Eels player produced a standout highlight-reel moment in the win. The Knights also squeezed past the Dolphins 13-12 in a nail-biter at McDonald Jones Stadium."
+      },
+      {
+        "title": "Alexandra Eala knocks out world No.1 Swiatek at Wimbledon in stunning upset",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORUlPdWlpbUZjOWs4OXI1VGgxUDdtYVdma0owZzZvclV0MVlVeHpFZjdEMHd2WXFJWlFBekFpQnpnR1loYUo4MTRielhERmNvLUVHaklBVVRFRXptWEhFUno2cndDUy1yYldnQkdTMHVXNjlueUlxUWszaXhFeUowdEowMjBfU3loUGVpQTRHV3o1V2dQcURGTFROLTRudFpmaEdObnl0NDY1bms?oc=5",
+        "category": "Tennis",
+        "why_it_matters": "Alexandra Eala, a 20-year-old from the Philippines, pulled off one of the biggest Wimbledon upsets in years by defeating Iga Swiatek — the world No.1 — on Saturday. Swiatek had been the heavy favourite and a multiple Grand Slam champion. Meanwhile, Australian No.1 Alex de Minaur has advanced to the second week at Wimbledon, keeping Australian hopes alive in the men's draw. Serena Williams' comeback attempt has stalled again, with the tennis legend failing to progress."
+      },
+      {
+        "title": "AFL: Demons destroy Hawthorn in Tasmania; brawl rocks Round 17",
         "source": "7NEWS",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa25PVHJ3UTNMOVh3LURSM1U0VVlzOEUyYVlqaTlqbFZvZDJvWVYzV3JzN0lmNWVhLXFhaGt1X3FJMXNBM2Y1X3dyZTI3dXFfY1BEblZmOGVjSl9PZDVvT05fRFVHbUdJd3hmdk94bFB0YkZNTEZvd0tadmhQTHBUTldsazVwREI3VmlVajB1S0w1UWlCeHh2UDcxWVl0NGtwd0FmVnowbDE3QdIBrwFBVV95cUxQUS11Z1lpakpubDdRTlJFTGNyeXlGX1lBVzRLd3ZWVHJvSlQ4a0NNcUJTUW5ObjdTZ0kxSnFCZV9WM09QY3YtQUwzZFNGUXpBU21Bb0VpekNZV0dUZHl1R25zXzEyTW43TXRBeVh2UVp0bDdFbWlRZVEwQnhCZ253X1NYY0gzNlZIaGJBeVlZbFZMNlZ6MDdiNWI2Vi1NZWYwQkllNkZQMDQ2VEV5aE8w?oc=5",
         "category": "AFL",
-        "why_it_matters": "Melbourne put on a stunning performance against Hawthorn in Tasmania, winning convincingly in what 7NEWS called a 'destruction'. The result is a shock given Hawthorn's strong season form. Melbourne fans finally have something to cheer about after a tough stretch."
-      },
-      {
-        "title": "GWS break AFL's biggest win-streak — Fremantle star Docker injured",
-        "source": "Zero Hanger",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN2RXc0VTcC1UR2hhdEl4aHNIeEc2UHl4VnlQVkRTQk4xUml4T1FkLWhQY3M0UjFNekpzQnZOTHB6dHJ4ZDZwV1NSMFFKOUZDc2lQZlRMck1lMGFocWJhbWZoRTgyUExyVEVKY1pYZlk5Q1ZaZU1tQVE2RVJCYVJ6blVXdlBPd0JDUmQ1bWlmTXNERmhsWkE?oc=5",
-        "category": "AFL",
-        "why_it_matters": "GWS Giants snapped Fremantle's impressive win-streak — reportedly the AFL's biggest active run — in a major upset. Making it worse for the Dockers, a star player was injured during the match. No confirmed name or injury timeline in the available data, but it's a significant blow to Fremantle's top-of-ladder ambitions."
-      },
-      {
-        "title": "No excuses for De Minaur: Wimbledon draw opens up for Australia's star",
-        "source": "Sporting News",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYmRUdkNLaTJLdUFybXRWX0RwU1FLM1BrS1IzM2VSeFVWZFhyX2FESXVab2Y5dVUxNDhKMVZ0d1B6ME8xT1p0c3dVM1owMUVZRVdpNDl2VVdxZHdSNmtkUjNZMWJ6Ujl3cHUyU09UdXd6RWxlU1EweHNfSURSbU5iSFp0QzZaSWluV25aTzBCQXVOSUEtNG9NMGVaV3dfUG5yM1ZyNjRKYjlGVmlvNll5ekl1QTUzbjBLTjlBdDZWblppWkk?oc=5",
-        "category": "Tennis",
-        "why_it_matters": "Alex de Minaur has landed a favourable draw at Wimbledon 2026, with Sporting News saying there are 'no excuses' for the Aussie to go deep in the tournament. Several higher seeds have already exited, clearing a potential path for De Minaur. Meanwhile, Cruz Hewitt — Lleyton's son — is competing in the juniors draw, carrying the family name at the All England Club."
+        "why_it_matters": "Melbourne Demons hammered Hawthorn in Tasmania in what 7NEWS described as a shocking scoreline that stunned the AFL world. Separately, a brawl broke out in another Round 17 match, with players facing scrutiny for making contact with umpires — commentator Kane Cornes called the incident 'pathetic'. GWS Giants also broke a significant win streak when a Fremantle Docker was injured during the match."
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "☀️",
-    "condition": "Clear sky",
-    "temperature_c": 16.9,
-    "high_c": 20.2,
-    "low_c": 11.3,
-    "rain_chance_pct": 0,
-    "rain_mm": 0.0,
+    "icon": "☁️",
+    "condition": "Overcast",
+    "temperature_c": 16.1,
+    "high_c": 18.9,
+    "low_c": 14.1,
+    "rain_chance_pct": 3,
+    "rain_mm": 0.1,
     "tomorrow": {
       "icon": "🌦️",
       "condition": "Light drizzle",
-      "high_c": 19.3,
-      "low_c": 14.3,
-      "rain_chance_pct": 1,
-      "rain_mm": 0.2
+      "high_c": 17.9,
+      "low_c": 14.1,
+      "rain_chance_pct": 10,
+      "rain_mm": 0.8
     }
   },
   "nrl_round": "Round 18",
@@ -250,10 +249,10 @@
       "away": "Wests Tigers",
       "home_badge": "https://www.nrl.com/.theme/dragons/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/wests-tigers/badge.svg",
-      "home_score": 0,
-      "away_score": 4,
-      "completed": false,
-      "live_label": "1st Half",
+      "home_score": 24,
+      "away_score": 10,
+      "completed": true,
+      "live_label": null,
       "day": "Sat 04 Jul",
       "time": "5:30 pm",
       "venue": "St George Venues Jubilee Stadium",
@@ -264,9 +263,9 @@
       "away": "Sharks",
       "home_badge": "https://www.nrl.com/.theme/broncos/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/sharks/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 16,
+      "away_score": 28,
+      "completed": true,
       "live_label": null,
       "day": "Sat 04 Jul",
       "time": "7:35 pm",
@@ -278,9 +277,9 @@
       "away": "Sea Eagles",
       "home_badge": "https://www.nrl.com/.theme/eels/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/sea-eagles/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 23,
+      "away_score": 14,
+      "completed": true,
       "live_label": null,
       "day": "Sun 05 Jul",
       "time": "2:00 pm",
@@ -292,9 +291,9 @@
       "away": "Dolphins",
       "home_badge": "https://www.nrl.com/.theme/knights/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/dolphins/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 13,
+      "away_score": 12,
+      "completed": true,
       "live_label": null,
       "day": "Sun 05 Jul",
       "time": "4:05 pm",
@@ -432,5 +431,5 @@
     "total_pnl_pct": -1.22,
     "aud_usd_rate": 0.6943
   },
-  "generated_at_utc": "2026-07-04T07:55:21.733324+00:00"
+  "generated_at_utc": "2026-07-05T08:24:43.977096+00:00"
 }
