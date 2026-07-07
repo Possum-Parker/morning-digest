@@ -43,6 +43,9 @@ def compute(
 
     for ticker, holding in holdings.items():
         shares = float(holding.get("shares") or 0)
+        # A zeroed-out holding means the user sold it — skip it entirely.
+        if shares <= 0:
+            continue
         invested_native = float(holding.get("total_invested") or 0)
         currency = _ticker_currency(ticker)
         quote = quotes_by_ticker.get(ticker)

@@ -62,7 +62,26 @@ def gather_raw_data() -> dict:
     portfolio_cfg = _load_json(ROOT / "config" / "portfolio.json")
     topics_cfg = _load_json(ROOT / "config" / "topics.json")
 
-    holdings = portfolio_cfg["holdings"]
+    # holdings.json is the single source of truth for what the user actually owns.
+    # We only track/price/comment on tickers present there — so selling a stock
+    # (removing it from holdings.json) makes it vanish from the whole digest,
+    # including Watch Today. portfolio.json just supplies metadata + news queries.
+    owned = portfolio_pnl.load_holdings()
+    # A holding counts as "owned" only if it has a positive share count — zeroing out
+    # a position via the edit form is treated the same as selling it entirely.
+    owned_tickers = {t for t, h in owned.items() if float(h.get("shares") or 0) > 0}
+
+    all_holdings = portfolio_cfg["holdings"]
+    if owned_tickers:
+        holdings = [h for h in all_holdings if h["ticker"] in owned_tickers]
+        skipped = [h["ticker"] for h in all_holdings if h["ticker"] not in owned_tickers]
+        if skipped:
+            print(f"[digest] skipping non-owned tickers (not in holdings.json): {skipped}")
+    else:
+        # No holdings file → fall back to tracking everything in portfolio.json
+        print("[digest] holdings.json empty/missing — tracking all portfolio.json tickers")
+        holdings = all_holdings
+
     indicators = portfolio_cfg["market_indicators"]
 
     holdings_quotes = fetch_all([h["yfinance"] for h in holdings])
@@ -78,12 +97,17 @@ def gather_raw_data() -> dict:
         q["name"] = by_indicator.get(q["ticker"], {}).get("name", q["ticker"])
 
     news: dict[str, list[dict]] = {}
-    for key in ("australian_politics", "ai_world", "sport"):
-        topic = topics_cfg[key]
+    for key in ("world_news", "australian_politics", "ai_world", "sport"):
+        topic = topics_cfg.get(key)
+        if not topic:
+            continue
         news[key] = fetch_topic(topic["queries"], exclude_keywords=topic.get("exclude_keywords", []))
 
+    # Only fetch per-ticker news for tickers the user still owns
     per_ticker_news: dict[str, list[dict]] = {}
     for ticker, queries in topics_cfg["portfolio_news"]["per_ticker_queries"].items():
+        if owned_tickers and ticker not in owned_tickers:
+            continue
         per_ticker_news[ticker] = fetch_topic(queries, per_query_max=3)
 
     weather = fetch_weather()
@@ -136,6 +160,7 @@ def main() -> int:
     digest.setdefault("watch_today", [])
     if not digest.get("watch_today"):
         print("[digest] WARNING: watch_today came back empty.")
+    digest.setdefault("world", {"summary": "", "stories": []})
 
     # Merge in factual data Claude shouldn't fabricate
     digest["weather"] = raw["weather"]

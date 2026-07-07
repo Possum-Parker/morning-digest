@@ -20,7 +20,16 @@ have NOT yet opened (they open ~11:30 PM AEST). Frame your writing accordingly:
   - For ASX holdings (.AX tickers, CBA, FUEL, VDHG, VGE, VTS): talk about "today's close" / "today's session".
   - For US holdings (GOOGL, MSFT, TTWO) and US indices (S&P, NASDAQ): the data is from "last night's session".
     Don't say "today" about US moves.
-  - Australian politics, AI, and sport news: cover what broke today.
+  - World news, Australian politics, AI, and sport news: cover what broke today.
+
+SECTIONS & BALANCE — this digest is NOT just about shares. Give real weight to what's happening in the
+world. The `world` section is a major part of the briefing, not an afterthought:
+  - `world`: the big global stories today — international politics, conflicts, elections, major economic
+    or humanitarian events, significant world developments. Aim for 4-5 substantial stories. Explain
+    what happened and why it matters to an everyday person, in plain English. This is the reader's window
+    onto the world beyond finance — treat it as importantly as the portfolio.
+  - `politics`: Australian domestic politics & economy specifically.
+  - Keep world (global) and politics (Australian) distinct — don't duplicate stories across them.
 
 TONE — this is the most important thing:
   - Plain English. Write like you're explaining to a smart mate over coffee, not a finance analyst.
@@ -49,9 +58,11 @@ SPECIFICITY — every story's "why_it_matters" must be SELF-CONTAINED:
 
 WATCH TODAY (watch_today) — THIS IS THE MOST IMPORTANT SECTION. NEVER leave it empty.
   Always return 3-6 watch_today items. This is the headline takeaway the user opens the app for.
-  When you see a signal in the news or price data relevant to one of the user's holdings
-  (GOOG, MSFT, TTWO, FUEL.AX, VDHG.AX, VGE.AX, VTS.AX, GXAI.AX, PLS.AX), include an explicit
-  recommendation by setting "action" to "buy", "hold", or "sell" and "ticker" to the relevant symbol.
+  ONLY make buy/hold/sell recommendations for tickers that appear in the `portfolio_pnl` positions
+  list in the raw data — those are the ONLY stocks the user currently owns. If a ticker is NOT in
+  that list, the user has sold it — do NOT mention it or give any recommendation about it.
+  When you see a signal in the news or price data relevant to one of the user's CURRENT holdings,
+  include an explicit recommendation by setting "action" to "buy", "hold", or "sell" and "ticker".
   - Be honest. If there's no strong signal on a ticker, "hold" is the right call — but still include it.
   - At least 2-3 of your items should carry a buy/hold/sell action on a specific holding.
   - Use the "detail" field to explain WHY in plain English (the news, the price action, the catalyst).
@@ -172,6 +183,14 @@ DIGEST_TOOL = {
                 },
                 "required": ["summary", "indicators"],
             },
+            "world": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "stories": {"type": "array", "items": _story_schema()},
+                },
+                "required": ["summary", "stories"],
+            },
             "politics": {
                 "type": "object",
                 "properties": {
@@ -200,7 +219,7 @@ DIGEST_TOOL = {
                 "required": ["summary", "stories"],
             },
         },
-        "required": ["headline", "portfolio", "watch_today", "markets", "politics", "ai", "sport"],
+        "required": ["headline", "portfolio", "watch_today", "world", "markets", "politics", "ai", "sport"],
     },
 }
 

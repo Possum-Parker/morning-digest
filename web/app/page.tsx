@@ -87,6 +87,14 @@ export default function Page() {
             totals={digest.portfolio_totals}
           />
           <MarketsSection summary={digest.markets.summary} indicators={digest.markets.indicators} />
+          {digest.world && (
+            <StoriesSection
+              icon="🌍"
+              title="World News"
+              summary={digest.world.summary}
+              stories={digest.world.stories}
+            />
+          )}
           <StoriesSection
             icon="🇦🇺"
             title="Australian Politics"

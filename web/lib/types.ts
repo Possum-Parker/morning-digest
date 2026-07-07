@@ -99,6 +99,7 @@ export interface Digest {
   portfolio: { summary?: string; movers: PortfolioMover[] };
   portfolio_totals?: PortfolioTotals;
   markets: { summary: string; indicators: MarketIndicator[] };
+  world?: { summary: string; stories: NewsStory[] };
   politics: { summary: string; stories: NewsStory[] };
   ai: { summary: string; stories: NewsStory[] };
   sport: { summary: string; stories: NewsStory[] };

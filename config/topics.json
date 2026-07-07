@@ -1,4 +1,16 @@
 {
+  "world_news": {
+    "label": "World News",
+    "queries": [
+      "world news major breaking",
+      "international politics global",
+      "US politics election Trump administration",
+      "China Europe geopolitics",
+      "Middle East conflict latest",
+      "global economy markets outlook"
+    ],
+    "exclude_keywords": ["horoscope", "recipe", "celebrity gossip"]
+  },
   "australian_politics": {
     "label": "Australian Politics",
     "queries": [
