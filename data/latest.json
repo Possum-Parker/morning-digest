@@ -1,238 +1,243 @@
 {
-  "headline": "ASX closes up 0.5% to 8,806 as your portfolio gets a green day across the board — but a major bank warns an RBA rate hike could be coming.",
+  "headline": "ASX closed solidly higher with your ETFs and GXAI leading the charge, while Middle East tensions and a looming Wimbledon men's final dominate the global news cycle.",
   "portfolio": {
     "movers": [
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": 1.26,
-        "note": "Best mover today on the ASX. AI sentiment remains strong globally and the ETF tracked that optimism upward. The long-term AI investment story continues to build — today's bounce is a small step back toward recovering that $32 unrealised loss."
+        "note": "Best mover in today's session, up 1.26%. AI-themed stocks continue to attract investor enthusiasm globally, and this ETF is riding that wave. Still down about 11% overall from your entry — the long-term AI story remains very much intact."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": 0.61,
-        "note": "Solid day for emerging markets. A slightly stronger Aussie dollar (now just under 70 US cents) and positive global risk sentiment helped lift this ETF. Essentially flat overall on your position — tiny 6 cent total loss — so sitting in good shape."
+        "note": "Solid gain of 0.61% today, likely helped by a slightly firmer AUD and ongoing interest in emerging market exposure. Essentially flat on your overall investment — watch how the EU's push to diversify supply chains away from China plays out over time, as it could affect emerging market sentiment."
       },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": 0.43,
-        "note": "A small positive day for PLS, nudging up 2 cents. Lithium market analysts are flagging renewed focus on Pilbara as battery demand picks up, though the supply picture remains complicated through H2 2026. Still down 31% overall on your position, but the daily direction is right."
+        "note": "Small gain of 0.43% today. Lithium demand remains the key driver — the sector is stabilising after a rough period but recovery is gradual. Fellow lithium producer Albemarle is also seeing steadier conditions. Still down 31% overall from your purchase price, so patience is the game here."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": 0.36,
-        "note": "Quiet, steady day. This broadly diversified ETF tracks global markets and picked up a small gain as both the ASX and US markets are trending positively. Up almost 1% overall on your position — doing its job as the portfolio's steady core."
+        "note": "Up a tidy 0.36% today, tracking the broadly positive ASX session. This broad diversified fund just does its job quietly — slight gain overall on your position. Nothing to worry about here."
       },
       {
         "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market Shares ETF",
+        "name": "Vanguard US Total Market ETF",
         "change_pct": 0.27,
-        "note": "Small gain today as the ASX-listed version of the US total market ETF tracked positive sentiment from last night's US session. Up 3.5% overall on your position — one of the better performers in the portfolio."
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": 0.19,
-        "note": "Edged up slightly last night. Analysts at HSBC flagged Microsoft as one of their top earnings picks, and separate commentary noted the stock looks attractively valued relative to its cash flow and AI growth story. Earnings are due next month — one to watch."
+        "note": "Edged up 0.27% today on the ASX, reflecting last night's positive US session where the S&P 500 rose 0.42%. Up 3.5% overall — chugging along nicely."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc. (Google)",
         "change_pct": -0.34,
-        "note": "Barely moved last night — down just $1.21. No specific Google news today; the dip is essentially market noise. Up 15.5% overall on your position, the best performer in the portfolio. Nothing's changed with the long-term case."
+        "note": "Slipped 0.34% in last night's US session — very minor and likely just normal daily fluctuation. No specific negative news for Google today. Up 15.5% overall from your entry, so the long-term story remains strong."
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": 0.19,
+        "note": "Nudged up 0.19% last night. Analyst commentary this week highlights Microsoft's massive $190 billion AI infrastructure spend in 2026 as a long-term growth driver. Still down about 13% overall from your cost base, but the AI spending story suggests patience is warranted."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": -1.18,
-        "note": "Slipped 1.2% last night. The GTA 6 news cycle continues — fans and analysts are watching for a gameplay trailer or pre-order announcement, with Take-Two's earnings call on August 7 expected to include first GTA 6 pre-order data. The stock is still up 6% overall on your position — that August catalyst could be significant."
+        "note": "Biggest mover in your portfolio last night, falling 1.18%. No specific news catalyst — likely some general market rotation away from gaming stocks. Still up 6% overall from your entry. The long-term thesis around major game releases remains unchanged."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "TTWO: August 7 earnings call is a real catalyst — hold and watch",
-      "detail": "Take-Two's August 7 earnings call is confirmed to include the first GTA 6 pre-order data. That's a genuine market-moving event for a long-term holder. The stock dipped 1.2% last night — likely just noise ahead of the big reveal. Sit tight. If you're thinking of topping up, waiting to see the pre-order numbers first makes sense.",
-      "urgency": "orange",
-      "ticker": "TTWO",
-      "action": "hold"
-    },
-    {
-      "title": "MSFT: Earnings coming next month — analysts bullish, stock fairly valued",
-      "detail": "Multiple analysts including HSBC have flagged Microsoft as a top earnings pick. Commentary this week noted the stock looks cheap relative to earnings and its AI-driven cash flow growth. Still down 13% on your position overall, but the long-term thesis — cloud + AI dominance — remains fully intact. Hold and let the earnings catalyst do the work.",
-      "urgency": "orange",
-      "ticker": "MSFT",
-      "action": "hold"
-    },
-    {
-      "title": "PLS.AX: Small green day but still deep in the red — hold and be patient",
-      "detail": "Pilbara Minerals ticked up 0.43% today and analysts are starting to write positively about it again as lithium demand gradually recovers. You're still down 31% on your position, which stings. But the long-term thesis — lithium is essential for the EV and battery transition — hasn't broken. Don't sell into weakness. Hold.",
-      "urgency": "orange",
-      "ticker": "PLS.AX",
-      "action": "hold"
-    },
-    {
-      "title": "RBA rate hike warning — watch impact on housing and bank stocks",
-      "detail": "At least one major Australian bank is now forecasting another RBA interest rate hike is imminent. If that happens, it would put further pressure on household budgets, house prices, and potentially Australian bank stocks. None of your direct holdings are Aussie bank stocks, but if you hold any property or are considering buying, this is worth watching closely this week.",
-      "urgency": "orange"
-    },
-    {
-      "title": "GXAI.AX: Best mover today — AI tailwind intact, hold for the long run",
-      "detail": "Your AI ETF bounced 1.26% today, the strongest mover in the portfolio. Still down 10.9% overall on your cost base, but global AI momentum remains a strong structural tailwind. No news suggesting the thesis has changed — this is a long-term position and today's move is encouraging.",
+      "title": "GXAI.AX — Best day in a while, up 1.26%",
+      "detail": "Your AI ETF had a strong session today, clawing back some of its 11% overall loss. The AI theme continues to attract capital globally. For a long-term holder, this is encouraging — sit tight and let the trend do the work.",
       "urgency": "green",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "Middle East tension — oil and gold to watch",
-      "detail": "US-Iran conflict is escalating with fresh missile strikes threatening a ceasefire and the Strait of Hormuz. The IEA has warned this could disrupt oil supply recovery. Oil dipped last night to $71.41 but could spike if the situation worsens. Gold also pulled back slightly. No direct impact on your holdings today, but worth watching if things escalate.",
+      "title": "PLS.AX — Small bounce but still deeply underwater",
+      "detail": "Pilbara gained 0.43% today which is a positive sign, but you're still down 31% overall. Lithium market conditions are slowly stabilising — Albemarle (a key global peer) is also finding its footing. There's no structural breakdown of the lithium demand story, but this requires real patience. No reason to sell at these levels.",
+      "urgency": "orange",
+      "ticker": "PLS.AX",
+      "action": "hold"
+    },
+    {
+      "title": "MSFT — Down overall but AI story getting stronger",
+      "detail": "Microsoft is your biggest dollar loser (-$52.70 AUD overall) but last night ticked up slightly. Analysts are pointing to $190 billion in AI infrastructure spending in 2026 as a major long-term catalyst. If anything, current prices could be a top-up opportunity for a long-term holder — but no urgency to act.",
+      "urgency": "orange",
+      "ticker": "MSFT",
+      "action": "hold"
+    },
+    {
+      "title": "TTWO — Biggest single-day drop last night (-1.18%)",
+      "detail": "Take-Two fell 1.18% last night with no specific news. Still up 6% from your entry overall. Gaming stocks can be volatile week-to-week — nothing about the long-term thesis has changed. Sit tight.",
+      "urgency": "green",
+      "ticker": "TTWO",
+      "action": "hold"
+    },
+    {
+      "title": "Middle East tensions — watch for oil and market volatility",
+      "detail": "Iran has struck US positions in the Middle East, escalating the conflict. Oil dipped slightly last night to $71.41/barrel, but further escalation could spike energy prices and rattle global markets. Keep an eye on this — it could affect your ETFs if it worsens sharply.",
       "urgency": "orange"
+    },
+    {
+      "title": "IMF cuts 2026 global growth forecast",
+      "detail": "The IMF has trimmed its 2026 global economic growth projections, citing ongoing war and inflation pressures. This is a headwind for emerging market exposure (your VGE.AX) but not a crisis. Long-term diversified holders have seen these cycles before.",
+      "urgency": "green"
     }
   ],
   "world": {
-    "summary": "Trump moves to reshape US election oversight, the US-Iran conflict escalates with missile strikes near the Strait of Hormuz, and Israel now controls nearly 70% of Gaza nine months into a ceasefire.",
+    "summary": "A busy weekend globally: Iran has escalated military action against US positions in the Middle East, the IMF has cut its global growth outlook, the EU is wrestling with how to reduce reliance on China, and the Trump administration continues to reshape US electoral and institutional frameworks.",
     "stories": [
       {
-        "title": "Trump fires members of independent US election commission — accused of trying to 'rig' elections",
-        "source": "The Guardian / PBS / NYT",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNk1qOUROeF9JWFEwbzBuemFfNVNFNTcyd2RsMm5OU2JIX1VQbFNseWxMRXFHNUZ1M1hwM0U2czRxcV9YcnF5ejdTVVNiTTZneVRLQlBReEYyVXRGX3lOSTBFWUp3YTYyN185LTR4Z3FTMHhqTDA0T0VMZ2s3SEJaYlhjckZqTEIzUEdPbnNjM3F5Zzd0UVFIRjFqT0M5WXYwUGhqUQ?oc=5",
-        "why_it_matters": "The Trump administration fired members of the Election Assistance Commission — the independent federal body that helps states run elections and certify voting systems. Critics, including Democrats and some Republicans, have accused Trump of trying to 'rig' future elections by gutting oversight. On top of that, the administration announced it will tie states' anti-terrorism funding to compliance with federal election security directives, giving Washington more leverage over how individual states run their votes. It's a major shift in how US democracy is supervised — and it's stoking a fierce constitutional fight."
+        "title": "Iran strikes US positions in the Middle East, conflict escalates",
+        "source": "Crypto Briefing / Jerusalem Post",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMTdsU3hIMU5kVl9fY1hSZnZNN25rc2FudW1DbGZuLWYzQmJYai00cVVXdWd3TzVOWFp3TkwzSTRLeXZLSi1fZUk3bW00cV9CZFVnSTBnaDdoYjBCbnZ4Q3M5aUNkeW55SEY1Ny0xdEtrV3BaOE5lMzlkZUZfelh3cXFiQW9feEtlSXg0UE9nSHFpZw?oc=5",
+        "why_it_matters": "Iran has directly struck US military positions in the Middle East, representing a significant escalation of the ongoing conflict. Pakistan and Saudi Arabia's top diplomats have both issued warnings against further conflict, highlighting how seriously regional powers are taking the situation. For everyday Australians, this matters because sustained Middle East conflict can push oil prices higher, lifting petrol costs and adding to inflation. Markets are watching closely — oil was already slightly softer last night at $71.41/barrel, but a major escalation could reverse that quickly."
       },
       {
-        "title": "US-Iran war escalates: missile strikes threaten Middle East ceasefire and global oil supply",
-        "source": "France 24 / Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZlg0U01kZGs2UlVJSVpiSVNlWDZMTlJ5cWQwUjJWR2tZbnNqNVFrODNhU3BoOVhRVmU1RUg5VkpiaHpQMjd0d2xIdTFlRDNqNDlLOUgxZ0toNXZENE5kZnNPWXpqbVNHUkI5ZHBsS0Vsdm1aUmVGcXNpa0ZITmpwQmpIQVIzNWVtZHNxb1VlRXBSczgxZUFTcERCVEhmMnFiMGpERkQtVXNSYzJQeE5TWWtiU2U2b3pDVGc2VkNTQQ?oc=5",
-        "why_it_matters": "Fresh missile strikes between the US and Iran are threatening to unravel a fragile ceasefire in the Middle East. The International Energy Agency (IEA) has specifically warned that the escalation threatens the recovery of global oil supply — the Strait of Hormuz, which sits between Iran and Oman, is one of the world's most critical shipping chokepoints, with roughly 20% of global oil passing through it. If it were blocked or disrupted, petrol prices worldwide — including in Australia — could spike sharply. Markets are watching this closely."
+        "title": "IMF cuts 2026 global economic growth forecast",
+        "source": "VOI.id / Moneycontrol",
+        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5uYjJhVjYyWVFXTUF6dklFZUZRUDgwQW9GajJNU2hLMlMzZUNUelpfNGd1eDdmMEJwV3EyMlNIMlBkVTJGYTlz0gFCQVVfeXFMTXF6d1pRMk5jOGJVOERiUDZqT29NdlJYaU1Hcmp3LU9sXzYySzAzRVNiYmFsYS1GRm5ENFYxMFFLYzln?oc=5",
+        "why_it_matters": "The International Monetary Fund has revised down its projection for global economic growth in 2026, citing the Iran war and persistent inflation as key risks. This is the IMF's way of saying the world economy isn't growing as fast as hoped — which tends to dampen company earnings and investor confidence globally. For a diversified investor, this is a reminder that headwinds exist, but it's not a crisis signal on its own."
       },
       {
-        "title": "Israel now controls nearly 70% of Gaza — nine months into a ceasefire",
-        "source": "NPR",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUFzT3NtTDRLalFoNHl5d3lKaUhqTVQ4QTJjVlpsUWpZYTBGSGtZWXVKZERzZnJxbVlQa2NFZGw5LTJmak5rUTJKdUNzYTRHNG9oZzVjcC1LV3I4MzFtSnZpU0hiMzJQQlE3NEdQelN3b0xnTHJJWTdDSVJIai1TS3ljWE4tQWRSNElYUTQzUnZaX1gwekY0Uw?oc=5",
-        "why_it_matters": "Despite a ceasefire being in place for nine months, NPR reports that Israel has steadily expanded its military control and now occupies close to 70% of Gaza's territory. This raises serious questions about what a post-war Gaza actually looks like — and whether the ceasefire is a genuine pause or a slow annexation. The humanitarian situation for Palestinians in the remaining areas is reported to be dire. It's a development that's drawing increasing international condemnation and complicating US diplomatic relationships in the region."
+        "title": "Trump administration targets individuals and election systems in sweeping moves",
+        "source": "ABC News / Reuters",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+        "why_it_matters": "The Trump administration has published a list of prominent individuals it is targeting — including former FBI Director James Comey — while also tying states' anti-terrorism grants to election security compliance and reportedly seeking ways to sidestep the federal election agency before firing its staff. Separately, major changes to US voting rules are underway, including redrawn electoral maps, proof-of-citizenship requirements, and expanded ICE (immigration enforcement) involvement. These moves represent a significant reshaping of how US democracy functions, with implications for political stability — something global markets watch carefully."
       },
       {
-        "title": "Wimbledon 2026: Sinner vs Zverev set for men's final — Cruz Hewitt reaches junior final",
-        "source": "Olympics.com / BBC",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFNTRmM4Tlh2aWlyRGpyQjhhM2pCRFpuMTZEckdwTFVoWXBaanVRWTJMU2g1S004V2REOXRyQTY5c1NFRVo4aVhSd0I0NlcyS2FiclE5YkdkMkZ0eWhoeWRFZzdGSWhxaVZtMENDbkwtN1V1MDQtZi1VVzlUbmMzZmE1VU9iVEJkYkdSSlNVZ0pydmV0ZFR1akZNV3FqSzdzS1N2THF6WTVleUVJVTlKMQ?oc=5",
-        "why_it_matters": "World number one Jannik Sinner and Alexander Zverev have set up a blockbuster Wimbledon men's final — their 15th career meeting. Meanwhile, Cruz Hewitt — son of Australian legend Lleyton — has reached the Wimbledon junior final, 24 years after his dad won the men's title there. It's a feel-good Australian angle on a big week of tennis, though reports of ugly behind-the-scenes tensions between Lleyton and Cruz have also surfaced, adding an awkward family drama subplot to an otherwise great story."
+        "title": "EU warns diversifying away from China will require major funding",
+        "source": "The Edge Singapore",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxON05BaS0ybk4zd0U1cHZ2RTBJcDJiOTVHeDN4WDVqR0lNZV9xY3NJdkNxd1l3OHdrZU1FLWgzdkhoYi1oeGpRYzFUSjhiNUZZdi1pTk40Z3A2U1M5TFFCbzFERXo4eC1aVTFmSU5mZnZ6TVo2aml5TC1RUEIyWTNQU29qS1pUMDUxeGZ2d0NRdTJTMWh1bDFOSm9ramlLdDFTUFA0Q9IBqgFBVV95cUxQb3k0RHp0emRGZzMzZlBKUEoxSjdzWWVtR29hQmdqUXpvZjJFTHV3VW9JOEdHenh3YzZ4dlhlT0ZON3hKZEF1d1VOTmJSd184V3piZ25yUnI0bWdIdWM2WFJXOUM1ODZBUWdVVk1NTzhhbkhMc0txWjJGOGNDOW1NcWZaUmJxQU9CNVd4dTgxOGtta0xCYzc5M0l1WFpiWEotS1V4cEVTa1ZzZw?oc=5",
+        "why_it_matters": "European Union officials are warning that the push to reduce economic dependence on China — especially for critical goods like semiconductors, batteries, and rare earths — will require significant financial investment and can't happen cheaply. This matters for Australia because China is our biggest trading partner, and any slowdown in Chinese exports or Western decoupling from China affects Australian commodity demand. It also has implications for your VGE.AX emerging markets ETF, which has exposure to Chinese companies."
+      },
+      {
+        "title": "Beijing considering restricting foreign access to China's top AI models",
+        "source": "Bangkok Post",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkhCZkYxSnR4WFRoUHo4c1pTMWMwWEZ2QTVIbERMRFphOWpWWVl4bkFvV2VkOXRJc19PcU1zN2k5MWxWTzZET2R6aVNYNkNuWHU2SzJPVmo3MDhvTUI0cGZjWmZOVHgzQ3NRc1JKb05NM3Vad3IzeUpEelZrVE5KUWdjM2loNGMySWpoR21YbzY2amhFM3lGMEFBUjhBTmxsNEpHeE12T3pzX1V4NkRrbA?oc=5",
+        "why_it_matters": "China's government is reportedly looking at limiting foreign access to its most advanced AI models, in what would be a significant move in the global AI technology war. This mirrors the US restricting chip exports to China. If Beijing follows through, it could fragment the global AI landscape into separate Chinese and Western ecosystems — affecting companies like Google and Microsoft who operate globally. Worth watching as the AI rivalry intensifies."
       }
     ]
   },
   "markets": {
-    "summary": "The ASX closed up 0.5% at 8,806 today — a solid session. Last night in the US, the S&P 500 and NASDAQ both edged higher. Oil dipped, gold pulled back slightly, and the Aussie dollar crept up to nearly 70 US cents.",
+    "summary": "The ASX closed solidly higher today, up 0.5% to 8,806. Last night, US markets also posted gains — the S&P 500 added 0.42% and the NASDAQ rose 0.29%. Oil slipped slightly on Middle East uncertainty (counterintuitively — traders may be pricing in demand concerns), and gold eased a touch. The Aussie dollar nudged up to almost 69.6 US cents.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,806",
         "change_pct": 0.5,
-        "note": "Solid session today — markets broadly positive on continued global risk appetite."
+        "note": "Solid close today, up 43.5 points. Broad-based gains across the market."
       },
       {
         "name": "S&P 500",
         "value": "7,575",
         "change_pct": 0.42,
-        "note": "Last night's US session was quietly positive — the index gained about 32 points."
+        "note": "Last night's US session was positive — up 31.75 points on generally steady economic sentiment."
       },
       {
-        "name": "NASDAQ Composite",
+        "name": "NASDAQ",
         "value": "26,282",
         "change_pct": 0.29,
-        "note": "Tech held up well last night despite a mixed bag across individual names."
-      },
-      {
-        "name": "Crude Oil (WTI)",
-        "value": "US$71.41",
-        "change_pct": -0.93,
-        "note": "Oil dipped despite escalating US-Iran tensions — market may not yet be pricing in a Strait of Hormuz risk."
-      },
-      {
-        "name": "Gold",
-        "value": "US$4,104",
-        "change_pct": -0.64,
-        "note": "Gold pulled back slightly last night after recent strength. Still at historically elevated levels."
+        "note": "Tech held up reasonably well last night despite mixed moves in individual names."
       },
       {
         "name": "AUD/USD",
         "value": "0.6955",
         "change_pct": 0.15,
-        "note": "The Aussie dollar ticked up slightly — nearly touching 70 US cents. Positive for unhedged international purchasing power."
+        "note": "The Aussie dollar ticked up slightly — currently buying about 69.6 US cents."
+      },
+      {
+        "name": "Crude Oil (WTI)",
+        "value": "$71.41",
+        "change_pct": -0.93,
+        "note": "Oil dipped despite Middle East tensions — markets may be weighing demand concerns from the IMF's downgraded global growth outlook."
+      },
+      {
+        "name": "Gold",
+        "value": "$4,114",
+        "change_pct": -0.41,
+        "note": "Gold eased slightly from its elevated levels — still historically very high, reflecting ongoing geopolitical uncertainty."
       }
     ]
   },
   "politics": {
-    "summary": "Major Australian banks are warning another RBA interest rate hike could be imminent — a potential headache for mortgage holders and property investors heading into the second half of 2026.",
-    "stories": [
-      {
-        "title": "Major bank warns RBA rate hike is coming — and house prices could tank",
-        "source": "Sky News Australia / News.com.au / AFR",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbjhpVmFXNFlXWmd3bEtkT3BtLVlsU2NZYnY0VEhNSGJ4OEdOTTVkQlp4MGxkVjFiUzNJZkViVGxQN2tLS1BZZUtaUE1fV2t1Vmw3MlBRRkt5WWhmcmw2b3JkZV9RLUNNRlZTWHBnUlVlVnRiZUFfbTZWSDlYNnl0RlgzRXZhRlpVcENvVnY2bDJxYnRuV3VBWU02VzRQd0stR1ViVzBzeFBVU3ZSOXlXc1NVYVVjLW5qY2lZbWJabXhwaFJlUHloSHZzMmtYaWlWX253OWdVWGFDLWtJbS1sSHc1MHdSckNTMEh1djV4dFJndUFaNFRtVWNjVdIBgAJBVV95cUxOQmZyYWU5UEsycUp6VU5lSkh6R1l6QkhVXzdXY21tMXBzdG1QQXZFeFFvcktCNExBVEVyTzFZVkdHQkZMN3pxRFppSmkyQmxGRHZVWVJ5YjdRLV8wQ08yYWM5NXJLa0poaDNiQy12T2h6VnQ2NVdzVU5sdmdxNVJ3Nk5mbW9faTc5bDdEZHRtOHhQUzI2SVQ2NmtpNGVGSFRzNXdNR0lvbmZzdC00LWdKRWhwQmR4X2pqSDNDMXlGQkRhMXplSFpkaFhrcTBkcjB0SEhza1dPcGtZVVQtN0llemliZGFVV3dXeGVabGhqcWxmNVo1cVVQblA4RjdjU1BG?oc=5",
-        "why_it_matters": "At least one of Australia's big four banks is now publicly forecasting that the Reserve Bank of Australia (RBA) will raise interest rates again in the near future. If that happens, it would be another blow for the 1-in-3 Australian households with a mortgage — monthly repayments would rise again after a period of holding steady. The AFR is also reporting that higher rates could put downward pressure on house prices and bank stocks. For everyday Australians, the message is clear: if you've got a variable-rate mortgage, your repayments could soon go up again. For property investors, the outlook is increasingly uncomfortable."
-      }
-    ]
+    "summary": "No Australian domestic political stories were available in today's data feed. It appears a quiet Sunday on the Canberra front.",
+    "stories": []
   },
   "ai": {
-    "summary": "This week's AI news is dominated by regulatory questions — from constitutional debates about AI laws in the US to New York using AI to cut government red tape. There's also a practical consumer deal worth knowing about.",
+    "summary": "The big AI story today is China potentially walling off its top AI models from foreign access — a major escalation in the global tech divide. Meanwhile, a platform offering lifetime access to GPT, Claude, and Gemini for a one-off $60 is doing the rounds, and the debate over how to regulate AI in schools and privacy law is heating up in Canada.",
     "stories": [
       {
-        "title": "New York is using AI to slash government red tape — a real-world test of AI in bureaucracy",
-        "source": "PYMNTS.com",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeldzbmNlalE0TzlYVnNqZERXdFFya1FnNHA1SkJlamlGOEdNRWpjUndzbDdiQjQtTENOLU5qUmw2bjhWMHd2cG1Gd0JGMGptS19QQnFJc01uQWtVOTY3M1hjS251RFMwMEk1Ymk0OWViNWlXOXdTMXU2MndfdnlQRmtZYTVpdURBTWp0XzBwTFZ0d2FGU19SMEd4MXBQcVo1R2JWUE95UGZ3ZFZyYm5CVnFmbXVQbzJwalktV19RSGE?oc=5",
-        "why_it_matters": "New York State has launched an AI-assisted regulatory overhaul — essentially using AI tools to scan thousands of pages of outdated government rules and flag which ones can be simplified or removed. The goal is to cut bureaucratic red tape that slows down businesses and individuals. It's one of the first large-scale uses of AI to actually streamline government, rather than just talk about it. If it works, expect other states and countries (potentially including Australian governments) to follow suit."
+        "title": "China may restrict foreign access to its top AI models",
+        "source": "Bangkok Post",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkhCZkYxSnR4WFRoUHo4c1pTMWMwWEZ2QTVIbERMRFphOWpWWVl4bkFvV2VkOXRJc19PcU1zN2k5MWxWTzZET2R6aVNYNkNuWHU2SzJPVmo3MDhvTUI0cGZjWmZOVHgzQ3NRc1JKb05NM3Vad3IzeUpEelZrVE5KUWdjM2loNGMySWpoR21YbzY2amhFM3lGMEFBUjhBTmxsNEpHeE12T3pzX1V4NkRrbA?oc=5",
+        "why_it_matters": "Beijing is reportedly considering curbing foreign companies and researchers from accessing China's leading AI models — essentially building a wall around Chinese AI development. This would be the mirror image of the US restricting semiconductor exports to China. If it happens, the world's AI ecosystem splits in two: a Chinese lane and a Western lane. For investors in companies like Google (GOOGL) and Microsoft (MSFT), this could actually be a positive — less Chinese competition in Western markets — but it signals a more fragmented, geopolitically risky tech world."
       },
       {
-        "title": "One platform to rule them all: use GPT, Gemini, Claude and more simultaneously for a one-off $60",
-        "source": "9to5Toys / Mashable",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tR0VGOHl6eGtvTVVaTDNNOGFlNmtMS1B6X3JkSW5xUXFoZjk1bUNURFRwd3BFNGl6S0VoTTZyLXhZLWZVOGwtOWNyNENmTXVoLTFVTW51bDJXVkRCMkVwQ0ZzNDdyNkFqYVVqZTBBaEFCQ2tkN1I1ckpZRQ?oc=5",
-        "why_it_matters": "A new AI platform is getting attention this week — it lets you run ChatGPT (OpenAI), Gemini (Google), Claude (Anthropic) and other AI models side-by-side in one interface, so you can compare their answers or use the best tool for each job. It's being sold as a one-time $60 lifetime deal rather than multiple monthly subscriptions. Practically speaking, it's useful if you regularly use AI for writing, research, or work tasks and want access to the best models without paying separately for each."
+        "title": "Lifetime access to GPT, Claude, and Gemini for $60",
+        "source": "Mashable / 9to5Toys",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOFJSM0FJZGRabkEwY0FRLTRHeHFsLVBnV082Uk1YZjBmaFNnenJycl82TnFYbDgxbEZIZzktZGdiRmVxT2FweTVCTlJjTzRwbkxiRGVMWGtFVHlwdF9nUnYxUHk3VmF3MGUwaUs0eTRxOFA4elNpSDJzYngwV2k1bU9uMGg3TU8xTWxoSEotUXdLVFE?oc=5",
+        "why_it_matters": "A platform called Sider (and similar services) is getting attention for offering a single $60 one-time payment for lifetime access to ChatGPT (GPT-4/4o), Claude, Gemini, and other top AI models all in one place. Normally you'd pay $20-30 per month per service. The practical upshot: if you want to try all the major AI assistants without committing to multiple subscriptions, this kind of aggregator platform is worth a look. Caveat: always check the fine print on 'lifetime' deals — they depend on the platform staying in business."
       },
       {
-        "title": "Is private AI regulation constitutional? A growing legal debate in the US",
-        "source": "WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRDRaT2MxckhuMmNWVzJXZG1tcV9VbDFQdGZUTGNmb1Q0WmpQaEtxUklPZmwzbTRlNDY5QVNaS3E5N1ZVSXdiYmVPeXFScEM1aFRMcFNCVGxDUmU5VUM1MkJrOGJ3aXl0d0tzMUJLMnJjM0ZBR1ZYWkNOLVZBaGdPaW53?oc=5",
-        "why_it_matters": "The Wall Street Journal ran an opinion piece this week asking whether laws regulating private AI companies might actually be unconstitutional in the US. This matters because it's a sign that the legal framework around AI regulation is still very much being argued from scratch — there's no settled playbook. For investors in AI stocks or ETFs (like your GXAI.AX), regulatory uncertainty cuts both ways: it could slow AI companies down, or it could mean they operate with less government interference for longer."
+        "title": "Canada rewrites AI privacy rules with Bill C-36",
+        "source": "Digital Journal",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNTNpbUJYYlU4bndjZE4wTUxYREVBZEZIUGdOZlRMWHlHQ2JVYmJ3RGc4M1lZQk02NkZnYTlmaW1Vc2xuNWhnS3JHSGY3NXhBa0VMSVdqMFNDOFBUdkZCR1dTTExmbUFqUWthem9jX2paOTkxbVlWdGRnYUJwWHZBM2I2WmYyWkNjeWo4RHJDQmtMSDhQdDRVVm5rdVFiSTd5YmVYNXRPOWVnMWZEb3l3MVdYaWVDd1BfemwwNDdwbG1FbXdzOEE?oc=5",
+        "why_it_matters": "Canada is pushing through Bill C-36, a new law that overhauls how AI companies must handle personal privacy data. It's one of the more comprehensive AI-specific privacy laws in the Western world, going beyond existing frameworks. Australia is watching similar debates — our own Privacy Act reforms have been slow-moving. The trend globally is toward stricter AI regulation, which could add compliance costs for big tech firms but also give consumers more protection over how their data is used in AI systems."
+      },
+      {
+        "title": "AI child safety requirements debated for schools",
+        "source": "Davis Vanguard",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBua3dkNlk2YTJ1T0VKRHRZRURYRDUyMFRUVHZsT2xvZW5TUEs0a0d6eHpGOTdMam00ZmhsdF8wdWZXN0Y5SEJnYS1ZMDg0UGUwS1p2OTdLV2R0NDBkc182elFZekx5WkdnYlFnWlR3?oc=5",
+        "why_it_matters": "Policymakers in the US are debating mandatory child safety standards for AI tools used in schools — things like preventing AI systems from collecting children's data, generating inappropriate content, or being used to monitor students without consent. As AI tools like ChatGPT become more common in Australian classrooms too, this debate is heading our way. Parents and teachers should expect similar rules to be proposed here within the next year or two."
       }
     ]
   },
   "sport": {
-    "summary": "Big NRL Round 19 action underway — the Sharks obliterated the Dolphins 66-0 in a historic win, while the Warriors cruised past the Tigers. Wimbledon is heating up with Cruz Hewitt making the junior final and a Sinner vs Zverev men's final set for Sunday.",
+    "summary": "Big NRL Round 19 weekend with the Sharks putting 66 on the Dolphins in one of the biggest thrashings of the season. Wimbledon's men's final is set for tonight — Jannik Sinner vs Alexander Zverev — after Djokovic's campaign ended in defeat. Plenty of AFL injury and team news too.",
     "stories": [
       {
-        "title": "Sharks smash Dolphins 66-0 — Nicho Hynes makes history at Kayo Stadium",
-        "source": "NT News",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxORU04eEZQeEtQMGNORHJnVl9RR19fTmtIaS1xMEdmbTdtLTdLbG9CUnZ6ZEpWWkg0QWw0VjY4QzZhcVBHNDN2TDNXX1lxbml2a25IV1BpZlluRnJ2VmU5UEtvdXRMMmVvTDFBMXYxX0dDeTREakVmaHNDSUgybUV0ZHpJVURkZzJQOGluX1ppQjNKRDl0LV92b3ZuUUN1TlBEUkkyd0Y4YWU5UzBHSjZ6NllWYUp5MlgxeDRZMFlOQmptLWpQSEVWejIxOVZZcHAxcDhER1k5MUpYUHBoMXhTbG4wZEFSb1dFa2dr?oc=5",
-        "category": "NRL",
-        "why_it_matters": "The Cronulla Sharks absolutely demolished the Dolphins 66-0 at Kayo Stadium on Saturday afternoon — one of the biggest thrashings of the NRL season. Halfback Nicho Hynes reportedly made history with his performance. It's a catastrophic result for the Dolphins, who conceded 66 unanswered points at their home ground. The Sharks look genuine finals contenders."
+        "title": "Sharks demolish Dolphins 66-0 in one of the biggest NRL wins in years",
+        "source": "NRL.com",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSlZDUzdiLTUtUWVlNTJNb1owMUVHX0Fna01zczhVeTIyVEhFWTUtN0NRbkpZLUtKekM3a2dXZzU4dmFBc2NPYktxY195ZHlKNXNYS2RfRktDcFNFU2V3OFY3MTc0ZThLRnp3dEtwWDZVSXg0dzlaRk55ODJ4T1RSSVBZRHE0and6bGZmLWFhMGpfbjFadUZET0N6dnRNZWVPZlVJbWprUQ?oc=5",
+        "why_it_matters": "The Cronulla Sharks put on a stunning display at Kayo Stadium on Saturday, thrashing the Dolphins 66-0 in what is one of the biggest NRL victories in recent memory. A 66-point winning margin and a clean sheet for the Dolphins' defence tells the story — it was an absolute flogging. The Dolphins' season is in serious trouble after this result. Meanwhile Sharks fans will be dreaming of a finals run.",
+        "category": "NRL"
       },
       {
-        "title": "Warriors demolish Wests Tigers 32-6 — Tigers' finals hopes on life support",
+        "title": "Bunnies edge Knights 26-24 in Jai Arrow's birthday thriller",
         "source": "Fox Sports",
-        "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxPSVk1YzY3djJ5MmlFWEh1cWluaU9RNEdLN0pEdGVhWXZtc0VmaWxfX01kUG1vY0tWZ3dabWkxZDVycmxqLWhrd1Y5cmNUbHFhc0tzNFdEaFUwcnZHdm91TU9LVnRSdExhLW9CWUx0OEdrN3NXdWlWZjdDMnY5N0J4M29UQTN0NVl0Tk8wb3hGQ01SUXVsUUM0UnJ4Yk90LTliRUJ5a2NaN1BEc0dFN1c1LVBMSTl1ek5HV28wRGh2aGxlcXNoS3RFUGFweEhmVmdoM3c0VlJXM0RYWTBTckNzdkxqUDdQazhaWDI4Q2NLeDZWZDZsbHppT19XNVZ4ek5SLXdCVVJqT0JFN3N0emo1OFhUaUFNcDZzTV9rU00tMnNaZjdYZlFUYW00SU9VTU5pSWZuU0pCZENCbjhmbmw3d0dWYnVmUm9vWUstX3ZuVVVqWXJrZ0l6ZmxOblFKMGZW0gHgAkFVX3lxTE9JWTVjNjd2MnkyaUVYSHVxaW5pT1E0R0s3SkR0ZWFZdm1zRWZpbF9fTWRQbW9jS1Znd1ptaTFkNXJybGotaGt3VjlyY1RscWFzS3M0V0RoVTBydkd2b3VNT0tWdFJ0TGEtb0JZTHQ0R2s3c1d1aVZmN0Mydjk3Qngzb1RBM3Q1WXROTzBveEZDTVJRdWxRQzRScnhiT3QtOWJFQnlrY1o3UERzR0U3VzUtUExJOXV6TkdXbzBEaHZobGVxc2hLdEVQYXB4SGZWZ2gzdzRWUlczRFhZMFNyQ3N2TGpQN1BrOFpYMjhDY0t4NlZkNmxsemlPX1c1Vnh6TlItd0JVUmpPQkU3c3R6ajU4WFRpQU1wNnNNX2tTTS0yc1pmN1hmUVRhbTRJT1VNTmlJZm5TSkJkQ0JuOGZubDd3R1ZidWZSb29ZSy1fdm5VVWpZcmtnSXpmbE5uUUowZlY?oc=5",
-        "category": "NRL",
-        "why_it_matters": "Friday night's game saw the Warriors run out comfortable 32-6 winners over Wests Tigers at Campbelltown. The Tigers' finals hopes are now described as 'paper thin' — and judiciary concerns loom for the club heading into next week. The Warriors continue to look strong and are firmly in the top-eight mix."
+        "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOSkdMNWVXVzVSbFFxcE1td2ZMN0s0dnpNWnFJcUtZUENYbU5namM5bTd0MFptS1U0SkI5WlItOWFMdE5CcjVWR01NbzdEeHZXcmF5V1MtZEFndFFycmlLOWRWS2FSRVRzTjZKSUdHamRJajNQRi01em1mVmJ0b2R5bmZ2aUlnaUZ0d0Z1R1pUUHBvcnl0cmpVcGFHQjBwdTFGbkg1OV9WTHktclZEUGkzVFFVYkx5RXY5RWNMQVVYaU83TkpPeERKcTZiYXdweEswdWxRZ0stb2JNanR4SnUyUGlIeGFBQ3F1VnZsR2wtRTJWeElZWkJ4dEJDZ1R3ZmdZb2wyRnNMdkRfQjZZXzYzNUJENGxVUEk2QmE5SzcyM1hUUUl1bzV3amtHRQ?oc=5",
+        "why_it_matters": "South Sydney survived a wild late comeback from the Newcastle Knights to win 26-24 at Accor Stadium on Sunday. The Knights came agonisingly close to stealing the points but ultimately fell short. It was played on Jai Arrow's birthday, adding a nice storyline to the Bunnies' win. Both sides remain in the mix for finals contention — every point matters from here.",
+        "category": "NRL"
       },
       {
-        "title": "Cruz Hewitt reaches Wimbledon junior final — 24 years after dad Lleyton's triumph",
-        "source": "BBC",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sbVh2eFo1Rk9yM2hWMHFWdTBzOWlpRW81UFhoUE5KV0lQQ2Q2emlDWGV4VjUwb0d0WXBMem91NFlVcEFaVERWZVNrZFNzNXdqdkdVRkI2WGczWVpzUGdIZ0s2QU0?oc=5",
-        "category": "Tennis",
-        "why_it_matters": "Cruz Hewitt — Lleyton's son — has made the Wimbledon junior boys final, 24 years after his father won the men's title on the same courts in 2002. It's a remarkable family story. However, the week has also been clouded by reports of tension between Lleyton and Cruz behind the scenes, with 'staggering scenes' reported at Wimbledon that have put an awkward spotlight on the father-son relationship. Cruz plays his final on the weekend."
+        "title": "Wimbledon men's final set: Jannik Sinner vs Alexander Zverev tonight",
+        "source": "Yahoo Sports",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOUlQRHB0NU9iZlZpTlRaSVJzVG1WS3N1dDV1SktEVkt6U2dQeUxHNzlITTFpR1ZucUluM01NOEUyVmFvX29fenJXMEhYQ0dpQmhjaXExTDE4aTJmdzlZVU95ZFlGWmVkVW5UYVVDOTAtbGpPVWw0aXQ5U2lKOXRQUy1KVXRQQQ?oc=5",
+        "why_it_matters": "World No.1 Jannik Sinner faces Germany's Alexander Zverev in the Wimbledon men's final tonight — the biggest match in tennis. Sinner is the defending champion and heavy favourite, while Zverev is chasing his first Grand Slam title. Novak Djokovic's campaign ended before the final, with Fox Sports reporting he received a 'brutal reality check' in a revenge defeat. The final airs in Australia overnight — check your streaming service for details.",
+        "category": "Tennis"
       },
       {
-        "title": "Wimbledon men's final: Sinner vs Zverev — their 15th career meeting",
-        "source": "Olympics.com",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaFNTRmM4Tlh2aWlyRGpyQjhhM2pCRFpuMTZEckdwTFVoWXBaanVRWTJMU2g1S004V2REOXRyQTY5c1NFRVo4aVhSd0I0NlcyS2FiclE5YkdkMkZ0eWhoeWRFZzdGSWhxaVZtMENDbkwtN1V1MDQtZi1VVzlUbmMzZmE1VU9iVEJkYkdSSlNVZ0pydmV0ZFR1akZNV3FqSzdzS1N2THF6WTVleUVJVTlKMQ?oc=5",
-        "category": "Tennis",
-        "why_it_matters": "World number one Jannik Sinner and Alexander Zverev will face off in Sunday's Wimbledon men's final — their 15th career meeting, making it one of the most familiar rivalries in tennis. Sinner goes in as favourite. Australia's Sam Hewitt (Lleyton's nephew) is also reportedly on the cusp of breaking a 15-year Australian drought — Fox Sports reports an Aussie could be in contention in the tournament. A great weekend of tennis ahead."
+        "title": "Bellingham breaks major tournament scoring record at Euro 2026",
+        "source": "Tribuna.com",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMzNydmdjclBBYWZnUEZjV1NhbGN4WThoLVlxYWVKbklGNEtQcXBGdjdQVXpwZVhzamhfR3FSSUpXb25jRkVtNENnUnU3b1JQOUpNVTVpQkR4Z2EyS3VNZzNCblA3bklNaVJ2Y01pYW1zelJBYURTczJ2SVBZNWNBV2ZFLUU5aHFueE1mM3BLSzl6VTdxMEx5bWw3QXRYeE5rbnpKeEVYQkxFYzVDVE45NFkybnpvaHZ00gG-AUFVX3lxTFB3d0tWaUFKdEFjdExIb1hRU09nRjFwcldWRXZ0Y3B4RjF0OFZmUmhMSF9YYUh4QTgyRlN1dnN4MjlTZVVWbEdpaEZkWUxJT1NydTd0MVlMT2Y4WE5YdFp4bzVaWGthYV9ZYXdWV21IVW5PcmlfeWZ0SDFEMDNodFpBYUtJWXVUek1TR0RXNFk4eXlYU19MRWhxWXljVGJYRGxON0ZvRVMzTklhTDh6RjdYaE4wZEt6NTBfOWphM1E?oc=5",
+        "why_it_matters": "England's Jude Bellingham has broken the all-time major tournament scoring record with another goal against Norway. Bellingham has been the standout player at the tournament and is cementing his status as one of the best players in the world. England fans are daring to dream.",
+        "category": "Football"
       },
       {
-        "title": "AFL Round 18 wrap: Bulldogs make six changes, Magpies forward set for absence",
-        "source": "Fox Sports / AFL.com.au",
-        "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQZjUwYVlZWnlmZWY3U3ZHLVptVGdnenBFWTZHLUtUVURWQWtnZXpmUTFSYnVJQVJTeWp5WWQ3Z2VxbWNlZlMzVzgtUUtHQ051bzFydExXQzdURjVaMldackRISjA4bWdFMmlpYjFXTjUyMW02T2Jla1NVZFFJUlRnYnNrc0dkZ0NkaXBmX1MtQ0tzOTZCeUU0TkJFdlJmbDJQNzIxRE16M3FSNXRXYmdtejdVdDVremczVFIzWlRrRjM3bjVHRFVPX3NnNElZM0c2YWhtSm9aMnYtbUxWSFh3eldzLXVZamU1dFRuX1BrcEtUN3FsUWtGamx3LVpCaFVmSXdTRERkUGg2T1FaWERpYW1oVzZETDc0TVE1ZFdETVNTdTZwQUHSAaYCQVVfeXFMUGY1MGFZWVp5ZmVmN1N2Ry1abVRnZ3pwRVk2Ry1LVFVEVkFrZ2V6ZlExUmJ1SUFSU3lqeVlkN2dlcW1jZWZTM1c4LVFLR0NOdW8xcnRMV0M3VEY1WjJXWnJESEowOG1nRTJpaWIxV041MjFtNk9iZWtTVWRRSVJUZ2Jza3NHZGdDZGlwZl9TLUNLczk2QnlFNE5CRXZSZmwyUDcyMURNejNxUjV0V2JnbXo3VXQ1a3pnM1RSM1pUa0YzN241R0RVT19zZzRJWTNHNmFobUpvWjJ2LW1MVkhYd3pXcy11WWplNXRUbl9Qa3BLVDdxbFFrRmpsdy1aQmhVZkl3U0REZFBoNk9RWlhEaWFtaFc2REw3NE1RNWRXRE1TU3U2cEFB?oc=5",
-        "category": "AFL",
-        "why_it_matters": "Heading into AFL Round 18 action this weekend: the Western Bulldogs have made six changes to their lineup — a big reshuffle that signals either injury trouble or a deliberate shake-up. A Collingwood forward is also set for a stint on the sidelines. Carlton made a significant change flagged by the club on Friday. The Dees (Melbourne) have also lost a key player. Plenty of team news to absorb before you lock in your tipping."
+        "title": "Lleyton Hewitt and Cruz drama creates 'staggering scenes' at Wimbledon",
+        "source": "Yahoo News Australia",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTDBlR2VZVFV3Rk5JMEExMFRfV2FydEJxb2F6X0JVcG5NM1REOXRNcVU1aE5rUUJIelBkVlBIbkhlTlBKOEhTVDExN29wNFZtX2lWalpjb3RDYjJOd21VWDVKSW4xUFNPSEEyazYzWUFnMnpTeHBiVktVRjlRZzFCVzUyUDJ3Sm1BZDJNNXVOTWVSdlpuMXlJUk5EVFdaa0ZXNm9LeDFUc3NWR1JKWUgxY2hxYlNxN3dKZ1lmSER0VUQ5U2tW?oc=5",
+        "why_it_matters": "There have been dramatic scenes at Wimbledon involving Australian tennis legend Lleyton Hewitt and his son Cruz. Ugly claims have emerged about the relationship between the two, described as 'staggering' — a deeply personal and public family fallout that has overshadowed Wimbledon's final weekend for Australian tennis fans.",
+        "category": "Tennis"
       }
     ]
   },
@@ -240,16 +245,16 @@
     "location": "Gold Coast",
     "icon": "☀️",
     "condition": "Clear sky",
-    "temperature_c": 15.5,
-    "high_c": 19.5,
-    "low_c": 10.5,
-    "rain_chance_pct": 53,
-    "rain_mm": 0.7,
+    "temperature_c": 16.9,
+    "high_c": 21.7,
+    "low_c": 12.7,
+    "rain_chance_pct": 4,
+    "rain_mm": 0.0,
     "tomorrow": {
       "icon": "☀️",
       "condition": "Clear sky",
-      "high_c": 21.2,
-      "low_c": 12.5,
+      "high_c": 19.6,
+      "low_c": 10.3,
       "rain_chance_pct": 0,
       "rain_mm": 0.0
     }
@@ -289,10 +294,10 @@
       "away": "Raiders",
       "home_badge": "https://www.nrl.com/.theme/bulldogs/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/raiders/badge.svg",
-      "home_score": 0,
-      "away_score": 22,
-      "completed": false,
-      "live_label": "Half Time",
+      "home_score": 16,
+      "away_score": 40,
+      "completed": true,
+      "live_label": null,
       "day": "Sat 11 Jul",
       "time": "5:30 pm",
       "venue": "Accor Stadium",
@@ -303,9 +308,9 @@
       "away": "Eels",
       "home_badge": "https://www.nrl.com/.theme/roosters/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/eels/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 28,
+      "away_score": 12,
+      "completed": true,
       "live_label": null,
       "day": "Sat 11 Jul",
       "time": "7:35 pm",
@@ -317,9 +322,9 @@
       "away": "Knights",
       "home_badge": "https://www.nrl.com/.theme/rabbitohs/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/knights/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 26,
+      "away_score": 24,
+      "completed": true,
       "live_label": null,
       "day": "Sun 12 Jul",
       "time": "2:00 pm",
@@ -331,9 +336,9 @@
       "away": "Cowboys",
       "home_badge": "https://www.nrl.com/.theme/sea-eagles/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/cowboys/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 18,
+      "away_score": 19,
+      "completed": true,
       "live_label": null,
       "day": "Sun 12 Jul",
       "time": "4:05 pm",
@@ -481,5 +486,5 @@
     "total_pnl_pct": -3.56,
     "aud_usd_rate": 0.6955
   },
-  "generated_at_utc": "2026-07-11T08:20:56.517594+00:00"
+  "generated_at_utc": "2026-07-12T08:04:28.585866+00:00"
 }
