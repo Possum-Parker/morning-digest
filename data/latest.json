@@ -1,264 +1,265 @@
 {
-  "headline": "US-Iran conflict escalates into a 7th day of strikes, dragging oil to $82 and rattling global markets — your portfolio felt it across the board today.",
+  "headline": "US-Iran conflict escalates with American troops killed in Jordan, sending oil surging 3.6% — meanwhile GOOG earnings land Tuesday US time and your AI ETF took a 5% hit today.",
   "portfolio": {
     "movers": [
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": -5.0,
-        "note": "Biggest mover in today's session, down 5%. The AI ETF was hit by a double whammy: broad tech selling on the ASX following last night's NASDAQ drop, and specific headwinds from Google delaying its Gemini 3.5 Pro model — a key holding in the fund. Market sentiment on AI names has softened this week."
+        "note": "Biggest mover today, down 5% at the ASX close. The AI ETF tracks global AI-focused stocks, and last night's broad NASDAQ sell-off (down 1.4%) dragged the whole sector lower. No company-specific bad news — this is broader tech sentiment weakness ahead of a heavy US earnings week."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": -3.08,
-        "note": "VGE closed down 3.1% today — the worst performer among the Vanguard ETFs. Emerging markets got caught in the crossfire of rising oil prices (bad for oil-importing EM economies), a broadly risk-off mood driven by the US-Iran conflict, and continued uncertainty around Chinese economic growth."
+        "note": "Down 3.1% today, the second-worst performer in the portfolio. Emerging markets are getting squeezed by rising oil prices (up 3.6%), which pushes up costs across developing economies, and ongoing geopolitical jitters around Iran. The Aussie dollar holding relatively steady didn't provide much buffer."
       },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": -3.13,
-        "note": "PLS dropped 3.1% at today's close. Lithium sentiment remains under pressure — US major Albemarle is seeing earnings downgrades as lithium prices stay weak. Despite positive long-term EV demand stories doing the rounds, the near-term market is still sceptical on when lithium prices actually recover."
+        "note": "Pilbara dropped 3.1% today. Lithium prices remain under pressure globally — analysts note mixed signals on demand, with EV uptake growing but lithium supply still outpacing it. The stock is now down 35.8% on your total investment — a tough run, but the long-term electrification story hasn't gone away."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc. (Google)",
         "change_pct": -2.17,
-        "note": "GOOG fell 2.2% in last night's US session. The market is anxious ahead of Alphabet's upcoming earnings, and news that Gemini 3.5 Pro — announced at Google I/O — has been delayed by several months is hurting sentiment. Investors are worried Google is falling behind OpenAI in the AI race."
+        "note": "GOOG fell 2.2% last night in a pre-earnings pullback — earnings are due Tuesday 22 July (US time). Google Cloud just hit $20B in quarterly revenue and analysts are watching whether AI is converting into real profit. The dip looks like nerves ahead of results rather than anything structural."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": -1.82,
-        "note": "MSFT slipped 1.8% last night. Analysts have been trimming price targets ahead of Microsoft's Q4 earnings report. The broader NASDAQ was down 1.4% on risk-off sentiment tied to the US-Iran conflict and rising oil prices, which dragged most tech names lower."
-      },
-      {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market ETF",
-        "change_pct": -1.08,
-        "note": "VTS dipped 1.1% today, tracking the weakness in US equities from last night's session. The S&P 500 fell 1% last night as rising oil and Middle East tensions spooked investors. Nothing structurally wrong here — this ETF is a very long-term hold and day-to-day moves like this are just noise."
+        "note": "Microsoft slipped 1.8% last night alongside the broader NASDAQ decline. The company is spending $190B on AI infrastructure in 2026 — that's a massive bet — and earnings are coming soon too. BNP Paribas analysts expect revenue and spending to both accelerate. Short-term softness, long-term story intact."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": -1.21,
-        "note": "TTWO fell 1.2% last night in line with general NASDAQ softness. On the positive side, Take-Two's CEO reconfirmed GTA 6's planned release date this week and highlighted strong GTA Online sales — so the underlying business story remains intact. The dip looks like general market drag, not company-specific bad news."
+        "note": "Take-Two dipped 1.2% last night, largely moving with the broader market. The positive news: the CEO reconfirmed the GTA 6 release date with the SEC this week, which is a meaningful commitment. The long-term case here is all about GTA 6 — and that timeline is holding."
+      },
+      {
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market ETF",
+        "change_pct": -1.08,
+        "note": "Down 1.1% today, tracking last night's S&P 500 fall of 1%. This ETF mirrors the entire US share market, so when Wall Street has a rough session — driven by Iran conflict fears and pre-earnings nerves — VTS follows. Nothing specific to worry about here."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -0.89,
-        "note": "VDHG eased 0.9% today — a mild dip for a diversified fund that holds global and Aussie shares. The broad market softness driven by oil prices and geopolitical risk nudged it lower, but as a diversified multi-asset ETF this kind of daily move is completely normal. Sit tight."
+        "note": "The most diversified holding in the portfolio, VDHG slipped just 0.9% today — the most resilient performer on a down day. Its mix of Australian, international and bond assets provides a natural cushion when any one market sells off. Exactly what it's designed to do."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "GOOG earnings incoming — big move likely",
-      "detail": "Alphabet reports earnings very soon (US time). Options markets are pricing in a significant move either way. GOOG has already dropped 2.2% last night as investors de-risk ahead of the print. You're sitting on a 12.6% gain on this position — nothing to do right now, but watch the result closely. Hold for the long term regardless of a one-quarter beat or miss.",
+      "title": "GOOG earnings Tuesday — big moment for your holding",
+      "detail": "Alphabet reports earnings on Tuesday 22 July (US time, so Wednesday morning AEST). Google Cloud just hit $20B in quarterly revenue and the market wants to see AI turning into real profit. The stock has dropped about 4% in the lead-up — classic pre-earnings nerves. For a long-term holder, sit tight and see the numbers. No reason to sell before earnings.",
       "urgency": "red",
       "ticker": "GOOG",
       "action": "hold"
     },
     {
-      "title": "GXAI.AX — biggest daily drop in your portfolio",
-      "detail": "GXAI fell 5% today and is now down nearly 20% from what you paid. The catalyst is a mix of broad AI sector selling and Google's Gemini 3.5 Pro delay spooking AI sentiment. The long-term case for AI infrastructure growth is still intact — this is a lumpy, high-volatility ETF by nature. No structural reason to sell, but be prepared for continued volatility while the AI hype cycle finds its floor.",
+      "title": "GXAI.AX — down 5% today, but don't panic",
+      "detail": "Your AI ETF took the biggest hit in the portfolio today, falling 5% at the ASX close. This tracks the NASDAQ sell-off from last night and general tech jitters ahead of big US earnings. The long-term AI investment thesis is very much intact — if anything, this kind of dip could be worth watching as a potential top-up opportunity for a long-term believer in AI.",
       "urgency": "orange",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "PLS.AX — lithium pain continues",
-      "detail": "Pilbara Minerals is down 3.1% today and now sitting 35.8% below your cost price. The lithium market is still soft — Albemarle (a US lithium giant) is seeing earnings downgrades, and near-term pricing hasn't recovered. The long-term EV demand story is real, but the timing of a lithium price recovery remains uncertain. Unless your thesis has fundamentally changed, this is a hold — selling now locks in the loss at the worst point.",
+      "title": "PLS.AX — holding through a tough stretch",
+      "detail": "Pilbara Minerals is now down 35.8% on your total investment and dropped another 3.1% today. Lithium prices remain soft globally, but the long-term demand case — EVs, batteries, energy storage — is still real. This is painful to hold, but selling now would lock in the loss. The thesis is bruised, not broken. Sit tight unless you see a fundamental change in the lithium outlook.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "Oil spiking on US-Iran conflict — watch your ETFs",
-      "detail": "Crude oil (WTI) surged 4.5% last night to $82.49/barrel as US-Iran strikes enter a 7th consecutive day. Higher oil is a headwind for global growth and especially for emerging markets (VGE holds many oil-importing countries). Keep an eye on how this conflict develops — a further escalation could weigh on VGE and VTS in coming sessions.",
+      "title": "Oil surging on US-Iran conflict — watch the flow-on",
+      "detail": "Crude oil jumped 3.6% last night to $81.78/barrel as the US-Iran conflict escalated — two US troops were killed in Jordan, the US launched new airstrikes, and Iran hit Gulf allies in retaliation. Higher oil means higher inflation pressure globally, which can push interest rates up — bad news for growth stocks and your US-heavy holdings. Worth watching how this develops this week.",
       "urgency": "orange"
     },
     {
-      "title": "VGE.AX — EM under pressure but long-term case intact",
-      "detail": "VGE dropped 3.1% today — the sharpest fall among your Vanguard ETFs. The combination of rising oil prices, US-Iran tensions and a slightly weaker AUD is hurting emerging market sentiment. You're down 3.8% overall on this position. Nothing broken in the long-term diversification story — emerging markets are a long game.",
+      "title": "VGE.AX — emerging markets bearing the brunt",
+      "detail": "Your Vanguard Emerging Markets ETF fell 3.1% today — the sharpest ASX-listed drop in the portfolio. Rising oil hurts energy-importing emerging economies, and Middle East tensions add geopolitical risk. The long-term diversification case for VGE is solid, but expect continued volatility while the Iran situation plays out.",
       "urgency": "orange",
       "ticker": "VGE.AX",
       "action": "hold"
     },
     {
-      "title": "MSFT earnings also approaching",
-      "detail": "Microsoft reports Q4 earnings soon. Analysts have been trimming price targets and the stock is down 11% from your entry price. The Azure cloud and Copilot AI story is still the long-term driver here — a weak quarter doesn't change that. Hold through earnings; only reassess if guidance is significantly cut.",
+      "title": "MSFT earnings also approaching — keep an eye out",
+      "detail": "Microsoft earnings are coming in the next week or two (US time). The company is spending $190B on AI infrastructure this year — a massive bet — and analysts at BNP Paribas expect both revenue and spending to accelerate. The stock is down 11% on your total investment, but the long-term AI infrastructure story is one of the strongest in global tech. Hold and watch the earnings print.",
       "urgency": "orange",
       "ticker": "MSFT",
       "action": "hold"
     }
   ],
   "world": {
-    "summary": "The biggest story of the day is the escalating US-Iran military conflict, now in its 7th straight day of strikes. Meanwhile, Trump is using the full machinery of the US government to push claims about Chinese election interference, and the FIFA World Cup continues to dominate the cultural conversation.",
+    "summary": "The US-Iran conflict has escalated sharply this week, with American troops killed in Jordan and retaliatory airstrikes flying in both directions. Meanwhile Trump's election fraud claims remain in the spotlight after newly declassified documents failed to back them up, and the Trump-Xi relationship is taking a curious turn.",
     "stories": [
       {
-        "title": "US-Iran conflict enters 7th day — airports, bridges and water plants hit",
-        "source": "New York Times / The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kMzBFRnhWbGIwdEpFcVJVd251LTBDMXRMS01VRmNFNUVaZlo0ZzlDWjhsOUlqVVdHYk95V2JJVFlvNWxCck0tWWRyMkhLNkZ0anVzM0dnM1BsUzZMYzNROWQ3SVRWNGNxOUU4VFdwV1JQaDJpWVE",
-        "why_it_matters": "US forces have now conducted seven consecutive days of strikes against Iran, hitting airports, bridges and water treatment infrastructure. Iran claims civilian sites were targeted; the US denies this. US forces also boarded an Iranian ship amid a ports blockade. Oil spiked 4.5% last night to $82.49/barrel in response — higher energy costs flow through to petrol prices and inflation globally. The WSJ is reporting both sides are 'creeping toward a wider war,' which would be a major destabilising event for global markets."
+        "title": "Two US Troops Killed in Jordan as US-Iran Conflict Enters Seventh Day",
+        "source": "The Guardian / SMH",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcU9EZm52ekUycVNuTEhRUk84ZXdGYVlaaXN5R3lKbGdmVzBRVHlZT0o2WVhKd29DeGNpZ3Zld1dZSm1RWjBjYXZjMmxINkgyODZkMjlhQTJmNEg1d1JFZmlFLUxicXNBVFp4cFM3OUdrQk5YSDI5bTFNNjhkVE5FazVKY25fOFJpNFN1RmczOHFTV1N4d2R5OGI4MmRFWUZYNUpSbUdpRUNVY3JZYm9xcXV4QXNxaUUtM2c?oc=5",
+        "why_it_matters": "Two US soldiers were killed and one is missing after Iranian-linked attacks in Jordan, marking a major escalation in the week-long US-Iran conflict. The US responded by launching fresh airstrikes, targeting bridges and water plants inside Iran — now into a seventh consecutive day of strikes. Iran hit back by targeting US allies in Gulf states. This is the most serious direct US-Iran military confrontation in years and is why oil jumped 3.6% overnight — markets are pricing in real supply disruption risk if the conflict spreads to key shipping routes in the region."
       },
       {
-        "title": "Trump uses full government weight to push claims of Chinese election interference",
-        "source": "New York Times / BBC",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOelVaUWJYbVdIZ1REN2xhZkMzN0RDczhETy0yLVNDV2kxTGlHZ0RYQS10dk1DS0NHQWJUbTBKcXFwVkdrTFplRVAwaVlKTXdNT1ZrWkdVNlVfQ1BaekhwY3c1QkNxS0hoSTdCaU5NbTVyS0ZoVzVfSG9adjU2ZExKYXBIUVdES2JlTkZNYg",
-        "why_it_matters": "President Trump delivered a major address claiming China interfered in US elections, stole voter data and committed widespread fraud in the 2020 and subsequent elections. He's using declassified intelligence files to back the claims. Fact-checkers from the BBC, Guardian and PBS have found the documents don't fully support the sweeping conclusions Trump drew. The move is seen as an attempt to delegitimise political opponents and reshape the historical narrative — with potentially significant implications for US-China relations and global trade tensions."
+        "title": "Trump's Declassified Documents Don't Back His Election Fraud Claims",
+        "source": "NBC News / PBS",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFp0YVdueXVvbDRKd2FtTFZrRVhkQ05PZUppYTVpbFA1V0E4dTNZVmlZcjZxSUs5YnhDVVd3bDNMSzd4bEgwSVMzSm9jSVpNN0lPT1pneGJEVGQ5REc4bE5jNVctaURMOTM0SG5BX3ZYLTNzejJLT2w2UXd3TmM4ZVhZdUFBb2lXSjRyVGVLNUw4cktQNUcxekZNbE1nVFViZVg4U1Y2dDZBMkZpX2k0ZHIwZHBSc01pbV9F?oc=5",
+        "why_it_matters": "Trump gave a major address claiming newly declassified documents prove Chinese interference in the 2020 election and justify his ongoing claims of fraud. Fact-checkers at PBS, NBC News and The Guardian have reviewed the documents and found they offer little to no evidence for those claims — the documents mostly show routine intelligence assessments, not a coordinated Chinese plot to steal the election. The speech is part of Trump's continued effort to relitigate 2020, but the substance doesn't hold up to scrutiny according to multiple independent reviews."
       },
       {
-        "title": "FIFA World Cup crowds bring record business — but will it last?",
-        "source": "KIRO 7 News Seattle",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUXpBU2hxTW5iLUo3Yml5T2QwRkp3TFhUU3ZGME9RTmVGcHY4S0xwTi1scTc4WXU5ZTJDLXRkWV9NZ1lLMnVfeU1fbWZodEhIaG1EdEVZVU5ZTUdodnlSSWtZRFE5cHdsbWF0WFJOcW9hYWs2QnJCX3BnTTRNLWhnQ3JsM2ZNRnQ1Mm01ZHRYUW1SMTJETVNsWGQ3dEd2cEhuSW1LWnZyNzd2NEpkbUNPZlZsWDNVcnZhYWwxQWl3cVhhWjQ5M3U3OHBad0wwSHd0RFlHcW9oU1JGa1U3azdwTVg1RlJIWVhK",
-        "why_it_matters": "The 2026 FIFA World Cup (hosted across the US, Canada and Mexico) has driven record-breaking foot traffic and spending in host cities like Seattle's Pioneer Square. Local businesses report revenues they've never seen before. The question now is whether that economic buzz can be sustained once the tournament wraps up, or whether it leaves a 'World Cup hangover' of inflated rents and quiet streets. Relevant context given Australia's ongoing conversations about hosting major sporting events."
+        "title": "Trump Pursuing Closer Bond With Xi Despite Hostile Rhetoric",
+        "source": "The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qR2xYaHMyOHpuVXZNc21TbWY5VWlWeGpmdXhscS1tOEZrLUhxRzVXemQ5bmpyeG55clAwaENWRVV1ekJSeWxlaG51VVg1bjRYLUJ0ZHFGY004T29sRnJLS2kzZ3l5VmlBbHN2MC1YOTNRbmduRnBvdDRZRnBUZw?oc=5",
+        "why_it_matters": "Despite making a high-profile speech accusing China of election interference, Trump is simultaneously working behind the scenes to deepen his personal relationship with Chinese President Xi Jinping, according to the New York Times. The two leaders are reportedly in regular contact, and Trump's team is seeking trade and economic arrangements. This kind of mixed messaging — publicly hostile, privately conciliatory — creates real uncertainty for global markets and trade policy, which affects everything from Australian exports to the value of your US-listed stocks."
       },
       {
-        "title": "Global economic outlook — mid-year update flags risks",
-        "source": "Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQUFwWU54REtiZ2RzbEJNQTZRY2pBNm5DM0JlOWlrOFowQ1BSRUp2X09ySEJvNzliMXVJMmtOUWNQdk9vSzdsYnp1SXNlSU5PYTlDSjAtaE5PV3NxVjFWUjVkanFlNjdpTTg3NHg3bnhaT2xwR1h0UVFqdjRDckxWOEh0ZTA3Q3ZrQ3lnbHFGZHN1OGJYSUprNVhIX1I5ZkN5",
-        "why_it_matters": "The mid-year global economic forecast update flags the US-Iran conflict and elevated oil prices as the key new downside risks since the January forecast. Inflation pressures that seemed to be easing could re-ignite if oil stays above $80/barrel. Slower global growth would weigh on trade-exposed economies like Australia. For investors, this mid-year update is a useful reminder that the 'soft landing' is still not guaranteed."
-      },
-      {
-        "title": "China and Russia launch 30-nation AI body — US excluded",
-        "source": "Computerworld / Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUm83eVl1dVkzV0ZZMGw1UHFUQWJ0ZE5ZT2VIUDF1RU5NZFFubXJqcDY0SDg3clpncF9LZGFZZ1V1NmtTVmxTV0h6RWZDRHc3WW1MTmJOZWFycy1KQ1Uzc21WY2JfNGNxOGIycXhWYXBWTjI3eFJaS082My1mcVlIZXVyazVIcENEMlNIQ09EMlRXMy1sem1TMlZfT09OekVBTVNOUlFyMERFdmRkVWc",
-        "why_it_matters": "Xi Jinping has launched a new international AI alliance with Russia and 27 other nations — deliberately excluding the United States. The body aims to set global AI development and governance standards outside the US-led framework. It's a significant geopolitical move: whoever sets the rules for AI globally will have enormous influence over trade, technology and security for decades. This deepens the US-China tech rivalry and could affect companies like Alphabet and Microsoft that operate globally."
+        "title": "Iran Renews Attacks on Gulf States After Latest Night of US Strikes",
+        "source": "SMH",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMU5CeGRuTWg2akdnVXRsWnRuNlkydGVBYWtNWmpVdzdIYWFiVXNOOGlwOEE4VHd0ZHBBTjFEX29fRmUzSUVjdmxUUVJWRHNQQ056QzBOTTN3d3ByMHdmWEN3MlpxN1BpRWdhcVRUQ20yQllIREFGREpEOTBlZ29JWWhsMU1kbTZzaEM0Yk9PUVB2YVF0Qk11YXVZbkdmcVEwSHpZRkZzVmJNVEZUSDJwaEU3QW1PR2pzMXI0VzhMamtfNlZLUWxYVExQRW1rVnJiZmppd0FZekR6VEdt?oc=5",
+        "why_it_matters": "Iran has escalated further by striking US allies across the Gulf — including infrastructure targets — after the latest round of US airstrikes. This tit-for-tat cycle is now well into its second week with no sign of a ceasefire or diplomatic off-ramp. The risk for everyday Australians: sustained conflict in this region pushes up fuel prices globally, which feeds into petrol prices at the bowser and higher inflation across the board. Gold is also rising (up 0.8% to $4,018/oz) as investors seek safety."
       }
     ]
   },
   "markets": {
-    "summary": "It was a rough night for US markets and a soft close on the ASX today. The NASDAQ dropped 1.4% and the S&P 500 fell 1% last night, driven by rising oil prices on the US-Iran conflict and nerves ahead of big tech earnings. The ASX 200 closed down 0.5% today. Gold ticked up as a safe haven, and oil is the standout mover — surging 4.5% to $82.49.",
+    "summary": "A rough night on Wall Street last night as Iran tensions and pre-earnings nerves hit tech stocks hard. The NASDAQ dropped 1.4% and the S&P 500 fell 1%. Closer to home, the ASX 200 closed down 0.5% today. The big story in commodities: oil jumped 3.6% on the Middle East escalation, and gold climbed to over $4,000/oz.",
     "indicators": [
       {
         "name": "ASX 200",
-        "value": "8,796",
+        "value": "8,796.7",
         "change_pct": -0.5,
-        "note": "Closed down 0.5% today, dragged by tech and energy-exposed stocks."
+        "note": "Closed down 0.5% today, tracking last night's Wall Street weakness and Iran jitters."
       },
       {
         "name": "S&P 500",
-        "value": "7,457",
+        "value": "7,457.7",
         "change_pct": -1.01,
-        "note": "Fell 1% last night — risk-off move as oil spiked and Middle East tensions escalated."
+        "note": "Fell 1% last night — pre-earnings caution and escalating Middle East conflict weighed on sentiment."
       },
       {
-        "name": "NASDAQ Composite",
-        "value": "25,520",
+        "name": "NASDAQ",
+        "value": "25,520.2",
         "change_pct": -1.4,
-        "note": "Down 1.4% last night, with big tech names selling off ahead of earnings season."
+        "note": "Tech bore the brunt last night, down 1.4%, dragging AI and growth stocks lower ahead of big earnings."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$82.49",
-        "change_pct": 4.48,
-        "note": "Surged 4.5% — US-Iran strikes entering a 7th day pushed oil to its highest level in months."
+        "value": "$81.78",
+        "change_pct": 3.58,
+        "note": "Surged 3.6% last night — the US-Iran conflict is the driver, with markets pricing in supply disruption risk."
       },
       {
         "name": "Gold",
-        "value": "$4,012",
-        "change_pct": 0.68,
-        "note": "Nudged above $4,000 again as investors sought safe-haven assets amid geopolitical tension."
+        "value": "$4,018.8",
+        "change_pct": 0.83,
+        "note": "Gold topped $4,000/oz again — investors are buying the safe haven as geopolitical risk rises."
       },
       {
         "name": "AUD/USD",
         "value": "0.6985",
         "change_pct": -0.21,
-        "note": "The Aussie dollar slipped slightly, sitting just below 70 US cents."
+        "note": "The Aussie dollar edged slightly lower against the USD, sitting just below 70 cents."
       }
     ]
   },
   "politics": {
-    "summary": "The Albanese government has released its formal response to the national Islamophobia inquiry, acknowledging the problem is 'dangerously close to becoming normalised' — but drawing criticism for stopping short of the inquiry's key recommendation on terror laws.",
+    "summary": "The Albanese government has released its formal response to a parliamentary report on Islamophobia in Australia, but has stopped short of one of the key recommendations — drawing criticism from advocates.",
     "stories": [
       {
-        "title": "Government responds to Islamophobia inquiry — but won't change terror laws",
+        "title": "Government Responds to Islamophobia Report, But Stops Short on Terror Laws",
         "source": "ABC News / SMH",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONDZ1aFNtc2NTMkNPcWRJZWt3WC1kYTRTTWNmaFBzRWg0OUJRYTV0bndqRjRlbndCUm9hOHhmck9uZm5vSG1zQXdvRFYxcHdwZWgyS0lSbGJwZ3FROExhNkdSZ1drS1c0VW5qLUtNVWhUOW9TSjBvdVBDd196TzdrUnJBZmNobUZsYmxLSHlubFNIWjZQN0Q0NTNPNGx1dVFaeUJrMUZxOA",
-        "why_it_matters": "The government's response to the landmark Islamophobia inquiry acknowledged anti-Muslim hate is 'dangerously close to becoming normalised' in Australia. However, ministers stopped short of the inquiry's headline recommendation: removing 'religious motivation' as a factor that can increase criminal penalties in terrorism laws — a provision critics say unfairly targets Muslim Australians. Civil liberties groups and Muslim community leaders are disappointed. The government says it will continue consulting on that specific recommendation, but hasn't committed to acting on it. It's a politically sensitive balance between national security policy and anti-discrimination commitments."
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONDZ1aFNtc2NTMkNPcWRJZWt3WC1kYTRTTWNmaFBzRWg0OUJRYTV0bndqRjRlbndCUm9hOHhmck9uZm5vSG1zQXdvRFYxcHdwZWgyS0lSbGJwZ3FROExhNkdSZ1drS1c0VW5qLUtNVWhUOW9TSjBvdVBDd196TzdrUnJBZmNobUZsYmxLSHlubFNIWjZQN0Q0NTNPNGx1dVFaeUJrMUZxOA?oc=5",
+        "why_it_matters": "The Albanese government has responded to a parliamentary report on Islamophobia in Australia, acknowledging it is 'dangerously close to becoming normalised.' However, the government stopped short of removing 'religious motivation' as a factor in terrorism laws — a key recommendation from the report. Advocates and community groups had pushed for this change, arguing the current framing unfairly targets Muslim Australians. The government's decision to hold back on that specific change is being seen as a political compromise, balancing community concerns against security agency preferences. The broader response signals Labor is taking the issue seriously, even if not going as far as some had hoped."
       }
     ]
   },
   "ai": {
-    "summary": "Two big AI stories dominating today: Google is under pressure after confirming a multi-month delay to its Gemini 3.5 Pro model, while China is making bold moves — launching both a new 30-nation AI governance body and the world's largest open-weight AI model.",
+    "summary": "A big week in AI: China's DeepSeek has released a new model (V4) that's being compared to ChatGPT and Claude, reigniting the debate about whether the US is falling behind in the AI race. Meanwhile, millions of Chinese users are being forced to end AI 'relationships' after a government crackdown.",
     "stories": [
       {
-        "title": "Google's Gemini 3.5 Pro is still MIA — delay sparks market concerns",
-        "source": "Mashable / TradingKey / varindia.com",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45S215YXpCY2JjNi1SSC1qaXNFT0k0WjdnZ0FRcEp1anYzcjJaaEtwSkN0VTdvdWVST2VfN0M0WWtTVWpCVEs1TlBpMnliRENjUG5vYWJCLTY0anRZb2g0Y2UwYw",
-        "why_it_matters": "Gemini 3.5 Pro was announced with fanfare at Google I/O earlier this year but still hasn't launched — and reports now say it's been pushed back by several months. This is a significant blow for Google's AI credibility. OpenAI and Anthropic have continued shipping models while Google has gone quiet. The delay is contributing to the sell-off in GOOG stock ahead of earnings and is a direct headwind for GXAI.AX, which holds Alphabet as a key position."
+        "title": "DeepSeek V4 Arrives — How Does It Stack Up Against ChatGPT, Gemini and Claude?",
+        "source": "MSN",
+        "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxObWlrWWY3SW1GWXI4X2lfb2xSdVZwNGlrd2FWdE9DbjFDeElSRjlxaFZRXzJ5QmpOV2d6cEtyVmVfd0JSRjQ3SG95MU10ZWhLUDg4cEg3UkxXeVoxY3ozZjRzMzRYeWVwOUVBUUlHTzAtRXhYRTZILXVKa2FVTk1JNU0yWE53ZEluWERhS0VTcDEyT0Yxd2hLTVpFc1NTZml0NzBCM3gxRVlocG0zOFBDemlxVDh1ek16V2tNaGVfOE5WbU42VFhnZ2d6YWxxTWt4Q0VHcUF2NkRUUG9vMlZNaWN3QWdjdEtMRFVfSXVXTXJ4bHJvOVZnNkcwZUQzcDdNUzdtTHR5OXRFZWhNY013UVFybXVHcW1Ua2YxU3FXQ2U0cGFOSHE2TDFvZXMzQVRUUjRxTW1MSTJCNkRqUHVUTkgxYnVJbVFRaFhSOHNRTklRenc5X2E3bmxLdE1sXzd2cEw1dw?oc=5",
+        "why_it_matters": "China's DeepSeek has dropped its V4 model, which is being benchmarked directly against ChatGPT (OpenAI), Claude (Anthropic) and Gemini (Google). Early comparisons suggest it's competitive on reasoning and coding tasks, and it's raising fresh questions about whether US AI companies are losing their edge. For your GOOG holding specifically, every strong Chinese AI model release adds competitive pressure to Google's Gemini — something to keep in mind heading into earnings."
       },
       {
-        "title": "China's Moonshot launches Kimi K3 — world's largest open AI model",
-        "source": "Reuters / Fortune",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE",
-        "why_it_matters": "Chinese AI startup Moonshot has released Kimi K3, described as the world's largest open-weight AI model (meaning anyone can download and run it). Open-weight models are significant because they let businesses and developers use cutting-edge AI without paying per-query fees to OpenAI or Google. Fortune describes it as 'Fable-level territory' — putting it in the conversation with the best Western models. It's another sign that China's AI sector is closing the gap with US rivals faster than many expected."
+        "title": "US 'Tying Itself in Knots' Over AI as China Releases New Model — David Sacks",
+        "source": "The Hill",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSXdFRUtsbTBPdGtHVTdPWDZ5TC1lV2xuRVRHMTU5aFhBbmdYdU9IZ3dvQkIwdTF6LVh1WFVNTXNRczh5OXA3WU5fQ1U5OHJld2lWdzkwQUlEUDNwTmNHVDUtSFVXVHFsMjBUUDhIQURhd2xoN3hfUk5kNHR0VDFfUDIxd1RBXzdXa0xSZklxLTBBWTNQZ2FteU5lWldPTWlCcGlDWEZ3LUrSAa4BQVVfeXFMUEFVN3lLb0Zmd2ROazVPeC1GY2M1Rk80NmhiSUJfVE12VUk1TnIxTDc1akVtWlhNRTZkVklGelM5Y3d6SUl5cU9HX0lTdjJ2RjMwSERjb2ZKQUxoZ0pIVFVYQk5ZOGFOcHlvc1poelU5QV9rdFlHVGNxQnBqY1FPTlMxb2c2UVBXZ1N2aG1OWXprMmltTGhUV0ZaZTVaQ1BGbW9QMkhVaGw4UEp0MHZ3?oc=5",
+        "why_it_matters": "David Sacks, the White House's AI and crypto czar, has publicly argued that the US is getting in its own way on AI by layering on too many regulations — just as China drops a new competitive model. His argument: while American companies navigate a complex web of rules, Chinese firms are shipping products. This is a real policy tension: too little regulation risks harm, too much risks falling behind. For investors in AI stocks, the regulatory environment is a key risk to watch."
       },
       {
-        "title": "OpenAI, Google and Anthropic in billion-dollar war to lock in startups",
-        "source": "MarketScale",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaVBaTzhUZ3BhR2ZYdVh4MTNWODh2dDBRb3NHZnBiZ1ZuNkVSdEREUkZramtjTHRQMjRIa0E5M0M5elZpNG9JWGxoSTlUZFhiVVhvb3dIQmRITE5WOEZDWDhoV0Z5Q1RmMlRlN3RDWjh1SEI5VjNkUEJfV0ZDQ2ZLOEVYWWh3NmVzZVh1cmROOEJvNGw3TE1ZN3RHNG1GbXEyUzdaWndjSkQyRmFubEwwYWtEX1YtNWd6UmJHMEV0N0pySE9JdVg3T3BBSVhnSC1PektGalJOY2dGeVJNclFhYzZYWQ",
-        "why_it_matters": "OpenAI, Google and Anthropic are now offering startups millions of dollars in free computing credits to lock them into their AI platforms early. It's a classic land-grab strategy: get developers building on your tools now so they stay forever. This massive spend on customer acquisition is why all three companies are burning cash despite enormous revenues. For investors, it signals the AI platform wars are intensifying — the winner will have enormous leverage over the next generation of software businesses."
+        "title": "Millions of Chinese Forced to End AI 'Relationships' After Government Crackdown",
+        "source": "ABC News",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTWJFSU96bGZFVHExajlKbEx3ZWhNMXc0dmRqSFpLQ3JLOW9NdlpOM3NyRG9ERWctOVREY0hWcXd5dXcxWFNnaGMwYTNhUUQ2TXZIUFBZNmhnTXA1NXNsbjBlOVV2UDRYMUpBcFVsVDlTd0czQXg3S1JlQ0hnZ1RfNTdURVNRa3VXS3c1S0p6V1RfcjExVTVFMmtqZVZJSVhveDNfNC1WSQ?oc=5",
+        "why_it_matters": "Millions of Chinese users have been forced to cut off AI chatbot 'relationships' — emotional bonds with AI companions — after Beijing ordered platforms to restrict or shut down these services. Users described distress and grief ('my heart is empty') at losing what had become meaningful daily interactions. China's government is concerned about people forming deep emotional dependencies on AI, and the crackdown is one of the most striking examples yet of how governments are trying to manage the social effects of AI. It also shows the commercial risk for AI companion apps globally — regulation can kill an entire product category overnight."
       },
       {
-        "title": "China and Russia form 30-nation AI governance body — US excluded",
-        "source": "Computerworld",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUm83eVl1dVkzV0ZZMGw1UHFUQWJ0ZE5ZT2VIUDF1RU5NZFFubXJqcDY0SDg3clpncF9LZGFZZ1V1NmtTVmxTV0h6RWZDRHc3WW1MTmJOZWFycy1KQ1Uzc21WY2JfNGNxOGIycXhWYXBWTjI3eFJaS082My1mcVlIZXVyazVIcENEMlNIQ09EMlRXMy1sem1TMlZfT09OekVBTVNOUlFyMERFdmRkVWc",
-        "why_it_matters": "Xi Jinping formally launched a new World AI body this week, signed onto by China, Russia and 27 other nations — with the US pointedly absent. The alliance aims to coordinate AI development standards and regulation among member states, effectively creating a parallel AI governance framework to whatever the US and Europe put together. It's a geopolitical split that could affect how AI products are sold, regulated and used across different parts of the world — with major implications for global tech companies."
+        "title": "Peter Thiel's 'Antichrist' Theory of AI Regulation Goes Public",
+        "source": "Fortune",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbVR1WUM1MFFXVHlOR2JwYXRBdEM1bzlRY3JoTTJNSUlFUkRJTmxHX0dTOTU4ZlhRUExBMXZLRlUyNnpYYjdiM0tNVzRTaFJjNXI5U1B5UFVONklWdEMwSU9mejczOVRyT0ZYVU10eDlyblk1cm9WYl9lcGlsTEtWa2MyXzl3empjWUl0LWdB?oc=5",
+        "why_it_matters": "Tech billionaire and Trump ally Peter Thiel has publicly shared what Fortune calls his 'Antichrist' theory — the idea that climate and tech regulators represent a kind of existential threat to human progress, and that AI should be left almost entirely free from government oversight. Thiel is highly influential in Silicon Valley and among Republican policymakers, so his framing matters for how AI regulation gets shaped in the US. It's a stark contrast to the EU's heavy-handed approach, and it puts the spotlight on a fundamental question: who gets to decide how powerful AI systems are governed?"
       }
     ]
   },
   "sport": {
-    "summary": "NRL Round 20 is well underway with some cracking results — the Raiders thumped the Rabbitohs 34-24, the Roosters beat the Storm 14-6, and the Sharks survived a late scare against the Knights 20-18. Warriors and Dragons are locked at 6-6 in the first half right now. On the AFL front, Fremantle are in scintillating form.",
+    "summary": "A massive Round 20 in the NRL wrapping up this weekend on the Gold Coast, with the local Titans pulling off a thriller against Manly at Cbus Super Stadium. The Bulldogs and Raiders kept their finals dreams alive, while the Tigers had a nightmare week. In AFL, Tom Lynch hit 500 career goals.",
     "stories": [
       {
-        "title": "Raiders down Rabbitohs 34-24, Roosters beat Storm 14-6 in Round 20",
-        "source": "NRL.com",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNmVjZ1ZRYkJNZGNfUXluTEs2SG5lM2R2STJEZUk1V2s0OFBvRF9NcmxhMXRlMFhjdmp3ajJZb3ZJazRmZThBZTZHVlF3UVVfbmRxOUQwTTBfbW1aMHNCQ3hXb2tyUDBXeTBqLUZaeFRXWnBEWllucXhwbFhWN1RrMzNmVWItQW90NkFNeUdvMUJSWlhVakRYMmF4TExSM0JwY3BIdXJ1YVdweXVyQ0phVTVkcw",
-        "category": "NRL",
-        "why_it_matters": "The Raiders were dominant in Canberra, beating the Rabbitohs 34-24 in a high-scoring Saturday afternoon clash at GIO Stadium. Earlier in the round, the Roosters were solid at home, shutting down Melbourne Storm 14-6 at Allianz Stadium on Friday night. The Broncos also snuck past the Panthers 14-12 on Thursday to open the round. Warriors vs Dragons is live right now, locked at 6-6 in the first half at Go Media Stadium."
-      },
-      {
-        "title": "Sharks survive Ponga blunder to beat Knights 20-18",
+        "title": "Titans Stun Sea Eagles 38-32 in Gold Coast Thriller",
         "source": "Fox Sports",
-        "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNdnI5cVZWVkg0U3NPOGpXLXRGbEFwTUFJZjZmNXZPc2xPUksweVQ2NXhTVlBqOUhWeU5CZS1sTURDZlk1SVpVdlZxdjAyc04zWEhIaDlycnI3ZHhRTGdVQzBmNDNuOFB0TF9vNy1VN18wWXdmUXkwcFh5Rm5rNWtsQ0VVZERKcURKZXdKZ2RHUGFCUjFZNVhkazV4QnppNERTWFN5RXVjVmVNRDBHd3JoR2FacG01WVVleUxlNzRvU2tLR0liRWlaQUF3d0NCZUU0UUtldGwzcUNkcmMyYW50YVRiOXpyWTdVQUtKelF0eFFpY2hweUg1NHcweHdRV3M4ZTVickFZckNTdkdDSXhDS3FPWmJKMmdCSGEwUjNTYWk3eEFOVkRSempyZXFnTW1VN3I4",
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNZHBiVkxmU0l0bXJ4MmppME5vb2c2Wk0yejNtMm9YT2NXakJMSVJmQ2UzXzdneEpWUHJBSURPY0RQQWNVTXUxZmlaT0FlQ09FMFBDMnFHdjNMUFBZUVRKRE9CZ01DYWxWU0czY2MwN3BxOHVGU2lQUjBNN1FDOGMzNUpLSDRaUjh4ZmN5MFJmdnFBVGlkRnY1N3FIZlg4el9fNnRCY21ibXUyMm5idk03bnhXOWJCODBya1A3dFgwQ29NWXhiSXBRNUFCQmlUVTl0ZTNEcmYyMV81RU1NZF9mNFA2MnVIUVBFMjY4WW04RGU5NTN4UVVUS1cwaFNfQWRIYU5GLVJmR21WQdIBigJBVV95cUxNZHBiVkxmU0l0bXJ4MmppME5vb2c2Wk0yejNtMm9YT2NXakJMSVJmQ2UzXzdneEpWUHJBSURPY0RQQWNVTXUxZmlaT0FlQ09FMFBDMnFHdjNMUFBZUVRKRE9CZ01DYWxWU0czY2MwN3BxOHVGU2lQUjBNN1FDOGMzNUpLSDRaUjh4ZmN5MFJmdnFBVGlkRnY1N3FIZlg4el9fNnRCY21ibXUyMm5idk03bnhXOWJCODBya1A3dFgwQ29NWXhiSXBRNUFCQmlUVTl0ZTNEcmYyMV81RU1NZF9mNFA2MnVIUVBFMjY4WW04RGU5NTN4UVVUS1cwaFNfQWRIYU5GLVJmR21WQQ?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Sharks held on to beat the Knights 20-18 in a thrilling finish at Ocean Protect Stadium on Friday night. Newcastle's Kalyn Ponga had a costly error late in the game that proved decisive. It was a nail-biter that went down to the wire — the kind of game that will feature heavily in the Round 20 highlights."
+        "why_it_matters": "Your Gold Coast Titans delivered a belter at Cbus Super Stadium this afternoon, beating Manly Sea Eagles 38-32. Fox Sports described it as a 'devastating double blow' to Manly's finals push under coach Kieran Foran. A high-scoring, back-and-forth game — great result for the home side."
       },
       {
-        "title": "AFL: Fremantle fire five goals in quick succession in big win",
+        "title": "Tigers Get Flogged 32-0 by Bulldogs, Then Two Stars Handed Bans",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxONFI1VUx6a1BmYXhwUmRJYmk1OFVvSE9IQnlFMHFRZ1FtYjN3Z21NZTBqRjl0S2huajRSZjZaaG5LTl8wRENJY0FMVTZTRXRCOU9kNEFoR0Y2MWdUVlJTTXVRZng5LUF1dWFRT3h3b2lCNTBIYUlXQ3BMcEQzelF4VXNFcXhCRFRZZXRJY25zaHh2WjcteU9PRmVuVmhpR3NFLVFkUGdsUVpvMzZQX3hmRkd4aGZFcVNIY28wX2JOMVdMM1hkRXVuY0ZaUElNTzRGNDhuZ2JKZm5tOXdPRzNWT0pTT3ZGTjNnR2EtVHJEQ0FrWklxLV90UkJ0bjF5TElPVEFHMjlfQmRNTzczU1h2U0FkM2dJREV5aDBJdW5sUzR0Z3Z0cVM1RDMyUHhUZjh5cUpiS1ZhdHNfS2xsRmhleUFVejRlMndneEFkTXlpbHd6NVNVSldZaU1qaS1hNVM2SjhjVnpn0gHmAkFVX3lxTE40UjVVTHprUGZheHBSZEliaTU4VW9IT0hCeUUwcVFnUW1iM3dnbU1lMGpGOXRLaG5qNFJmNlpobktOXzBEQ0ljQUxVNlNFdEI5T2Q0QWhHRjYxZ1RWUlNNdVFmeDktQXV1YVFPeHdvaUI1MEhhSVdDcExwRDN6UXhVc0VxeEJEVFlldEljbnNoeHZaNy15T09GZW5WaGlHc0UtUWRQZ2xRWm8zNlBfeGZGR3hoZkVxU0hjbzBfYk4xV0wzWGRFdW5jRlpQSU1PNEY0OG5nYkpmbm01d09HM1ZPSlNPdkZOM2dHYS1UckRDQWtaSXEtX3RSQnRuMXlMSU9UQUcyOV9CZE1PNzNTWHZTQWQzZ0lERXloMEl1bmxTNHRndnRxUzVEMzJQeFRmOHlxSmJLVmF0c19LbGxGaGV5QVV6NGUyd2d4QWRNeWlsd3o1U1VKV1lpTWppLWE1UzZKOGNWemc?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The Wests Tigers had a horror Saturday — thrashed 32-0 by the Bulldogs at Accor Stadium, then had two key players handed suspension bans after the match. A brutal double blow for a club already well out of finals contention. Meanwhile the Bulldogs kept their own finals dream alive with the big win."
+      },
+      {
+        "title": "Warriors Eye Minor Premiership After Scraping Past Dragons",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNRHVMcHN3ZFRxNGVEcXRJb2VEZUFxSEZyWUc3cHFpaUkwQkVqODl2OGVPZHRpV2w5RnczOGd6cmJ1VFdYNHM0XzRlaU93OG1RS1FrX2IxNFQwR01TVEtQM0JiUzFvSWhLclp3cTY1dFExY0had19qVmtXbE5sakM2TWk5TWEwYVB4akNTSFdWdTBiRjNIZnczS0ZvLXVQdmZUR0ZidFZfNS1xMFlmTWRIVjV1eEhsT1NIZGw4STZiS0tYSE45NV9vZVJYQUJrZzFObDhnMnFFZWYxRzIzd2tWOFBUNWdKTEhBNzVPWUtzdURiR2g0b28zMDRzZ1ZRNExDV09wQ0xYSWU2SzdVYjd5bGYxZmRBU3dWZlBmUEhjbmkwaHpiNnI2bjJuc2k0SDh0TXpzMkJCZnBJLVU4dVBZbzZwUEgxNFJOd3ZmQjB6cjBCUQ?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The New Zealand Warriors had to survive a scare against the Dragons, winning 20-12 in a game that was closer than the score suggests — the Dragons fumed over refereeing decisions after the game. But the Warriors got it done, and with the result they're now eyeing the minor premiership (finishing top of the ladder) heading into the back end of the season."
+      },
+      {
+        "title": "Dolphins Demolish Cowboys 36-16 at Suncorp",
+        "source": "NRL.com",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNmVjZ1ZRYkJNZGNfUXluTEs2SG5lM2R2STJEZUk1V2s0OFBvRF9NcmxhMXRlMFhjdmp3ajJZb3ZJazRmZThBZTZHVlF3UVVfbmRxOUQwVDBfbW1aMHNCQ3hXb2tyUDBXeTBqLUZaeFRXWnBEWllucXhwbFhWN1RrMzNmVWItQW90NkFNeUdvMUJSWlhVakRYMmF4TExSM0JwY3BIdXJ1YVdweXVyQ0phVTVkcw?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The Dolphins put on a show at Suncorp Stadium today, belting the Cowboys 36-16 in a statement performance. A dominant result that keeps the Dolphins firmly in the finals mix heading into the pointy end of the season."
+      },
+      {
+        "title": "Tom Lynch Kicks Career Goal 500 in AFL Milestone",
         "source": "afl.com.au",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOOEhGYWE1T2tIeHZWenk4V1BwZHhXYXhOOFFYQ0s4RzVRQnRvMDlUWXpqMkU1UGpEbG9vRlhnMG5iUXBfZzBIUDhld0pqWTFYZEhNSV9MRHE5aUlKNVBlRkRXb1NxUmpIRE9CM2pfM1cxMUJkc0d6WjRrQ0x2dnUxR1NRWkIzQjY5QTF2Q0ExVnFtc0UtM0U0RmpRWHJkT0g4MHYxUlJKVmZWOEhkNWJqUFFaTDZCd3pzMU1uOEVwLWtJUUxkQm9FT01RXy1jbnBjdWViRzR6UFRtWVF2YU1JWFZBUUMxbGtTS0Z2Rmx3",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUXZYZjYxWGxQVllqNWsyTkdCa3otNjJwWUFxUTdJUVVIcnVYbkVUMV93ekdfVE0xSjlCVXJwV0hWZjYyelo0aFFIM0tGZ2xtRUNDQjdzcTFTcTRGV09fbVhPN2ZjbVdjZWc3dDV1dUhWR1I5Yks4ZmZNTTBkTkZuRkt3QkMzMXNlVVZwT2NqZkJZWnltb1hfOWVXTVZ1dWR6WUZXQVdDb3FmZVI4Z0gxMVpGOW1iY1JfRjFyUjJ5YmxiLUNGQVY4X1BYR1hKLTczUTBtTU1tN2s4dw?oc=5",
         "category": "AFL",
-        "why_it_matters": "Fremantle put on a clinic this week, firing five goals in rapid succession in what commentators called 'a significant surge.' The Dockers are building a head of steam as the AFL finals race heats up. Zero Hanger also published an analysis today looking at the one major concern for every flag contender heading into the business end of the season — fitness and depth are the key themes."
-      },
-      {
-        "title": "Geelong's controversial moment divides AFL world",
-        "source": "Yahoo News Australia",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOU1VCTk5aVDlDakhKUUtUWmZJbUcwUWRXdk1lcFpBY3pwODA1cXdKQkdyYjRtSzBmR0pZV2VJaHpuWVoyWjY3SlllN3plWDdRQ0x4eURsR3RISlZZbEhITlFBTmRPYV9aak1VZ1hEY2NYSGR5Zml6S1pqd0ZpZGp5d0Q2c3Y4dnJ1Q2llR095aXM4MkNIMlFpR0Jzc0hWSmNfUmRVSmRHdzJvZ2hhV0xTeGt3NktUMVpyUHlhWGRVbXBwem1mRTBDWkx3",
-        "category": "AFL",
-        "why_it_matters": "A controversial moment in Geelong's latest win has split the AFL community, with commentators and fans saying they've 'never seen that' before. The incident hasn't been fully described in available article text, but it's generating significant social media debate and is likely to be a hot topic heading into the weekend's footy coverage."
+        "why_it_matters": "Richmond's Tom Lynch reached 500 career AFL goals this weekend — a rare milestone in the game and a personal moment a long time coming for the veteran forward. Lynch has had an injury-interrupted career, making the achievement all the more meaningful."
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "🌦️",
-    "condition": "Light drizzle",
-    "temperature_c": 16.3,
-    "high_c": 20.2,
-    "low_c": 14.4,
-    "rain_chance_pct": 100,
-    "rain_mm": 6.4,
+    "icon": "⛅",
+    "condition": "Partly cloudy",
+    "temperature_c": 17.6,
+    "high_c": 20.8,
+    "low_c": 15.5,
+    "rain_chance_pct": 88,
+    "rain_mm": 5.8,
     "tomorrow": {
       "icon": "🌦️",
-      "condition": "Light showers",
-      "high_c": 18.7,
-      "low_c": 15.3,
-      "rain_chance_pct": 98,
-      "rain_mm": 18.7
+      "condition": "Light drizzle",
+      "high_c": 21.0,
+      "low_c": 16.2,
+      "rain_chance_pct": 67,
+      "rain_mm": 1.1
     }
   },
   "nrl_round": "Round 20",
@@ -324,10 +325,10 @@
       "away": "Dragons",
       "home_badge": "https://www.nrl.com/.theme/warriors/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/dragons/badge.svg",
-      "home_score": 6,
-      "away_score": 6,
-      "completed": false,
-      "live_label": "1st Half",
+      "home_score": 20,
+      "away_score": 12,
+      "completed": true,
+      "live_label": null,
       "day": "Sat 18 Jul",
       "time": "5:35 pm",
       "venue": "Go Media Stadium",
@@ -338,9 +339,9 @@
       "away": "Wests Tigers",
       "home_badge": "https://www.nrl.com/.theme/bulldogs/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/wests-tigers/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 32,
+      "away_score": 0,
+      "completed": true,
       "live_label": null,
       "day": "Sat 18 Jul",
       "time": "7:35 pm",
@@ -352,9 +353,9 @@
       "away": "Sea Eagles",
       "home_badge": "https://www.nrl.com/.theme/titans/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/sea-eagles/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 38,
+      "away_score": 32,
+      "completed": true,
       "live_label": null,
       "day": "Sun 19 Jul",
       "time": "2:00 pm",
@@ -366,9 +367,9 @@
       "away": "Cowboys",
       "home_badge": "https://www.nrl.com/.theme/dolphins/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/cowboys/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 36,
+      "away_score": 16,
+      "completed": true,
       "live_label": null,
       "day": "Sun 19 Jul",
       "time": "4:05 pm",
@@ -500,5 +501,5 @@
     "total_pnl_pct": -6.12,
     "aud_usd_rate": 0.6985
   },
-  "generated_at_utc": "2026-07-18T08:08:56.948918+00:00"
+  "generated_at_utc": "2026-07-19T08:10:44.331078+00:00"
 }
