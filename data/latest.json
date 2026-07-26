@@ -1,249 +1,262 @@
 {
-  "headline": "US-Iran conflict escalates as ASX pulls back — Google's record profit and Anthropic's new AI model headline a busy week.",
+  "headline": "ASX fell 0.75% today as RBA rate hike fears bite, while the US-Iran conflict shows signs of easing and Microsoft's big earnings drop Tuesday night AEST.",
   "portfolio": {
     "movers": [
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": -2.15,
-        "note": "GXAI slipped 2.15% today, likely tracking broader tech weakness on the ASX. The NASDAQ fell 0.64% last night, dragging AI-exposed names lower. Nothing structural has changed — the long-term AI investment theme remains intact."
+        "note": "GXAI had a rough session today, falling 2.15% alongside the broader ASX tech selloff. No specific catalyst — this one tracks global AI stocks and tends to move with overall market sentiment. The long-term AI growth story remains intact."
       },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": -2.13,
-        "note": "PLS dropped another 2.1% today as lithium sentiment stays subdued. The stock is now down nearly 39% from your entry price. Debate continues about when lithium demand will recover, but there's no near-term catalyst in sight."
+        "note": "PLS slipped another 2.13% today, continuing its weak run. Lithium prices remain depressed globally as EV demand growth has come in softer than expected. This is a structural headwind, not just a one-day blip — the stock is now down nearly 39% from your entry."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": -1.32,
-        "note": "VGE fell 1.32% today, reflecting broad pressure on emerging market assets. Rising geopolitical risk (US-Iran conflict, Trump's trade manoeuvring) tends to push investors toward safer havens and away from emerging markets."
+        "note": "VGE fell 1.32% today. Emerging market ETFs have been under pressure as the stronger US dollar and ongoing geopolitical uncertainty — including the Iran situation — weigh on investor appetite for riskier assets."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -0.71,
-        "note": "VDHG dipped 0.71% today as the ASX 200 slid 0.75% across the board. This is just general market noise — the fund holds a globally diversified mix of growth assets and one soft day changes nothing about its long-term case."
+        "note": "VDHG dipped 0.71% today, tracking a soft ASX session. As a diversified fund holding a broad mix of global and Australian shares, it tends to mirror overall market mood — nothing specific to worry about here."
       },
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market ETF",
         "change_pct": -0.51,
-        "note": "VTS eased 0.51% today on the ASX, reflecting last night's NASDAQ softness filtering through. The S&P 500 was essentially flat last night, so this is minor. Your VTS position is still slightly in the green overall."
+        "note": "VTS edged down 0.51% today. This reflects a slight lag in the AUD-priced version of US equities — the underlying US market was flat last night, so this dip is mostly AUD/currency noise rather than a signal about US stocks."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": 0.61,
-        "note": "TTWO nudged up 0.61% last night. GTA 6 hype continues to simmer — Take-Two has been actively targeting fake AI-generated leaks ahead of an anticipated new trailer, keeping the title in the news cycle and supporting sentiment."
+        "note": "TTWO nudged up 0.61% last night, buoyed by ongoing GTA 6 hype — a third trailer is widely anticipated and Take-Two has been actively fighting AI-generated fake leaks, suggesting launch preparations are well underway."
       },
       {
         "ticker": "GOOG",
-        "name": "Alphabet (Google)",
+        "name": "Alphabet Inc. (Google)",
         "change_pct": 0.24,
-        "note": "GOOG edged up 0.24% last night after posting the biggest quarterly profit in the company's history. There's a nuance though: about two-thirds of that profit came from unrealised investment gains rather than core business cash. Markets took it calmly — the AI spending debate continues."
+        "note": "GOOG crept up 0.24% last night after reporting mixed earnings — cloud revenue surged strongly but other segments came in below some analyst expectations. The market is broadly comfortable with the result, with the cloud growth story keeping sentiment positive."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": 0.03,
-        "note": "MSFT was essentially flat last night, up just 0.03%. Microsoft reports earnings this coming week — Azure cloud growth is the key number to watch. Analysts are expecting near 40% growth in Azure, but investors are also watching whether AI infrastructure spending is eating into margins."
+        "note": "MSFT was essentially flat last night, up just 0.03%, as investors hold their breath ahead of Q4 earnings on July 29 (Tuesday night AEST). Expectations are high — analysts are bullish on Azure cloud and AI growth — so the print will be a big moment for this holding."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "PLS.AX — Lithium pain continues",
-      "detail": "Pilbara Minerals is down another 2.1% today and sitting 38.6% below your average entry price. There's no near-term recovery catalyst — lithium prices remain depressed and the broader debate about demand timing is unresolved. As a long-term buy-and-hold investor, the question is whether you believe in the EV/battery thematic over a 5–10 year horizon. If yes, sit tight. If conviction has faded, this is worth reassessing honestly.",
+      "title": "Microsoft earnings Tuesday night — big moment for your MSFT holding",
+      "detail": "MSFT reports Q4 earnings on July 29 US time — that's Wednesday morning AEST. The stock is rated Strong Buy by multiple analysts on the back of Azure cloud and AI growth. Your position is currently down about 14% from your entry, so a strong result could be a meaningful recovery catalyst. Hold tight and watch the print.",
+      "urgency": "red",
+      "ticker": "MSFT",
+      "action": "hold"
+    },
+    {
+      "title": "PLS continues to slide — down 38.6% from your entry",
+      "detail": "Pilbara Minerals fell another 2.13% today and is now one of your biggest losses in dollar terms (-$57.86 AUD). The lithium market remains structurally oversupplied and there's no near-term catalyst on the horizon. For a long-term holder, the question is whether you still believe in lithium's role in the EV transition — if yes, sit tight. If your conviction has changed, it's worth reassessing your thesis, not just reacting to the price.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "GXAI.AX — Soft session, long-term story intact",
-      "detail": "GXAI dropped 2.15% today tracking NASDAQ weakness. It's now 18% below your entry cost. The AI theme is very much alive — Anthropic just launched Claude Opus 5, Microsoft is cutting AI costs by up to 89% with new in-house models, and GOOG just posted a record profit. This is a structural multi-year bet, not a short-term trade. Hold and let it ride.",
-      "urgency": "green",
+      "title": "GXAI down 18% from entry — AI theme intact long-term",
+      "detail": "The Global X AI ETF dropped 2.15% today and is your second-largest loss at -$53.89. However, this week brought fresh signals that the AI investment boom is alive — Microsoft launched a new MAI model family and both MSFT and Nvidia are lobbying hard on AI policy. The long-term thesis for AI stocks looks solid. Sit tight.",
+      "urgency": "orange",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "MSFT — Earnings incoming this week",
-      "detail": "Microsoft reports earnings in the coming days (US time). Azure cloud growth near 40% is already expected by the market. The real question is whether AI capex (capital expenditure — money spent building data centres and infrastructure) is starting to pay off. A beat could give MSFT a meaningful lift; a miss or guidance cut could weigh on it. Worth keeping an eye on — but no action needed ahead of the print.",
-      "urgency": "orange",
-      "ticker": "MSFT",
-      "action": "hold"
+      "title": "RBA rate decision looming — watch inflation data this week",
+      "detail": "Key Australian inflation data drops this week, followed by RBA Governor Michele Bullock's speech. Markets are split on whether the RBA hikes rates next month. A hike would likely push ASX lower and squeeze households further. Your VDHG and VGE holdings would feel short-term pressure, but for a long-term holder, any dip from a rate decision is noise.",
+      "urgency": "orange"
     },
     {
-      "title": "GOOG — Record profit but watch the detail",
-      "detail": "Google's last reported quarter was its biggest profit ever, but about two-thirds came from unrealised investment gains — meaning paper profits on investments, not cold hard cash from selling ads or cloud services. The core AI investment thesis is strong, and the stock nudged higher last night. Long-term holders should stay put.",
+      "title": "GOOG mixed earnings — cloud surges, long-term case intact",
+      "detail": "Alphabet reported mixed Q4 earnings last night — cloud revenue surged strongly, which is the key long-term driver, but some other segments were softer. The stock edged up 0.24% on the result. Your position is up 3.79% overall. The cloud and AI story remains compelling — hold and let it run.",
       "urgency": "green",
       "ticker": "GOOG",
       "action": "hold"
     },
     {
-      "title": "Oil drops 3% — watch inflation implications",
-      "detail": "Crude oil fell sharply last night, down 3.1% to US$89.31/barrel. Cheaper oil is generally good news — it eases inflation pressure, which can reduce the need for interest rate hikes. Worth watching if it continues lower, as it could be a tailwind for consumer spending and equity markets broadly.",
-      "urgency": "orange"
-    },
-    {
-      "title": "US-Iran conflict — geopolitical risk elevated",
-      "detail": "The US and Iran have been exchanging military strikes on bases across the Middle East. The UN Secretary-General has warned the situation is 'getting out of control'. This kind of escalation typically spooks markets and pushes investors toward gold (which hit US$4,067 last night, up 0.5%) and away from riskier assets. Keep an eye on how this develops over the weekend.",
-      "urgency": "red"
+      "title": "Oil dropped sharply — good news for Australian consumers",
+      "detail": "Crude oil (WTI) fell 3.12% last night to $89.31/barrel, easing from recent highs driven by Middle East tensions. This should take some pressure off petrol prices, which had been threatening to push above $2/litre. Good background news for household budgets and consumer-facing stocks.",
+      "urgency": "green"
     }
   ],
   "world": {
-    "summary": "The biggest story globally is the US-Iran military conflict escalating across the Middle East, with the UN warning it's getting out of control. At home in the US, the Trump administration is facing lawsuits and internal admissions about using federal funds as political leverage.",
+    "summary": "The US-Iran conflict appears to be pausing at a critical juncture, Brazil is pushing back against US election interference, and Trump's mail-in voting executive order has been blocked by the courts.",
     "stories": [
       {
-        "title": "US and Iran exchange military strikes across the Middle East",
-        "source": "The Guardian / ABC News",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlVBTzF2UmRLd3NfSTduZklYWlUzcDdGZ2hkalFWdWI1b1JaSmVCdGFyQ0VhM3ZqNXE3VkFIQ2ozdG9QVUFuUnpKU3U4NmhLMTBRSWRpTGJacDRDQnpxM0ZyZFY3bmt2Nlh5ZDZUUGM2Y3dHVFZUc2RnV1owc3QzYzNxbS1na2ZYSDZELTZFN3FQMGxDaVB5YWh3VzRaUEFrQW9sNzhrZlBqWXBjUjlDWVhjblREdnQ3X2c?oc=5",
-        "why_it_matters": "Iran has been attacking US military bases across the Middle East, and the US has responded with strikes on Iranian targets. The UN Secretary-General has warned the crisis is 'getting out of control.' This is a significant escalation beyond the rhetoric of recent years into actual military exchanges. For everyday Australians, the flow-on effects include oil price volatility (though oil actually fell last night), and broader market uncertainty. The Pentagon has also been caught apparently reducing the published count of US troop deaths on its website, raising transparency concerns."
+        "title": "US-Iran conflict enters an uneasy pause as Trump holds off on escalation",
+        "source": "The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4ZDFwek83TzF4YkIzeWJRVUo0Umg0QkpkVHZWSEVkOC1QTHNqLThmdHlPdDhEVjEza2xQVW9LeFktSFZ6N2Jza2xPSEdhUXVGSEJ1VUtGNUEtRmFvdk9FQ3gyYlFBbnVZckpxY2VtUkFTNUo4dDNNMVN4WQ?oc=5",
+        "why_it_matters": "Trump has decided against a major new military escalation against Iran, with advisers raising concerns about the cost and risks of going further. Trump claimed the US has 'hit Iran very hard' and crippled it, but both sides appear to be stepping back from the brink — at least for now. The Houthi militia backed by Iran also fired missiles at Saudi Arabia this weekend, keeping regional tensions alive. For everyday Australians, this matters because ongoing conflict in the Middle East drives oil prices and global uncertainty — the pause has already helped push crude down over 3% last night."
       },
       {
-        "title": "Trump administration admits cancelling clean energy grants to Democratic states",
-        "source": "The New York Times / The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYmk2djVPOGJkbUw5WU5TMUVsblkzOUsxT2w2cFdkNXVyNEJaN1VLZ3VGZ1E0bWNWcEpvTzJ1VmpxdUVlZXdKRjd3OWl1SVJ0ZnU0bTJZZG9LQ2hTSU9FNGtiRlNWaDNaWHJxOTFoaVZMZi1HQ1ZrVlF5bmE3YWVsSDhB?oc=5",
-        "why_it_matters": "The Trump administration has officially acknowledged it cancelled clean energy grants specifically to states that did not vote for Trump in the election. Multiple US states have now sued the administration, arguing it's illegal to use federal disaster and energy funds as political punishment. This is a significant constitutional flashpoint — the rule of law around federal funding has rarely been tested this openly. It also signals that US climate and energy policy is being driven by electoral politics rather than policy merit."
-      },
-      {
-        "title": "Trump administration driving to seize control of US election powers",
-        "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdmozcnozLVBKRWxqSlNEb1FHeXUwb2lUdndBYWFVOGtqTjJZalZMaEdlX1gtbnhrWDdGOUkwR0kxY0VSOUkzVy03UzBZSUxTazMwTWNGMnFFakNOdmxUTHBkTW5rZUpsUTRVTTAtdU5TLTBzT3hCOGdHcVQ0a3V5Y0dMVnZTT3MzQmdZ?oc=5",
-        "why_it_matters": "The Trump White House is reportedly pushing to take control of how elections are administered in the US — a power that has traditionally sat with individual states. Critics say it's creating 'chaos' in the electoral system with legal pushback from states mounting. This is a slow-burn story but a consequential one: if successful, it would represent a fundamental shift in how the world's largest democracy runs its elections. US political instability of this kind can weigh on investor confidence over time."
-      },
-      {
-        "title": "US sends envoys to question Brazil's electoral system",
+        "title": "Brazil blocks US diplomats over election interference fears",
         "source": "The Washington Post",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQWxWMWluUFJhdlVULTlseEZ3RXR0X2wyeDd1c3h3bGt6T1BPbk94Ml93bVNQblExSmJ4cllqaVlCMjcwUXUtcThWMEo3RFM5R2JzNTlhX1N5UEszcENHMlliejk2S19fSlUtR1ZEVWpNc19uZm42YTI4cVM0YWNkN0lmX0ZWd21xYmIyWEMxY2hkVWtMY016N3VmTkJrNDhFeGl5eC1WNnU0TW9lV3BqX091OUJWckk?oc=5",
-        "why_it_matters": "The US has sent official envoys to Brazil to scrutinise its electoral system, an extraordinary diplomatic move that has raised eyebrows internationally. Brazil held elections in 2022 and its results were contested by then-President Bolsonaro. Critics see this as the Trump administration exporting its election-denialism abroad. It puts significant diplomatic strain on the US-Brazil relationship and reflects a broader pattern of the administration challenging democratic norms both at home and overseas."
+        "why_it_matters": "Brazil has refused to grant visas to a US government delegation that Brazilian officials say was planning to meddle in their upcoming elections. It's a significant diplomatic rebuff — Brazil is essentially accusing the US of trying to undermine its democratic process. This adds to growing global friction over US foreign policy under Trump and signals that South American nations are increasingly willing to publicly push back on Washington."
       },
       {
-        "title": "India emerges as potential alternative to China in global solar supply chain",
-        "source": "pv magazine Global",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeXdUdEF0T2U2b05lVjFBY0tTOXA4WGlDWHl0VzlHcnVCRUhpZmtXbmM3Q0RVekFkTl9ORVY5bDlSdkFjbXFFMWhsSy1pRDd2cDRldUZsQUFCbWVFT2hUVUNOVjA0d1hCOVpsVXJjUzRTTW1iRE1jQjFmd0V4Z2lGNmFiaUZQejVVT1lLdGotN2RNSnMwMVVpVGJ3Wm11QVVyX3BhaW9SMXl0X051bkV3Qk9qTmtncFdVRndoMWM5QU9RcWE0NnFCSnBWMERYWlpE?oc=5",
-        "why_it_matters": "As the US and others look to reduce dependence on China for solar panels, India is positioning itself as the key alternative manufacturing hub. Solar panels are the backbone of the global clean energy transition, and China currently dominates their production. A credible Indian alternative would reshape geopolitics around energy, potentially giving Western countries more supply chain security and reducing China's leverage. For Australian investors in clean energy or emerging markets, this is a slow-developing but important structural shift."
+        "title": "US appeals court blocks Trump's executive order restricting mail-in voting",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb1dzZ1lGcXBsWG1aUzN6cHI4WGpIQUFBQmNKaFBJbl8wRVUybWhidGhyLXFLOVFjVGpLS2ZpTWlzV3VDWXBUV3R2SGtjNTV4ZG80N0F1aDBsZlJtQWI5dWExQk1FcmRPOHdjY19nb3I2Rk11N0VoelJWYndzX1JtNThEcDJiaFNZZlE?oc=5",
+        "why_it_matters": "A US federal appeals court has ruled that Trump cannot implement his executive order aimed at restricting mail-in voting across 23 states. The order would have required voters to provide proof of citizenship and limited how ballots could be returned. Courts have now blocked it, delivering a significant legal defeat for the Trump administration's push to reshape how Americans vote. This is part of a broader pattern of the courts acting as a check on executive power in the current US political environment."
+      },
+      {
+        "title": "Trump administration admits cancelling clean energy grants to Democratic-led states",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMWpkbWdTUW9ZRVlfVDlUcERobDV4dWpnLWhtNFN5MzdSTW9NdDk1RmdaU3FKQXFLOXdOM09MdUQ5OTkzS2tSMThSQ1p0YnJ2LURPQy1RZy1wVGpUNW1aMEs4Z1FUcGRQRHowRVN6VFRjandham5YOHdueUU1djltYUJVclAwY3ppQUVOWHpQZ1luLWlLMWlkbTl6aEFxekJodTJQcEo5SWZ3YkpfVlFzMg?oc=5",
+        "why_it_matters": "The Trump White House has officially admitted it cancelled billions of dollars in clean energy grants specifically targeting states that vote Democrat. Officials confirmed the grants were pulled as part of a politically motivated rollback of Biden-era climate spending. This is significant because it confirms what critics had alleged — that federal funding is being used as a political weapon — and it sets up major legal battles over whether the executive branch can unilaterally cancel congressionally approved spending."
+      },
+      {
+        "title": "Houthi militia fires missiles at Saudi Arabia as Middle East tensions persist",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONGtzUUVWZzk5bHlYMW50bFg3QW94RFZwbXN6ZEY4eVVTVG5pdlRjd2F1V3gySEd3NVZVbHpFbVExQ2ZjMVBVcS1WMUduM3lSNWkxRzVJWGt3Q0huTW51SmdYQTYtY3RJYXVLUnpKUkZLb3c0aHpYQk9SSUNVLXhzQnY4TTFYOE1vbVQwS0h3clplUkpKenY0WVJpUkU?oc=5",
+        "why_it_matters": "Yemen's Houthi rebels, backed by Iran, have claimed responsibility for a fresh missile attack on Saudi Arabia, escalating regional tensions even as the US and Iran appear to be stepping back from direct confrontation. The Houthis have been emboldened throughout the US-Iran conflict and show no signs of standing down. Ongoing Houthi attacks threaten shipping in the Red Sea, which affects global trade routes and can push up the cost of goods worldwide."
       }
     ]
   },
   "markets": {
-    "summary": "The ASX 200 slipped 0.75% today to close at 8,772 — a soft session with no single dramatic catalyst, just general risk-off sentiment as the US-Iran conflict escalates and investors await a big week of US earnings. Last night on Wall Street the S&P 500 was essentially flat (+0.05%) but the NASDAQ dropped 0.64%, dragging tech-exposed ASX names lower today. Gold is holding strong near record highs, oil dropped sharply, and the Aussie dollar edged up slightly.",
+    "summary": "The ASX 200 fell 0.75% today, dragged down by rate hike fears and cautious sentiment ahead of key US earnings. Last night the S&P 500 was virtually flat (+0.05%) while the NASDAQ slipped 0.64%. Oil fell sharply, gold hit new highs, and the Aussie dollar ticked up slightly.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,772",
         "change_pct": -0.75,
-        "note": "Soft close today — broad-based selling with tech names under pressure."
+        "note": "Fell today as RBA rate hike fears weighed on sentiment, particularly on property and consumer stocks."
       },
       {
         "name": "S&P 500",
         "value": "7,412",
         "change_pct": 0.05,
-        "note": "Essentially flat last night. Markets treading water ahead of a big earnings week."
+        "note": "Essentially flat last night — markets in holding pattern ahead of a big week of US tech earnings."
       },
       {
         "name": "NASDAQ",
         "value": "24,976",
         "change_pct": -0.64,
-        "note": "Tech slipped last night despite Google's strong result — AI spending concerns weighed on sentiment."
+        "note": "Slipped last night despite mixed-but-OK results from Alphabet. Tech investors appear cautious ahead of Microsoft's earnings."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "US$89.31",
+        "value": "$89.31",
         "change_pct": -3.12,
-        "note": "Big drop last night — down 3.1%. Eases inflation pressure but signals demand uncertainty."
+        "note": "Fell sharply last night as the US-Iran conflict showed signs of easing, reducing fears of a supply disruption."
       },
       {
         "name": "Gold",
-        "value": "US$4,068",
-        "change_pct": 0.52,
-        "note": "Gold near record highs as investors seek safety amid Middle East tensions."
+        "value": "$4,071",
+        "change_pct": 0.6,
+        "note": "Gold nudged to another record high as investors seek safe havens amid ongoing geopolitical uncertainty."
       },
       {
         "name": "AUD/USD",
         "value": "0.6983",
         "change_pct": 0.23,
-        "note": "The Aussie dollar nudged up slightly — now very close to the 70 cent mark."
+        "note": "The Aussie dollar ticked up slightly — still just below 70 US cents. A stronger AUD slightly reduces the AUD value of your US holdings."
       }
     ]
   },
   "politics": {
-    "summary": "The RBA is back in the spotlight after a strong Australian jobs report reignited talk of another interest rate rise. Critics are hitting out at the RBA's approach, while the data suggests the labour market isn't cooling as fast as hoped.",
+    "summary": "The RBA rate decision is looming large this week, with Australians facing a potential double hit of higher interest rates and petrol prices pushing toward $2/litre. Meanwhile, Albanese finds himself at odds with his own party's policy on voluntary assisted dying consultations.",
     "stories": [
       {
-        "title": "Strong jobs data puts another RBA rate hike back on the table",
-        "source": "Kalkine",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVndUWFI0MEtvdldIWWEyUnRMems1NXNyTHQ5Q3hVRkl6SGxUeVpyeklMYnlWbG9aai1GdFlLQnFvQjIwXy1ZMGkxR2doMW05NU4zQ2hxQkZqR0xuRWZla19yQkQ3SnFvQUlFTU9wZ2o1b2xQMGdtWHdWZXhBa0VpQUJkTWIwa2ljcmRpVURudXJzWVhFMUpCb3NsZ3JZbUhIMF83QXdB?oc=5",
-        "why_it_matters": "Australia's latest employment numbers came in stronger than expected, which is normally good news — but in the current environment it gives the Reserve Bank of Australia (RBA) reason to keep interest rates high or even lift them again. The RBA has been trying to cool inflation by slowing the economy, and a hot jobs market suggests that isn't happening fast enough. Higher rates mean more expensive mortgages and tougher conditions for borrowers — something many Gold Coast homeowners will feel directly."
+        "title": "RBA rate hike next month could force thousands of homeowners to sell",
+        "source": "Nine.com.au",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWlFZcTE4aENYNVlZSVRUVnFoaFROQnR2OFJvSUVzSExZRFpGbHZLSXhMSVJ1aUthZjR6SlRvYXotSWtNdmIwLWF0OFBXQ0lVdkxFLVd0QWhnVlk0NXJZekhhaWhyOVlfbWJUdkdZa2w3THFHOEhfVGppWmNZSXdsdUFiTFpxV3JOaXpkb3Jkc3hQSzROSGFDa0FhaHJhbWJUN1Y0OVI1QURlTUVGdG0zakNfcXd4M00?oc=5",
+        "why_it_matters": "A staggering number of Australian mortgage holders are already in stress, and a rate hike next month from the RBA (Reserve Bank of Australia) could push some over the edge and force property sales. Key inflation data drops this week, which will shape whether the RBA pulls the trigger in August. At the same time, petrol prices are threatening to push above $2 a litre, squeezing household budgets from two directions. If you own property or are watching the housing market, this week's data is crucial."
       },
       {
-        "title": "RBA accused of 'wanting people to lose their jobs'",
+        "title": "Critics accuse RBA of 'wanting people to lose their jobs' to fight inflation",
         "source": "News.com.au",
         "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNTNhb1NKYWdpbHdVSE1EeWRxUnNpZHVsQlpLNmFmdzVlTnRoQ0ZQQ0l2VF9rZjE4a2dBUmJiMFBlRzlSNWhZbzZiTjBucmxTMkYtYUp4cURWYlZMUkNBMUtoLUMxTjZZLTdUdWM1Rlo0QU9hbloyeEppdUFjaU5jaGZRSEJPQlh0SnFoWEdMRHhBR2tUV29PZEVRYjNrN2FBZFpzaFlYMUFyN0h6LVNsQWd3N3ZjaXF5d3EwRHRLSHdpZkdRYS1qRUtnamtuYnZncG5PX2FRc3pnRGlRbHYtNDA5NEtzY2RyV0NIRjJVYkktdHgz0gH6AUFVX3lxTE44NmNOUnlNbUhxSk5ueGRiS0Y5UDdsSzB3bkRBaF9Xa2N0ek1XUHlRS25lTk5TOWVRdXlLaVZVdmZlTkFrUmtfX0E3d2N6Y2M0cE5BYUFQc0VaUUVDRXdSYXNad1NEeGxoNXFVRXpSbDRzVmJfeThYZjBDR09VNEp2TWhyZHFjdEI1aTVXX29LbW1CUG1NbEVqZXVQX3hPeXlOX3o5UG5LVmlkblVLNDBpLW9EcENzU1VXS241U2M2am1Kc3FUOWNnME1GOXY2eDhYRjNZRURoUHZwSFpsUWVPV2tHZWVmbEM1dUZFMndUNWRtTkFnNnlJV0E?oc=5",
-        "why_it_matters": "Criticism of the RBA's rate strategy is mounting publicly, with commentators arguing the central bank is deliberately engineering job losses to bring inflation down — a harsh but not entirely unfair characterisation of how rate hikes work. When rates rise, businesses invest less and hire less, which pushes unemployment up. The political heat on the RBA is growing just as the jobs data gives it cover to do more. For mortgage holders and anyone in the job market, this debate has very real consequences."
+        "why_it_matters": "The RBA's strategy of raising interest rates to crush inflation works by slowing the economy — which means fewer jobs and less consumer spending. Critics argue the Bank is being too aggressive and essentially engineering unemployment to hit its inflation target. RBA Governor Michele Bullock is speaking this week, and her tone will be closely watched by markets. A hawkish (tough on rates) tone could push the ASX lower and increase mortgage pain for millions of Australians."
+      },
+      {
+        "title": "Albanese at odds with Labor over telehealth for euthanasia consultations",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMy1CVnM0WjlmRlZUTWREcDlGd1YxdkhoVUZjQjBhR1VXZVozZ2VWSjRFZVdHcms1bWtWRjEtZGRSYWs5cmozU3BSUVoyZXdGQXFSSXZ6T3dqSEhiM01aeDdhLWpxSW94R05TYkVmWGs3WHQwSHU3UHJfaElibWRaMXNoN2xTMDVseTlKamxrT3I4TVRHdXg4Y0lSaFI3eThZYWJZNlNYTHZ5cF9wLXVRcW5qTDdoczJHejVGdHI3b1NWUm0tZnlBODhR?oc=5",
+        "why_it_matters": "Labor's own party policy now supports allowing telehealth (online/phone medical consultations) to be used for voluntary assisted dying (VAD) consultations, but Prime Minister Albanese has publicly distanced himself from this position. It creates an awkward split within the government — Labor's platform says one thing, the PM says another. VAD is already legal in all Australian states, but access via telehealth would make it easier for people in rural and remote areas to access the service. The policy tension is likely to grow."
       }
     ]
   },
   "ai": {
-    "summary": "A massive week in AI: Anthropic launched its most powerful model yet (Claude Opus 5), Microsoft revealed new in-house AI models that slash costs by up to 89%, and a big industry fight over how — or whether — to regulate AI is heating up in Washington.",
+    "summary": "Microsoft launched a new family of AI models this week, the AI regulatory debate is heating up globally, and Google's much-anticipated Gemini 3.5 Pro is still nowhere to be seen.",
     "stories": [
       {
-        "title": "Anthropic launches Claude Opus 5 — its most capable model yet",
-        "source": "Anthropic / CNBC",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5",
-        "why_it_matters": "Anthropic has officially released Claude Opus 5, its flagship AI model. According to CNBC, the model rivals the best offerings from OpenAI and Google, and crucially it's being positioned as cheaper for businesses to run — a key selling point as companies worry about AI costs blowing out. The timing is notable: it lands just as Microsoft is also slashing AI costs, meaning the 'efficiency vs raw power' battle in AI is accelerating fast. For anyone using AI tools at work, more capable and cheaper models are coming quickly."
+        "title": "Microsoft launches MAI — a new family of AI models for reasoning, voice, coding and images",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQzhvOFFMdzREZTdVcXgtRldpaFlLZENNMEF3dF9wQnF3UWtfRmN3MWt0a2VEVXY1cmJwQTc4dlk0d0hmTHU3bExNTTdkSldJR21ES0l4VnlCT2xERUJGMS0tNFZpMzNBeDJVRW9kc1lBekM1YWZzZjc3VXBMRDJObjdDdXY?oc=5",
+        "why_it_matters": "Microsoft has unveiled a new suite of AI models called MAI, designed to handle a range of tasks — reasoning through complex problems, generating images, understanding voice, and writing code. This is Microsoft building its own AI layer on top of its partnership with OpenAI, giving it more independence and flexibility. For your MSFT holding, this matters: it shows Microsoft is not just reselling OpenAI's tech but building its own AI stack, which strengthens its long-term competitive position heading into Tuesday's earnings."
       },
       {
-        "title": "Microsoft launches in-house AI models — cuts costs up to 89% vs OpenAI",
-        "source": "VentureBeat",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSTZYWFpQOXB1YmdpWHo1bEswUlBWaGNUX0Z6dEtVR3dBeXBUVXJoNHk3bVJnYXZfZlNNbWFGY1JULUF3bHBUNk1ySHUta1BGYy12b3ZWdXR0aG1yQVRvRW1ZY1lfSGxMZFJfR0cxc2wySnNKWTc0dVptdjlrX3IxakdqMEVsMmxERHZoR0NVRWJ0d1BUbGlqd3k0TDdxSFFCanMwbVNaMWlnWTZPb2EtN1Jtd2tnYkpoejZrUXBn?oc=5",
-        "why_it_matters": "Microsoft has quietly built its own AI models that it says are up to 89% cheaper to run than equivalent OpenAI models. This is a big deal — Microsoft has invested billions in OpenAI but is now building alternatives, suggesting it wants to reduce its dependency (and costs). For businesses using Microsoft's AI products (Azure, Copilot), this could mean significantly lower bills. It also puts more competitive pressure on OpenAI and signals that the age of expensive AI is ending faster than many expected."
+        "title": "Microsoft and Nvidia lobby US government to oppose 'open AI' regulation",
+        "source": "finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pRmlKUldJZG1fUVoxRkJTVnpROFJWNms5aVl6RUhmWkVWUUUzMmNfSGJWLVZBdGJtX2QzdExWNkdfY0s0NzFYMldweXRXMkZRNHVKTldxMzlka0ZDUTJ3LTFOWmQtNGhfdENuSXU3Y2dYSmdmOUE?oc=5",
+        "why_it_matters": "Microsoft and Nvidia are pushing the US government to block regulations that would require AI companies to make their models open-source (freely available for anyone to use or copy). Their argument is that 'open AI' rules would hand an advantage to Chinese rivals who could take the technology and run with it without the same safety guardrails. This is a significant lobbying fight that will shape how AI is regulated globally — and it directly affects how companies like MSFT and Google can monetise and protect their AI investments."
       },
       {
-        "title": "Nvidia and 24 companies back open-weights AI — but Google, OpenAI and Anthropic stay out",
-        "source": "Tom's Hardware",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTW54UjY0dzZndlJBcHUtNHVpUnd4em1TWFlha0hCMzhyV1dFNVo4YUdsdUFLZUlmNnU5X09pTlY3cVhKck1pMGs1eDhZOEtmbTR2Q3EwNV9OZlVGaC1LR2xpZC1XenJjUWpuY1RrLUJWdVFkM3BxSWdOc1JjMTZ0UTUxSEhFdWVQYUc5bnpqYllZbkptb2hQUTFrYm5nWFNmelI2Q1pnQlhtWjBpaHRqMXpaaXNvbVYzYjdVb1Jld21OT2ZSOEhQcVlOZWo0RWxDRnVBRjBMaURiR2IydzhTY0lZYWpUdHRpeFdkeGI5Qk5Zb1BMQlE?oc=5",
-        "why_it_matters": "Nvidia and 24 other tech companies have signed a letter supporting 'open-weights' AI — meaning AI models where the underlying code is publicly available, similar to open-source software. Notably absent: OpenAI, Anthropic and Google, who all keep their most powerful models closed. This is the AI industry's version of a values split: open models let anyone build on top of them (great for innovation, potentially risky for safety), while closed models give the big labs control. Washington is weighing in too, considering a ban on Chinese AI models, which is driving some of this lobbying activity."
+        "title": "Where is Google's Gemini 3.5 Pro? Announced months ago, still not released",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE45S215YXpCY2JjNi1SSC1qaXNFT0k0WjdnZ0FRcEp1anYzcjJaaEtwSkN0VTdvdWVST2VfN0M0WWtTVWpCVEs1TlBpMnliRENjUG5vYWJCLTY0anRZb2g0Y2UwYw?oc=5",
+        "why_it_matters": "Google announced Gemini 3.5 Pro — its next flagship AI model — at Google I/O earlier this year, but it still hasn't been released. That's months of radio silence, raising questions about whether Google is running into technical problems or is holding back to time a launch strategically. Meanwhile, OpenAI released GPT-5.5 and Anthropic has Claude Opus 4.7 on the market. Google falling behind on its own announced timeline is worth watching for GOOG holders — the AI race moves fast and the competition is not standing still."
       },
       {
-        "title": "AI regulation debate heats up — efficiency vs safety",
-        "source": "The Canberra Times / Earth.com",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRkpmRkY3TlFRNEhlR3ZGV1BhalVWUWlmLWN3dU5oU3RIUTRoVENudE0wajZRSThYbFJpWmVHR1RrTEVUbXlvSlpZUXlVNElxanByR3VldzBHdkM5QzdNTU8wcldiSzB3YVpMR2JobV9BRmlFQ3liazduRDltMi1tU2dyRGNfbHgteWo2WVY3Tk5fX0JFaGxidnN5SW01Sm8?oc=5",
-        "why_it_matters": "There are now two loud camps in the AI regulation debate: one arguing that heavy rules will kill the productivity gains AI offers (Australia's Canberra Times weighed in on this side), and another citing new research warning that weak rules actually make AI less safe — not because of sci-fi risks, but because poorly governed systems get deployed in high-stakes environments without adequate testing. The White House has set an August 1 deadline for an AI policy review. The outcome matters for how fast AI gets deployed into healthcare, legal, financial and government services — sectors that affect all of us."
+        "title": "OpenAI GPT-5.5 vs Claude Opus 4.7 — the AI model battle is heating up",
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYVBNZVhkenFXc1BPcDM1Q1Y3eWF0MWl3anpReWpkNFU4dmJBZXhtU3FIOFJDYWlDZ0theHVyQXBxZVl4MGl5SlJNTUxHc09MN0o4QVd3eTdYck1yMjFLbnBacWY4eDhOOXJ2cXU0b2djaGpKVGxqcVlJUTM3SDRUeFdfdGw?oc=5",
+        "why_it_matters": "OpenAI's newest model GPT-5.5 and Anthropic's Claude Opus 4.7 are now being directly compared — and the competition between the two is fierce. Both models are pushing the boundaries of what AI can reason through and write. This matters to everyday users because the AI tools you use for work, writing, and research are getting dramatically better every few months. It also matters for investors: the AI infrastructure boom (cloud, chips, data centres) is being driven by exactly this kind of model competition."
       }
     ]
   },
   "sport": {
-    "summary": "A big NRL Round 21 weekend underway — the Raiders demolished the Tigers 56-10, the Roosters edged the Knights in a thriller, and Rabbitohs upset the Storm. There's a nasty injury cloud over the Knights heading into the back end of the season. In AFL, Geelong beat Melbourne at the MCG but the win was soured by controversy.",
+    "summary": "A big NRL weekend with the Titans demolishing the Dragons, the Bulldogs thumping the Warriors, and the Cowboys downing the Broncos. The AFL had Brisbane Lions and Geelong in action. Plus injury news from the Knights.",
     "stories": [
       {
-        "title": "Raiders demolish Wests Tigers 56-10 in Round 21 blowout",
-        "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcnh3Ni1FWlpMUzdQN0FMVXcxTWhvUW1vOFFMOHRqWl9pbF9aZ1p0MlJGZXNodThoS1RzUms5ejN0OVJRclZRS3h5VW1TRlZFbks0TzlRVW5EbW1ST0lWWnVPV1dhTUZ3TGYzaWhuem1LTXdFQWNHUkl6WVdNOFJ0Z0ZtdDVZbldLZVdIbWpZQjRndTNIQ21F?oc=5",
+        "title": "Gold Coast Titans destroy St George Dragons 38–18 in Sunday clash",
+        "source": "NRL.com",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ3hIYjJaVFNxcGwwTG9QWk4ybUk0NGNPN0dkQXVROWlHejJyWF93c3c5X2VTajdnZ19vME5VVjBZUWFVUVBzRUNuRXJGdGlqM1ZGNFFDczlVeVF1RjRfU0xkcHRGVm96U2V2T1EwZllUT1E5eEZOY09rS0JnZFpnV0Mta1l6S0RVaW9fT1hqekYyWWx6WWQ3QXhrUmFfSkZYNFF3YmZOaGFWXzlxQkdVY2pR?oc=5",
         "category": "NRL",
-        "why_it_matters": "Canberra Raiders put on a clinic against Wests Tigers at GIO Stadium today, running out 56-10 winners in one of the most one-sided results of Round 21. The 46-point margin is a massive statement from Canberra as the finals race heats up, while the Tigers' season continues to fall apart. The Cowboys vs Broncos Queensland derby is still to come tonight."
+        "why_it_matters": "Your Gold Coast Titans put on a dominant performance at St George Venues Jubilee Stadium today, winning 38–18. A massive result for local Gold Coast fans — the Titans look in strong form heading into the back half of the season."
       },
       {
-        "title": "Roosters pip Knights 23-22 in Friday night thriller — injury cloud over Newcastle",
-        "source": "Fox Sports / ABC News",
+        "title": "Bulldogs thump Warriors 18–6 in statement win, Warriors suffer injury blow",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQQS1jd3JqYTRMOGtpRC01VmpYUmlwcUJLVGxwWFlvVnQwbHYtcV9BUkgwQ2NydExwNzdFNEVlRXlzYU4ycGpaQ1B5M0JqMmNDdTQybFlocjNiSWo2aXlUeFN0UnZDVTRvNHVRTlJBUXRZOTVyRllZSW5IcnFZWWxOQjFaRUQ2WXZFajk1MklFOXZCa0ptZ2o0X2pZM19kQWR0SXc0TFhnZ3BrTGFzclEza1A1Z2x2bjRxa3hvNnE0RFJjektoSlFBZGtEbnpmTlBvTXFEMHhvMDl6VGJNam1lUzVlTkhUYVEtRXM0WV85R2FxTk1ZcXZNMVZfQzNkdnlXNEVIWldRVUo4THUtdEFCYkVhYUs3NENMcXRweXBoeHJvX2U4LTYxUzFnRGV2aDFrT1pVX0ZNZzlmR3Y1VE9LWXo1aDJrYjlDQmM2RERLUEZnS3N3RkdYdU5B0gHaAkFVX3lxTFBBLWN3cmphNEw4a2lELTVWalhSaXBxQktUbHBYWW9WdDBsdi1xX0FSSDBDY3J0THA3N0U0RWVFeXNhTjJwalpDUHkzQmoyY0N1NDJsWWhyM2JJajZpeVR4U3RSdkNVNG80dVFOUkFRdFk5NXJGWVlJbkhycVlZbE5CMVpFRDZZdkVqOTUySUU5dkJrSm1najRfalkzX2RBZHRJdzRMWGdncGtMYXNyUTNrUDVnbHZuNHFreG82cTREUmN6S2hKUUFka0RuemZOUG9NcUQweG8wOXpUYk1qbWVTNWVOSFRhUS1FczRZXzlHYXFOTVlxdk0xVl9DM2R2eVc0RUhaV1FVSjhMdS10QUJiRWFhSzc0Q0xxdHB5cGh4cm9fZTgtNjFTMWdEZXZoMWtPWlVfRk1nOWZHdjVUT0tZejVoMmtiOUNCYzZEREtQRmdLc3dGR1h1TkE?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The Canterbury Bulldogs were dominant in their 18–6 win over the Warriors on Saturday. The Warriors suffered significant injury pain in the loss — adding to their growing injury list and dealing a blow to their finals hopes. The Bulldogs meanwhile look like genuine premiership contenders."
+      },
+      {
+        "title": "Cowboys beat Broncos 18–10 — Brisbane's season on life support",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNM25IUkVnWjlHX0ZWREhOSjNnUGhzSXNNV182WHBYbzRSLWMxVnVBOWlmNjltM3FyeEtqRU84RGFDck5PQ083R01UcXp1cDR4QUZvTHBJWFhaTDlsY3M4Rm83UlhFTkF6LUx4Z2dVcEE4NnJBVGgtaF9NTlJVbXhudUZyRkJPdk5XcklYOGV0aGtMSWZmaFBIY0dKOGRsR2M5WkFvZWt2ODBGbWhhM1FXaHpWMjRtYU1xUF9HZDlVdWtvdFZnUW5KekVqTEU0Uld1OFpuVVVGcUZ1OHdHM2RGb1NTQ3JLYXdma1diakpsRy1pZHhBMmZJTWFUdi11UnZ2UXg00gGDAkFVX3lxTE0zbkhSRWdaOUdfRlZESE5KM2dQaHNJc01XXzZYcFhvNFItYzFWdUE5aWY2OW0zcXJ4S2pFTzhEYUNyTk9DTzdHTVRxenVwNHhBRm9McElYWFpMOWxjczhGbzdSWEVOQXotTHhnZ1VwQTg2ckFUaC1oX01OUlVteG51RnJGQk92TldySVg4ZXRoa0xJZmZoUEhjR0o4ZGxHYzlaQW9la3Y4MEZtaGEzUVdoelYyNG1hTXFQX0dkOVV1a290VmdRbkp6RWpMRTRSV3U4Wm5VVUZxRnU4d0czZEZvU1NDckthd2ZrV2JqSmxHLWlkeEEyZklNYVR2LXVSdnZReDQ?oc=5",
+        "category": "NRL",
+        "why_it_matters": "North Queensland Cowboys beat the Brisbane Broncos 18–10 on Saturday night, leaving the Broncos' season described as 'on life support'. Brisbane have now lost consecutive games in crucial circumstances — their run to the finals is looking increasingly dire. For Queensland footy fans, the Cowboys are looking dangerous while the Broncos are fading fast."
+      },
+      {
+        "title": "Knights suffer double injury blow — $13m man goes down",
+        "source": "Fox Sports",
         "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQd2pHTURqcXZvcDhFODZZM1hIX0dNT3poeDZpZTFzcmtLQjV1ZlNURllxb0wzUEJNbjVlQWxzQ0VzbUlFNlZTLWR4eXA2UVlmLVE0dnBSNEttY2FkVzBUYmtWSXVuSFZWS3ZhNmNYTEFTNjhrNXF4RFM5RjF3NGY2VS1Dd2VrU2FIOVo1dUtYakhtdkVvcFc5ZHFsX19SX2dpZU9GNzkyZkRSVTNnMVQ3RHBXM2ZHUWF3Tm9SX2VkcndzWlhXQWVEOF92OUt5bEx5WlRsMkxkVFg0eXJVVDdINE1BUXZ3VGVRVEd4RzRCS1Bjd2dHRW5OMzBnVTFiMGRVc0Q1TjQ2ZlpkNlJTaTVWYmpPSUNSdEEyQTZ2UA?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Roosters held on to beat the Knights 23-22 in a tight Friday night game at McDonald Jones Stadium. The result was overshadowed by injury news out of Newcastle — Fox Sports reported a 'double knightmare blow' with their $13 million man going down during the match. The Knights are already battling for finals contention and losing key personnel at this stage of the season is a serious blow."
+        "why_it_matters": "The Newcastle Knights suffered a painful week with a double injury blow — their high-paid marquee player and another key squad member both going down. The Knights narrowly lost to the Roosters 23–22 on Friday night, and the injury news makes their path through the second half of the season even harder. Details on the specific players and recovery times to be confirmed, but the club is in damage control mode."
       },
       {
-        "title": "Rabbitohs upset Melbourne Storm 28-26 in Friday night thriller",
-        "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQamZYTmM2UXZUMXdQc01CemFrcU5EOEdfYnh6WGFESkFEUHJiMjdjNzh4U0VGVzh4TEo5WTFBYVA5UnNmMHJJWWtJQVRyeC13M0FDOWl2YkhPbGFWcm9fYnl4dWF5Q0RFYmpCYW00TjRiWFMwNUcxemJ2cVdpam1HNG53UC1NWjFybWhqX1RTb2QxeFVGNzZKMTB2NDItWTQ?oc=5",
-        "category": "NRL",
-        "why_it_matters": "South Sydney Rabbitohs knocked off the Melbourne Storm 28-26 at Accor Stadium on Friday night in a genuine thriller. The win is a big deal for the Rabbitohs, who needed the two points to keep their finals campaign alive. For Melbourne, it's a rare slip-up that could have ladder implications with the finals approaching. Bulldogs vs Warriors is currently at half-time (Bulldogs leading 12-0), with the Cowboys-Broncos Queensland derby still to come tonight."
-      },
-      {
-        "title": "Geelong beat Melbourne at MCG but 'worst rule in history' sparks AFL furore",
-        "source": "Yahoo News Australia / afl.com.au",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONmprMnhRdzNaSy10ZGtlU2RBLU9jcHRaZkdaVko0bFQ0NmFYdXFlSHdMVnJ5N2FYZnRuRnNDMFJvcU1OTi1SUjc3U2FheVFpS2U0d2xwYUhiOFI5NDRLYWwzVTJlYW9YeVhYYTJfSk9FTjZ5VmtvcUpNRWdBU0kxSm5hMDFUTGJIcGVTWlNGd0pmajIyOWJpdXR1ZURPQU80U0dyeGVDeUExVHczNHJaQWZpZ0VuMlNOVUFmZmRNemNjcFk?oc=5",
+        "title": "Brisbane Lions down Port Adelaide in late avalanche to stay in top-two hunt",
+        "source": "afl.com.au",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVXhVSWRlZjROOTFxRlFZOW1DM0tBd2NubzlndTFRUC1ZOUxoRlBGOXc0TWMteVlJaTRJblJVNmRFX3hDaTJUTjJEWnY3eVhSYmhKOXp1Y2pERDI1dFpUbGRJRkkzTi1YX3FGcWpvRHpDTG1xdEdlN2Z1cjB3RlJzUl9aZHVabV9aSmV2MWxFR0FycHA0dG5vTE90eWdpTmpiNHJNTGlUU2hDSngzdTdxSGxxMDEwcHlYVzlDZmt1WDZvdWlnV1E?oc=5",
         "category": "AFL",
-        "why_it_matters": "Geelong broke Melbourne's impressive MCG winning streak with a gutsy victory, but the post-match headlines were dominated by controversy over a rule application that the AFL world — including Geelong supporters — called 'abhorrent' and the 'worst rule in history.' Collingwood also won this week, with coach Craig McRae airing a post-game complaint despite the victory. With Geelong facing multiple injury concerns ahead of a clash with the hot Magpies, the Cats' finals preparation has some nervous energy around it."
+        "why_it_matters": "The Brisbane Lions came from behind with a late scoring avalanche to beat Port Adelaide on Sunday, keeping themselves in the hunt for a top-two finish on the AFL ladder. A top-two finish means a double chance in the finals — a significant prize this late in the season. Brisbane look like genuine flag contenders heading into the business end of 2026."
       }
     ]
   },
@@ -251,18 +264,18 @@
     "location": "Gold Coast",
     "icon": "☀️",
     "condition": "Clear sky",
-    "temperature_c": 14.7,
-    "high_c": 19.5,
-    "low_c": 10.8,
+    "temperature_c": 16.5,
+    "high_c": 19.9,
+    "low_c": 9.6,
     "rain_chance_pct": 0,
     "rain_mm": 0.0,
     "tomorrow": {
-      "icon": "☀️",
-      "condition": "Clear sky",
-      "high_c": 19.5,
-      "low_c": 9.2,
-      "rain_chance_pct": 0,
-      "rain_mm": 0.0
+      "icon": "🌦️",
+      "condition": "Drizzle",
+      "high_c": 19.3,
+      "low_c": 13.0,
+      "rain_chance_pct": 96,
+      "rain_mm": 2.3
     }
   },
   "nrl_round": "Round 21",
@@ -328,10 +341,10 @@
       "away": "Warriors",
       "home_badge": "https://www.nrl.com/.theme/bulldogs/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/warriors/badge.svg",
-      "home_score": 12,
-      "away_score": 0,
-      "completed": false,
-      "live_label": "Half Time",
+      "home_score": 18,
+      "away_score": 6,
+      "completed": true,
+      "live_label": null,
       "day": "Sat 25 Jul",
       "time": "5:30 pm",
       "venue": "Accor Stadium",
@@ -342,9 +355,9 @@
       "away": "Broncos",
       "home_badge": "https://www.nrl.com/.theme/cowboys/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/broncos/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 18,
+      "away_score": 10,
+      "completed": true,
       "live_label": null,
       "day": "Sat 25 Jul",
       "time": "7:35 pm",
@@ -356,9 +369,9 @@
       "away": "Titans",
       "home_badge": "https://www.nrl.com/.theme/dragons/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/titans/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 18,
+      "away_score": 38,
+      "completed": true,
       "live_label": null,
       "day": "Sun 26 Jul",
       "time": "2:00 pm",
@@ -370,10 +383,10 @@
       "away": "Sharks",
       "home_badge": "https://www.nrl.com/.theme/sea-eagles/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/sharks/badge.svg",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 6,
+      "away_score": 46,
       "completed": false,
-      "live_label": null,
+      "live_label": "2nd Half",
       "day": "Sun 26 Jul",
       "time": "4:05 pm",
       "venue": "4 Pines Park",
@@ -504,5 +517,5 @@
     "total_pnl_pct": -7.74,
     "aud_usd_rate": 0.6983
   },
-  "generated_at_utc": "2026-07-25T08:29:30.417536+00:00"
+  "generated_at_utc": "2026-07-26T07:45:28.267623+00:00"
 }
