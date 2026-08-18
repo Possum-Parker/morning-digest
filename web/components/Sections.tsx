@@ -172,7 +172,17 @@ export function PortfolioSection({
 
   return (
     <section className="section-card p-5 mb-4">
-      <h2 className="text-lg font-semibold mb-3">📈 Your Portfolio</h2>
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-lg font-semibold">📈 Your Portfolio</h2>
+        <Link
+          href="/add"
+          className="flex items-center gap-1 text-sm font-medium bg-white/10 hover:bg-white/15 text-gray-200 rounded-full pl-2.5 pr-3 py-1 transition"
+          aria-label="Add a holding"
+        >
+          <span className="text-base leading-none">＋</span>
+          <span>Add</span>
+        </Link>
+      </div>
       {totals && <PortfolioTotalsHeader totals={totals} />}
       <ul className="space-y-3 mt-4">
         {totals && totals.positions.length > 0

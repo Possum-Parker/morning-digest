@@ -96,7 +96,7 @@ export async function PUT(
   if (!tokenValid(request)) return unauthorized();
 
   const ticker = decodeURIComponent(params.ticker);
-  let body: { shares?: number; total_invested?: number };
+  let body: { shares?: number; total_invested?: number; name?: string; exchange?: string };
   try {
     body = await request.json();
   } catch {
@@ -122,7 +122,16 @@ export async function PUT(
 
   try {
     const { content, sha } = await fetchHoldings(owner, repo, token);
-    content[ticker] = { shares, total_invested: totalInvested };
+    const entry: Record<string, unknown> = { shares, total_invested: totalInvested };
+    // Preserve any existing metadata; add name/exchange when provided (new tickers).
+    const existing = content[ticker];
+    if (existing && typeof existing === "object") {
+      if ((existing as any).name) entry.name = (existing as any).name;
+      if ((existing as any).exchange) entry.exchange = (existing as any).exchange;
+    }
+    if (body.name) entry.name = body.name;
+    if (body.exchange) entry.exchange = body.exchange;
+    content[ticker] = entry;
     await writeHoldings(owner, repo, token, content, sha, `holdings: update ${ticker}`);
     return Response.json({ ok: true, ticker, shares, total_invested: totalInvested });
   } catch (e) {

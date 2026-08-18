@@ -58,29 +58,56 @@ def recently_generated() -> bool:
         return False
 
 
+def _resolve_holding_meta(ticker: str, holding: dict, portfolio_entry: dict | None) -> dict:
+    """Resolve display metadata for an owned ticker.
+
+    Priority: portfolio.json catalog entry → fields on the holdings.json entry →
+    derived defaults. This lets brand-new tickers added via the app work without
+    ever touching portfolio.json. The yfinance symbol is just the ticker key
+    (e.g. 'GOOG', 'PLS.AX') — the .AX suffix marks ASX (AUD) listings.
+    """
+    if portfolio_entry:
+        return {
+            "ticker": ticker,
+            "yfinance": portfolio_entry.get("yfinance", ticker),
+            "name": portfolio_entry.get("name", ticker),
+            "exchange": portfolio_entry.get("exchange", ""),
+        }
+
+    is_asx = ticker.endswith(".AX")
+    return {
+        "ticker": ticker,
+        "yfinance": ticker,
+        "name": holding.get("name") or ticker,
+        "exchange": holding.get("exchange") or ("ASX" if is_asx else "US"),
+    }
+
+
 def gather_raw_data() -> dict:
     portfolio_cfg = _load_json(ROOT / "config" / "portfolio.json")
     topics_cfg = _load_json(ROOT / "config" / "topics.json")
 
     # holdings.json is the single source of truth for what the user actually owns.
     # We only track/price/comment on tickers present there — so selling a stock
-    # (removing it from holdings.json) makes it vanish from the whole digest,
-    # including Watch Today. portfolio.json just supplies metadata + news queries.
+    # (removing it from holdings.json) makes it vanish from the whole digest.
+    # portfolio.json is an OPTIONAL metadata catalog (nice names, news queries);
+    # a brand-new ticker added via the app's "+" button won't be in it, so we
+    # resolve metadata from the holdings entry or derive sensible defaults.
     owned = portfolio_pnl.load_holdings()
     # A holding counts as "owned" only if it has a positive share count — zeroing out
     # a position via the edit form is treated the same as selling it entirely.
     owned_tickers = {t for t, h in owned.items() if float(h.get("shares") or 0) > 0}
 
-    all_holdings = portfolio_cfg["holdings"]
+    portfolio_meta = {h["ticker"]: h for h in portfolio_cfg["holdings"]}
+
     if owned_tickers:
-        holdings = [h for h in all_holdings if h["ticker"] in owned_tickers]
-        skipped = [h["ticker"] for h in all_holdings if h["ticker"] not in owned_tickers]
-        if skipped:
-            print(f"[digest] skipping non-owned tickers (not in holdings.json): {skipped}")
+        holdings = [
+            _resolve_holding_meta(t, owned[t], portfolio_meta.get(t)) for t in sorted(owned_tickers)
+        ]
     else:
         # No holdings file → fall back to tracking everything in portfolio.json
         print("[digest] holdings.json empty/missing — tracking all portfolio.json tickers")
-        holdings = all_holdings
+        holdings = portfolio_cfg["holdings"]
 
     indicators = portfolio_cfg["market_indicators"]
 
@@ -103,11 +130,19 @@ def gather_raw_data() -> dict:
             continue
         news[key] = fetch_topic(topic["queries"], exclude_keywords=topic.get("exclude_keywords", []))
 
-    # Only fetch per-ticker news for tickers the user still owns
+    # Fetch per-ticker news for every owned ticker. Use the curated query from
+    # topics.json when available, otherwise auto-generate a sensible default so
+    # brand-new tickers (added via the app) still get relevant news.
+    configured_queries = topics_cfg["portfolio_news"]["per_ticker_queries"]
+    meta_by_ticker = {h["ticker"]: h for h in holdings}
     per_ticker_news: dict[str, list[dict]] = {}
-    for ticker, queries in topics_cfg["portfolio_news"]["per_ticker_queries"].items():
-        if owned_tickers and ticker not in owned_tickers:
-            continue
+    for ticker in sorted(owned_tickers) if owned_tickers else configured_queries:
+        queries = configured_queries.get(ticker)
+        if not queries:
+            base = ticker.replace(".AX", "")
+            name = meta_by_ticker.get(ticker, {}).get("name", "")
+            queries = [f"{base} {name} stock news".strip(), f"{base} share price ASX"]
+            print(f"[digest] auto-generated news query for new ticker {ticker}: {queries}")
         per_ticker_news[ticker] = fetch_topic(queries, per_query_max=3)
 
     weather = fetch_weather()
