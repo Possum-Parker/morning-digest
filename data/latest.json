@@ -1,273 +1,285 @@
 {
-  "headline": "ASX closes up 0.38% while oil takes a dramatic 5% tumble, and the RBA signals rates are heading higher to cool the jobs market.",
+  "headline": "ASX closes up 0.38% as oil slumps nearly 4%, Trump rattles sabres at Iran at the UN, and OpenAI drops GPT-6 while Anthropic fires back with Claude Opus 5.5.",
   "portfolio": {
     "movers": [
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": 1.21,
-        "note": "PLS bounced nicely today, up 1.2% to $4.18, riding a broader ASX recovery and some positive sentiment around the long-term lithium battery market outlook. A new market forecast projects 18–22% annual growth in grid storage lithium demand through to 2035 — good for the long-term thesis, even if the near-term lithium price remains soft."
+        "note": "PLS bounced +1.21% today, likely catching a bid alongside broader lithium market sentiment — forecasts out this week point to strong long-term demand for lithium battery storage, with grid-scale storage expected to drive 18-22% compound annual growth through to 2035. The underlying lithium price story remains challenged, but today's session was a small positive for a beaten-up stock."
       },
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": 0.53,
-        "note": "GXAI edged up 0.53% today as AI sector sentiment stayed positive — there's a lot of news flow around new model launches from OpenAI and Anthropic (more in the AI section). The position is still down about 8.8% overall, but today's move is a small step in the right direction."
+        "note": "GXAI edged up 0.53% today, tracking positive sentiment around AI stocks on the ASX. The backdrop is busy — OpenAI launched GPT-6 Sol and Luna, Anthropic dropped Claude Opus 5.5, and the AI sector is in a price-war phase with cheaper models rolling out fast. Good for AI adoption broadly, which underpins this ETF's long-term thesis."
       },
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market ETF",
         "change_pct": 0.3,
-        "note": "VTS ticked up 0.3% today to $537.36, continuing its steady climb — it's now up 4.2% on your total investment. This ETF tracks the entire US sharemarket, so it reflects last night's Wall Street performance priced in AUD. No major news driving this beyond broad market stability."
+        "note": "VTS ticked up 0.3% at today's ASX close, reflecting modest overnight strength in US equities last session. This ETF tracks the entire US share market, so it moves with the broad US mood — which remains cautiously positive heading into the Northern Hemisphere autumn earnings season."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": 0.13,
-        "note": "VDHG crept up 0.13% today — a quiet session for this diversified fund, which holds a mix of Aussie and global shares. No specific news catalyst; just a gentle lift with the broader ASX. It's essentially flat on your total investment, which is fine for a long-term hold."
+        "note": "VDHG nudged up 0.13% — a quiet session for this diversified fund, which holds a mix of Aussie and international shares. No specific catalyst today; it just drifted slightly higher with the broader ASX."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": -0.13,
-        "note": "VGE slipped a tiny 0.13% today to $94.67. Emerging markets can be sensitive to a stronger US dollar and global risk sentiment — neither of which was particularly helpful today. The AUD also weakened slightly. A negligible move; you're basically breakeven on this position overall."
+        "note": "VGE dipped a fractional 0.13% today. Emerging markets are feeling some pressure from the stronger US dollar and ongoing Middle East tension weighing on global risk appetite. Nothing alarming for a long-term holder — this is normal day-to-day noise."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc. (Google)",
-        "change_pct": 0.0,
-        "note": "No updated price data for GOOG tonight — US markets haven't opened yet. Last close was $350.87 USD. Nothing specific in the news around Google today beyond the ongoing AI regulatory drumbeat in the UK parliament."
+        "change_pct": 0,
+        "note": "No live price data available for GOOG today — US markets haven't opened yet. Last night's close was $350.87 USD. Google is in the middle of a competitive AI arms race, with OpenAI's GPT-6 and Anthropic's Claude Opus 5.5 both launching this week, keeping pressure on Alphabet's Gemini."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
-        "change_pct": 0.0,
-        "note": "No updated price data for MSFT tonight — US markets open later. Last session MSFT rose about 1.6% as investors look ahead to Q1 revenue results. Microsoft's AI push continues to be a key theme supporting its share price."
+        "change_pct": 0,
+        "note": "No live price data for MSFT yet — US markets open tonight. Last session MSFT rose about 1.59% as investors look ahead to Q1 revenue results. Microsoft's Azure and Copilot AI suite continue to be the key growth story that the market is pricing in."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
-        "change_pct": 0.0,
-        "note": "No updated US price for TTWO tonight. Last close was $209.92 USD. There's some GTA 6 news flow — Take-Two's CEO signalled PC players should have hope for a PC release eventually, but no date confirmed. Rockstar is also actively removing leaked GTA 6 map assets. The long-term case here still rests on GTA 6 being one of the biggest game launches in history."
+        "change_pct": 0,
+        "note": "TTWO's US price isn't available yet — markets open tonight. Last close was $209.92 USD. News this week: Take-Two's CEO commented that a PC release date for GTA 6 is still unconfirmed, though he expressed optimism it's 'becoming' a reality. GTA 6 remains the big catalyst the market is waiting on for this stock."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "RBA signals rate rise coming — mortgage stress ahead",
-      "detail": "The RBA Governor has explicitly said the heat needs to come out of the jobs market, and CBA and ANZ have both changed their rate call — now expecting a hike. This hits anyone with a variable mortgage. For your portfolio, rising rates are a headwind for growth stocks and can weigh on the ASX broadly. Worth watching this week for timing.",
-      "urgency": "orange"
-    },
-    {
-      "title": "Oil crashes 5% — big move with wide ripple effects",
-      "detail": "Crude oil (WTI) dropped $4.78 to $89.81 today — a sharp 5% fall. That's good for inflation (cheaper petrol, cheaper transport costs), which could actually take some pressure off the RBA. But it also weighs on energy stocks globally. Nothing in your direct portfolio is oil-exposed, but it's a significant macro signal.",
-      "urgency": "orange"
-    },
-    {
-      "title": "PLS.AX — hold, but the picture is slowly improving",
-      "detail": "Pilbara Minerals bounced 1.2% today and new industry forecasts point to strong long-term lithium demand growth (18–22% CAGR to 2035 for grid storage). You're still down about 38% on this position, which stings — but the long-term thesis around battery metals and the energy transition hasn't changed. Sit tight.",
-      "urgency": "green",
+      "title": "PLS.AX — Hold through the volatility",
+      "detail": "Pilbara Minerals popped +1.21% today but is still down nearly 38% on your total investment. The lithium market remains oversupplied and uncertain, but new forecasts point to strong long-term demand from grid storage. The long-term thesis is intact — hold and be patient. Don't let a bad run spook you into selling near the bottom.",
+      "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "GXAI.AX — hold, AI sector momentum building",
-      "detail": "GXAI was up 0.53% today and there's serious AI news flow: OpenAI launched GPT-6, Anthropic released Claude Opus 5.5, and both companies are rolling out cheaper models. That's good for the AI sector broadly. You're down ~8.8% on this position but the underlying AI theme is as strong as ever. No reason to sell.",
+      "title": "GXAI.AX — Hold, AI sector is buzzing",
+      "detail": "Up 0.53% today, but still down 8.77% overall. This week has been huge for AI — GPT-6, Claude Opus 5.5, UK parliament hearings, and an antitrust suit against the big players all in 48 hours. The long-term case for AI adoption driving this ETF is strong. Short-term dips are noise. Hold.",
       "urgency": "green",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "TTWO — hold, GTA 6 story intact",
-      "detail": "Take-Two's CEO is actively hyping a PC version of GTA 6 and Rockstar is cracking down on leaks — both signs the game is still very much in focus. No date yet, but the long-term thesis (GTA 6 being a monster revenue event) remains intact. US markets open tonight — watch for any price movement.",
+      "title": "RBA rate rise looking more likely — watch your mortgage and bonds exposure",
+      "detail": "The RBA governor has explicitly said the job market is running too 'hot' and rates may need to rise. CBA and ANZ both shifted their rate forecasts this week to price in a hike. This is bad news for borrowers and for rate-sensitive assets, but your VDHG holds a chunk of bonds — rising rates can weigh on bond prices in the short term. Long-term holders: sit tight, this is priced into diversified funds over time.",
+      "urgency": "orange"
+    },
+    {
+      "title": "VTS.AX — Hold, US market steady",
+      "detail": "VTS is your best performer — up 4.2% overall and ticking higher. It tracks the whole US market, which is broadly holding up well. Tonight's US open will be worth watching given Middle East tension and oil's sharp drop. No reason to change anything here for a long-term holder.",
       "urgency": "green",
-      "ticker": "TTWO",
+      "ticker": "VTS.AX",
       "action": "hold"
     },
     {
-      "title": "VTS.AX — hold, quiet strength continues",
-      "detail": "VTS is your best performer, up 4.2% on your investment and ticking up again today. It tracks the entire US market, so as long as the US economy holds up, this does its job. Nothing to do here — just let it compound.",
+      "title": "Oil crashes nearly 4% — watch inflation and energy stocks",
+      "detail": "Crude oil (WTI) dropped $3.66 to $90.93 — a 3.87% fall in a single session. Lower oil usually means lower petrol prices for everyday Aussies over the coming weeks, and it takes some pressure off inflation. It's also a sign that markets may be pricing in some kind of Iran deal after Trump's UN speech, which could ease Middle East supply fears.",
+      "urgency": "orange"
+    },
+    {
+      "title": "TTWO — Hold ahead of GTA 6 news",
+      "detail": "Take-Two's CEO dropped a hint this week that a GTA 6 PC release is 'becoming' a reality, but no date confirmed. The console launch remains the near-term catalyst. Your cost basis is $651 AUD invested — hold and wait for GTA 6 to drive revenue. This is a multi-year story.",
       "urgency": "green",
-      "ticker": "VTS.AX",
+      "ticker": "TTWO",
       "action": "hold"
     }
   ],
   "world": {
-    "summary": "Trump rattled the UN General Assembly with an Iran ultimatum, oil tanked on Middle East deal hopes, the WEF warned of global economic risks, and Justin Trudeau resurfaced with a diplomatic lecture tour.",
+    "summary": "Trump rattled the UN with Iran war threats while dangling a deal, oil prices tumbled sharply, global economic forecasters are cautiously optimistic despite Middle East risks, and former Canadian PM Trudeau is reinventing himself as a public intellectual.",
     "stories": [
       {
-        "title": "Trump threatens to 'annihilate' Iran at UN — but expects a peace deal after November midterms",
-        "source": "Reuters / NBC News",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMHFVWHVmRkJDV09JMHNSQ2RvNk5zS2NwN3lwZ3lNOFNLd0tUdjZHS09lMUhZdHBCWXZUQ1NJUHh5cUxmYlU4NjNTRGRtWDJ3UkFpb05jS1U2R2huempndzFvVEtqZmV1RjN2cTRJWWYybEpQSkptR2NjLWFySUtUeDdXMmdBd0N4dktqeGN6WjdTOGVfQXZJLVgyX2k1RTlzbDZncmktWlI",
-        "why_it_matters": "Speaking at the UN General Assembly, Trump said the US could 'annihilate' Iran but that he fully expects a diplomatic deal to be struck — just not until after the November US midterm elections. Diplomats are quietly working on a framework. This is why oil dropped 5% today: markets are pricing in a possible easing of Middle East tension and a return of Iranian oil supply. If a deal happens, it would be a major geopolitical shift with global economic consequences — lower energy prices, reduced inflation pressure, and a de-escalation of the conflict that has rattled the region for months."
+        "title": "Trump Tells UN He Could 'Annihilate' Iran — But Expects a Deal After Midterms",
+        "source": "NBC News",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWHlfaF85em55RjZHa3VUZnlpME1GTnNQTmdxdFRiYktLd2Y1c1ZpQUNPUF9ma1RqSFE1QVJJdXRYM21ZUGJfWEhNVDBVMHk2OGNMSFpYMVB2cVg2Tk92aUgzQkxSWGlhYVZjUDdyMTg5dnVFNFQyTlRqanFxRzFLS0twcXZEcFk0RlR6M0hhdlU4ajNhdURycVdfTWRnQ0pYR0h2SzBieTJBVmo3d3FmeWhyaVpiZzZOMm84?oc=5",
+        "why_it_matters": "At the UN General Assembly, Trump delivered a stark warning to Iran — saying the US has the ability to 'annihilate' the country — while simultaneously hinting he expects to cut a deal after the US midterm elections. The Iranian president also arrived in New York this week, suggesting back-channel talks may be live. This combination of threats and diplomacy is why oil markets are jittery: a deal could flood markets with Iranian oil, pushing prices down further."
       },
       {
-        "title": "WEF warns Middle East conflict is the biggest single threat to the global economy",
-        "source": "The National News",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcTRlclFyVExyWVVocGs5a0FvU09KSmRmNi1EY0dnVE5ZSXJkc3laVzkyZjItYTVfc1lGdzFjY1NPNXJrOTBGNmotVm0taXRzbEg0ZzBVRl9xVzk3YkczcTdUSlQyTHBDczJPQm9sSzlmMVVkUkp4STBSb2ZHWWFSWVBoR1QySWtjdVJxLXdOQjYtNjFHVTlIX0lHRjBocEt5SkpkZ3Q5OFpKbnd3LUlWUE4zbWxQWWs1cTFtQ3M2TlQwTFdoVUZKY0J2M1pHZUw0bEE",
-        "why_it_matters": "The World Economic Forum's chief economists have released their latest global outlook, flagging that the Middle East conflict remains the single biggest threat to global economic stability. While the overall outlook is improving — with India cited as one of the strongest growth stories — uncertainty persists. For everyday Aussies, the key risk is energy prices: a flare-up in the Middle East can push petrol prices up fast, adding to cost-of-living pressure at exactly the wrong time given the RBA is already considering rate hikes."
+        "title": "Iran Flights Canceled as New US Aviation Sanctions Bite",
+        "source": "Radio Free Europe/Radio Liberty",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "why_it_matters": "New US aviation sanctions on Iran took effect this week, grounding Iranian flights. This is part of a broader squeeze on Tehran that's running in parallel with Trump's UN diplomacy. For everyday Australians it's mostly background noise, but it adds to global uncertainty — especially for energy prices and Middle East stability — which flows through to petrol prices and your investments in international shares."
       },
       {
-        "title": "Justin Trudeau speaks at Brown University on US-Canada relations and global conflict",
+        "title": "OECD: Global Economy More Resilient Than Expected, But Middle East is the Big Risk",
+        "source": "Business Review",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUGxIdWpPaXM4NmdVaWhsWEg2eWt2c2lrZDNqT21KOFMyQUVEOWEyakpUTTQyeElfdTdnSk1LT18wZGQ0Y3YxNU5aMXd4QjFQb3NjbTFya0hpdllCMmdWaEt2VEdNS1dsd1R4Q2t1T2gxVU9lWUJ6TjJveHdrRjNYbmhRRU1ONmJDSjJFX0I5OWNuTnRjWGlWV1JsT29wN21DcE1Qb0dvcXhubkxwVXFQTE9zbjhpanJjY3QxVk5jYzhlLUoyR3k3ak9KdnM?oc=5",
+        "why_it_matters": "The OECD released its latest global growth outlook and said the world economy is holding up better than feared, despite the ongoing Middle East conflict. The World Economic Forum echoed this but flagged the Middle East as the single biggest threat to the outlook. For investors, this is broadly reassuring — the global economy isn't rolling over — but it's a reminder that an escalation in the Middle East could change the picture fast."
+      },
+      {
+        "title": "Trudeau Reinvents Himself at Brown University — Discusses US-Canada Relations and Global Conflict",
         "source": "Brown University",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lNVZRdGxWUms3RWVtd29XRnJiWTQ3TTh1aWVRcl9mWG5YV3hqZy1NQmFyc1o5NmxFanUxSEh2RDQ2WkpMRENPSUpzOEFJS09aYnJBZzFoYnJielY1aUcwRWY5WHpMbXdYV3BUcS1vb1cwQ2dV",
-        "why_it_matters": "Former Canadian PM Justin Trudeau has resurfaced on the US university lecture circuit, speaking at Brown University about the strained US-Canada relationship under Trump, the nature of global conflict, and the importance of multilateral diplomacy. While Trudeau is no longer in office, his perspective reflects wider anxieties among US allies — including Australia — about the reliability of the US as a partner. The US-Canada trade relationship deteriorated sharply under Trump tariffs, and many of the same pressures are playing out in Australia's trade diplomacy."
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lNVZRdGxWUms3RWVtd29XRnJiWTQ3TTh1aWVRcl9mWG5YV3hqZy1NQmFyc1o5NmxFanUxSEh2RDQ2WkpMRENPSUpzOEFJS09aYnJBZzFoYnJielY1aUcwRWY5WHpMbXdYV3BUcS1vb1cwQ2dV?oc=5",
+        "why_it_matters": "Former Canadian PM Justin Trudeau, who stepped down earlier this year, is now lecturing at Brown University in the US. He spoke on the state of US-Canada relations (strained under Trump), global conflict, and the power of storytelling in politics. It's an unusual sight — a recent world leader taking a step back to reflect publicly — and signals how much the political landscape has shifted in North America under Trump's second term."
       },
       {
-        "title": "China watching Iran war closely — and playing both sides in the Middle East",
-        "source": "Arab Center Washington DC",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMFVPNUpWQmU0MlFSVTRWV252aFhXNWZwOU9pY0FTb2dYSEV4S2gyX0hUMU9kTWRmNVlzdEdwYjhzR0JoTmY4dkNoMktuZmlHYnNBNkFxWnFjSjdjdmR6RHkwaHNQZUg1bXQ0dHBkUlVISDdrSlRrbTFkRVVXZUk1dGYyYXJVbnRXM01ZeU5BbDBvZ29yX2tXc1dR",
-        "why_it_matters": "A detailed analysis from the Arab Center Washington DC examines how China has been carefully positioning itself in the Middle East conflict — maintaining economic ties with Iran while avoiding direct military involvement, and quietly expanding influence with Gulf Arab states. China is Iran's biggest oil customer, so any US-Iran deal directly affects Beijing's energy supply chains. This matters for Australia because China is our biggest trading partner — anything that shifts China's economic stability or energy costs flows through to demand for Australian resources like iron ore and lithium."
-      },
-      {
-        "title": "Korean and Australian leaders meet to discuss energy supply chains amid Middle East tensions",
-        "source": "Korea JoongAng Daily",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVVdZUW1OZHNPNVl4QTE1UlQ3Zy0zOGU5V29GVUpBVl9keXBHLVo1T2FlNTdZWURLZVhrR3JkaEk1M2Nua0J0eHpNcEpJQUhPaUtadmJ2OENMTUQtSl9rSTBtcDZNZ04waG5BYzZ1RFdXQmk4VDFyeFliVS1GOE53eS1XN1hyZGJBay1rVG12dER3Q3lGZ0VBWEYyc3RhWndDV29UVW1nSGtJOC1WZkRzbjlNZ2FSM0g0dEtqMEFmT194NFRFc2hnNnZR",
-        "why_it_matters": "Australia's PM and South Korea's President met to discuss securing stable energy supply chains in the wake of Middle East conflict disruption. Both nations are heavily dependent on Middle East energy imports and are keen to diversify. For Australia, this is part of a broader push to deepen the economic relationship with Asia-Pacific neighbours — and potentially to position Australian LNG (liquefied natural gas) as a reliable alternative energy source for the region."
+        "title": "Houthi-Saudi Conflict: What It Means for the US (and the World)",
+        "source": "Council on Foreign Relations",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUU1IdmtFdFRYNFEzT1BuRVRpamQxZDh0N3czV01WWGFtbHVYYWZZYmdna3FTVVpFeXd2cjZtSVA1R0c2MEpUdWlXUHRqSzBqQ0MtQ1NsSG1mN2EyVmZtN1o5RDlvVkxGLU5mMVBENXU5ZHFpUWhxX2xRWXNkSEdFbzZraUctOThBMzBoX3VNVGtBYnVsMGRwb0dkRHZDaEsyZU1fZ041V2FjcHR4aThNTTF0LThLcHpKV0p6Z3hKT24?oc=5",
+        "why_it_matters": "The Council on Foreign Relations published a major explainer on the Houthi-Saudi conflict and what it means for the United States. The Houthis (backed by Iran) have been attacking Red Sea shipping lanes, disrupting global trade and pushing up freight costs. For Australians, this matters because disrupted shipping routes can affect the cost of goods and add to inflation pressures — and it's one more thread in the complex Middle East knot that's keeping oil markets on edge."
       }
     ]
   },
   "markets": {
-    "summary": "The ASX 200 closed up 0.38% at 8,765. Oil had a massive 5% crash on Iran deal hopes. Gold slipped slightly. The Aussie dollar softened a touch. US markets haven't opened yet — S&P 500 and NASDAQ figures are from last night's session.",
+    "summary": "The ASX 200 closed up 0.38% to 8,765 — a solid session. Oil was the big mover globally, crashing nearly 4% on hopes of an Iran deal. The Aussie dollar slipped. US markets open tonight — last session the S&P 500 sat at 7,765 and the NASDAQ at 27,122.",
     "indicators": [
       {
         "name": "ASX 200",
-        "value": "8,765.3",
+        "value": "8,765",
         "change_pct": 0.38,
-        "note": "Solid session, closed at a new recent high."
+        "note": "Solid close today, up 33 points. Broad-based gains."
       },
       {
         "name": "S&P 500",
-        "value": "7,764.7",
+        "value": "7,765",
         "change_pct": 0.0,
-        "note": "Last night's close — US markets open later tonight AEST."
+        "note": "Last night's close. US markets open tonight ~11:30 PM AEST."
       },
       {
-        "name": "NASDAQ Composite",
-        "value": "27,122.1",
+        "name": "NASDAQ",
+        "value": "27,122",
         "change_pct": 0.0,
-        "note": "Last night's close — plenty of AI news to digest when markets open."
+        "note": "Last night's close. Watch tonight given AI sector news flow."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$89.81",
-        "change_pct": -5.05,
-        "note": "Massive 5% drop — markets pricing in a possible US-Iran deal that could bring Iranian oil back."
+        "value": "$90.93",
+        "change_pct": -3.87,
+        "note": "Big drop — Trump's Iran deal hints spooked oil bulls. Lower petrol prices could follow."
       },
       {
         "name": "Gold",
-        "value": "$4,360.50",
-        "change_pct": -0.36,
-        "note": "Slight dip — still near all-time highs overall."
+        "value": "$4,341",
+        "change_pct": -0.82,
+        "note": "Slight pullback — risk appetite picking up a little as Iran deal talk circulates."
       },
       {
         "name": "AUD/USD",
-        "value": "0.7086",
-        "change_pct": -0.46,
-        "note": "Aussie dollar softened slightly — makes imports a touch pricier, but good for export-focused companies."
+        "value": "0.7064",
+        "change_pct": -0.78,
+        "note": "Aussie dollar slipped. A lower AUD makes US holdings worth more in Aussie terms when converted."
       }
     ]
   },
   "politics": {
-    "summary": "The RBA is all but certain to raise interest rates, with CBA and ANZ both updating their forecasts. Meanwhile, Australia and the US are clashing over an 'opt-out algorithm' law, and Albanese is being pressured to push back on Trump's interference.",
+    "summary": "The RBA is now openly flagging an interest rate rise to cool the jobs market, and Australia's social media algorithm opt-out laws have sparked a rare and heated diplomatic clash with the United States.",
     "stories": [
       {
-        "title": "RBA governor signals rates are going up — CBA and ANZ change their calls",
-        "source": "ABC News / News.com.au",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORzFnRHgwOGp0aTlGYWNjNHF2S1A1NWhMT2lTNW4yYjc0LTI5NlNTNTJRRFR3R0M5MEptaVhHYzQ0QkM4WWhoQk54TktVWGNqSHRPRFpVeFNTeUlMMVVaUXpOX1QwTk5RbEo3V3Q0WXltdTMwbmRjNXlYMnY0Z3U1dkZjaVBxS0FuOUFKMUg3NnNJamoyMWNSVWtuQzZDOFZBdmV1ME1WTWFqYVhFanhaakJB",
-        "why_it_matters": "RBA Governor Michele Bullock has explicitly said 'heat' needs to be taken out of Australia's jobs market — central bank language that strongly signals a rate hike is coming. CBA and ANZ have now updated their forecasts to price in a rise. The AFR reports the RBA's inflation fight is likely to push unemployment higher as a side effect. For anyone with a variable-rate mortgage, this is a direct cost increase coming. For share investors, higher rates generally weigh on growth stocks and property values — worth factoring into your thinking."
+        "title": "RBA Governor Signals Rate Rise Coming — Jobs Market Too Hot",
+        "source": "ABC News",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORzFnRHgwOGp0aTlGYWNjNHF2S1A1NWhMT2lTNW4yYjc0LTI5NlNTNTJRRFR3R0M5MEptaVhHYzQ0QkM4WWhoQk54TktVWGNqSHRPRFpVeFNTeUlMMVVaUXpOX1QwTk5RbEo3V3Q0WXltdTMwbmRjNXlYMnY0Z3U1dkZjaVBxS0FuOUFKMUg3NnNJamoyMWNSVWtuQzZDOFZBdmV1ME1WTWFqYVhFanhaakJB?oc=5",
+        "why_it_matters": "RBA Governor Michele Bullock has said explicitly that 'heat' needs to come out of the labour market, and that interest rates may need to rise further to cool inflation. Both CBA and ANZ have now shifted their forecasts to price in a rate hike — meaning Australia's big banks expect your mortgage repayments to go up again. AFR reports the RBA is willing to drive up unemployment to get inflation under control, which is a tough but deliberate trade-off."
       },
       {
-        "title": "US attacks Australia's 'opt-out algorithm' law in rare diplomatic intervention",
+        "title": "US Attacks Australia's Social Media Algorithm Opt-Out Law as 'Censorship'",
         "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnFDU3RJTWVKOUlBU2JyQkp2YlJ0YjZleG1PbDRKazVyeEZ0ci1IRlZOSE54R01RWUY5SnU0Ty1QYnpqWmEzNDBMbXozYzFYQ0pITGJOX3p0VU9peURKYnBsQ0xvX1hJaXVFMW44dVIzV3FWRzRuV3BDU3p6YTQwRmxSUzZzdEVxbHFYRHdFNkdXMjlaUWVvTVBDSm1iTzFpNUFv",
-        "why_it_matters": "The US government has taken the unusual step of publicly criticising Australia's proposed algorithm law, which would let users 'opt out' of social media recommendation algorithms. Washington argues the law unfairly targets US tech companies. It puts PM Albanese in an awkward spot — caught between protecting Australians from algorithmic harm and not upsetting the Trump administration at a delicate time in the bilateral relationship. Opposition figures and some commentators are urging Albanese to stand firm and reject what they're calling US interference in domestic law-making."
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnFDU3RJTWVKOUlBU2JyQkp2YlJ0YjZleG1PbDRKazVyeEZ0ci1IRlZOSE54R01RWUY5SnU0Ty1QYnpqWmEzNDBMbXozYzFYQ0pITGJOX3p0VU9peURKYnBsQ0xvX1hJaXVFMW44dVIzV3FWRzRuV3BDU3p6YTQwRmxSUzZzdEVxbHFYRHdFNkdXMjlaUWVvTVBDSm1iTzFpNUFv?oc=5",
+        "why_it_matters": "Australia is pushing laws that would allow social media users to opt out of algorithmic content feeds (meaning platforms like TikTok and Instagram couldn't use personalised recommendations without consent). The US government has formally criticised this as 'censorship', calling it a threat to free speech. PM Albanese is defending the laws, while critics including the US are saying it's government overreach into how tech companies run their platforms. This is a rare and significant diplomatic spat between two close allies."
       },
       {
-        "title": "Former treasurer says Australia needs a 'financial crisis' to push through economic reform",
+        "title": "Former Treasurer Says Only a 'Financial Crisis' Will Force Real Economic Reform",
         "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbFBhZmhDV1NGTG9welpvaTBncE5fc3JzeW05eWhiSFd1RWZEZlBhSnNfYnpTbkZoR05OSXhvRl93cTF3LWViUDBTMGtiTzNNd3BVX2pRQjhTOGc1dzBuUmhYemhtUThnT1FMaXhQUXNlbHBsakVzMU9KVGExMUdLbF95U254XzFTT1pxM3Fpd3hUT3haUlJz",
-        "why_it_matters": "A former Australian Treasurer has made the blunt observation that Australia's political system seems incapable of delivering serious structural economic reform — tax, superannuation, housing — without a genuine crisis forcing the issue. With the RBA about to hike rates and cost-of-living pressure at a multi-decade high, the question of whether the government has the political will to reform (rather than just manage) is front of mind for economists and voters alike."
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbFBhZmhDV1NGTG9welpvaTBncE5fc3JzeW05eWhiSFd1RWZEZlBhSnNfYnpTbkZoR05OSXhvRl93cTF3LWViUDBTMGtiTzNNd3BVX2pRQjhTOGc1dzBuUmhYemhtUThnT1FMaXhQUXNlbHBsakVzMU9KVGExMUdLbF95U254XzFTT1pxM3Fpd3hUT3haUlJz?oc=5",
+        "why_it_matters": "A former Australian treasurer made the blunt observation this week that structural economic reform in Australia — things like tax reform, housing supply fixes, and productivity improvements — is effectively impossible in the current political environment and will only happen if there's a genuine financial crisis forcing politicians' hands. It's a pessimistic but widely-held view in economics circles, and it speaks to why big reform feels so hard to achieve in Canberra."
+      },
+      {
+        "title": "Albanese Defends Social Media Laws as Trump Pushes Back",
+        "source": "Mirage News",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUkwtUWlnQkR3M3dUQ3l2VTdlazN5X3dYcWNINF9QMW1CY0hQdmV5V0RfS2FVOTFiLTFBbFBTWmxkdm04elF2X0ptVmNkUTRuWFoyZG5aMml3WFFYVWt6UEI4MU5rR1ZjUVc5X0NEODFNYUp2WlcxMEFnWUtZQlpMNGVnRy1WcU0?oc=5",
+        "why_it_matters": "PM Albanese is standing firm on Australia's proposed algorithm opt-out laws despite pushback from both the Trump administration and US tech companies, who are labelling the laws as censorship. Australian Greens and some Labor backbenchers are urging Albanese to rebuff what they see as foreign interference in domestic policy. The outcome matters for companies like Meta and Google that operate in Australia — and by extension, for your GOOG holding."
       }
     ]
   },
   "ai": {
-    "summary": "Massive AI news day: OpenAI launched GPT-6, Anthropic released Claude Opus 5.5, both companies are being hauled before UK parliament over safety concerns, and there's a new antitrust lawsuit alleging the big AI players secretly agreed to slow development.",
+    "summary": "A massive week for AI: OpenAI launched GPT-6 (with two variants), Anthropic fired back with Claude Opus 5.5, both companies are cutting prices, and UK Parliament has summoned the big AI companies to explain themselves. Meanwhile, Trump told the UN he's against AI regulation.",
     "stories": [
       {
-        "title": "OpenAI launches GPT-6 — two models called 'Sol' and 'Luna'",
+        "title": "OpenAI Launches GPT-6 Sol and Luna — A Two-Model Approach",
         "source": "OpenAI",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c",
-        "why_it_matters": "OpenAI has officially released GPT-6, coming in two versions — 'Sol' and 'Luna'. This is the next major leap from GPT-4 and the o-series models. While detailed benchmarks aren't yet widely reported, GPT-6 represents OpenAI's flagship product in an increasingly competitive race with Anthropic and Google. This is directly relevant to your GXAI.AX holding — new, more powerful models drive demand for AI infrastructure and services, which is the engine that ETF is designed to capture."
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4SldKWWgzNDExSThTZW9MRTQ5WHE3VFRZMl9oSjIzaVhuZEZaY1ZSUTFxZTJFaFpUanlncTQySUg5SlRGVnNkQXZ0S3IxLWJScXNkLXY2Z3Jzbk5WR0UwSFp0NmUxN3c?oc=5",
+        "why_it_matters": "OpenAI has released GPT-6 in two flavours: Sol (optimised for speed and everyday tasks) and Luna (a deeper reasoning model for complex problems). This is significant because it's the first time OpenAI has launched a split model family under a single generation — essentially offering different brains for different jobs. Benchmarks show GPT-6 Sol and Luna competitive with or ahead of rivals including Claude Opus 5.5 and Google's Gemini. This keeps pressure on Alphabet's AI business."
       },
       {
-        "title": "Anthropic releases Claude Opus 5.5 — cheaper and more capable",
-        "source": "Anthropic / CNBC",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF",
-        "why_it_matters": "Anthropic has launched Claude Opus 5.5 — a more powerful and cheaper version of its flagship model. Both Anthropic and OpenAI are releasing cheaper models at the same time, following a public debate about whether AI development should slow down for safety reasons. The price cuts are significant: lower costs mean more businesses can integrate AI, accelerating adoption. This is the kind of trend that should benefit your GXAI.AX position over the medium term."
+        "title": "Anthropic Launches Claude Opus 5.5 — Cheaper and More Capable",
+        "source": "Anthropic",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
+        "why_it_matters": "Anthropic released Claude Opus 5.5 within hours of OpenAI's GPT-6 launch — a clear shot across the bow. Claude Opus 5.5 is positioned as cheaper than its predecessor while delivering improved performance, particularly on complex reasoning tasks. This is part of a broader price war in AI: both Anthropic and OpenAI are slashing costs to win enterprise customers. Cheaper AI is good for businesses adopting it, and good for ETFs like GXAI that hold companies building on these models."
       },
       {
-        "title": "UK Parliament summons Meta, Google, OpenAI and Anthropic over AI safety fears",
+        "title": "UK Parliament Summons Meta, Google, OpenAI and Anthropic to AI Safety Hearing",
         "source": "UK Parliament",
-        "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPbUdva1dCZHBxOEFPWnFEeGRmOTU3ZDNsSEYyOVlOcEEyS3R1OFNRWnRRSFE1Mkxta1JwVVBQVlNjaGhzNmIzb2F3bUFtbEhtYVJGSW5GRGt2X09LWXRWUm9XaVU5U2w2OGd1eG1zYy1VbG1wYUNwd2RRcVU1SzhOOGhyOXNVaC1lYlVKeTNMQUVJdmRSMlJMcWZJTUpJcUtxU1ZPS0Y0REVHLXRVUE5fcUI1bk1CUFVxUUFFVTlTNGxHYXUwSHFTTXVhWl84X1pZRU9iVk8xYWVVYkxSZFFoYVJxM20wMDZGQ2VpdnJiVXpVV0tqS2tZLXpLU3RJOGdIdlg1cnNFN2Z3YVNfaUFzZTFlS0tkcXBtXzJsWnFfNHZZQ2FfMFZnV0RyTlpxbDFjeUhjX2dTb2xncGMy",
-        "why_it_matters": "The UK Parliament's Business Committee has formally invited the bosses of Meta, Google, OpenAI and Anthropic to appear before a public hearing on AI safety. This is part of a growing global push for regulation — Australia has backed tougher AI rules, and Trump at the UN has rejected any regulation at all. The tension between 'move fast' and 'move safely' is the defining political battle in tech right now. More regulation could slow some AI revenue growth, but also legitimises AI as a mainstream industry."
+        "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPbUdva1dCZHBxOEFPWnFEeGRmOTU3ZDNsSEYyOVlOcEEyS3R1OFNRWnRRSFE1Mkxta1JwVVBQVlNjaGhzNmIzb2F3bUFtbEhtYVJGSW5GRGt2X09LWXRWUm9XaVU5U2w2OGd1eG1zYy1VbG1wYUNwd2RRcVU1SzhOOGhyOXNVaC1lYlVKeTNMQUVJdmRSMlJMcWZJTUpJcUtxU1ZPS0Y0REVHLXRVUE5fcUI1bk1CUFVxUUFFVTlTNGxHYXUwSHFTTXVhWl84X1pZRU9iVk8xYWVVYkxSZFFoYVJxM20wMDZGQ2VpdnJiVXpVV0tqS2tZLXpLU3RJOGdIdlg1cnNFN2Z3YVNfaUFzZTFlS0tkcXBtXzJsWnFfNHZZQ2FfMFZnV0RyTlpxbDFjeUhjX2dTb2xncGMy?oc=5",
+        "why_it_matters": "The UK Parliament's Business Committee has formally invited the chiefs of Meta, Google, OpenAI, and Anthropic to appear before MPs to answer questions about AI safety. This is happening as AI capabilities are advancing faster than regulation. The hearing signals growing political seriousness in the UK about who is accountable when AI causes harm — and it comes as a separate antitrust lawsuit has been filed in the US against Google, OpenAI, Anthropic, and SpaceX. Regulatory pressure is building on all sides."
       },
       {
-        "title": "Antitrust lawsuit: OpenAI, Anthropic, Google and SpaceX AI accused of secretly agreeing to slow AI development",
-        "source": "Law Commentary",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdXlPcXEwYlg5N3A0bjFFTTFxWDZqZUdqSHFOSlA1SXJCSm04MnhsUUFFaG9KNUU0blFIOW1jQUdxcjJoQTRGSV9uRTdrSEQ0WU1fcHZ4cDBvWkxvRy1qQkQyVTFVWFNfdGZCc05QYVk0NHdnd3hHbjlaLTE2TkdQV29rbzJLZGpRZUhZTGpTVmR2bGktMURJaTViUGtKdzFzU2Fr",
-        "why_it_matters": "A new antitrust lawsuit has been filed against OpenAI, Anthropic, Google DeepMind and SpaceX's AI division, alleging they secretly agreed to coordinate on slowing AI development — effectively cartel-like behaviour in the AI race. If proven, this would be a massive legal and reputational blow to the industry's biggest players. It's early days and the legal bar is high, but it's the kind of case that could drag on for years and create regulatory uncertainty. Worth monitoring for your GXAI.AX holding."
+        "title": "Trump Rejects AI Regulation at the UN — Compares It to Climate Policy",
+        "source": "Scientific American",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWZfbEItUmtMUWM5bklpRDBsQ0dPdTQxcDR0dnZaaDF1V0VoVFE1Tm1UWm1GWjVFVFl5aHJCZTlSckVMa3dYUFl6c3Bka1VHYlJHR1pZRHc1LWY1YmRlekV1aFNFbkM0THh4S2lYMXlwMGQ1MkZ6bmRpNnJrTU9ndnB5NjhUOFN1ZDNKUWZQd19aTFRjZGd5U2FLTVBtY3NHaUdFdUVIV1E3YWhLaTJVLTYybGVxOFJiR21TcjZ2WQ?oc=5",
+        "why_it_matters": "In his UN address, Trump said he opposes AI regulation, drawing a parallel to his rejection of climate science — framing both as areas where he believes government interference does more harm than good. This matters because the US is the world's biggest AI market, and without US regulatory leadership, global rules will be fragmented. For investors in AI stocks, less regulation in the near term could mean faster growth — but also higher long-term risk if safety incidents occur."
+      },
+      {
+        "title": "Google, OpenAI, Anthropic and SpaceX Hit with Antitrust Lawsuit in the US",
+        "source": "Lawxy AI",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQlJValhnR2E5UDdqM0x4ZjdXRmRSbGtTenFyX2ZtYjZIbUZsNl8wbWdycDE0VFNMR0RBY0xOb3h6azhkTTdpd0ozVTJvaE40S0NaX3NJTmJRR0NRZ1FyUzZ4dVd6bXRIbjBvQk1GNmVveDdMaHEwaE1iWEt6WGc2T01vTXBDTi1qWlVyUGU5Y2tuZVE3?oc=5",
+        "why_it_matters": "A new antitrust lawsuit has been filed in US federal court (Northern District of California) targeting Google, OpenAI, Anthropic, and SpaceX, alleging anti-competitive behaviour in the AI space. This is early days — antitrust cases take years — but it's a meaningful signal that regulators and litigants are starting to treat the AI industry the way they once treated Big Tech search and social media. For GOOG holders, this adds to existing antitrust pressure on Alphabet."
       }
     ]
   },
   "sport": {
-    "summary": "NRL Finals Week 2 results are in — the Roosters pulled off a miracle win over the Raiders, and the Dolphins had a back suffer a suspension heading into their huge Friday night clash. AFL Grand Final week is here, and the North Melbourne coaching search is getting complicated.",
+    "summary": "NRL Finals Week 3 is here with Dolphins v Roosters on Friday night at Suncorp — right in your backyard. The AFL Grand Final is days away with a Fremantle angle getting Maccas excited, and the Roos coaching job search is getting messier.",
     "stories": [
       {
-        "title": "Roosters stun Raiders in Finals Week 2 — miracle comeback after halftime speech",
-        "source": "Fox Sports / NRL.com",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR1RDR0oxZ1YzUFhxdWhXU1JPTXhqMmI2Q2Z1enNrZEs0Qzd2dnVIYzh4ZE9RaXd5WkZWNUFVSVdrR2xRQWtIQWxVNkEzSVB6R2hqWUVGUUxNQm1PR1RndjctVF9mY3lfUFB0Mk9IelBPS1liblBrcFRTQWhzblN0WFpjaWZKaHlpWFE",
+        "title": "Dolphins Back Hit With Ban Ahead of Roosters Finals Clash",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQZG9jUmhROTlLcm9RaVM3NUtySkRnUFNaRWxEUmNuOTI5Sk9DNEhtMGEwTGVVcEoweXZUcGxqMkR1eWFqQ1dxdm1oMm0zWjZseGg1NmJNaWxvSlItZi1fRHZRZVp0Y1VKM09EMFN4MUc1QUR1VU5pM1FkcXViSFJpVDBJYmJHYlRvSU03N0ctOWxuendYY1g0VFJEQkFucEpBRHlQNHJ0SExlZGwwVnloazJCanJxOU55N0prVmtmdTF5RzFHVVRTX1piVHNiZnhWREhMdXpoUlQ3blpLRUZTdzV2SkVkNmhEQklocnFtU0xTcTR6Z192Sm9kYWJhVjIxT0FOZ2xGRFFzWHhqRFdLeEpJSmcta0pBYUotMEkxcG04NTQ3amZwNWVKaWZVM0ZmTUx6TUhPOE9ZWHRGMm5WX29ScEg5eWpBdkE?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Roosters have made it through to Finals Week 3 after a dramatic come-from-behind win over the Raiders. Fox Sports reports words spoken at halftime sparked the turnaround — the Roosters are now set to play the Dolphins at Suncorp on Friday night at 7:50pm. Meanwhile, a Dolphins back has been hit with a suspension, which is a significant blow to their preparation for that clash. The Raiders' season is over."
+        "why_it_matters": "The Dolphins have been dealt a blow ahead of Friday night's Finals Week 3 clash against the Roosters at Suncorp Stadium — a key back has been suspended. Meanwhile Fox Sports reports the words spoken in the Roosters' dressing room after last week's miracle win are still ringing around the club. Kick-off is 7:50 PM Friday — right in your backyard on the Gold Coast. Big game with a finals berth on the line."
       },
       {
-        "title": "Titans knocked out — Broncos advance in Finals Week 2",
-        "source": "NRL.com",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXYzRG9NQ1dDaVI5elR4eUlEWnVKcjBNZkxwOGFlREd1dWNUR0ZLR3VGSi1LUTM1aG85Y2VVamxjN2tSZmtISzdXM2xqc3lpZXpkZGhNM3hpLTFJekZWeFBGQ21naWduX0pnenRzQ0ZXQmEySk9tTU1pek1NRGZLUm9JblZCV1E",
+        "title": "NRL's Next Superstar: The Rise Shaped by Wayne Bennett",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPSGdOU2toRUtnUFVKbE5BQy1SVnVuc0diUXFNZmtSSXItYUR3U29BRW42RjVVRjl2SUY4cThHU2dCZE12cV9CWER0dFp0QkhXSUNkMFlWbFZpSVlGZnpwaW5mQVAtZktMcGlDeWFCSlRpUUp3eEdIUkJPc0VadnNudTlxT2dwTlJPWE91S0RvSmFXZUxwNFhYX1d2WEozVklKTjJWTFc2V1pGcWo3YUhIQUQ5SEZGSmhFUTQxcmY1bE5sY045TWxncTVJcUJYcWRzZjRVeU1EWUpENXdBR21TOGlWYWlYaUxWNzh6SVcwVU1oZVFRY3h6blRUWVdYUUFVcnJTWGxiTUdGNVY4R1ZVbEY0V1l5dWkwOW5CTjBlV1FMaXE4SjZ1Rm5mSWlNR3lXX2pWWjhuazJzRVd1T2ROcVJTNm5vVFU5dnF5MXVfd0JURTZLSkRGNW1mWFVyOTd0N3dqeWpuTkRaYk9tMER3U0lQYTdUcFRMeFE?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Gold Coast Titans have been knocked out of the 2026 finals after losing to the Brisbane Broncos in Finals Week 2. The Broncos advance to Week 3. Hard to take for local Gold Coast fans — the Titans' season is done."
+        "why_it_matters": "Fox Sports ran a deep feature on the NRL's latest rising star — a player whose career was transformed by a Wayne Bennett conversation that changed his approach to the game. Bennett's influence continues to loom large in the competition even as he steps back from day-to-day coaching. Worth a read if you love the game's human stories."
       },
       {
-        "title": "Warriors centre released mid-finals — likely suitor emerges",
-        "source": "CODE Sports",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeDE2VUpHWTR0NTZCNWYyUUtwWVhKcG9tQ09DWVVQWHlCT3hEQTg1MzVGdGRVMmxLeDBiTmNXQXpUbTdhdHc3emlDd1NWU3F1c09VcDNEdzkyMGJyUTNGTHFTUUM0MGo5aGYyb3VaVlJmNlVlWkoydnpYOUJXSWlhTnFCSUIxbkxkSXNUdlRnZW5RbDN3dDBSbDBUOVJ1TW45cWwxOGRSMkhBVlVMRXlsSExiUlpRVnRNdjc4bDhuOGFLbzNNNlRnR3NubjhLU2lEQi1FcTlwWnp4cW8",
-        "category": "NRL",
-        "why_it_matters": "A New Zealand Warriors centre has been released by the club mid-finals, with CODE Sports reporting a likely suitor has already emerged. The NRL player market is moving fast even as the finals are being played — clubs are positioning for 2027 rosters."
-      },
-      {
-        "title": "AFL Grand Final week: Ultimate guide, plus another coach pulls out of North Melbourne race",
-        "source": "The Australian / AFL.com.au",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaDhJS0dVYTlhVzd3MnFpaUtLVGNZaUxnbmpVQ0NBUG12dnZoZlB6T3FmaEYwYkpOSWVYRm9CeEppSUgwaVZ4RGVNVVpBWi1NTmY1eG1rM3k2cDNZVU9wdmV2d09UX0lLWWRmRFAwbHotOVdaUWYxb0Uya3g4NEpZRldSRG9jbVlnWWpjSjFkSmtpWHlrUkRyY1dES3dNNnRjOE11YUNaNlRmTG15SGtKUTZyQlFKcVg1QmxQeUhlcXFucXVjQkcybmZnR1NKZS1fblpQdmtYZVU3aU9vaDlzdEtoZEVMNWVlMEtCYUMzdkM0UQ",
+        "title": "AFL Grand Final Preview: Everything You Need to Know",
+        "source": "News.com.au",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUHlsSFZQSC1jdGJWeVZxeW9VbzVGVmIzV1NIZ2kyODhmeXVSb0xsbDRRemFJYlRpVS0zMm1qUE5nXzg0QTBvbUJ6SkdLbkwzYmZOMDQtN1NmQ1BCYVBMSmRlQlBqb0ZHaUFzWVJuRGRNUVBQQkNPUkdHdGxmcVRHd01KblpKcU56T0JuVFJjZExVUWZXam55WVg3Wi1wd19pT3B1U2h6QVpyQWdDN2RNVWZCNkpwS0J6RHhqMnJaOHpoTk9tLVZBWGdNT1picTRiU2JuVkhjbmxFUWs3a2RNctIB5gFBVV95cUxNOTFXa0VaX19mNl9NY09wcmZSRFVBVkg0aWNsdWNlUG9GVG1mWmRpUTR2ZU0zdjNXdVVtYVBnTHhiR3o0WllvLXhOZUR1NDdOejZvVkdHbEU4dEhBWjhnNmY4RGRaNFIyNDVjdU1sREo0dElLNUZ1NmMxYmdNLTByckFSN2l0Tk9GSHBJN0dYWFppeko4ZVpJMXRQenB2aERTQnlMMHhGWGpJa29ESDBaeTlUUWN0VGJlTlN3R1J6QU9rRk5VdkpfUTEzcXdtWFFrWEZrREoxZ0s4dkl0Qzh2eWFCUWpiZw?oc=5",
         "category": "AFL",
-        "why_it_matters": "AFL Grand Final week is here and The Australian has published a full guide. Separately, another premiership-winning coach has withdrawn from the race to become North Melbourne's new senior coach, further complicating the Kangaroos' search. The AFL trade period is also about to kick off, with Trade Radio returning to AFL.com.au."
+        "why_it_matters": "The 2026 AFL Grand Final is just around the corner and News.com.au has published a full guide. Maccas is offering free Big Macs to West Australians if Fremantle win — a sign the Dockers are genuine contenders in this year's decider. The AFL Trade Period also kicks off right after the grand final, with AFL Trade Radio returning to cover what's shaping up as a bumper off-season."
+      },
+      {
+        "title": "Another Premiership Coach Pulls Out of North Melbourne's Head Coach Search",
+        "source": "AFL.com.au",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdVhXTWtZc29wYzZwQXhnMzMyck41bW5oYldVc2hMNEZuTE9JTkVObkhuUUdlYUo4NTBZdExlY3BDVXNQMXk2djBuRVgzaUstSHNUYlVNTjkwT1AyVEw3eHNYS1lQX0paMWZRSlJNTG9nOEs4eFlDSkJfQW9ST3FDTHNzRTRNZ1JCSzlmMlUtNnhtN3N6NlZpWVp0QV9LUHE5WksxREdaV1dBWlU3LVE3Y1c0bWdFRzJFVGQ3YklUWmtXdlJtT3NPQ1JqTQ?oc=5",
+        "category": "AFL",
+        "why_it_matters": "Another experienced premiership-winning coach has taken their name out of contention for the North Melbourne head coaching role. The Roos' search for a new senior coach is becoming increasingly difficult, with multiple high-profile candidates stepping away. It's a challenging rebuild at Arden Street, and the coaching vacuum makes the club's path back to finals even harder."
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "🌤️",
-    "condition": "Mainly clear",
-    "temperature_c": 20.1,
+    "icon": "🌦️",
+    "condition": "Light drizzle",
+    "temperature_c": 18.9,
     "high_c": 23.0,
     "low_c": 17.2,
-    "rain_chance_pct": 45,
-    "rain_mm": 1.7,
+    "rain_chance_pct": 46,
+    "rain_mm": 1.3,
     "tomorrow": {
       "icon": "🌦️",
-      "condition": "Drizzle",
-      "high_c": 21.2,
-      "low_c": 17.8,
-      "rain_chance_pct": 94,
+      "condition": "Light drizzle",
+      "high_c": 21.1,
+      "low_c": 17.5,
+      "rain_chance_pct": 99,
       "rain_mm": 3.2
     }
   },
@@ -313,7 +325,7 @@
         "current_value_native": NaN,
         "current_value_aud": NaN,
         "total_invested": 70.0,
-        "total_invested_aud": 98.79,
+        "total_invested_aud": 99.09,
         "pnl_native": NaN,
         "pnl_aud": NaN,
         "pnl_pct": NaN,
@@ -327,7 +339,7 @@
         "current_value_native": NaN,
         "current_value_aud": NaN,
         "total_invested": 280.0,
-        "total_invested_aud": 395.15,
+        "total_invested_aud": 396.38,
         "pnl_native": NaN,
         "pnl_aud": NaN,
         "pnl_pct": NaN,
@@ -341,7 +353,7 @@
         "current_value_native": NaN,
         "current_value_aud": NaN,
         "total_invested": 460.0,
-        "total_invested_aud": 649.17,
+        "total_invested_aud": 651.19,
         "pnl_native": NaN,
         "pnl_aud": NaN,
         "pnl_pct": NaN,
@@ -418,11 +430,11 @@
         "day_change_pct": 1.21
       }
     ],
-    "total_invested_aud": 2202.1,
+    "total_invested_aud": 2205.66,
     "total_value_aud": NaN,
     "total_pnl_aud": NaN,
     "total_pnl_pct": NaN,
-    "aud_usd_rate": 0.7086
+    "aud_usd_rate": 0.7064
   },
-  "generated_at_utc": "2026-09-23T07:38:37.959076+00:00"
+  "generated_at_utc": "2026-09-23T12:53:49.053255+00:00"
 }
