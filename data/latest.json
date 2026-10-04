@@ -1,255 +1,246 @@
 {
-  "headline": "ASX closed up 0.79% on a solid Sunday session, NRL Grand Final — Roosters vs Knights tonight at 6:30pm — is the big event of the day.",
+  "headline": "Roosters win the 2026 NRL Grand Final 19-18 in a thriller, while the ASX 200 closed up 0.79% and your US tech holdings had a solid night last night.",
   "portfolio": {
     "movers": [
       {
         "ticker": "GOOG",
-        "name": "Alphabet Inc. (Google)",
+        "name": "Alphabet (Google)",
         "change_pct": 1.62,
-        "note": "Google had a strong night last session on NASDAQ, up 1.62% to $340.35 USD. The broader tech rally on NASDAQ (up 1.19%) lifted the whole sector. Analysts are still debating the Google Cloud story — revenue hit $20B but free cash flow has been scrutinised. Long-term fundamentals remain solid."
-      },
-      {
-        "ticker": "PLS.AX",
-        "name": "Pilbara Minerals",
-        "change_pct": 1.37,
-        "note": "Pilbara bounced 1.37% today to $3.70, a welcome green day after a tough stretch. No specific news catalyst — likely riding a broader ASX resource sector lift. The stock is still well below your cost base, but today's move shows there's still demand for lithium exposure."
+        "note": "GOOG had a strong night last night, up 1.62% to $340.35 USD. No single major news catalyst, but the broader NASDAQ ran hard (up 1.19%) and sentiment around big tech AI plays remained positive. A recent analyst piece noted Google Cloud hit $20B in revenue, though free cash flow has been under scrutiny — worth keeping an eye on longer term."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": 0.92,
-        "note": "Microsoft climbed 0.92% last session to $517.53 USD — a solid move as big tech broadly rallied. Microsoft's AI products (Copilot) continue to be well received by the market, and the stock is now up 16.8% on your overall position. Nothing but good news here."
+        "note": "Microsoft rose 0.92% last night to $517.53 USD, riding the same positive tech wave as the broader NASDAQ. No specific news catalyst overnight — just solid market momentum behind AI-linked mega-cap stocks."
+      },
+      {
+        "ticker": "PLS.AX",
+        "name": "Pilbara Minerals",
+        "change_pct": 1.37,
+        "note": "Pilbara closed up 1.37% today to $3.70 — a small bounce but still well below the $6.74 average buy price implied by the total invested. No specific news today; lithium sentiment remains subdued globally. The long-term thesis depends on EV demand recovery."
+      },
+      {
+        "ticker": "GXAI.AX",
+        "name": "Global X AI ETF",
+        "change_pct": 0.17,
+        "note": "GXAI.AX edged up 0.17% today to $17.44 — a quiet session for this AI-themed ETF. It tracks global AI companies, so it tends to follow US tech. Still sitting about 7.7% below your total invested amount."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": 0.21,
-        "note": "VDHG nudged up 0.21% today, which is exactly what you'd expect from a diversified fund on a broadly positive ASX day. Steady as she goes — this one just quietly does its job."
-      },
-      {
-        "ticker": "GXAI.AX",
-        "name": "Global X Artificial Intelligence ETF",
-        "change_pct": 0.17,
-        "note": "The AI ETF ticked up a modest 0.17% today. AI stocks broadly are in a holding pattern while the market debates regulation — Trump's administration is keeping AI oversight voluntary rather than mandatory, which is generally good for the sector's growth runway."
-      },
-      {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market Shares ETF",
-        "change_pct": 0.08,
-        "note": "VTS barely moved today — up just 0.08%. It tracks the entire US share market, so last night's NASDAQ-led US rally will be better reflected in tomorrow's session. Your position is up 5.32% overall, which is a healthy return."
-      },
-      {
-        "ticker": "VGE.AX",
-        "name": "Vanguard FTSE Emerging Markets ETF",
-        "change_pct": -0.16,
-        "note": "Emerging markets dipped slightly today — down 0.16% to $94.26. No major catalyst; emerging market ETFs can be sensitive to the Aussie dollar and global risk appetite. Essentially flat on the day — don't read too much into it."
+        "note": "VDHG crept up 0.21% today to $75.90, roughly in line with the broader ASX 200 gain. This diversified fund just does its thing quietly — no specific catalyst today."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": -0.44,
-        "note": "Take-Two slipped 0.44% last session to $202.73. It's still sitting at a loss of about $84 AUD overall. There's a bit of chatter in gaming circles about GTA 6's $80 price point potentially setting a new industry standard — if that sticks, it's a positive for Take-Two's revenue when GTA 6 eventually launches."
+        "note": "Take-Two slipped 0.44% last night to $202.73 USD — a minor dip with no specific news catalyst. It's still the portfolio's biggest dollar loser overall, down about $83.86 AUD from your cost base. The long-term story here is GTA VI, which remains the key catalyst to watch."
+      },
+      {
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market Shares ETF",
+        "change_pct": 0.08,
+        "note": "VTS.AX was basically flat today, up just 0.08% to $543.12. It mirrors the entire US share market, so last night's strong S&P 500 session (+0.73%) should flow through more meaningfully when US markets next open."
+      },
+      {
+        "ticker": "VGE.AX",
+        "name": "Vanguard Emerging Markets ETF",
+        "change_pct": -0.16,
+        "note": "VGE slipped a tiny 0.16% today to $94.26 — essentially flat. Emerging markets have been the quiet underperformer in the portfolio, down 0.34% overall. No specific news today; global risk appetite and China's economy are the key drivers to watch."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "PLS.AX — Hold through the recovery",
-      "detail": "Pilbara Minerals bounced 1.37% today but you're still down about 45% on your position (a $67.66 AUD loss). There's no structural fix to lithium prices yet, but the long-term EV and battery storage thesis is intact. Today's green day is a small positive signal. Don't sell into this weakness — that would lock in a real loss. Sit tight and let the lithium cycle turn.",
+      "title": "Pilbara Minerals (PLS.AX) — small bounce, big hole",
+      "detail": "PLS ticked up 1.37% today but you're still down ~45% on this position (-$67.66 AUD). The lithium market remains depressed with no near-term catalyst. For a long-term holder the question is whether you believe in the EV demand recovery story — if yes, sit tight. If your conviction has changed, it's worth revisiting. No structural news today to change the thesis either way.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "MSFT — Strong position, no reason to touch it",
-      "detail": "Microsoft is your best performer at +16.8% overall, and last session added another 0.92%. The AI Copilot integration across Microsoft's product suite continues to be a growth driver. Nothing to do here — just enjoy it. Classic long-term hold.",
-      "urgency": "green",
-      "ticker": "MSFT",
-      "action": "hold"
-    },
-    {
-      "title": "TTWO — Still underwater, but GTA 6 is the long game",
-      "detail": "Take-Two is your biggest dollar loser right now (down $83.86 AUD, -12.68%). The stock barely moved last session. The key catalyst everyone is waiting for is GTA 6 — when it launches, it's expected to be the biggest entertainment release in history. A new report suggests the $80 price point could become industry standard, which helps Take-Two's margins. If you believe in GTA 6, the thesis hasn't changed. Hold.",
+      "title": "Take-Two Interactive (TTWO) — still in the red, GTA VI is the story",
+      "detail": "TTWO dipped another 0.44% last night and is your second-biggest dollar loser, down $83.86 AUD overall. The entire long-term case rests on GTA VI being a blockbuster release. No new news today — but patience is required here. Nothing has broken the thesis, so it's a hold for a long-term investor.",
       "urgency": "orange",
       "ticker": "TTWO",
       "action": "hold"
     },
     {
-      "title": "RBA rate cut still more than a year away — budget squeeze continues",
-      "detail": "New reporting this weekend suggests the RBA won't cut rates for at least another 12 months, following the September 2026 rate hike. Mortgage holders are still under serious pressure. For your portfolio, this means the Aussie economy stays in a slow-growth phase — not ideal for domestic stocks, but your US holdings (GOOG, MSFT, TTWO) are unaffected.",
-      "urgency": "orange"
-    },
-    {
-      "title": "GOOG — Cloud growing, worth watching free cash flow",
-      "detail": "Google's stock rose 1.62% last night to $340.35. Analyst attention is on Google Cloud hitting $20B in revenue — impressive growth — but some analysts have flagged that free cash flow (actual cash the business generates after spending) has dropped sharply. Your position is still up 10.71% overall. No action needed, but worth keeping an eye on the next earnings report.",
+      "title": "GOOG looking strong — up 1.62% last night",
+      "detail": "Google had a solid night, climbing to $340.35 USD and now sitting 10.7% above your cost base. A recent analyst note flagged Cloud revenue hitting $20B as a positive, though free cash flow has compressed. Long-term story remains intact — hold and let it run.",
       "urgency": "green",
       "ticker": "GOOG",
       "action": "hold"
     },
     {
-      "title": "NRL Grand Final tonight — Roosters vs Knights, 6:30pm Accor Stadium",
-      "detail": "The big one is on tonight. Knights are chasing their first premiership in nearly 30 years — the last time they won it all was 1997. Roosters are seasoned finals performers. Kick off 6:30pm AEST at Accor Stadium. Nothing financial here — just don't miss it.",
+      "title": "RBA rate cuts still a long way off — mortgage pain continues",
+      "detail": "Fresh reporting today suggests RBA rate relief is more than a year away. That's a headwind for household budgets and consumer spending broadly, but for your portfolio it keeps upward pressure on the Aussie dollar muted, which actually helps the value of your US-denominated holdings (GOOG, MSFT, TTWO) when converted back to AUD.",
+      "urgency": "orange"
+    },
+    {
+      "title": "Middle East tensions — oil dropped but watch for volatility",
+      "detail": "Crude oil fell 1.9% last night to $91.11 USD, despite ongoing Israel-Iran conflict updates. If tensions escalate sharply, oil can spike fast, which feeds into inflation and complicates central bank rate decisions worldwide. Keep an eye on Middle East headlines this week.",
+      "urgency": "orange"
+    },
+    {
+      "title": "ASX 200 had a good day — up 0.79% to 8,682",
+      "detail": "The local market closed solidly in the green today, helped by positive global sentiment following last night's strong Wall Street session. Your ASX holdings (VDHG, VTS, GXAI, VGE, PLS) all benefited to varying degrees. Nothing to act on — just a good day for the portfolio.",
       "urgency": "green"
     }
   ],
   "world": {
-    "summary": "A busy weekend globally — US-Russia Ukraine talks take a murky turn, Trump takes aim at Canada, a US federal judge strikes down a voting law, and the Middle East conflict continues to reshape the region.",
+    "summary": "The Middle East conflict continues to dominate global headlines, Trump is making waves on the US domestic political front ahead of midterm elections, and there are questions about whether the global economy can keep defying the odds.",
     "stories": [
       {
-        "title": "US-Russia Ukraine talks reportedly tied to an oil deal involving Trump allies",
-        "source": "The New York Times",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUExYZk9hQzBJWE9DS0UxQ1RfNUttN3NIY2xuNS1PN0dkZVBlODRMMkVmbGFDNXZ1RDU2aU5rM3dGc3ZtR3Z6RHZSSGxpME5TSGJ0OE1vWUdHNWZUTVdQQjhLYVV3MW9XUExPYUJBbHhieUlmTmw5QmJ0YXdjMjh2c3dBeG91d2d5dHRB?oc=5",
-        "why_it_matters": "Behind-the-scenes negotiations between the US and Russia over the Ukraine war are reportedly now entangled with an oil deal that benefits people connected to Trump's inner circle. The NYT reports that Trump allies stand to gain financially from any peace arrangement. This raises serious questions about whether America's Ukraine policy is being shaped by geopolitical strategy or personal financial interests — and it's exactly the kind of story that could blow up into a major political scandal. For everyday people, it matters because the Ukraine war drives European energy prices and global oil markets."
+        "title": "Israel-Iran conflict: live updates as Middle East tensions remain high",
+        "source": "The Jerusalem Post",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nMi1hbDF1SG9RT0h0M2hPX0lZbnJrdmtzS3czdmVDeVRHYjhsMXpINWlES3pndmxtMUZqZ285M3dJRU9FUXI3VlhrbVFtTjBmNk4wMW1neWhQaWhzdHhrVlZTZGxMZDFDUTBtcThGUV9wZThGZXBCVWllVmVDZFU?oc=5",
+        "why_it_matters": "The Israel-Iran conflict is still live and evolving, with no sign of a ceasefire. Iran has publicly told the US there is no military solution to the war, while fighting continues across the region. For everyday Australians, a wider conflict risks pushing oil prices higher — which flows through to petrol prices and inflation here at home."
       },
       {
-        "title": "Trump's $90 one-time payment to 20 million Medicare seniors",
-        "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbENzaDZIOHJGUlc5YUJFV1d5b0lLUnhxT2hPaFlNcnB6djdYak5qcmlfVHVmS3B0S3FjZ1VMQ2lkYVBjWnFQNVNIb0ZUdzZkVG5DZ284SDNKdnNGUWVWcXpRejV0YlgzM3dxX2FhTGtETl90QXQyMlB2N215T1MydkM3Q0s?oc=5",
-        "why_it_matters": "The Trump administration has announced a one-time $90 payment to approximately 20 million Americans enrolled in Medicare (the US government's health insurance for people over 65). Critics are calling it a political handout — $90 barely covers a week's groceries — while the White House frames it as relief for seniors struggling with cost-of-living pressures. With US midterm elections approaching, the timing is being widely noted. It's a small cash splash with a large political motive."
-      },
-      {
-        "title": "US federal judge rules law banning noncitizen voting is unconstitutional",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONHB3dWFLaTBMNExjU0dueG5WdDFmYU1VWVNYblBLbG96S054LVA1MkV5S3pLeDB0M3hDNEFSR3pGUDJHQzg4QU41UXo5VVMxMGhYdW9Mb1VoeEYzTnFVNmYydGU0NDAxTk5ia1FXZDRSeDlmQTVSTHI4aENtb3NZbzgxSlJrVnZ2NEVBS0lSTjJWZVl6aWJnN3hZUjRSZmhSdUFiZmx3bGlLWGlkTlE?oc=5",
-        "why_it_matters": "A US federal judge has struck down a federal law that made it a crime for non-citizens to vote in US elections, ruling it unconstitutional. The judge found the law was redundant — it's already illegal for non-citizens to vote under existing law — and raised concerns about it being used to intimidate legal immigrants. The Trump administration had pushed hard for this law as part of its 'election integrity' agenda. The ruling is likely to be appealed and will be a flashpoint in the lead-up to the US midterms."
-      },
-      {
-        "title": "Trump administration accuses Canada of meddling in US midterm elections",
-        "source": "CTV News",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU0JJM29QN0xHaE5kQXpXd1JINWcyQ3hSbGVqVlhaTy1BUjl0TDhla0l0Q0hiYTVpb0FLUVRUaWJ4Qi0tUWRNb2VXaF9NeTdkQnlsLWFCNUV4TUZNMDZKeWl4S3gzcnNSWXI0Mk1TSnhwYjR4TEJDNWJmb2VueU1GalhCbXFfeE0yOFQ4NzAtVkFGNUdmRURRMGZXb0hROHlFRXJXNnM2Zm04aVJZa2RZN3BuRF9xWVZW?oc=5",
-        "why_it_matters": "The Trump administration is now pointing the finger at Canada, suggesting it is interfering in upcoming US midterm elections — without providing specific evidence. Canadian commentators are calling it scapegoating, with analyst Eric Ham arguing the consequences for the US-Canada relationship could be enormous. Canada is the US's largest trading partner; if this escalates into a diplomatic or trade dispute, it flows through to global supply chains, energy markets, and the Aussie dollar."
-      },
-      {
-        "title": "Middle East: Interconnected conflicts reshape security from Yemen to Egypt",
+        "title": "From Yemen to Egypt: how interconnected conflicts are reshaping the Red Sea",
         "source": "The Jerusalem Post",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zeHhpMG1FTGgtMmstS2FvN2tuNXd2cFhSRGZfZUF6bms3eWFPRFpEOUt4aUJwSWx5Y3RzSXl5OUptWEhhOEotS1JPLWpnQnRDM0RQaXlWWS1ZRC1G?oc=5",
-        "why_it_matters": "A new analysis highlights how the ongoing Israel-Iran conflict is sending shockwaves well beyond those two countries — Yemen's Houthi rebels are still targeting Red Sea shipping lanes, threatening global trade routes, and Egypt is being drawn deeper into regional instability. The Red Sea handles about 12% of global trade, including oil and goods shipped to Australia. Disruptions there push up shipping costs and can flow through to consumer prices here. Crude oil dropped nearly 2% last session to $91.11 — worth watching if Middle East tensions flare further."
+        "why_it_matters": "It's not just Israel and Iran — Yemen's Houthi rebels, Egyptian security concerns, and other regional flashpoints are all interlinked and reshaping shipping lanes through the Red Sea. This matters because the Red Sea is one of the world's most important trade corridors. Disruptions push up shipping costs, which eventually hit the price of goods in Australian shops."
+      },
+      {
+        "title": "Trump says US will send one-time $90 payment to 20 million seniors on Medicare",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbENzaDZIOHJGUlc5YUJFV1d5b0lLUnhxT2hPaFlNcnB6djdYak5qcmlfVHVmS3B0S3FjZ1VMQ2lkYVBjWnFQNVNIb0ZUdzZkVG5DZ284SDNKdnNGUWVWcXpRejV0YlgzM3dxX2FhTGtETl90QXQyMlB2N215T1MydkM3Q0s?oc=5",
+        "why_it_matters": "Trump has announced a one-off $90 payment to roughly 20 million American seniors enrolled in Medicare, the US public health insurance program. It's a relatively modest sum but is seen as an election sweetener ahead of the US midterms. Critics argue it does little for seniors facing rising healthcare costs, while supporters say it's a direct gesture of support."
+      },
+      {
+        "title": "Trump vs the states: midterm threats and a lack of federal support",
+        "source": "Washington Post",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeG9TU1NTbWVoajdGNWlRMENWV19STzZDWFoyeC1Gcm9XVGktLUwxWmlyYVZ4cmFkQm4yTU1US20zelJBS0lwX0hBM0swVS03SHZVejRqNTNDNWRYSGNnV2c2Ump2WWdzOFBSZl9kcnYydVE0UVV0YW5CU20tY0tBSG5kbHcyeXJKcHBiVGNWYXFpcG14NjRoNEstYkpOUGd2VTFMYUVvUnhZOS1fbHlrZjVBRk1JeERoN0E?oc=5",
+        "why_it_matters": "US state governments are raising alarm that the Trump administration isn't providing adequate support or coordination ahead of the midterm elections, with concerns about election security and administration. With the midterms approaching, political gridlock or contested results could rattle US markets, which directly affects your US holdings."
+      },
+      {
+        "title": "Why is the global economy so resilient — and can it last?",
+        "source": "Interest.co.nz",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbkVWNzR2ZXhKYlI3MmZSY200cjdkbXdLTVMwcFFwS1ZCYlN6WFU3ckZ5UkZFMjE0N2k2bGNldVZnRHB6Wk1pUFljLXVkUkZfdG5fc2xWRno4WUYwbHhKS2xvMjVwSDMwSHpfNXliRmpSRGk3VXRqSFNFVzA2ODZQOTFLNmVMWnZyd2hnTmtEenE2NFlGU2ljQkNPY2l0YzlBZWFyLXlKRS1NZm1xSG9WOWJtYWN1YzljTVlpX21halB6Zw?oc=5",
+        "why_it_matters": "Despite high interest rates, geopolitical tensions, and past predictions of recession, the global economy keeps chugging along. Economists are debating whether this resilience is structural (driven by strong labour markets and government spending) or just delayed pain. For investors, understanding whether this can continue is crucial — a sudden slowdown would hit growth stocks hard."
       }
     ]
   },
   "markets": {
-    "summary": "A positive night on Wall Street last session, with tech leading the charge. The ASX followed suit today, closing up 0.79%. Oil slipped nearly 2% and gold eased back. The Aussie dollar ticked higher, now sitting at about 69.6 US cents.",
+    "summary": "Last night was a good one on Wall Street — the NASDAQ jumped 1.19% and the S&P 500 gained 0.73%, with tech leading the charge. Back home, the ASX 200 followed suit and closed up 0.79% today. The Aussie dollar ticked up slightly to 69.57 US cents. Oil dropped nearly 2% despite Middle East tensions, and gold fell about 1%.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,682",
         "change_pct": 0.79,
-        "note": "Solid session today — tech and resources led the gains."
+        "note": "Solid close today, following Wall Street's lead from last night."
       },
       {
         "name": "S&P 500",
-        "value": "7,722",
+        "value": "7,723",
         "change_pct": 0.73,
-        "note": "Good night last session — broad market lifted by tech."
+        "note": "Strong session last night, broad-based gains across sectors."
       },
       {
         "name": "NASDAQ",
-        "value": "27,190",
+        "value": "27,191",
         "change_pct": 1.19,
-        "note": "Tech rally last night, with Google and Microsoft both gaining."
-      },
-      {
-        "name": "Crude Oil (WTI)",
-        "value": "$91.11",
-        "change_pct": -1.9,
-        "note": "Oil fell nearly 2% last session — easing from recent highs despite Middle East tensions."
-      },
-      {
-        "name": "Gold",
-        "value": "$4,162",
-        "change_pct": -0.95,
-        "note": "Gold eased back about 1% — still at very elevated levels historically."
+        "note": "Tech led the charge last night — best performer of the three major US indices."
       },
       {
         "name": "AUD/USD",
         "value": "0.6957",
         "change_pct": 0.42,
-        "note": "The Aussie dollar ticked up slightly — good for purchasing power, a mild headwind for US share returns when converted back."
+        "note": "Aussie dollar edged higher — slightly reduces the AUD value of US holdings."
+      },
+      {
+        "name": "Crude Oil (WTI)",
+        "value": "$91.11",
+        "change_pct": -1.9,
+        "note": "Oil fell nearly 2% last night despite ongoing Middle East conflict — markets may be pricing in diplomatic efforts."
+      },
+      {
+        "name": "Gold",
+        "value": "$4,162",
+        "change_pct": -0.95,
+        "note": "Gold pulled back about 1% last night — still at very elevated levels historically."
       }
     ]
   },
   "politics": {
-    "summary": "The RBA is front and centre this weekend — after hiking rates in September, new analysis suggests relief is still more than a year away. Treasurer Chalmers is also flagging budget pressures ahead of the mid-year update.",
+    "summary": "The RBA is front of mind today, with fresh reporting suggesting Australian families face more than a year of rate pain ahead. Treasurer Chalmers is also flagging a tougher budget outlook heading into the mid-year update.",
     "stories": [
       {
-        "title": "RBA rate cut more than a year away, families still feeling the squeeze",
+        "title": "RBA rate relief more than a year away — family budgets to stay squeezed",
         "source": "AFR",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ1V2emtHdERRWHN1eTVxVFZ6bWx2OElqSzBnVGxuZE9hZ1J6QkVWWXU4VDliUGRFdXVKQWstWmstWVVKUkRJSHJOYkU1TmN1TF9lS0NDeFI5cEdST1o5aHJGNlhJQTlTSm1vbFBnUXktZ2N1VDNsOXBuNHlHS1A2SXdXVXRVVldYWnprX0lvSlY1dnI4TTBzYm1WMThmMG05UGpad1h6XzZUTmdTcEdIMFFSdWVQQUR6Q0xveXZVOW1KZjlJ?oc=5",
-        "why_it_matters": "After the RBA hiked rates again in September 2026, fresh analysis from the AFR suggests families won't see relief until well into 2028 at the earliest. That means mortgage repayments stay elevated for another year-plus, continuing to squeeze household budgets. For property owners and mortgage holders on the Gold Coast, this is a real cost — and it also means consumer spending stays under pressure, which flows into the performance of domestic-focused Aussie companies."
-      },
-      {
-        "title": "Is now a good time to switch banks for a better home loan rate?",
-        "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOGxYd21aRFV6anlHaVNmRlBiMGZCc2ZZRk9JYzRuZk8zX29DejR4S0pFRUotNnpNX0Z6cWZQeUZQcXpqY0hjTHJPYlk5LU1uZnpnWVptdi1TZ21YNEFuQjhRaU5VNnBhY0VoWjNjUmItUGtJRWlBNWlhNmpkQ3BfQlFoMGhZaHRfWGRsdnNPRGpxcHNtVTNiLTdMaDZ1UmlycEJvOWVpbjN5SkhwOGVfRm5KTHlrYUVt?oc=5",
-        "why_it_matters": "With the RBA having just hiked again, financial advice is circulating about whether homeowners should shop around for a better mortgage deal. The Guardian piece suggests that yes, lenders are competing aggressively for refinancers, and switching can save hundreds of dollars a month. If you're on a variable rate, it's worth spending 30 minutes comparing rates — the difference between lenders right now can be meaningful."
+        "why_it_matters": "The AFR is reporting that the RBA won't be cutting interest rates for well over a year, meaning mortgage holders are stuck with high repayments well into 2028. After the latest RBA hike, the Guardian also notes it could be a smart time to shop around for a better home loan rate from a rival bank, as lenders compete for customers. Higher rates for longer also tend to weigh on property prices and consumer spending."
       },
       {
         "title": "Chalmers delivers ominous budget warning ahead of mid-year update",
         "source": "news24.com.au",
         "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPaGsxMHJjdlpCUnJOS1FONXFGYWsxb3FHS0s0R01va0JudmR0QjVHQl9JMndpVDdPMkdfZFhaWWtYckFSSmRvNGtfbUIxMW9vQzNmdnV2czZpUUhZTzE3WHRtbEx1U0FsYkRnb3lpOGNzZmVIM3RWRlRSNUxmeHJKU2J0SXNtS0ViTGtkNUdGVldPaHFMOUlueE16Zjl0cF9LaEtyYW9KdWUzaXVIYlZTM011NHBkMFlCTDlvZDRTTi1xV2hsRnkzOUxCT0ZjMnJXN2FkRjlhUTBmckhBT2x2XzVydU44cG42dk12WVo1X2NlaWFsdWU1WkJyVGtQQXBQakVzVVFUYnVBMlExSWtaWHAyQnhuR1RuV21vUGRvNzlWVE9UUEJsY0NqNm1pWl9qQTZYRURUTmFpTFhyLVHSAb4CQVVfeXFMT2hrMTByY3ZaQlJyTktRTjVxRmFrMW9xR0tLNEdNb2tCbnZkdEI1R0JfSTJ3aVQ3TzJHX2RYWllrWHJBUkpkbzRrX21CMTFvb0MzZnZ1dnM2aVFIWU8xN1h0bWxMdVNBbGJEZ295aThjc2ZlSDN0VkZUUjVMZnhySlNidElzbUtFYkxrZDVHRlZXT2hxTDlJbnhNemY5dHBfS2hLcmFvSnVlM2l1SGJWUzNNdTRwZDBZQkw5b2Q0U04tcVdobEZ5MzlMQk9GYzJyVzdhZEY5YVEwZnJIQU9sdl81cnVOOHBuNnZNdllaNV9jZWlhbHVlNVpCclRrUEFwUGpFc1VRVGJ1QTJRMUlrWlhwMkJ4bkdUbldtb1Bkbzc5VlRPVFBCbGNDajZtaVpfakE2WEVEVE5haUxYci1R?oc=5",
-        "why_it_matters": "Treasurer Jim Chalmers has issued a warning that the federal budget is under more pressure than expected, ahead of the mid-year economic and fiscal outlook (MYEFO). He hasn't revealed specific numbers yet, but the language signals potential spending cuts or revised revenue forecasts. For Australians, this could mean tighter government services or adjustments to welfare payments — and it sets the political scene for a tough few months in Canberra."
+        "why_it_matters": "Treasurer Jim Chalmers has flagged that the mid-year budget update will carry some bad news, warning of a more difficult fiscal (government spending and revenue) environment. This comes after a period of budget surpluses driven by high commodity prices and strong employment tax receipts. If the budget deteriorates, it limits the government's ability to deliver cost-of-living relief or tax cuts."
+      },
+      {
+        "title": "'Just quit': public frustration with the RBA boils over",
+        "source": "News.com.au",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdjN6aERVa0lkV1FaUW8wYmtHRFJSVmJOeW5IUHdfWU80T1BUODQ1eG1nSlkzdnRVMVV5N3VvaFVTdUhKXzlnT0t4QXJRc0k3Q1FnYTNJUl9zeC1IM1lYMUFzLUZrUnFRQkd4amM5eHZSTzdaTkh0WlBlZksybExTTWhpa0ZUS3EwTXl6c0s1a0I2RzdnQjJmdlNUazRHbjRHcFFKRHpxVElNLVo5RkZJUkF4aXBrTzNockMySkQ4N2tUZ1BHVlFncUdNOU8yMGw4Q2dkMGg2VFZlRWU4ZFJ0RVhwVXBSdFhfQl9wM2tobnMwNWF6c054X2JB0gH_AUFVX3lxTE9QQkdsMEw1aTVKWjB5eHhfQWU2WHBJekV1VTloZC1mNWtVbk1OVmpmUnpybjZ3X0tfSnpXVzVwZ0RBTk41WWZVa2xMeTc3UTgxWllqdTByb0dsYWJHWFpkZ2oycWlSRzUtYkxFS3I1eC16N0VRalBaM1VINTk3VFVjSGpzZk5xY0U5T0dMMWctbHU5ZVVSbGtNUUZCVEJaeXNMRG85dC1HOG03dDlEanBwQ01hbTNNVG50WjRwUGFRQ1A3Q2s2c2U1Qm1mZlBtZ3B4MzdPSmRCaXNhakF4RFNYWlJFc0tLRlNTNjlIS2ZWRkxncWFNajg1RFRwQ2tEWQ?oc=5",
+        "why_it_matters": "Public anger at the RBA is intensifying, with a comedian going viral calling for the RBA to 'just quit' after the latest rate hike. It reflects a broader community mood — many Australians feel the RBA is hurting ordinary families while inflation has already eased significantly from its peak. Political pressure on the central bank is growing, though the RBA operates independently of government."
       }
     ]
   },
   "ai": {
-    "summary": "The AI regulation debate is heating up globally — Trump is doubling down on a hands-off approach, an executive order has rebranded AI as 'Super Intelligence', and there's a fascinating benchmark battle between the top AI models.",
+    "summary": "AI regulation is dominating the conversation this weekend, with debates ranging from how to govern AI properly to who holds the power in Washington. There's also a wild story from the YouTube/gaming world worth knowing about.",
     "stories": [
       {
-        "title": "Trump digs in on voluntary AI safeguards as public fears grow",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaktMNDdZV2FZQTFSeGF3SENIXzkwWHhWLUVhT1ZwVHMzTUdQajl0akw3QTlicmFCQ04tV0YxRFFfUEZYYmxqRFA5QVh3TzhTcm9Ca0pWLXBjeTFXaV9DVXV6ZmFPU1h1NXFsUVpxaHlBUlA3SjhxRVNSQU9UZ2ItTmNBN0VvWFpFc05idzd1dWUyaUNmMWRwc0lKR3A4Q0czbkE0ekNXZlM?oc=5",
-        "why_it_matters": "A Reuters report finds that while public anxiety about AI is growing — concerns about job losses, deep fakes, and misuse — the Trump administration is refusing to introduce mandatory safety rules. Instead, it's sticking to voluntary guidelines, meaning tech companies police themselves. This is great news for AI stocks (including your GXAI.AX ETF) because it means fewer regulatory hurdles slowing growth, but it does mean potential risks go unchecked."
+        "title": "White House AI Summit: Trump set to name Jay Clayton as AI Czar",
+        "source": "finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Tc01aZTdXSDNCV2t5c3kwVTVtckl6VnZhUWZRMXlqUjN3aXhvWFNDamJXLXo0ZzJqSFJxLVNqRnJSUlpUcmJ5dWFoOFpkalRWc3dEdWdaLUhtUmVQaXFyUU8yZ21Kell3eUp5RFdDZU1oTC1za0E?oc=5",
+        "why_it_matters": "A White House AI Summit revealed deep power tensions between the tech industry and the Trump administration. Trump is reportedly preparing to name Jay Clayton — a former Wall Street regulator — as the US government's AI Czar, effectively the person overseeing America's approach to AI policy. This matters because whoever holds this role will shape the rules that companies like Google and Microsoft have to follow, directly affecting their AI businesses and valuations."
       },
       {
-        "title": "Executive Order rebrands AI as 'Super Intelligence' — and hints at federal law changes",
-        "source": "Wiley Law",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOFpXejV2VG9MdW9MRjg2d2h3TElQZVhyVzRUU1U5blpPVVYzYWVab0p3WHBYMDlmQXEwODE1SHMzeXFJSlpsMTVFQWR5aENod2F2Q2F1WmwtMTlMM1ZsNFdPTjdwUlZOalJia0hELXF0MzB3cjBuRFhhN2R0My1iR3Z2dWVJeGNOdUFCTGs2bmxpVzJHaV9qTlVGdjhybTNxZlg1eXdjVnNfaFJER2FwNWNuQmhQdF92MEtoOXhqS3QyejFZSHc?oc=5",
-        "why_it_matters": "A new executive order from the Trump White House has officially rebranded what we call AI as 'Super Intelligence' — a term that sounds like sci-fi but is now the official US government label. More importantly, the order signals potential changes to federal law around how AI is developed and deployed. Legal analysts at Wiley Law note this could reshape liability rules for AI companies. For investors, it's a signal that the regulatory environment is shifting — watch how Google and Microsoft respond."
+        "title": "FDR's lesson for AI regulation — how big government moments shaped tech before",
+        "source": "Fortune",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OcVB4cXVWNnh4SnA4ejJ1SGZENUFPNS00empFS2dGa0RtZi0zdmFMZTloUjVSSTNkVU5KalRzU3puV0VKbmdvem5fb1JlbnJfc1J1WlJ2ellNZDVrbEJGeFczTkxjVE82U2tQWUJxSTFrblhqRXc?oc=5",
+        "why_it_matters": "Fortune draws a parallel between AI regulation today and how President Roosevelt's New Deal era brought sweeping rules to reshape US industry in the 1930s. The argument is that AI is at a similar inflection point — the decisions made now about how (or whether) to regulate it will shape the technology for decades. For investors in AI-exposed stocks like GOOG and GXAI.AX, the regulatory environment is one of the biggest long-term variables."
       },
       {
-        "title": "Gemini 4 Argon vs Claude Opus 5.5 vs GPT-6.1 Sol: AI model benchmark battle",
+        "title": "PewDiePie launches 'Ajax' — a 9-billion parameter AI model after two OpenAI bans",
         "source": "tech-insider.org",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWU4yMzV2Q2dPUGNDNFpyaXMtbUlIUl9vVWJLY3lYenVhOGlpeFdNeFV1SWZnVTI5SkhaUXNYdC1ZLUJvZWdNVmJ6QXQ3ZV9kWHc2cHg2MFlzU0VrdkpMN1VkUUJIeDYtZ01DVDZ6LTdmZXNkR2lBOGRiTkFJb25WQldMTk1EMWJNa2c?oc=5",
-        "why_it_matters": "The three biggest AI models — Google's Gemini 4 Argon, Anthropic's Claude Opus 5.5, and OpenAI's GPT-6.1 Sol — are being benchmarked head to head, with a 12-point gap reportedly separating the leaders. This is the AI equivalent of a smartphone spec war. Google (which you hold via GOOG) has a major stake in winning this race — Gemini is central to its AI strategy across Search, Cloud, and productivity tools. Staying competitive here is critical for Google's long-term value."
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81Y2JzNTBKSHZyUVVSalBVTnk4R2dIMS1sQVdpS2l0X3ZQZkRrM3Z1aDFjMFVBZkl4cHlZdWlucWRLT3lyLUJ4VU84RFNyOUt2ejZqUTNBanVLb1BWcHFjYjZBdlJQODV6TWowSk1RREo0bzd1?oc=5",
+        "why_it_matters": "YouTube star PewDiePie — one of the platform's biggest ever creators — has launched his own AI model called 'Ajax', reportedly a 9-billion parameter model (parameter count is a rough measure of how capable a model is), after being banned from OpenAI's platform twice. It's a sign that AI tools are becoming accessible enough for individuals, not just big companies, to build and release their own models. Still early days, but it shows how fast the space is democratising."
       },
       {
-        "title": "PewDiePie launches Ajax: A 9 billion parameter AI model",
-        "source": "tech-insider.org",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81Y2JzNTBKSHZyUVVSalBVTnk4R2dIMS1sQVdpS2l0X3ZQZkRrM3Z1aDFjMFVBZkl4cHlZdWlucWRLT3lyLUJ4VU84RFNyOUt2ejZqUTNBanVKb1BWcHFjYjZBdlJQODV6TWowSk1RREo0bzd1?oc=5",
-        "why_it_matters": "In a genuinely weird development, YouTube personality PewDiePie (real name Felix Kjellberg, with 110 million subscribers) has launched his own AI model called Ajax, with 9 billion parameters — a measure of the model's size and complexity. He was apparently banned from OpenAI's tools twice before building his own. While this is more pop-culture than finance news, it illustrates just how accessible AI development has become — even individual creators are now building their own models, which signals where the technology is heading."
+        "title": "The AI debate: everyone has a personal agenda to push",
+        "source": "The Australian",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcEZxM29rWmtIUTNvTk1sRW9zZzNySzBGeGstWFNBOHRjdWlFWU1lb1NuOE5DQkhnUWV3SjVmdmk5cFNXck1PR3NCN0dtQUVyczBPT0dpNTltS01ZVkdZakZ5aWczbjVaX0Zob0ZmVHhsd0I2dFNsbklPZTVjUFY2X255c0R0ZjZ1QXRSUW00SmEzU1RLM2hSQjh3WFoyMlNLbU80b0t1YUZQaG93dDdWelMtQ2pSN29jdHpMNGtFS2poUkpwNVJ0WW1iVXlnTW81VnM3Tnd4UXRXcllMUUt2Zkt5Wm1ObWNGWklhUk9sbTRic3MzV01QUHdR?oc=5",
+        "why_it_matters": "The Australian publishes an opinion piece arguing that almost every voice in the AI debate — whether tech companies, governments, or academics — is pushing their own agenda rather than a balanced view. It's a useful reminder to be sceptical of AI hype and AI doom in equal measure. For investors, cutting through the noise to assess what AI actually means for company earnings is more valuable than following the loudest voices."
       }
     ]
   },
   "sport": {
-    "summary": "It's NRL Grand Final day — Roosters vs Knights tonight at 6:30pm AEST. The Knights are chasing their first premiership since 1997, and the storyline is enormous. AFL trade season is also heating up.",
+    "summary": "The Roosters have won the 2026 NRL Grand Final in an absolute nail-biter, 19-18 over the Newcastle Knights. AFL trade season is heating up with big name movements looming.",
     "stories": [
       {
-        "title": "NRL Grand Final: Roosters vs Knights — Knights chasing a 29-year fairytale",
-        "source": "Fox Sports",
+        "title": "Sydney Roosters win 2026 NRL Grand Final 19-18 over Newcastle Knights",
+        "source": "theage.com.au",
+        "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxORTRmeVZodjZLT1I0NUZrTzRMODc1WTlzSlFNZlBQZEVMRDdnaEtzX2Q2OEFKQ3hhTXNCU0Q1b1RLeXkzcEJXMnR1OXBwQVdHMUFNTjQ2TzdiT1kxa0lLcnlfUlBOWGVCaFQyZ0JnOFBYZ2pqLWlSeXBVOE00SFpFMzBlcklXaWxuS1ZjZDFlbkRacElOTmo2cWV1MGVkdGVwbFBKSExpMndHYU12T2FnY0lwZGVnV0VvNzhiWEhyTi1Ta2h5dE5SNElkYVJ4NzZBNk05ZTVKMTZJbWVXRzl3WWhPaVZiQkUyWUh2NTNGZ21NUXhaek1MbkYtdEFiN1lSZTNkUW9kVnNBeWdtRk0wNVBrelM5Nk45MzVrTE1EeTdJT2o0c2pnWUZ3dkl3Umh6cWFfV3VQZkd6bUJyZFlWNnJsRk82OHZTbDFPUQ?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The Roosters edged out the Knights 19-18 in a grand final that went right down to the wire at Accor Stadium. The Knights coach said he 'couldn't be prouder' of his team despite the loss — a remarkable run for Newcastle. It was a controversial match early on, with a disputed try sparking debate about the bunker decision that some felt swung the game. Roosters fans will be celebrating on the Gold Coast tonight."
+      },
+      {
+        "title": "Bizarre Roosters moment — controversial try sparks grand final drama",
+        "source": "foxsports.com.au",
         "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNYUlGaFk0SHNCM1pFS1BDZjNVZWoyMzljTkpDYmRBT2lHLUpFNnNwQVppRFdZVy1Cd3pIMUl1dTh1eEdjTTE5ay1rSjdHUGdIMEF2X2huakRrV0w3ZjJrN1MxdjhCOU0wMmpuUjBMT2RJZTRYamFHdGYteWZxandocDA2Ym9sQVZuOGRsRl9nNUtOcktDWEZWVkxpOUNVSl9UNGhpRjFRcVBmNUE1Yl9IODR2Mzg5M0xqd25vQWFfUDBfTkM5WHhUNVZNaFU3LTFPSnpYZndnVlVRLTd6dmpncUVmTG9uRkltZmNZSXU1bUQ0QmxzdzBlR3U1c291TXgwUnR1djdFNUtEaU1pdFk0SHpXS3d1ZjVhN01rWVJsSHVSMVk2OVp0Y1BHOU9RaUhOLVNmQUNYb1FXeVFKLV9kWTJwOWTSAcQCQVVfeXFMTWFJRmhZNEhzQjNaRUtQQ2YzVWVqMjM5Y05KQ2JkQU9pRy1KRTZzcEFaaURXWVctQnd6SDFJdXU4dXhHY00xOWsta0o3R1BnSDBBdl9obmpEa1dMN2YyazdTMXY4QjlNMDJqblIwTE9kSWU0WGphR3RmLXlmcWp3aHAwNmJvbEFWbjhkbEZfZzVLTnJLQ1hGVlZMaTlDVUpfVDRoaUYxUXFQZjVBNWJfSDg0djM4OTNMandub0FhX1AwX05DOVh4VDVWTWhVNy0xT0p6WGZ3Z1ZVUS03enZqZ3FFZkxvbkZJbWZjWUl1NW1ENEJsc3cwZUd1NXNvdU14MFJ0dXY3RTVLRGlNaXRZNEh6V0t3dWY1YTdNa1lSbEh1UjFZNjladGNQRzlPUWlITi1TZkFDWG9RV3lRSi1fZFkycDlk?oc=5",
         "category": "NRL",
-        "why_it_matters": "The 2026 NRL Grand Final is tonight — Sydney Roosters vs Newcastle Knights at Accor Stadium, 6:30pm AEST. The Knights are chasing their first premiership since 1997, nearly 30 years ago, and the storyline is enormous. Fox Sports reports a secret Roosters meeting was held during the week — suggesting some internal preparation drama — while the Knights have confirmed their fairytale charge. This is one of the biggest NRL storylines in years. Don't miss kick-off."
+        "why_it_matters": "A controversial bunker decision on the first try of the grand final had fans and commentators 'blowing up' on social media. Fox Sports reported the moment as one that could have changed the game's outcome, and it's already generating fierce debate about video referee calls in the biggest game of the year. The Roosters went on to win by just one point, meaning every decision mattered."
       },
       {
-        "title": "This Knights premiership run is bigger than 1997 — SMH",
-        "source": "SMH.com.au",
-        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZWlkTkM2cUljTzlkNGJyUDlRLWxiM2tCVmZpV2J0ckpJWnd0a183QWtFQWJGaHEtWFNLVW82R2RYWUFaV2Z2c05YTXNjaGVNVGNDZFM5X1F0YnNZX3gyZ0NQbk5WWTlJRWoxRERNME1PUTh3OWp3U01RbmZSZ2NLdUROc1BSd2VyZzk0TFotckg1MEt3RDRQcmNkTG9OTFkwbjNJZGYtakl6NmVJSzVpdDBZTTRtRmdJOUk3cUVUMFRYZmdKQU1IdFAzRmxoTEU0Rk9ZUkZlTkZqMElmOUpoZw?oc=5",
-        "category": "NRL",
-        "why_it_matters": "The SMH argues that the Knights' 2026 finals run is actually bigger than their famous 1997 premiership because of the sheer drought since then — nearly three decades of near-misses and rebuilds. The piece is a long-form celebration of Newcastle's journey to tonight's Grand Final. For rugby league fans, especially those from Newcastle, this is the stuff of dreams. The journalist humorously notes they're refusing to speak to the Knights team for fear of jinxing it."
-      },
-      {
-        "title": "AFL trade period: $18m Patrick Butters question and the mega 18-club guide",
-        "source": "Fox Sports",
+        "title": "AFL trade season: $18m Butters question and the biggest movers across 18 clubs",
+        "source": "foxsports.com.au",
         "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPY3phZkd0N09jdkNkVUw1S181T3pMR2JEYU9udlZ4SjZ5WFlmeGdxNUQyNnNhb1Z5X1ZmbkQ5NnZZN3Q5ZzN1VEppTUMwTk00ekIyTUg1TU9IU0V5ZUhPd3dHNk04cGFYaVY1YURPWGt1NHN4OHNsb2oxYW5FbGFyWWFUOUQ3TjdBcWdnUS1pV2NCd19ScnA5Szc1T25IUXdQWmNKaXVZNVVnX2N1cmRWSHN2OXB5NmI4ZTdCZUtOQTBqNEUwMDdhcU41cWlRcFBwMWhnSDdSMDJHNUtnNmJ0aUVuNkE2OG9rTjRhcDZkN2RSanVOUHNjQTd2aF9KVHVqdWxJekQwN1ZIQ2pzLWRpaU5RRUFMTklhdWxSNlR6MzNWMXIwTXFj0gGnAkFVX3lxTE9jemFmR3Q3T2N2Q2RVTDVLXzVPekxHYkRhT252VnhKNnlYWWZ4Z3E1RDI2c2FvVnlfVmZuRDk2dlk3dDlnM3VUSmlNQzBOTTR6QjJNSDVNT0hTRXllSE93d0c2TThwYVhpVjVhRE9Ya3U0c3g4c2xvajFhbkVsYXJZYVQ5RDdON0FxZ2dRLWlXY0J3X1JycDlLNzVPbkhRd1BaY0ppdVk1VWdfY3VyZFZIc3Y5cHk2YjhlN0JlS05BMGo0RTAwN2FxTjVxaVFwUHAxaGdIN1IwMkc1S2c2YnRpRW42QTY4b2tONGFwNmQ3ZFJqdU5Qc2NBN3ZoX0pUdWp1bEl6RDA3VkhDanMtZGlpTlFFQUxOSWF1bFI2VHozM1YxcjBNcWM?oc=5",
         "category": "AFL",
-        "why_it_matters": "AFL trade period is open and the biggest question mark is Patrick Butters — valued at around $18 million — with multiple clubs reportedly circling. Fox Sports has published a comprehensive 18-club trade guide covering every club's needs and targets heading into the trade window. For AFL fans, this is the off-season soap opera — trades, delist decisions, and draft picks will reshape clubs heading into 2027."
-      },
-      {
-        "title": "Koori Knockout Day 3: Results from the penultimate day",
-        "source": "Herald Sun",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPLXhFZGdtY0NzN3ZaWEJnZlczM3I5bXotNFUwTjNvVzI4OHdvOUtVTDlIVWlyUmZvOERkX0o4b09Ua2hTaWtEaFlZa1FsaExvU2pWNFc5M09fb1AxNkZTMFE0WWlScG42ZjVxcm1tYloyMFhGMlFwcHV4UHNpZmlXZWtScWUzenp6RHd4b3Nld0YzY0R6VEVNbE1BM1ZFUUl6MkUwLUdUbVhjTkNJY0pYeG9vZUhqOTRyUDdsRWxXZ0dzanJwRU5NbGRHLWJRakRCam9RNF9kZ3U4VklNWThIWGVMVXBPN3l0V3pLSXcteVhmTmpNX0RKWXMtamw?oc=5",
-        "category": "Rugby League",
-        "why_it_matters": "The Koori Knockout — one of the biggest Indigenous rugby league tournaments in the country — is into its penultimate day, with results from Day 3 now in. The tournament draws huge community participation from across NSW and Queensland, and is a major cultural event beyond just sport. Final results and the championship rounds are expected tomorrow."
+        "why_it_matters": "The AFL trade period is kicking off and Port Adelaide star Zak Butters — reportedly valued at around $18 million over his career — is the headline name with his future in doubt. Fox Sports has released an 18-club guide to the biggest potential trade movers this off-season. For AFL fans, the next few weeks will be full of rumours and confirmed deals as clubs reshape their lists before next season."
       }
     ]
   },
@@ -257,18 +248,18 @@
     "location": "Gold Coast",
     "icon": "☀️",
     "condition": "Clear sky",
-    "temperature_c": 21.3,
+    "temperature_c": 19.0,
     "high_c": 24.2,
     "low_c": 16.5,
     "rain_chance_pct": 0,
     "rain_mm": 0.0,
     "tomorrow": {
-      "icon": "☁️",
-      "condition": "Overcast",
-      "high_c": 26.4,
+      "icon": "🌦️",
+      "condition": "Light drizzle",
+      "high_c": 26.8,
       "low_c": 18.0,
-      "rain_chance_pct": 7,
-      "rain_mm": 0.0
+      "rain_chance_pct": 22,
+      "rain_mm": 0.1
     }
   },
   "nrl_round": "Grand Final",
@@ -278,9 +269,9 @@
       "away": "Knights",
       "home_badge": "https://www.nrl.com/.theme/roosters/badge.svg",
       "away_badge": "https://www.nrl.com/.theme/knights/badge.svg",
-      "home_score": null,
-      "away_score": null,
-      "completed": false,
+      "home_score": 19,
+      "away_score": 18,
+      "completed": true,
       "live_label": null,
       "day": "Sun 04 Oct",
       "time": "6:30 pm",
@@ -410,5 +401,5 @@
     "total_pnl_pct": -3.92,
     "aud_usd_rate": 0.6957
   },
-  "generated_at_utc": "2026-10-04T07:38:03.896230+00:00"
+  "generated_at_utc": "2026-10-04T13:23:24.182830+00:00"
 }
