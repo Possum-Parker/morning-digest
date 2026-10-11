@@ -1,237 +1,247 @@
 {
-  "headline": "Houthi strikes kill 12 at Riyadh airport in the worst attack on Saudi Arabia in a decade, while the ASX closed up 0.64% and Pilbara Minerals had a rough day — down 5.4%.",
+  "headline": "Pilbara Minerals hammered 5.4% today as the ASX closed higher overall, while the NRL Grand Final saw the Roosters edge the Knights 19-18 in a thriller — and a deadly Houthi attack on Riyadh airport is rattling the Middle East.",
   "portfolio": {
     "movers": [
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": -5.41,
-        "note": "PLS took a significant hit today, dropping 5.4% to close at $3.50. There was no specific news catalyst in today's data, but Pilbara continues to face headwinds from subdued lithium prices globally — the market for battery materials remains oversupplied and demand growth from EV makers hasn't been enough to lift prices. This is a structural drag on the whole lithium sector, not a Pilbara-specific problem."
+        "note": "Pilbara dropped sharply today, closing down 5.4% at $3.50. No fresh company-specific news drove the move, but lithium sentiment remains deeply negative — weak global EV demand and persistent oversupply are keeping lithium prices under pressure. The stock is now sitting at roughly half its invested value, a painful position but consistent with the broader lithium sector slump."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": 2.38,
-        "note": "Microsoft had a strong night last session, jumping 2.4% to $535. The market is rewarding its AI momentum — Azure cloud revenue grew 43% last quarter, and traders see Microsoft as one of the clearest beneficiaries of enterprise AI spending. It's now trading at what some analysts consider a discount to its own five-year average valuation, which is drawing buyers in."
+        "note": "Microsoft jumped 2.4% last night after strong analyst coverage highlighting 43% Azure cloud growth. The market is rewarding Microsoft's AI infrastructure story, with Azure's momentum seen as a major long-term earnings driver. Some analysts are calling it undervalued relative to its own five-year average price-to-earnings ratio — that is, the stock looks cheap compared to what investors have historically paid for it."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": 1.94,
-        "note": "Take-Two rose 1.9% last session to $213.44. GTA 6 buzz is helping — Nintendo confirmed the Switch 2 is technically capable of running GTA 6, though a port is ultimately Rockstar's call. Any GTA 6 platform expansion would be a big revenue tailwind for Take-Two, which owns Rockstar. Markets are taking it as a positive signal."
+        "note": "Take-Two climbed 1.9% last night, buoyed by continued GTA 6 anticipation. Nintendo confirmed the Switch 2 is technically capable of running GTA 6, though any port is Rockstar's decision. Buzz around GTA 6's reach across platforms keeps the hype cycle alive for Take-Two's biggest upcoming release."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet Inc. (Google)",
         "change_pct": 0.87,
-        "note": "Google's parent Alphabet gained 0.87% last session to $347.86. The good news is real: Google Cloud revenue surged 82% to $24.8 billion last quarter, and the Gemini AI app hit 950 million monthly users. Cloud is increasingly becoming a bigger growth engine than traditional Search, which the market likes. Free cash flow pressure is a watch point, but the growth story remains compelling."
-      },
-      {
-        "ticker": "VGE.AX",
-        "name": "Vanguard FTSE Emerging Markets ETF",
-        "change_pct": -1.43,
-        "note": "VGE slipped 1.43% today to $93.52. Emerging market funds like this one are sensitive to global risk appetite and the US dollar — when tensions rise (like the Middle East escalation today with Houthi strikes on Saudi Arabia), investors tend to pull back from riskier emerging market exposure. Nothing structurally wrong here."
-      },
-      {
-        "ticker": "GXAI.AX",
-        "name": "Global X Artificial Intelligence ETF",
-        "change_pct": -1.02,
-        "note": "GXAI dipped 1.02% today to $17.39. This ASX-listed AI ETF tracks global AI-focused companies and can be a bit volatile day-to-day. No specific news catalyst — likely some profit-taking after recent strength in the AI theme. The long-term AI tailwind remains firmly intact."
-      },
-      {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market Shares ETF",
-        "change_pct": -0.41,
-        "note": "VTS edged down 0.41% to $545.68 in today's ASX session. This ETF mirrors the US total share market and its ASX-listed price can lag the actual US market move — last night the S&P 500 and NASDAQ both gained, so today's minor dip here is likely a pricing quirk or currency effect rather than any real weakness."
+        "note": "Alphabet edged up 0.9% last night on solid ongoing momentum. Google Cloud revenue grew 82% to $24.8 billion last quarter, and the Gemini app now has 950 million monthly users. The market is increasingly seeing Cloud as a growth engine that could rival Search, which is a significant shift in how investors view the business."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": 0.14,
-        "note": "VDHG nudged up 0.14% to $76.13 today — a quiet, steady session. This broadly diversified fund does its job smoothing out the noise. Nothing to see here, in the best possible way."
+        "note": "VDHG nudged up 0.14% today, essentially flat. The broad diversified fund tracked the ASX's gentle positive session. Nothing to be concerned about — this is exactly the kind of steady, unremarkable day you want from a core diversified holding."
+      },
+      {
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market Shares ETF",
+        "change_pct": -0.41,
+        "note": "VTS dipped 0.41% today in its ASX-listed close, reflecting some currency and timing lag from last night's broadly positive US session. The S&P 500 and NASDAQ both rose last night, so this small dip is likely a minor AUD/pricing timing effect rather than a signal of anything meaningful."
+      },
+      {
+        "ticker": "GXAI.AX",
+        "name": "Global X Artificial Intelligence ETF",
+        "change_pct": -1.02,
+        "note": "The AI ETF slipped 1% today at the ASX close. There's no single catalyst — the broader AI sector has been digesting recent gains. With no negative structural news, this is routine volatility for a thematic ETF that tracks a fast-moving space."
+      },
+      {
+        "ticker": "VGE.AX",
+        "name": "Vanguard FTSE Emerging Markets ETF",
+        "change_pct": -1.43,
+        "note": "Emerging markets took a knock today, with VGE down 1.4%. The Middle East escalation — specifically the deadly Houthi attack on Riyadh airport — has added risk-off pressure to emerging market assets. Geopolitical uncertainty tends to push investors toward safer havens, which can weigh on broader EM funds like this one."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "Pilbara Minerals — biggest mover today, down 5.4%",
-      "detail": "PLS closed at $3.50, now down 48% on your total investment. This is painful but it's a structural lithium sector story, not a Pilbara-specific collapse. The long-term thesis — that lithium demand from EVs will recover — is intact, but the timeline has stretched. Unless you fundamentally no longer believe in the lithium cycle, this is a hold. Selling now locks in a big loss at the bottom of the cycle.",
+      "title": "Pilbara Minerals (PLS.AX): Another ugly day",
+      "detail": "PLS fell another 5.4% today to $3.50, and is now down 48% on your total investment — a loss of roughly $72 in AUD terms. The lithium market remains structurally oversupplied and there's no near-term catalyst to change that. However, if you believe in the long-term EV and battery storage story, this is a hold rather than a panic sell. Selling now locks in the loss permanently. The thesis is bruised but not broken — but be honest with yourself about your risk tolerance here.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "Microsoft — strong night, up 2.4%",
-      "detail": "MSFT hit $535 last night on the back of 43% Azure cloud growth and strong AI momentum. You're up 20.75% overall on this position. The long-term AI story here is as strong as ever — Azure is growing faster than rivals and Microsoft's enterprise AI products are getting real traction. No reason to do anything but sit on this one.",
+      "title": "Microsoft (MSFT): AI tailwinds are real",
+      "detail": "MSFT jumped 2.4% last night and is now up over 20% on your investment. The Azure cloud growth story (43% growth last quarter) is being recognised by the market. For a long-term holder, this is exactly the kind of compounding you want to see — sit tight and let it run.",
       "urgency": "green",
       "ticker": "MSFT",
       "action": "hold"
     },
     {
-      "title": "GXAI.AX — down 1% today, still in the red overall",
-      "detail": "The Global X AI ETF slipped another 1% today and sits 7.9% below your buy-in. The AI theme is still one of the strongest structural trends in markets — Google's Gemini hitting 950M users and Microsoft's Azure surging 43% are the real-world proof. Short-term dips like this in a thematic ETF are normal. Hold and let the theme play out.",
+      "title": "GXAI.AX: Small dip, long-term story intact",
+      "detail": "Your AI ETF slipped 1% today and is down about 8% overall on your investment. Given the AI regulatory debate heating up (see AI section), there could be some short-term headwinds. But for a long-term holder, the structural shift toward AI in business is still very much underway. No reason to act.",
       "urgency": "green",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "Take-Two — up 1.9% last night, GTA 6 buzz building",
-      "detail": "TTWO rose to $213.44 last night. Nintendo confirmed the Switch 2 can technically run GTA 6, and a port is Rockstar's call. Any platform expansion for GTA 6 would be a meaningful revenue boost for Take-Two. You're still down 8% overall on this position, but the GTA 6 release cycle is the long-term catalyst — hold and let it play out.",
-      "urgency": "orange",
-      "ticker": "TTWO",
-      "action": "hold"
-    },
-    {
-      "title": "Middle East tensions rising — watch oil prices",
-      "detail": "Houthi strikes on Saudi Arabia's Riyadh airport killed 12 people overnight — the worst attack on the kingdom in a decade. Oil (WTI crude) ticked up slightly to $91.85 but hasn't spiked dramatically yet. If the conflict escalates further, oil could move sharply higher. That's inflationary, which is bad for bonds and can weigh on growth stocks. Worth watching this week.",
+      "title": "Middle East escalation: watch oil prices",
+      "detail": "Houthi forces struck Riyadh's international airport overnight, killing at least 12. Saudi Arabia has threatened a 'decisive response' and Trump flagged the US 'may' get involved. Oil is already sitting at US$91.85/barrel. Any further escalation could push oil higher, which would add to inflation pressures globally and complicate central bank rate decisions — including the RBA's here in Australia.",
       "urgency": "orange"
     },
     {
-      "title": "Gold hitting all-time highs — a signal worth noting",
-      "detail": "Gold surged 1.43% to $4,216/oz last night. When gold rallies this hard, it usually means investors are nervous — about geopolitics, inflation, or both. Right now it's likely a mix of Middle East escalation and macro uncertainty. Your portfolio has no direct gold exposure, but rising gold often precedes volatility in equities. Just something to be aware of.",
+      "title": "Australian mortgage stress at 1989 levels",
+      "detail": "New data shows mortgage repayments as a share of household income are at levels not seen since 1989 — the tail end of the last major rate rise cycle. Economists are warning another RBA hike could tip the economy toward recession. Worth watching the RBA's next move closely: if rates rise again, consumer spending stocks and property-linked assets could come under pressure.",
       "urgency": "orange"
+    },
+    {
+      "title": "Gold hitting record highs",
+      "detail": "Gold jumped 1.4% last night to US$4,216/oz — a striking level. The metal is being driven by Middle East tension, inflation fears and investors seeking safety. None of your holdings are direct gold plays, but it's a useful signal that global risk sentiment is elevated right now.",
+      "urgency": "green"
     }
   ],
   "world": {
-    "summary": "The Middle East is back in crisis mode, with Houthi rebels from Yemen escalating attacks on Saudi Arabia to their most deadly level in years. Elsewhere, Palestinian elections are delayed again and Iran is threatening wider shipping disruptions.",
+    "summary": "The Middle East is flaring up again — a major Houthi attack on Riyadh's airport has killed at least 12 people, Trump is threatening US involvement, and commentators are marking three years since the Gaza war began by assessing how it's reshaped the entire global order.",
     "stories": [
       {
-        "title": "Houthi strike on Riyadh airport kills 12 — worst attack on Saudi Arabia in a decade",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbV9hVGtMSXpTVDJ3c05vRW9SQ2lRLTg3cUlOeWxDc2w4amF5V2N2Ul9YazdxcHJGNDRwd3hlQi15a2ZGWWZoZnc1dlA5UkY3cU9PclVCNkh6SVkzQ25waEVRRlN2TVdES3lKV1VuVXN6QnJycWxtdkNOdUIwMTdTRE9fbko3Umt5d0huNVY1dW9ZcFpLSF9yczRGRHJfSWZhM1AtTkVzbVR4TlRUdzhIb19JN3o",
-        "why_it_matters": "Yemen's Houthi rebels launched a missile and drone strike on Riyadh's main international airport on Saturday, killing 12 people and injuring hundreds more. Reuters describes it as the deadliest attack on Saudi soil in a decade. The strike is part of an intensifying Houthi campaign targeting Saudi Arabia, which had largely reached a fragile ceasefire with the group but appears to have re-entered open conflict. For everyday people, this raises the risk of oil supply disruptions — Saudi Arabia is the world's largest oil exporter — and adds to broader Middle East instability. Oil prices edged up but haven't spiked dramatically yet."
+        "title": "Houthi forces strike Riyadh airport, killing at least 12",
+        "source": "The Washington Post",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
+        "why_it_matters": "Yemen's Houthi rebels launched a strike on Riyadh's international airport overnight, killing at least 12 people and injuring hundreds more. It's one of the most significant attacks on Saudi soil in years. Saudi Arabia has vowed a 'decisive' response, raising the prospect of a major escalation between two of the region's most powerful players. Oil markets are watching closely — if Saudi infrastructure is threatened, global supply could tighten and prices spike, which flows through to petrol prices here in Australia."
       },
       {
-        "title": "How a series of miscalculations restarted Saudi Arabia's war in Yemen",
-        "source": "CNN",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLWxtMDIyVGd1V1hEUFJRd01YMVF6a2cxNEVjM2xxX2xkNndkT3Q4NF9sX2JNckZ2VjZnbWVwMWNCN0xjYTNsaTNnTzRJWnlwYnk2M1N2REpfQl85V1JvSWNDVGdKTkdGSFJaQVE0UlNiQ3lLWGc1SU5DN0hHSktmc05WbWY",
-        "why_it_matters": "CNN has published an in-depth analysis of how the Saudi-Houthi conflict reignited after a period of relative calm. A series of diplomatic and military miscalculations on both sides apparently unravelled the ceasefire agreement that had held since 2023. The piece explains that neither side expected the other to escalate so quickly, and now both are locked into a cycle of retaliation. This is important context — this isn't a random flare-up but the product of months of behind-the-scenes tensions boiling over."
+        "title": "Trump condemns Riyadh attack, says US 'may' join the fight",
+        "source": "Radio Free Europe/Radio Liberty",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "why_it_matters": "Donald Trump publicly condemned the Houthi attack on Riyadh and left the door open for direct US military involvement, saying America 'may' join the fight. This raises the stakes considerably — US involvement would represent a major expansion of the conflict beyond Yemen and could draw in Iran, which backs the Houthis. For everyday Australians, a wider war in the Gulf means higher energy prices and potential global economic disruption."
       },
       {
-        "title": "Iran warns attacks on ships not limited to the Strait of Hormuz",
-        "source": "Il Sole 24 ORE",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObjh0YmRFcUJaTE9MNnJTdHJveGgyVWxicUZSSzBPdHp6NTBpaGJRN1ZjYXFoeEVFVU5nTm1XMkZCOHoyb0lsaVZEOTNzeGh5WU9ETGswdHJ5d1R5VnRUZjFzMDVISTJkMElJYVFSc1QxTkRGbFpObEF2SldCNDI0QUVoSW5zd2RXaEZYQ0FfNGR4Mlk4a2xrOVAwbU1OSFcySDN6OV9QNG95RUxEWV9TT0pZY1ByUS1zLU9NbklVUDNQZEVPYndRWHlhT3R2Y2ZXZGwtdkV2OTlfZlF3X3ppdzdBdDFWcm41OHYxTFo2ZThPR3l5eDNvc1Jn",
-        "why_it_matters": "Iran's Revolutionary Guard (the Pasdaran — Iran's elite military force) has warned that attacks on commercial shipping vessels will not be confined to the Strait of Hormuz, the critical chokepoint through which about 20% of global oil passes. This is a significant escalation in rhetoric. Broader shipping attacks would affect global supply chains and energy costs worldwide — including in Australia, which relies on imported fuel. Combined with the Houthi strikes on Saudi Arabia, the entire Gulf region is becoming increasingly volatile."
+        "title": "Three years of Israel's war on Gaza — how it changed the world",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdGFjVDBFLVk5STVrbnNScDRFTUg0OGxmRGVQWWc0NzU1RkRMdW5XTEN3T3daX2xtQ01fVjF2RFNnNU9EMHJrSkdMMmxYYUpKT0JodzhxUU1VV2t3ZDQ4Z3FRclVfNzluaXYxUmpQWXcyd0RCZXhFSUlyVGlOMzhUOG45TUJUZHRJN190Q3hkdFJEaUY1dndMbDNXNXY?oc=5",
+        "why_it_matters": "Today marks three years since the October 7, 2023 Hamas attack on Israel that triggered the Gaza war. Commentators are reflecting on how the conflict has reshaped global politics — fracturing Western alliances, radicalising opinion on campuses and in parliaments worldwide, and emboldening other armed groups like the Houthis. The war has gone well beyond a regional dispute; it's now a defining fault line in international relations."
       },
       {
-        "title": "Palestinian elections postponed until September 2027",
-        "source": "Il Sole 24 ORE",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObjh0YmRFcUJaTE9MNnJTdHJveGgyVWxicUZSSzBPdHp6NTBpaGJRN1ZjYXFoeEVFVU5nTm1XMkZCOHoyb0lsaVZEOTNzeGh5WU9ETGswdHJ5d1R5VnRUZjFzMDVISTJkMElJYVFSc1QxTkRGbFpObEF2SldCNDI0QUVoSW5zd2RXaEZYQ0FfNGR4Mlk4a2xrOVAwbU1PSFcySDN6OV9QNG95RUxEWV9TT0pZY1ByUS1zLU9NbklVUDNQZEVPYndRWHlhT3R2Y2ZXZGwtdkV2OTlfZlF3X3ppdzdBdDFWcm41OHYxTFo2ZThPR3l5eDNvc1Jn",
-        "why_it_matters": "Palestinian Authority President Mahmoud Abbas (Abu Mazen) has postponed Palestinian elections until 11 September 2027. Palestinian elections have been repeatedly delayed for years — the last ones were held in 2006. The delay signals continued political paralysis within Palestinian leadership at a time when the region desperately needs legitimate governance structures. For the broader peace process, it's another setback."
-      }
-    ]
-  },
-  "politics": {
-    "summary": "Thin day for Australian domestic political news, with the main story being industry criticism of the RBA over interest rates. No major parliamentary or policy announcements today.",
-    "stories": [
-      {
-        "title": "Weld Australia slams RBA over rising interest rates",
-        "source": "Paint & Panel",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMkc2dWVfS2dsZ1pXQ0tOdkVFR1BpWm90Q28wb0xkTnNpQ0NCQTZUOGVPMndXTmVSRnloSDhNSi1QazFMUHA2Y0pDOEtSUnlMQU1JZFBVdXZwQkFLa1k1S3JtZ3BfTEFwVWRHWDczUUh6QVU2SHFaNUttS1ZFcWFVdnBBQnJlT0MxUWdicEJsSXh2SXcyakdTWGJzeG9VSXht",
-        "why_it_matters": "Industry group Weld Australia has publicly criticised the Reserve Bank of Australia (RBA) over its ongoing interest rate increases, arguing the rate rises are damaging local manufacturing and small businesses. When the RBA lifts rates, borrowing costs go up for businesses, making it harder to invest and hire. Weld Australia represents companies in the welding and fabrication sector and says many of its members are being squeezed between higher loan repayments and softer demand. It's a reminder that while rate rises aim to slow inflation, they create real pain for industries that rely on credit to operate."
-      }
-    ]
-  },
-  "ai": {
-    "summary": "AI safety and regulation dominated the headlines this weekend, with major labs reportedly preparing for the possibility of losing control of their own systems, California's governor signing an AI oversight order, and the UK's human rights committee weighing in on regulation.",
-    "stories": [
-      {
-        "title": "Major AI companies preparing for the possibility of AI 'getting out of control'",
-        "source": "Ukrainian National News (UNN)",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVEt0d0lnWWFtSUZjTUlKaEd4UEpQT2pHbWNmbjBhUFhabzBELXBteHBlZWduMFJWSy1WZk5jT2huRGxBSmVKNHdmRjB1eHRZWi1ya0FMTC1hdUhRSmZWUkQ1VElMTVM1Y3Zfbkpvak1IWXF0QmZrbkZMQUZEc2VYRzlSNFdZZlJTSXg5Z241YWJsSi0wdDBvaWxpb2Jwb2U5azk2eXkzZlFrbUJGUzhZN01ickRmTUI1NDNYWFJXRldzTG5zb280MklVYXhDQdIBzAFBVV95cUxNT19BNm5KZjlybVM4bU5IblFvcW9FOWtOYU5WblY2ZVQ1WEVJckFrUDlvcnVNVmdZWVprMHNZbE5fR2lBWmFPaHVYaHlKSkhMeUVheE9mVnZwb0NVMXNWQTF5UUFPVEFONkw5NTF1WU9ZYjJSMGlHeGdIZHVMbHg2WTBCbGhyYnBjUW5yTW9IUUtDLW5RRTNoTHl1bUlWNlB2aHRBQUE5QkxTejRfZUVPeE5lZ1dlX0hnbjhBOG02OVBXeWFCUVBncDdRank",
-        "why_it_matters": "Reports this weekend say leading AI companies — including the biggest labs — are quietly developing internal plans for scenarios where their AI systems behave in ways that can't be predicted or controlled. This is sometimes called 'loss of control' risk, and it's moving from a theoretical concern to something companies are actively war-gaming. It suggests the people building these systems are taking the risks more seriously than their public messaging sometimes implies. For everyday people, it's a signal that even the optimists inside these labs acknowledge the technology is entering genuinely new territory."
-      },
-      {
-        "title": "California Governor signs AI oversight executive order with 'kill switch' provision",
-        "source": "Daily Bruin",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa0JlX2QzVlppXzRGQkJjLU11V3BXUTZ5RWNyR2NxdC1mUGRlVXoweVdxLTZIa1Z0aHJsUnRHSVhnaHRGLTRkSWdfNFlkLW1YRzZTRnZCczFkYUthY0hib05Rc0xNcERYOHVsOEpTdGFleU1kdXRkVmJQU3ZWeWN1UTBJREl3ZDRpNE8zZnlHaXotcnJvaS1jQktfMlQ0cHVvWldUMTBSVGlVblZO",
-        "why_it_matters": "California Governor Gavin Newsom has signed an executive order increasing oversight of AI systems operating in the state, including a proposed 'kill switch' — a mechanism that would allow authorities to shut down AI systems that pose a risk to public safety. California is home to most of the world's biggest AI companies (Google, OpenAI, Meta, etc.), so its regulations effectively become de facto global rules. A kill switch provision is a significant step — it means the state is reserving the right to forcibly halt AI systems, not just fine companies after the fact."
-      },
-      {
-        "title": "Trump calls for AI industry to police itself on safety — Silicon Valley cheers",
-        "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWh3dlJqUS1oRnE3bUZrMHhyOWg5VmNyX1VydzJrZU5nVW9MT2k3d1A3ZVF0cGpwQTZvSmZNcWdGZ2t5X0hoQTQ4Rko5cGVtcHg5ZUFXZmlMSTMycVlESmdWcUV3Vzh1ZVhVQXJ6MUQ2aHU5Zm5LQ0NoNFJTMHdpMUk0QVpiX0FrZjFBbkd0cTRTaHFVajFRTFdmYk4xQdIBowFBVV95cUxQdnAtYVB3LXZoZGY3ZVI2LVJYVHk3NkNiQlAyeHl6c1otQWR5UWFwZl8tbmNaVXdOT2ZkVV8wUmIyaEFTcWxQc0R0aUstcGkwb05NaEdxS3FrMWxXVHZ2LXZELVRBakNELUd2VXBIR2JoaFk1TkJBZGZoZnB0R0tMRURaVDAwekJMTnJ0R1dhMS01YVUxdW1Nbk8xQklhclFpMFNv",
-        "why_it_matters": "President Trump has publicly called for the AI industry to regulate itself on safety rather than face government-imposed rules — a stark contrast to California's approach. AI founders and investors in Silicon Valley are reportedly enthusiastic, seeing self-regulation as far preferable to government mandates. Critics argue self-policing has a poor track record in tech (think social media). The divergence between federal and state approaches to AI regulation in the US is growing — which creates real uncertainty for companies operating nationally."
-      },
-      {
-        "title": "UK Joint Committee on Human Rights calls for stronger AI rights protections",
-        "source": "The Morning",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yUWFCQ3FIV3VJaWg1ajRrVXNhajZpd0duVFpRV0NsZGhoXzExM3RZcVp1YlNSdjNTal94SnNKNUk5ODBtR0RHcG9yR01aYzd1NFJOSFE1OE9vNGt0WXh2dm9HVzFSQQ",
-        "why_it_matters": "The UK Parliament's Joint Committee on Human Rights has released a report saying the UK's current approach to AI regulation is 'strong on rights but light on machinery' — meaning the principles are good but the enforcement mechanisms are weak. The committee is pushing for more concrete rules around AI's impact on privacy, discrimination, and free expression. The UK is trying to position itself as a pro-innovation but responsible AI hub post-Brexit, and this report highlights the tension between moving fast and protecting people's rights."
-      }
-    ]
-  },
-  "sport": {
-    "summary": "The NRL Grand Final is done — Roosters pipped the Knights 19-18 in one of the closest GFs in years. The AFL is deep into trade period with some big names on the move, and Carlton is dealing with an off-field health scare.",
-    "stories": [
-      {
-        "title": "Roosters defeat Knights 19-18 in nail-biting NRL Grand Final",
-        "source": "NRL",
-        "link": "",
-        "category": "NRL",
-        "why_it_matters": "The Sydney Roosters claimed the 2026 NRL premiership with a one-point win over the Newcastle Knights — 19-18 — at Accor Stadium on Sunday 4 October. It doesn't get closer than that in a Grand Final. The Knights had a real shot at their first title in years but fell just short. A classic for the ages."
-      },
-      {
-        "title": "AFL Trade Period: Blakey, Whitfield and more — the state of play on major deals",
-        "source": "AFL.com.au",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTHZBeXhrSmhaU2lCRlhRR0pESmtKYTduX2hVMnFveUlORGZKWkRwSFptWDhjOTY1S3Bvb2xnSHRqV1ZUN3VKNUhTR015QlRDRlYwWElTdy1PaF9CTGtkVWFoZ1U0b1NuWjZBZGVPYzdlMGlEcVg1R3ZGYnIwampJY0diWHB2Q3NXMlhxeVBqemhFaXEyRVgtMUtINjd6WjNTT3NaS0ZZUXNfVDNiblk1OTVOT05VMTJOWGtIWUdtb1J6dk1TUmkxajMtTQ",
-        "category": "AFL",
-        "why_it_matters": "AFL trade period is in full swing with some big names in play. Hawthorn's Dylan Moore look-alike Jack Blakey and GWS Giants captain Stephen Whitfield are among the headline acts being linked with moves. AFL.com.au has a full breakdown of where negotiations stand. This is the time of year when clubs reshape their lists for a tilt at 2027 — the next few weeks of trade period will define several clubs' seasons before they've even started."
-      },
-      {
-        "title": "Carlton releases statement after two Blues hospitalised",
-        "source": "Zero Hanger",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcWpQOEZ4WU5RTkJFUEdXVWw0MFVBcEhITFB3WFhqbnlad0xrZkU0bHM4Q29Nb2lIUEJKeGtFd09OeURWNE5tY2xjTVFMTU1RNC1feWJTVW10dUxmbGZUcnZ0SmJvTzRnOVh4Q0pGWk1VNkVjUUZ1dUYtSzJOU1dndUltNEZNWC1qMFE",
-        "category": "AFL",
-        "why_it_matters": "Carlton Football Club has released a statement after two Blues players were hospitalised, though the club has not disclosed the nature of the incident or the players involved. The club says both players are receiving appropriate care. This is an developing story — details are scant but it's clearly serious enough to warrant an official club response. Worth watching for updates."
-      },
-      {
-        "title": "Fox Sports land NRL fan favourite as new analyst in stunning coup",
-        "source": "The Daily Telegraph",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQUY4M1Q5OS12bkxHd0tJRWF2ZnI2SXp2OFFpOWhvSC1xeEZYdXRxQ0RTbE9PZFFVWXl1RkxtcFAzZlZ6bTJabW0yTHgtZnlBNnFoOW9DMGR5OXd1UXV0Q2lsYVBsWWdMWkc4LXkxNGtxYXNUcUQtLVlGekFDV0hxVUJwakYwVGdoMl9tUS1QbUJpVjB5TzZLQTJ2elVUR0RydXpLajlyT0hUU2RUYW95V29jUms1cVBHZjRmdWtjZU40SVRkNWVWd2poS0Myd2EybTdEWTA4X3Nyc3BjNGxfUVFMOWc0YnI3S19GTHJTUWpPbXNvd1hB",
-        "category": "NRL",
-        "why_it_matters": "Fox Sports has reportedly signed a popular NRL personality as a new analyst for their coverage — described by the Telegraph as a 'fan favourite'. The identity of the signing hasn't been confirmed in the article title, but Fox is clearly making moves to bolster its NRL commentary lineup in the off-season. For NRL fans, it's good news if it freshens up the broadcast."
+        "title": "Trump's Middle East war has spiralled beyond America's control",
+        "source": "The Independent",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMUIwWVN2MVZ3U3YzRmNDXzlDRFBoZ05iNFJ2aVJHbENVWlp0aVMyaFR5bkhWZ0tzS0pubXFXVFpiRzdDSFJudEVFOWlGaUt4TG00YU0tUkJYMW54cXMtUktuUGZQeC00RXV1QkNpVGJBNjR6SHRXVVlxOVlKQUJrRzdQZGVIVUpOLU8xV0RNZ0FOSExCZzhBOFEzYllYdzl6OFdYTlF5TWdybzlBbHhyVE9iX2R1UG8?oc=5",
+        "why_it_matters": "Analysis from The Independent argues that Trump's approach to the Middle East — backing Israel strongly while threatening Iran and now eyeing the Houthi conflict — has created a situation that's increasingly difficult to manage from Washington. The concern is that multiple fronts (Gaza, Lebanon, Yemen, Iran) are now active simultaneously, and the US lacks the diplomatic bandwidth to keep them all contained. For global markets, an uncontrolled Middle East conflict is one of the biggest tail risks on the horizon."
       }
     ]
   },
   "markets": {
-    "summary": "A solid day across the board. The ASX 200 closed up 0.64%, US markets (last night's session) were also in the green — S&P 500 up 0.59%, NASDAQ up 0.64%. Gold surged to $4,216 — a big move driven by Middle East tensions and general investor nervousness. The Aussie dollar inched up to nearly 70 US cents.",
+    "summary": "The ASX 200 closed up 0.6% today to 8,717, a solid session driven by broad buying. Last night in the US, the S&P 500 rose 0.6% to 7,812 and the NASDAQ climbed 0.6% to 27,366. Gold surged to a remarkable US$4,216/oz on geopolitical fear-buying, oil ticked up slightly to US$91.85, and the Aussie dollar firmed slightly to just under 70 US cents.",
     "indicators": [
       {
         "name": "ASX 200",
-        "value": "8,716.6",
+        "value": "8,717",
         "change_pct": 0.64,
-        "note": "Solid session today — broad-based gains across most sectors."
+        "note": "Solid session today — the ASX closed near its highs for the day."
       },
       {
         "name": "S&P 500",
-        "value": "7,811.5",
+        "value": "7,812",
         "change_pct": 0.59,
-        "note": "Last night's session: modest gains as tech and AI names led the way."
+        "note": "Last night's US session was positive, led by tech and cloud stocks."
       },
       {
-        "name": "NASDAQ",
-        "value": "27,366.2",
+        "name": "NASDAQ Composite",
+        "value": "27,366",
         "change_pct": 0.64,
-        "note": "Last night's session: NASDAQ matched the broader market — Microsoft and Google both helped."
-      },
-      {
-        "name": "Gold",
-        "value": "$4,216/oz",
-        "change_pct": 1.43,
-        "note": "Big move — gold is surging as investors seek safe havens amid Middle East escalation."
+        "note": "Tech stocks led the NASDAQ higher last night, with Microsoft a standout."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$91.85/bbl",
+        "value": "US$91.85",
         "change_pct": 0.39,
-        "note": "Oil nudged higher despite the Houthi strike on Riyadh — markets may be waiting to see if the conflict widens before pricing in a bigger risk premium."
+        "note": "Oil edged higher amid Middle East tensions. Watch for further moves if the Riyadh situation escalates."
+      },
+      {
+        "name": "Gold",
+        "value": "US$4,216",
+        "change_pct": 1.43,
+        "note": "Gold surged strongly as investors seek safe-haven assets amid geopolitical turmoil."
       },
       {
         "name": "AUD/USD",
         "value": "0.6988",
         "change_pct": 0.41,
-        "note": "The Aussie dollar crept up toward 70 US cents — stronger commodity prices and a positive risk tone helped."
+        "note": "The Aussie dollar firmed slightly, nearly touching 70 US cents — broadly positive for your US stock holdings' AUD value."
+      }
+    ]
+  },
+  "politics": {
+    "summary": "The cost of Australian mortgages is now at levels not seen since 1989, sparking serious debate about whether the RBA has gone too far with rate rises — and whether the next hike could push the economy into recession.",
+    "stories": [
+      {
+        "title": "Mortgage burden hits levels not seen since 1989",
+        "source": "AFR",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcmxqa3NLYXBPdHY5UU5zWjN2RzBpeFZEY0R1SzhKTFZPTFRjVnVUSlRGMGwxTUpubWtvSmJKTTNkMWJreE5VajJsQ1ZfczROT0hUbkR1Z1BnaEdNaHM2RUFaR2d5M19lOTJlLXV0RlE3UmYtTm5xbUJ4Qm1NZDY5bkxyZ2xjdXRuSkRvMnBBTURYTllFYkVwbUptZU91VE54YkQzUXJTYWdlTDFCZzlhMHRBQWJVVC13TVlBVA?oc=5",
+        "why_it_matters": "New figures show Australian mortgage repayments as a share of household income are at the highest level since 1989 — the tail end of the last severe rate rise era. That was a period that preceded a deep recession. For the millions of Australians with a home loan, this is already causing real financial pain. The data puts enormous political pressure on the RBA not to raise rates further, but inflation hasn't fully returned to target yet, leaving the central bank in a very uncomfortable position."
+      },
+      {
+        "title": "Economists warn another rate hike could push Australia toward recession",
+        "source": "Nine.com.au",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNmZSblZ5N04xcG1RYV9BUVJWckRFR3hyZDFxdlRCX1ZKZ1hJdUVaaXZGbTN3RUtBQ003SFhvbDNGU1RJeUpCQnJHNXlqczZ2eHNma3pKeGo2U1VtQkJTVVdKY2JleDlEVGRVR05leGl1WjhkZWNZQkhyY1FiMjZxRUtHMGRDd2FYdkpIWHByQ21ZOE9wSmRGaFRWQlJ6OHFGY2VwSVo4UzN4bVQ0SC1rSnQ1MEs0MHpRRXo4bXdQaGNRRmdfdXdrbkpYTVdJajJDeHQxTkpn?oc=5",
+        "why_it_matters": "A prominent economist is warning that if the RBA raises interest rates again — even once more — Australia risks tipping into a recession, meaning two consecutive quarters of the economy shrinking. With consumer spending already under pressure and household savings depleted, the economy has very little buffer left. This debate matters for investors because a recession would likely hit company earnings, employment, and confidence across the board."
+      },
+      {
+        "title": "Industry groups criticise RBA over rate rises",
+        "source": "Paint & Panel",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMkc2dWVfS2dsZ1pXQ0tOdkVFR1BpWm90Q28wb0xkTnNpQ0NCQTZUOGVPMndXTmVSRnloSDhNSi1QazFMUHA2Y0pDOEtSUXlMQU1JZFBVdXZwQkFLa1k1S3JtZ3BfTEFwVWRHWDczUUh6QVU2SHFaNUttS1ZFcWFVdnBBQnJlT0MxUWdicEJsSXh2SXcyakdTWGJzeG9VSXht?oc=5",
+        "why_it_matters": "Weld Australia, representing the welding and manufacturing sector, has publicly criticised the Reserve Bank over the impact of rate rises on businesses. They argue that higher borrowing costs are strangling investment and operations for small to medium manufacturers. It reflects a growing chorus of voices from the real economy pushing back against the RBA's hawkish (rate-raising) stance."
+      }
+    ]
+  },
+  "ai": {
+    "summary": "AI governance is the hot topic this weekend — from US politicians debating whether AI can ever have legal rights, to California's governor signing a 'kill switch' executive order, to Silicon Valley founders cheering Trump's hands-off approach to safety regulation.",
+    "stories": [
+      {
+        "title": "Congressman Ted Lieu says AI can never achieve legal personhood",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQLTJGZkxkZlI0M0RjVUdDdWhXbjRaRktyMzZXaUJxZDg5c2hrWDkyc0lVLWM2U1lwdHJxaWZUZjVwUEtPZDM2c2tCVk1MVU1LbEdUTV9iUFhweDd6RzRvV1Z4YzZjbHdDckVaNnNiQmk5TU1leXNJLVdoMWtRZDVVRnJGLTh1YWc2Mzk4ektUM040Zy1GV1FkVzI2b1hPVE1HajZMX1JaSC1CN3NOZWx2b0psWTJYREtLOWJXSGI0Z3FGcVJ3OEpLdzNNZkMwanJGcE50OXpVX2hGbzBkbkIzUmxOUjRiUTlyMUtfV3pXYW4tcWpFODJaQjF4UDBQMTJKWjYwajZURGY5UHQ3YVBWQ3M5T0ZwTjhyUzNfLXlWNUlFcVpmd1E?oc=5",
+        "why_it_matters": "US Congressman Ted Lieu — himself a computer science graduate — has come out strongly against giving AI systems legal rights or personhood. He argues that AI is fundamentally doing 'math calculations' and can never truly be conscious or self-aware. He also raised the thorny question of how you'd prosecute an AI company if their system causes harm. It's a sign that lawmakers are starting to seriously wrestle with AI accountability — which could eventually lead to new regulations affecting companies like Google and Microsoft that you own."
+      },
+      {
+        "title": "Major AI companies quietly preparing for the possibility of AI going out of control",
+        "source": "Ukrainian National News",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVEt0d0lnWWFtSUZjTUlKaEd4UEpQT2pHbWNmbjBhUFhabzBELXBteHBlZWduMFJWSy1WZk5jT2huRGxBSmVKNHdmRjB1eHRZWi1ya0FMTC1hdUhRSmZWUkQ1VElMTVM1Y3Zfbkpvak1IWXF0QmZrbkZMQUZEc2VYRzlSNFdZZlJTSXg5Z241YWJsSi0wdDBvaWxpb2Jwb2U5azk2eXkzZlFrbUJGUzhZN01ickRmTUI1NDNYWFJXRldzTG5zb280MklVYXhDQdIBzAFBVV95cUxNT19BNm5KZjlybVM4bU5IblFvcW9FOWtOYU5WblY2ZVQ1WEVJckFrUDlvcnVNVmdZWVprMHNZbE5fR2lBWmFPaHVYaHlKSkhMeUVheE9mVnZwb0NVMXNWQTF5UUFPVEFONkw5NTF1WU9ZYjJSMGlHeGdIZHVMbHg2WTBCbGhyYnBjUW5yTW9IUUtDLW5RRTNoTHl1bUlWNlB2aHRBQUE5QkxTejRfZUVPeE5lZ1dlX0hnbjhBOG02OVBXeWFCUVBncDdRank?oc=5",
+        "why_it_matters": "Reports indicate that leading AI companies — including some of the biggest players in Silicon Valley — are quietly developing internal emergency protocols for the scenario where an AI system becomes genuinely uncontrollable. This so-called 'containment planning' is no longer just the realm of science fiction; it's becoming a real boardroom concern. It suggests the people building these systems take the risks more seriously than their public messaging often lets on."
+      },
+      {
+        "title": "California Governor Newsom signs executive order with AI 'kill switch' provisions",
+        "source": "Daily Bruin",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa0JlX2QzVlppXzRGQkJjLU11V3BXUTZ5RWNyR2NxdC1mUGRlVXoweVdxLTZIa1Z0aHJsUnRHSVhnaHRGLTRkSWdfNFlkLW1YRzZTRnZCczFkYUthY0hib05Rc0xNcERYOHVsOEpTdGFleU1kdXRkVmJQU3ZWeWN1UTBJREl3ZDRpNE8zZnlHaXotcnJvaS1jQktfMlQ0cHVvWldUMTBSVGlVblZO?oc=5",
+        "why_it_matters": "California Governor Gavin Newsom has signed an executive order increasing state-level oversight of AI systems and, notably, proposing a 'kill switch' — a mechanism that could force AI systems to be shut down if they pose a risk. This is significant because California is home to most of the world's major AI companies (Google, Microsoft's AI partners, OpenAI, Anthropic). State-level regulation often sets the template for national rules. This is a direct challenge to the Trump administration's more hands-off federal approach."
+      },
+      {
+        "title": "Silicon Valley AI founders back Trump's self-regulation push",
+        "source": "ABC News",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWh3dlJqUS1oRnE3bUZrMHhyOWg5VmNyX1VydzJrZU5nVW9MT2k3d1A3ZVF0cGpwQTZvSmZNcWdGZ2t5X0hoQTQ4Rko5cGVtcHg5ZUFXZmlMSTMycVlESmdWcUV3Vzh1ZVhVQXJ6MUQ2aHU5Zm5LQ0NoNFJTMHdpMUk4QVpiX0FrZjFBbkd0cTRTaHFVajFRTFdmYk4xQdIBowFBVV95cUxQdnAtYVB3LXZoZGY3ZVI2LVJYVHk3NkNiQlAyeHl6c1otQWR5UWFwZl8tbmNaVXdOT2ZkVV8wUmIyaEFTcWxQc0R0aUstcGkwb05NaEdxS3FrMWxXVHZ2LXZELVRBakNELUd2VXBIR2JoaFk1TkJBZGZoZnB0R0tMRURaVDAwekJMTnJ0R1dhMS01YVUxdW1Nbk8xQklhclFpMFNv?oc=5",
+        "why_it_matters": "Many AI founders in Silicon Valley are openly cheering Trump's calls for the industry to regulate itself on safety, rather than have government rules imposed. They argue heavy-handed regulation would slow innovation and cede ground to China. Critics say letting AI companies police themselves is like letting the fox guard the henhouse — especially given the 'out of control' contingency planning being done behind closed doors. This tension between self-regulation and government oversight is the central AI policy battle of 2026."
+      }
+    ]
+  },
+  "sport": {
+    "summary": "The Roosters won the NRL Grand Final in a nail-biter, beating the Knights 19-18. The AFL trade period is in full swing with 18 major deals on the table, and Carlton is dealing with an off-field incident involving two players hospitalised overnight.",
+    "stories": [
+      {
+        "title": "Roosters 19 def. Knights 18 — NRL Grand Final thriller",
+        "source": "NRL",
+        "link": "",
+        "category": "NRL",
+        "why_it_matters": "The Sydney Roosters won the 2026 NRL Premiership by the slimmest of margins — just one point — defeating the Newcastle Knights 19-18 at Accor Stadium on Sunday 4 October. It was a Grand Final for the ages, with the result in doubt until the final whistle. A historic victory for the Roosters."
+      },
+      {
+        "title": "James Graham speaks out on NRL head knock culture",
+        "source": "CODE Sports",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOSFhQeUVxemxhRHB5SGhuYl93dFJndzA3aERublJjbjM2REZ2enZFbk9ZVXR2UUVXb2xJblNYZm9BZG82TDR4dU5TcTVzSTZvU1NsS1VVNEtSYnF6VHJlMURfV21FakoxRkVnR1RkNzE1UHFObDlNNGdNVDlrQVhOUkRVc3ZtMldhQWgxNndORW9SemllNWNNSlVRdkRSY0pTUXNPQ21SRmloeXdfTlFORllYUjJEUG9YVG9VQWN6OTlPNzJrMGZBN1ZUSmgtell2VjFFVmV0c3FJYm8zVnhWcmx0RHVOMGVoRlVQSA?oc=5",
+        "category": "NRL",
+        "why_it_matters": "Former NRL player James Graham has given a candid interview saying he's at peace with the long-term consequences of the head knocks he received during his career, even as the league continues to tighten its concussion protocols. It's a pointed commentary on the culture of 'playing through it' that has long defined rugby league — and raises ongoing questions about player welfare that the NRL's 'sacked' (no-fault stand-down) rule was designed to address."
+      },
+      {
+        "title": "Carlton releases statement after two Blues players hospitalised",
+        "source": "Zero Hanger / Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcWpQOEZ4WU5RTkJFUEdXVWw0MFVBcEhITFB3WFhqbnlad0xrZkU0bHM4Q29Nb2lIUEJKeGtFd09OeURWNE5tY2xjTVFMTU1RNC1feWJTVW10dUxmbGZUcnZ0SmJvTzRnOVh4Q0pGWk1VNkVjUUZ1dUYtSzJOU1dndUltNEZNWC1qMFE?oc=5",
+        "category": "AFL",
+        "why_it_matters": "Carlton has released an official statement after two Blues AFL players were taken to hospital following alleged overnight incidents. Fox Sports named the players involved. The club acknowledged the situation and said it was cooperating with authorities. It's a significant off-field distraction for Carlton heading into the AFL trade period, and will put the club's leadership under scrutiny."
+      },
+      {
+        "title": "AFL trade period: 18 major deals in play with three days to go",
+        "source": "AFL.com.au",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTHZBeXhrSmhaU2lCRlhRR0pESmtKYTduX2hVMnFveUlORGZKWkRwSFptWDhjOTY1S3Bvb2xnSHRqV1ZUN3VKNUhTR015QlRDRlYwWElTdy1PaF9CTGtkVWFoZ1U0b1NuWjZBZGVPYzdlMGlEcVg1R3ZGYnIwampJY0diWHB2Q3NXMlhxeVBqemhFaXEyRVgtMUtINjd6WjNTT3NaS0ZZUXNfVDNiblk1OTVOT05VMTJOWGtIWUdtb1J6dk1TUmkxajMtTQ?oc=5",
+        "category": "AFL",
+        "why_it_matters": "The AFL trade period is heating up with three days remaining and 18 significant trade deals still being negotiated across the competition. West Coast Eagles are among the clubs reportedly chasing a top draft pick. This is the most active period of roster movement in the AFL calendar — for fans of any club, the next 72 hours could reshape their team significantly heading into the 2027 season."
       }
     ]
   },
@@ -239,18 +249,18 @@
     "location": "Gold Coast",
     "icon": "☀️",
     "condition": "Clear sky",
-    "temperature_c": 24.9,
-    "high_c": 29.3,
-    "low_c": 17.9,
-    "rain_chance_pct": 88,
-    "rain_mm": 0.0,
+    "temperature_c": 21.1,
+    "high_c": 29.5,
+    "low_c": 19.8,
+    "rain_chance_pct": 43,
+    "rain_mm": 0.1,
     "tomorrow": {
-      "icon": "🌤️",
-      "condition": "Mainly clear",
-      "high_c": 29.5,
-      "low_c": 20.0,
-      "rain_chance_pct": 43,
-      "rain_mm": 0.0
+      "icon": "🌦️",
+      "condition": "Light showers",
+      "high_c": 28.9,
+      "low_c": 20.7,
+      "rain_chance_pct": 99,
+      "rain_mm": 6.0
     }
   },
   "nrl_round": "Grand Final",
@@ -392,5 +402,5 @@
     "total_pnl_pct": -1.93,
     "aud_usd_rate": 0.6988
   },
-  "generated_at_utc": "2026-10-11T07:38:02.616729+00:00"
+  "generated_at_utc": "2026-10-11T14:17:10.346417+00:00"
 }
