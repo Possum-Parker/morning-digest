@@ -1,286 +1,281 @@
 {
-  "headline": "Pilbara Minerals crashes 12% on a brutal lithium price collapse — while the IMF warns the global economy is nearing its limits.",
+  "headline": "Pilbara Minerals hammered 8.6% on a fresh lithium price collapse — the ASX held up otherwise, and Meta's new AI models are taking on OpenAI head-to-head.",
   "portfolio": {
     "movers": [
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
-        "change_pct": -12.0,
-        "note": "A savage 12% drop today driven by China's lithium carbonate futures plunging nearly 12% and breaching 110,000 yuan, with major institutions now warning of a 2027 oversupply glut. The lithium price story keeps getting worse — the market is pricing in more pain ahead before any recovery."
+        "change_pct": -8.61,
+        "note": "Brutal session for PLS — China's lithium carbonate futures plunged nearly 12% and hit a 10-month low, with institutions warning of a 2027 oversupply glut. That hammered sentiment across all lithium miners, and PLS copped the full force of it today."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
-        "change_pct": -2.16,
-        "note": "TTWO slipped 2.16% last night. A hacker known as 'CyberLeek' is threatening to post the entire GTA 6 story online unless Take-Two releases a physical disc version — creating unwanted headlines and uncertainty around the game's launch. Markets don't love this kind of distraction around their most anticipated title."
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": 1.14,
-        "note": "Microsoft rose 1.14% last night, buoyed by strong investor sentiment ahead of earnings. Analysts are watching Azure cloud growth as the key driver, and Microsoft's AI story — including its partnership with OpenAI — continues to attract buyers. Q3 earnings are approaching and expectations are high."
+        "change_pct": -2.57,
+        "note": "Take-Two slipped last night, weighed down by some negative noise around GTA 6 — a hacker ('CyberLeek') is threatening to post the entire game story online unless Rockstar releases a physical disc version. Not a fundamental issue, more headline-driven jitter ahead of what remains a massive upcoming release."
       },
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": -1.21,
-        "note": "GXAI slipped 1.21% in today's ASX session, tracking broader tech softness. No specific news — the dip reflects general caution in the AI/tech space rather than any fundamental change to the ETF's holdings."
+        "note": "GXAI dipped slightly today in a mild pullback for AI-related stocks on the ASX. Nothing stock-specific; the broader AI theme remains intact with Meta's major new model launch this week keeping the sector in focus."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": -0.7,
-        "note": "VGE edged down 0.7% today. Emerging markets continue to face headwinds from a stronger global risk-off tone, the IMF's warning about debt and conflict risks, and ongoing geopolitical uncertainty in the Middle East."
+        "note": "VGE eased modestly today, likely reflecting some caution around the IMF's warnings about global growth risks and ongoing Middle East tensions which tend to weigh on emerging market sentiment."
       },
       {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market ETF",
-        "change_pct": -0.32,
-        "note": "VTS dipped a modest 0.32% today on the ASX, reflecting last night's mild NASDAQ softness. Nothing structural here — a quiet, flat session for US equities overall."
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": 1.09,
+        "note": "Microsoft had a solid night last night, up over 1%. The market is warming up ahead of Microsoft's October 28 earnings, with analysts focused on Azure cloud growth and the AI Maia 300 chip reducing costs. Strong momentum heading into results."
+      },
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet (Google)",
+        "change_pct": 0.72,
+        "note": "Google edged higher last night ahead of its Q3 2026 earnings. Analysts are flagging it as a quality growth stock with high returns on invested capital, and the market seems to be positioning ahead of the print."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -0.17,
-        "note": "VDHG barely moved, down just 0.17% today. As a diversified multi-asset ETF it's well insulated from single-sector swings. Steady as she goes."
+        "note": "VDHG barely moved today — a tiny dip of 0.17% that's well within normal daily noise for a diversified fund. Nothing to read into here."
       },
       {
-        "ticker": "GOOG",
-        "name": "Alphabet Inc. (Google)",
-        "change_pct": 0.32,
-        "note": "GOOG nudged up 0.32% last night — a quiet session ahead of Q3 2026 earnings. Analysts note Google holds a clear lead in AI model benchmarks right now, which is a positive backdrop heading into the earnings report. Key levels and risks are being closely watched by the market."
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market ETF",
+        "change_pct": -0.32,
+        "note": "VTS edged down slightly today, tracking a mild overnight pullback in US markets. The S&P 500 and NASDAQ were both marginally lower last night, but nothing alarming — this is normal day-to-day movement for a broad US index fund."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "PLS.AX — Lithium carnage: down 12% today",
-      "detail": "Pilbara Minerals had an awful session, dropping 12% as China's lithium carbonate futures cratered nearly 12%, breaking through the 110,000 yuan floor. Institutions are now flagging a 2027 oversupply problem. Your PLS position is now down 54% overall — that's a painful paper loss of ~$81. The long-term bull case for lithium (EV demand) is still alive, but the near-term picture is ugly. This is a hold for a long-term investor — selling now locks in the loss at the worst possible time — but don't expect a quick recovery.",
-      "urgency": "red",
+      "title": "PLS.AX — Lithium rout continues, hold your nerve",
+      "detail": "Pilbara Minerals dropped 8.6% today after Chinese lithium carbonate futures crashed nearly 12% to a 10-month low. Institutions are warning of a 2027 oversupply. PLS is already down 54% from your cost base — a brutal run. But selling now locks in that loss. The long-term case for lithium in the energy transition is still real, just delayed. Sit tight unless you genuinely need the capital.",
+      "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "TTWO — GTA 6 hacker threat is noise, not a thesis-breaker",
-      "detail": "A hacker called CyberLeek is threatening to leak the entire GTA 6 storyline unless Take-Two releases a physical disc. It's messy PR, but it doesn't change the fundamental value of the game or the company. TTWO is already down 10% overall in your portfolio. For a long-term holder, this is a hold — the GTA 6 launch is still the biggest entertainment event in years and the thesis is intact.",
-      "urgency": "orange",
-      "ticker": "TTWO",
-      "action": "hold"
-    },
-    {
-      "title": "MSFT — Earnings approaching, AI story strong",
-      "detail": "Microsoft gained 1.14% last night and is up 22% overall in your portfolio. Q3 earnings are coming up and expectations around Azure cloud growth and AI integration are high. Microsoft's president also made headlines today arguing the UK should lead AI regulation — keeping MSFT front of mind in the AI governance debate. Solid hold.",
+      "title": "MSFT — Earnings on Oct 28, momentum building",
+      "detail": "Microsoft is up 1.09% last night and the market is building anticipation ahead of its October 28 earnings report. Azure cloud growth and AI cost-cutting via the new Maia 300 chip are the key storylines. You're up 23% on this position — strong long-term hold. If there's any pre-earnings dip, that could be a chance to top up.",
       "urgency": "orange",
       "ticker": "MSFT",
       "action": "hold"
     },
     {
-      "title": "GOOG — Q3 earnings on the horizon, AI benchmark lead intact",
-      "detail": "Alphabet is quietly up 13.5% overall in your portfolio. Analysis published this week shows Google holds a clear lead over Anthropic, Meta and OpenAI in AI model benchmarks for October 2026 — a strong backdrop heading into Q3 earnings. Watch for the earnings date and any guidance on AI monetisation. Hold comfortably.",
-      "urgency": "orange",
+      "title": "GOOG — Q3 earnings approaching, stock ticking up",
+      "detail": "Alphabet rose 0.72% last night with earnings on the horizon. Analysts are pointing to its durable growth profile and strong returns on capital. You're up 14% on your position. Nothing to do here — just keep an eye on the earnings date. Long-term story remains solid.",
+      "urgency": "green",
       "ticker": "GOOG",
       "action": "hold"
     },
     {
-      "title": "RBA flags rates could rise further — watch your mortgage",
-      "detail": "Minutes from the RBA's latest meeting, released today, confirm the board is keeping the door open to further rate hikes 'if required' to beat inflation. The IMF separately warned today that Australia faces one of the world's worst combinations of rising unemployment AND stubborn inflation. This is relevant if you have a variable-rate mortgage — and it's a headwind for rate-sensitive ASX stocks.",
+      "title": "TTWO — GTA 6 hacker threat is noise, not a structural issue",
+      "detail": "Take-Two fell 2.57% last night after a hacker threatened to leak the entire GTA 6 storyline online. This is headline drama, not a reason to rethink the investment. GTA 6 is still one of the most anticipated game launches in history, with a PC release planned for early 2027. You're down 12% overall — hold and wait for the launch catalyst.",
+      "urgency": "green",
+      "ticker": "TTWO",
+      "action": "hold"
+    },
+    {
+      "title": "IMF warns global economy is near its 'limits of resilience'",
+      "detail": "The IMF's annual World Economic Outlook flagged risks from AI market corrections, war, and rising global debt. Australia specifically was called out for having some of the worst inflation and unemployment trajectories among developed nations. Worth watching — if these risks materialise, emerging markets (VGE) and growth ETFs (VDHG) could face headwinds.",
       "urgency": "orange"
     },
     {
-      "title": "Middle East conflict escalating — oil and gold on the move",
-      "detail": "Houthi attacks on Saudi Arabia are intensifying, and Iran has rejected the latest US peace proposal. Oil briefly spiked before settling back to $92.34/barrel (down 1.5% last night), while gold surged to $4,215 — up 0.6% — as investors seek safety. Escalation could push oil and inflation higher, which matters for RBA decisions and your cost of living.",
+      "title": "Middle East tensions lifting oil — keep an eye on inflation",
+      "detail": "Houthi rebels are escalating attacks on Saudi Arabia, killing 1 and injuring 11 in the latest strike on a Saudi airport. Oil is sitting at US$93.89/barrel. If this escalates further and oil spikes, it feeds directly into Australian inflation — which the RBA is already struggling to control. Bad news for rate cut hopes.",
       "urgency": "orange"
     }
   ],
   "world": {
-    "summary": "The IMF issued a stark global warning today, the Middle East conflict is escalating with Houthi strikes on Saudi Arabia, and US political turmoil is deepening ahead of midterm elections.",
+    "summary": "The big global stories today centre on the US midterms, escalating Middle East conflict, and the IMF's stark warning that the global economy is approaching its limits.",
     "stories": [
       {
-        "title": "IMF warns the global economy is 'nearing the limits of resilience'",
-        "source": "The Guardian / Reuters / CNBC",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR0x3ckRQNG9zS2hldzVhTWhRblNlVmxrME8zZWNCS0F3NVc1Y2JKeVA0ZEZlZ0ZVRnZYT0lsNjVWMWdTVEh5WkpIRWNJeG0zMllPZ1R3RWtwOENtM0N4bkxrTFdjck4yTVA5ZENSdC1jTC12Nl81LTdxazBqNW9rZTFSOTI4X1owbGwxS3Y2ZE9NWFhjZHNoUnBoMGlmdDlJQ1AxOC0zUzdoMHRCQXAxdA",
-        "why_it_matters": "The IMF released its latest World Economic Outlook today, and the message is bleak: global growth is holding up partly because of the AI investment boom, but wars and massive government debt are serious threats. The IMF warned that top economies are heading for their biggest budget deficits since COVID, and that the world economy 'could soon test the limits of resilience.' For everyday Australians, this means higher borrowing costs globally for longer, more volatility in markets, and a tougher economic environment ahead."
-      },
-      {
-        "title": "Houthis escalate attacks on Saudi Arabia as Middle East conflict spreads",
-        "source": "News24 / ABC News",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMVAteW5KZzl6OXZKU1VHZW96MjJ0enZudi0yc2lVMUNsVDVmaUdUUnJSN1B6U19VRDhGNzJDb29OZzVJd1Zoc0IzZGhDcWt4TUJDMF9Ba0Z2LTFVanphQ1NqSUxfeFk0ZUs0Ni1XT29adGpSMDNsek1nOFQ0dF9TdHpDM2k3bl9jQ3VPQWQ4RjVrSVZKd1dYQ002aGVHdjBIR2pYdWVpdGRZVzVwNnFfcDMwNkpyUGUtbzlWRERvc245a0NETlZoV2RJcWtIWV91RXhkbzFNRy1HZzEwc0U1djZQbVlEXzVqUXFvdFdmNjNiRkxUbl9ObEJ6Rm0xZ9IBgwJBVV95cUxPZXBIcVJGbXZselJ5UXRMOTNTdDM0a3hRQ2M1RmhfY0tWa0twZE92cWlmSE5yZ1VZZWlQYWFuUWN6ckRuc2U3dTQxamNKUkYxakJyTlllenBoOHcxY2Y2Q1NxTUxKMF9lZi1UTHJGRVROYVF4ZDBzcEloRjVacW5KN3pGRzVKbFZOc2lKZzRLVGRpSU83MnJ5dDhEckVRd0dZRkR6ZEc1Q3g1VEtCQzZTYkRMaklWNjhtbVpXLTllLWJCQ1pINWNYeFk0WnVXaW5XUHdtSnBtd2VMRnRPNWQ5bFc1QXNnZzhoaldoSzYySHJ1WW01ZkExem50OFRtdnMtNGdR",
-        "why_it_matters": "Yemen's Houthi rebels have sharply increased attacks on Saudi Arabia, a key US ally, as the broader Middle East conflict shows no sign of cooling. Iran has also rejected the latest US ceasefire proposal as 'insufficient'. Australia's Foreign Affairs department is advising a 'high degree of caution' for anyone travelling to the region. Practically, this raises the risk of oil supply disruptions — oil is already sitting at $92/barrel — and a further escalation could push fuel prices higher here at home."
-      },
-      {
-        "title": "Elon Musk spends $366 million to boost Republicans ahead of US midterms",
+        "title": "Elon Musk spends $366m backing Republicans ahead of US midterms",
         "source": "Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdVNnUTJVaDl6NkxNYzlmMGVkcEtDQXB6RGV2WThMSzB3Q1FyYWw0cnlUTjBxNVI3YkxJWVhNUWE5SXRzRW11T25ucUczcmdnMFo0WkthLS14bENhY2ZuazUtNWcxc0tZcFNURVAwQUJUcWZ1VlhCLU5rZEhJQTlrOWtEcXFab2V1N1V0VGY2OVIxRktQbXE3Njgzb1R5cUNXRl80WjRNRmZVYWZneWQ5eC1pSlZHUdIBuwFBVV95cUxQME9XdmkxeDJNeS10cjQwdUZCZFZYYjRXNnEzTllaX2FLcmlreXdyTWI3dktMSkhJWDRibm8tSDItbjFJRWkydlRTVU1hblllLTI2YjdLT2swT0UycG5SMXkzMzlOdjdYeWRNamxkc002T1hUdXlYdUs2QjllR3JKWXByS1JjcEZqTVNmWHJ0MG9rekNVVGxVWFJabTh5M2I1QUdsWVV1R1E0WDYwNjhFVlVyNE9lS3piYk1N",
-        "why_it_matters": "Elon Musk has reportedly spent $366 million of his own money supporting Republican candidates ahead of the 2026 US midterm elections — one of the largest individual political donations in US history. Separately, the Trump administration has decided to skip international election observers for the midterms, a break from decades of democratic norms. The results of these elections will shape US fiscal policy, trade, and the regulatory environment for tech — all of which matter for your GOOG, MSFT, and TTWO holdings."
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdVNnUTJVaDl6NkxNYzlmMGVkcEtDQXB6RGV2WThMSzB3Q1FyYWw0cnlUTjBxNVI3YkxJWVhNUWE5SXRzRW11T25ucUczcmdnMFo0WkthLS14bENhY2ZuazUtNWcxc0tZcFNURVAwQUJUcWZ1VlhCLU5rZEhJQTlrOWtEcXFab2V1N1V0VGY2OVIxRktQbXE3Njgzb1R5cUNXRl80WjRNRmZVYWZneWQ5eC1pSlZHUdIBuwFBVV95cUxQME9XdmkxeDJNeS10cjQwdUZCZFZYYjRXNnEzTllaX2FLcmlreXdyTWI3dktMSkhJWDRibm8tSDItbjFJRWkydlRTVU1hblllLTI2YjdLT2swT0UycG5SMXkzMzlOdjdYeWRNamxkc002T1hUdXlYdUs2QjllR3JKWXByS1JjcEZqTVNmWHJ0MG9rekNVVGxVWFJabTh5M2I1QUdsWVV1R1E0WDYwNjhFVlVyNE9lS3piYk1N?oc=5",
+        "why_it_matters": "Elon Musk has poured a staggering $366 million into supporting the Republican Party ahead of the 2026 US midterm elections — one of the largest single-donor political investments in American history. At the same time, the Trump administration has reportedly decided to skip international election observers for the midterms, a move that watchdog groups say undermines democratic accountability. A federal judge has also ordered a temporary halt to taxpayer-funded pro-Trump TV ads. The midterms will determine control of Congress and have huge implications for US economic and foreign policy."
       },
       {
-        "title": "Federal agents raid Rep. Ilhan Omar's home in criminal probe",
-        "source": "NBC News / Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNenhTcUF0eV9qanBKUnNlaU9QV2EwNjhZUUlfMjc2QVNDOXpkcUJ3bVpnMW1sNlVFaFVHZlpkXzZxdDYwWUJtVG1OWk9iSzNrcVlVcEM2aXQ4Qk85cW9uRzh3RVE0SXZMMUV3MEhVcDN6bUNaNjJyd201S21ESmZDZndoVUQ3djQtdXVOX2VuZjVhek5rSGdJdExiRFpiQ05KcnVLa25tOV9CTjRfUFEyVHZxTG5Xd2ppT0tWT3BHYUtqaDYzMFE",
-        "why_it_matters": "Federal agents raided the home of Democratic congresswoman Ilhan Omar as part of a criminal investigation. Omar says she 'will not be silenced' and has pushed back strongly, calling it politically motivated. This is the latest in a series of actions against political opponents under the current administration, deepening concerns about the rule of law and democratic norms in the US — something international investors and institutions are watching closely."
+        "title": "Houthis escalate attacks on Saudi Arabia as Middle East conflict widens",
+        "source": "Radio Free Europe/Radio Liberty",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+        "why_it_matters": "Iran-backed Houthi rebels launched another attack on a Saudi airport, killing 1 person and injuring 11. The attacks are increasing in frequency and scale as the broader Middle East conflict drags on. Australia's government has issued a high degree of caution warning for Middle East travel. Oil prices remain elevated at around US$94/barrel partly on these tensions, and analysts warn the entire LNG (liquefied natural gas) industry in the region remains at risk while the Iran-linked conflict continues."
       },
       {
-        "title": "Judge orders Trump admin to stop taxpayer-funded TV ads",
-        "source": "CNBC",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CZmZ4U3JfSk9QT0JlZ1dvbXBsaTl4bl93M1JRQ2laTnhLVURlanhGVFdNb1h4Z0tsLW1hdVZZX0ZWN0hseGhiTERjYi1feGZTLUVrNEZ4Mk1CZmZWTWkyNUVmeHJiQUR2Yi13TDlCTdIBdEFVX3lxTE1HQlRwMGhPd3NzZW1qOTRDUXd1ZU5vNU5vcTVqSXZZbHFNcnpKSVBNaVA3VDdXczJzTTBQYUZBYUwzT19wV3o3cUhHbVRQZ29tRC1pTGxBaE9uLTQzeHI5dWVYaEFYTTFtVmt1Yk9mZDBHRThx",
-        "why_it_matters": "A US federal judge has ordered the Trump administration to immediately stop running taxpayer-funded TV advertisements, ruling they crossed the line from government information into political promotion. The ruling is a rare legal check on executive branch communications, and adds to a broader pattern of judicial pushback on the administration's actions."
+        "title": "IMF warns global economy 'could soon test the limits of resilience'",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR0x3ckRQNG9zS2hldzVhTWhRblNlVmxrME8zZWNCS0F3NVc1Y2JKeVA0ZEZlZ0ZVRnZYT0lsNjVWMWdTVEh5WkpIRWNJeG0zMllPZ1R3RWtwOENtM0N4bkxrTFdjck4yTVA5ZENSdC1jTC12Nl81LTdxazBqNW9rZTFSOTI4X1owbGwxS3Y2ZE9NWFhjZHNoUnBoMGlmdDlJQ1AxOC0zUzdoMHRCQXAxdA?oc=5",
+        "why_it_matters": "The IMF's annual World Economic Outlook, released at its Annual Meetings today, delivered a sobering message: the global economy is approaching the limits of its resilience. The Fund flagged three big risks — a potential AI stock market correction (think of it like the dot-com bubble popping), ongoing wars disrupting trade and energy, and dangerously high government debt levels in major economies. For everyday Australians, this means higher borrowing costs and slower growth could stick around longer than hoped."
+      },
+      {
+        "title": "Rep. Ilhan Omar's home searched by federal agents in criminal probe",
+        "source": "NBC News",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNenhTcUF0eV9qanBKUnNlaU9QV2EwNjhZUUlfMjc2QVNDOXpkcUJ3bVpnMW1sNlVFaFVHZlpkXzZxdDYwWUJtVG1OWk9iSzNrcVlVcEM2aXQ4Qk85cW9uRzh3RVE4SXZMMUV3MEhVcDN6bUNaNjJyd201S21ESmZDZndoVUQ3djQtdXVOX2VuZjVhek5rSGdJdExiRFpiQ05KcnVLa25tOV9CTjRfUFEyVHZxTG5Xd2ppT0tWT3BHYUtqaDYzMFE?oc=5",
+        "why_it_matters": "Federal agents searched the home of Democratic Congresswoman Ilhan Omar as part of a criminal investigation. No charges have been announced yet, but the development is significant given Omar is a prominent progressive voice in Congress. The move comes amid a broader political environment where federal agencies are being used in ways critics say are politically motivated, adding to tensions heading into the midterms."
+      },
+      {
+        "title": "Immigration front and centre as US midterms approach",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZXYtUkZ2OVBDMmJ1blptZmt3UzVqcGx1OWZuQkRqVWFpdDlEQVZ1VDRHdGhrZHJpWmIzQ1N1WkRvY2xEOVpLanBKejhIU2VWa0tIREI3VWZuRUxmbWwyZms0MUxBR0w0cFF3LTkxd203dHlWU21qeFU5a3JTNE5jQUZBdw?oc=5",
+        "why_it_matters": "Immigration is shaping up as the defining issue of the 2026 US midterms, with voters split on whether Trump's crackdowns have gone too far. The Guardian's reporting finds many Hispanic communities — traditionally a swing vote — increasingly alienated by the administration's approach. How Congress swings on immigration will affect trade policy, visa rules, and potentially even Australian student and worker visa arrangements down the track."
       }
     ]
   },
   "markets": {
-    "summary": "The ASX 200 was essentially flat today, up just a whisker. Last night on Wall Street, the S&P 500 barely moved while the NASDAQ slipped 0.44%. Gold surged to $4,215 as a safe haven while oil eased back despite ongoing Middle East tensions.",
+    "summary": "The ASX had a decent session today, up 0.76% to close at 8,783. Last night in the US, both the S&P 500 and NASDAQ edged lower — the S&P fell 0.16% and the NASDAQ dropped 0.24%. Oil is holding firm above US$93 on Middle East tensions, gold is steady near US$4,188, and the Aussie dollar firmed slightly to about 69.9 US cents.",
     "indicators": [
       {
         "name": "ASX 200",
-        "value": "8,783.9",
-        "change_pct": 0.01,
-        "note": "Flat close — minimal movement on the day."
+        "value": "8,783",
+        "change_pct": 0.76,
+        "note": "Good day on the local market, up 0.76%."
       },
       {
         "name": "S&P 500",
-        "value": "7,807.2",
-        "change_pct": -0.06,
-        "note": "Last night: barely moved, near-flat session."
+        "value": "7,795",
+        "change_pct": -0.16,
+        "note": "Marginal dip last night — markets treading water ahead of US earnings season."
       },
       {
-        "name": "NASDAQ Composite",
-        "value": "27,245.9",
-        "change_pct": -0.44,
-        "note": "Last night: mild dip, tech softer ahead of earnings season."
+        "name": "NASDAQ",
+        "value": "27,179",
+        "change_pct": -0.24,
+        "note": "Slight pullback last night despite strength in MSFT and GOOG."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$92.34",
-        "change_pct": -1.49,
-        "note": "Eased back despite Middle East escalation — still elevated."
+        "value": "US$93.89",
+        "change_pct": 0.16,
+        "note": "Oil holding elevated levels on Houthi attacks and Middle East risk."
       },
       {
         "name": "Gold",
-        "value": "$4,215.60",
-        "change_pct": 0.6,
-        "note": "Rising as investors seek safety amid global uncertainty."
+        "value": "US$4,188",
+        "change_pct": -0.05,
+        "note": "Barely moved — gold staying near record highs as a safe haven."
       },
       {
         "name": "AUD/USD",
-        "value": "0.6971",
-        "change_pct": 0.17,
-        "note": "Aussie dollar slightly firmer — holding just under 70 US cents."
+        "value": "0.6986",
+        "change_pct": 0.39,
+        "note": "Aussie dollar nudging higher, close to 70 US cents."
       }
     ]
   },
   "politics": {
-    "summary": "The RBA has fired a warning shot — rates could go higher 'if required' — and the IMF has singled out Australia for a grim inflation and unemployment outlook. Meanwhile, Labor is pushing social media algorithm reforms as Greens push for stronger Big Tech accountability.",
+    "summary": "The RBA and interest rates dominated Australian news today, with the IMF also calling out Australia specifically for having some of the worst inflation and unemployment trends in the developed world. Parliament also passed new university access legislation.",
     "stories": [
       {
-        "title": "RBA minutes: rates could rise further 'if required'",
-        "source": "CommBank / AFR / Yahoo Finance Australia",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV3lvS3RLNi1XSWlCbnMyQTNnNHBIOVBVaWRTNEwycDBhbFBZX3BaUHN4MXVRaEx5X0oySUdzRDR3QmVXV2RVZ1N3aXVPX1l3MFM0THNFQ0kzdUlyYjdRY0xkRGZoOElPVlRyY0pwQnVGQmQwVWJ3RDE4bHZpSHhTVUdpYVRXVGZiUzBMWlNpYVpIMmE4YVBfejNpSW12NXdiMDduczNQbVJBcWhmYXdUcnk1a0RkNF9wX1AzYmNMa2VPQQ",
-        "why_it_matters": "Minutes from the RBA's latest board meeting, released today, confirm the central bank is keeping rate hikes on the table. The key phrase: rates could rise 'if required' to defeat inflation — and the AFR reports the RBA has said it will accept weaker economic growth as the price of bringing inflation down. For Australians with variable-rate mortgages, this is a stark reminder that borrowing costs may not fall anytime soon."
+        "title": "RBA minutes reveal door still open to further rate hikes",
+        "source": "CommBank",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV3lvS3RLNi1XSWlCbnMyQTNnNHBIOVBVaWRTNEwycDBhbFBZX3BaUHN4MXVRaEx5X0oySUdzRDR3QmVXV2RVZ1N3aXVPX1l3MFM0THNFQ0kzdUlyYjdRY0xkRGZoOElPVlRyY0pwQnVGQmQwVWJ3RDE4bHZpSHhTVUdpYVRXVGZiUzBMWlNpYVpIMmE4YVBfejNpSW12NXdiMDduczNQbVJBcWhmYXdUcnk1a0RkNF9wX1AzYmNMa2VPQQ?oc=5",
+        "why_it_matters": "The Reserve Bank's latest board minutes made clear that further interest rate rises remain on the table if inflation doesn't cool fast enough. The RBA has flagged it's prepared to accept weaker economic growth as the price of beating inflation — which means mortgage holders shouldn't bank on rate cuts any time soon. A former RBA governor pushed back, saying the hikes 'won't change much' because inflation is being driven by supply-side issues the RBA can't control with higher rates."
       },
       {
-        "title": "IMF singles out Australia for one of the world's worst inflation and unemployment outlooks",
-        "source": "Nine.com.au / The Nightly",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb3pMZXU5VGduRDdoQnhlZ01YckUxLXlFa3pqeE9Qc0h4ZTJheXQza3M2SHFlNzlqOXo1WHduUjg3ZXpmbnRPOEJPakFuZ3kxQ2hkXy1OYzBfZV9GZXhTcV8tNGpWZVJGVlY2WWVXODFDN2ZvZ3lOM0dWdExmV2lGc0thLWRtN2pBMjBPd2FIWDhldnJaRTcxd21pY0pYWHlzSFVUT0VFaHZFVHA5bTMyeFRMUzB0Zld3LW81X21mUEZaT3BaajFIMmFBaElsOFRaTlRhYnZOQWhOd2RsdWtkdkNYOG93MWxNNWFGckF1MA",
-        "why_it_matters": "The IMF's new World Economic Outlook has specifically flagged Australia as facing one of the worst combinations of rising unemployment AND persistent inflation among major economies. This is sometimes called 'stagflation' — a double whammy where the economy slows AND prices keep rising. It's a tough environment for the RBA, which has to decide whether to raise rates to fight inflation even as jobs become harder to find."
+        "title": "IMF singles out Australia for worst inflation and rising unemployment",
+        "source": "AFR",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeEt5b3ZpUGJ2eWJqVC1YWXMwamwyY2lSOTZDTUs3Ylk0LXhteUlMOGZOeWhPay1qb1lWSFF3UFRORnBXdWFBcWdBeHd3OXpGSjUwT0NpVkQ3a1IzSUY0Vi11Y3RvY0d0SzRSZm82YXVzSmtuSHE0RHVSTFlhSFFsdWMzYlBNcHdLLXYxU0E3NkxLa1BNWGxjVm56SWE4MXFxZXg3UWtnUVpscDVKUUlfb3JaUmxDTTA?oc=5",
+        "why_it_matters": "The IMF's World Economic Outlook specifically called out Australia as one of the worst performers among developed nations on both inflation and rising unemployment. That's a double whammy — prices are still too high, and more people are losing jobs. For everyday Australians, this means the cost-of-living squeeze is likely to continue, and the job market may get tougher before it gets better."
       },
       {
-        "title": "Almost 80,000 older Australians to ditch private health insurance over changes",
-        "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEhQZWtGOURCY0Y0VFR2U1dBUHcxQjcwdHRjUnNxMFdmcHloNkRPN3RrY3pJRHM1V1Fka3d4QlE5QmJjb04xa2Y0d1V2RFBpVTNHa3h3UktHbnROZ2UwZGFKYkxrYmNQeXBpTTlCbEZIZjUyb0V0bjVDemNPZ2NEaHE4R3BBdGttazFybDA1T1otdXZlRWxhU0pfNHFpd2otZ20wTkdhSHU5U0pSMWY0",
-        "why_it_matters": "Almost 80,000 older Australians are expected to cancel their private health insurance following government changes to the system. This is a big deal for private health insurers and for the public hospital system — fewer people with private cover means more pressure on Medicare and public hospitals. It also signals that cost-of-living pressures are forcing tough choices for retirees and older Australians."
-      },
-      {
-        "title": "Labor pushes social media algorithm changes; Greens want powers to sue Big Tech",
-        "source": "Crikey",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSXg1Z2cybHpuejQ4OFN3QjRQTzFmTE9QVjAxb1hsZUFpNGMybnN4amp5aklCY2lfRkRmYl9GemtKN05xRTR4YnJGTlN5dDYyOThNbE5WMWxVWUxKRVJtbnZ2ODh6cVpqdFRmVUZPX29FMUpYcFV0R3lzcFNPQXY5YVVocUdnOWg1MGpDbXZEWnBuZEp4WTc0SU50WEJpTm9RcGZnc213ZlJ1Uk8xVTZ3X3JMOVBJcEVSOW5IVjVzaU5DQXZaMUhQZFd6aVhGS2l2NUx4MFE0Wk0tZlVfWnlBbVkzaWE0akpw",
-        "why_it_matters": "Labor is trying to pass legislation requiring social media platforms to change their recommendation algorithms — meaning what content gets pushed to users. The Greens are pushing harder, wanting Australians to have the legal right to sue Big Tech companies directly for harm caused by their platforms. This is a developing area of regulation that could affect how platforms like Google and Meta operate in Australia — relevant for your GOOG holding in the longer term."
+        "title": "Parliament passes legislation to help more Australians access university",
+        "source": "The National Tribune",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd2RNNlVESEQzaHhibjUyTEdySEhqUVZ2Qkd0bGhLOEE0cWF2R0hlQkFLSEVHNHVVa3FEV2c3WTBOYkVLMThVWE4xZWRxSG5UWFg5XzFVVnlsb1NLM0dzbVN2clpvVHVwRWtGSjhEaUxhTlJDUDVpT2N3cDBRRDFyMzlBTWNXU1oyb0N1Y19oRkZNWkRoZlNDSzBRczZpYnRrcGc?oc=5",
+        "why_it_matters": "Legislation has passed Parliament aimed at making university more accessible for more Australians — details on the specific measures (such as fee changes or HECS reform) weren't available in the article text, but the passage signals the government is pushing ahead with its higher education agenda. This is part of Labor's broader effort to widen participation in tertiary education."
       }
     ]
   },
   "ai": {
-    "summary": "Meta launched a new frontier AI model called Muse Wonder, claiming it matches the best from OpenAI and Anthropic. Meanwhile, Microsoft's president says AI is 'less regulated than milk' — and Google is reportedly holding a clear lead in the AI model benchmarks race.",
+    "summary": "Meta made a huge splash by launching two new frontier AI models — Muse Wonder and Muse Wonder Full — claiming they match OpenAI and Anthropic. Meanwhile, regulators globally are sharpening their focus on AI oversight, and the debate over how to govern AI is getting louder.",
     "stories": [
       {
         "title": "Meta launches Muse Wonder — says it matches OpenAI and Anthropic",
-        "source": "Mashable / The Straits Times",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E",
-        "why_it_matters": "Meta has released two new AI models — Muse Wonder and Muse Wonder Full — which it claims are now on par with the best models from OpenAI and Anthropic. Benchmark results suggest Muse Wonder matches Claude Fable at a lower cost. This is significant because it means a serious competitor to ChatGPT and Claude is now available, and competition in AI is intensifying — which is generally good for consumers (cheaper, better AI tools) but adds pressure on Google and Microsoft to stay ahead."
+        "source": "Mashable",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E?oc=5",
+        "why_it_matters": "Meta has released two new AI models called Muse Wonder and Muse Wonder Full, claiming benchmark results that put them on par with the best models from OpenAI (ChatGPT) and Anthropic (Claude). Muse Wonder Full — the more powerful version — introduces 'Active Memory' and 'Active Focus' features, meaning it can remember things across conversations and zoom in on what matters most. The catch: only the weaker Muse Wonder model is available via the API (the programming interface developers use to build apps), while Wonder Full is reserved for Meta's own products. A subscription tier is reportedly priced at US$200/month, putting it squarely in premium territory."
       },
       {
-        "title": "Google holds clear lead in October AI model benchmarks",
-        "source": "Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaDhHTGhScjZQSk1aWEw0MWgwOVN1OWdiLW9qVE5WM1pEbWc0T0ZvekVxMFJHRkxIQ1dOM3drakZfalZTZzNhdWpDdV93SkZ0RllwelN1b0RoMnBsR1QxWXB1eUdsM2hTNkdJd21EZUhBUVdzLS01UnJrRHZnSlEtUjZRY1Y4RVdZZ29uRW5Ob19QaG1ROW9MQlVYY3JYcmVJc1ZBbjgyWFBhMm95MlExVmZMUEJzQmV3Mkdkbw",
-        "why_it_matters": "According to analysis published this week, Google's AI models hold a significant lead over Anthropic, Meta, and OpenAI in October 2026 benchmark rankings. This is a positive signal for GOOG shareholders — it suggests Google's massive investment in AI research is paying off and that Alphabet remains the technical leader in the space, even as competition heats up."
-      },
-      {
-        "title": "Microsoft president: AI is less regulated than milk",
-        "source": "BBC / TechCrunch",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWblVtb0hnbURUVU1uMXNTMmFyUmxwUGNETm1ZUmpGRVJmcVdUVVlzT2N4LUFzbVRkLVVtR1VvWURJc3NYRkhoY0Q4UDRGTm9sZWxhUVJvMThuWTQ",
-        "why_it_matters": "Microsoft President Brad Smith made headlines saying AI is currently 'less regulated than milk' — meaning almost anyone can build and deploy powerful AI systems with virtually no safety checks. Smith said the UK is best placed to lead global AI regulation. He's been lobbying for safety standards and testing requirements for frontier AI models. This matters because regulation, when it comes, will reshape how companies like Microsoft, Google, and Meta can monetise and deploy their AI products."
-      },
-      {
-        "title": "UK restores frontier AI model safety testing deal",
+        "title": "UK restores frontier AI model testing deal — here's how it works",
         "source": "Startup Fortune",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeko0b2Z4NXhLWlpmQ0ZuaWFBUFRHaUNPMjBMS0Z6TFNnSzV4TnhVaUZWNFMzTnR6SEstRFlVd2hkRkZKZ3g2bmRfYWFBcXRvOFpnV3JQTmFrOVNVMWY0V1ZrVko5WWFNb2RYWEQ1RHpwS1NoUjNHeHBmaTNIdXV5cU1wQzhBVkluYk02QmZ4VkpEN2lCV3J4QkpNUVRLNGpKNXRj",
-        "why_it_matters": "The UK government has restored a deal requiring AI companies to submit their most powerful 'frontier' models for independent safety testing before they're released to the public. Think of it like a safety check before a new drug hits the market. This applies to the most capable AI systems from companies like OpenAI, Google DeepMind, and Anthropic — and is a step toward the kind of regulatory framework that Microsoft's president is calling for globally."
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeko0b2Z4NXhLWlpmQ0ZuaWFBUFRHaUNPMjBMS0Z6TFNnSzV4TnhVaUZWNFMzTnR6SEstRFlVd2hkRkZKZ3g2bmRfYWFBcXRvOFpnV3JQTmFrOVNVMWY4V1ZrVko5WWFNb2RYWEQ1RHpwS1NoUjNHeHBmaTNIdXV5cU1wQzhBVkluYk02QmZ4VkpEN2lCV3J4QkpNUVRLNGpKNXRj?oc=5",
+        "why_it_matters": "The UK has restored its deal with major AI labs to test their most powerful 'frontier' models (the cutting-edge systems like GPT-5 or Muse Wonder Full) before they're released to the public. The UK AI minister outlined how it works: companies share early access with government safety testers who look for dangerous capabilities. This is the kind of pre-release safety check that doesn't exist in most countries — including Australia — and the debate over whether it should is growing."
       },
       {
-        "title": "Financial Stability Board flags AI and stablecoins as key risks to global finance",
-        "source": "Financial Stability Board",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUm9pZHByQlgtS0FKOU5BZTQyM1VQSXJBYWs4QlZWY0VhRlhLemVuOHpPQjV2eFNLTkVnekUwc2JoMzdnbElHRjBqcmhJSUxISnZhQ29mb3J4Y2s2SGNFUUsyWDUydG5wU1kzNmxGTk5TOFItRkp2ekRuWm1yaXp3ZEd2S1A",
-        "why_it_matters": "The Financial Stability Board — the international body that monitors risks to the global financial system — has put AI and crypto stablecoins at the top of its watchlist. It's warning that as banks and financial institutions adopt AI faster, there are new risks of market instability if models all behave similarly in a crisis (herding). For investors, this is worth knowing: AI isn't just a growth story — regulators are starting to treat it as a systemic financial risk."
+        "title": "Key financial watchdogs signal they'll step up AI regulation",
+        "source": "Semafor",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkdvZHBzd3dCRTlKdWhZelZWTkVnRGFxelQwYXBwZkl2R3l4a3BVY1RxMGJiVmpBRFVtN3kyalV5ZFFISGxnMUc2TEpKZENaOFFfc1BMUmphS1pXdW5jSVVtblVrSlowT1NSS0VPU3RIYTlnVUtFTXpCbkZnZy1wRmFIb0RvVENTMTVJNUJPcFdRbVEwb2NONEN2Zw?oc=5",
+        "why_it_matters": "Major financial regulators — including the Financial Stability Board (FSB), which coordinates global financial rules — are signalling they'll ramp up oversight of how AI is used in financial markets and banking. The FSB is also turning its attention to stablecoins (digital currencies pegged to real-world assets like the US dollar). For investors, this means AI companies operating in finance could face new compliance costs, and crypto-adjacent investments could see new rules soon."
+      },
+      {
+        "title": "IMF flags AI market correction as a top global risk",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXc4YzNuVFU1U2dtSjE1SG9xRUIxZTRtMU1xdXNodDkxMTRGaE9yQTJIVVVoeVJjdnFsbi0yeUJ6a09ZbGJ0Z3N5V1NiV1RGZlVDekptcUVqcTVtNGRsdDNpZkd1akEyN2hybUx5aFlXM05pZENOVFdfTXI3XzBxaGRMZ0NVcFFRVXZRbHlZYUNleHhiTTJ1UTN0dXJ6U0h2V3ZoWGdqOWp5SmdCMjFab1doZw?oc=5",
+        "why_it_matters": "The IMF has explicitly named a potential AI stock market correction as one of the top three risks to the global economy. In plain English: AI stocks have run very hard, and if the hype doesn't translate into real profits fast enough, a sharp sell-off is possible — similar to the dot-com crash of the early 2000s. This is directly relevant to holdings like GXAI and GOOG, both of which are heavily exposed to AI valuations."
       }
     ]
   },
   "sport": {
-    "summary": "The Rugby League World Cup 2026 is the big story dominating the sports pages, with team lists and schedules dropping. AFL trade period is in full swing with Carlton landing Lachie Whitfield. And the NRL Grand Final wrapped up with the Roosters edging the Knights 19-18 in a thriller.",
+    "summary": "The Rugby League World Cup is the dominant sports story as Australia gears up for the tournament, with plenty of team tips and squad intrigue. The AFL trade period is also in full swing with 72 hours to go.",
     "stories": [
       {
-        "title": "NRL Grand Final: Roosters beat Knights 19-18 in a nail-biter",
-        "source": "NRL",
-        "link": "https://www.nrl.com",
-        "category": "NRL",
-        "why_it_matters": "The Sydney Roosters claimed the 2026 NRL premiership with a one-point win over the Newcastle Knights — 19 to 18 — at Accor Stadium on Sunday October 4. It was as tight as it gets in a Grand Final, with the Knights falling just short of what would have been a memorable upset. The Roosters are premiers."
+        "title": "Kalyn Ponga responds to big switch rumour; Kangaroos captain reveals Walsh shock — World Cup team tips",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNVzNwZERyQV9sNXlndS1mb1JwSzlpT3dTN2w4QnF4eDNjWEc4V05XTlVPRTRRUU84MHFwa1dhZVBieFJNaUN0bFVMU2x0ZF9iWFk0T2pacTVOelQyLUllaEpUQnVmb1JJVU93cWtpWlhTYUhfNkRtVUlnUkNKOXdLZ2s3Z2dDVUJkLXlXbkljSXN6dU9qMHM5dlJxNHBpZVJnRk1sUW14ekh0WVZyS0dLX0Z3VlZqR3lsM0FKN2FoRlpRS19hVUVWdkI4Q2lwY1ozbmNGUmxFaERqTEtfWnZXZjQ1b2VObG1CNll2X3gxYzdxNk5mMm5zendrREdiQWV2MEVFQVpJRUE2TEMxVUJKamoyb0NobHBkRjZiOTJEdFo4Sm5qLTFRVHZvUDBDM2xoYy0wNlh2SGp0ajE3Tk5uYXhTXzVrWkR6MlNFZFZLSFA0amFaUVN0SnNFcGZ6bWlVdU01dnFtS3htY0o2emNobE1EbE42RFI2UDYya2tB0gH-AkFVX3lxTE1XM3BkRHJBX2w1eWd1LWZvUnBLOWlPd1M3bDhCcXh4M2NYRzhXTldOVU9FNFFRTzgwcXBrV2FlUGJ4Uk1pQ3RsVUxTbHRkX2JYWThPalpxNU56VDItSWVoSlRCdWZvUklVT3dxa2laWFNhSF82RG1VSWdSQ0o5d0tnazdnZ0NVQmQteVduSWNJc3p1T2owczl2UnE0cGllUmdGTWxRbXh6SHRZVnJLR0tfRndWVmpHeWwzQUo3YWhGWlFLX2FVRVZ2QjhDaXBjWjNuY0ZSbEVoRGpMS19adldmNDVvZU5sbUI2WXZfeDFjN3E2TmYybnN6d2tER2JBZXYwRUVBWklFQTZMQzFVQkpqajJvQ2hscGRGNmI5MkR0WjhKbmotMVFUdm9QMEMzbGhjLTA2WHZIanRqMTdOTm5heFNfNWtaRHoyU0VkVktIUDRqYVpRU3RKc0VwZnptaVV1TTV2cW1LeG1jSjZ6Y2hsTURsTjZEUjZQNjJra0E?oc=5",
+        "category": "NRL / Rugby League World Cup",
+        "why_it_matters": "Kalyn Ponga has responded to rumours he could switch codes or clubs ahead of the Rugby League World Cup, while the Kangaroos captain has weighed in on the selection surprise around Reece Walsh. Team tips for the World Cup are coming thick and fast as squads finalise — the tournament is shaping up as one of the biggest RL events in years."
       },
       {
-        "title": "Rugby League World Cup 2026: Team lists, schedule, and breakout stars to watch",
-        "source": "Fox Sports / Sporting News AU",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ043WWNNRmp0YmVJdDYxYnREQWtta2l5RHBPa0JUa01XV1ZPdm5jTlZDYmZUb2J2QktSc3VGSnBOMzRDanVLaGNSeGZ4R3VrTmVodERzZFp5NVdQeDVxLURpSHZ1cUNuN0Rtell2Q0xDeXFaNFF2aWlzVDlqbldVRkdNMHlYVEF2MDZxZ1ZBZjAzVTBFS0REYXB2VHE0ZGVpWERpN3BNN0p6LUpVMDVsS1FRRjljUTZjVW96ZlA0dWtFX25Vb1E",
-        "category": "Rugby League",
-        "why_it_matters": "The 2026 Rugby League World Cup is kicking off and the team lists for Week 1 matches have been released. Fox Sports has published the full schedule and a guide to everything you need to know. Among the standout stories: Kalyn Ponga has responded to rumours about a code switch, and Australian Kangaroos skipper has made a revelation about Tom Walsh's surprise withdrawal. There are also several exciting breakout stars to watch — including a former Haas protege who could shake up the Bulldogs' halves."
+        "title": "Full 2026 Rugby League World Cup schedule and how it works",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMkxNdHpoT3U4R184dWNHbUNGRzZLWXREMlI5Sjg0Rjdsd2Jldm00SmxSY09Zd19SSWZMU0tTNDNoV0xtaGIzbWt3MXRRVzBRRzJZdXdoZE1mcnlIQktxMWZ2ekZVek9tOFg2YUFzSGxFc1FDOGpYYkpEeGF2OUFycl9GNDd4RmpSR084ZjlnUXhKellhc2NTV3ZGTUNNbnhCZGkyVU55R0dHbWdHaERnS0hFNnZ5bWU0MEdMVUprU3h3Smt5TUJ2ZzVqVWVieDRFYlhzTmY2ZHVMZ25tUXpXc29ELVlFSV9FczNzRlhLRl90WWlRWk4zbFVUWUY0cU9ad3k1TlBkTHZ2TDVDdXVjM3hVcUNYblppeXM4N1YtakxXMWdPVDNDRTlpTG9EYkHSAa8CQVVfeXFMUDJMTXR6aE91OEdfOHVjR21DRkc2S1l0RDJSOUo4NEY3bHdiZXZtNEpsUmNPWXdfUklmTFNLUzQzaFdMbWhiM21rdzF0UVcwUUcyWXV3aGRNZnJ5SEJLcTFmdnpGVXpPbThYNmFBc0hsRXNRQzhqWGJKRHhhdjlBcnJfRjQ3eEZqUkdPOGY5Z1F4SnpZYXNjU1d2Rk1DTW54QmRpMlVOeUdHR21nR2hEZ0tIRTZ2eW1lNDBHTFVKa1N4d0preU1Cdmc1alVlYng0RWJYc05mNmR1TGdubVF6V3NvRC1ZRUlfRXMzc0ZYS0ZfdFlpUVpOM2xVVFlGNHFPWnd5NU5QZEx2dkw1Q3V1YzN4VXFDWG5aaXlzODdWLWpMVzFnT1QzQ0U5aUxvRGJB?oc=5",
+        "category": "NRL / Rugby League World Cup",
+        "why_it_matters": "Fox Sports has published the full schedule for the 2026 Rugby League World Cup, explaining the format and how the tournament progresses from group stage through to the final. If you're planning to watch or follow along, this is your go-to reference for dates, times, and the structure of the competition."
       },
       {
-        "title": "AFL trade period: Carlton land Lachie Whitfield from GWS Giants",
-        "source": "Zero Hanger / AFL.com.au",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWxmTDhMREJnb1dPLW53emZCRzNJbWVwWnhUcEs4WDVaSWRzdzV1NC1TVVh6QTJVSlNkSG5PWnFFcEw0WkFmS1hCQlFKalUzQ2VnQkQ5dUgzNWRfVHdjYVoxTW9VeHNmVklUd29BdzgyblNYX01wZ1dfN2VoejAyX3VuYjJmY2xxdW9EUHlvdmRlcHV4NkxBTzk3dlZLS29Z",
+        "title": "Carlton land Lachie Whitfield in major AFL trade with GWS Giants",
+        "source": "Zero Hanger",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWxmTDhMREJnb1dPLW53emZCRzNJbWVwWnhUcEs4WDVaSWRzdzV1NC1TVVh6QTJVSlNkSG5PWnFFcEw0WkFmS1hCQlFKalUzQ2VnQkQ5dUgzNWRfVHdjYVoxTW9VeHNmVklUd29BdzgyblNYX01wZ1dfN2VoejAyX3VuYjJmY2xxdW9EUHlvdmRlcHV4NkxBTzk3dlZLS29Z?oc=5",
         "category": "AFL",
-        "why_it_matters": "Carlton have pulled off a significant trade, landing Lachie Whitfield from the GWS Giants. Whitfield is one of the competition's premier midfielders and the move gives Carlton serious on-ball depth. With 72 hours left in the trade period, more dominoes are expected to fall — Fox Sports reports the Butters mega-deal has already shaken up draft calculations across multiple clubs."
+        "why_it_matters": "Carlton have secured midfielder Lachie Whitfield from the GWS Giants in what's shaping up as one of the bigger trades of the AFL trade period. Whitfield is an elite ball-winner who adds class and experience to Carlton's midfield. With 72 hours left in the trade window, more deals are expected before the deadline."
       },
       {
-        "title": "Championship Tour surfer suspended after 'deeply serious' accusations",
+        "title": "World Cup breakout stars to watch — from Haas protege to gun who could shake up Dogs halves",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxNdk95cHNMbzMwaHQxaTR1d1BpZ0dyOXBHNjl5TldUWnBGX2MtWmR0XzFULV84X3NHN3B5OWlQWkMxN0FNRlBoajNndm1jWUFyZnZ0NEJ1bl9jaHdBNjlUQzFWYjg2SXVlejlBSW1yOXl5akxyQ2tZTlhWTlFfYWs4RHJLU0hxS21CV3VCVWVRRUliNkR5U01aNTRuLWN0SUpIeHdNWXJHazJwVHRkdGJCSWZsTTdqRGNVLXBrUDNVRDVTbEhNUEpCRG8yTkRxck9GdmdKUDdRQ2dTSk5QbHhyWldZaG5IZm1INEFZZklITHFXeXRJSzI0N0VRbU1WNUl5aXBtUm9yVGxLWGMyM0UxOWFFaW00dEdtSkstRTNLRDFlemtzZjA5clJ4STYwLWx1Zmc3UnBIR2traEhhU1JwcFlDYXlKcTFGdGlMQXhqMTUwVUXSAdMCQVVfeXFMTXZPeXBzTG8zMGh0MWk0dXdQaWdHcjlwRzY5eU5XVFpwRl9jLVpkdF8xVC1fOF9zRzdweTlpUFpDMTdBTUZQaGozZ3ZtY1lBcmZ2dDRCdW5fY2h3QTY5VEMxVmI4Nkl1ZXo5QUltcjl5eWpMckNrWU5YVk5RX2FrOERyS1NIcUttQld1QlVlUUVJYjZEeVNNWjU0bi1jdElKSHh3TVlyR2sycFR0ZHRiQklmbE03akRjVS1wa1AzVUQ1U2xITVBKQkRvMk5EcXJPRnZnSlA3UUNnU0pOUGx4clpXWWhuSGZtSDRBWWZJSExxV3l0SUsyNDdFUW1NVjVJeWlwbVJvclRsS1hjMjNFMTlhRWltNHRHbUpLLUUzS0QxZXprc2YwOXJSeEk2MC1sdWZnN1JwSEdra2hIYVNScHBZQ2F5SnExRnRpTEF4ajE1MFVF?oc=5",
+        "category": "NRL / Rugby League World Cup",
+        "why_it_matters": "Fox Sports has identified the breakout players to watch at the Rugby League World Cup — including a Haas family protege and a halfback who could reshape the Canterbury Bulldogs' plans. These are the young guns who could make their names on the biggest stage in international league this year."
+      },
+      {
+        "title": "Championship Tour surfer suspended after accusations of 'a deeply serious nature'",
         "source": "The Inertia",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON3Z3TzZ2VTJQUzVpYnhKdW9hTFV3WEZVSXppZ3FEUC1KanNMOXBMYnRrekhIU1BtWGQyR1hPYVFpdTlETHNyYXJFTDBoMEtFaUNrSFFhY09VLWROZzZONlQycUllazA5MlJPY1pDOHRDWFhMbG1VVEFTY3hQSk15dzFGV0paOGVJXzR2TXpkUF9Pc1VtN2pvVlh6S0lHR3J2NUVYRnNsVmEyNmFuLTdBZlZR",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON3Z3TzZ2VTJQUzVpYnhKdW9hTFV3WEZVSXppZ3FEUC1KanNMOXBMYnRrekhIU1BtWGQyR1hPYVFpdTlETHNyYXJFTDBoMEtFaUNrSFFhY09VLWROZzZONlQycUllazA5MlJPY1pDOHRDWFhMbG1VVEFTY3hQSk15dzFGV0paOGVJXzR2TXpkUF9Pc1VtN2pvVlh6S0lHR3J2NUVYRnNsVmEyNmFuLTdBZlZR?oc=5",
         "category": "Surfing",
-        "why_it_matters": "A World Surf League Championship Tour surfer has been suspended following accusations described as being of 'a deeply serious nature'. The WSL has not named the surfer publicly, but the suspension is immediate and removes them from competition. Given the Gold Coast's strong surfing culture and its status as a World Surf League event host, this story is worth following as more details emerge."
+        "why_it_matters": "A surfer on the WSL Championship Tour — the top tier of professional surfing — has been suspended following accusations described as being 'of a deeply serious nature.' No further details were given in the report, and the surfer's name was not publicly released. Given the Gold Coast's strong surf culture, this will likely attract local interest as more details emerge."
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "☁️",
-    "condition": "Overcast",
-    "temperature_c": 24.5,
-    "high_c": 27.7,
-    "low_c": 20.9,
-    "rain_chance_pct": 86,
-    "rain_mm": 1.5,
+    "icon": "☀️",
+    "condition": "Clear sky",
+    "temperature_c": 20.6,
+    "high_c": 24.1,
+    "low_c": 17.2,
+    "rain_chance_pct": 34,
+    "rain_mm": 2.3,
     "tomorrow": {
       "icon": "🌦️",
       "condition": "Light drizzle",
-      "high_c": 22.9,
-      "low_c": 17.8,
-      "rain_chance_pct": 34,
-      "rain_mm": 0.6
+      "high_c": 20.5,
+      "low_c": 16.7,
+      "rain_chance_pct": 45,
+      "rain_mm": 2.8
     }
   },
   "nrl_round": "Grand Final",
@@ -307,43 +302,43 @@
         "ticker": "GOOG",
         "shares": 0.2277,
         "currency": "USD",
-        "current_price": 348.97,
-        "current_value_native": 79.46,
-        "current_value_aud": 113.98,
+        "current_price": 351.47,
+        "current_value_native": 80.03,
+        "current_value_aud": 114.55,
         "total_invested": 70.0,
-        "total_invested_aud": 100.42,
-        "pnl_native": 9.46,
-        "pnl_aud": 13.57,
-        "pnl_pct": 13.51,
-        "day_change_pct": 0.32
+        "total_invested_aud": 100.2,
+        "pnl_native": 10.03,
+        "pnl_aud": 14.35,
+        "pnl_pct": 14.32,
+        "day_change_pct": 0.72
       },
       {
         "ticker": "MSFT",
         "shares": 0.6319,
         "currency": "USD",
-        "current_price": 541.15,
-        "current_value_native": 341.95,
-        "current_value_aud": 490.54,
+        "current_price": 547.0653,
+        "current_value_native": 345.69,
+        "current_value_aud": 494.83,
         "total_invested": 280.0,
-        "total_invested_aud": 401.66,
-        "pnl_native": 61.95,
-        "pnl_aud": 88.87,
-        "pnl_pct": 22.13,
-        "day_change_pct": 1.14
+        "total_invested_aud": 400.8,
+        "pnl_native": 65.69,
+        "pnl_aud": 94.03,
+        "pnl_pct": 23.46,
+        "day_change_pct": 1.09
       },
       {
         "ticker": "TTWO",
         "shares": 1.9812,
         "currency": "USD",
-        "current_price": 208.82,
-        "current_value_native": 413.72,
-        "current_value_aud": 593.49,
+        "current_price": 203.46,
+        "current_value_native": 403.1,
+        "current_value_aud": 577.02,
         "total_invested": 460.0,
-        "total_invested_aud": 659.88,
-        "pnl_native": -46.28,
-        "pnl_aud": -66.38,
-        "pnl_pct": -10.06,
-        "day_change_pct": -2.16
+        "total_invested_aud": 658.46,
+        "pnl_native": -56.9,
+        "pnl_aud": -81.44,
+        "pnl_pct": -12.37,
+        "day_change_pct": -2.57
       },
       {
         "ticker": "VDHG.AX",
@@ -413,14 +408,14 @@
         "pnl_native": -81.45,
         "pnl_aud": -81.45,
         "pnl_pct": -54.3,
-        "day_change_pct": -12.0
+        "day_change_pct": -8.61
       }
     ],
-    "total_invested_aud": 2220.96,
-    "total_value_aud": 2161.53,
-    "total_pnl_aud": -59.43,
-    "total_pnl_pct": -2.68,
-    "aud_usd_rate": 0.6971
+    "total_invested_aud": 2218.46,
+    "total_value_aud": 2149.92,
+    "total_pnl_aud": -68.54,
+    "total_pnl_pct": -3.09,
+    "aud_usd_rate": 0.6986
   },
-  "generated_at_utc": "2026-10-13T07:38:01.003811+00:00"
+  "generated_at_utc": "2026-10-13T15:12:23.008514+00:00"
 }
