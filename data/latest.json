@@ -1,274 +1,280 @@
 {
-  "headline": "Red October: US tech stocks tumbled last night on Alphabet's earnings shock, dragging your AI and tech holdings down — but the long-term case for your portfolio remains intact.",
+  "headline": "A tough day across the board — PLS slid 4%, GXAI dropped 2.8%, and US tech stumbled on earnings jitters last night, while Iran tensions and US midterm drama dominate global headlines.",
   "portfolio": {
     "movers": [
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": -4.0,
-        "note": "Pilbara fell 4% today in a rough session for lithium. There's no fresh company-specific news — this looks like continued sector-wide pressure as lithium prices remain depressed and sentiment around EV demand stays cautious. The long-term story depends on the EV rollout picking up speed; that thesis hasn't changed, but patience is required."
+        "note": "Pilbara fell 4% today, continuing its brutal run — it's now down over 60% on your total investment. No specific news catalyst today, but lithium sentiment remains weak with global EV demand forecasts being revised down. This is a structural story that hasn't turned yet."
       },
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": -2.79,
-        "note": "The AI ETF dropped 2.79% today, largely reflecting last night's heavy sell-off in US tech stocks. Alphabet's earnings miss and broader NASDAQ weakness (-2.86% last night) dragged AI-exposed holdings down. Nothing structurally broken here — this is the ETF doing exactly what it says on the tin: giving you exposure to AI, including the volatile swings."
+        "note": "The AI ETF dropped 2.8% today, dragged down by weakness in US tech names overnight — Google and Microsoft both fell on their earnings results last night. The broader AI trade has been choppy this week."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": -1.67,
-        "note": "Take-Two slid 1.67% last night as the broader NASDAQ sold off. GTA 6 news remains active — Take-Two filed 16 Vice City trademarks three weeks before the expected GTA 6 launch, a positive signal. A viral 'watermark leak' was debunked by insiders. The GTA 6 launch catalyst is still the key thing to watch."
+        "note": "Take-Two slipped 1.67% last night in the US session. No major negative news — GTA 6 Vice City trademark filings are actually a positive sign ahead of launch, and a viral 'watermark leak' was debunked by insiders. The dip looks like general market weakness rather than anything company-specific."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": -1.55,
-        "note": "Microsoft dropped 1.55% last night despite reporting strong quarterly results — Azure cloud revenue accelerated, beating expectations. The market reaction reflects broader tech caution after Alphabet's earnings shock, not any Microsoft-specific problem. Morningstar noted the question is now whether all the AI infrastructure spending starts converting to returns. The fundamentals here remain solid."
+        "note": "Microsoft fell 1.55% last night despite reporting Q1 FY27 earnings. The market reaction appears mixed — analysts noted a 'growing divide' in the Magnificent 7 AI trade, with some investors questioning whether Microsoft's cloud AI investments are translating to earnings growth fast enough. Still up 17.8% on your total position."
       },
       {
         "ticker": "GOOG",
         "name": "Alphabet (Google)",
         "change_pct": -1.45,
-        "note": "Alphabet had a brutal session last night — down 1.45% on the day but the real damage was done after earnings, with the stock losing over $475 billion in market value in what's being called its worst-ever day. Search revenue missed expectations and cash burn worsened, spooking investors who worry AI tools like ChatGPT are eating into Google's core search business. This is a genuine concern to watch, not just noise."
+        "note": "Alphabet sank 1.45% last night after Q3 results showed $127.6B in revenue but negative free cash flow and a -12.6% FCF drop. The stock dragged the Nasdaq lower. One analyst piece called it 'the 30% earnings miss that wasn't' — suggesting the headline miss was overstated, but the market sold it anyway."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": -1.16,
-        "note": "VGE slipped 1.16% today, tracking weakness in emerging market equities. Ongoing tensions in the Middle East (attacks on ships through the Strait of Hormuz are at their highest since the war began) and global uncertainty are weighing on risk appetite in EM assets. No specific local catalyst."
+        "note": "VGE slipped 1.16% today, likely reflecting global risk-off sentiment with US-Iran tensions pushing up oil and weighing on emerging market stocks. Nothing structural — just the mood of the market."
       },
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market ETF",
         "change_pct": -0.69,
-        "note": "VTS fell 0.69% today, reflecting last night's S&P 500 drop of 1.82% — the ASX-listed ETF tracks US equities and absorbs those moves. The sell-off was driven by Alphabet's earnings miss and broad tech weakness. Still in the green overall for you (+3.42%), so nothing to worry about."
+        "note": "VTS eased 0.69% today, tracking last night's weak US session (Nasdaq fell 2.86%, S&P fell 1.82%). Despite today's dip, you're still up 3.4% overall on this position — it continues to do its job as broad US market exposure."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -0.25,
-        "note": "VDHG barely moved today, dipping just 0.25%. Its diversified mix of global and Australian assets cushioned the blow from last night's US tech weakness. This is the fund doing its job — smoothing out the bumps."
+        "note": "VDHG barely moved today, down just 0.25%. As a diversified multi-asset ETF it's cushioned from single-sector moves. Its slight dip mirrors the mild softness in global markets today."
       },
       {
         "ticker": "DHHF.AX",
         "name": "DHHF",
         "change_pct": -0.22,
-        "note": "DHHF was virtually flat today, down just 0.22%. Like VDHG, its broad diversification across global markets means single-day swings in any one sector don't hit hard. Essentially unchanged — no news, no drama."
+        "note": "DHHF was essentially flat, down 0.22%. Nothing to report — this broad global ETF is just ticking along with the general market softness. Virtually no change from yesterday's close."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "Alphabet (GOOG): Earnings shock — hold, don't panic",
-      "detail": "Google lost $475 billion in market value last night after search revenue missed expectations and cash burn worsened. The worry is real: AI tools are starting to eat into Google's core search advertising business. Your position is already down 9.5% overall. That said, Alphabet still has enormous resources, YouTube, cloud, and its own AI. For a long-term holder, selling now locks in a loss. Hold and monitor whether search market share continues to erode over the next few quarters — that's the real signal to watch.",
-      "urgency": "orange",
-      "ticker": "GOOG",
-      "action": "hold"
-    },
-    {
-      "title": "PLS.AX: Lithium pain continues — hold for the long game",
-      "detail": "Pilbara Minerals dropped another 4% today and is now down a painful 60.83% on your investment. There's no fresh bad news today — this is ongoing lithium sector weakness. The long-term bull case (EV adoption driving lithium demand) hasn't disappeared, but it's taking much longer to play out than most expected. If you believe in that thesis and can stomach the volatility, hold. Only revisit if you think the EV story is fundamentally broken.",
+      "title": "PLS.AX — Hold, but know why you own it",
+      "detail": "Pilbara Minerals dropped another 4% today and is now down over 60% on your investment. The lithium market remains structurally weak with no clear near-term recovery catalyst. That said, if you bought this as a long-term bet on the EV transition, that thesis is still intact — it's just taking much longer than the market expected. Selling now locks in a real loss. Hold unless your investment thesis has genuinely changed.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "GXAI.AX: AI ETF dips with tech — long-term hold",
-      "detail": "The Global X AI ETF fell 2.79% today on the back of last night's NASDAQ rout. Down 15.23% overall on your position. The AI story remains one of the biggest structural trends of the decade, but valuations in AI stocks are high and earnings misses (like Alphabet's) can trigger sharp falls. If you're in this for 5+ years, sit tight — these dips are part of the ride.",
-      "urgency": "green",
+      "title": "GXAI.AX — AI ETF taking heat from earnings misses",
+      "detail": "The Global X AI ETF fell 2.8% today, largely because Google and Microsoft both had disappointing earnings reactions last night in the US. You're down 15% overall on this position. The long-term AI growth story is still very real, but short-term volatility will be driven by whether big tech can prove its AI spending is paying off in earnings. No reason to sell — just be prepared for more chop.",
+      "urgency": "orange",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "RBA rate decision coming next week — watch for mortgage relief signal",
-      "detail": "Westpac is predicting the RBA will hold rates next week, but the WSJ notes the RBA's messaging is raising questions about whether rates have peaked. PM Albanese publicly called rate hikes a 'blunt instrument', distancing Labor from the RBA. If the RBA signals cuts are coming, that's good for growth stocks and property. Keep an eye on Tuesday's decision.",
-      "urgency": "orange"
+      "title": "GOOG — Earnings drove the drop, long-term case intact",
+      "detail": "Alphabet fell 1.45% last night after Q3 results showed negative free cash flow for the quarter, down 12.6%. The market sold it hard, dragging the Nasdaq down with it. One analyst framed the miss as overstated. You're down 9.5% overall on a small position. The long-term Google AI and cloud story hasn't broken — this looks like market overreaction to a messy quarter. Sit tight.",
+      "urgency": "orange",
+      "ticker": "GOOG",
+      "action": "hold"
     },
     {
-      "title": "Middle East tensions pushing oil higher — inflation risk",
-      "detail": "Crude oil jumped 2.08% last night to $104/barrel. Ship attacks through the Strait of Hormuz in October hit their highest level since the Iran-Israel conflict began. Higher oil means higher fuel and transport costs globally, which can re-ignite inflation and complicate the RBA's path to rate cuts. Watch this space — it affects everything from petrol prices to your ETFs.",
-      "urgency": "orange"
-    },
-    {
-      "title": "MSFT: Azure strong, market overreacted — hold",
-      "detail": "Microsoft dropped 1.55% last night despite solid earnings — Azure cloud accelerated and beat forecasts. The sell-off was collateral damage from Alphabet's shock, not a Microsoft problem. Your position is up 17.78% overall. Nothing has changed with the long-term case here. Sit tight.",
+      "title": "MSFT — Earnings out, cloud AI still the story",
+      "detail": "Microsoft reported Q1 FY27 results last night and dropped 1.55%. Analysts are debating whether Azure (their cloud business) AI revenue is growing fast enough to justify the heavy spending. You're still up nearly 18% on your total position — this is a long-term hold with strong fundamentals. Don't let one earnings night shake you.",
       "urgency": "green",
       "ticker": "MSFT",
       "action": "hold"
+    },
+    {
+      "title": "Oil spiking — watch for flow-on inflation effects",
+      "detail": "Crude oil (WTI) jumped 2% last night to US$104 a barrel, driven by escalating US-Iran tensions in the Strait of Hormuz. Ship attacks in October were the highest since the war began. Higher oil means higher petrol prices and could keep inflation sticky — which matters for the RBA rate decision next week.",
+      "urgency": "orange"
+    },
+    {
+      "title": "RBA rate decision coming — could hit your mortgage and markets",
+      "detail": "The RBA meets next week and Westpac is now tipping a rate hike after hotter-than-expected CPI data. PM Albanese publicly called rate hikes a 'blunt instrument', distancing Labor from the RBA. If the RBA hikes, expect pressure on ASX property and consumer stocks, and potentially a stronger Aussie dollar. Watch this closely.",
+      "urgency": "red"
     }
   ],
   "world": {
-    "summary": "A big week globally: the Iran conflict is rattling oil markets and shipping lanes, the US midterms are shaping up with a historic papal vote, and Poland is in a constitutional crisis. Plus a massive crypto hack and Alphabet's market meltdown.",
+    "summary": "US midterm tensions dominate global news with a court ordering Trump's team to stop threatening election officials. Iran-US conflict is escalating, hitting oil prices. Pope Leo XIV made history voting in a US election. Gulf states are rethinking their entire defence strategy.",
     "stories": [
       {
-        "title": "Iran conflict sends Strait of Hormuz ship attacks to record high",
-        "source": "The National / The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5",
-        "why_it_matters": "Attacks on ships passing through the Strait of Hormuz — the narrow waterway through which roughly 20% of the world's oil flows — hit their highest level in October since the US-Iran-Israel conflict began. This is directly linked to the crude oil price jumping over $104 a barrel last night (+2.08%). Gulf states are being warned to rethink their trillion-dollar defence setups. For everyday Australians, higher oil prices eventually feed into petrol prices and inflation, which makes it harder for the RBA to cut interest rates."
-      },
-      {
-        "title": "Pope Leo XIV makes history as first pope to vote in a US election",
-        "source": "BBC / PBS",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSemJBVFREZzM1WmFUVk9QRldTaUowM1B4U3h6WHdTcjFpaEY2V0RnT2xyUzV3dnUyNmFucW5FdkxVVmhxSjVtLTYydDg3bF9MMEk0Q3p6eWZTZUk?oc=5",
-        "why_it_matters": "Pope Leo XIV — the first American pope — cast a ballot in the US midterm elections, making history as the first pope ever to vote in a US general election. He did so as an American citizen exercising his right. The US midterms are heating up, with races like Maine's tight Senate contest drawing national attention amid concerns about affordability and Trump's influence. The pope's participation is being seen as a cultural and political moment, though he hasn't endorsed any candidate."
-      },
-      {
-        "title": "Judge orders Trump administration to stop threatening election officials",
+        "title": "Judge orders Trump administration to stop threatening election officials ahead of midterms",
         "source": "Reuters / NBC News",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOTNRRm1aNHlxQUJIU2doMEdoZnBOVVNyc0U2QXk1NjA1am9nZmZYQ3F5TW5BcDJQcEZqVV82TG1vQVFmVFAySkpfRDZlODVVYXpSTVFialFSTXhpSmYtbXBwSFQzdDhpdGY3SFlsaXE2MG1zUGhvQVB1T2ZRd0llbDdwTS1YN0FaNVQtMkc2Tld5RTQyWjZ0UlBxdlhmX3JzYlhQUzNBZE45TXNBVzY0ZVJ1SzM5Sy1Nd3Jtam9nZ2dhUnRzZjhGYg?oc=5",
-        "why_it_matters": "A US federal judge has ordered the Trump administration to immediately stop threatening election officials with criminal charges — a significant legal check on executive power right before the midterms. Officials in several states had reportedly been warned they could face prosecution over how they conduct elections. The ruling reinforces judicial independence, but it also signals how politically charged the election environment in the US has become."
+        "why_it_matters": "A US federal judge has issued an order telling the Trump administration to immediately stop threatening election officials with criminal prosecution ahead of the midterm elections. The order is a significant legal check on executive power — election officials in several states had reportedly been warned they could face charges related to how they count or certify votes. With midterms days away, the ruling is aimed at protecting the integrity of the vote count."
       },
       {
-        "title": "Poland's constitutional crisis: Top court chief suspended, 'coup d'etat' declared",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNWVJVQldfY25RZ3JNSHpyTUtIN1A1V0QtZWNSbVJFNEcyR214VWlWdU9yMzlmVUlpOHktNnBPaVktUE45VU5oaUJqOHluSWFjOFd0U004UnhoYjZQY2t5dm1fSjNoUUVCZ0Q1SHptTG1oY0NvdjBock0zNWVuVC1aWHYwcDBpaVhmVXo2SkV5ZzVPVGtwMmNCb2xZU2t3NmdvcFhCODlwUUpqdVZaS0lHV0hMQ3pzWURZcFlmMHFBTG1LWEp2UzZGLTQ2UEw0NnJSbmo0RExiR2lVRy1LNy1FTG9oVFFDQWw0NjlReWZZTTZtMFBmRTZfNU8zT2N6SXdVbi1QUmpn0gGLAkFVX3lxTE14WVBZVEpEcm5wM2NDTW5yV3FaNzV3ZEZhOG1qc01laFpwcjRqbC1VakMzdDNjQXR0Y1I4Q3RnSWhjYTlTbmxpcG9MRE9kcXNWb19xeU00UnEzb3N2NkdWZDJ6dzVyTDdBN1A2WEZuNlFPbmNpSXhoaG1WTXJjUm9pX21pT0tiSHktejZVdm85QmMtam05QXctQ3lJQUFZU0V6TGlfN1JEbG9aMV9PY0ZNYU1HUWJ6NW9peXI3NFVzejRmSjN3UVUtXzV2eHRka0l3WFBXcGdueDd3dGpsb2c1WFkwaVVYTC1aTnJpRlByMEFLMHR4Z3ZhSmRMODdYRnNreEJmeEJsWEhJcw?oc=5",
-        "why_it_matters": "Poland is in a serious political stand-off: the country's President Nawrocki suspended the chief of the Constitutional Tribunal (the top court), and the court has responded by declaring it a 'coup d'état'. This is a direct clash between the president and the prime minister's government, raising fears about the rule of law in a key NATO and EU member. It's the kind of democratic backsliding that Europe has been trying to prevent, and it has implications for EU cohesion and stability."
+        "title": "Pope Leo XIV becomes first pope in history to vote in a US election",
+        "source": "BBC / PBS",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSemJBVFREZzM1WmFUVk9QRldTaUowM1B4U3h6WHdTcjFpaEY2V0RnT2xyUzV3dnUyNmFucW5FdkxVVmhxSjVtLTYydDg3bF9MMEk0Q3p6eWZTZUk?oc=5",
+        "why_it_matters": "Pope Leo XIV — the first American-born pope — has cast a vote in the US midterm election, making him the first pope in history to vote in a US general election. As an American citizen, he is legally entitled to vote and chose to exercise that right, which is being seen as both a personal statement and a historic moment. His involvement adds an extraordinary dimension to an already highly charged political event."
       },
       {
-        "title": "Billions in crypto frozen after suspected Binance hack",
-        "source": "Daily Mirror Sri Lanka",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYTBzVWV6RnR6QktGT01jZHZKRXYtbXFhUThFbGpyWS1za0dtdVhVYWJSdkVFMEs0M1Jyd2xxN08wdFI4RmRKM19BWmpqZ0dNQmNfWlVCeVowdG1oYnBTQV9KV2JhYU9tdV9teGhiUmFBQ1hvSTh3QS1rWGRzLXhzTnJnanBLZEl6cGJwTmhnWWd3bmlvamVJN25kaW92YmxEQlNBWjBLUTR4cTZFNWxfdGtfTFlYdw?oc=5",
-        "why_it_matters": "Crypto worth billions of dollars has been frozen following a suspected hack of Binance, one of the world's largest cryptocurrency exchanges. Authorities acted quickly to freeze the funds, but the breach raises fresh questions about the security of centralised crypto platforms. If you hold any crypto assets, this is a reminder of the custody risks — 'not your keys, not your coins' as the saying goes."
+        "title": "Iran-US tensions escalate: ship attacks at record high, supreme leader warns of 'unrestricted response'",
+        "source": "The National / The Straits Times",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5",
+        "why_it_matters": "Attacks on ships passing through the Strait of Hormuz — a critical global oil chokepoint — hit their highest level in October since the US-Iran conflict began. Iran's supreme leader has publicly warned that any fresh US military strikes will trigger a 'geographically unrestricted response', raising the stakes significantly. This is already pushing oil prices above US$104 a barrel, which flows through to higher petrol prices and inflation everywhere, including Australia."
+      },
+      {
+        "title": "Gulf states told to rethink trillion-dollar defence strategy in light of US-Iran war",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSWM0RFFWZnMxcnJPU0Y4M3JjS2FoMzRoZlFkM2stdEVDRXY2NEVvN0RLVW1jMTRpX0l4TnhoZFdHXzFyYUxzcnZMbjhBa0xyZlpEN1ZBLXdTMzZDV3RZcG5KU19IVkNfcWlpOXBIRFVLZDgzcTR5eWtVNkJ0b1VEWFVkanNlczBpUXU1dU5VZ1ZYYjk2Mk5PcWJodk83bV83T3kwSVhxYkFzcHhTRDltOTFnYw?oc=5",
+        "why_it_matters": "A major new report says Gulf states like Saudi Arabia and the UAE need to fundamentally rethink how they spend their trillion-dollar defence budgets, given that the US-Iran conflict has exposed major gaps in regional security architecture. The report comes as Iran braces for possible new strikes while diplomatic talks continue in the background. For Australia, the Middle East instability matters through oil prices, global trade routes, and the risk of wider conflict."
+      },
+      {
+        "title": "Top US law firms that backed down to Trump now sidelined from midterm legal battles",
+        "source": "The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Tm1hZ2s1aGlhanJPdjE1S0xNVk9jNVlBV2o5V0JYOEFWcGVfLTJvNzE5N0VKNDY0aHpHMjJVUzhBNU8xREs3N3VxcXdkSlpXSzJnR1hqV0VfQm5XeVkyRjBfZzJlSXAteWp0bzBnN3ZvNGdHS1hJdW9zdERiemc?oc=5",
+        "why_it_matters": "Several of America's biggest law firms — which earlier struck deals with the Trump administration to avoid being targeted — are now sitting out the midterm election legal battles, leaving voter protection and election integrity work to smaller firms. Critics say the big firms capitulated to political pressure, and now can't be seen to challenge the administration they appeased. It's a window into how the rule of law is being tested ahead of a pivotal US election."
       }
     ]
   },
   "markets": {
-    "summary": "A rough night on Wall Street last night — the NASDAQ dropped nearly 3% and the S&P 500 fell 1.82%, both driven by Alphabet's massive earnings miss. The ASX held up reasonably well today, gaining 0.18%. Oil pushed higher on Middle East tensions while gold sold off sharply.",
+    "summary": "The ASX held up reasonably well today, edging up 0.18%, but last night's US session was ugly — the Nasdaq fell nearly 3% and the S&P dropped 1.82% on disappointing tech earnings. Oil surged on Iran tensions. Gold pulled back sharply. The Aussie dollar is steady.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,908",
         "change_pct": 0.18,
-        "note": "Quiet positive session for the ASX today despite the US carnage last night. Resources and domestic sectors provided some support."
+        "note": "The local market held its ground today, up 0.18% — a modest positive session."
       },
       {
         "name": "S&P 500",
         "value": "7,580",
         "change_pct": -1.82,
-        "note": "Last night's session saw the S&P fall 1.82%, dragged down by tech after Alphabet's revenue miss."
+        "note": "Last night's US session saw the S&P fall 1.82%, weighed down by tech earnings disappointments from Google and Microsoft."
       },
       {
         "name": "NASDAQ Composite",
         "value": "25,437",
         "change_pct": -2.86,
-        "note": "The tech-heavy NASDAQ shed 2.86% last night — Alphabet's results and broader AI earnings concerns hit hard."
+        "note": "The Nasdaq was hit harder, falling 2.86% last night — Alphabet's earnings dragged the index lower."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$104.12",
+        "value": "US$104.12",
         "change_pct": 2.08,
-        "note": "Oil jumped over 2% as Strait of Hormuz ship attacks hit a record high. Watch for petrol price flow-through."
+        "note": "Oil jumped 2% on escalating US-Iran tensions and record ship attacks in the Strait of Hormuz. Watch for petrol price rises."
       },
       {
         "name": "Gold",
-        "value": "$3,899",
+        "value": "US$3,899",
         "change_pct": -3.29,
-        "note": "Gold fell sharply by 3.29% last night — unusual for a risk-off session. Possible profit-taking after a strong run."
+        "note": "Gold had a rough night, falling 3.3% — possibly as traders sold safe-haven assets to cover losses elsewhere."
       },
       {
         "name": "AUD/USD",
         "value": "0.7035",
         "change_pct": 0.12,
-        "note": "The Aussie dollar was barely changed, holding just above 70 US cents."
+        "note": "The Aussie dollar nudged slightly higher, helped by bets the RBA could hike rates after hotter-than-expected CPI data this week."
       }
     ]
   },
   "politics": {
-    "summary": "A busy week in Australian politics: Labor is moving to ban AI data centres from suburbs, there's growing heat on the RBA ahead of next week's rate decision, and the government is defending its $10 billion EU trade deal against Coalition criticism.",
+    "summary": "The RBA is in the spotlight ahead of next week's rate decision, with Westpac tipping a hike after hot inflation data. Albanese publicly distanced himself from the RBA. Victoria's budget is in serious trouble, and there are calls to slash the public service to restore a federal surplus.",
     "stories": [
       {
-        "title": "Labor to ban AI data centres from suburban Australia",
-        "source": "AFR",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcUJFSERLNGJ0WlhXdWdUaXpRd2VOQmtPajhna3FHNUltT2xWcVAzZ1BiTU51aTZXS1hrWUQ0ZkdIclk1U0Nwd1NaaW5TaHpreE00RlgtSlFVQ0Q0NG8wNXA0T3FxWmZHS1lZM25ZVkJYNTB6REFxb0diRVdjQWNxT211c3g4bThpX1BYS0NPTjNsYl9naGtkRGY2VWZSWDBKdUtIRnZR?oc=5",
-        "why_it_matters": "Labor is planning to block AI data centres from being built in residential suburbs — a move aimed at protecting neighbourhoods from the noise, heat, and electricity demand these facilities generate. Industry operators are already warning the policy confusion is putting billions of dollars in investment at risk, with some projects potentially delayed or cancelled. If you're invested in AI infrastructure plays, this is the kind of regulatory risk that can affect returns — though the ban appears aimed at location, not the industry itself."
+        "title": "Westpac tips RBA rate hike next week after hot CPI data",
+        "source": "The Motley Fool Australia",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTXFHajdZNGFMWFJubmxFVVRZdlk3a1NWb3Fyc0FDVGNfaC1LTnRmQXh3andQLVhPcTZScXk5Wm5faDlKdVVYT25LXzZzeGdxOEVjWnA2OWtJSlZTZEVYbXM3a3E1cVI5QVFEd2w1S3JJOU1OUTNOUTEwTE9sVi01c2tEcjVUeVZpVTFJTjRBV3JwdUx6bUZQbjQ2MUh5a0FPeTgtZlpEbzVLSmNT?oc=5",
+        "why_it_matters": "Westpac is now forecasting the Reserve Bank of Australia will raise interest rates at its meeting next week, after Australia's CPI (inflation) data came in hotter than expected. That would mean higher mortgage repayments for millions of Australians. The Aussie dollar ticked up on the news as traders priced in the possibility of a hike. If confirmed, this would be a significant squeeze on household budgets heading into the holiday season."
       },
       {
-        "title": "RBA rate decision looming — Albanese calls hikes a 'blunt instrument'",
-        "source": "SMH / Motley Fool / WSJ",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbzBKMlZ5dDhuSkROSkJDSjRRMnR6LUFXcHNBOXJGQTJDRFJVUmVPOF8zOENsUlJuMXNnaEp4ZWZhUlZUZnhVRm1QUW0zZ2hQQVhISU9QU0ZuUjVOZk4xcldvVjB2SWZoYUNnNzhsdkxicUpPdFJjWDE4T3RLTnlxNjdQZThTZXNub3A0azBVY2FmU3JYUENWMzhiVGNjenNZRG9qZ0lFbEFLd2Q2aUk1aElQX2l2N0dRMmVrVGtta3hScHlvNUZtUVhR?oc=5",
-        "why_it_matters": "The RBA meets next week, and Westpac is predicting rates will be held steady. But the WSJ is reporting the RBA's recent messaging is making markets question whether rates have genuinely peaked. PM Albanese publicly distanced Labor from the RBA, calling interest rate hikes a 'blunt instrument' — unusual political commentary on an independent central bank. For mortgage holders, the question is when, not if, cuts arrive. A rate hold next week is expected, but the language in the statement will matter."
+        "title": "Albanese calls RBA rate hikes a 'blunt instrument', distances Labor from central bank",
+        "source": "SMH.com.au",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbzBKMlZ5dDhuSkROSkJDSjRRMnR6LUFXcHNBOXJGQTJDRFJVUmVPOF8zOENsUlJuMXNnaEp4ZWZhUlZUZnhVRm1QUW0zZ2hQQVhISU9QU0ZuUjVOZk4xcldvVjB2SWZoYUNnNzhsdkxicUpPdFJjWDE4T3RLTnlxNjdQZThTZXNub3A0azBVY0FmU3JYUENWMzhiVGNjenNZRG9qZ0lFbEFLd2Q2aUk1aElQX2l2N0dRMmVrVGtta3hScHlvNUZtUVhR?oc=5",
+        "why_it_matters": "Prime Minister Albanese publicly called interest rate hikes a 'blunt instrument', making clear Labor is uncomfortable with the RBA's approach even as the central bank prepares to potentially raise rates again. This is an unusually direct public comment for a PM about an independent central bank — it signals political tension between the government and the RBA heading into a rate decision week. Albanese appears to be getting ahead of the political fallout if a hike hurts households."
       },
       {
-        "title": "Ex-Treasury chief tells Chalmers: slash public service to reach surplus",
+        "title": "Ex-Treasury boss tells Chalmers to slash public service to reach budget surplus",
         "source": "AFR",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORHUwNWFqTV9GMFpBdzVZWThZQzhMUWNkeldvaWY2SlVZZFk1b0NHTzRMM3BLdGdiQURGeldsdzRpdnpFQ3lXOEZhdmZsWU5MNTFMMlN5SFlmV1g4bjdQcVBBRkU0XzZQT1RMOHFYOXlZd1FrdWhWZXJ1X0U4azNyeWNZTlFteVMyRVdlSVM5ZEMtQUhRT0hBWFpnaVhlaW5XcFcwQndIazZKbWZUelNCY2M2OF9IWDRLaFh1Nw?oc=5",
-        "why_it_matters": "A former Treasury secretary is publicly calling on Treasurer Chalmers to cut the public service significantly in order to return the federal budget to surplus. The government has been spending heavily and is under pressure from economists and the opposition to show fiscal discipline. Budget surplus matters because it gives the RBA more room to cut rates — a government running deficits while inflation is elevated puts upward pressure on borrowing costs for everyone."
+        "why_it_matters": "A former Treasury secretary has publicly urged Treasurer Jim Chalmers to cut the size of the public service to get the federal budget back into surplus. With the government facing spending pressures and inflation still elevated, the advice adds to the political pressure on Labor to tighten fiscal policy. Chalmers has been resisting calls for austerity, arguing targeted spending is needed to ease cost-of-living pressures."
       },
       {
-        "title": "Albanese defends $10 billion EU trade deal amid Coalition criticism",
-        "source": "The Australia Today",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQU9neV9kN3dIVWNQYlVQNW9UZ2xjRkZHSF9iZGpGbjloZ3NobUpHTjdXZFphVjE1UU8tN3p2QkFodUN4aEZyaGRkVDlQSUNPTGRpZ3lCbWxyV1VDTXc4cV9wbzZUWGpwQ0tnMWd0UE9jUFhNWDdQdWsxUjJxZEhHTGROTGFUeEtRZm1aVWxvc0tCaEktcUxheFVDQ3JQWFRDZDl4cWxxSlU4TkZqaEN5aXQ0czNEcWRrdUlnVENKSF9vZThPa291cmtobEhwa3VtVzdiUXNmbUhIb2h6aHphWjA2QQ?oc=5",
-        "why_it_matters": "PM Albanese is defending Australia's $10 billion trade deal with the European Union after the Coalition raised concerns about farm access provisions and climate clauses embedded in the agreement. The deal could open significant new markets for Australian farmers and exporters, but critics worry the climate-related conditions could disadvantage Australian agricultural producers. This is a significant trade policy moment — the EU is Australia's third-largest trading partner."
+        "title": "Victoria's budget blowout: $7 billion worse than expected, auditor slams repair plan",
+        "source": "AFR",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaEpqdnNEaDlHX1dfYS1fNHVwalhmYkV0dzBlaW5TWU9vdjRlMko2YktHMHFVRUJ5OC1Id0otUGM5SlpoTDB6aDhjQXdsaHlnTFFuX0pLY3lfMmRMLVFpMVJYMkRMOS1fek1yYjhZM0ZpTk84VFFjc3FCWjk0SDg4YjI1WGJnUFFLNVRObjJUUmMwZjRHY2Z6NkJfMUIzQQ?oc=5",
+        "why_it_matters": "Victoria's state budget is $7 billion worse than forecast, and the state's auditor-general has slammed the Andrews-era government's budget repair strategy as inadequate. The blowout raises serious questions about Victoria's ability to fund essential services and manage its debt load. For Victorians, it could mean cuts to services or higher state taxes down the track."
+      },
+      {
+        "title": "Data centre investment at risk as regulatory confusion grows, operators warn",
+        "source": "AFR",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONk02NWppQUkxLUE1Yi1kTkNvM3Vjc0NwaEtIbjhORlJnT09sZnppbUJNREVFYVd6bEJxZzJ1RUR2Z3pxZDNjZ2l3ZUluV3RwMlZyQ19uZTFFUWhtZTVEenJ3Qmd5X2Vfd016dVNXVUtBNDNtRmhQa3BCcWVYOXd3VE5lUExqVUl2LWpLXzhUVEY0Wng2eUpiZ1hqb0o4b3IyZVdNSXZKQ29OUGZmSkZBMlJHTW95X0p4ZF9aTXJmcEw?oc=5",
+        "why_it_matters": "Data centre operators are warning that unclear government rules around planning, energy, and zoning are putting billions of dollars of investment in Australia at risk. As AI drives huge demand for data centres globally, Australia risks missing out on a wave of tech infrastructure spending if the regulatory environment doesn't improve. This matters for jobs, electricity demand, and Australia's position as a regional tech hub."
       }
     ]
   },
   "ai": {
-    "summary": "The big AI news today is a rare moment of industry unity: Anthropic, Google, Microsoft, and OpenAI have agreed to let websites opt out of AI training. Elsewhere, AI regulation debates are heating up in healthcare and politics.",
+    "summary": "The big four AI labs agreed to let websites opt out of AI training. US midterm politics is bleeding into AI safety debates. Healthcare AI regulation is struggling to keep pace with fast-moving products.",
     "stories": [
       {
-        "title": "Big four AI labs agree to let websites opt out of AI training",
+        "title": "Anthropic, Google, Microsoft and OpenAI agree websites can opt out of AI training",
         "source": "Thurrott.com",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkM2MS1CbWxTY2s4eTd4UlJyM0pnb1U5NVJGeXljbTl2ZUZuYk1rYmhLSHNmQ2R3MU1sMlpSR1N1a0xHNXR4WkRadVJhcjUybURrYWJPYjUwR3J3Vno5dzljNzVDS3VlZWRsc0h4V0tHRWNlMzlWMGh6NlZHVmVNMDg1RjJhWUlIWUdCdUU2MjdYVUw1QnVFeWZCUl8yN1JPYng0WGJNQUdCeDJkbHhJb3JZenZRUQ?oc=5",
-        "why_it_matters": "Anthropic (makers of Claude), Google, Microsoft, and OpenAI have jointly agreed to honour a standard that lets website owners signal they don't want their content used to train AI models — similar to how websites block Google's search crawler. This is a significant voluntary commitment from the four biggest players in AI, and it gives publishers and content creators more control over their work. It won't fix everything, but it's a meaningful step toward an internet where AI and content creators can coexist."
+        "why_it_matters": "The four biggest AI companies — Anthropic (maker of Claude), Google, Microsoft, and OpenAI — have agreed to honour a standard that lets website owners signal they don't want their content used to train AI models. In plain terms: if a website puts up a 'no AI training' flag, these companies will respect it. It's a voluntary agreement rather than law, but it's significant because it's the first time all four major labs have aligned on a common opt-out standard. Content creators and publishers have been pushing for exactly this."
       },
       {
-        "title": "Senator Warren slams Trump's voluntary AI safety deal as not enough",
-        "source": "Benzinga",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX3p2RUE2YXlzWTRWc05RMU1LcGRYM1UwOEVWUFNTRi03RWZDdEJZeFQ5YmdkdkRwLW82OTl5WVFHYUw1cGYwUDRWeHJjV1Z5VXdBaDEyQUNYeGxqQmNaS3hZRm9wWmo1TV85cjA2WVYxaHlMTEpmTHAyU25TTHRNZjZJWlBkWW55a2RuV0l4QnZUT0FjeGlmX25B?oc=5",
-        "why_it_matters": "Senator Elizabeth Warren publicly criticised the Trump administration's approach to AI safety — a voluntary deal with tech CEOs — calling it nowhere near enough and accusing Republicans of failing to do their jobs on regulation. The debate reflects a widening political divide: tech companies prefer voluntary commitments they can shape themselves, while Democrats are pushing for binding rules. For investors in AI stocks, looser regulation is generally seen as a short-term positive, but the lack of clear rules creates long-term uncertainty."
+        "title": "AI safety becomes a political football as US midterms approach",
+        "source": "orfonline.org",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRjFHSmZOcjF0NXkzd25sNW9fcUpSd3NIX1hCYlhaQVk0UzUwWWhzb3dqc0EzZjR4SlM4RzZVZXAyUFR3cDJVZ29hbDFlNHRjMnVtQ1A4Z2NxOS1rMXlRMGdOcTlKOEdPMmU5VllJQmZtdE5VMGNqdVBmN2t4TURVcjBqMjRudlRKWllabnJTY0Nfa2szZTRuT3ZwSHhRamFpWUpiVDJLUmxIbGtn?oc=5",
+        "why_it_matters": "With the US midterms approaching, AI safety regulation has become a genuinely political issue — with some candidates backing tighter controls on frontier AI labs, and others arguing regulation would stifle American competitiveness against China. The debate matters because whatever the US decides will shape global AI regulation, including in Australia. Tech companies like Google and Microsoft are lobbying hard on both sides."
       },
       {
-        "title": "FDA and CMS scrambling to regulate AI in clinical healthcare settings",
+        "title": "FDA and Medicare scrambling to avoid AI regulatory logjam in healthcare",
         "source": "STAT",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRy1jVmpNYlAyVnFENy1NcS1NQUZQRUpvTXoybWhvYi1ySThET1JSbWpuYXBrRTNEMWJpQndmTXA0bFA0ZktZS1BmdjMxQW5BbTJHSGlWUmR3MU5pSkZsbnhrRmphVWtOOEt3aUI3NEVJTXR1c0hWTnJQM2lOMWZiQTZLd3RfRWYzWEI4NE11QmwxOGdPMU9ja0ZHYl9mTE1XbmJEZ3A5RQ?oc=5",
-        "why_it_matters": "US health regulators (the FDA and Medicare/Medicaid administrator CMS) are scrambling to keep pace as more US states push to trial AI tools in hospitals and clinical settings. The problem is that AI products in healthcare update constantly, making traditional 'approve once' regulation obsolete. Experts are calling for regulation that follows the product as it changes. This matters because healthcare AI is one of the biggest near-term commercial opportunities for the major tech companies — getting the regulatory framework right could accelerate or slow billions in revenue."
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRy1jVmpNYlAyVnFENy1NcS1NQUZQRUpvTXoybWhvYi1ySThET1JSbWpuYXBrRTNEMWJpQndmTXA0bFA0ZktZS1BmdjMxQW5BbTJHSGlWUmR3MU5pSkZsbnhrRmphVWtOOEt3aUI3NEVJTXR1c0hWTnJQM2lOMWZiQTZLd3RfRWYzWEI0TXVCbDE4Z08xT2NrRkdiX2ZMTVW5amJEZ3A1RQ?oc=5",
+        "why_it_matters": "US health regulators (the FDA and Medicare/Medicaid) are scrambling to create rules for AI tools being used in hospitals and clinics, as more US states start running AI pilots in clinical settings. The problem: AI models get updated constantly, so a product approved today may be quite different six months from now. Regulators are trying to figure out how to handle AI that changes itself. Australia's TGA will face the same challenge — this is a global problem with no clean answer yet."
       },
       {
-        "title": "TBC launches 'Mischief' — a new AI video model built on Wan 2.2",
-        "source": "Unite.AI",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ScDh0WjIzYnZaWHBSeHlpX2VEUUU1QlhiaVJYQ19KT0YwTGpEUF9tWnNoVS1DQjdRcWtNWmU3ZzhMemRLWFFDOWJ4Nmc0X1o2UnlMcUV4dUhqU2U4V1FTYUFJN3hTeklzNzN4RVZVRDNwdw?oc=5",
-        "why_it_matters": "A new AI video model called 'Mischief' has launched, built on the Wan 2.2 architecture and developed using neuron-derived techniques — meaning it draws on insights from how biological brains process information. What it can actually do: generate high-quality AI video content. This is another entrant in the rapidly crowding AI video space, where tools are getting good enough to create short films, ads, and social content without traditional production. The pace of competition in AI video is accelerating."
+        "title": "Japan's surge in cyberattacks sparks push for tighter AI and data security rules",
+        "source": "MLex",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcnAwelR4bGpkZC1pVFZoUnByQk9zODlyam1lbnJTRUJwYU9TOHY3UmhxLVVtV0FjU21XdzVTSnYwNVBtMzRNRXhCd21KVzVoVlBEYnNFc0p5b2RicFdreEYyaHZCalFCN2FaTU9Sa2FseGl3NFJPU3JSUzE5cW9FR2d2WG1pQ0pTdFBBWHBPYXFtN09pcFZralRSRC1TOC1uSTdGUGdLSlZwWUgyMGRRdVpzTFlFRHZVQjBLZDcyUjNWZ0thd3dJ0gFaQVVfeXFMTUF0MUNhSzlGc3lOQXE2V0lnT2xpdU1ZS1hHSnlRRW5Ba3AwaWRGcWV1NnNKQS1PMWFsdFRFa2doMFVBcG95bDNGa2I2OWhDY29JemtQQWVUdlFR?oc=5",
+        "why_it_matters": "Japan has seen a major spike in sophisticated cyberattacks, many leveraging AI tools, and it's now pushing for tighter national AI and data security regulations. This follows a pattern where countries that experience high-profile AI-enabled cyber incidents end up driving global regulatory conversations. For Australian businesses, it's a reminder that AI governance isn't just about ethics — it's increasingly a national security issue."
       }
     ]
   },
   "sport": {
-    "summary": "NRL is in the off-season but there's plenty happening: end-of-season farewells, big transfer rumours, and the Rugby League World Cup is creating controversy. AFL had a big result with Geelong locking in a top-two finish, and Carlton scored a major coaching coup.",
+    "summary": "It's Rugby League World Cup time — England is in serious trouble after a stunning loss to Papua New Guinea, the NRL draw for next season is taking shape, and AFL is wrapping up with Geelong locking in a top-two finish and Carlton landing a big coaching coup.",
     "stories": [
       {
-        "title": "Cronulla Sharks farewell departing players",
-        "source": "Fox Sports / Cronulla Sharks",
-        "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOWTlia0EwZUJrREdqaFFaU2FfX2owd19saFVjY2NDTzJ4LTM5OUVwVVpGRmE4YlA5OHRqc2doVnZtQTZZeEFHQ0JqWVVYQXZhcEdmZnZvMFhKbjhZVHA2bkJTalpiQTFvbzZMYl9PZG5yNUdWYk1UeDEtVUtHWHpQY0pYdlBLMUNZZTJKZ2t0ajZFVERpX2EtcFNwSV9LVzg4OUoxdVhjSE5oYjZZRG82aWlNUU1aTDZoZ3dUSkNfVVRNU2hyeXo0WXZsSlZFdm1EajA5cFFBWGFVelBzY2FIcnhwdHkyNmZGNFNiM1VVM1RaX2c0Rm9mRW9nYnRJY3FIcldfb0xvREQ3S042WGtPX0RPbGtfNW12Y09wel84aG9Sc0t6TnpHV2RiUDFKaU9hV0k5QWF0VXpYMnZNT0Z0MElhWUIyV3BvdUE4dTRqR0FCcE9xbU83MnR0alp2cEZNclAzblY5RnlNTEhOeGfSAe4CQVVfeXFMTlk5YmtBMGVCa0RHamhRWlNhX19qMHdfbGhVY2NjQ08yeC0zOTlFcFVaRkZhOGJQOTh0anNnaFZ2bUE2WXhBR0NCallVWEF2YXBHZmZ2bzBYSm44WVRwNm5CU2paYkExb282TGJfT2RucjVHVmJNVHgxLVVLR1h6UGNKWHZQSzFDWWUySmdrdGo2RVREaV9hLXBTcElfS1c4ODlKMXVYY0hOaGI2WURvNmlpTVFNWkw2aGd3VEpDX1VUTVNocnl6NFl2bEpWRXZtRGowOXBRQVhhVXpQc2NhSHJ4cHR5MjZmRjRTYjNVVTNUWl9nNEZvZkVvZ2J0SWNxSHJXX29Mb0REN0tONlhrT19ET2xrXzVtdmNPcHpfOGhvUnNLek56R1dkYlAxSmlPYVdJOUFhdFV6WDJ2TU9GdDBJYVlCMldwb3VBOHU0akdBQnBPcW1PNzJ0dGpadnBGTXJQM25WOUZ5TUxITnhn?oc=5",
-        "category": "NRL",
-        "why_it_matters": "The Cronulla Sharks held their end-of-season farewell for departing players, with emotional scenes reported. Fox Sports also covered the story of a veteran player eyeing a new deal with the Dragons after leaving the Sharks. One player quipped 'I was a garbo' before rugby league — a reminder of the journeys these players take. The off-season player movement is well underway."
-      },
-      {
-        "title": "Walker certain to leave Roosters; Dearden shuts down Cowboys-Walker swap rumour",
-        "source": "AAP / The Australian",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUTczWm5YYUtxWlJKWFpLVUQyb0lHZHRSS0MwTExBT2V0MFNLRXBKdFhvT0xseWtXUkpLNFBTSU9IbGd5Z01KYXViWVRBbGJvQXhySVFiNnE3aDUyaXlJSlZIUmpTWW51cVBfSTVvT1k0WmE3V0VmLVVIZzhxOVYzY2hNX1Z6MV9ISmo0?oc=5",
-        "category": "NRL",
-        "why_it_matters": "Luke Walker's departure from the Sydney Roosters is now confirmed — sources say 'it's done'. However, Cowboys halfback Tom Dearden shut down rumours of a Walker-Dearden swap, reaffirming his commitment to North Queensland and saying 'she's coming up' for the Cowboys. With Jake Walsh also joining transfer speculation, the NRL silly season is in full swing."
-      },
-      {
-        "title": "Rugby League World Cup format slammed as England faces historic exit",
-        "source": "Sky Sports",
-        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObzk3Mm9EZmZJZmxaYnpRM05Qb3prTUwteEFaSGNkZGRqVHdCZ3BFcGFBTUxNRDBwUVVMNFJYX3k2dE93ekNDOVNXb1hRSUVnNG9wNTV3MTV1d25ZejVkOF93V0JGbm1nZFVuT0ZtYmdlSHVhd2FMaGVCdU9CVS1vZl9VSFJKRmhoMVMtcVdjT25GU0tlWThBLTE3UWhMc1ZKNU5NMXBYRGZ4MGZQdG1vZEFfMkJUcUNvUm5Nck1fLWMxU0FnYS1JZ0VSMHluM0g5Tm1xWWloNEx4M3VnN0F0TmVVNDR6R2tCcWRkb0E1S0VhVGdhLTN1UldjMEw4bWc?oc=5",
+        "title": "England stunned by Papua New Guinea, World Cup campaign on the brink",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxNVzdkTmYwczZmU3VZa2szdnVTWDJrZ3FKUERCQ2d5Vm5kRHUybk91U2VFbDlIUi1FdUdwSDc5QzBnM29OZEMzNjdRcWFDdFhjTWItclFiSWNNUWxDSkt5TkpCbmF3cGdGMzlXWGlodTU2WnlSUThJRkp3QTJLQVlYeGFkV0JqbGFCdFVIOERTM3NrM2lxdGFNVmNVdXQ5U3E1WFFEajlwVG1GN2MxdnkzV05pY1BPeVB5X1hZa29YVFg1MC1sMDRVVm0wN3R4NUNkemdkRHdWdjJMRUQydlBhR1BmeG1iYWdUd0FTTjdsWVZDdnU2RElDclYwTUluUVRKYmtXSzh0b0x0RTlQN09LZDdPd3dUU2xGdGFieDYzUzdHdlBHc3JoeFBEbmtNUTlzckluVlpYX19NSk9aTGVnMzBITU1HM1pCT09kME9uREV4RE00MTIxRlZFNlFqeW1rZkY4Q2dUOV95dHVJN2tCTEN0ekFvZlVyQnNHTUVnTmZVSkNwYXB2dVozNWNTTUJ5bkM2YTdsYmRLT1pE?oc=5",
         "category": "Rugby League",
-        "why_it_matters": "England are on the brink of a historic early exit from the Rugby League World Cup, and former player Jon Wilkin has come out swinging, calling the tournament format 'fundamentally flawed'. England's shock poor form has put them in danger of not making the knockout stages — which would be a catastrophic result for the sport's global ambitions. The format criticism centres on how pool stage results are weighted."
+        "why_it_matters": "England's Rugby League World Cup campaign is hanging by a thread after being beaten by the Papua New Guinea Kumuls (the 'Ku-mools') in a gritty upset. England reportedly needed a 'miracle' after the loss, with the headline 'We're going home' capturing the mood. PNG's performance was a massive statement — the Kumuls have been one of the tournament's stories so far, and England's path to the semi-finals is now incredibly narrow."
       },
       {
-        "title": "Geelong locks in top-two AFL finish with clinical win over Western Bulldogs",
-        "source": "AFL.com.au",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaTVHT3pNdDE0Qm00Wk1VRDE2TjdtYTl3VkNOT0JITndsaXFIdzVTQ1dJNFZzVVBuWm5jTzk2M2t3S3hfaWZ3S0Rub3dkWXVWUmVtXzVvU0dSZzcwNXRpVzdPcWhWT1VUbXVMOVY5aHN5bjA1SlpWSzV2aXk2bV9CQl8wc2VvQ2hTbFR5RE41WkRXanp5cFhNNU80Zms?oc=5",
-        "category": "AFL",
-        "why_it_matters": "The Geelong Cats secured a top-two AFL finals finish with a clinical victory over the Western Bulldogs. A top-two finish means a double chance in finals — if you lose one game, you get another shot. The Cats are now firmly in premiership contention heading into the business end of the season."
+        "title": "RLWC semi-final race heats up — every team's path mapped out",
+        "source": "NRL.com",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTUVoQzBZeW94bVZXVlc2RE13QTdTa3c5QXA3UGhLVC1WOXhDZGRMb0ZLVUEyQzh1ZTFvNGx0VE1RT0JVbUpiLWJKUVRmd3M0dWc5SlVJTmphYnRPTHVDNF90VWk1Vm81bGViN01EdGZXeFVhZU9WNDJsdFg0SGxPRENoektXWTBHT1lMd1hLN0J0THBwT21MVEl1bjgyeHc?oc=5",
+        "category": "Rugby League",
+        "why_it_matters": "With pool play moving through Round 1, NRL.com has mapped out every nation's path to the semi-finals. After England's shock loss and PNG's big win, the semi-final picture is already shifting. Australia and New Zealand are expected to be the dominant forces, but the tournament has already thrown up surprises."
       },
       {
-        "title": "Carlton pulls off major coup as premiership-winning coach signs on",
-        "source": "Nine.com.au",
+        "title": "NRL 2027 draw whispers: Bruno blocks Broncos, Bears return date revealed",
+        "source": "The Mercury",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcnFEMkdpVzFOREZsNnQ4S3VFc0lOMldybG9YZDhhRURDTjR0MzU0S25RQzM1U0J0enU2MFFkUmhFcWhMRkZZRGYwOXNJaldyWjVEQ0xfNW9IUTdZdTdrRjNDMDBkSU9yMlRycktRc2Q0Qm9GM1BlNUUxRG4wMFVTLXZaaTV6UGIwa2FPdWp6MHQyRVN6Yld1VHMtNzc1dWVTZ29tQnFWUkpJZTBfbi02Z29UdXRUZFBsTnNJVVo0WVZ3emgxWnNISTExQkhxMGR4R25Gd1d5THVMYzJ0a2hCdVE1d2xpVjZodjlwbjBYZw?oc=5",
+        "category": "NRL",
+        "why_it_matters": "Whispers about the 2027 NRL draw are circulating — including that Wayne Bennett's club is allegedly 'blocking' the Broncos from a particular fixture, and the return of the South Sydney Bears to a specific venue has been locked in. Still early days, but NRL draw leaks always get plenty of traction among fans planning their season."
+      },
+      {
+        "title": "Roosters win NRL Grand Final 19-18 over Knights in a thriller",
+        "source": "NRL",
+        "link": "",
+        "category": "NRL",
+        "why_it_matters": "The 2026 NRL Grand Final was decided by just one point — the Sydney Roosters defeated the Newcastle Knights 19-18 at Accor Stadium on Sunday 4 October. It was a tight, tense final befitting the occasion. The Roosters claimed the premiership in dramatic fashion."
+      },
+      {
+        "title": "Carlton lands premiership-winning coach Chris Fagan in AFL coaching coup",
+        "source": "Nine.com.au / The Age",
         "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNS2xoVlBiTDZtQTRadkVWcVo2NXNNaXVCdUQ0eFo3Tjcybm5pV2xmaDlVWEQ5SWlZZUMtMXdqMWdUU2JnaTNiY2hxZzFKWmZKa2x2ZHFYc0VLM0xSZksyNF84dThzR2JxOHAtZzU1V0R5UVFHb0RJODdfM216SnFvTS1QTVNXZVA3Vy1nd2gyMURvNXB5ckN1VkpoSFZCcmROdm0yU3plejMxb3JNa0diRG0weU5DdklBaVhWcFlPZjNBRDFxWFZFYzhFTm9YT3MzUTE1cGVpeU5fc1ZmczBlRVlDTWZveXVmYjU3UWVYTmtRMm4xWWdv?oc=5",
         "category": "AFL",
-        "why_it_matters": "Carlton has landed a major off-season coup, signing a premiership-winning coach to their setup. The Blues have been trying to take the next step after a finals campaign, and adding proven winning experience at coaching level is exactly the kind of move that can shift a club's trajectory. The identity of the coach wasn't named in the headline data, but it's being described as a significant signing for the club."
+        "why_it_matters": "Carlton has pulled off a major AFL coaching coup, locking in Chris Fagan as their new head coach. Fagan, who led Brisbane to the 2023 AFL premiership, said the role gives him 'genuine purpose' and chose Carlton over other offers. It's a significant signing for a club that has been trying to return to finals contention — Fagan has a proven track record of building winning cultures."
       }
     ]
   },
@@ -276,22 +282,37 @@
     "location": "Gold Coast",
     "icon": "🌤️",
     "condition": "Mainly clear",
-    "temperature_c": 21.6,
-    "high_c": 23.3,
+    "temperature_c": 19.3,
+    "high_c": 23.1,
     "low_c": 18.3,
-    "rain_chance_pct": 75,
-    "rain_mm": 0.7,
+    "rain_chance_pct": 96,
+    "rain_mm": 4.5,
     "tomorrow": {
       "icon": "🌦️",
       "condition": "Drizzle",
-      "high_c": 26.7,
-      "low_c": 17.4,
-      "rain_chance_pct": 76,
-      "rain_mm": 2.5
+      "high_c": 25.6,
+      "low_c": 17.7,
+      "rain_chance_pct": 86,
+      "rain_mm": 3.3
     }
   },
-  "nrl_round": "Off-Season",
-  "nrl_draw": [],
+  "nrl_round": "Grand Final",
+  "nrl_draw": [
+    {
+      "home": "Roosters",
+      "away": "Knights",
+      "home_badge": "https://www.nrl.com/.theme/roosters/badge.svg",
+      "away_badge": "https://www.nrl.com/.theme/knights/badge.svg",
+      "home_score": 19,
+      "away_score": 18,
+      "completed": true,
+      "live_label": null,
+      "day": "Sun 04 Oct",
+      "time": "6:30 pm",
+      "venue": "Accor Stadium",
+      "datetime_iso": "2026-10-04T18:30:00+10:00"
+    }
+  ],
   "nrl_byes": [],
   "portfolio_totals": {
     "positions": [
@@ -428,5 +449,5 @@
     "total_pnl_pct": -7.69,
     "aud_usd_rate": 0.7035
   },
-  "generated_at_utc": "2026-10-31T07:38:27.797074+00:00"
+  "generated_at_utc": "2026-10-31T13:46:31.560162+00:00"
 }
