@@ -1,274 +1,274 @@
 {
-  "headline": "US markets took a hammering last night — NASDAQ down 5.5% on AI regulation fears after the midterms — but your ASX holdings held up relatively well today.",
+  "headline": "US midterms deliver a thumping blow to Republicans as the Iran war rages on — markets rebounded last night but your ASX holdings felt the heat today.",
   "portfolio": {
     "movers": [
       {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": -3.58,
-        "note": "Microsoft dropped sharply last night after a Reuters report revealed that AI data centre firm IREN is delaying Microsoft AI deliveries, raising doubts about the pace of its AI infrastructure buildout. Add in broader market panic over potential tighter AI regulation post-midterms, and tech stocks across the board got sold off hard."
-      },
-      {
         "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market ETF",
+        "name": "Vanguard US Total Market Shares ETF",
         "change_pct": -2.67,
-        "note": "VTS tracks the entire US share market, so last night's brutal NASDAQ and S&P 500 selloff (down 5.5% and 4.4% respectively) flowed straight through into today's ASX price. The catalyst was AI regulation fears following the US midterm results."
+        "note": "VTS tracks the entire US share market, priced in AUD. Today's drop of 2.7% was driven by a weaker Aussie dollar (down 1.6% against the USD) amplifying the fall — when the AUD drops, overseas-priced ETFs cost more in USD terms on the way in. Last night's US session was actually strong (NASDAQ +1.8%), so the ASX-listed version lagged due to the currency move."
       },
       {
         "ticker": "GXAI.AX",
-        "name": "Global X AI ETF",
+        "name": "Global X Artificial Intelligence ETF",
         "change_pct": -2.71,
-        "note": "An AI-focused ETF was always going to feel this one — chip stocks and AI data centre companies led the global selloff on fears that the new Congress will push for tighter rules on artificial intelligence. The fund fell 2.7% today on the ASX."
-      },
-      {
-        "ticker": "GOOG",
-        "name": "Alphabet (Google)",
-        "change_pct": -1.94,
-        "note": "Google fell nearly 2% last night as the broader tech selloff hit all the mega-caps. There's also an underlying structural worry doing the rounds — Bloomberg noted that Google's own AI products (like AI Overviews in Search) could cannibalise its core advertising revenue over time."
+        "note": "The AI-focused ETF fell 2.7% today as regulatory fears weighed on the sector. With Democrats set to take control of Congress after the midterms, the market is pricing in a wave of new AI regulation bills — that spooked investors holding AI-heavy positions. The ETF is now down 20% from your cost base."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -1.61,
-        "note": "VDHG holds a big chunk of international shares, so the overnight US market carnage dragged it down 1.6% today. Nothing specific to VDHG — it's just absorbing the global volatility."
+        "note": "VDHG slipped 1.6% today, dragged down by its large weighting to international shares, particularly the US market. The weaker Aussie dollar and general global uncertainty around the Iran conflict and post-midterm US political landscape weighed on sentiment across the board."
       },
       {
         "ticker": "DHHF.AX",
-        "name": "DHHF (BetaShares Diversified All Growth ETF)",
+        "name": "DHHF.AX",
         "change_pct": -1.51,
-        "note": "Similar story to VDHG — DHHF is a globally diversified fund, so it tracked the international selloff. Down 1.5% today, mostly reflecting the US market moves overnight."
+        "note": "DHHF dropped 1.5% today, following a similar pattern to VDHG — its global equities exposure felt the currency headwind and broader risk-off mood on the ASX today. No specific stock-level news; this is macro noise."
       },
       {
         "ticker": "VGE.AX",
-        "name": "Vanguard Emerging Markets ETF",
+        "name": "Vanguard FTSE Emerging Markets ETF",
         "change_pct": 1.19,
-        "note": "A bright spot today — emerging markets actually rose 1.2%. The weaker Aussie dollar (down nearly 2% against the USD) boosts the AUD value of overseas holdings, and emerging market assets often attract some buying when investors rotate away from expensive US tech."
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "change_pct": 2.13,
-        "note": "Take-Two bucked the trend last night, rising 2.1%. GTA 6 preorder sales reportedly hit $751 million with two weeks still to go before release, and the Take-Two CEO made bullish comments about their broader game library including Red Dead Redemption and Borderlands. The market liked it."
+        "note": "A bright spot today — VGE rose 1.2%, bucking the trend. Emerging markets caught a bid as investors rotated away from US-heavy positions amid post-midterm uncertainty. China and other Asian markets provided support."
       },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": 0.0,
-        "note": "Flat day for Pilbara — no movement today. Lithium prices remain subdued, though there's a mild positive signal from Albemarle (a major US lithium producer) reporting a 58% rise in energy storage sales and a jump in adjusted earnings, suggesting demand is slowly recovering."
+        "note": "Pilbara was flat today at $2.83, which is at least a pause after ongoing weakness. Lithium peer Albemarle reported a 58% jump in energy storage sales on higher lithium prices in Q3 — a potentially positive signal for the sector, though it hasn't moved the needle for PLS yet."
+      },
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet Inc. (Google)",
+        "change_pct": 1.82,
+        "note": "Google had a solid night last night, rising 1.8% on the NASDAQ. Strong recent earnings (Apple, Alphabet, and Meta all delivered solid results) and a generally buoyant tech session helped push it higher. There's an ongoing Bloomberg story flagging that Google's own AI tools could eventually cannibalise its search ad revenue — worth watching long term, but no immediate impact."
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": -0.47,
+        "note": "Microsoft dipped a modest 0.5% last night. News broke that AI data centre firm IREN is delaying Microsoft AI deliveries, and Bloomberg reported Microsoft is souring on some of its 'neocloud' data centre partners due to delays and rising costs. Nothing structurally alarming, but the market took a slight dim view."
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "change_pct": 0.14,
+        "note": "Take-Two was essentially flat last night, edging up 0.1%. There's a lot of buzz around GTA 6 — a former Rockstar tech director suggested the PC port will come sooner than expected to avoid AI-generated knockoffs eating into sales. The Take-Two CEO was also out talking up the company's broader IP portfolio including Red Dead Redemption and Borderlands. Sentiment remains cautiously positive ahead of the GTA 6 launch."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "AI regulation fears — your tech holdings in the crosshairs",
-      "detail": "The big story driving markets right now is fear that the new US Congress, following the midterm results, will push for tougher rules on artificial intelligence. That spooked chip stocks and AI-related shares globally — NASDAQ fell 5.5% last night, Japan's Nikkei briefly dived over 7%. Your GXAI.AX, MSFT, GOOG, VTS.AX and VDHG.AX all felt it. This may not be a one-day event — watch how this develops over coming days.",
-      "urgency": "orange"
-    },
-    {
-      "title": "MSFT — hold, don't panic on the AI infra delay news",
-      "detail": "Microsoft dropped 3.6% last night after reports that AI data centre partner IREN is delaying deliveries of Microsoft AI capacity. That's a real short-term headwind, but Microsoft's long-term AI story — cloud dominance, Copilot across Office, Azure growth — is very much intact. You're still up ~21% overall on this position. Sit tight.",
-      "urgency": "orange",
-      "ticker": "MSFT",
-      "action": "hold"
-    },
-    {
-      "title": "GXAI.AX — hold, the thesis is bruised but not broken",
-      "detail": "GXAI is your most underwater position (down 20% overall) and fell another 2.7% today as AI regulation fears hit the sector. It's painful, but selling now locks in the loss. The long-term case for AI as a growth theme is still very much alive — this is market noise, not a structural collapse of AI as a sector. Hold for the long term.",
+      "title": "GXAI.AX: AI regulation risk building",
+      "detail": "Your AI ETF is down 20% from cost and fell another 2.7% today as Democrats, now set to control Congress after the midterms, signal a flood of AI regulation bills. This is a genuine headwind for AI stocks short-term. But if you're holding for the long term, the AI growth story isn't over — it's just getting noisier politically. Sit tight unless you have conviction the thesis is broken.",
       "urgency": "orange",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "TTWO — GTA 6 momentum building, hold confidently",
-      "detail": "Take-Two rose 2.1% last night and was one of the few winners in a brutal session. GTA 6 preorders have reportedly hit $751 million with two weeks to go before release — a massive commercial signal. The CEO also talked up their broader IP library. Your position is nearly back to even. Hold — the GTA 6 launch catalyst is right around the corner.",
-      "urgency": "green",
-      "ticker": "TTWO",
+      "title": "PLS.AX: Still deep underwater, but lithium data improving",
+      "detail": "Pilbara is flat today at $2.83, still down 58% from your cost base. The good news: Albemarle (a major global lithium producer) just reported Q3 energy storage sales up 58% on higher lithium prices — a sign the market may be recovering. PLS hasn't responded yet. No reason to sell at these levels and lock in the loss — the long-term EV/battery demand story is intact, but patience is required.",
+      "urgency": "orange",
+      "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "RBA raised rates again — check your mortgage/savings",
-      "detail": "The Reserve Bank hiked the cash rate again in November. The RBA's deputy governor publicly admitted the bank is 'losing Australians' trust' on inflation. Savings account rates are rising (good for savers), but mortgage repayments are going up again. Worth checking if your savings account has been updated and reviewing any variable rate loans.",
+      "title": "VTS.AX: Today's dip is a currency story, not a US market story",
+      "detail": "VTS fell 2.7% today but last night's US session was actually up strongly (NASDAQ +1.8%, S&P +1.1%). The gap is almost entirely explained by the Aussie dollar falling 1.6% against the USD. When AUD weakens, your AUD-priced US ETF drops even if US shares rise. Nothing has changed with the long-term case — hold.",
+      "urgency": "green",
+      "ticker": "VTS.AX",
+      "action": "hold"
+    },
+    {
+      "title": "US midterms: Democrats win Congress — watch the policy fallout",
+      "detail": "Republicans have been thumped in the US midterms, handing Democrats control of Congress. This is a major political shift with real implications: expect more AI regulation bills, potential policy fights with Trump on the Iran war, and increased scrutiny of Big Tech. Markets rallied last night on the result (uncertainty resolved), but the policy ripple effects will play out over weeks.",
       "urgency": "orange"
     },
     {
-      "title": "VGE.AX — a rare green day, emerging markets holding up",
-      "detail": "Your Vanguard Emerging Markets ETF rose 1.2% today, bucking the global trend. Emerging markets can outperform when US tech is in trouble, as investors look elsewhere. The weaker Aussie dollar also flatters returns from overseas holdings. Nothing urgent — just a good sign that diversification is doing its job.",
+      "title": "Iran war escalating: tankers hit in the Strait of Hormuz",
+      "detail": "Three tankers were reported struck in the Strait of Hormuz overnight, one of the world's most critical oil shipping lanes. Oil prices are holding near $90.65/barrel. If the conflict escalates further and disrupts oil flows through Hormuz, energy prices could spike — which flows through to inflation and interest rates globally. Keep an eye on this.",
+      "urgency": "orange"
+    },
+    {
+      "title": "GOOG: Strong session but AI search risk flagged by Bloomberg",
+      "detail": "Google rose 1.8% last night after solid earnings and a strong broader tech session. Bloomberg ran a piece warning that Google's own AI tools (like AI Overviews in search) could cannibalise its core ad revenue long-term. This is a real structural risk to watch, but the market isn't pricing it in urgently yet. For a long-term holder, hold and monitor.",
       "urgency": "green",
-      "ticker": "VGE.AX",
+      "ticker": "GOOG",
       "action": "hold"
     }
   ],
   "world": {
-    "summary": "The US midterm results are reshaping global politics and markets simultaneously — Republicans suffered a surprise loss partly blamed on the Iran war, oil tankers are being hit in the Strait of Hormuz, and AI regulation fears triggered one of the biggest tech selloffs in months.",
+    "summary": "The US midterms have delivered a stunning rebuke of the Republican-led administration, with Democrats winning back Congress. Meanwhile, the Iran war is escalating in the Strait of Hormuz, Cristiano Ronaldo has retired from international football, and the post-midterm political chaos in Washington is dominating global headlines.",
     "stories": [
       {
-        "title": "US midterms deliver shock result — Republicans blame Iran war for losses",
-        "source": "Reuters / PBS / BBC",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQamFhVEozSjRLb3lJNlFlTTZ4dmtZbjBGdTJHOGNXdmZqXzh6VGhqN3Z2czQ5VUdTaE5KeTMwdHNtUWhVRldhb2hhbGJMNUhDR3NfbF9sOWYyWHVFZHdPeU43OElBMzhnQnQzenpkdzJlQWVya0tMQUhaV1pPN1UwWlVlMXZpMXQxa191LVN5SEZSdWh5T21jcXRycHpOUkI5ZWhhZm4xSktCQnRfRnFhcDZn?oc=5",
-        "why_it_matters": "Republicans lost control of Congress in the US midterms, with many in the party openly blaming Trump's decision to pursue war with Iran as the key factor. Vice President Vance walked a tightrope, criticising the Iran war strategy while trying not to directly attack Trump. With Trump now in a weakened 'lame-duck' position, there's growing uncertainty about US foreign policy — particularly in the Middle East. Financial Times reports the results will 'herald upheaval' in US Middle East policy."
+        "title": "Democrats trounce Republicans in US midterms — Trump's next move uncertain",
+        "source": "The Guardian / PBS / ABC News",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ2xkZFZRWm1aaWRRSnd3bUlfREdWbGdkSmF6VjA4XzE0dTlQLVpya1RfczhiVHN0Q3lXYnRTQmlXVGVydjc1eUtEQmdrZElhUFh6R3NlVG9ZYTg5bnM2X2otRmtGN1VNZ1hyWlVBV1l1VDY5TUIxZ0ZibGlHb1dJaml0d28?oc=5",
+        "why_it_matters": "The US midterm elections have handed Democrats control of Congress, dealing a major blow to Trump's Republican Party. Analysts say the Iran war — which the US has been involved in — contributed heavily to the GOP's loss, with voters angry about the conflict and its economic fallout. Trump's wealth took a hit after the result, and observers say he may 'lash out' in unpredictable ways as a lame-duck leader. The White House has had to deny that senior officials Pete Hegseth and Marco Rubio will resign amid the fallout. For Australia, a weakened Trump presidency creates both risks and opportunities in the alliance relationship."
       },
       {
-        "title": "Oil tankers attacked in the Strait of Hormuz as Iran keeps pressure on",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?oc=5",
-        "why_it_matters": "Iran has attacked commercial tankers in the Strait of Hormuz — a narrow waterway through which about 20% of the world's oil passes — in the wake of the US midterm results. This is a direct escalation and keeps pressure on global oil prices. Crude oil ticked up slightly to $91.25/barrel. If the Strait were seriously disrupted, energy prices globally (including petrol at the pump for Aussies) would spike sharply."
-      },
-      {
-        "title": "Iran reviewing 'concrete proposals' on its nuclear program",
-        "source": "New York Times",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXdqWVZaS0doMXFBRXRjYndqaGZUT0pBTVM1WlB0TlJNMHdTX1JlX0hOT1MyZUFrMTdMTThJczBJUUNyN3JTcllEZjlqN3E2b2VVRTFVbjRiaFJ3TW0ycFZsRlhVMjRaZkR5Rmw5VHp5YmVvdVI1TnNnb09aN0JpeTdubEptZWV1aGd3eDczYkxCdlBFV2tmdVQxUE95YmdOMFVDZXMzRVdDdW05OXc?oc=5",
-        "why_it_matters": "Despite the ongoing conflict, US officials say Iran is reviewing 'concrete proposals' regarding its nuclear program — a potential opening for diplomacy. This is a significant signal: if a deal were struck, it could reduce Middle East tensions and ease oil prices. But with Trump weakened domestically and Iran attacking tankers simultaneously, the path to any deal is very narrow."
-      },
-      {
-        "title": "AI regulation fears trigger massive global market selloff",
-        "source": "Hindustan Times / France 24",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU0FrTHhjc2hjbTdyQ0pBQTFELWg5Y01FdnRnS0Utbzg1Yk8yOFhyYUl0ek1tTDhIUzZmeGZjWjQxMjFSeVRTX2VCdDZjSVRQeG4tQlM5bE4xQXlDWEEwVVQ0SzVWdkhpQmZBUC1aS1VGZmRkbkFMNzBEOXd4ckd5SnlqdW9xYzJuVXhwc0xVOWE1NWNlVXRqUFpaQU9zVWxEU3VuNFd6WDVhWWIwYUgtSEsyWjRzQ2NSakUxbTFvVlIwM2U5NEZkS0J3S09mem1ydnNkUDVpN210ZF9YYmFqbUlWR1NNTmJPVnZFRjZ4TVTSAfYBQVVfeXFMTmpxTGtsdjBMdGRidFNHZ0RCcDlBYkFBYlpOdzNhbTA5ZVlxZGVLZTZRazMybThkMGdGd05TZlhFYTAxS0d6RzVzQ1FNSGkyZzZ1Vk9rZ0dwS0hlMkVWNkJVbTJaSDBldjR5bE93VmtMLTEyYkd0eU1ob3hNWTlBdG9ydGMyTHBrbUROdTJqMVhkc2VlTlF6Z2dFazdJNE52eV96TmdYeG55a3FEUTFEQlFLSWdJWExyYjRianJfMk04NVVjZjlub1VEX1FFV0JIRFpicERkWUozU3UweFFvZlZFZUtmQk95eEVIVGFWTGdLNjBoZzJn?oc=5",
-        "why_it_matters": "The US midterm result triggered a massive rethink about AI regulation, with investors fearing the new Congress will impose tighter rules on artificial intelligence companies and data centres. The NASDAQ fell 5.52% and the S&P 500 dropped 4.36% last night — one of the biggest single-day drops in years. Japan's Nikkei briefly plunged over 7% below 60,000. Chip stocks and AI data centre shares were hit hardest. This directly hammered your MSFT, GOOG, GXAI.AX, VTS.AX and VDHG.AX holdings."
+        "title": "Iran war escalating: tankers hit in Strait of Hormuz, Trump calls Qatar",
+        "source": "Al Jazeera / CBS News",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZkJXckI5ckRpYjBramxSRF83dG5fOEhjTGM2NEpIeE5pVTdGTEtYZE9uREtpTkgyWWt0cDd1OEhWWEV3enRWbVJFVF9WcXAyVExmamtobWV3blc3MDBIcWZvN250YWR6QlU5SEk2Yi1rdndKRmltVGZzektZMXlVQkw2WUdUcnFoRzU0T2ZtRW5EY3NDSHo4MjhaTHdUbTIwcVBQaXVLaVUxcjdXelBxQdIBtgFBVV95cUxOQktxc3hJNjY2STVxWDJBRjB2dUh5dXdSVVFnc1NIaHdILXFiTG5LZDZEZUFrazZzblFHenhhb1ZzRXhXOElKVVhhOTZweWotT1lOOFV1eVVYT0ZpWU5UekdaRTVkeV9sYmJQMTVYR0Q0VF9lNXdySmlkUGx5RVVTSVkzUjRZTEFnamExQWU2OW51b0ZnQ2lEQjJqdG5Uemh0ZjVPbVJsTG9mRWVtOFBibmRrQm1DUQ?oc=5",
+        "why_it_matters": "Three oil tankers were struck in the Strait of Hormuz overnight — the narrow waterway through which about 20% of the world's oil passes. Iran is at war with the US and Israel, and attacks on shipping in Hormuz are intensifying. Oil rebounded slightly to around $90.65/barrel after initially falling on the midterm result. Trump called Qatar's emir amid the diplomatic scramble. If Hormuz is seriously disrupted, global oil prices could spike sharply, feeding inflation everywhere including Australia — higher petrol prices and potentially higher interest rates would follow."
       },
       {
         "title": "Cristiano Ronaldo announces retirement from international football",
         "source": "SABC News",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGVqcXdUNFZmdXM0dExGMWZKSWxzT01rNi1KbUlXdVBqT0Rua1lQQjBNbnZUMFpBcHIxb2taR0wxQ28xRjBVVmhReGJTQU9UUGh1NUFSSmV4M3B0MDRod0tfUjJpTmZoX0VMRkdMTkdyd2FVNGFsTzdOX2RoZVBMT2pPeWNNQk1yTVRZMnZubjY?oc=5",
-        "why_it_matters": "Football legend Cristiano Ronaldo has announced his retirement from international football. The 41-year-old Portuguese superstar ends his international career as one of the most decorated players of all time, holding the record for most international goals. It's the end of an era for world football, closing the chapter on a rivalry with Messi that defined a generation of the sport."
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGVqcXdUNFZmdXM0dExGMWZKSWxzT01rNi1KbUlXdVBqT1Jua1lQQjBNbnZUMFpBcHIxb2taR0wxQ28xRjBVVmhReGJTQU9UUGh1NUFSSmV4M3B0MDRod0tfUjJpTmZoX0VMRkdMTkdyd2FVNGFsTzdOX2RoZVBMT2pPeWNNQk1yTVRZMnZubjY?oc=5",
+        "why_it_matters": "Cristiano Ronaldo has announced his retirement from international football, ending one of the most remarkable careers in sporting history. The Portuguese superstar, who holds the record for most international goals, made the announcement this week. It marks the end of an era for world football, with Ronaldo having represented Portugal across five World Cups."
+      },
+      {
+        "title": "China turning Europe's green energy transition into geopolitical leverage",
+        "source": "BLiTZ",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUZUTjNoc0ZEM1NaMU1jbmhvaWd1ZVJYOW5fLU94UTVOSUJ0ZDBNVlgzcHdUSDFYb2R5ZEdMczVxWXJLaWZNb3FCcDNfUzl4VVJXeVI1Q0dmbUhUbXFBQ2NmQjZmZmdDNE5jUXYzMHRkMi1sTEVRVGlBbE12aGJDT1lySS1FaFZaa2JQNHRCaGhVcl8tcHhHNlowMzVmTGtESmFreno3ZWRjQUVJTW1WT1lpNmE2ZkNkQURKc3V4MXpFYWY2cXJISzJIVng?oc=5",
+        "why_it_matters": "As Europe rushes to build out renewable energy — solar panels, wind turbines, batteries — it is becoming increasingly dependent on Chinese-made components. China dominates global supply chains for clean energy technology, and analysts warn it is using this position as geopolitical leverage, much like Russia used gas pipelines. For Australia, which exports critical minerals used in these supply chains, this dynamic is both an opportunity and a strategic risk."
+      },
+      {
+        "title": "Global South pushes back against Western grip on media narratives",
+        "source": "Big News Network",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeVpveVpVODdXV3dYekZmQUZhX3hNMVUwMS11T0txamUweHY4dkh0LU96S2xVdFBBQTM5Q0ZUbjR1N0xld2ZjOUhBWS02OU1uOExoaUc3TENjR190MmxKWk9TVWhra1g2a2hYUWp1dHg0X0psMG1iS0EzcEhpcUpGNHl4ZVV2ZVpmUmFmWnJsQjlXYXB0eGRGeUgyUjc3dlF0T0Nwa25Wd2hweTE5R0hNRDloX25HZnlMRlNnSFZn?oc=5",
+        "why_it_matters": "Countries across Africa, Asia, and Latin America — collectively the 'Global South' — are increasingly pushing back against what they see as Western-dominated media framing on major global events, from the Iran war to the Israel-Gaza conflict. Nations are investing in their own media infrastructure and international broadcasting to tell their own stories. This is part of a broader shift in global power dynamics that is reshaping diplomacy, trade relationships, and how wars and crises are perceived internationally."
       }
     ]
   },
   "markets": {
-    "summary": "Last night was ugly on Wall Street — the NASDAQ cratered 5.5% and the S&P 500 fell 4.4% on AI regulation fears post-midterms. The ASX held up relatively well today, slipping just 0.5%. Gold fell, oil ticked up slightly, and the Aussie dollar dropped nearly 2% — meaning your US holdings are worth a bit less when converted back to AUD.",
+    "summary": "Last night on Wall St was a good one — both the S&P 500 and NASDAQ rallied strongly as markets welcomed the clarity of the midterm result. Back home, the ASX slipped modestly today, weighed down by a weaker Aussie dollar and global uncertainty. Gold fell sharply, oil held steady, and the AUD took a notable hit against the USD.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "9,020.8",
         "change_pct": -0.49,
-        "note": "Modest dip today — the ASX largely shrugged off the overnight US carnage, helped by defensive and resource stocks."
+        "note": "The ASX dipped 0.5% today — modest falls across most sectors, with global ETFs the main drag as the AUD weakened."
       },
       {
         "name": "S&P 500",
-        "value": "7,353.7",
-        "change_pct": -4.36,
-        "note": "Last night's session. Massive drop driven by AI regulation fears after the US midterm results."
+        "value": "7,432.7",
+        "change_pct": 1.07,
+        "note": "Last night the S&P jumped 1.1% — markets cheered the midterm result, taking the view that a divided US government reduces political risk."
       },
       {
-        "name": "NASDAQ",
-        "value": "24,315.0",
-        "change_pct": -5.52,
-        "note": "Last night's session. Tech and AI stocks led the selloff — one of the worst nights in recent memory for the index."
+        "name": "NASDAQ Composite",
+        "value": "24,751.3",
+        "change_pct": 1.79,
+        "note": "Tech led the charge last night, with the NASDAQ up 1.8%. AI and big tech stocks bounced back despite regulatory fears."
       },
       {
         "name": "AUD/USD",
-        "value": "0.6866",
-        "change_pct": -1.97,
-        "note": "The Aussie dollar fell sharply. This makes your US holdings (MSFT, GOOG, TTWO) worth less in AUD terms when converted back."
+        "value": "0.6895",
+        "change_pct": -1.57,
+        "note": "The Aussie dollar fell 1.6% against the USD today — a meaningful move that hurt your international holdings priced in AUD and dragged on ETFs like VTS."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$91.25",
-        "change_pct": 0.81,
-        "note": "Oil ticked up slightly amid tensions in the Strait of Hormuz, where Iran attacked tankers overnight."
+        "value": "$90.65",
+        "change_pct": 0.14,
+        "note": "Oil was essentially flat, holding near $90.65/barrel. Tanker attacks in Hormuz provided upward pressure, offsetting any post-midterm relief."
       },
       {
         "name": "Gold",
         "value": "$4,055.8",
         "change_pct": -1.4,
-        "note": "Gold fell — somewhat surprising given the market chaos. Investors may be selling gold to cover losses elsewhere."
+        "note": "Gold dropped 1.4% — when risk appetite returns (as it did post-midterms), investors tend to sell 'safe haven' assets like gold."
       }
     ]
   },
   "politics": {
-    "summary": "It's a big week for Australia's economic story — the RBA hiked rates again, the central bank's deputy governor admitted it's 'losing public trust' on inflation, and Treasurer Chalmers is under pressure on wages, productivity and the federal budget.",
+    "summary": "The RBA is under fire from multiple directions this week — a deputy governor admitted the central bank is losing public trust on inflation, while the AFR has published a string of pieces on the internal tensions inside the bank. Meanwhile, Treasurer Chalmers is pushing a productivity agenda, there's pressure on Canberra over its Russia trade ties, and the AUKUS bill is raising eyebrows over the powers it hands to the Defence Minister.",
     "stories": [
       {
-        "title": "RBA hikes rates again in November — deputy governor admits trust is eroding",
-        "source": "ABC News / Savings.com.au / AFR",
+        "title": "RBA deputy governor admits bank is losing Australians' trust on inflation",
+        "source": "ABC News",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM041ZndwME93alVxQWF6S0RhMGRXLW1lQWFmSHF4X2puSGxhUzcwU3FrX0lxWVdacXMxS0dIVlVDcENfQXI1bEVqQlZqYnd2c3AxcHBlV05HZzI0VVVvOEZDZExoZGFnN3YwQ0t2M3E2eDRudmZrYmI2V0hkQmxQc1kzX09BTGFWdUlkdTNhbTBlbVBVeldpWmpwRGttNkh0THc?oc=5",
-        "why_it_matters": "The Reserve Bank raised the cash rate again this month, pushing up mortgage repayments for Australians on variable rate loans. Savings account rates are rising in response — so check your bank has passed it on. More worrying: the RBA's deputy governor publicly conceded that the central bank is 'losing Australians' trust' to manage inflation — a rare and significant admission that the bank's credibility is under pressure after so many rate hikes."
+        "why_it_matters": "The RBA's deputy governor has publicly acknowledged that the Reserve Bank is losing Australians' trust when it comes to managing inflation. This is a significant admission — the RBA has hiked rates multiple times and yet inflation remains stubborn, leaving many households squeezed on mortgages and cost of living simultaneously. The AFR reports the bank has significant internal tensions over its approach. Savings account rates rose again this month following the latest RBA cash rate hike. If you have a mortgage, more pain may be coming."
       },
       {
-        "title": "Chalmers under pressure on wages blowout and productivity",
-        "source": "AFR / The Australian",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGtBVVFYNkJrWEhDV0ZIbFo0WFZRT1BRb2ZxbXRwd2I0LThSb1NlVWhDQ2dBR0hFbGx4eFRob01QUmpjUmRrUXJ3blM2MlJ2NVN1SnU2QnJENGo2UUFlb0FOemJGbURpZVgybG1sbXVOdmd0UmE1Y292ZWpwUVRsWkpKOEFDTjBtdTBVQ3c5VXJzekJGTXBYQ0dqZzV5M3BOT3l2allJdw?oc=5",
-        "why_it_matters": "The federal government's own wage bill has blown out, putting more pressure on Treasurer Jim Chalmers to find budget savings. Meanwhile, Labor's productivity chief is publicly criticising the government's union-friendly industrial relations laws as a barrier to lifting productivity. Chalmers is now actively looking for ideas to boost productivity and rein in spending — suggesting a tighter budget is coming."
+        "title": "Chalmers pushes productivity reform agenda amid budget savings push",
+        "source": "The Australian / AFR",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdVBiZ0JHNThmZ3lmdFcxVG5ZZUQ3dzN2SDFwcWMwQ0JLSkdmcC1xUVdEQlNXWC1Ub0I2TlUydmtsWXRPaWZFcnh1aG02b3ZqeTI3LXI5N3FXbHl6YnZFR0dHR3lCc29ldDdFbTNRNFlDem9BeHVJVU9RdG51RVp6ZjQyTk5jMTJXR254dDBaV0c2Yzg5LTcwLU83dVZjMktRUjJMS0NjYlNFRDY2LW5UM2Q3WXFtUGY0UDJVUnhCYVJrNUxrRFJ2ZFNKSURxTkhkWm01aGhHWVF5cTU1R2pkR3JETGJWQmtB?oc=5",
+        "why_it_matters": "Treasurer Jim Chalmers is calling for a fresh push on productivity reform, with both the government and business urged to lift their game to help fight inflation without relying solely on interest rate hikes. At the same time, Chalmers is eyeing budget savings. The AFR notes that Labor's own productivity chief has fired shots at the government's union-friendly industrial relations laws as an obstacle to productivity growth — an awkward internal tension for Labor. A Politico piece argues Albanese must share AI-driven productivity gains broadly to save Australia's economic position."
       },
       {
-        "title": "Government warned over 'robodebt-style' risk with AI use",
-        "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRjhTUEduX01EV2RuQUdleTJDWFgyX29pQXhfVC1HbGxKVkVVVmUtSS1zYWgxTjN4SUUzYy1uQlRCZVRGeUdqS0dqZFlMTzZfRmFKNHdKSmpPUTlvYWd3a1V0SFZ2eUhWRVNsTElHVDhsY3NMSkpKRVlSRVBFc1JDQzM5bTV4MjRBTlFnUFUyMjR0UWstNWNralR1b0ZVN1htUTFiRWZCRzB1MTRFWFRpNTU3QkpibWphYzNEU0w1WXR2Ty1BcEtCNzVYUWNFcnBnbEZpaGZxS0VFTVh3dWZXM1ItTGNPbVI2V0Rsck9OQlE?oc=5",
-        "why_it_matters": "The Albanese government is being warned it risks repeating a 'robodebt-style' scandal by using algorithms and AI to make government decisions without adequate human oversight. Robodebt was a disastrous automated debt-recovery program that wrongly targeted welfare recipients and cost the government hundreds of millions in compensation. The warning comes as governments globally rush to use AI tools to cut costs — with serious risks if it goes wrong."
-      },
-      {
-        "title": "AUKUS Bill gives sweeping powers to Defence Minister",
+        "title": "AUKUS bill hands sweeping powers to Defence Minister — critics alarmed",
         "source": "Independent Australia",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeUs3MXlXekFpbXN2aGZxQzg4dG5pRFVqS3I5aUpCN01jVmtiQ2IyMWtPTERObjRGUFI1UnpDcTZ6UEpySFpWZXdiN0VyTklhVVdQX1FyMnBxNmVVVDVXZFV6N2ZPLVhheEZuclRGc3ltWlhnR2ppUEQyZjloYm9pVm5VV01jQ3VnQ1VYRHRUQWZXcl92V3REQ1ozQ0dDSDRlWW9SelZOWUFXLWF1TjMwRlZzd2kyZ3Zr?oc=5",
-        "why_it_matters": "New AUKUS legislation passing through Parliament gives the Defence Minister sweeping new powers to fast-track decisions related to the nuclear submarine deal. Critics say the bill concentrates too much authority in one minister with limited parliamentary oversight. The AUKUS submarine program is Australia's biggest-ever defence commitment — costing hundreds of billions of dollars over decades — so the governance arrangements matter a lot."
+        "why_it_matters": "New legislation to advance the AUKUS submarine deal is raising red flags among critics, who say it hands the Defence Minister sweeping powers with limited parliamentary oversight. The bill is designed to streamline the complex three-way arrangement between Australia, the US, and the UK. Critics argue the breadth of ministerial powers embedded in the bill goes well beyond what's needed and sets a concerning precedent for executive overreach on major defence decisions."
+      },
+      {
+        "title": "Pressure mounts on Canberra over Russia 'blood oil' trade ties",
+        "source": "SMH",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT3dGWkdiaHpXWFFET2Ffb2J2NDZQUUlrd2d5UnNNSDR0dHlnZUJ2cjV0S0NwNlJBOW9DYjZfd2pKN2kxYkk3RElzNXMtNnZpRE0tT3ZEd2tHdHJ5QjFYdWFpclJ0aXpMTlJGTXZKT0hucXRhUFJFLWRxUS1qWW0wRzBHaVNIUDV5SkFlcENDNnNBY0FPZFJrQWREWENUZFpiSFI5alJvbXVseE5ENDZkTGtqU1ZpSW83RWFhd1dnNHBNUnFOLUI1dk5naHBjczVnak1pMmZjOFI?oc=5",
+        "why_it_matters": "Australia is facing growing international pressure over what critics are calling a 'dumping ground for blood oil' — the country's continued trade links with Russia despite the Ukraine war and now the Iran conflict. SMH reports that calls are mounting on the Albanese government to tighten restrictions on Russian energy products entering Australia via third-party countries. The issue is politically sensitive given Australia's strong stance on Ukraine while simultaneously maintaining some trade flows that indirectly benefit Russia."
       }
     ]
   },
   "ai": {
-    "summary": "The biggest AI story today isn't a product launch — it's the market meltdown triggered by fears that the new US Congress will clamp down on artificial intelligence. Meanwhile, OpenAI launched GPT-6 Cyber and Tencent released a major open-source model.",
+    "summary": "The US midterm result is set to reshape AI regulation dramatically — Democrats are planning a flood of AI bills when they take power. Meanwhile, OpenAI has launched GPT-6 Cyber, a new security-focused AI model, and the question of how to actually regulate AI is heating up globally. Big Tech broadly had a rough midterms, with voters apparently unimpressed by the industry's political spending.",
     "stories": [
       {
-        "title": "AI regulation fears torch tech stocks globally after US midterms",
-        "source": "France 24 / Sharecafe",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb1l0R2ZDZkhfWDNxR1ZkR3Q5UFY4SEVGdnlNOWNOQ0w2TENZd0YyQU9ZU3BySXFKVGVDZ0piNFhHZVljdkZURzZYUmJhTzFSUXBrZ1RHeDR5dHhOdHhpaFZ6Y3dYMXRNRTJHNmU2MEdzblhxQXNNdElMODhBbXRvbGNDRHd4SzVEZWJvRkRoSQ?oc=5",
-        "why_it_matters": "The US midterm results spooked investors into believing the new Congress will push for tighter rules on AI companies and the data centres they rely on. NASDAQ fell 5.5%, Japan's Nikkei briefly dived more than 7%, and AI-related stocks — from chip makers to cloud companies — led the global rout. This is the biggest single-day AI-related market event in recent memory, and it directly hit your GXAI.AX, MSFT, GOOG and VTS.AX holdings."
+        "title": "Democrats planning flood of AI regulation bills after midterm victory",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSW1qclJEWjVTQTNNU0hWWndTVFlOWFpNY1RqQ1I5Z0F2anRxTE5IQnlTTDhjeU9uUGV2anlLaVBfMFdPc0k5eDJVTVk4VTlVbnVZX0VwVnBEMnhHX19fTGRvX2NrQnNJeGN5MzBBaXBLb3d3Y25JdHpjSXFQMENoa01vNk0yLXVLRVBGZjlHLVFuUmI0QWp5aFBBRzRUSDdNMkpCQ1lJVExIei0zVFFiY0x2eVBPcFJ3d2NCeGN6REF0dw?oc=5",
+        "why_it_matters": "With Democrats now set to control Congress, Reuters reports they are planning to introduce a large wave of AI regulation legislation. This is a major shift — the previous Republican-led Congress was broadly hands-off on AI. Expect bills covering AI transparency, bias, safety standards, and potentially limits on how AI can be used in hiring, finance, and media. For your GXAI.AX AI ETF, this regulatory uncertainty is a real short-term headwind, though long-term AI adoption is unlikely to be stopped by regulation alone."
       },
       {
-        "title": "OpenAI launches GPT-6 Cyber — a security-focused AI model",
+        "title": "OpenAI launches GPT-6 Cyber — a security-focused AI that finds hacker vulnerabilities",
         "source": "Times Now",
         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQRHpfS2ZoVGVBWjQ0aGZ2TXBkVFNIamp5ZGV6Nm5scEx5OUg2OG5zQTBsczByOXVGQUN3MzNlMjU2MDFFRkJMZnpuQk0zS1pHMkdFRDFGdWZpOVJaWFdRSG1DangtSzhXRmhmSzlTSXlraG5HX1V6bnE2anJxTkxFd2p4ZUM5c0lWbk5abU1FR1puQVFjVzdWM0pVUk5XbEtqYnhDWWo2cEMzZjRzLWRoVHZYMHZDR0RBZ2NZMUNVN21MYU1Dc3VielF1bWlBMWpKdW10M2lLLV94S21fbVZiREFERVNjdzRsOWI5WmVkZkNpMGN5ekHSAfsBQVVfeXFMTWpRdDdCRmN0c3Q5WDFsbkdpTVBOb0t4MlJkNW4tYmt0c3JNeTByS1FDZlpYQ2oxMEVoZUE3cXIwWmhrUTA0SHlFY29rQVBBUVNlSkpSbEVna2RveEVqbHI2SEgxZlNHaE15czVmVVlTYTJ5amJKSnRJUTcwajV2XzE3WE44cnJET0RKZHhPWXdqWTdCOFptWV9lTENGVllsNWl5RUEtR0dzTmRXa0Z0c1VDd2RaUmRwQWh3Q3luVlRrY3BlVVVVWGpObVNtam5BZVNKdVFuc2hmU2NHcDBPV3E0MGpEVVRFSXJLalp1OWNyVi1IaVRtQTdZM1k?oc=5",
-        "why_it_matters": "OpenAI has released GPT-6 Cyber, a new AI model specifically designed with cybersecurity in mind. The model is reportedly able to identify software flaws that hackers could exploit — meaning it can find security vulnerabilities before the bad guys do. This positions it as a competitor to Anthropic's Claude Mythos and Google's Gemini in the growing market for AI-powered security tools."
+        "why_it_matters": "OpenAI has released GPT-6 Cyber, a specialised AI model designed to compete with Anthropic's Claude Mythos and Google's Gemini in the cybersecurity space. The model can apparently identify software vulnerabilities that hackers could exploit — essentially an AI that thinks like a hacker to find holes before the bad guys do. It's a sign that AI is rapidly moving beyond chatbots into highly specialised professional tools, with cybersecurity being one of the fastest-growing applications."
       },
       {
-        "title": "Tencent launches Hy4 — joining the top tier of open-source AI models",
-        "source": "Tencent",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUnNab2ZSaWM1UUQ1NUFFVEgxZzc3ZWkyWDBzQmM5ZVdSNk9xY1FCa3VUYmE1ZHFUUnoyM3ZuNHpfeWk1UUlySXlaODZUemxWU2JrS0FqTmxUUld2Ry0zNHJ3cWM3cmN0SFo4clc0OVVuSG1XTnR5dkx5UmZ2b1FxZEI2TE1UUFZXb3dmandpY2dCTEhUZGlzLWxFWmxRMnF5aDJQUUhiUVpXOG8?oc=5",
-        "why_it_matters": "Chinese tech giant Tencent has released Hy4, an open-source AI model it claims competes with the world's leading AI systems. 'Open-source' means anyone can download and use or modify it for free — a direct challenge to paid models like GPT and Claude. This continues the trend of Chinese tech companies releasing powerful AI models openly, increasing global competition and potentially driving down costs for businesses using AI tools."
+        "title": "How Big Tech lost the midterms — voters turned on the industry",
+        "source": "Politico",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQmEySUJ0aE1vd1N5bWF3TFRPWGVLNmRVQnhXaUZQTWRjWHZIa0tIR2Q4VXh3LWxIOXd0cDVFVTNkVFhwQmtVS2F1dzVDNVU1QnF0bHVGNDVlSEV4QnpRX0pMSG0yUTJNU1BZZFFEUXhRdm96VVd2MUFSQ0ExN0JKRWVhdFE4WDBXYVlRWVdLU19JUEdHQ1BlMENlVEtZalh1azZN?oc=5",
+        "why_it_matters": "Politico argues that Big Tech broadly lost the midterms — not just because Republicans lost, but because tech-backed candidates and causes underperformed despite massive spending. Voter anger over AI job displacement, platform censorship debates, and Big Tech's perceived arrogance contributed to a hostile political climate. Democrats winning means more regulation is coming, and the era of tech companies operating largely unchecked in Washington appears to be ending."
       },
       {
-        "title": "Australian government warned on AI use — robodebt echoes",
-        "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRjhTUEduX01EV2RuQUdleTJDWFgyX29pQXhfVC1HbGxKVkVVVmUtSS1zYWgxTjN4SUUzYy1uQlRCZVRGeUdqS0dqZFlMTzZfRmFKNHdKSmpPUTlvYWd3a1V0SFZ2eUhWRVNsTElHVDhsY3NMSkpKRVlSRVBFc1JDQzM5bTV4MjRBTlFnUFUyMjR0UWstNWNralR1b0ZVN1htUTFiRWZCRzB1MTRFWFRpNTU3QkpibWphYzNEU0w1WXR2Ty1BcEtCNzVYUWNFcnBnbEZpaGZxS0VFTVh3dWZXM1ItTGNPbVI2V0Rsck9OQlE?oc=5",
-        "why_it_matters": "The Albanese government is being warned it risks a 'robodebt 2.0' by deploying algorithms and AI to make government decisions without enough human checks. The original robodebt disaster wrongly sent hundreds of thousands of debt notices to welfare recipients and cost taxpayers over $1.8 billion in compensation and legal costs. The concern is that speed and cost-cutting pressures are pushing governments to automate decisions that need human judgment."
+        "title": "AI trade suffers setback on regulatory fears — CNBC experts divided on what's next",
+        "source": "Sharecafe / CNBC",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdy1zcFlSM09MaHRKSXNqN2gtbHI2Q1M5TFRoNEdrb2Q5WmdHaFVqQ1BnWExENnZ5ZDNiMFZwUEoxLTFQQmJuUWJmN2VVRnFJbnh0c29qdi10bVhBV2I1bnBoTlFZaGpyOHBKMDBjbURyd0E4ZHpVNHdJQU1UME1RVW9heWYtMzhiSWQ1YVl2MjM2ak9oWnUwWnpSd1IzUQ?oc=5",
+        "why_it_matters": "The 'AI trade' — the market strategy of buying AI-exposed stocks and ETFs — took a hit this week as regulatory fears spiked following the midterm result. CNBC's market experts are divided: some say the AI trade is just pausing and will resume as fundamentals reassert themselves; others warn that a sustained regulatory crackdown could structurally reduce the profit potential of AI companies. For holders of GXAI.AX, this is worth watching but not panicking over — the long-term productivity gains from AI are still real."
       }
     ]
   },
   "sport": {
-    "summary": "NRL Grand Final history was made last weekend with the Roosters edging the Knights 19-18 at Accor Stadium. Nathan Cleary faces another operation, Ronaldo calls time on international football, and Australia's surfers head to Peru targeting back-to-back World Surfing Championship gold.",
+    "summary": "The NRL Grand Final is done — Roosters edged the Knights 19-18 in a thriller at Accor Stadium. Off the field, the Eels have made a big call on Josh Addo-Carr after a drugs test saga, Nathan Cleary has knocked back a monster offer, and tennis is in the news with Kyrgios confirming he'll play on in 2027.",
     "stories": [
       {
-        "title": "Roosters beat Knights 19-18 in Grand Final thriller",
+        "title": "Roosters win NRL Grand Final over Knights 19-18 in a thriller",
         "source": "NRL",
-        "link": "",
+        "link": "https://www.nrl.com/",
         "category": "NRL",
-        "why_it_matters": "The Sydney Roosters won the NRL Grand Final last Sunday, defeating the Newcastle Knights by the narrowest possible margin — 19-18 at Accor Stadium. It was a heart-stopper of a game and the Roosters' championship is now confirmed. Knights fans will be gutted by the one-point loss on the biggest stage."
+        "why_it_matters": "The Sydney Roosters have won the 2026 NRL Grand Final, defeating the Newcastle Knights 19-18 in an absolute nail-biter at Accor Stadium on Sunday 4 October. It went down to the wire — just one point in it at the final siren. A fantastic advertisement for the game heading into the off-season."
       },
       {
-        "title": "Nathan Cleary facing another operation — Penrith's star at risk",
-        "source": "SMH",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaVBkTFRRYS1FdVdCU2dNVlJGcnNqWXBoM1NTa1R1TzdzVElIUTRsa1JJd2ZwUnRuWGl2Qi1wLUJHdWdLLUJIZ1dqb3JvSXNsZFV6dzJYUUtxRjk5NEY0d1Q5Nkt5M2F0MkIyU2NEYVRSRTZ3RnRWWUg1TWxxOEFZWTJJQUpfSW4zUXNKMVFsdUlUdDVhd1AyRXNIaEstSGkxUVFyenZ1T3VGZzA?oc=5",
+        "title": "Eels make huge call on Addo-Carr after drugs test twist",
+        "source": "Fox Sports / Nine.com.au",
+        "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQem0xS2VQNE5oT2x1MGVEVFhmTFcxdUlTMUZsTzAyQ1dpV2l2NHl0THVZQ2luSVpXUE5FekplU19pOFB4a20yZjhzQ2NyWXRRZ0hWV1RQRmJWSmJrclF1WVYzWmZ6elVrYVN4Rk5XXzhjQ3hsTElOQm41c3Z4UU5xWEFkMFI0OWJTY2JGdmdzVHJydVlUcFF1T05EZW5ha1RQOE1ycE9NdGQ4Q0JDN1RWckp3R2NrY0RDdk1ONXVlOWpZZXFNbGFzb09teV9QWGFzTERfamljcGwxVTMxM1M3YjlxLVFxb3NTZ1I2NWdyakdQR090NVZhRlJSSUhGZkYwZzJXSHU4TXZTdXA4YWlGUlNtUUloZTl6UWhvOGEwOURKQnV2WkFXNVppcFFjSkIwZWtwTEFRbw?oc=5",
         "category": "NRL",
-        "why_it_matters": "Panthers star halfback Nathan Cleary is set to go under the knife again, raising serious concerns about his availability for the start of next season. Cleary is widely regarded as the best player in the NRL, and any extended absence would be a massive blow to Penrith's 2027 title hopes."
+        "why_it_matters": "The Parramatta Eels have made a major decision on Josh Addo-Carr's future following a drugs test controversy. After a board meeting, the club announced their position on the star winger — the saga had been hanging over the club heading into the off-season. The drugs test twist added complexity to what was already a contentious situation for Parramatta's roster planning."
       },
       {
-        "title": "Australia surfers head to Peru targeting back-to-back World Surfing gold",
+        "title": "Nathan Cleary rejects astonishing contract offer — Chiefs detail emerges",
+        "source": "News.com.au",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbUhWWF96cEZIczl5cTZFNGZPM18wZk9YeE9RRHFxeGpYb0k2ckdVeTZwamptVjRXejZlWE9ya2NHUE1HZ1lSVk5wNzdwa3dTWGNaYm1odFhFNG5qbVp1b1J6MmNBQmo3TmFqemN1dkhfWUFCS0FkWkJ0M2gyclpsOXJDWmdiN1c5OUNBUkw2S1RIU3pPenFpZUt3dF9tN2oxaWR0LTFtNTd1Z3l0VjFkZGpiZWRCcUVPQUNWdHJqeEg0TWcxNnlYc1BqMFJhX3RnbTFsVnl4NVBNZGFCLTNiY1RtSzR1U1hRV2dtaHBYYUEwMmFyLUpTUEMxUGlFcTZ5NWZ3WXltZGl6YUU?oc=5",
+        "category": "NRL",
+        "why_it_matters": "Panthers superstar Nathan Cleary has reportedly knocked back an astonishing contract offer, with the New Zealand Chiefs (rugby union) apparently in the picture. Cleary is one of the best players in rugby league and his contract situation is the biggest story of the NRL off-season. Details of the Chiefs offer have emerged, adding a rugby union dimension to what had been purely an NRL retention battle."
+      },
+      {
+        "title": "Nick Kyrgios to play on in 2027 — first tournament confirmed despite difficult season",
+        "source": "Tennis World USA / Tennisuptodate.com",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORldmZDJZQ2FjelJjdmpuTXJ6VUNHSUdpMDlLT25WMUpPeGJNbFNPYWNFWGt6Nnh1Skh4V3k0U1JZVEpxUUVBS1pjSU9XY0JLTGpxMXYwcUIzOFY3ZnA5bVQxQjNWOHJsZm9GUXFQUGM4bGx1cDY3a2JfN1ljZmhxUzZ5Sko3cGtfU0VVY3RrcWpyOE1IUVpheEM1ZGozZzlxbkQtUXc0YkJSWGJ1Q3l1bkI5VENIXzJQQ0dYUm02WUNnUllZQk9rU2ZyNHBoOHNER2c?oc=5",
+        "category": "Tennis",
+        "why_it_matters": "Nick Kyrgios has dispelled retirement rumours and confirmed he will play on in 2027, with his first tournament of the year already locked in. It's been a difficult 2026 season for the Canberran, including a suspension and an emotional Wimbledon farewell that many read as a goodbye. Kyrgios playing on will be welcome news for Australian tennis fans who've had a complicated but passionate relationship with the polarising star."
+      },
+      {
+        "title": "Australia targets back-to-back World Surfing gold — Irukandjis head to Peru",
         "source": "Sportzhub",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVkxUWkdNNHVibDJHU0FxNjdwVUFYdHRVYnVOSXBuMmNoNXM3TXl2WnhYN1RIWXlPc3dBcXlRRDFpWUhTanI3TDNxeFFIMWpJdUFKZWp6N3lJdjFIQTZVYVlCUkdEcG12Y2VYb3dWWEdFNFpzMDZJTWhhOFFpUkJpNWpLcm9LOEdWQlB4ZjZWX2Fld1otOThpQ216UUJCQjRiSnZJU0g1V2tBTUM2eDI0S0tBYWZxZw?oc=5",
         "category": "Surfing",
-        "why_it_matters": "Australia's Irukandjis (national surfing team) are heading to Peru to compete in the World Surfing Championship, with the squad targeting back-to-back team gold medals. Australian surfing is riding high internationally, and a second consecutive title would cement the country's dominance in the sport."
-      },
-      {
-        "title": "Ronaldo announces retirement from international football",
-        "source": "SABC News",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGVqcXdUNFZmdXM0dExGMWZKSWxzT01rNi1KbUlXdVBqT0Rua1lQQjBNbnZUMFpBcHIxb2taR0wxQ28xRjBVVmhReGJTQU9UUGh1NUFSSmV4M3B0MDRod0tfUjJpTmZoX0VMRkdMTkdyd2FVNGFsTzdOX2RoZVBMT2pPeWNNQk1yTVRZMnZubjY?oc=5",
-        "category": "Football",
-        "why_it_matters": "Cristiano Ronaldo has officially retired from international football, ending a career with the Portuguese national team that produced a record number of international goals and multiple major tournament appearances. The 41-year-old signed off as one of the greatest footballers of all time, closing the curtain on the Ronaldo-vs-Messi era that captivated the world for two decades."
-      },
-      {
-        "title": "Andreeva and Noskova — the new major champions bucking tennis tradition",
-        "source": "Australian Open",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWHhTbFBObTVPSUpUQTRYMEdvYjRUSlkwV25FYTFnZFJBSGQzZGNhdXV5ckpYSUhpNDllMzhRVXN5YWhINkJ0RlJiMUEzZ3gzcXpvdlE3RUhXVTh3cnRVY1Rab29EMFVjM3VqTjNTU244WE5sQ3RvMHFGb0ZzVmV3X2REY0ktZl9LVl80LQ?oc=5",
-        "category": "Tennis",
-        "why_it_matters": "The Australian Open is spotlighting two rising stars — Mirra Andreeva and Linda Noskova — as the new major champions reshaping women's tennis. Both players broke through at a young age, winning Grand Slam titles in a way that's unusual in the modern game dominated by experienced veterans. Worth watching as the Australian Open season builds toward January."
+        "why_it_matters": "Australia's Irukandjis are heading to Peru for the World Surfing Championships, targeting back-to-back team gold medals. Australian surfing has been on a dominant run internationally, and the squad is in strong form heading into the competition. Good news for Gold Coasters — the Goldie's surf culture runs deep, and an Aussie team gunning for gold in the sport is always worth following."
       }
     ]
   },
@@ -276,18 +276,18 @@
     "location": "Gold Coast",
     "icon": "☀️",
     "condition": "Clear sky",
-    "temperature_c": 21.5,
-    "high_c": 23.7,
-    "low_c": 18.6,
-    "rain_chance_pct": 18,
-    "rain_mm": 0.0,
+    "temperature_c": 18.2,
+    "high_c": 28.0,
+    "low_c": 17.8,
+    "rain_chance_pct": 39,
+    "rain_mm": 0.5,
     "tomorrow": {
       "icon": "🌦️",
-      "condition": "Light drizzle",
-      "high_c": 28.1,
-      "low_c": 17.9,
-      "rain_chance_pct": 55,
-      "rain_mm": 0.3
+      "condition": "Drizzle",
+      "high_c": 25.2,
+      "low_c": 16.6,
+      "rain_chance_pct": 82,
+      "rain_mm": 0.9
     }
   },
   "nrl_round": "Grand Final",
@@ -314,43 +314,43 @@
         "ticker": "GOOG",
         "shares": 0.2277,
         "currency": "USD",
-        "current_price": 281.74,
-        "current_value_native": 64.15,
-        "current_value_aud": 93.43,
+        "current_price": 286.88,
+        "current_value_native": 65.32,
+        "current_value_aud": 94.73,
         "total_invested": 70.0,
-        "total_invested_aud": 101.95,
-        "pnl_native": -5.85,
-        "pnl_aud": -8.52,
-        "pnl_pct": -8.36,
-        "day_change_pct": -1.94
+        "total_invested_aud": 101.52,
+        "pnl_native": -4.68,
+        "pnl_aud": -6.79,
+        "pnl_pct": -6.69,
+        "day_change_pct": 1.82
       },
       {
         "ticker": "MSFT",
         "shares": 0.6319,
         "currency": "USD",
-        "current_price": 535.93,
-        "current_value_native": 338.65,
-        "current_value_aud": 493.23,
+        "current_price": 533.41,
+        "current_value_native": 337.06,
+        "current_value_aud": 488.85,
         "total_invested": 280.0,
-        "total_invested_aud": 407.81,
-        "pnl_native": 58.65,
-        "pnl_aud": 85.43,
-        "pnl_pct": 20.95,
-        "day_change_pct": -3.58
+        "total_invested_aud": 406.09,
+        "pnl_native": 57.06,
+        "pnl_aud": 82.76,
+        "pnl_pct": 20.38,
+        "day_change_pct": -0.47
       },
       {
         "ticker": "TTWO",
         "shares": 4.4474,
         "currency": "USD",
-        "current_price": 213.36,
-        "current_value_native": 948.89,
-        "current_value_aud": 1382.01,
+        "current_price": 213.65,
+        "current_value_native": 950.18,
+        "current_value_aud": 1378.07,
         "total_invested": 960.0,
-        "total_invested_aud": 1398.19,
-        "pnl_native": -11.11,
-        "pnl_aud": -16.18,
-        "pnl_pct": -1.16,
-        "day_change_pct": 2.13
+        "total_invested_aud": 1392.31,
+        "pnl_native": -9.82,
+        "pnl_aud": -14.24,
+        "pnl_pct": -1.02,
+        "day_change_pct": 0.14
       },
       {
         "ticker": "VDHG.AX",
@@ -437,11 +437,11 @@
         "day_change_pct": -1.51
       }
     ],
-    "total_invested_aud": 3293.77,
-    "total_value_aud": 3188.42,
-    "total_pnl_aud": -105.35,
-    "total_pnl_pct": -3.2,
-    "aud_usd_rate": 0.6866
+    "total_invested_aud": 3285.75,
+    "total_value_aud": 3181.4,
+    "total_pnl_aud": -104.35,
+    "total_pnl_pct": -3.18,
+    "aud_usd_rate": 0.6895
   },
-  "generated_at_utc": "2026-11-06T07:38:08.532951+00:00"
+  "generated_at_utc": "2026-11-06T15:16:09.272823+00:00"
 }
