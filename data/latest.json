@@ -1,294 +1,286 @@
 {
-  "headline": "RBA hikes to 4.85% adding mortgage pain, Microsoft's global outage rattles markets, and the Roosters snatch an epic 19-18 Grand Final win over the Knights.",
+  "headline": "ASX dipped 0.7% today as Middle East tensions flare and a landmark AI lawsuit shakes the tech world — but your portfolio holds firm overall, up $30 on the year.",
   "portfolio": {
     "movers": [
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market Shares ETF",
         "change_pct": 0.5,
-        "note": "Closed up 0.5% today, tracking the broad US market's recent strength. This ETF mirrors the entire US sharemarket, so last night's mild S&P 500 dip didn't fully flow through — the AUD/USD move also plays a role in the local price."
+        "note": "Solid session today, rising 0.5% to close at $548.53. Broad US market strength from last night carried through — the ETF tracks the entire US sharemarket, so it captured the resilience across mid and small caps even as the NASDAQ pulled back."
       },
       {
         "ticker": "GXAI.AX",
-        "name": "Global X AI ETF",
+        "name": "Global X Artificial Intelligence ETF",
         "change_pct": 0.63,
-        "note": "Up 0.63% today despite holding a significant paper loss overall (-15%). AI sector news was mixed — a major lawsuit targeting OpenAI, Google and Anthropic spooked some investors, but Google's new Gemini 4 Hydrogen model launch kept sentiment from falling further."
-      },
-      {
-        "ticker": "GOOG",
-        "name": "Alphabet Inc. (Google)",
-        "change_pct": -0.96,
-        "note": "Fell about 1% last night. The overhang from a new US lawsuit seeking to halt frontier AI development (naming Google/Alphabet as a defendant) weighed on sentiment, and NASDAQ broadly softened. No fundamental change to Google's business — this is legal noise for now."
+        "note": "Up 0.63% today to $16.05, a small positive move despite broader AI sector uncertainty. The fund got a mild lift from positive AI spending sentiment — Nvidia's CapEx cycle commentary and continued AI infrastructure investment kept the mood cautiously upbeat. Still sitting at a -15% loss overall, so this is a welcome green day."
       },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": 0.35,
-        "note": "Edged up 0.35% today — a small positive session but the stock remains deeply underwater overall (down ~58% on your cost base). Lithium prices are still under pressure, with reports of a 23% price fall in the market. The long-term EV demand story is intact, but the sector is in a painful trough."
+        "note": "Edged up 0.35% today to $2.86, a tiny bit of relief for a holding that's down 57% overall. Lithium prices fell 23% recently on oversupply concerns — that's the core weight dragging PLS down. Today's small gain doesn't change the bigger picture; the lithium market remains under real pressure."
       },
       {
         "ticker": "VGE.AX",
-        "name": "Vanguard Emerging Markets ETF",
+        "name": "Vanguard FTSE Emerging Markets ETF",
         "change_pct": 0.32,
-        "note": "A quiet 0.32% rise today. Emerging markets have been choppy lately, partly due to a softer AUD and mixed signals from China. Nothing dramatic — just steady background noise."
+        "note": "Rose 0.32% today to $91.95. Emerging markets got a modest lift, possibly helped by Indonesia's upbeat 2027 economic outlook and broader stability in Asian markets. Still slightly underwater overall at -2.78%."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
         "change_pct": 0.38,
-        "note": "Up a touch last night (+0.38%). Buzz around GTA 6 continues to build — Bloomberg reports the online mode could land late 2027, and Take-Two's CEO dropped hints about physical disc versions. The hype cycle remains a real tailwind for this stock."
+        "note": "Nudged up 0.38% last night in the US to $227.82. The big news is GTA VI pre-orders have already topped $1 billion — a week before launch — according to Sensor Tower estimates. That's a staggering number and reinforces why TTWO is in a strong position right now."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "change_pct": 0.17,
-        "note": "Barely moved last night (+0.17%) despite a major global outage that disrupted services worldwide including Japan. The market shrugged it off — Microsoft issued an apology and reported broad recovery. A deal with AI chip firm Cerebras also helped sentiment stay positive."
+        "note": "Essentially flat last night, up a modest 0.17% to $523.88. Microsoft announced a cloud partnership with AI chip startup Cerebras Systems, reinforcing its AI infrastructure push. The stock remains comfortably up 18% from your average buy-in price."
+      },
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet Inc. (Google)",
+        "change_pct": -0.96,
+        "note": "Fell about 1% last night to $292.52. No major breaking bad news — the broader NASDAQ was soft too, down 0.9%. Underlying fundamentals remain strong: Google Cloud revenue reportedly grew 103% last quarter and the Gemini app hit 1 billion monthly users. The dip looks like general market weakness, not a Google-specific issue."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -0.25,
-        "note": "Dipped 0.25% today in a soft ASX session. Nothing stock-specific — the whole market was down slightly (ASX 200 fell 0.71%), and VDHG followed. This is entirely normal for a diversified ETF."
+        "note": "Dipped a minor 0.25% today to $77.33, in line with the broader ASX pulling back 0.7%. Nothing specific to VDHG here — it tracks a diversified mix of global shares, so it followed the market down. Still essentially flat on your cost base."
       },
       {
         "ticker": "DHHF.AX",
         "name": "BetaShares Diversified All Growth ETF",
         "change_pct": -0.02,
-        "note": "Essentially flat today (-0.02%), holding steady despite the broader ASX dip. Broadly diversified ETFs like DHHF tend to be stable day-to-day — nothing to read into here."
+        "note": "Virtually unchanged today, down just 2 cents to $42.54. This one's as steady as it gets — diversified across global markets, tiny daily moves are the norm. Up 2.24% overall."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "RBA hikes to 4.85% — what it means for your portfolio",
-      "detail": "The Reserve Bank lifted the official cash rate to 4.85% this week, adding to pressure on Australian households and commercial property. Higher rates mean tighter conditions for the economy, which can weigh on ASX-listed companies and ETFs like VDHG and DHHF. For a long-term holder, this is a 'sit tight' moment — rate cycles eventually turn. Watch for any RBA commentary about whether this is the peak.",
-      "urgency": "orange"
-    },
-    {
-      "title": "PLS.AX — Hold through the lithium pain",
-      "detail": "Pilbara is down 57.6% on your cost base, and lithium prices have dropped another 23% recently. Today's small +0.35% move is a flicker, not a recovery. The long-term EV battery demand story hasn't disappeared, but this will take patience. Unless your thesis has fundamentally changed, hold — selling now locks in a large loss near what could eventually be a cycle bottom.",
-      "urgency": "orange",
-      "ticker": "PLS.AX",
-      "action": "hold"
-    },
-    {
-      "title": "GXAI.AX — Lawsuit noise, but hold the AI theme",
-      "detail": "A new US lawsuit is seeking to halt frontier AI development by OpenAI, Google, Anthropic and others. It's unlikely to succeed but could create short-term volatility in AI stocks and ETFs like GXAI. The long-term AI investment theme remains intact. GXAI is down 15% overall but ticked up 0.63% today. Hold — don't let a legal headline shake a long-term position.",
-      "urgency": "orange",
-      "ticker": "GXAI.AX",
-      "action": "hold"
-    },
-    {
-      "title": "GOOG — Down last night, long-term story intact",
-      "detail": "GOOG slipped ~1% last night, partly on the AI lawsuit news (Google is named as a defendant). The stock is down 4.85% on your overall cost base. Google just launched Gemini 4 Hydrogen, a new high-speed AI model competing directly with Claude and GPT — the AI arms race is very much alive. For a long-term holder, nothing has changed. Hold.",
-      "urgency": "green",
-      "ticker": "GOOG",
-      "action": "hold"
-    },
-    {
-      "title": "TTWO — GTA 6 hype building toward late 2027 launch",
-      "detail": "Bloomberg is reporting GTA 6 Online could launch late 2027, and Take-Two's CEO confirmed physical disc versions are still being considered. These are positive signals for the long-term thesis — GTA 6 is expected to be one of the biggest entertainment launches in history. TTWO is up 5.5% on your cost base. Hold comfortably.",
+      "title": "GTA VI pre-orders hit $1 billion — TTWO looking strong",
+      "detail": "GTA VI pre-orders have reportedly topped $1 billion a week before launch, according to Sensor Tower estimates. Even the game's original creators say they haven't been able to play it yet, which is generating massive buzz. This is the moment Take-Two has been building towards for years — if the launch goes well, it's a significant catalyst. For a long-term holder, this is exactly the kind of milestone you've been waiting for. Hold tight.",
       "urgency": "green",
       "ticker": "TTWO",
       "action": "hold"
     },
     {
-      "title": "Microsoft outage — a bump, not a bruise",
-      "detail": "Microsoft suffered a major global outage this week affecting services in Japan and elsewhere. The company apologised and confirmed broad recovery. The market barely flinched (+0.17% last night). For a long-term holder this is irrelevant — cloud outages happen occasionally and have never derailed Microsoft's growth trajectory. Hold with confidence.",
+      "title": "PLS still deep underwater — lithium market under pressure",
+      "detail": "Pilbara Minerals edged up 0.35% today, but the broader lithium story remains grim — prices have fallen 23% recently on global oversupply. At -57.6% on your investment, this is the portfolio's biggest drag. The long-term EV demand thesis is still intact, but the recovery timeline keeps stretching. No reason to sell at this price — you'd be locking in a big loss. Hold and wait for the cycle to turn.",
+      "urgency": "orange",
+      "ticker": "PLS.AX",
+      "action": "hold"
+    },
+    {
+      "title": "GOOG dipped ~1% last night — but the fundamentals look great",
+      "detail": "Alphabet fell about 1% last night alongside a soft NASDAQ. But step back: Google Cloud reportedly grew 103% last quarter, and the Gemini AI app now has 1 billion monthly users. The long-term story here — cloud, AI, search dominance — is as strong as ever. You're only down ~$5 on a small position. Nothing to worry about; sit tight.",
       "urgency": "green",
-      "ticker": "MSFT",
+      "ticker": "GOOG",
+      "action": "hold"
+    },
+    {
+      "title": "RBA rate pressure building — watch for household stress signals",
+      "detail": "Multiple news outlets are reporting the RBA cash rate is now at 4.85%, with some economists warning of recession risk for Australian households. A major bank has reportedly called the rate cycle 'done,' suggesting the next move could be a cut. This matters for the broader economy — higher rates squeeze spending, which flows through to company earnings. Worth watching over the next few weeks as more data comes in.",
+      "urgency": "orange"
+    },
+    {
+      "title": "Major AI lawsuit could freeze development at Google, Microsoft, OpenAI",
+      "detail": "A coalition of nonprofits has filed a landmark lawsuit seeking to halt the development of advanced AI systems at Anthropic, Google, Meta, OpenAI, and SpaceX, citing risks of bioweapon proliferation and cyberattacks. While courts would take months to rule, even the threat of regulatory action creates uncertainty for AI-heavy holdings like GOOG, MSFT, and GXAI.AX. Worth watching as the case develops.",
+      "urgency": "orange"
+    },
+    {
+      "title": "GXAI.AX had a green day — AI spending sentiment stable",
+      "detail": "Your AI ETF rose 0.63% today to $16.05, a small positive sign. Nvidia's AI infrastructure spending cycle and continued big-tech AI investment are keeping the fund supported, though it's still down 15% overall. The AI lawsuit news (above) is a risk to watch, but for now the sector tailwind is intact. Hold your position.",
+      "urgency": "green",
+      "ticker": "GXAI.AX",
       "action": "hold"
     }
   ],
   "world": {
-    "summary": "Big stories today: sea mines in the Strait of Hormuz threaten oil shipping, a US flight ground stop stranded thousands, Microsoft's global outage spread to Japan, Gulf nations form a new joint military command, and Goldman Sachs forecasts solid global growth in 2027.",
+    "summary": "Middle East tensions dominate global headlines with oil tankers on fire in the Strait of Hormuz, while a massive US flight ground stop stranded thousands and Trump reshuffles his Iran diplomacy team. Elsewhere, Goldman Sachs forecasts reasonable global growth for 2027.",
     "stories": [
       {
-        "title": "Two oil tankers catch fire after hitting sea mines in the Strait of Hormuz",
-        "source": "The National News",
+        "title": "Oil tankers catch fire in Strait of Hormuz after hitting sea mines",
+        "source": "The National",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXFoNFFYdTBqTjZjZ3pBRTk4bm9QWkRnRUstbndsQV8wd1dhX281Y1hhblZCNjdJT2dZWGZXZWZBWGZTWDBZNXg0bVc1a1hGbjNSWHFNb2FveFY3VjhXRy1ZRU1CVWFUa3B4aGtNdjVwZU5WTmR2VkhHNmJHYjZ1VGg5dXpYWG5JWmVuSExGQ3MwLUE?oc=5",
-        "why_it_matters": "Iran's Revolutionary Guard (IRGC) says two oil tankers struck sea mines and caught fire in the Strait of Hormuz — the narrow waterway through which about 20% of the world's oil passes. This is a major escalation risk. If shipping through Hormuz is disrupted, oil prices spike globally, which flows through to petrol prices here in Australia. Crude oil (WTI) is currently sitting around US$88.56 — keep an eye on this."
+        "why_it_matters": "Iran's Revolutionary Guard (IRGC) says two oil tankers caught fire after hitting sea mines in the Strait of Hormuz — one of the world's most critical shipping chokepoints, through which about 20% of global oil supply passes. Mine warfare in this stretch of water is a serious escalation. Oil prices were already elevated; a sustained blockage or more attacks could push fuel prices higher globally, including at Australian petrol stations. Trump is reportedly discussing Iran directly with Xi and Putin, adding a major geopolitical dimension."
       },
       {
-        "title": "US nationwide flight ground stop lifted after stranding thousands",
+        "title": "Trump pulls VP Vance off Iran talks, redirects focus to 'fraud campaign'",
+        "source": "The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GVkpKYjhub0lKY3JLamNqdW91aWl4YnAwbVZZV3J5YWR6b1k4SnBXcWRkOWJSOUdFcXlLUHl5WlNuYU1tNlF2TFF4bkxudVVtYUVIWG0wb2RRR0J4YkQ2eWRpMUxOdzFldHRfT0hPMGpSVEhHcFRTT1QwSENIckk?oc=5",
+        "why_it_matters": "President Trump has removed Vice President JD Vance from leading Iran nuclear negotiations and redirected him to focus on what Trump is calling a 'fraud campaign.' The move leaves the Middle East in limbo about who is actually running US Iran policy — and markets hate uncertainty in that region. With two tankers already on fire in Hormuz, the lack of clear US diplomatic leadership on Iran is a genuine risk factor for oil prices and regional stability."
+      },
+      {
+        "title": "Ground stop lifted after thousands of US flights stranded",
         "source": "NBC News",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcFpNUWJMU2ppemowM1BHcmRhZTc0YkhQTjl5ZVdTX0VIVlhwOGJESXdjcUhiM1lkbWZHUTJManlCYWRWc3FGWVpIUUNSSWhNeGM1TDN6UnJKSUZUUnlpS2Rac3J0M1RNcTg0WmRGYXlfRjlLTmtwd1FXcmpCU1hBX0sxUW4xbTczY1BOcUt6RkhyMzN5Y2x2TTg3MkJlTzBFLWxmdlNQbnlHVkRPeHg0TEI3VWg?oc=5",
-        "why_it_matters": "A ground stop — where air traffic control halts all departing flights — was imposed across the United States, leaving thousands of passengers stranded at airports for hours before being lifted. The cause hasn't been fully detailed, but events like this highlight the fragility of air traffic systems. For Australians with US travel plans, it's a reminder to build buffer time into connections through US airports."
+        "why_it_matters": "A ground stop — meaning the aviation authority ordered all departures halted — was imposed across the United States, stranding thousands of flights for several hours before being lifted. The cause hasn't been fully detailed in reports yet, but events like this can ripple through global aviation schedules for days. If you're travelling soon or have family flying through the US, delays are likely still flowing through the system."
       },
       {
-        "title": "Microsoft's major outage spreads to Japan and beyond",
-        "source": "Asahi Shimbun",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GM0hDVDRlMW9aczdscWRyTXhzQm1VUTlZcGhucjJHU3kzOElTc0xlTjExWEpPRmlJbmg0WkxfRGp5R19WdGw1NWFFcXpNekF2dWFWTmpB?oc=5",
-        "why_it_matters": "Microsoft suffered a significant global outage that disrupted services across multiple countries including Japan. The company issued an apology and said services have broadly recovered. With Microsoft's cloud (Azure) underpinning huge amounts of business infrastructure worldwide — from hospitals to banks — outages like this have real-world economic consequences. Microsoft shares barely budged, suggesting the market sees it as a one-off."
+        "title": "Goldman Sachs forecasts 2.8% global growth in 2027 as oil prices decline",
+        "source": "Goldman Sachs",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaVN6c05ZMXB0aDFpXzBnazNkc29iejZSdmY4ZGxDYUx1bUFjUlNPVm1sRkljdUlDZnBkUnJVbFVPZU1JMkhid2xRWk1HWXlyV1ZVejBnSm1KeUJyNUgtemRvRnJuUlpDdTlxWXdXNm1QZXFKMExlNVZDOXA1VlotTGNROV82OFE4ODU5aDlZNDhSSmc4YkxGRDhZRXZlWVNGWllDQU1DMUxlc1kwR0xtQzAzMS1OLUZvRm45SHZoQ0FMbmxTVFZ0R3JKVTVQQQ?oc=5",
+        "why_it_matters": "Goldman Sachs is forecasting the global economy to grow 2.8% in 2027, with declining oil prices helping ease inflation pressure around the world. That's a reasonably healthy outlook — not booming, but stable. For a long-term investor, steady global growth is a tailwind for diversified ETFs like VDHG and DHHF. Lower oil prices also mean less inflation pressure, which could give central banks room to cut interest rates sooner."
       },
       {
-        "title": "Gulf nations establish new joint military headquarters in Kuwait",
+        "title": "Gulf nations open new joint military headquarters in Kuwait amid regional tensions",
         "source": "CGTN",
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA3UjNWWVd4ZFVidlBvSkNsQm9Nd3JLLVJWbG11dGVOb0twQWFxTlJIRnNlYUl4S1I0VmNlVHF3R3FCUm5xb1JfZVNNZS1JREwxbHJFUUszR1JhdzJIak5OWVQxaHVoRXMyTDZrSFRnRmZ0YXEzeDZYMQ?oc=5",
-        "why_it_matters": "Gulf Cooperation Council (GCC) countries — including Saudi Arabia, UAE, Qatar and others — have set up a new joint military headquarters in Kuwait, amid ongoing regional tensions. This is a significant security development: it signals the Gulf states are preparing for more coordinated defence responses, particularly as Iran's actions in the Strait of Hormuz escalate. A more militarised Middle East means higher oil price risk."
-      },
-      {
-        "title": "Goldman Sachs forecasts global economy to grow 2.8% in 2027 as oil prices ease",
-        "source": "Goldman Sachs",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaVN6c05ZMXB0aDFpXzBnazNkc29iejZSdmY4ZGxDYUx1bUFjUlNPVm1sRkljdUlDZnBkUnJVbFVPZU1JMkhid2xRWk1HWXlyV1Z1ejBnSm1KeUJyNUgtemRvRnJuUlpDdTlxWXdXNm1QZXFKMExlNVZDOXA1VlotTGNROV82OFE4ODU5aDlZNDhSSmc0YkxGRDhZRXZlWVNGWllDQU1DMUxlc1kwR0xtQzAzMS1OLUZvRm45SHZoQ0FMbmxTVFZ0R3JKVTVQQQ?oc=5",
-        "why_it_matters": "Goldman Sachs is predicting the world economy will expand 2.8% in 2027, helped by declining oil prices easing inflation pressure. That's a reasonable — if not spectacular — growth rate, and broadly positive for global sharemarkets. For an investor with international ETF exposure (VTS, VDHG, VGE), a stable growth outlook is a green light to stay the course on long-term positions."
+        "why_it_matters": "Gulf Cooperation Council (GCC) countries — including Saudi Arabia, UAE, and Kuwait — have established a new joint military headquarters in Kuwait as Middle East tensions escalate. This is a significant security development: Gulf states are clearly preparing for the possibility of wider conflict, particularly given the tanker attacks in Hormuz. For Australia, the Gulf region is a key trading partner and major source of our LNG competition — instability there affects global energy markets and our own exports."
       }
     ]
   },
   "markets": {
-    "summary": "The ASX 200 closed down 0.71% today as the RBA's rate hike to 4.85% weighed on sentiment. Last night, US markets also softened — the NASDAQ fell 0.91% and the S&P 500 dropped 0.40%. The Aussie dollar slipped to US67.74 cents. Gold is holding near all-time highs around US$3,886. Oil is steady near US$88.56 but Hormuz sea mine reports are a watch item.",
+    "summary": "The ASX closed down 0.71% today at 9,082 — a broad pullback after a few solid sessions. Last night on Wall Street, the NASDAQ dropped nearly 1% and the S&P 500 fell 0.4%, with tech stocks leading the retreat. Oil is steady near $88.56 a barrel, gold is flat at $3,886, and the Aussie dollar slipped to 67.74 US cents.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "9,082",
         "change_pct": -0.71,
-        "note": "Closed lower today — RBA rate hike to 4.85% the main drag"
+        "note": "Closed lower today as global uncertainty and Middle East tensions weighed on sentiment."
       },
       {
         "name": "S&P 500",
         "value": "7,562",
         "change_pct": -0.4,
-        "note": "Mild pullback last night — broad market caution"
+        "note": "Pulled back last night — modest decline across the board."
       },
       {
         "name": "NASDAQ Composite",
         "value": "25,136",
         "change_pct": -0.91,
-        "note": "Tech sold off last night — AI lawsuit news and general risk-off mood"
-      },
-      {
-        "name": "AUD/USD",
-        "value": "0.6774",
-        "change_pct": -0.48,
-        "note": "Aussie dollar weakened — RBA hike not enough to lift it as global risk appetite dipped"
+        "note": "Tech stocks led the retreat last night, down nearly 1%."
       },
       {
         "name": "Crude Oil (WTI)",
         "value": "US$88.56",
         "change_pct": -0.2,
-        "note": "Barely moved despite Hormuz mine reports — watch closely"
+        "note": "Barely moved despite tanker fires in Hormuz — markets may be pricing in a quick resolution."
       },
       {
         "name": "Gold",
         "value": "US$3,886",
         "change_pct": 0.03,
-        "note": "Holding near record highs — safe haven demand remains strong"
+        "note": "Essentially flat — still at historically elevated levels as a safe haven."
+      },
+      {
+        "name": "AUD/USD",
+        "value": "0.6774",
+        "change_pct": -0.48,
+        "note": "The Aussie dollar slipped about half a cent — traders may be pricing in rate cut expectations and global risk-off sentiment."
       }
     ]
   },
   "politics": {
-    "summary": "Big domestic news today: the RBA has lifted rates to 4.85%, adding pressure on households and sparking debate about whether the government's spending is making inflation worse. The government is also back to square one on its backpacker visa crackdown, and there's movement on AUKUS and AI regulation.",
+    "summary": "The RBA's interest rate is now at 4.85% and dominating domestic headlines, with one major bank declaring the hiking cycle 'done'. The Albanese government faces mounting pressures on housing, tax reform, and backpacker visa policy. The Greens are adding conditions to Labor's trust tax legislation.",
     "stories": [
       {
-        "title": "RBA lifts cash rate to 4.85% — households warned of 'horror story'",
-        "source": "CoStar / News.com.au",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcUZQem5OWUZOU0haYjA5VDA5QjhveWkwd1ozTmpsNGxHbEd0VjVrTTVHYUIyd1RLZjNhSktueEU1UU9hUGJGTzNZUkY1N2o3elRocHNZVEhOdjJqck55WGlXZGxVaXRtdUhrRG1Rbk8yam9JR0JQOWFUVHlRNE85Ukk0X3lER0NRNWpsVTNIWl8zaU52YmhMaG4taFZaWHFicFJiRDd6TmdueUJsczQ0QXdFaW5KVEdD?oc=5",
-        "why_it_matters": "The Reserve Bank has raised the official cash rate to 4.85%, adding to mortgage repayments for millions of Australians. At least one major bank is now calling this the peak — saying rate hikes are 'done' — but others warn inflation hasn't been tamed yet. Commercial property is also under pressure from higher borrowing costs. If you have a variable rate mortgage, your repayments will rise again."
+        "title": "Major bank declares RBA rate cycle 'done' as rates hit 4.85%",
+        "source": "News.com.au",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSUdIeUVaaFRpTmxmeFNuNUZuWWs2RkZhQ2RkT3pRcFdFck8xNUd1N2lEZ2w5VnlwLVprbkFCdXBMZWNKQkh0Z3pVSUdicTFYTzdaN0ZBMVVuR3E4VV9OSG1fbjk4alc1cXB4cERzM3FaLUI3RWprYUtidjZKWTl4NW9hRkkyNGVsN3pnY19Ba3IxNUdQZ1VEbDFFWk9PZjl5LTFMTnBCWEltc3FVdUs0b0l3RG1ra0JubGlYS2Zyc2lsNmRyekk2bzhDZEFSWm9zdDNiUm8zSUtXblA3S1JpcUw3X2JOM2JVME8tbFhmZWM0VV96MTBPWGVjMlZhV1FmZk1XekxFRHZOWFVoVUFfVWpNNnQ?oc=5",
+        "why_it_matters": "At least one major Australian bank is now calling the RBA's interest rate hiking cycle over, with the cash rate sitting at 4.85%. That's one of the highest rates in over a decade, and it's squeezing mortgage holders hard. If this bank is right and the next move is a cut, that would bring relief to millions of Australian borrowers — but it also depends on inflation actually coming down. Watch the RBA's next meeting closely."
       },
       {
-        "title": "Big bank bosses press government to cut spending to tame inflation",
-        "source": "AFR",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVUZUSmRwcWhlYURZRElUYTloLTlaV21vWmYwcmlnUUJLeVlTZUVxRkpfTmtNM2hvQnhSUzh0NktUdl84MUtRb2tXTGYzRS0yNWhodThBT0U1aUtWSHJWcEEtVXNGcm9JX3JvajA4Q1FRdHlGcEZ1LUk2ZW9DZXVGTmkxbFd3M09kdVFhVUVhTDhxNTd4M0hmU091UFdaVXlqN1ZtT1A4d0NvbXo4RUh3M0ZlMjRjWS16dE5JTjlWWmNaYzZubFJhdkhoOA?oc=5",
-        "why_it_matters": "The CEOs of Australia's major banks have publicly called on the Albanese government to slash spending, arguing that high government expenditure is fuelling inflation and forcing the RBA to keep raising rates. This is a pointed political message: the banks are essentially saying the government's budget is part of the problem. Expect this to become a hot political issue heading into 2027."
+        "title": "Australian households face 'horror story' as rates threaten recession",
+        "source": "tanea.com.au",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQenEwY3pEUVNGT1ZWWk9iVEVhVnFwd1hNX1JBdm9JTUNPdFY5MGt3QlRRTFBQdGlFOFEwZ0VNRDlqOW5hWGtoUHZ2YUlXR2E2M0lkSHY0VzNmSDVOYTcwc3pjTU5WWVg0elNVS1E0cHZlQkFVVXZidTRhbVYxS010WjRtQUt5dkZOdlpTbzNVRGgyYnVRYlJydkxJVm1nVnlwTEg4OXFIY3E3S3BFNlE?oc=5",
+        "why_it_matters": "With the RBA cash rate at 4.85%, commentators are warning that Australian households are under severe financial stress. Higher rates mean bigger mortgage repayments — for someone with a $600,000 mortgage, repayments could be $1,000+ a month more than three years ago. If spending collapses, it could tip the economy into recession. The RBA is walking a tightrope between fighting inflation and not crushing the economy."
       },
       {
-        "title": "Government's backpacker visa crackdown goes back to drawing board",
+        "title": "Government goes back to drawing board on backpacker tax crackdown",
         "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXlRalJLZ1IzX1gtZjFwamxjLUNjbjFQdG1meXE2Q1A2ejVPUlY0T3lRWHFjeFJ0S1JWbkxaQ1VZcWJfM1IzcEV4ckhVX1Bfb0NpQ2VoY2lsdkNJYV9WaGdpemQ3VExraVJLdW9yVE96WVRLNE1PUG51czFUeFpxd2lZd3Znalp6VDJZOG52aTRtVXJRbjNpYkVGbkFWdGdKSC1jbUln?oc=5",
-        "why_it_matters": "The federal government's proposed crackdown on backpacker working visas has been sent back for a rethink after failing to gain enough support. The policy was aimed at limiting where backpackers could work, but it ran into strong opposition from regional industries — including agriculture and hospitality — that rely heavily on this workforce. The government will need to come up with a revised approach."
-      },
-      {
-        "title": "Albanese Government to legislate mandatory safety rules for frontier AI",
-        "source": "Law Society Journal",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWVBMzM0T3FEOXZOOGpCSmxVMkpabjNaaWF6Nm1XTXZlUko2NnpJSXhJYnZwRlN0MHVjNzFaM3Q4ejVOSG0zOW1qd0ZxdzYybG5Ga1UzRGU1dk5MY29SYVRNZEdCeEZFTXZIZUVUUFJ6WERfdmRNeE9scjF1dm5FRnNDbVJuY1pCQXVYNk10em1pSnNwRDI2V201b0xEbjFhdlE?oc=5",
-        "why_it_matters": "The Albanese government has announced plans to legislate mandatory safety rules for 'frontier AI' — the most powerful and cutting-edge AI systems. This would make Australia one of the first countries to legally require AI developers to meet safety standards before deploying their most advanced models. It's aimed at preventing catastrophic misuse, and comes as a similar legal battle plays out in the US courts."
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXlRalJLZ1IzX1gtZjFwamxjLUNjbjFQdG1meXE2Q1A2ejVPUlY4T3lRWHFjeFJ0S1JWbkxaQ3VZcWJfM1IzcEV4ckhVX1Bfb0NpQ2VoY2lsdkNJYV9WaGdpemQ3VExraVJLdW9yVE96WVRLNE1PUG51czFUeFpxd2lZd3Znalp6VDJZOG52aTRtVXJRbjNpYkVGbkFWdGdKSC1jbUln?oc=5",
+        "why_it_matters": "The federal government's plan to crack down on working holiday visas (backpackers) has stalled and gone back to square one. Backpackers fill a critical role in Australian agriculture and hospitality — without them, farms can struggle to harvest crops and regional businesses can't find staff. The policy reversal suggests the government couldn't get it through parliament or faced too much industry blowback. No clear alternative has been announced yet."
       },
       {
         "title": "Greens demand Labor publish names of trust beneficiaries to pass new tax",
         "source": "News24",
-        "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPMTllUmxTNUNRR0t4OVZPb0lpVm9VZnlMMk13SEstZk1OcjEyLTFVYUt2dmlDb0Q1VnppRTNjSm90bXVVWjc3anNkdFp3Y0cwcW5tdEFHN29UNGJoS2F3dWR4TUpqMUhiUGJ2M1dzZFkyZ2MwWWF0cGlSQTRZNk5qRkZNMW1DbGhPYm1BdGlNRmdjNDBiclpkUjI4eXQyY1RsU1N6NGxSUnNOUTZuc2o5ZzRFbHBNTk5hV0ktRWs0eEdYWDBBTGRDSm00RG85cDluZkZRX2ozNmU1WkNldVg0U1hjZ09pdWdvaWt4U2t1SkJJOGRYbzlnZzR1elpYWUJ4Q09XazJPaFU2YkdoRk1DbnFzcHc5RVJ4ZmotMzlmdnFpbEk0UTFXZkxWNTRya2ExRC12LWY2Umowei1y0gHCAkFVX3lxTE1id19udTVfQVBQUmNLSjlaYlVZMThobU0zNU9kMzBrTHdkSnhVNzhVSERZeVN3RkFCbnhQeXc2V0RXZGdvVzRkWGd4WnRyV3hQMmhOcDdJOU5iN1JkZlcxc1JXdFl1OTR6VkRUM0ZYSkZuYWhoSFl4WmlNQjk5VE5XRHZNUndDSDRQS3dzbkRkdmwtLVNWX0NDN1FsdEJia2JnT2s5dWJiR3N3ZEQ0OXhORGNmQzBtRUhPRUxhYnFHYUxUZE8yazhqVkFrbzFkZjlkVy1rQUYxZkJ5SFJsU1A0YkFQUzZTQ2pQbFctZ0JFaFZtMDhjQi0wSHh3UzFtMGtzQVdnUWJ1ZmJOWnk0d1pLd29XZ01ob3hKWjZxS1k1eFBwUzU0WERqZS1IcjJCS0FyYUJuc01Cd0t4LTVSaDNETWc?oc=5",
-        "why_it_matters": "The Greens are holding up Labor's new trust tax legislation — which would impose higher taxes on distributions from family trusts — by demanding the government first publish the names of one million trust beneficiaries. Labor has refused, citing privacy. Trust taxation is a politically charged issue as it primarily affects wealthier Australians who use trusts for tax planning, and this standoff could stall the legislation in the Senate."
+        "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPMTllUmxTNUNRR0t4OVZPb0lpVm9VZnlMMk13SEstZk1OcjEyLTFVYUt2dmlDb0Q1VnppRTNjSm90bXVVWjc3anNkdFp3Y0cwcW5tdEFHN29UNGJoS2F3dWR4TUpqMUhiUGJ2M1dzZFkyZ2MwWWF0cGlSQTRZNk5qRkZNMW1DbGhPYm1BdGlNRmdjNDBiclpkUjI4eXQyY1RsU1N6NGxSUnNOUTZuc2o5ZzRFbHBNTk5hV0ktRWs0eEdYWDBBTGRDSm00RG85cDluZkZRX2ozNmU1WkNldVg4U1hjZ09pdWdvaWt4U2t1SkJJOGRYbzlnZzR1elpYWUJ4Q09XazJPaFU2YkdoRk1DbnFzcHc5RVJ4ZmotMzlmdnFpbEk4UTFXZkxWNTRya2ExRC12LWY2Umowei1y?oc=5",
+        "why_it_matters": "The Greens are demanding that Labor publicly release the names of one million Australians who benefit from family trusts — a condition for passing Labor's new trust tax legislation. Trusts are a common tax structure used by wealthy families to distribute income and reduce tax bills. Labor wants to tax them more heavily; the Greens want transparency before they vote for it. This is a classic Greens-Labor negotiation, but it could stall an important revenue measure."
       }
     ]
   },
   "ai": {
-    "summary": "Two big AI stories today: a landmark US lawsuit is trying to legally force OpenAI, Google, Anthropic and others to stop building their most powerful AI models — and Google just launched a major new AI model called Gemini 4 Hydrogen. Meanwhile, Anthropic's Claude has topped the latest AI rankings.",
+    "summary": "The biggest AI story this week is a landmark lawsuit from nonprofits seeking to freeze development of advanced AI at Google, OpenAI, Anthropic, Meta, and SpaceX over fears of bioweapon and cyberattack risks. Meanwhile, Google dropped Gemini 4 Hydrogen — a new, faster AI model — and the EU is struggling to agree on AI regulation.",
     "stories": [
       {
-        "title": "Nonprofits sue OpenAI, Google, Anthropic and Meta — seeking a halt to frontier AI development",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWTR4ak5BdnRmV3hzYTZOcVhBYklWU01YRmtLak03b2hmeC1PMTd5blRQWUkxR2Q1ZXZWRC0xNkNxVDVoN2VOdTVlX1hFMXgwS1Y5TW1fUGt4NThQaEhRVFdna1YxUDhLTnBYUFJ6WTlFajlLM1BZTTRwNk5sWFMydkZtMlJNUnU4MWlDcUN6QmNtVHdUT1pLNXd6QXc0QVk0WmMtM1JxWU5XVC1PUGRIMVJNY2wzN1Z1d2N6WWJkbw?oc=5",
-        "why_it_matters": "A group of nonprofits has filed a landmark US lawsuit against OpenAI, Anthropic, Google, Meta and SpaceX, asking courts to legally stop them from continuing to build their most powerful 'frontier' AI systems. The plaintiffs argue these systems pose an existential risk to humanity. While courts rarely halt entire industries, the suit could force these companies to slow development or face injunctions. It's already created volatility in AI stocks — including GOOG and GXAI.AX."
+        "title": "Landmark lawsuit seeks to halt advanced AI development at Google, OpenAI, Anthropic, Meta and SpaceX",
+        "source": "Tom's Guide",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRjF0N1FidG5IZ0tKR3haZmh3OVhHNDNVb0VWUlZjMTdCY1d0Rk1DcndKN0FEaFI1ZjJlODdYR1F6ZDVURkFCT1YxQkNYd0MxQUNuU1hNak9yc2lBRFdwMFJqMlpfWXFSRXA4S2lncEI3ZUtjQ29uZGp3RGxvc0dRQml3by1zSTJPam5IY0JOMlZ3U3YwaUZ0cWV1YjVuZVVSNEVOeXFDY29obHJ4cFZUcUlwMzl0R2tlNjZNNGJscnY?oc=5",
+        "why_it_matters": "A coalition of nonprofits has filed a landmark US lawsuit demanding that courts freeze development of the most powerful AI models — the kind being built by OpenAI, Google, Anthropic, Meta, and SpaceX. The plaintiffs argue these 'frontier AI' systems could enable the creation of bioweapons and large-scale cyberattacks. If a court grants even a temporary freeze, it would be the most dramatic regulatory intervention in AI history. For investors in GOOG and MSFT, this is a risk worth watching — though courts typically move slowly and the chance of an immediate freeze is low."
       },
       {
-        "title": "Google unveils Gemini 4 Hydrogen — a new AI model built for speed",
+        "title": "Google unveils Gemini 4 Hydrogen — faster and cheaper than rivals",
         "source": "Mashable",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rSnBnR3JraDZDTEZpRUVKcG5uRmk0NFk4b2l6UTJid0VBY0E0OTkzeHRTaGRtc21xNW91V0hZM0FDb0ZXamdJNVhHNEhRc1hOc2NoZF80b0ROVVo3U2dTU0t1UGQ0ZlNoRDhIMGpSNklwZGs?oc=5",
-        "why_it_matters": "Google has launched Gemini 4 Hydrogen, its latest and fastest AI model, going head-to-head with Anthropic's Claude Sonnet 5.5 and OpenAI's GPT-6.1 Terra. It's priced at around US$1.50 per million input tokens — significantly cheaper than Claude at US$8 per million — which could make it attractive for businesses building AI products. This is directly relevant to your GOOG and GXAI.AX holdings; Google staying competitive in the AI arms race matters for the long-term thesis."
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rSnBnR3JraDZDTEZpRUVKcG5uRmk0NFk4b2l6UTJid0VBY0E0OTkzeHRTaGRtc21xNW91V0hJM0FDb0ZXamdJNVhHNEhRc1hOc2NoZF80b0ROVVNtU2dTU0t1UGQ0ZlNoRDhIMGpSNklwZGs?oc=5",
+        "why_it_matters": "Google has launched Gemini 4 Hydrogen, described as a new AI model built for speed — competing directly with Anthropic's Claude Sonnet 5.5 and OpenAI's GPT-6.1 Terra. Pricing comparisons put Gemini at roughly $1.50 per million tokens of input versus Claude at $8 — that's a massive cost difference that could attract developers away from rivals. For everyday users, faster and cheaper AI means better tools in Google apps like Gmail, Docs, and Search. Good news for GOOG shareholders."
       },
       {
-        "title": "Anthropic's Claude tops AI rankings as OpenAI limits its cyber model",
-        "source": "PYMNTS.com",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYlczWW5CYUlhR3h6QzBPcDk2aEZyMjhHZWMtYjJSTWtESjlQRmJBRUJvR0hrc2NfZGxDRDFrWjhaN0llbkhWVkdCdlU1WFhoVmhHUF9sX0U0WW1abWxrd2Rya25XRVdiaGFqZ0VodmhWWWZDMWZpYzBVdXAzbktKejlpQS05S1pYRjJfc3FaaGtxYk9XTzIwV3hlemFOX3hvclhsamFGNFdpM2FBLXczclZseDVpQnppOUNVd0tR?oc=5",
-        "why_it_matters": "Anthropic's Claude has taken the top spot in the latest AI model rankings, beating out GPT and Gemini in key benchmarks. At the same time, OpenAI has restricted access to its specialised cybersecurity AI model, citing misuse concerns. Claude's rise is significant — it shows the AI race is genuinely competitive and no single company has locked up the market, which is good news for the ecosystem broadly."
+        "title": "Microsoft announces Cerebras cloud deal — doubling down on AI chips",
+        "source": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTTN1V3htSkF3bWxENHFhV2IteFRnQVNlN3RibFJ4UEZMOWVtY2E3WlhMQUNNX2tPRFpCcGsxbThsNGNxQ3BhUDdJcW4yekhldDZhX1lLcmJUblFsWmhrZ1R1MEdYM2dKSzZLYkZhU3dCODRWYkpOWWpsZlFjakMyNGJzQjQ1bExsd2FKcWQyZ05ZWURjNWl6ZE1OTjJMR2RnUFFFX2lFNFZfN3RyZmQ1dkFWOGtfNUkzUFp5LVJhZTBNTmpPcDlicjJuVjktbHVzdVVUckFkMktwZ0VjQlp3WHk2d25uLTJvcXc?oc=5",
+        "why_it_matters": "Microsoft has struck a cloud deal with Cerebras Systems — a startup that makes AI chips designed to run AI models much faster than conventional chips. Cerebras stock jumped on the news. For Microsoft, this is about reducing dependence on Nvidia and building a faster, cheaper AI infrastructure stack. It's another sign that MSFT is betting heavily on AI as its next major growth engine, and so far that bet is paying off — the stock is up 18% from your buy-in price."
       },
       {
-        "title": "Australia's Albanese Government to legislate mandatory AI safety rules",
-        "source": "Law Society Journal",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWVBMzM0T3FEOXZOOGpCSmxVMkpabjNaaWF6Nm1XTXZlUko2NnpJSXhJYnZwRlN0MHVjNzFaM3Q4ejVOSG0zOW1qd0ZxdzYybG5Ga1UzRGU1dk5MY29SYVRNZEdCeEZFTXZIZUVUUFJ6WERfdmRNeE9scjF1dm5FRnNDbVJuY1pCQXVYNk10em1pSnNwRDI2V201b0xEbjFhdlE?oc=5",
-        "why_it_matters": "Australia is moving to become one of the world's first countries to legally mandate safety standards for the most powerful AI systems. Under the proposed laws, companies wanting to deploy frontier AI in Australia would need to meet specific safety requirements before launch. This is a notable shift — Australia has largely watched from the sidelines on AI regulation, and this signals Canberra is taking the risks seriously."
+        "title": "New US Congress seen as opportunity to shape national AI policy",
+        "source": "Cato Institute",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa3FTZHlYOGV1dmJtbU5uNENSN3YybDV3bENYdmREMkQ5U0M0WG5oMlRxaUt2RjZSbmpla1p6akYxSHh2dXM5dUhQRVcwSEdEZEh2YzBYS21HYnRkd2pwanZnRFo2VlFEQmJ1V1ZPc09BMUUtTWgtQ1Vaa0oxMzhQWkVqSUZMdUN1aUJFOWJ1NmZkWFU?oc=5",
+        "why_it_matters": "With the new US Congress now seated, think tanks and policy groups are pushing to establish clear federal AI rules before the technology develops further. Currently the US has no comprehensive national AI law — regulation is patchwork and state-by-state. The Cato Institute argues this is a rare window to get sensible rules in place before the next wave of AI capability arrives. How Washington regulates AI will have massive implications for companies like Google, Microsoft, and OpenAI."
       }
     ]
   },
   "sport": {
-    "summary": "NRL Grand Final result is in, the AFL draft race is heating up, and Australian Open wildcard spots are up for grabs at the NSW Open.",
+    "summary": "The NRL Grand Final is done — the Roosters edged the Knights 19-18 in a thriller at Accor Stadium. NRL 2027 scheduling is already in the news, GTA VI has the gaming world buzzing, and tennis heats up with the Australian Open wildcard race underway.",
     "stories": [
       {
-        "title": "Roosters defeat Knights 19-18 in a Grand Final thriller",
-        "source": "NRL",
-        "link": "",
-        "category": "NRL",
-        "why_it_matters": "The Sydney Roosters won the 2026 NRL Grand Final 19-18 over the Newcastle Knights at Accor Stadium on Sunday, 4 October. It doesn't get closer than a one-point margin — an absolute nail-biter. The Roosters take home the premiership in one of the tightest Grand Finals in recent memory."
+        "title": "Roosters pip Knights 19-18 in NRL Grand Final classic",
+        "source": "NRL.com",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQkpIMkhfRGhhMlVjQm1PcTdERktRVEVFTVhuMW5aNGJ1azlUSU81NU1kLVotekR3RUpwSkpLeHFLX1o0dEE1WU5nVHo4VjBHb0tQaEQtMWpsT1FCNHZmOTY5ZHFSRXhiMzdhajZnNUg3MWFIYk4yWEtjY0JCX2UzN2lfX2hZVU5wMXRHTUtTX1ZBaDVZMVE?oc=5",
+        "why_it_matters": "The Sydney Roosters won the 2026 NRL Grand Final, defeating the Newcastle Knights 19-18 in one of the tightest deciders in years at Accor Stadium. A one-point margin — it doesn't get closer than that. The Knights will be devastated having come so close to their first premiership in decades.",
+        "category": "NRL"
+      },
+      {
+        "title": "NRL 2027 Round 1 fixtures revealed — Vegas games and Perth Bears confirmed",
+        "source": "sportstralia.com.au",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rakhZdzQ5aVd5akpzMVB1QXNOQ0dDSTJsUTcyMDdsNDk1akZCTzlkeXBsb2w3dFVpeTdxVEpRSkZqQm9IVjBTejR3ZmVMZktkMVdtNTlfSV9qT19jTTVmdUZiWTgtaWMxd1VVeA?oc=5",
+        "why_it_matters": "The NRL has revealed its 2027 Round 1 fixtures, confirming that the Las Vegas games are back and the Perth Bears expansion team will make their competition debut. It's a big deal for the game's growth — Vegas games have been a massive hit in drawing international attention to the NRL, and Perth gives the comp a genuine west coast presence for the first time.",
+        "category": "NRL"
+      },
+      {
+        "title": "AFL: Geelong ruck stretchered off, gun midfielder ruled out",
+        "source": "afl.com.au",
+        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRGFhc1BseUgwMnBxNGNhSzBMUGlMNVdOejlGRlpHOFRSLThHbUxWWHJRQjVxMUN6MGVRSF92REhHVGtJTWxaUm93c0pYVTBLaUVYQl9ocEZoOUdacWt3eEdTSHNNVmMyUXpvWHBUdnVoclN0V0ZOOXJ1SW5vSnZYR2NtUDJodkNJMW5BOUJBUlZySnlHUTVoQkZRUldXdnd4NFh3cERQcVFxc2F2RkRUc3JYM0hPSzBfWVhFSzdXYkc4RHFGVnlMZjBrWVNuT053NmhabDVYZnI4SHFiQXZSUjBGaG8xSWNBLWJFTFFpcUhGaUpYV3pXQl9EaVE?oc=5",
+        "why_it_matters": "Geelong suffered frightening scenes with their ruck stretchered off the field, while a key midfielder was also ruled out. No specific player names were confirmed in available reports, but injuries to key Cats players would be a major blow heading into the pre-season. Geelong fans will be watching closely for updates.",
+        "category": "AFL"
       },
       {
         "title": "Australian Open wildcard race heats up at NSW Open",
         "source": "Tennis Australia",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzlRWExqTkloRXBDU2prS00zUnJLR190N3NuYXZIWWlNT2NOVVZrRFRQTVZVVkkzdWpiMXhzcXpLTkFuLVpHTkI0b2Q3RUotaE12WFVwQW5TdjJlc0xJUWlKcnVsQzZLWng2UzZkM2x2aXBOc3FSbnd6MjFWSTlyWjA3TmxjS0U4bUhCems4Y3poQjZCN2dXZEN2R19SWUFRTlhpcnFDa3dNOTFpNkFWNE9TWkFKTnNtVDJIZjdMaTZtZw?oc=5",
-        "category": "Tennis",
-        "why_it_matters": "A star-studded field has assembled at the NSW Open as players battle for Australian Open wildcard spots. With the AO around the corner, every match counts for players on the bubble — this is one of the last big chances to earn a main-draw berth at Melbourne Park. Worth watching for local fans hoping to see some familiar names in January."
-      },
-      {
-        "title": "Jannik Sinner opens up about injury recovery lessons",
-        "source": "Tennis World USA",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3htcW5TNmk5dkszMDJ0XzFtS0s0Nk1DZ1kzU1pFaE5iQ1B1RnNFbGhVX0NrSFNVSnFfYVhEdkVMWGw1bXZxMklBaURQd19kNWJ1YV9YTE5fVXdzb20xcDFyV3dxcmxac1BRUlIzd2Nfc0FCd3JUdGc5b2thek04cnk2d210WDQ3MUxFYl94cDI4Ukk0WnNFT3hHcjFvbEVLNThTQkZkNVFHemprZUJkdWZNUGhob3BySHlEMTNmeDZENDc2VkpPNjlHRUJjckhwRkJLRnNB?oc=5",
-        "category": "Tennis",
-        "why_it_matters": "World No. 1 Jannik Sinner has spoken candidly about what he learned during his recent injury layoff — including how stepping away from the game gave him a new perspective on pressure and performance. Sinner is widely expected to be a title contender at the upcoming Australian Open, so his fitness and mindset heading into the summer season is a talking point for tennis fans."
-      },
-      {
-        "title": "PNG Chiefs sign Kumuls forward Nixon Putt on full-time NRL contract for 2028",
-        "source": "Papua New Guinea Today",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWTVzX05lajJTS21xNjY0a19McmpZaXhfSE81RWY2Y0w1bmkVUVVlMTJaUlF0ODljZE40bEk3dk9UTGZfaElIQzdsVjNIc2VUTFdtQzJTV3F6ZEk0eWE1VEQweWhTaE0tOTVQSkRBREZ0N2hhdjJidlRhdFBSREtLWQ?oc=5",
-        "category": "NRL",
-        "why_it_matters": "The Papua New Guinea Kumuls representative Nixon Putt has signed a full-time NRL contract with the PNG Chiefs for 2028. This is a milestone moment for PNG rugby league — the Chiefs are set to join the NRL competition and securing experienced local talent like Putt is crucial to building a credible squad. Big news for the development of the game in the Pacific."
+        "why_it_matters": "The race for Australian Open wildcards is now on, with a star-studded field heading to the NSW Open. Wildcards are coveted spots that allow players who haven't qualified through rankings to enter the AO draw — a big deal for emerging Aussie talent. The tournament is a final chance for local players to prove they deserve a spot at the year's first Grand Slam.",
+        "category": "Tennis"
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "☁️",
-    "condition": "Overcast",
-    "temperature_c": 24.0,
-    "high_c": 28.8,
-    "low_c": 21.6,
-    "rain_chance_pct": 100,
-    "rain_mm": 9.6,
+    "icon": "🌤️",
+    "condition": "Mainly clear",
+    "temperature_c": 21.3,
+    "high_c": 30.8,
+    "low_c": 20.3,
+    "rain_chance_pct": 92,
+    "rain_mm": 5.1,
     "tomorrow": {
       "icon": "⛈️",
       "condition": "Thunderstorm",
-      "high_c": 30.6,
-      "low_c": 20.7,
-      "rain_chance_pct": 92,
-      "rain_mm": 9.2
+      "high_c": 27.5,
+      "low_c": 20.1,
+      "rain_chance_pct": 95,
+      "rain_mm": 8.8
     }
   },
   "nrl_round": "Grand Final",
@@ -444,5 +436,5 @@
     "total_pnl_pct": 0.91,
     "aud_usd_rate": 0.6774
   },
-  "generated_at_utc": "2026-11-14T07:38:00.448849+00:00"
+  "generated_at_utc": "2026-11-14T14:24:02.310267+00:00"
 }
