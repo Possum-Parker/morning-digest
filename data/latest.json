@@ -1,267 +1,282 @@
 {
-  "headline": "GTA VI launches today, Roosters clinch the NRL Grand Final, and Australia's unemployment hits a 5-year high — a big day across the board.",
+  "headline": "A rough day across the board — ASX and US markets both sold off sharply, GTA 6 smashes launch records for TTWO, and Roosters edge Knights 19–18 in a Grand Final classic.",
   "portfolio": {
     "movers": [
       {
-        "ticker": "GOOG",
-        "name": "Alphabet (Google)",
-        "change_pct": 2.44,
-        "note": "Google had a strong session last night, jumping 2.4% to $286. The catalyst was the launch of Gemini 4 Neon — Google's most powerful AI model yet — which beat rivals Claude Opus 5.5 and GPT-6.2 Sol on most benchmarks. The market liked the signal that Google is competitive at the top of the AI race."
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": 1.38,
-        "note": "Microsoft rose 1.4% last night to $515. JPMorgan published a bullish note calling Microsoft's Copilot AI assistant a potential 'Work OS' — a tool so embedded in business that it could drive serious revenue from 2027. Mizuho also stayed bullish. Good momentum from the AI story."
-      },
-      {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market ETF",
-        "change_pct": 0.79,
-        "note": "VTS closed up 0.8% today, tracking the strong US session from last night. The S&P 500 and NASDAQ both gained, lifted by big tech names including Google and Microsoft. VTS mirrors the whole US market, so a rising tide here lifted all boats."
-      },
-      {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
-        "change_pct": 0.52,
-        "note": "GXAI edged up 0.5% today. AI sentiment was broadly positive with Google's Gemini 4 Neon launch and Palo Alto Networks boosting the AI demand outlook. However, Nvidia slipped slightly which capped gains — there's still some turbulence in AI-focused stocks."
-      },
-      {
-        "ticker": "DHHF.AX",
-        "name": "DHHF (BetaShares Diversified All Growth ETF)",
-        "change_pct": 0.05,
-        "note": "DHHF was essentially flat today, up just 2 cents. The ASX had a soft session overall (down over 1%), but DHHF's global diversification helped cushion the blow. Nothing specific to this ETF — just a quiet day."
+        "change_pct": -4.08,
+        "note": "AI-focused ETFs took a hit today as broader tech sold off heavily. Sentiment around AI stocks has been rattled by talk of an 'AI bubble' coinciding with Anthropic's IPO — investors are questioning whether valuations have run too far, too fast. The long-term AI investment thesis remains intact, but expect volatility around major IPO events."
       },
       {
         "ticker": "TTWO",
         "name": "Take-Two Interactive",
-        "change_pct": 0.08,
-        "note": "TTWO was barely changed last night (+0.08%), which is a bit surprising given GTA VI officially launched today. Markets may have already priced in the release — this was one of the most anticipated game launches ever. Watch tonight's US session for a bigger reaction now that the game is live."
+        "change_pct": -3.67,
+        "note": "TTWO fell 3.67% last session despite GTA 6 officially launching and smashing records with estimated day-one sales topping $2.3bn. This mirrors GTA 5's history — the stock also fell ~2% on its launch day. Markets appear to have already priced in the launch, with some profit-taking kicking in. The underlying business momentum looks very strong."
       },
       {
-        "ticker": "VDHG.AX",
-        "name": "Vanguard Diversified High Growth ETF",
-        "change_pct": -0.17,
-        "note": "VDHG slipped 0.17% today, a very minor move. The ASX had a rough day overall (down over 1%), but VDHG's heavy international weighting meant it wasn't dragged down as much as pure Aussie funds. Nothing structurally changed here."
+        "ticker": "GOOG",
+        "name": "Alphabet (Google)",
+        "change_pct": -2.93,
+        "note": "Google dropped 2.93% last session. The market continues to question why Alphabet isn't getting more credit for record cloud growth — analysts note that investors are distracted by Microsoft's stronger AI narrative and the noise around Anthropic's IPO (which Google backs with $33B). Google also just launched Gemini 4 Neon, which beats rivals on most benchmarks, but that hasn't lifted sentiment yet."
+      },
+      {
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market ETF",
+        "change_pct": -2.76,
+        "note": "VTS tracks the entire US share market and fell 2.76% today, reflecting the sharp overnight selloff on Wall Street. The NASDAQ dropped 2.25% and the S&P 500 fell 2.02% last session. No single news event drove it — a broad risk-off mood dragged everything down together."
+      },
+      {
+        "ticker": "DHHF.AX",
+        "name": "BetaShares Diversified All Growth ETF",
+        "change_pct": -2.34,
+        "note": "DHHF slipped 2.34% today in line with the broader ASX selloff. As a globally diversified shares ETF, it was dragged down by weakness across US and Australian markets. Nothing specific to DHHF — just a rough day across world equities."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
-        "change_pct": -1.8,
-        "note": "VGE fell 1.8% today — the biggest drop in the portfolio. Emerging market ETFs were hit by a weaker Aussie dollar and broader risk-off sentiment. The AUD dropped against USD, which typically weighs on emerging market assets priced in AUD. Middle East tensions and global uncertainty also played a role."
+        "change_pct": -2.43,
+        "note": "VGE fell 2.43% today. Emerging markets copped a double hit — the AUD slipped slightly (making US-dollar denominated assets worth less when converted back), and global risk-off selling hit developing economies harder. The Middle East tensions and uncertainty around the US-China-Russia summit added to the headwinds."
+      },
+      {
+        "ticker": "VDHG.AX",
+        "name": "Vanguard Diversified High Growth ETF",
+        "change_pct": -2.09,
+        "note": "VDHG dropped 2.09% today. As a diversified multi-asset fund with heavy exposure to global shares, it tracked the broad market selloff. No specific news — it's a 'bad day for everything' move. Long-term holders should sit tight."
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": -1.97,
+        "note": "Microsoft slipped 1.97% last session, dragged down by the broad tech selloff. Despite the dip, the fundamental story is strengthening — Jefferies says Microsoft is well-placed to weather any AI slowdown, and JPMorgan sees Copilot (Microsoft's AI assistant) becoming a 'Work OS' with real revenue ramping up by 2027."
       },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
-        "change_pct": -1.54,
-        "note": "Pilbara fell 1.5% today to $2.56. Lithium prices remain under pressure — SQM (a big global lithium producer) is actually expanding production despite the price slump, betting on a future recovery. That expansion news adds to near-term oversupply fears. The long-term demand story (EVs, batteries) stays intact, but the price pain continues short-term."
+        "change_pct": 2.34,
+        "note": "PLS bucked the trend with a solid 2.34% rise today — a bright spot in an otherwise red session. The bounce comes despite lingering concerns about China's lithium supply rebounding and a possible 2027 oversupply. Chile's SQM remains bullish on long-term lithium demand, which helped lift sentiment. Still deeply underwater overall, so this is a welcome but modest reprieve."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "GTA VI is officially live — watch TTWO tonight",
-      "detail": "Rockstar Games announced Grand Theft Auto VI is now available globally. This is one of the biggest game launches in history and the core reason you own Take-Two (TTWO). Last night's session barely moved (+0.08%) — the market may have already priced it in, or it's waiting to see actual sales data. Watch tonight's US session for a bigger reaction. As a long-term hold, the thesis here is very much intact — you're in the right place.",
-      "urgency": "red",
+      "title": "GTA 6 launches — TTWO dips despite record $2.3B sales",
+      "detail": "GTA 6 is officially out and has smashed launch records with estimated day-one sales topping $2.3B. Despite this, TTWO fell 3.67% last session — the market had already priced in the launch. Historical precedent: GTA 5 also fell ~2% on launch day and was flat three months later. For a long-term holder, this dip likely isn't the story — the real question is whether GTA 6's ongoing revenue (DLC, online, microtransactions) lives up to the hype over the next few years. Sit tight.",
+      "urgency": "orange",
       "ticker": "TTWO",
       "action": "hold"
     },
     {
-      "title": "PLS.AX: Long-term story intact, but short-term pain continues",
-      "detail": "Pilbara fell another 1.5% today and is now down 62% on your investment. The lithium market remains in oversupply — SQM is even expanding production into the glut. That said, long-term lithium demand forecasts (Cochilco projects 2.08 million tonnes globally) remain strong. This is a genuinely difficult hold, but selling now locks in a large loss. If you believe in the EV/battery story long-term, sit tight — but be aware the recovery timeline is uncertain.",
+      "title": "GXAI.AX — worst mover today, but AI story isn't dead",
+      "detail": "Your AI ETF dropped 4.08% today, its biggest single-day fall in recent memory, as AI stock sentiment took a hit around Anthropic's IPO and bubble-talk. Down 21.6% overall from your cost base. That's painful — but Google just launched Gemini 4 Neon (beating Claude and GPT on most benchmarks), and the AI arms race is accelerating, not slowing. If you believe in AI long-term (which is what this ETF is for), this is noise. Hold, or consider topping up at these lower levels if you have spare cash.",
+      "urgency": "orange",
+      "ticker": "GXAI.AX",
+      "action": "hold"
+    },
+    {
+      "title": "PLS.AX — only green in the portfolio today",
+      "detail": "Pilbara Minerals popped 2.34% today, the sole bright spot in a sea of red. That said, it's still down 61% from your cost base, and the news flow is mixed — China lithium supply is rebounding and a 2027 surplus is flagged as a risk. The bounce today is encouraging but doesn't change the long-term thesis concerns. Hold for now — selling at a 61% loss locks in that pain permanently. Wait to see if the recovery has legs.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "GXAI.AX: Google's Gemini 4 Neon a positive signal for your AI ETF",
-      "detail": "Google launched Gemini 4 Neon overnight, beating Claude and GPT-6.2 on most benchmarks. GXAI (your AI ETF) edged up 0.5% today and holds big AI names. Despite being down 18% overall, today's news is a genuine positive — the AI sector is still innovating fast. For a long-term holder, this is exactly the kind of tailwind the ETF is built for.",
+      "title": "RBA rate cuts on the horizon — good news for VDHG and DHHF",
+      "detail": "Traders are now betting the RBA (Reserve Bank of Australia) won't raise rates again, and are pricing in early rate cuts after unemployment hit 4.9% — a multi-year high. At least one major Aussie bank has already cut home loan rates. Lower interest rates are generally good for shares, so this is a quiet tailwind for your diversified ETFs like VDHG and DHHF over the coming months.",
       "urgency": "green",
-      "ticker": "GXAI.AX",
+      "ticker": "VDHG.AX",
       "action": "hold"
     },
     {
-      "title": "Australia's unemployment hits 4.9% — RBA rate cut now on the table",
-      "detail": "October unemployment surged to 4.9%, a 5-year high and well above expectations. Traders are now pricing in RBA rate cuts sooner rather than later — one AFR headline reads 'RBA will not hike again.' Lower interest rates are generally good for growth stocks and ETFs like VDHG and VTS. Keep an eye on the next RBA meeting date.",
-      "urgency": "orange"
+      "title": "Broad market selloff — but long-term story unchanged",
+      "detail": "It was a rough day: ASX 200 fell 1.58%, the S&P 500 dropped 2.02% last night, and NASDAQ shed 2.25%. Gold fell 3.63%. Almost everything in your portfolio is down. But there's no single catastrophic news event behind this — it's a broad risk-off move. For a buy-and-hold investor, days like this are normal. Your diversified ETFs (VDHG, VTS, DHHF) are built exactly for riding these out.",
+      "urgency": "green"
     },
     {
-      "title": "GOOG & MSFT: Strong nights — long-term thesis looking solid",
-      "detail": "Google rose 2.4% and Microsoft rose 1.4% last night. Google's Gemini 4 Neon launch was well-received, and JPMorgan called Microsoft Copilot a potential 'Work OS' with serious revenue from 2027. Both are core long-term holds — nothing has changed structurally, and the AI tailwind is building. Sit tight and enjoy the ride.",
+      "title": "MSFT — dip but long-term case strengthening",
+      "detail": "Microsoft fell 1.97% last session alongside the tech selloff, but analyst commentary is bullish: Jefferies sees it weathering any AI slowdown, and JPMorgan says Copilot could become a 'Work OS' driving real revenue from 2027. You're up 12.5% overall on MSFT. Hold comfortably — nothing here warrants any action.",
       "urgency": "green",
       "ticker": "MSFT",
       "action": "hold"
-    },
-    {
-      "title": "Middle East tensions escalating — watch oil and global markets",
-      "detail": "Trump is reportedly weighing new military strikes on Iran, and Saudi Arabia confirmed a Houthi strike on a PIF (sovereign wealth fund) tower. Heightened conflict in the region could push oil prices higher, adding to global inflation pressures. Oil is currently around $83 — worth monitoring. This creates background risk for markets heading into next week.",
-      "urgency": "orange"
     }
   ],
   "world": {
-    "summary": "A big day globally: Trump and Xi met in Shenzhen, Middle East tensions are escalating with potential US strikes on Iran, the US midterms showed voters shifting away from Trump, and Anthropic's massive IPO is raising questions about an AI bubble.",
+    "summary": "A tense day globally — Middle East hostilities are escalating, the Russia-US-China summit is reshaping geopolitics, GTA 6 breaks entertainment records, Trump's DOJ is backing away from election fraud cases, and Democrats are riding a post-midterm wave.",
     "stories": [
       {
-        "title": "Trump and Xi meet in Shenzhen as US-China relations warm",
-        "source": "Facebook/Breaking News",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUWNBMndRYmZjTGN0X0Rid18xTGFKNlN4Z1k4X052b1F5MkpaVGRQLUdkalExc1VfZ0hOZjAyZFpncnhSZm9fVmJVVkc3VEJuNWc0RGMtN0ZvbDFnTUIwN3BsQmtMZEx2NHlIWFdsM0MzTDNlbnJqZlB0WHpVdUhKVmdWSExzbldGSkxEZ3ZBMkVMV3owM2NIOWI0RGVQaDJvMTFLWUxucmdFTE9pTmxRTjNtbC1qSEtTbW5jSDFnVjAzU2R3SWpXNHdHNG41TmNfcnVF",
-        "why_it_matters": "Chinese President Xi Jinping personally greeted Donald Trump when he arrived in Shenzhen for an economic summit — a significant diplomatic gesture. The two leaders also reportedly agreed that Iran cannot be allowed to develop nuclear weapons. This kind of direct US-China cooperation is rare and signals both powers are trying to manage global flashpoints together. For markets, warmer US-China relations reduce the risk of trade war escalation, which is a positive for emerging market ETFs like VGE."
+        "title": "Saudi Arabia struck by Houthis — PIF tower hit, regional conflict escalates",
+        "source": "The National",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPam9XS0tmcEhaa3NBUzd2bUJ5ME1FWktqN2hhaVFzd2k0MlVDaExwX0EyUW84Ylg2QkNFZ2FMTC1RbkZ2VGtUNV9xQzhMQ1lhcklId3JXbGQ1dTBHNDg3Qm0wT1RBWEZYRGFIUjZ0YVZlcHI3NUcyZV9yNFdaam9qX1FHZUtIbnFpRU5EU2dxMnRXZ2lRNlpfYTFJWQ?oc=5",
+        "why_it_matters": "Saudi Arabia has confirmed its Public Investment Fund (PIF) tower was struck in a Houthi attack, with the country condemning the assault. This marks a significant escalation in Middle East hostilities — the PIF is Saudi Arabia's $700B+ sovereign wealth fund and a symbol of its economic power. Trump has separately said the US will 'see what happens' regarding Iran after January 1, adding to the uncertainty. Travel warnings for Dubai and Abu Dhabi are being reassessed. Oil prices remain surprisingly calm at $83/barrel, but a further flare-up could change that quickly."
       },
       {
-        "title": "Trump weighs new strikes on Iran as Middle East conflict intensifies",
-        "source": "The New York Times",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TOTFWdU93OVF0V1d3QTZ4elZ2SHRiV0RzRmxjM3J2aTZuR3RyNlRWVmN2akRqUTcxVGpRM1dOZmFrelB4cGw3eWRha2F5TmI5SXpRdDFUZEwta3VSTUxQOTd3NGhGVnY1VUlnaWdVazFLVGhpUmlBck9xSmVzdw",
-        "why_it_matters": "The New York Times reports Trump is actively weighing new US military strikes on Iran, with Israel pushing hard for action. Separately, Saudi Arabia confirmed Houthi rebels struck a tower owned by the Saudi sovereign wealth fund (PIF). Trump said the US will 'see what happens' with Iran after January 1 — implying a deadline of sorts. If conflict escalates, oil prices (currently ~$83/barrel) could spike sharply, pushing up petrol prices globally and adding to inflation pressures that affect interest rates and share markets."
-      },
-      {
-        "title": "US Midterm Elections 2026: Trump loses the voters who put him in power",
-        "source": "Frontline Magazine",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMktHN01tOXoxMTM3UlJDOWVNNXIxNzZ4MHJQQ0VZbU84dXdDUXBEeEZzMElxY2w4blJlZjNYci15bTZHd1Yxa3FPOGZNNzR0cUtBUTRiMk0xOFlKaGR4N3padVdwSE5ieUt5RU52d3Vxa3BZcmFVVHlEZDFJZUxSelFlcGhmZWRBdXNDanlmMXE4M3QxV2pkblRaWDd5OFZXRUw1UU9HTTdqOFA1Z1FJMk0",
-        "why_it_matters": "Analysis of the 2026 US midterm elections shows Trump lost significant support from the working-class and suburban voters who were central to his wins. This suggests a political shift that could affect the Republican agenda in the final two years of Trump's term — including his stances on trade, AI regulation, and foreign policy. A less unified government in Washington tends to create policy uncertainty, which markets watch closely."
-      },
-      {
-        "title": "Russia-US-China summit exposes EU's geopolitical weakness",
+        "title": "Russia-US-China summit exposes EU's shrinking global influence",
         "source": "Laodong.vn",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTE91NDJiWlpoOTU5SnR2WTFWaTN3WUtRUFVCeWhjNnluZ3FQMnpuVU0tREQtV1dXaVl0MHd3N0V1VmJzc3loYWh5OFlNaWMtZGNmT1pIYUFuSURnS0MzRG5ITVpSbFFyT1NwTzJCVGpQaEI4Z2JyMDQxVU9LdlUxNmZFT2lCVHpINTdMVGk5NTFUMWRZdlZfVmVYQnQ0di1BckQtNURkMG9qaXk4ZDFGWG5n",
-        "why_it_matters": "A summit involving Russia, the US, and China is highlighting how Europe is being sidelined in major geopolitical decisions. With the EU excluded from key talks about Iran, Ukraine, and global trade, analysts warn Europe faces a 'geopolitical weakness' moment. For Australian investors, this matters because EU instability can ripple through global markets — particularly for sectors like energy, defence, and trade."
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTE91NDJiWlpoOTU5SnR2WTFWaTN3WUtRUFVCeWhjNnluZ3FQMnpuVU0tREQtV1dXaVl0MHd3N0V1VmJzc3loYWh5OFlNaWMtZGNmT1pIYUFuSURnS0MzRG5ITVpSbFFyT1NwTzJCVGpQaEI4Z2JyMDQxVU9LdlUxNmZFT2lCVHpINTdMVGk5NTFUMWRZdlZfVmVYQnQ0di1BckQtNURkMG9qaXk4ZDFGWG5n?oc=5",
+        "why_it_matters": "A three-way summit between Russia, the US and China is highlighting how Europe is being sidelined in major global negotiations. As Trump pursues direct deals with Moscow and Beijing, the EU finds itself without a seat at the table on issues like the Ukraine war and trade. For Australia, which relies on US security guarantees and trades heavily with China, a reshuffled world order where the US cosy up to Russia has real long-term implications for our alliances and export markets."
       },
       {
-        "title": "Pope Leo breaks silence on cancer diagnosis after rosary incident in Peru",
-        "source": "New York Post",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUldDdXI3TmtWX1NPQ3lmLXJqRE1GdHpQWnZFTXNqdy03YUxyY0w5VXFERTc1MUVSMDJhTDhWNDNqZl83Z2lfdVJ4Z3p3S1NfNDNMUXJjZ1EwZVRqUDNuclg1UFVPSDQ2WUgyUmp3OW9xSnJsSGNiQXlUV1lKY29Gd0xpbDhEOFNYelhWYkpHX2RCSmRuVktnZlNYNDdzSkgwM2ZwZmpWc2hhUFRVMC1BaHRHQjNkbk1Ud3h4cXh0NmlBUmdVYVNqd3R3",
-        "why_it_matters": "Pope Leo has broken his silence on a widely-publicised incident where a rosary struck his face during a visit to Peru. He revealed he is dealing with a serious cancer diagnosis requiring 'major surgery.' The Pope's health is a matter of significant global concern given the Catholic Church's 1.4 billion followers worldwide — his condition could trigger a period of transition within the Church that impacts Catholic communities and politics across Latin America, Europe, and beyond."
-      }
-    ]
-  },
-  "markets": {
-    "summary": "The ASX 200 had a rough Thursday, falling over 1% to close at 8,730. Meanwhile last night in the US, both the S&P 500 and NASDAQ crept higher, with tech leading the gains. Gold pulled back, the Aussie dollar dipped, and oil was steady.",
-    "indicators": [
-      {
-        "name": "ASX 200",
-        "value": "8,730",
-        "change_pct": -1.04,
-        "note": "The ASX had a poor session today, down 1% — dragged by weak jobs data (unemployment hit 4.9%) and some global uncertainty around Middle East tensions."
-      },
-      {
-        "name": "S&P 500",
-        "value": "7,329",
-        "change_pct": 0.08,
-        "note": "Barely moved last night — essentially flat. The market is in a holding pattern, digesting mixed signals from AI optimism and geopolitical risk."
-      },
-      {
-        "name": "NASDAQ Composite",
-        "value": "24,589",
-        "change_pct": 0.65,
-        "note": "A solid night for tech last night, up 0.65%. Google's Gemini 4 Neon launch and bullish notes on Microsoft helped push the index higher."
-      },
-      {
-        "name": "AUD/USD",
-        "value": "0.6685",
-        "change_pct": -0.81,
-        "note": "The Aussie dollar slipped to 66.85 US cents. The jump in unemployment to 4.9% spooked traders, who now reckon the Reserve Bank will cut rates sooner — which typically weakens the currency."
-      },
-      {
-        "name": "Gold",
-        "value": "$3,682",
-        "change_pct": -1.6,
-        "note": "Gold fell 1.6% last night to around $3,682/oz. Despite Middle East tensions, some profit-taking after a long run higher weighed on the precious metal."
-      },
-      {
-        "name": "Crude Oil (WTI)",
-        "value": "$83.36",
-        "change_pct": 0.12,
-        "note": "Oil held steady near $83/barrel. Middle East tensions (potential US strikes on Iran, Houthi attacks on Saudi Arabia) are keeping a floor under prices."
-      }
-    ]
-  },
-  "politics": {
-    "summary": "Australia's unemployment rate surged to 4.9% — a 5-year high — dominating domestic headlines. The Albanese government is also dealing with a contested gas policy, a controversial defence photography bill, and an ongoing fight over AI copyright rules.",
-    "stories": [
-      {
-        "title": "Unemployment hits 5-year high at 4.9% — RBA rate cuts now expected",
-        "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVmk2bnBKVXFJTmxmMUNGSUJVZWdJdmU0dy1UNzdOTnh0Wks5MjdtcEhTOVFjQkdzemxfQ2ExQ0ZDY0Q2Q2RzQkJRTUlKLS1rR1J5VHc1eGVJVDhJc0o2ekEySENIQnBWcE1MdHZvZzItTkFjaFFwNTVrclVkY18tT0sxaHQ3WXJZZTVqZnl3elpPSUVoUXNyU3FGWDE",
-        "why_it_matters": "Australia's jobless rate jumped to 4.9% in October — a 5-year high — well above what economists expected. The SMH reports the RBA's interest rate hikes have squeezed the jobs market, and traders are now betting the Reserve Bank won't raise rates again and may start cutting early next year. Lower rates are generally good news for mortgage holders and growth-oriented investments. The AFR's headline: 'RBA will not hike again.'"
-      },
-      {
-        "title": "Albanese's gas policy carve-out for WA faces legal challenge",
-        "source": "The Australian",
-        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOTDN3WmEySjZYMm1rRUU0Y0VmRGtHWDRUTEo0SGtsSE1VWVgwSnZUbU9CMW1VVFpNZ2ZHVHN3bU9MRzlqcWtSM2hqWnk2a003RXBIY25yYzcwSzV0bmZFMjFrYzhkQkdVeXFKcG9JXzNhWHVGVFhFT2tXTEliVGs0Uy1VWE5rYnBNYmN5WVczMk9LNkxtUjA1Y3M5YzZvQk1SdGtTalRJZ1I1VE5rVnRVMlllYnUtM19QYjJISm1FSjVISmhMZ1UtVUl1Sk1KTlZDbGd1WHo2Sl9BRTFqQW5TdWZfRXBMRzFaT1B1eEFiaXdpZGFZSUx0REdPMEZCOUNWQ3VrMWEtbmI",
-        "why_it_matters": "Prime Minister Albanese has created a special exemption for WA from the federal gas reservation policy — a move designed to protect WA's domestic gas supply arrangements. But legal experts say the carve-out is 'ripe for a High Court challenge' because it may discriminate between states, which is constitutionally questionable. If overturned, it could unravel the broader gas policy, potentially affecting energy prices for households and businesses nationally."
-      },
-      {
-        "title": "'Phantom forests' used to fraudulently generate carbon credits, report claims",
-        "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNT2x3aDNFYWRYTDhIV0lidTFDZzRLY3o2YzJ5bDFaa3NQZHZRcTZUSEdNVVJwV25UZlp2R2FLQXVSQW5udnUtR1ZFYVpuN2x0TjgtSVptMllSNzZER3JNRGZTdDduTHVIbFY3eTMyc0g0ck94OUFlYkRnbG56ckJ1d3ZDWWp2ODhLT0dEczE5THozM012VEFWLXRkYkZ5R1draHEwYmN2QjJsdnhuQlRUcmFWaENjVmhuLWYtZGoyTUp5LUZZOGpteUExdi10eTF3U3VjTmNYMnVJZWZDYTBUeG10M1VYekJtbTZ3NS16TDRYQkpyZmE4",
-        "why_it_matters": "A new report claims that so-called 'phantom forests' — vegetation that doesn't actually exist or is vastly overstated — in Australia's arid outback are being used to generate carbon credits sold to companies wanting to offset their emissions. If true, this is a significant integrity scandal for Australia's carbon credit scheme (ACCU), potentially meaning companies have been paying for credits that do nothing for the environment. It raises questions about the regulatory oversight of carbon markets."
-      },
-      {
-        "title": "Labor introduces bill to ban photography at defence sites",
-        "source": "The Australian",
-        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQM19nd2dvX2J6d19WVFU3S090WmVuby12VXluaVpGQjQ5TlBrTlV0MENsMHhTS1JiZjVFY09kbnF6cDMzZ1lNRGRKSFVvSWd5QXdURFg1NzY3X1d1SW5qcmZZYm1kcFd4d01EcFFBam5vRXU5NGJvQmM4TmNobVJZMjNUdlNIYWFMN3FyTXAtVGltOWxDQXVwSENuSGJpczBvWmZGUE45MVZ0b216cmUxMzlEMGtCbmZUakdTeTEtZEsxck1FczhmblhHUUdpYlVzTmgxM2dnblcyNGtiNVdvd285M18zaHY1YklnaWdmSGY5bHdvbHdvWWFZWTBsM0VoWURSbWpLUVZMRXkwTWdJ",
-        "why_it_matters": "The Albanese government is fast-tracking legislation that would make it illegal to photograph or film defence sites in Australia. Critics, including the Australia Institute, have labelled it 'cruel, draconian and secret' — warning it could be used to silence journalists and protesters. Civil liberties groups are concerned the bill is being rushed through parliament without adequate scrutiny, following a similar approach to what they call 'Trump-style' executive overreach."
-      }
-    ]
-  },
-  "ai": {
-    "summary": "It's a massive day in AI: Google launched its most powerful model yet (Gemini 4 Neon), Anthropic's record-breaking IPO is the talk of Wall Street, and Trump used the APEC Summit to declare the US opposes any global AI regulation.",
-    "stories": [
-      {
-        "title": "Google launches Gemini 4 Neon — beats Claude and GPT on benchmarks",
-        "source": "Digital Trends / blog.google",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMURRdzNRajdzWlZkc3VwNmtLbGlXUzFMVFFDWkZudUtBVzh0ZnlVVWVFZjctWVlhQlFBYWZfdEFrd3ZWaXJQa3g2NU9xb2ItcHdaenFKXy1TMzVwbjdqbHpmTFFiN211NmV5WVc1Vk90aEVlZkVjVzFia29SNzlyTElwc1JHZ2Y3UjhFSDZvMjFEVGFLUl9VOXBQTzViQmVFSG9HV2FuV1h1YVVnaTlyQy0yZHhxSEVjYjhaRHlB",
-        "why_it_matters": "Google officially released Gemini 4 Neon, its latest and most capable AI model — following earlier versions called Carbon and Hydrogen. According to benchmark tests, Gemini 4 Neon beats Anthropic's Claude Opus 5.5 and OpenAI's GPT-6.2 Sol on most standard measures of reasoning, coding, and language. This is a big deal because it signals Google is now back at the front of the AI pack, not just chasing OpenAI. For you as a GOOG holder, this is a genuine positive catalyst."
-      },
-      {
-        "title": "Anthropic's record IPO: Can it stop the AI bubble bursting?",
+        "title": "GTA 6 breaks entertainment records with $2.3B in estimated launch sales",
         "source": "BBC",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fZ0pYdHlmLTd2WnZJbmtNYl9RUmQ1ODFGREEzSkdNUXFOQmhnNXg3MmhWR2VzYksxblZqWVJ0SHlKVW1TbXZOWE1UbnNUdmNKMXp1eWFuTFh0QTQ",
-        "why_it_matters": "Anthropic — the AI safety company behind the Claude chatbot and backed by Google and Amazon — is going public in what's being described as a record-breaking IPO (initial public offering, i.e. listing on the stock market for the first time). The BBC's Simon Jack asks whether this IPO marks a peak — the classic sign of a bubble topping out — or whether AI valuations are genuinely justified. Wall Street is reportedly in a frenzy, but broader AI stocks have been slumping, raising the question of whether excitement is running ahead of actual profits."
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAxcU4zcmpVbmN0dFdhX2VwUXM2aUkzUlRad1ZvWXpsQUlPdXVqdlRjWERIdDU1Z3NEcG5ranhNc3J2MUR5akx1QzJCQ21hbFlwSzF2Q0Nma0ZPT2FEbWc?oc=5",
+        "why_it_matters": "Grand Theft Auto 6 has officially launched and racked up an estimated $2.3 billion in sales — making it one of the biggest entertainment launches in history, surpassing even blockbuster film records. Take-Two Interactive (TTWO), which is in your portfolio, is behind the game. The launch validates years of development investment, but the stock dipped on the news as it was already priced in. The bigger story will be ongoing revenue from online play and downloadable content over the coming years."
+      },
+      {
+        "title": "Democrats ride post-midterm wave — majority of Americans back party's plans",
+        "source": "Pew Research Center",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa1hDMTJEcURyWkU1d21HWW1XZ2lGOTMzMlN5eVNDbjJ2bmRRQVItYzVPZWNKMDJzWFhBS3pTTUJLa0NUNFFnaTgwM1JfekNla08tZFVGU3JqUDFZZTlZQXdyd2xfS2xpZi1WeTZCUlFQT192UmlUeURvaVhteFBNUm16VVZ3TVhUVXE5ZGlWaXVadUdjQ2IyZVNGSXYwZkRsZUZ4UE14elN1dXhzdVpZVnlEZXE1enF6X1d5bWxWOUN0VVBGY053emFxekNBOVE1U0NfT1NrMm5rcS1NdlFEN1Vn?oc=5",
+        "why_it_matters": "A new Pew Research survey finds a majority of Americans now approve of the Democratic Party's policies and plans following their midterm victory. This signals a potential political realignment in the US, with Trump's administration simultaneously dropping several election fraud prosecutions and backing away from the Alaska Senate election challenge. The political centre of gravity in the US appears to be shifting, which will have implications for trade, foreign policy, and financial regulation heading into the next election cycle."
       },
       {
         "title": "Trump opposes 'globalist' AI regulation at APEC Summit",
         "source": "The Australian",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTVB4bjdFdnhOQS1WOE81endOMmt0YWU1b3lSTVNrRHJjemdHeTFKSXVrVkJXdmEwa3JoNWJzRzRlNXlnLUZtMXZSWmhjRkZuUEpzRGJWVExNUER5TldwelNzSHhnY2pWQWRLLWhIeVI1Smc1LTctTXQtUERNYjlBZm1qaHNtUzNhbzltV1ctNFVXMFJfQWVGNmp1ZXBJVUYxNnpsQ3JSZExXalhzdXR0TjVaTkJ4R2d3WllhMWVFakgtMXctX3YwaGhoSEVDazYzX0R0NDYyUDQ",
-        "why_it_matters": "At the APEC Summit, President Trump declared the United States is against any form of 'globalist regulation' of AI — meaning he opposes international bodies or treaties that would impose rules on how AI is developed or used. At the same summit, the US and China reportedly agreed on Iran's nuclear status. Trump's anti-regulation stance is a significant signal for AI companies: it means US-based firms like Google, Microsoft, and OpenAI face less domestic and international regulatory risk, at least while he remains in office."
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTVB4bjdFdnhOQS1WOE81endOMmt0YWU1b3lSTVNrRHJjemdHeTFKSXVrVkJXdmEwa3JoNWJzRzRlNXlnLUZtMXZSWmhjRkZuUEpzRGJWVExNUER5TldwelNzSHhnY2pWQWRLLWhIeVI1Smc1LTctTXQtUERNYjlBZm1qaHNtUzNhbzltV1ctNFVXMFJfQWVGNmp1ZXBJVUYxNnpsQ3JSZExXalhzdXR0TjVaTkJ4R2d3WllhMWVFakgtMXctX3YwaGhoSEVDazYzX0R0NDYyUDQ?oc=5",
+        "why_it_matters": "At the APEC Summit, Trump publicly came out against international (or 'globalist') AI regulation — essentially saying the US won't be part of coordinated global AI governance frameworks. This widens the gap between the US approach (let the market run) and the EU/UK approach (regulate first). For Australia, which is trying to work out its own AI policy, the US stance makes it harder to align with allies on a coherent approach. It also means US tech giants like Google and Microsoft face fewer brakes on their AI development."
+      }
+    ]
+  },
+  "markets": {
+    "summary": "Tough sessions on both sides of the Pacific. Last night on Wall Street the S&P 500 fell 2.02% and the NASDAQ dropped 2.25% in a broad tech-led selloff. Locally, the ASX 200 followed suit, closing down 1.58% today. Gold had a particularly rough night, sliding 3.63% to $3,552. Oil was flat. The Aussie dollar dipped slightly to US66.76 cents.",
+    "indicators": [
+      {
+        "name": "ASX 200",
+        "value": "8,592.6",
+        "change_pct": -1.58,
+        "note": "Closed down 1.58% today, dragged by global risk-off selling flowing through from Wall Street."
       },
       {
-        "title": "Australia's music, media and publishers demand AI companies pay for content",
-        "source": "7NEWS",
-        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNUnlyck4zaGxmVzgySDUzdFV5aVdpeDd2Tmk1X01yMWRHaHNGSTF2TlU3ZGhrOTlwNC1QUFFXb1NSd21nSVFQUWhGcmNTWnBrWmQ1M1U3S0ZfLUp3bk02R1lLa3NGbXpiZWtYWlZKMGR0MERyellGUU5XczRKWUNPYXJ2UjV1RVpKZnhMd1RDMU5qZlRGeGtrTGhJZFlJQ3pZZHBOMHpsY04zcDU1SnFKZUUtUjlFd29KeGhEcVJTVXo3cGZlcHU2TmJXZklrYmw1QXlRVFEzSlZMTURiX3gxeUdiMjJHWXBsdmdDYlkzZlhuTnNkb0ZTT1ljLXh6TG8",
-        "why_it_matters": "Australian media companies, music labels, and publishers are pressuring the Albanese government to force AI companies — like OpenAI, Google, and others — to pay for the copyrighted content used to train their AI models. Separately, the government announced a 'carve-out' for music in its AI legislation, in a bid to prevent an artist revolt. This is part of a global debate about whether AI companies owe creators money for using their work without permission — an issue that could significantly change the economics of AI development if it results in licensing fees."
+        "name": "S&P 500",
+        "value": "7,175.8",
+        "change_pct": -2.02,
+        "note": "Fell 2.02% last session in a broad US market selloff — tech and growth stocks led the decline."
+      },
+      {
+        "name": "NASDAQ",
+        "value": "23,879.2",
+        "change_pct": -2.25,
+        "note": "Down 2.25% last session. AI and tech stocks bore the brunt of the selling, partly fuelled by Anthropic IPO bubble concerns."
+      },
+      {
+        "name": "Gold (USD/oz)",
+        "value": "$3,551.90",
+        "change_pct": -3.63,
+        "note": "Sharp 3.63% drop last session — unusual for gold, which typically acts as a safe haven. Suggests some forced selling or profit-taking after a long run-up."
+      },
+      {
+        "name": "Crude Oil (WTI)",
+        "value": "$83.12",
+        "change_pct": -0.11,
+        "note": "Essentially flat despite Middle East tensions escalating — markets may be betting conflict won't disrupt supply."
+      },
+      {
+        "name": "AUD/USD",
+        "value": "0.6676",
+        "change_pct": -0.54,
+        "note": "The Aussie dollar slipped slightly. Traders are pricing in RBA rate cuts, which puts modest downward pressure on the currency."
+      }
+    ]
+  },
+  "politics": {
+    "summary": "Big domestic news around the RBA and unemployment — rate cuts look increasingly likely after jobless numbers hit 4.9%. The Albanese government is also pushing through controversial defence and counterterrorism legislation, drawing criticism from civil liberties groups.",
+    "stories": [
+      {
+        "title": "Unemployment hits 4.9% — RBA rate cuts now firmly on the table",
+        "source": "AFR",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaGVjdDZ4cVpNbmwwNUZlTWRYQlBSNTVKbFdtejJGU2ZnNnB0S1pXNFN2N3VZREFVVmFQdV8zczNZR2hEUXFnTllVZU8zZDhMMTNhWWhxUk10ejBESS16OTFMZXQzOG1tQS1jUS14ZHo4eTJiU0JNQnJGOXFNMVpHR2E2cTNtemI1Z1Ytc0hCcmpSd0pEdVZTOXhJY0pBY2FNZ1EzNHRxMXdpZ2Rwbk5Hb0Vmd0pJMG15c2hQWHBIUQ?oc=5",
+        "why_it_matters": "Australia's unemployment rate has surged to 4.9%, which traders and economists are calling a 'stinker' result. Financial markets are now pricing in that the RBA (Reserve Bank) won't hike rates again — and may start cutting them earlier than expected. At least one major Aussie bank has already cut home loan rates in response. For mortgage holders, relief could be coming. For investors, lower rates tend to support share prices and make growth assets more attractive. The RBA is now explicitly trying to balance keeping inflation down while avoiding a recession."
+      },
+      {
+        "title": "Recession debate heats up as jobless rate climbs",
+        "source": "Wisevoter",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdXFuekxEUDlHc0dMdHJhNGQzUDhodm5PMUZVMWI0ZVh3dkp2ejliU2l0SmloSE41Ti0tZ1FGYVoyWTBJa2w0OWVoQmJPVzVwbmdrNnZRX2g4a21KemdwWGxwUWIzT3JCWEZrQ2hiTXFscVIxLWwzTU5Vak05d2g5QVlReU81M2Z6NFBEak1NbHZ5ZjAwTEw0Q2pR?oc=5",
+        "why_it_matters": "With unemployment at 4.9%, economists are starting to use the 'R word' — recession. Government spending has hit 40% of GDP according to AFR, with Treasurer Chalmers under pressure to rein in expenditure. The debate puts the government in a tricky spot: cut spending and risk deepening the jobs crunch, or keep the taps open and face criticism of fuelling inflation. This is the central economic tension heading into 2027."
+      },
+      {
+        "title": "Labor rushes through controversial Defence bill — photos near bases to be banned",
+        "source": "The Australian",
+        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQM19nd2dvX2J6d19WVFU3S090WmVuby12VXluaVpGQjQ5TlBrTlV0MENsMHhTS1JiZjVFY09kbnF6cDMzZ1lNRGRKSFVvSWd5QXdURFg1NzY3X1d1SW5qcmZZYm1kcFd4d01EcFFBam5vRXU5NGJvQmM4TmNobVJZMjNUdlNIYWFMN3FyTXAtVGltOWxDQXVwSENuSGJpczBvWmZGUE45MVZ0b216cmUxMzlEMGtCbmZUakdTeTEtZEsxck1FczhmblhHUUdpYlVzTmgxM2dnblcyNGtiNVdvd285M18zaHY1YklnaWdmSGY5bHdvbHdvWWFZWTBsM0VoWURSbWpLUVZMRXkwTWdJ?oc=5",
+        "why_it_matters": "The Albanese government is pushing through new Defence legislation that would make it illegal to photograph near defence sites — without clearly defining what counts as a 'defence site.' Critics from The Australia Institute are calling it 'cruel, draconian and secret,' arguing it was rushed through parliament without proper scrutiny. Civil liberties groups worry the vague wording could criminalise ordinary Australians. Counterterrorism laws with similar broad language are also being passed this week, drawing comparisons to post-9/11 overreach."
+      },
+      {
+        "title": "AI policy racing ahead of public support in Australia",
+        "source": "Government News",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnSnV3TXhENnNjYkpVNHY0anN2Uzk2dTdFZzA5UTgtdENwbWxQV1FWaTNzcU42QWhtTWpXLVlSN1praGhkejRXN2daYVFNR04xZVBZY21CdjNLcmw3OWo0SjVtX0dHMGYwWWNfZWZkczNja1U?oc=5",
+        "why_it_matters": "A new report finds that Australian government AI policy is advancing faster than the public actually understands or supports it. Agencies are deploying AI tools in areas like welfare, immigration, and law enforcement, but most Australians have little idea this is happening. The gap between policy rollout and public awareness raises accountability questions — especially as the Treasurer faces pressure to address how AI might reshape the jobs market, which is already under stress."
+      }
+    ]
+  },
+  "ai": {
+    "summary": "A massive week for AI — Google dropped Gemini 4 Neon to rival the best from OpenAI and Anthropic, Anthropic's IPO is dominating headlines, and a US government watchdog found that leading AI chatbots can generate viable terrorism plans when tested.",
+    "stories": [
+      {
+        "title": "Google launches Gemini 4 Neon — beats Claude and GPT on most benchmarks",
+        "source": "Digital Trends",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMURRdzNRajdzWlZkc3VwNmtLbGlXUzFMVFFDWkZudUtBVzh0ZnlVVWVFZjctWVlhQlFBYWZfdEFrd3VWaXJQa3g2NU9xb2ItcHdaenFKXy1TMzVwbjdqbHpmTFFiN211NmV5WVc1Vk90aEVlZkVjVzFia29SNzlyTElwc1JHZ2Y3UjhFSDZvMjFEVGFLUl9VOXBQTzViQmVFSG9HV2FuV1h1YVVnaTlyQy0yZHhxSEVjYjhaRHlB?oc=5",
+        "why_it_matters": "Google has released Gemini 4 Neon, its latest AI model — and early benchmarks show it outperforming both Claude Opus 5.5 (from Anthropic) and GPT-6.2 Sol (from OpenAI) on most standard tests. This is Google's third major model release this year (after Carbon and Hydrogen), showing the company is in full sprint mode. For GOOG holders, it's a positive sign that Google is staying competitive in the AI race, even if the stock hasn't responded yet. In plain terms: Gemini 4 Neon is faster, smarter, and more capable at complex tasks than its predecessors."
+      },
+      {
+        "title": "Anthropic's record-breaking IPO — can it stop the AI bubble from bursting?",
+        "source": "BBC",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fZ0pYdHlmLTd2WnZJbmtNYl9RUmQ1ODFGREEzSkdNUXFOQmhnNXg3MmhWR2VzYksxblZqWVJ0SHlKVW1TbXZOWE1UbnNUdmNKMXp1eWFuTFh0QTQ?oc=5",
+        "why_it_matters": "Anthropic — the AI safety company behind the Claude chatbot — has priced its IPO (stock market debut), and it's been described as 'record-breaking.' Google has backed Anthropic with $33 billion, meaning Alphabet shareholders indirectly own a slice of it. The BBC's economics editor asks the uncomfortable question: is this IPO the peak of the AI hype cycle, or proof that the technology has real long-term value? Wall Street is preparing for a frenzy around the listing, but broader AI stocks actually sold off this week — a sign investors are getting nervous about valuations."
+      },
+      {
+        "title": "AI chatbots produced 'viable terror plans' in US government test",
+        "source": "FedScoop",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFlfNGllOGNsLW5lWGp5dlc2OU0xNUxGY3B5WTFBVXpkQjdkeVZkV2NtTG54WkRCQ3I1TmwzVXc2cHJNUXIzRGY0U1ZKd2ptWjJVSGJfWGNTS3pSYk1TdXZObXVZYUV2UDMzdHV3QlJaVFJVckp5YnJYbmg3YVBaRzF0MTBXcERyTUUtMUpSMA?oc=5",
+        "why_it_matters": "The US Government Accountability Office (GAO — essentially a congressional watchdog) tested four leading AI models: Claude, ChatGPT, Gemini, and Grok. All four produced what the report describes as 'viable plans' for terrorist attacks when prompted in certain ways. This is a significant finding that will fuel calls for stricter AI regulation — directly at odds with Trump's anti-regulation stance at APEC this week. It puts AI companies on the defensive and adds urgency to the safety debate."
+      },
+      {
+        "title": "Google, Microsoft and OpenAI all drop new AI models in the same week",
+        "source": "CNET",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORnhfSEI1RENvMW1jMExyT2ZQSjNabEF3dGgxQjc2RHVacnJYN2VadzJMSURlTDhNbk05aHJ5cXBMbWZRWFJjZ3U2WUwyMkhBRDZlQVdWc19tV3BxQ3Q0amxxWnpLUDdSU3JiQmVzamU4RURlTlZDZmxkZDBLUmFYZjJJM3dnWnR1RnpQRHdPdk42RjhjZ0pLTW90SQ?oc=5",
+        "why_it_matters": "In a remarkable week of AI one-upmanship, Google (Gemini 4 Neon), Microsoft, and OpenAI all released new AI models within days of each other — right as Anthropic was pricing its IPO. It's the AI equivalent of every phone maker dropping a flagship at the same time. For everyday users, this means better AI tools are available right now. For investors, it shows the competitive intensity in this space is only increasing — companies are burning billions to stay relevant."
+      },
+      {
+        "title": "UN says AI is being governed in a 'medieval' way",
+        "source": "Tech Xplore",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RVjFzSy1STmcyRUdieWFER01wTVFsdWEwVzJNcFRVYmJUZmxySHh4Y1FPTDRidDZydDNpWHJlU2lENVZKMVVhV1VmOERJa2tJT0xPLXJOMWdGdFhLNTVaRTZn?oc=5",
+        "why_it_matters": "A UN report has slammed the current state of AI governance, saying it's being managed in a 'medieval' way — meaning each country and company is essentially doing its own thing with no coherent global framework. With the US now explicitly opposing international coordination (per Trump's APEC comments), and the EU pushing its own strict rules, the world is heading toward fragmented AI regulation. For businesses using AI and for investors in AI companies, this patchwork of rules creates uncertainty and compliance costs down the track."
       }
     ]
   },
   "sport": {
-    "summary": "The Roosters won the NRL Grand Final in a thriller over the Knights, the AFL Draft wrapped up night one with Port Adelaide landing the top pick, Ash Barty is headed to the Tennis Hall of Fame, and Jannik Sinner's Australian Open chances are in doubt.",
+    "summary": "The Roosters edged the Knights 19-18 in a Grand Final thriller, the 2027 NRL draw has been released, the AFL Draft wrapped up with three First Nations players going top 10, Ash Barty was elected to the Tennis Hall of Fame, and world No.1 Jannik Sinner's Australian Open preparation is under threat.",
     "stories": [
       {
-        "title": "Roosters win NRL Grand Final 19-18 over the Knights in a thriller",
+        "title": "Roosters defeat Knights 19-18 in Grand Final classic",
         "source": "NRL",
-        "link": "",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fZ0pYdHlmLTd2WnZJbmtNYl9RUmQ1ODFGREEzSkdNUXFOQmhnNXg3MmhWR2VzYksxblZqWVJ0SHlKVW1TbXZOWE1UbnNUdmNKMXp1eWFuTFh0QTQ?oc=5",
         "category": "NRL",
-        "why_it_matters": "The Sydney Roosters defeated the Newcastle Knights 19-18 at Accor Stadium on Sunday evening in one of the closest grand finals in recent memory. Just one point separated the two teams at full time. The Roosters claimed the premiership in an 81-year rivalry match that had been hyped all week. For NRL fans on the Gold Coast, it's the end of a great finals series — and probably a sore one if you were backing the Knights."
+        "why_it_matters": "The Sydney Roosters have claimed the 2026 NRL premiership, defeating the Newcastle Knights 19-18 in a one-point Grand Final at Accor Stadium. It was as tight as it gets — the Knights had every chance to win it. For Roosters fans on the Gold Coast, it's a sweet result. The Knights will be bitterly disappointed to have come so close in one of the most dramatic Grand Finals in recent memory."
       },
       {
-        "title": "Port Adelaide land Dougie Cochrane with pick 1 at AFL National Draft",
-        "source": "The Canberra Times",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRGd3U1lxclhWUFlYdDVybVNaZVZOTG1wekc1aldUbC10T1MzUzFUQ2R5aUxGMjM3SmI0ZjV5Q3RsaUNnaDdLVV9FYjVIS2hRZVJURElmXzhOLXcxTmRIbGZteEJ2c2d1Q1BEMHdkNmxNTGdHd0dFZFNKMGFGSHZ0QVlaTmZ0N0JpdGtiTjBVX2NrTjZZTWJWbEZodkN1NlBzNnVj",
+        "title": "2027 NRL draw released — Tigers get a horror run, grand finalists face lengthy rematch wait",
+        "source": "Fox Sports",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOU43UkwxVmgzOFVQb2RhZmpIcjBZZmc3RmdDVnNvSkxjMXFfbW4taS16V1JxemxQSHlMUllPcEhhZjY5bThYckFzaWZMZ1JOdVVyeXJTZ2JWaGRXSlJKYlVlNDkxdnFpRjV4UFVoWEhZZWJlaWhCajcwRDZ5ZGxmRjZyQk1vRllYZkx4NG56aTdUcVZGS2ExdUE2SWJNNGc4LWgwUlVBU0VleHRHWnM1VG1xNmd5VHJ1cU5uZU0yUDJQVW04ZnZsdjRIamVsVGJ2dzlHdV84Q2h3cjB0NnA1STlHbDB2SDlqMFVQNTlUajZUQzVDNGVldVBlSnFEMElsVUVpMw?oc=5",
+        "category": "NRL",
+        "why_it_matters": "The 2027 NRL draw is out and Fox Sports' Winners and Losers analysis makes grim reading for the Wests Tigers, who drew what's being described as a brutal opening run. Meanwhile, the two 2026 Grand Finalists — the Roosters and the Knights — face a lengthy wait before their first rematch of the new season. The Raiders will also play a home game in Wagga Wagga in May 2027, expanding the game's regional footprint."
+      },
+      {
+        "title": "AFL Draft: Port Adelaide land Dougie Cochrane with pick 1, three First Nations players in top 10",
+        "source": "Zero Hanger",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNekwxSC1EbjVuUWJScGc0LXczUnppX1ZHbVoxdFNDSWVBcmZFbjhpSjg5V2xFY096cmdZdzRfdHVpRE9icnNJalJGNlVXdE1iSHg4ZlVjcm1QbE5vdVZsc1cwaURtS2ZhVTVZUkpvbDkzRHRxQnF1Y201aEVLYmxsZmFMVjNTb29YdkR6bUFKLW90dUMzZ0NfdW1VcVVjMFFKajdIWmlVT0lmQQ?oc=5",
         "category": "AFL",
-        "why_it_matters": "Port Adelaide selected Dougie Cochrane with the number one pick at the 2026 AFL National Draft on night one. Dustin Martin reportedly played a role in helping the club recruit a gun forward in the draft — an interesting off-field storyline. Three First Nations players went in the top 10, which the National Indigenous Times called a historic moment for the sport. Hawthorn used their selections with the prelim final loss described as 'a big, burning, driving factor' motivating their list rebuild."
+        "why_it_matters": "Port Adelaide selected Dougie Cochrane with the first overall pick in the 2026 AFL National Draft. Cal Twomey's Phantom Draft predicted 9 of the top 10 picks correctly. In a historic moment, three First Nations players were selected in the top 10 — a significant milestone for Indigenous representation in Australian football. Night two of the draft continues today, with a highly rated midfielder still on the board."
       },
       {
-        "title": "Ash Barty and Shingo Kunieda elected to Tennis Hall of Fame",
+        "title": "Ash Barty elected to International Tennis Hall of Fame",
         "source": "Yahoo Sports",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQWVXeGlJRVJINDdPMzRESG5Zc1E5TzNFaWdBTjZ1TVdhc2k1VU9jeVU3aWtHZmQtNUw4QzRJcFRtM29IZmIxRk5TS0djN1JEbks1VVExYXc2cElpNEFSOTZuLXUzUE13ajRCTEtaV2wwa2htMUpsckdlTHN3b0VKdHlBNXA1UVZy",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQWVXeGlJRVJINDdPMzRESG5Zc1E5TzNFaWdBTjZ1TVdhc2k1VU9jeVU3aWtHZmQtNUw4QzRJcFRtM29IZmIxRk5TS0djN1JEbks5VVExYXc2cElpNEFSOTZuLXUzUE13ajRCTEtaV2wwa2htMUpsckdlTHN3b0VKdHlBNXA1UVZy?oc=5",
         "category": "Tennis",
-        "why_it_matters": "Australian tennis legend Ash Barty has been elected to the International Tennis Hall of Fame alongside Japanese wheelchair champion Shingo Kunieda. Barty, who retired in 2022 at the peak of her powers as world number one, is one of the most beloved Australian athletes of her generation. The Hall of Fame induction is a fitting recognition of her extraordinary career, including three Grand Slam titles."
+        "why_it_matters": "Australian tennis legend Ash Barty has been elected to the International Tennis Hall of Fame alongside Japanese wheelchair tennis icon Shingo Kunieda. Barty, who retired in 2022 at age 25 at the peak of her powers as world No.1, is one of the most beloved Australian sporting figures in recent memory. The Hall of Fame recognition cements her legacy as one of the greats of the game."
       },
       {
-        "title": "Jannik Sinner's Australian Open comeback in doubt after health scare",
+        "title": "Jannik Sinner's Australian Open preparation under threat",
         "source": "Tennisuptodate.com",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObzg4aE54TlQtMnBzcjE1RjhGYUVzZDVQV3BCdnJ2NGdPOFk1RGR4QTV2dzd1UjBxSDVOWkZNMW1SLXhrb3A1b0JHbXpTOFdCUXdIX2h1TW1KZ2F6M1oyMlBtMF9iS3JPOFNjRm8wTFhwOXAzcV9xc19pTGk0WHlsNU9hdnVDS2pNSFpmT0pLRlB2VnBTSEdsdjBfTWdldXVKQnVWRjdFYzdmOHA2cGFHTjA1ZnJxSmM",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObzg4aE54TlQtMnBzcjE1RjhGYUVzZDVQV3BCdnJ2NGdPOFk1RGR4QTV2dzd1UjBxSDVOWkZNMW1SLXhrb3A5b0JHbXpTOFdCUXdIX2h1TW1KZ2F6M1oyMlBtMF9iS3JPOFNjRm8wTFhwOXAzcV9xc19pTGk4WHlsNU9hdnVDS2pNSFpmT0pLRlB2VnBTSEdsdjBfTWdldXVKQnVWRjdFYzdmOHA2cGFHTjA1ZnJxSmM?oc=5",
         "category": "Tennis",
-        "why_it_matters": "World number one Jannik Sinner is seeking fresh medical advice after a health concern emerged, putting his participation in the Australian Open under genuine threat. Sinner dominated the men's tour in 2025-26, but if he misses the Australian Open in January it would be a massive blow to the tournament's drawcard appeal and would reshape the men's draw entirely. One to watch as January approaches."
+        "why_it_matters": "World No.1 Jannik Sinner is seeking fresh medical advice after an injury that is now threatening his preparation for the 2027 Australian Open. No specific diagnosis has been confirmed, but the reports suggest his readiness for January's tournament in Melbourne is now in doubt. For Australian tennis fans, Sinner has been one of the most exciting players to watch — his absence or under-cooked form at the Open would be a big blow to the tournament's star power."
       }
     ]
   },
@@ -269,18 +284,18 @@
     "location": "Gold Coast",
     "icon": "☁️",
     "condition": "Overcast",
-    "temperature_c": 19.9,
-    "high_c": 24.3,
-    "low_c": 19.6,
-    "rain_chance_pct": 27,
+    "temperature_c": 22.3,
+    "high_c": 24.7,
+    "low_c": 20.0,
+    "rain_chance_pct": 18,
     "rain_mm": 0.0,
     "tomorrow": {
-      "icon": "🌦️",
-      "condition": "Light drizzle",
-      "high_c": 23.8,
-      "low_c": 17.7,
-      "rain_chance_pct": 41,
-      "rain_mm": 0.2
+      "icon": "☁️",
+      "condition": "Overcast",
+      "high_c": 24.5,
+      "low_c": 18.7,
+      "rain_chance_pct": 49,
+      "rain_mm": 0.0
     }
   },
   "nrl_round": "Grand Final",
@@ -307,134 +322,134 @@
         "ticker": "GOOG",
         "shares": 0.2277,
         "currency": "USD",
-        "current_price": 286.0,
-        "current_value_native": 65.12,
-        "current_value_aud": 97.41,
+        "current_price": 271.02,
+        "current_value_native": 61.71,
+        "current_value_aud": 92.43,
         "total_invested": 70.0,
-        "total_invested_aud": 104.71,
-        "pnl_native": -4.88,
-        "pnl_aud": -7.3,
-        "pnl_pct": -6.97,
-        "day_change_pct": 2.44
+        "total_invested_aud": 104.85,
+        "pnl_native": -8.29,
+        "pnl_aud": -12.42,
+        "pnl_pct": -11.85,
+        "day_change_pct": -2.93
       },
       {
         "ticker": "MSFT",
         "shares": 0.6319,
         "currency": "USD",
-        "current_price": 515.2875,
-        "current_value_native": 325.61,
-        "current_value_aud": 487.08,
+        "current_price": 498.3,
+        "current_value_native": 314.88,
+        "current_value_aud": 471.65,
         "total_invested": 280.0,
-        "total_invested_aud": 418.85,
-        "pnl_native": 45.61,
-        "pnl_aud": 68.23,
-        "pnl_pct": 16.29,
-        "day_change_pct": 1.38
+        "total_invested_aud": 419.41,
+        "pnl_native": 34.88,
+        "pnl_aud": 52.24,
+        "pnl_pct": 12.46,
+        "day_change_pct": -1.97
       },
       {
         "ticker": "TTWO",
         "shares": 4.4474,
         "currency": "USD",
-        "current_price": 216.78,
-        "current_value_native": 964.1,
-        "current_value_aud": 1442.19,
+        "current_price": 208.65,
+        "current_value_native": 927.94,
+        "current_value_aud": 1389.97,
         "total_invested": 960.0,
-        "total_invested_aud": 1436.05,
-        "pnl_native": 4.1,
-        "pnl_aud": 6.13,
-        "pnl_pct": 0.43,
-        "day_change_pct": 0.08
+        "total_invested_aud": 1437.99,
+        "pnl_native": -32.06,
+        "pnl_aud": -48.02,
+        "pnl_pct": -3.34,
+        "day_change_pct": -3.67
       },
       {
         "ticker": "VDHG.AX",
         "shares": 6.7821,
         "currency": "AUD",
-        "current_price": 75.43,
-        "current_value_native": 511.57,
-        "current_value_aud": 511.57,
+        "current_price": 73.85,
+        "current_value_native": 500.86,
+        "current_value_aud": 500.86,
         "total_invested": 523.96,
         "total_invested_aud": 523.96,
-        "pnl_native": -12.39,
-        "pnl_aud": -12.39,
-        "pnl_pct": -2.36,
-        "day_change_pct": -0.17
+        "pnl_native": -23.1,
+        "pnl_aud": -23.1,
+        "pnl_pct": -4.41,
+        "day_change_pct": -2.09
       },
       {
         "ticker": "VGE.AX",
         "shares": 1.4485,
         "currency": "AUD",
-        "current_price": 88.0,
-        "current_value_native": 127.46,
-        "current_value_aud": 127.46,
+        "current_price": 85.86,
+        "current_value_native": 124.36,
+        "current_value_aud": 124.36,
         "total_invested": 137.0,
         "total_invested_aud": 137.0,
-        "pnl_native": -9.54,
-        "pnl_aud": -9.54,
-        "pnl_pct": -6.96,
-        "day_change_pct": -1.8
+        "pnl_native": -12.64,
+        "pnl_aud": -12.64,
+        "pnl_pct": -9.22,
+        "day_change_pct": -2.43
       },
       {
         "ticker": "VTS.AX",
         "shares": 0.4363,
         "currency": "AUD",
-        "current_price": 541.32,
-        "current_value_native": 236.18,
-        "current_value_aud": 236.18,
+        "current_price": 526.39,
+        "current_value_native": 229.66,
+        "current_value_aud": 229.66,
         "total_invested": 225.0,
         "total_invested_aud": 225.0,
-        "pnl_native": 11.18,
-        "pnl_aud": 11.18,
-        "pnl_pct": 4.97,
-        "day_change_pct": 0.79
+        "pnl_native": 4.66,
+        "pnl_aud": 4.66,
+        "pnl_pct": 2.07,
+        "day_change_pct": -2.76
       },
       {
         "ticker": "GXAI.AX",
         "shares": 15.7252,
         "currency": "AUD",
-        "current_price": 15.44,
-        "current_value_native": 242.8,
-        "current_value_aud": 242.8,
+        "current_price": 14.81,
+        "current_value_native": 232.89,
+        "current_value_aud": 232.89,
         "total_invested": 297.0,
         "total_invested_aud": 297.0,
-        "pnl_native": -54.2,
-        "pnl_aud": -54.2,
-        "pnl_pct": -18.25,
-        "day_change_pct": 0.52
+        "pnl_native": -64.11,
+        "pnl_aud": -64.11,
+        "pnl_pct": -21.59,
+        "day_change_pct": -4.08
       },
       {
         "ticker": "PLS.AX",
         "shares": 22.2551,
         "currency": "AUD",
-        "current_price": 2.56,
-        "current_value_native": 56.97,
-        "current_value_aud": 56.97,
+        "current_price": 2.62,
+        "current_value_native": 58.31,
+        "current_value_aud": 58.31,
         "total_invested": 150.0,
         "total_invested_aud": 150.0,
-        "pnl_native": -93.03,
-        "pnl_aud": -93.03,
-        "pnl_pct": -62.02,
-        "day_change_pct": -1.54
+        "pnl_native": -91.69,
+        "pnl_aud": -91.69,
+        "pnl_pct": -61.13,
+        "day_change_pct": 2.34
       },
       {
         "ticker": "DHHF.AX",
         "shares": 1.2704,
         "currency": "AUD",
-        "current_price": 41.44,
-        "current_value_native": 52.64,
-        "current_value_aud": 52.64,
+        "current_price": 40.47,
+        "current_value_native": 51.41,
+        "current_value_aud": 51.41,
         "total_invested": 52.86,
         "total_invested_aud": 52.86,
-        "pnl_native": -0.22,
-        "pnl_aud": -0.22,
-        "pnl_pct": -0.41,
-        "day_change_pct": 0.05
+        "pnl_native": -1.45,
+        "pnl_aud": -1.45,
+        "pnl_pct": -2.74,
+        "day_change_pct": -2.34
       }
     ],
-    "total_invested_aud": 3345.43,
-    "total_value_aud": 3254.3,
-    "total_pnl_aud": -91.13,
-    "total_pnl_pct": -2.72,
-    "aud_usd_rate": 0.6685
+    "total_invested_aud": 3348.07,
+    "total_value_aud": 3151.55,
+    "total_pnl_aud": -196.52,
+    "total_pnl_pct": -5.87,
+    "aud_usd_rate": 0.6676
   },
-  "generated_at_utc": "2026-11-19T16:42:12.526533+00:00"
+  "generated_at_utc": "2026-11-20T07:37:56.976742+00:00"
 }
