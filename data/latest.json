@@ -1,292 +1,305 @@
 {
-  "headline": "US markets took a hammering last night with the NASDAQ down 5.3%, while the ASX held steady today — and GTA VI just had the biggest entertainment launch in history.",
+  "headline": "GOOG surged +6.4% last night and the NASDAQ ripped +6.6% — the biggest single-day tech rally in months — while the ASX closed mildly lower today and Pilbara Minerals popped +4.6% on the local market.",
   "portfolio": {
     "movers": [
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet (Google)",
+        "change_pct": 6.42,
+        "note": "GOOG had a huge night last night, surging +6.4% as part of a broad tech and AI rally that sent the NASDAQ up 6.6% — the biggest single-day gain in over 18 months for semis and AI stocks. No specific Alphabet news drove it; this was a rising-tide moment for the whole tech sector."
+      },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": 4.58,
-        "note": "PLS bounced strongly today, up 4.6% to $2.74. Traders are betting on low Chinese lithium stockpiles eventually forcing buyers back to the market, giving beaten-down miners a short-term lift. The stock is still deeply underwater long-term, but this is a rare green day for lithium bulls."
+        "note": "PLS closed up +4.6% today in a solid session for the lithium miner. No major company-specific news — the bounce likely reflects short-covering and a bit of optimism around lithium demand. The stock remains deeply underwater overall (down ~59% on your cost base), so one day's pop doesn't change the bigger picture."
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
-        "change_pct": -2.77,
-        "note": "Microsoft dropped 2.8% last night in a broad tech selloff that hammered the NASDAQ. There was no Microsoft-specific bad news — the whole sector sold off hard, likely on renewed concerns about stretched valuations and macro pressures. The long-term AI growth story remains intact."
-      },
-      {
-        "ticker": "GOOG",
-        "name": "Alphabet (Google)",
-        "change_pct": -2.59,
-        "note": "Google fell 2.6% last night as part of the same wide tech rout that hit the NASDAQ. No Google-specific catalyst — this was sector-wide pain. The long-term case for Google's AI and search dominance hasn't changed."
-      },
-      {
-        "ticker": "GXAI.AX",
-        "name": "Global X AI ETF",
-        "change_pct": -1.55,
-        "note": "GXAI slipped 1.6% today on the ASX, tracking the brutal overnight selloff in US tech stocks. As an AI-focused ETF, it's naturally sensitive to moves in US tech giants like those that fell sharply last night on NASDAQ."
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "change_pct": 0.65,
-        "note": "TTWO edged up 0.65% last night — a remarkable hold given the NASDAQ was down over 5%. GTA VI reportedly generated $3.79 billion on its first day of release, which is an almost incomprehensible number. That tailwind is clearly keeping buyers interested even in a rough market."
+        "change_pct": 2.41,
+        "note": "Microsoft climbed +2.4% last night, carried higher by the same broad AI/tech rally that lifted GOOG. Analysts flagged strong earnings momentum but noted the technical setup is still recovering. Up 12% on your cost base overall — solid long-term hold."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": 0.91,
-        "note": "VGE had a good day on the ASX, up 0.9% to $86.64. Emerging markets can sometimes benefit when US tech sells off hard, as money rotates elsewhere. A quiet positive in an otherwise choppy session."
+        "note": "VGE nudged up +0.9% today in a quiet ASX session. Emerging markets have had a rough run this year, and the fund is still down ~8.4% on your cost base. No specific catalyst today — just gentle positive drift."
       },
       {
-        "ticker": "VTS.AX",
-        "name": "Vanguard US Total Market ETF",
-        "change_pct": -0.64,
-        "note": "VTS slipped 0.6% today. As a US total market ETF, it reflects the overnight NASDAQ carnage — the ASX-listed price is tracking the damage done on Wall Street last night, though the fall was cushioned compared to the raw NASDAQ move."
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "change_pct": 0.01,
+        "note": "TTWO was essentially flat last night (+0.01%), which is surprising given the massive GTA 6 launch news — Rockstar reported approximately $3.79 billion in day-one sales with players averaging 8 hours each. The lack of a bigger pop may mean the launch was already priced in, or the market is focused elsewhere."
+      },
+      {
+        "ticker": "DHHF.AX",
+        "name": "BetaShares Diversified All Growth ETF",
+        "change_pct": -0.17,
+        "note": "DHHF slipped a tiny -0.17% today, essentially flat in a quiet ASX session. Nothing to worry about — this is normal daily noise for a broadly diversified ETF."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -0.31,
-        "note": "VDHG eased 0.3% today — a mild dip given the global tech turbulence. Its diversification across asset classes and geographies is doing exactly what it's supposed to: smoothing out the bumps."
+        "note": "VDHG eased -0.3% today, mirroring the slightly softer ASX. No specific catalyst — the broader market was mildly in the red. Long-term story unchanged for this diversified growth fund."
       },
       {
-        "ticker": "DHHF.AX",
-        "name": "DHHF",
-        "change_pct": -0.17,
-        "note": "DHHF barely moved today, down just 0.17%. As a broad global ETF, it's well insulated from single-sector swings. Nothing to worry about here — this is normal daily noise."
+        "ticker": "VTS.AX",
+        "name": "Vanguard US Total Market ETF",
+        "change_pct": -0.64,
+        "note": "VTS closed down -0.64% today on the ASX, but this doesn't reflect last night's massive US rally (+4.9% on the S&P 500) — that gain will flow through to VTS in tomorrow's session. Sit tight, there's a good session likely coming."
+      },
+      {
+        "ticker": "GXAI.AX",
+        "name": "Global X AI ETF",
+        "change_pct": -1.55,
+        "note": "GXAI slipped -1.55% today despite the huge AI rally last night on Wall Street. As an ASX-listed ETF, it tracks ASX trading hours and hasn't yet captured last night's massive US semiconductor and AI rebound — expect it to bounce tomorrow when the US gains flow through."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "NASDAQ crashed 5.3% last night — big hit to US tech holdings",
-      "detail": "The NASDAQ fell 5.28% and the S&P 500 dropped 3.7% last night. That's a serious one-night move, not normal volatility. Your MSFT and GOOG holdings both took ~2.6-2.8% hits, and GXAI.AX followed suit today. But for a long-term buy-and-hold investor, one bad night doesn't change the thesis — sit tight unless something structural has broken (it hasn't).",
-      "urgency": "orange"
+      "title": "VTS.AX and GXAI.AX: Expect a bounce tomorrow",
+      "detail": "Both VTS and GXAI closed slightly lower today on the ASX — but they haven't yet priced in last night's monster US rally (S&P +4.9%, NASDAQ +6.6%, semis and AI stocks up sharply). Tomorrow's ASX open should see these two catch up. No action needed — this is good news for long-term holders.",
+      "urgency": "green",
+      "ticker": "VTS.AX",
+      "action": "hold"
     },
     {
-      "title": "TTWO — GTA VI launch is a monster catalyst",
-      "detail": "GTA VI reportedly generated $3.79 billion on day one — beating the Nintendo 64's lifetime sales in a single day. This is exactly the event TTWO investors have been waiting years for. The stock held up well last night (+0.65%) even as NASDAQ cratered. Long-term, this is a major validation of the investment thesis. Hold firmly.",
+      "title": "GXAI.AX: Same story — big bounce likely tomorrow",
+      "detail": "GXAI fell -1.55% today but the AI/semiconductor ETF (SOXX) had its biggest single-day gain in over 18 months last night in the US. GXAI tracks this space closely. It's still down 22.8% on your cost base, but last night's rally is a real positive for the long-term AI thesis. Hold and let the bounce come through.",
       "urgency": "green",
+      "ticker": "GXAI.AX",
+      "action": "hold"
+    },
+    {
+      "title": "TTWO: GTA 6 launched — $3.8B day one but stock barely moved",
+      "detail": "Rockstar reported approximately $3.79 billion in GTA 6 day-one sales, with players averaging 8 hours each — a blockbuster launch by any measure. TTWO was flat last night (+0.01%), suggesting the market had largely priced this in. You're down ~2.7% on cost. The long-term thesis (GTA 6 is a multi-year revenue machine) remains intact. No reason to sell — hold and let the game's commercial lifecycle play out.",
+      "urgency": "orange",
       "ticker": "TTWO",
       "action": "hold"
     },
     {
-      "title": "MSFT — solid long-term hold despite last night's dip",
-      "detail": "Microsoft fell 2.77% last night as part of the broader tech selloff, not due to any company-specific news. The stock is still up 9.35% on your cost base. Microsoft's AI integration across its products (Copilot, Azure, Office) remains one of the strongest long-term stories in tech. This dip doesn't change that.",
-      "urgency": "green",
-      "ticker": "MSFT",
-      "action": "hold"
-    },
-    {
-      "title": "PLS.AX — a rare green day, but still deeply underwater",
-      "detail": "Pilbara Minerals jumped 4.6% today on optimism around low Chinese lithium stockpiles — the idea being that Chinese battery makers will eventually need to restock and prices will recover. Good news for a beaten-up stock, but PLS is still down nearly 60% on your total investment. The turnaround thesis requires patience. Hold and watch lithium price data.",
+      "title": "PLS.AX: Nice day but the hole is still deep",
+      "detail": "Pilbara Minerals bounced +4.58% today, which is welcome — but you're still down nearly 60% on your original investment. No fundamental news drove today's move; it looks like a short-term bounce. The lithium market remains depressed. If you believe in the long-term lithium/EV thesis, hold. If this was always a speculative punt, today's pop is worth reflecting on.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "GXAI.AX — underwater and sensitive to US tech swings",
-      "detail": "GXAI is down 22.8% on your cost base and fell another 1.55% today tracking the NASDAQ carnage. AI stocks are volatile and can swing hard on macro sentiment. The long-term AI growth story is real, but this ETF will stay bumpy. No reason to sell — the thesis is intact — but expect more volatility if US tech remains under pressure.",
-      "urgency": "orange",
-      "ticker": "GXAI.AX",
-      "action": "hold"
+      "title": "Australian economy warning: Chalmers says 'things will get harder'",
+      "detail": "Treasurer Jim Chalmers warned today that unemployment will surpass 5% and growth will slow further heading into 2027. One indicator watched by economists is flashing recession risk as early as next month. Rate hikes are still possible before any relief in late 2027. This is a headwind for consumer stocks and property — your diversified ETFs (DHHF, VDHG) already have some buffer built in.",
+      "urgency": "orange"
     },
     {
-      "title": "Treasurer warns of tough year ahead — watch for RBA implications",
-      "detail": "Treasurer Jim Chalmers warned today that unemployment will surpass 5% and inflation forecasts have worsened, calling it an 'economic triple-whammy.' One indicator suggests Australia could tip into recession as early as next month. This matters for your portfolio because a weaker economy could delay RBA rate cuts — keeping pressure on mortgage holders and consumer-facing stocks.",
-      "urgency": "orange"
+      "title": "GOOG: Big night — still slightly underwater overall",
+      "detail": "GOOG surged +6.42% last night as part of the broader tech rally. You're still down ~8.6% on cost base in AUD terms (partly due to currency). Nothing has broken the long-term Google/AI story — this looks like the market reasserting tech's value after a soft patch. Hold.",
+      "urgency": "green",
+      "ticker": "GOOG",
+      "action": "hold"
     }
   ],
   "world": {
-    "summary": "The Middle East remains tense with a tanker incident in the Gulf, the UN climate talks collapsed without a major deal, Iran flexed military muscle, and Carlos Alcaraz made tennis history winning the ATP Finals.",
+    "summary": "Global attention is split between Iran nuclear tensions, the collapse of COP climate talks, a historic tennis milestone, and a major Okinawa cultural moment.",
     "stories": [
       {
-        "title": "UN Climate Talks Collapse Without Major Deal",
+        "title": "Trump wants a 'permanent' Iran nuclear deal — but warns next move may not come until 2027",
+        "source": "CBS News",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGgwZTZaQWNtSzNpRDhQajRHRHFFTDhiVXczZmUtaFJiMVdTMFcwN1dWV053c1lGY2hiUnJrNnc3X1JoREFHLWNYTG52bVk5cXhMSDlCU2NkcDVCeWhQamZsX3JXdVBYdzJSdWQ1NDlKaTE4ZzIxc3U1SE1lcnhjdm41TmtHVzBMTmI4?oc=5",
+        "why_it_matters": "Donald Trump has said he wants a 'permanent' deal with Iran over its nuclear program, but indicated the next significant move in negotiations might not happen until 2027. Meanwhile, Iran unveiled a new missile launcher and commanders publicly touted their capabilities. Israeli former senior official Eisenkot said there's no immediate Iranian threat requiring Israeli military action. This diplomatic uncertainty is keeping oil markets jumpy — crude fell sharply last night (down -4.4% to $80.29/barrel) as supply concerns eased, but a flare-up could reverse that quickly."
+      },
+      {
+        "title": "Global climate talks broke down — here's what actually happened",
         "source": "Time Magazine",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQkk2YjJKUW9kUlZpZnVxdGp0QnVGTDZhWTBjQkJ3Qzg3UE9JV2tRbThWVjFTdDAxaVZaN1hlaXBJRkJlMzU4SDcxZ3BTWkJ1eVc5UGRxenduSFVLM2dzb1ZuaUNKYWdLNktENkJiNHhUUzZhY0lFNzg5bmRRWk1pam1R?oc=5",
-        "why_it_matters": "The latest round of UN climate negotiations broke down without a significant agreement, the second major failure in recent years after COP28. Countries couldn't agree on who should pay for the energy transition in developing nations, with wealthy nations offering far less than the hundreds of billions being demanded. For everyday Australians, this matters because without global action, extreme weather events — floods, heatwaves, bushfires — will keep getting worse and more frequent. It also signals continued uncertainty for clean energy investment globally."
+        "why_it_matters": "The latest round of international climate negotiations collapsed without agreement, with wealthy and developing nations failing to bridge the gap on who pays for the energy transition. No article text was available, but the breakdown signals that the global consensus on climate action is under real strain — particularly as the US under Trump has pulled back from climate commitments. For Australian investors, this could mean delays to the global clean energy buildout, which matters for holdings in lithium (PLS) and green-economy ETFs."
       },
       {
-        "title": "Iran Unveils Missile Launcher and Flaunts Military Capabilities",
-        "source": "Al Arabiya English",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUldINFppYjZOVVBmQlM5Y3RGS1VnX2pmYnBkOURxV2JaLWpuZUZvZnl0OFdHRFBOTFNMek9FSTdhalcxM1kzWGxZNjdPcS1ncGRWRTFPZXNuQzk5cDZ5TFNHcTQ5NFpyMVJTS256V0lpUG5aZXU5T0RadWw1c0ZyWWkwTVZ4ZS1Jb0R1NGJBY29OZVo2TXF6TjFOT3dYMXM2UzNkb1JFaXFlWDlzaklhdGFINm44UldZMTVOTmhacWJqcHpkTnVjaGhvZjZXeVnSAdQBQVVfeXFMT2FDeVRvUGx4RlpLclBlNXM3STJhWHVQZ3FZLTk5Nko2T2U1NHZCV1IxX0RBSXJnZVl4QlNQUExSYzRER3RKLVFVZVluVUFWUGhVNVJpSVRsSU9CU0xHa2tiaUY3RWNoV2RjZnVQa2VTeXNTM05ja21Ga0Z3Mk42djVSekRnR05GMnlrRW5DWXBjQmphOHBzT1dsOURaN0w2bHBzVlA4Y3hvR3R3b2hwRVlRRTVDdF9SRVhiM2hnbVFvbVFhZ3Z5cmhEQ3hoVWdYNkxlb3k?oc=5",
-        "why_it_matters": "Iran publicly unveiled a new missile launcher system, with military commanders talking up their capabilities in what they described as an ongoing confrontation with the United States. This comes at the same time as a reported tanker incident in the Gulf of Oman, where Iran claimed two ships caught fire. Middle East tensions directly affect global oil prices — if the Gulf shipping lanes get disrupted, oil spikes fast. Worth watching given oil is already a bit soft at $82.89 a barrel."
-      },
-      {
-        "title": "Tanker Incident Reported in Gulf as Middle East Tensions Simmer",
-        "source": "The National",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUHN2cW4tcHM0SnF6VTliWkZvYnptOHl1T19RT0p4TlZKNUd0VlNQd3hWR2lNbUh4UEN2cmZzZGNnTjRya1FJOV9WZmd3dkU1bmNJdFZwVEhIMmhhT0hkZkYtWVZ3QXU5R25JRTVNTVVpaFp6VHNQaW9rV3hsYVR1UjAwclM0NWhqZkE?oc=5",
-        "why_it_matters": "A tanker incident has been reported in the Gulf as Iran claims two ships caught fire. Details are still developing, but any interference with oil tankers in the Persian Gulf is a serious escalation risk — roughly 20% of the world's oil passes through this region. Combined with Iran's missile displays, the region is in a heightened state of tension. Oil prices and broader market risk sentiment could be affected if this escalates further."
-      },
-      {
-        "title": "West Bank Arson Attacks Condemned as 'Jewish Terrorism' — Israeli Political Feud Erupts",
-        "source": "Il Sole 24 ORE",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjZYRHVpbUdTVVlVTDNNX010cWJDY2FvT0FCTHQySVZibUstMWt0T1dOblQ0S25PNVBCRHFZUGVqcFBrWFdqN21pVmJkVUUyUUxRRTZVSWFQNHNpOHpIOHc2akszMkdFZDIySGZNaURRUUFHM0liM1o1OG9jN0lxeWtJczBFd3BuMS1QczRqQVltZzg4VzBGczlvTXJBZUZZMkl1ek81b2Z1WW5pZjJrUG8tZW1EUQ?oc=5",
-        "why_it_matters": "Israeli politician Gadi Eisenkot — a former general and senior political figure — publicly condemned a wave of arson attacks on Palestinian property in the West Bank, calling it 'Jewish terrorism.' Far-right minister Itamar Ben Gvir fired back at him, exposing a deep split within Israel's political establishment over settler violence. This kind of internal Israeli political fracture is rare and significant, suggesting growing pressure on the Netanyahu government from multiple directions simultaneously."
-      },
-      {
-        "title": "Carlos Alcaraz Wins ATP Finals, Joins Exclusive Grand Slam Club",
+        "title": "Carlos Alcaraz wins ATP Finals — joins elite club of Agassi, Federer and Djokovic",
         "source": "Tennis Majors",
         "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2Zyd0I0Y19aWktROTV4X0hfbDNpME1EalJ6QTZ1emQ3ZHRXNXItaGZNYUx4UEo2N3Y4ZGFwNWRXbktsaWFZaXQxWlpOdTRWdTlzd0RjTW1TSFRCZXJSUUEyd0t2Tk9wb2gyLTFWWEROY3FzekRMdGZGYzFITzlFWVg5VVZ2UjVWS1diY3R3YUlianBnTWNLQ1FCLTBkbmtWbFI2ZDRqMVRTeWItRGNEUnBaZ1NPSzRLVy12RGhyQzQ0NVc3WTVMQ0d4cmRhS3JTSXJzVjZDUmg?oc=5",
-        "why_it_matters": "Carlos Alcaraz beat Alexander Zverev to win the ATP Finals in Turin, becoming only the fourth player in history to hold all four Grand Slams and the ATP Finals title simultaneously. The others? Agassi, Federer, and Djokovic — an extraordinary club. At just 23 years old, Alcaraz is cementing himself as the defining tennis player of his generation. A great story for sport fans heading into the Australian Open season."
+        "why_it_matters": "Carlos Alcaraz beat Alexander Zverev in the final of the ATP Finals in Turin, becoming only the fourth player in history to win all four Grand Slams AND the ATP Finals — joining Andre Agassi, Roger Federer, and Novak Djokovic in that exclusive club. At just 23, Alcaraz is cementing himself as potentially the greatest of his generation. Big tennis news heading into the Australian summer season."
+      },
+      {
+        "title": "Okinawa celebrates the return of Shuri Castle's main hall after 36 years",
+        "source": "朝日新聞",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50VDY5eWVod185SjMyXzFUZUs5RXVmVjN4RWVKYk9NLWdSN3V4akszeDE0cjd2WFFJZkVLV3kwQ25Ic20xbGpwUWdiRWp5MWpFSXRGVENn?oc=5",
+        "why_it_matters": "Okinawa's Shuri Castle — the iconic symbol of Ryukyu Kingdom culture — has officially reopened its main hall, more than three decades after a devastating fire destroyed it in 1992. The restoration is a major cultural milestone for the island and for Japan, with the castle being one of Okinawa's most visited World Heritage sites. It's a rare good-news story in an often turbulent part of the world."
+      },
+      {
+        "title": "Oil drops sharply as Middle East tension eases slightly and global supply rises",
+        "source": "AzerNews",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PcG9IMThVS1BQQ3dhemlvdGZqRnhpXzE1X0xJNHZMVUo4ZDBTTG1oZU5rWkcwN0FCekxqNmE3cGxaX0pwbkpSMXc2MW51R0hKVW03QTBPOU9UUnc?oc=5",
+        "why_it_matters": "Crude oil (WTI) fell $3.69 or -4.4% last night to $80.29 a barrel, as signals that an immediate Israel-Iran military escalation is unlikely combined with rising global supply to push prices lower. For everyday Australians, this could mean some relief at the petrol pump in coming weeks. For markets, cheaper oil is generally good for airlines and consumer spending, but can weigh on energy stocks."
       }
     ]
   },
   "markets": {
-    "summary": "Last night's US session was ugly — the NASDAQ dropped 5.3% and the S&P 500 fell 3.7% in one of the worst single nights of the year. The ASX held up relatively well today, slipping just 0.26%. Gold surged 3.3% to a new high near $3,632 USD as investors fled to safety. Oil dipped slightly to $82.89.",
+    "summary": "The US had a blockbuster night last night — the NASDAQ surged +6.6% and the S&P 500 jumped +4.9% in one of the strongest single-session rallies in recent memory, led by AI and semiconductor stocks. Back home, the ASX closed slightly lower today (-0.26%) as the local market waited to see if the US gains would flow through. Oil dropped sharply on easing Middle East tension, and gold surged +4% to a new high of $3,656/oz.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,570.6",
         "change_pct": -0.26,
-        "note": "Quiet session today — the ASX largely shrugged off the overnight US carnage, dropping only 0.26%."
+        "note": "Quiet session today — the ASX missed the US rally as it was already closed. Expect a stronger open tomorrow."
       },
       {
         "name": "S&P 500",
-        "value": "6,910.4",
-        "change_pct": -3.7,
-        "note": "Last night's session saw the S&P drop 3.7% — a significant one-day fall driven by broad selling across tech and growth stocks."
+        "value": "7,248.0",
+        "change_pct": 4.89,
+        "note": "Huge night last night — up nearly 5% in one session, the biggest rally in months, driven by AI and tech stocks."
       },
       {
         "name": "NASDAQ Composite",
-        "value": "22,617.7",
-        "change_pct": -5.28,
-        "note": "The NASDAQ cratered 5.28% last night — the tech-heavy index took the worst of the selloff, dragging down MSFT, GOOG and AI-related stocks."
-      },
-      {
-        "name": "Gold (WTI)",
-        "value": "$3,631.80",
-        "change_pct": 3.31,
-        "note": "Gold surged 3.3% to near $3,632 USD/oz last night — a classic 'fear trade' as investors fled stocks for safe-haven assets."
+        "value": "24,119.6",
+        "change_pct": 6.64,
+        "note": "The NASDAQ ripped +6.6% last night — semis and AI stocks led the charge in one of the strongest sessions in over 18 months."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$82.89",
-        "change_pct": -1.3,
-        "note": "Oil slipped 1.3% to $82.89, despite the Middle East tanker incident. Watch this space — any escalation in the Gulf could reverse this quickly."
+        "value": "$80.29",
+        "change_pct": -4.39,
+        "note": "Oil dropped sharply last night as Middle East escalation fears eased and global supply data came in strong. Good news for petrol prices."
+      },
+      {
+        "name": "Gold",
+        "value": "$3,656",
+        "change_pct": 4.0,
+        "note": "Gold surged +4% to $3,656/oz last night — investors are piling into the safe haven amid geopolitical uncertainty around Iran and stalled climate talks."
       },
       {
         "name": "AUD/USD",
-        "value": "0.6651",
-        "change_pct": -0.08,
-        "note": "The Aussie dollar was barely changed, sitting at 66.5 US cents. Relatively stable given the global market turbulence."
+        "value": "0.6631",
+        "change_pct": -0.38,
+        "note": "The Aussie dollar slipped slightly to US$0.663, weighed down by weak domestic economic data and recession talk from Treasurer Chalmers."
       }
     ]
   },
   "politics": {
-    "summary": "Treasurer Jim Chalmers delivered a stark economic warning today — unemployment heading above 5%, inflation risks remaining, and a possible recession on the horizon. Meanwhile, Foreign Minister Penny Wong elevated AI as a national security issue, and Labor faces serious trouble in an upcoming Victorian by-election.",
+    "summary": "A big week for Australian economic anxiety — Treasurer Chalmers warned of rising unemployment and harder times ahead, the RBA flagged potential inflation risks from Labor's tax reform plans, and the government's controversial defence and internet legislation is heading for a Senate showdown.",
     "stories": [
       {
-        "title": "Chalmers Warns of 'Triple-Whammy' — Unemployment, Inflation, and Possible Recession",
+        "title": "Chalmers warns unemployment will top 5% and 'things will get a bit harder'",
         "source": "The Guardian",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb0lHcUlnVVdTLWQwN1QycFdxUlY0all3WDFzYnJjWWJsVkF4YV9SWXBUSlE4MDV1YnZmbWJnRjhjWmp3S3JmX1laVFVKZVhDbEUxUTN3NmdEbUNBNGxsQWJGQlAxRUNuNDFfYk9lQi1kbVBWcVVCdHB4N29DNWtyaTQweDY0QTVSeGttLVRfSjhSZzF2VWFxSEJTajNFQ1V0RDJud19pc1Y3ck53M095bG1HN2RSY2Y2WkszZ2toRHhpYWd6aTFxenhnSWJTSmpETDR4TEU4YTNIUQ?oc=5",
-        "why_it_matters": "Treasurer Jim Chalmers used a major address today to warn Australians to brace for harder times ahead. He flagged that unemployment will surpass 5% (it's currently around 4.2%), inflation forecasts have worsened, and one closely-watched economic indicator suggests Australia could technically enter recession as early as next month. Chalmers found only 'modest' net savings in the budget and acknowledged it's 'no use pretending otherwise' — a rare moment of candour from a sitting Treasurer. This is significant for homeowners and mortgage holders as it complicates the RBA's path on interest rates."
+        "why_it_matters": "Treasurer Jim Chalmers told Australians today to brace for a tougher year ahead — unemployment is forecast to exceed 5%, growth is slowing, and inflation forecasts have worsened. Chalmers stopped short of calling a recession, but one closely watched economic indicator is reportedly flashing recession risk as early as next month. For everyday Aussies, this means job security could soften and cost-of-living pressures may persist longer than hoped. Mortgage holders face the possibility of further rate hikes before any RBA relief in late 2027."
       },
       {
-        "title": "Australian Borrowers Face More Rate Hikes Before Relief in Late 2027",
-        "source": "Real Estate",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNjBBclB2LUtSbVltN1dybGxVUVpyQlVtRGZoRWx5bDk5Xzd6cDVTOEVQdEI1U19DZlhoSUFrMG1LWW1UMlM2WlhfQnc3TVhiTHJtRFAwNlVKbGVfU0RLSjZ5YnFDTXM0aFhDRVNUYnk1YXJMTkg3T29IbV9ZdV9iMTN1NUs1V2F0U3lDbVpVWHpuWW8wb003Z2htV1pBVER4dlRYVTZ2N3VtMlFFVUF5LU80MEZYX0pr?oc=5",
-        "why_it_matters": "New analysis suggests Australian mortgage holders could face further interest rate increases before getting relief — with rate cuts not expected until late 2027 at the earliest. Combined with Chalmers' warning about rising unemployment, this paints a tough picture for anyone with a home loan. If you're on a variable rate, the pressure may not ease for another year or more."
+        "title": "RBA warns Labor's capital gains tax reforms could stoke inflation",
+        "source": "Beinsure",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aX25DOXlQcG1ldm5SS3NxWXpWODFsNkdJeVRqYzNuUDlfR2k0Z29MU1dwbmlUTWRkNDdCUjd3TGp1QUU0TER5NXQ3TjBKUUFwcUVMVDBmT05KSTdDVW1ydGFJV2wzbXM3S1g2UmhkVDN0QQ?oc=5",
+        "why_it_matters": "The Reserve Bank has modelled Labor's proposed capital gains tax (CGT) reforms — which would reduce the 50% CGT discount investors currently get — and warned the changes could add to inflation. CGT reform means people who sell assets like investment properties or shares pay more tax on the profit. The RBA's concern is that squeezing investors could have unintended knock-on effects for prices. This adds pressure to Labor's reform agenda and could affect property investors and share holders alike."
       },
       {
-        "title": "Penny Wong to Cast AI as a Major Foreign Policy and National Security Challenge",
+        "title": "Penny Wong: Australia cannot 'abandon the US' despite Trump turmoil",
+        "source": "SMH.com.au",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVWo2dnc2cVdfNU52NnB5VkVFaVd5WEgtMU1DVEFTQk9NOUZ1dnJ0M2dZS0RmT2dXYm5pS2Y0blU2anNtTXNTdTEzSkllVEtQcTBtX3psZUhsSW5jOEhxWGlqNmRHTHd4clFHQlN6YmI3b19rN3U0RlRONDRPUjRNOXVGaUhUYXVsVjVBaUtxRmZrRWpEZnpNMVR5STAxNjdyRzcyV0oyTWJBeEV5MHNGNXpxaC0xd2N3QkNsaXNwdTJuZmg2aHpZUnhacE4xd1RYN1hYbg?oc=5",
+        "why_it_matters": "Foreign Minister Penny Wong pushed back against Labor critics urging Australia to distance itself from the US under the Trump administration. Wong argued that Australia cannot simply 'abandon' the alliance, even as Trump's tariffs and foreign policy create friction. This comes as Wong also moved to elevate AI as a formal national security and foreign policy challenge — positioning Australia as a country that takes the geopolitical dimensions of artificial intelligence seriously."
+      },
+      {
+        "title": "Labor's defence bill sparks 'war on democracy' accusations",
+        "source": "SBS",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORExiZzRTTHNSSWR5YW50WmdvdEJYMjlsR3l4dFdhNTZvdldkVXVhTnBwVTgzbTFpN2VhSWdheVpKVFQzV2toM2dDbjBnaWNVbHI5ck8za1pGaXktclItbVRMUUo2VnNBMGpjNDVpN0hnOWx5RzdXZldsT2lqbndxTXlYQ2NSTGpXMEE?oc=5",
+        "why_it_matters": "Labor's new defence legislation, which would allow secret national security rules to be made without public scrutiny, is under fire. A constitutional law expert branded the bill 'lazy and irresponsible,' while civil liberties groups called it a 'war against democracy.' Critics say the laws could allow the government to impose classified obligations on companies and citizens without proper oversight. Supporters say critics are 'jumping at shadows.' The bill is heading for a Senate vote where the Greens are expected to be the deciding vote."
+      },
+      {
+        "title": "Google cancels funding for 25 Australian news outlets",
         "source": "AFR",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbDF4Z19tbFJhVk9QZXYtU09xMDJ5R2xJXzUxbk1MaUE1ZmlBV2hDUmk2N0I1ejFabkxBR0g3WlZGTTR5TVNjZXRiOUpnRi03U1AwYVdkdkMyYXdfTzB6TDZPMy1kcEZjQWM2MTZVT2htM1Y0RFREQXRTUFdTUG5WYU5Rci1SbWZZakU4WDNfZ29LdDZ4cXAyM2RXT3NtclRqTXB2cw?oc=5",
-        "why_it_matters": "Foreign Minister Penny Wong is set to deliver a major speech framing AI as one of Australia's most pressing foreign policy challenges — not just an economic or tech issue. She's expected to argue that AI is reshaping global power dynamics, with authoritarian states using it for surveillance, disinformation, and military advantage. This signals the Albanese government is moving towards a more formal national security framework around AI, which could lead to new regulations or international agreements."
-      },
-      {
-        "title": "Labor Faces 'Potentially Catastrophic' Result in Victorian By-Election",
-        "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3piVENuYmpLZUNJM0hhZExSZVFlTkxkQUJhbFpkaXRJU2czd2hqZXctUC1yUXp0ZkpLbTNlZ2h0ME9KLVlhVlgwM3BMcjhDTEVBSGZhUEVhNmhqUk9PR3BuZVVJQ3VOVHVUTjFpUDFWYU5Jc3RIZlB1RGhXNThCb0Y5Z3NwSFRmVEhyNHQ4YUlvZndQQXhMRjlzSXBFN3FqZ21XZEVZODhBTVVtaGc?oc=5",
-        "why_it_matters": "ABC News is reporting Labor faces a potentially catastrophic result in an upcoming Victorian by-election, with PM Albanese reportedly keeping his distance from the campaign. This follows a broader trend of federal Labor's support softening in Victoria. A bad result would add pressure on Albanese and could embolden internal critics — worth watching as a broader sign of the government's political health heading toward the next federal election."
-      },
-      {
-        "title": "Gas Sector Called Out for 'Not Playing Fair' as Australia Pushes for More Supply",
-        "source": "ABC News",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRTg0Y1NvY1lpd0YtOGM0REtySEFMVE9HMVU5ZUlIbjZMTEF0d3c5RXVveE9uNUt6a1Q5TFNPV1N3WlkwdmpjcU5RM2p1NlEwMVl2NDlCR3NTVDd3MnpDS08xTU9qTmZEcDNtQVdIWHpnTDFiTDlCSGpVakkxVGJDYzVYOFNTb1RVdW1VZFFDS2NSU3pTQ0FYbjZNS3dpa1BQaEdRcUlvMA?oc=5",
-        "why_it_matters": "Australia is pushing for increased domestic gas supply to keep energy prices in check, but at least one major gas company is being called out for not honouring its domestic supply obligations. The government wants more gas flowing to Australian households and businesses rather than being exclusively exported. This is part of a broader energy affordability debate — gas prices are a key driver of power bills and manufacturing costs across the country."
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM0wyNmhvdm9hZGRXTXdwUTIzVHl3emxsVHlzNTNEd0h4OHBsOVh5YTEwY2JQaUVBZnJVVGVlRHlMUjk2QlFyQVRaRGliek1JWVp3R2ZreE55dDNxMXU4cWJjTi1XUVl6NTFaOFA2SzFGTkVZREkzWlJ1UkdsSzN6RHE1MGdkd1dkYlZHcEZvU01lc1o3OHhhLU1XendjNjBVZ01uSzFxcUhMdFlYR05IdzdiUkhkZFNuSF9N?oc=5",
+        "why_it_matters": "Google has pulled funding from 25 Australian news outlets, raising fresh concerns about the future of local journalism and the effectiveness of Australia's News Media Bargaining Code. The Code was designed to force tech giants to pay news publishers for using their content, but Google's move suggests it is finding ways around the spirit of those obligations. For media organisations and regional news consumers, this is a significant blow."
       }
     ]
   },
   "ai": {
-    "summary": "AI governance is dominating the conversation this week — the Red Cross, US governors, American bishops, and a Washington Post opinion piece are all raising alarms about the pace of AI deployment outstripping regulation, particularly around autonomous weapons.",
+    "summary": "AI governance is the dominant theme today — Australia is making it a foreign policy priority, the US Catholic Church is pushing for regulation, and lawyers are being told it's their top challenge. On the product front, China's GLM-5.4 launched and Ant Group open-sourced a medical AI model family.",
     "stories": [
       {
-        "title": "Red Cross: 'Too Late Soon' to Regulate Autonomous Weapons",
-        "source": "The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZzZTcWFJbUx5Wmt3ZWNyOGttaFlYOGw2M3NZQmI3cUwxUUhPRGdNbW1RV0Y2bkZtNUhROXpHRkxsVmNxalRHSTRONUdQX2RGZS1lTXB5aTlNdUU1LXgydVNsZGRzZ0Q4X3RJazE4V0NzX3VqbGtVUVlWODJ1QTFBOFk0ZzduaEJzbGkycWpIcU1UM2VISENUajBDZVpwRG9wWmRfeWlyRnBiV05jSEFQQWJxbGhpUQ?oc=5",
-        "why_it_matters": "The International Red Cross has issued an urgent warning that the world is running out of time to regulate AI-powered autonomous weapons — drones and robots that can select and kill targets without a human making the final decision. The Red Cross says once these weapons are deployed at scale in active conflicts, it becomes almost impossible to ban them retroactively. Several nations are already testing autonomous weapons systems, and there is currently no binding international treaty restricting them. This isn't science fiction — it's happening now."
+        "title": "Penny Wong to formally elevate AI as a national security and foreign policy challenge",
+        "source": "ABC News",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRXh4MFR5MGo5RVhDZVpFOEJnVi14bTJmSTR0MlJHSVNrVHFlaU1FelBPMGJZNGY1XzBYRlBobVJvMXVrWlBzclh6aVFORkNGUmNaRDRmVWtrSnVqWGZhWnU5Y3F0NXJDcldhSVRpM19tbk1IT05jb2U3Y2pSV1hLNmRLVHJWTy1JeVlYOGY1TzZXV193S3JTVjVkYmRDX3RyTFBj?oc=5",
+        "why_it_matters": "Foreign Minister Penny Wong is set to formally name AI as a major foreign policy challenge for Australia — the first time the government has elevated it to this level. The move signals Canberra wants a seat at the table in shaping global AI rules and norms, particularly as competition between the US and China in AI accelerates. For Australian businesses and investors in the AI space, this suggests more government engagement (and potentially more regulation) on the horizon."
       },
       {
-        "title": "US Governors Demand a Say in How AI is Regulated",
-        "source": "PYMNTS.com",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQelJDNXNhNldVMzJfMnJYUWZFZ0RFSmNxVEpNZlRiSVZPN0ttZHZ3aGRtUVRVUlE0TTBGTFJrMEdmTi1wdG1DZldyZV92U0NKRDZuZmpFY3dhRzJJMGhScTVEVEk3alFTSU1WeWhRSzNhOHFLVDI3WkctMFNNa0E3WnFtWVJLdlh6X1dIU0paT3NVLVJGcGFVQnFFTFNmVG1sXzBBY19BOHY2UjFOQU5OUVpR?oc=5",
-        "why_it_matters": "A group of US state governors is pushing back against the idea that AI regulation should be purely a federal matter, arguing that states need their own powers to protect residents. This is a significant political fight — tech companies generally prefer one set of federal rules rather than 50 different state regulations. The outcome will shape how AI products are deployed across the US, which in turn affects the global AI industry and companies like Google and Microsoft that your portfolio holds."
+        "title": "US Catholic Church launches nationwide push for AI regulation",
+        "source": "La Voce di New York",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVg1enJIbHhpTGRjTHI1ZlhiR09RMm93LVRaU3BrU0dqaEVZYUltQ01ZdzY1czUwM2ZhZ1NRNnE4TjlIam5lX0ZuVGpRNXpqQmJ6X0lTNXRERzdraS1lQmZZRnJwQlAzcVNJZVUxV0Z1b0l1elFiYTc0cFlLSVVKc3BSZXFtdFZHMEFzc3diUmc1VHA1ZGNwcjVIcE5JQkpndlZPMFJEWHFvWGhlVURZ?oc=5",
+        "why_it_matters": "The US Catholic Church has launched a coordinated nationwide campaign calling for federal AI regulation, arguing that AI poses ethical risks around human dignity, job displacement, and social justice that the market alone won't solve. The Church is pushing for laws that ensure AI systems are transparent and accountable. It's a notable entry of a major moral institution into the AI policy debate, adding pressure on US legislators who have so far been slow to pass comprehensive AI laws."
       },
       {
-        "title": "American Bishops Plan Mass Political Campaign for AI Regulation",
-        "source": "Politico",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM0daNjJ4MTZuYzRVRVdvbjBCeThWSkJ5VlotenFObGMxU0RzUlZFeDMzNHVRWGRRVUw1YW1JZW1FcUlkVFhERHNKSWtTcUQxZk1lbkllMjJzSFJzeWVFamlSQWc5MG9nMjhsVnQySDB0WE1jOHhfZDZYVndkYjk0cmR5dGctVjJZdVN6aUxzcTJZQQ?oc=5",
-        "why_it_matters": "The US Conference of Catholic Bishops is organising a 'groundswell' political campaign to push Congress to regulate artificial intelligence. The bishops are specifically concerned about AI being used to generate disinformation, exploit children, automate decisions about people's lives (like welfare or hiring), and create autonomous weapons. It's notable because religious institutions don't often wade into tech policy — this signals that AI regulation is becoming a mainstream political issue that crosses traditional left-right lines."
-      },
-      {
-        "title": "Washington Post: America's AI Policy Has a 'Chip-Size Hole' in It",
+        "title": "Washington Post: America's AI policy has a 'chip-size hole' in it",
         "source": "The Washington Post",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSjZLandHNDJKcTM5WWhtaGlHQ1lwUGJqVTIwN0JEMlhqcXgybnk0UU1laXJLcURHU0cyTEQ3MGFBMThyM3Qwc202UzVfRkEwRTRNRFpmWnl1cm1VTHJiMndzbEdGR0FRRzQzNmE5WGhRczVpQXg4TXBTRFZqZDQ3LVoyV0toeDd0NVJjWTdKY05UYTZWOGRXM1E3eDNTMDBDUjJRdG9QWQ?oc=5",
-        "why_it_matters": "A Washington Post opinion piece argues that US AI policy has a critical gap: it focuses on software and models, but doesn't adequately control the semiconductor (computer chip) supply chain that makes advanced AI possible. The argument is that without controlling who gets access to the most powerful AI chips — particularly restricting China — any AI policy is incomplete. This matters for investors because chip restrictions directly affect companies like Nvidia, AMD, and by extension, the AI ETFs in your portfolio like GXAI.AX."
+        "why_it_matters": "An opinion piece in the Washington Post argues that the US government's AI strategy has a critical weakness: it isn't doing enough to control the supply of advanced AI chips (like those made by Nvidia) flowing to rivals like China. The argument is that while the US focuses on AI software policy, the hardware that powers AI — semiconductors — is still accessible in ways that undermine American AI dominance. This matters for investors in AI and semiconductor ETFs like GXAI.AX, as chip export controls could affect the whole sector."
+      },
+      {
+        "title": "China's GLM-5.4 AI model launches — what it can actually do",
+        "source": "Kingy AI",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxT0xxQU12M0N5enM5N2sxYk9SZDc4TjNYaGRuampuZTBIUm9qaUhqU3lVNjE2RW4wVFVxSWxhNjhfdXhVY09paG05MGhSUQ?oc=5",
+        "why_it_matters": "China's Zhipu AI launched GLM-5.4, the latest in its series of large language models competing with ChatGPT and Gemini. The model is now available via API (meaning developers can build apps with it), with new pricing tiers. It's another sign that the US doesn't have a monopoly on frontier AI — Chinese models are closing the gap fast, which is relevant for the geopolitical AI competition that Penny Wong flagged as a foreign policy concern."
+      },
+      {
+        "title": "Ant Group open-sources a medical AI model family",
+        "source": "Via TT",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObmxUUmdhS3YzWi1GQ1paOGUxYjd6LWVHaGpEMHByTmlYVEEzYlpWbzNYblpZTnhLaXNyazNiRDVYcUduWGZoS3JmZmdNbFM0V0wwdE5SLU9XTlVlbm5iVGJCbXNJekQ1bTVEVlhHbmU0enQ3Y2N3TnRrajVXSnZMTzBTUnZodmFfTDhya3h4RGlkdUtXWHpVdTItTE12U2dDWFFIb0k5eG1hTFJHa0xTelhFSW9wZ21IQ004LXBvZTh6VFpSb0JxcThmNWE3eU9LMXJXMA?oc=5",
+        "why_it_matters": "Alibaba-affiliate Ant Group has open-sourced its 'Afu' medical and health AI model family — meaning the code is freely available for hospitals, researchers, and developers to use and build on. This is significant because medical AI has historically been locked inside large tech companies. Open-sourcing it could accelerate healthcare AI adoption globally, including in Australia. It's also a competitive move by China to establish influence in a high-stakes AI domain."
       }
     ]
   },
   "sport": {
-    "summary": "Carlos Alcaraz made history winning the ATP Finals, Jannik Sinner faces a nervous wait over his Australian Open participation, and the Roosters edged the Knights 19-18 in the NRL Grand Final.",
+    "summary": "Carlos Alcaraz made history at the ATP Finals, Jannik Sinner faces a lengthy injury lay-off, the NRL Grand Final delivered a thriller with the Roosters edging the Knights 19-18, and the AFL off-season is in full swing with draft and tribunal news.",
     "stories": [
       {
-        "title": "Roosters Pip Knights 19-18 in NRL Grand Final Thriller",
-        "source": "NRL",
-        "link": "",
+        "title": "Roosters 19 def. Knights 18 — NRL Grand Final goes down to the wire",
         "category": "NRL",
-        "why_it_matters": "The Sydney Roosters won the 2026 NRL Grand Final, beating the Newcastle Knights 19-18 in a one-point classic at Accor Stadium last Sunday. It was about as close as it gets — a one-point margin in the biggest game of the year. The Roosters take home another premiership, continuing their status as one of the game's most successful clubs."
+        "why_it_matters": "The Sydney Roosters won the 2026 NRL Grand Final by the slimmest of margins, defeating the Newcastle Knights 19-18 at Accor Stadium on Sunday evening. One point in a Grand Final — it doesn't get more dramatic than that. A result that will be talked about for years on the Gold Coast and beyond."
       },
       {
-        "title": "Alcaraz Wins ATP Finals, Joins Agassi, Federer and Djokovic in Elite Club",
+        "title": "Alcaraz beats Zverev to win ATP Finals — joins Agassi, Federer, Djokovic in elite club",
         "source": "Tennis Majors",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbHUzUEV0V3ZCUy1OQjA2N2d5V3A1b3N1YTRsdEZXdFRQak5wYVg1Tmg1bWFhLW9uWHlKc2lRN2xXakY5OTFRcmlWZXJVcnlFa0pXNFdtMG51OHNLTmZKTEJnWnVzUm1nRTd0NzFyQnU1Vy1Ya0ZtT1FsN3hnT2JPeTNsV2xTcXFhQy1hQWc5NW9EdC0tWV9UUXJxQ0tOSENaendCUEZ0UzhZZFE0STM5MU5fMFUyRzQ2VWpCc2wwYmFIYlF5VkVxUjdMNUpKSUxOY1JoSV84MWowMmFyTHNJMmJfVHgtR0hhcklrR2Z3?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPbHUzUEV0V3ZCUy1OQjA2N2d5V3A5b3N1YTRsdEZXdFRQak5wYVg1Tmg1bWFhLW9uWHlKc2lRN2xXakY5OTFRcmlWZXJVcnlFa0pXNFdtMG51OHNLTmZKTEJnWnVzUm1nRTd0NzFyQnU1Vy1Ya0ZtT1FsN3hnT2JPeTNsV2xTcXFhQy1hQWc5NW9EdC0tdFlfVFF0cUNLTkhDWndCUEZ0UzhZZFE0STM5MU5fMFUyRzQ2VWpCc2wwYmFIYlF5VkVxUjdMNUpKSUxOY1JoSV84MWowMmFyTHNJMmJfVHgtR0hhcklrR2Z3?oc=5",
         "category": "Tennis",
-        "why_it_matters": "Carlos Alcaraz beat Alexander Zverev in the ATP Finals final in Turin, becoming just the fourth man in history to hold all four Grand Slams and the ATP Finals simultaneously. The only others to achieve this are Andre Agassi, Roger Federer, and Novak Djokovic. At 23, Alcaraz is now firmly in the conversation as the greatest of his generation. It's a historic milestone as the tennis world heads into the Australian Open season."
+        "why_it_matters": "Carlos Alcaraz defeated Alexander Zverev to claim the ATP Finals title in Turin, completing a career set that only three other players have ever achieved — Agassi, Federer, and Djokovic (all winners of all four Grand Slams AND the ATP Finals). At 23 years old, Alcaraz is now firmly in the conversation as the greatest player of his generation and possibly all time. A historic moment for the sport."
       },
       {
-        "title": "Jannik Sinner's Australian Open Participation in Doubt Due to Knee Injury",
+        "title": "Jannik Sinner faces surgery — could miss Australian Open and Wimbledon 2027",
         "source": "Yahoo Sports",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT0QzTllha0g0a3Btd1A5N0ZPb0FrUXk0X0t3ZkRoTFVYYS1HMHdNLW5JQW41b2dtT3BuZmxFUXRmdlV0ZmN3U2pYdW1MZUJlT0xMWHMxbXlXOF9MZV90VWZ2a3V6RWpSMUpmTkdvX1Q4Y0RfUnJGRUtKc1o2WUhIZENWRVJCT2lodk9JeQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbkRva0N1dDduaTBJTEtESVJhQV9JbzYyTjZzcWdpN3JSeW9IWmdITzFGUmFmTDVBalR6NWVfazV0U3RYRzRKMTdzY0VJckZFODJQWmFIOVo1eXNnWXc2eFg5dXBtaTk2eW9xU3dheVVBQ2c0bm1NTGtxb2xtZTdDQ3RtRlZSQ0pSUXdfZg?oc=5",
         "category": "Tennis",
-        "why_it_matters": "World No.1 Jannik Sinner is in doubt for the Australian Open after confirming a knee injury with three treatment options being evaluated — conservative management, an injection, or surgery. Sinner won the Australian Open in 2024 and 2025 and is the overwhelming favourite for the title. His absence would dramatically shake up the draw and open the door for Alcaraz — who just won the ATP Finals — to claim an Australian Open title."
+        "why_it_matters": "World No. 1 Jannik Sinner is reportedly facing surgery and could be sidelined until Wimbledon — meaning he may miss both the Australian Open and Roland Garros in 2027. That's a massive blow for tennis fans heading into the Australian summer season. With Sinner out, the door swings wide open for Alcaraz (fresh off his ATP Finals win) and others to dominate early 2027."
       },
       {
-        "title": "AFL Draft Wrap: Dons Sign 209cm Giant, Nine Players Get Rookie Lifelines",
+        "title": "AFL Draft wrap: Essendon signs 209cm giant, former Roo gets lifeline",
         "source": "Fox Sports",
         "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUEMxQzgybGFLa3NhamVBeGt6NWJ5WElYdUdMYUJRbWNnRl9DRkUybnN5cjBrZTBoNFJGcEJUNEVMYnB5eFYxUHF3TFZXemxkdTNCTlpDYXM1d2tFWG4tQ0xLM1BWVGNWdTl1YWR5NEg1aGxnYmFQZkdHcGppN25Tc0V5TmxhZW5vSmMwWE51YTRZOTVKUzRtR3kyYVFyWnhaV2gzY0wxcGJtbURzMFBnbEQtY1ZRRVNkS0tLVGxmZXVpdk5zQnJ2MlQ1V21aLUlJdXB4QUFhWE1mRnhmcDJiVEhmTG1KOG1zMG5ielhpcEthM3FSQ09udzcwR0E1QQ?oc=5",
         "category": "AFL",
-        "why_it_matters": "The AFL draft wrap reveals Essendon (the Dons) have signed a 209cm giant — an unusually tall key position player who will be one to watch as a development prospect. Nine players across various clubs also received rookie contract lifelines, keeping their AFL dreams alive. An ex-Kangaroos player also got an unlikely second chance at the top level. The AFL football carousel is in full swing ahead of the 2027 season."
+        "why_it_matters": "The AFL rookie draft is done, with Essendon signing a 209cm ruckman as the headline move. Nine players received rookie lifelines, including a former North Melbourne player getting another chance at the top level. Fox Sports also reported a major AFL Tribunal rule change is in the works that could affect how suspension decisions are made in 2027 — worth watching for footy fans."
+      },
+      {
+        "title": "AFLW Rising Star: midfield trio the frontrunners for the award",
+        "source": "The Canberra Times",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWWhqOFZXSERIaUhta1lwMHJZT09vWFdpUkpXNEFxT21fQjhqUFBkYW9uXzZycTd3bkdBWjl3OE0yUWt5dFVCYS1ZLVhvQ2R5dzNEX2t0Z2xWdmxZYmEtejRMa0NtLWNnZmhLZjkxVkI5R0RXM3JhaWhUT3ZuYTh3SkIyVHljRlFlYzliOURzZWg1VkFQZE80YQ?oc=5",
+        "category": "AFLW",
+        "why_it_matters": "Three midfielders are the frontrunners for the 2026 AFLW Rising Star award with the season wrapping up. The award recognises the best young player in the women's competition. No article text was available for specific names, but the AFLW season has been strong with high quality on display across the midfield this year."
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "🌤️",
-    "condition": "Mainly clear",
-    "temperature_c": 23.4,
-    "high_c": 25.2,
-    "low_c": 19.2,
-    "rain_chance_pct": 14,
+    "icon": "☀️",
+    "condition": "Clear sky",
+    "temperature_c": 20.0,
+    "high_c": 27.9,
+    "low_c": 19.8,
+    "rain_chance_pct": 24,
     "rain_mm": 0.0,
     "tomorrow": {
-      "icon": "☁️",
-      "condition": "Overcast",
-      "high_c": 27.7,
-      "low_c": 19.4,
-      "rain_chance_pct": 39,
-      "rain_mm": 0.0
+      "icon": "⛈️",
+      "condition": "Thunderstorm",
+      "high_c": 25.4,
+      "low_c": 20.3,
+      "rain_chance_pct": 76,
+      "rain_mm": 11.1
     }
   },
   "nrl_round": "Grand Final",
@@ -313,43 +326,43 @@
         "ticker": "GOOG",
         "shares": 0.2277,
         "currency": "USD",
-        "current_price": 264.0,
-        "current_value_native": 60.11,
-        "current_value_aud": 90.38,
+        "current_price": 280.94,
+        "current_value_native": 63.97,
+        "current_value_aud": 96.47,
         "total_invested": 70.0,
-        "total_invested_aud": 105.25,
-        "pnl_native": -9.89,
-        "pnl_aud": -14.87,
-        "pnl_pct": -14.13,
-        "day_change_pct": -2.59
+        "total_invested_aud": 105.56,
+        "pnl_native": -6.03,
+        "pnl_aud": -9.1,
+        "pnl_pct": -8.62,
+        "day_change_pct": 6.42
       },
       {
         "ticker": "MSFT",
         "shares": 0.6319,
         "currency": "USD",
-        "current_price": 484.52,
-        "current_value_native": 306.17,
-        "current_value_aud": 460.33,
+        "current_price": 496.2172,
+        "current_value_native": 313.56,
+        "current_value_aud": 472.87,
         "total_invested": 280.0,
-        "total_invested_aud": 420.99,
-        "pnl_native": 26.17,
-        "pnl_aud": 39.34,
-        "pnl_pct": 9.35,
-        "day_change_pct": -2.77
+        "total_invested_aud": 422.26,
+        "pnl_native": 33.56,
+        "pnl_aud": 50.61,
+        "pnl_pct": 11.99,
+        "day_change_pct": 2.41
       },
       {
         "ticker": "TTWO",
         "shares": 4.4474,
         "currency": "USD",
-        "current_price": 210.0,
-        "current_value_native": 933.95,
-        "current_value_aud": 1404.22,
+        "current_price": 210.0156,
+        "current_value_native": 934.02,
+        "current_value_aud": 1408.56,
         "total_invested": 960.0,
-        "total_invested_aud": 1443.39,
-        "pnl_native": -26.05,
-        "pnl_aud": -39.17,
+        "total_invested_aud": 1447.75,
+        "pnl_native": -25.98,
+        "pnl_aud": -39.18,
         "pnl_pct": -2.71,
-        "day_change_pct": 0.65
+        "day_change_pct": 0.01
       },
       {
         "ticker": "VDHG.AX",
@@ -436,11 +449,11 @@
         "day_change_pct": -0.17
       }
     ],
-    "total_invested_aud": 3355.45,
-    "total_value_aud": 3149.48,
-    "total_pnl_aud": -205.97,
-    "total_pnl_pct": -6.14,
-    "aud_usd_rate": 0.6651
+    "total_invested_aud": 3361.39,
+    "total_value_aud": 3172.45,
+    "total_pnl_aud": -188.94,
+    "total_pnl_pct": -5.62,
+    "aud_usd_rate": 0.6631
   },
-  "generated_at_utc": "2026-11-23T07:38:02.054276+00:00"
+  "generated_at_utc": "2026-11-23T19:24:32.744609+00:00"
 }
