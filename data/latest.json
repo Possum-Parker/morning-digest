@@ -1,293 +1,305 @@
 {
-  "headline": "Roosters win the NRL Grand Final by one point, while PLS slumps 5.9% and Australian inflation hits 4.9% — a rough day on the Gold Coast.",
+  "headline": "A rough day across the board — PLS.AX slumped nearly 6%, GXAI dropped 3%, and GOOG shed almost 3% last night, while Middle East tensions escalate with Houthis striking Riyadh and the Strait of Hormuz nearly paralysed.",
   "portfolio": {
     "movers": [
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "change_pct": 5.28,
-        "note": "TTWO surged last night — GTA 6's ongoing sales success is continuing to drive excitement around the stock. Rockstar also successfully shut down an unauthorised PC port of GTA 6, which protects revenue. The long-term story here (GTA 6 + upcoming titles) remains very much intact."
-      },
       {
         "ticker": "PLS.AX",
         "name": "Pilbara Minerals",
         "change_pct": -5.88,
-        "note": "Pilbara fell sharply today, closing down nearly 6%. Lithium prices remain stubbornly weak and there's no near-term catalyst to lift sentiment. Sector peer Liontown (LTR) is also sitting at 52-week lows, which tells you this is an industry-wide drag, not a Pilbara-specific problem."
+        "note": "Pilbara shed nearly 6% today, closing at $2.56 — its lowest level in a long time. Lithium prices remain depressed globally, and there's no near-term catalyst to turn things around. Fellow lithium miner Liontown also hit a 52-week low today, suggesting sector-wide pain rather than a Pilbara-specific issue."
       },
       {
         "ticker": "GXAI.AX",
         "name": "Global X AI ETF",
         "change_pct": -3.09,
-        "note": "The AI ETF pulled back today, tracking a broader tech selloff on the NASDAQ last night (down 1.5%). Safety concerns raised about unreleased OpenAI and Anthropic models added some uncertainty to the sector mood, though this is more noise than signal for a long-term holder."
+        "note": "GXAI dropped 3% today following a rough night for US tech — the NASDAQ fell 1.83% last night, dragging AI-exposed stocks down with it. The ETF holds a basket of AI companies, so when big US tech names like GOOG and MSFT slide, GXAI follows."
+      },
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet (Google)",
+        "change_pct": -2.91,
+        "note": "Google fell nearly 3% last night in a broad tech sell-off that hit the NASDAQ hard. There's also some competitive noise — a report noted Google Cloud is outpacing Microsoft and AWS on AI and cloud revenue, but the market seemed focused on broader risk-off sentiment rather than rewarding that news."
       },
       {
         "ticker": "VGE.AX",
         "name": "Vanguard Emerging Markets ETF",
         "change_pct": -1.38,
-        "note": "Emerging markets dipped today, partly driven by a weaker Aussie dollar (down 0.9% against the USD) and ongoing jitters from the Middle East conflict escalating around the Strait of Hormuz, which affects global trade routes that many emerging economies depend on."
+        "note": "VGE slipped 1.38% today, weighed down by global risk-off sentiment and ongoing Middle East tensions that are rattling emerging market confidence. The Strait of Hormuz disruption and rising oil prices add uncertainty to many emerging economies."
       },
       {
-        "ticker": "GOOG",
-        "name": "Alphabet Inc. (Google)",
-        "change_pct": -1.06,
-        "note": "Google slipped last night as the broader NASDAQ sold off. Despite that, the fundamentals look solid — Q3 FY26 results showed 24.7% revenue growth and an operating margin of 33.3%, which is very strong. The dip looks like general market weakness rather than anything company-specific. Google also unveiled Gemini 4 Neon, claiming it beats OpenAI's GPT-6.2 Sol in most benchmarks."
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "change_pct": -1.69,
+        "note": "Microsoft fell 1.69% last night despite recent solid earnings — the decline was part of a broader tech sector sell-off. MSFT is still up over 10% from your cost base, so this is a single bad night in an otherwise healthy position."
       },
       {
         "ticker": "VTS.AX",
         "name": "Vanguard US Total Market ETF",
         "change_pct": -0.76,
-        "note": "VTS eased today following last night's S&P 500 and NASDAQ weakness. The US market sold off on a mix of Middle East tension (oil disruption fears) and profit-taking after a strong run. No structural change to the long-term case."
-      },
-      {
-        "ticker": "DHHF.AX",
-        "name": "DHHF Diversified ETF",
-        "change_pct": -0.63,
-        "note": "DHHF slipped slightly today in line with the broader ASX 200, which fell 0.4%. Nothing specific here — just general market softness filtering through this diversified fund."
+        "note": "VTS eased 0.76% today, tracking the slight weakness in US markets from last night's session. The fund covers the entire US share market, so it moves with the broader US tide — nothing stock-specific here."
       },
       {
         "ticker": "VDHG.AX",
         "name": "Vanguard Diversified High Growth ETF",
         "change_pct": -0.6,
-        "note": "VDHG edged lower today, mirroring the flat-to-soft session on the ASX. No specific news affecting this fund — it tracks global markets broadly and the slight dip reflects the same mild global weakness seen across other holdings."
+        "note": "VDHG slipped a modest 0.6% today, reflecting mild softness across both Aussie and international shares. As a diversified multi-asset fund, it cushioned the broader tech weakness well — this is normal daily noise."
       },
       {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "change_pct": 0.74,
-        "note": "Microsoft edged higher last night — the market continues to reward its AI cloud strategy. Recent earnings beat estimates and Microsoft lifted its dividend. Google Cloud is reportedly growing faster in AI revenue, but Microsoft's Azure platform remains a dominant force and sentiment around the stock is positive."
+        "ticker": "DHHF.AX",
+        "name": "DHHF",
+        "change_pct": -0.63,
+        "note": "DHHF dipped 0.63% today in line with broad market softness. As a 100% global shares ETF, it mirrored the gentle pullback across world markets. No specific catalyst — just a quiet down day."
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "change_pct": 2.44,
+        "note": "Take-Two was the standout last night, rising 2.44% to $225.78 — the only green holding in the portfolio. News that Rockstar (Take-Two's studio) actively shut down an unauthorised GTA 6 PC port and a fan-made GTA 5 iPhone port reinforced that the GTA 6 IP is closely guarded, keeping hype alive ahead of the game's release."
       }
     ]
   },
   "watch_today": [
     {
-      "title": "PLS: Down 6% today — long-term thesis still intact but painful",
-      "detail": "Pilbara Minerals fell nearly 6% today to $2.56, and you're now sitting at a 62% loss on this position. That's a rough one. The lithium market is structurally depressed right now — weak EV demand growth and oversupply are keeping prices down. This isn't a Pilbara-specific problem; it's the whole sector. Unless your view on the long-term lithium/EV story has changed, there's no reason to crystallise the loss now. Sit tight — but don't add more until there's a clearer floor in lithium prices.",
+      "title": "PLS.AX: Lithium pain continues — hold your nerve",
+      "detail": "Pilbara dropped nearly 6% today and is now down 62% from your cost base. This stings, but the story hasn't fundamentally changed — lithium is in a prolonged price trough and the whole sector is hurting (Liontown also hit a 52-week low today). Selling now locks in the loss. For a long-term holder, the thesis is that lithium demand for EVs and batteries will recover. Sit tight unless your conviction in that story has changed.",
       "urgency": "orange",
       "ticker": "PLS.AX",
       "action": "hold"
     },
     {
-      "title": "TTWO: Big night — up 5.3%, now slightly ahead on your position",
-      "detail": "Take-Two had a strong session last night, up 5.3% to $220.41. Your position is now 2.1% in the green. GTA 6's ongoing commercial success is the main driver, and Rockstar protecting its IP by shutting down an unauthorised PC port is a good sign for future revenue. The long-term case — GTA 6 + pipeline titles — is as strong as ever. Hold comfortably.",
-      "urgency": "green",
-      "ticker": "TTWO",
-      "action": "hold"
-    },
-    {
-      "title": "GXAI: Down 3% today — NASDAQ tech selloff the culprit",
-      "detail": "Your AI ETF dropped 3.1% today, tracking a broader tech rout (NASDAQ down 1.5% last night). You're currently sitting at a 21.9% loss on GXAI. The AI sector remains volatile but the long-term structural story is very much alive — Google just launched Gemini 4 Neon claiming benchmark wins, and AI investment flows remain strong. This is volatility, not a thesis break. Hold.",
+      "title": "GXAI.AX: AI ETF dragged by tech sell-off — hold",
+      "detail": "GXAI fell 3% today, tracking the NASDAQ's rough night. It's now down 22% from your cost base, which is uncomfortable. But Google just launched Gemini 4 Neon claiming it beats GPT-6.2 and Claude Opus 5.5 on most benchmarks — the AI race is as alive as ever. The long-term case for AI infrastructure spending remains intact. No reason to sell; this is volatility in a growth theme.",
       "urgency": "orange",
       "ticker": "GXAI.AX",
       "action": "hold"
     },
     {
-      "title": "Australian inflation hits 4.9% — RBA rate cut hopes fading",
-      "detail": "Inflation has jumped to 4.9%, driven by surging fuel prices. The RBA is under pressure to hold or even raise rates, which is bad news for growth assets and mortgage holders. Treasurer Chalmers is flagging a 'very serious moment' for the economy and hinting at spending cuts in the mid-year budget. Watch this closely — if rates go higher, it could weigh on the ASX and your local ETFs (DHHF, VDHG) in the short term.",
-      "urgency": "red"
+      "title": "GOOG: Down nearly 3% last night — still hold",
+      "detail": "Google fell 2.91% last night in a broad tech sell-off. The stock is down 12.65% from your cost base. There's no structural bad news — Google Cloud is reportedly outpacing Microsoft and AWS on AI and cloud revenue growth, and the core ad business remains dominant. This looks like market noise rather than a thesis break. Hold.",
+      "urgency": "orange",
+      "ticker": "GOOG",
+      "action": "hold"
     },
     {
-      "title": "Middle East escalation: Strait of Hormuz nearly paralysed",
-      "detail": "The Strait of Hormuz — through which about 20% of the world's oil flows — is reportedly almost blocked, with 400 ships waiting. Two tankers were reported ablaze. Oil dropped to $80.53 despite this, but if the situation worsens, an oil price spike would flow through to higher Australian fuel prices and broader inflation. Keep an eye on this — it's a potential macro risk for all your holdings.",
+      "title": "TTWO: Only winner in the portfolio last night — hold on",
+      "detail": "Take-Two rose 2.44% last night and is now 4.6% up from your cost base. The GTA franchise IP is being actively protected (Rockstar shut down two unauthorised ports this week), keeping excitement building ahead of GTA 6. Nothing to do here — just enjoy the green day and hold for the long run.",
+      "urgency": "green",
+      "ticker": "TTWO",
+      "action": "hold"
+    },
+    {
+      "title": "Middle East escalation pushing oil higher — watch energy costs",
+      "detail": "Crude oil jumped nearly 2% last night to US$83.62 a barrel. The Strait of Hormuz — one of the world's most critical oil shipping lanes — is reportedly 'virtually paralysed' with 400 ships waiting, following Houthi attacks and Iranian pressure. If this continues, higher petrol prices could feed into Australian inflation, which is already running hot at 4.9%.",
       "urgency": "orange"
     },
     {
-      "title": "MSFT: Solid momentum — hold your position",
-      "detail": "Microsoft edged up 0.74% last night and is now 12% ahead on your investment. The AI cloud story continues to fire — recent earnings beat estimates and the dividend was lifted. Google Cloud is growing faster on AI revenue metrics, but Azure remains formidable. No reason to do anything here — this is exactly the kind of long-term compounder you want to hold.",
-      "urgency": "green",
-      "ticker": "MSFT",
-      "action": "hold"
+      "title": "Australian inflation hits 4.9% — RBA rate decision looms",
+      "detail": "New inflation data out today showed Australia's CPI jumped to 4.9%, driven largely by fuel price surges. Treasurer Chalmers rejected recession fears but acknowledged a 'very serious moment' for the economy. The RBA has signalled rates remain restrictive — a rate cut looks unlikely anytime soon, which keeps pressure on mortgage holders and consumer spending.",
+      "urgency": "orange"
     }
   ],
   "world": {
-    "summary": "The Middle East conflict is escalating sharply, with the Strait of Hormuz nearly paralysed and Houthi missile strikes hitting Riyadh. Meanwhile, two suspects were arrested after breaking into Prince William and Kate's country estate in England.",
+    "summary": "The Middle East conflict dominated global headlines today, with the Strait of Hormuz nearly paralysed and Houthi forces striking a skyscraper in Riyadh. Separately, California is bracing for record-breaking tidal flooding.",
     "stories": [
       {
-        "title": "Strait of Hormuz nearly paralysed: 400 ships waiting, two tankers ablaze",
-        "source": "Il Sole 24 ORE / The National",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQnV0LVNFbXRtX0hEZWdlSUtwSlRxVy1MOE5SMzJYVVRVYkRzQkZidklrcDRFQWt4TXlPeTgwWS1Ub0F3Mkl0R2VVQW9zbkY0blgxb2xiaWZXaWxRWGJna3lMR3QyOUQydWhQUVlub0dyOHpLUDIxUmpfT2F0MWphMzFhZXFDdDRhS0xzcXdsS1htbThlNnREV0hyaFVwM191cGpJR0NrcTFLZXR3T1ZpRmFSWGpsSEZEZVBnVW5ycw?oc=5",
-        "why_it_matters": "Iran has reportedly almost completely shut down the Strait of Hormuz — the narrow waterway through which roughly 20% of the world's oil supply passes. Around 400 ships are reportedly waiting and unable to transit, and Iran's navy says two tankers are ablaze in the strait. Houthi rebels (backed by Iran) also struck a skyscraper in Riyadh, Saudi Arabia. If the strait stays blocked, global oil prices will almost certainly spike, which flows directly into higher fuel and goods prices everywhere — including at the Australian bowser."
+        "title": "Strait of Hormuz nearly paralysed as Houthis strike Riyadh skyscraper",
+        "source": "Il Sole 24 ORE / The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQnV0LVNFbXRtX0hEZWdlSUtwSlRxVy1MOE5SMzJYVVRVYkRzQkZidklrcDRFQWt4TXlPeTgwWS1Ub0F3Mkl0R2VVQW9zbkY0blgxb2xiaWZXaWxRWGJna3lMR3QyOUQydWhQUVlub0dyOHpLUDIxUmpfT3QxamEzMWFlcUNkNGFLTHNxd2xLWG1tOGU2dERXSHJoVXAzX3VwakVHQ2txMUtldHdPVmlGYVJYamxIRkRlUGdVbnlyc",
+        "why_it_matters": "Yemen's Houthi rebels launched a missile strike on a skyscraper in Riyadh, Saudi Arabia's capital, wounding 11 people — a dramatic escalation that takes the conflict directly into a major city. At the same time, Iran has essentially choked the Strait of Hormuz, with roughly 400 ships sitting idle waiting to pass. The Strait carries about 20% of the world's traded oil, so any prolonged blockage sends oil prices sharply higher — which showed up last night with crude jumping nearly 2% to US$83.62. Higher oil means higher petrol prices at the bowser for everyday Australians, and more fuel to Australia's already-hot inflation."
+      },
+      {
+        "title": "Dubai and Middle East flight disruption continues as Saudi Arabia confirms another attack",
+        "source": "Condé Nast Traveller Middle East",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPdEYtbXMyTFk3Q0h2RXZVWU9adFd3UTFRYVIwTmN6SzF6ZVVCeDZ1QkNqVWNfdkdYRlN2T2V6NlhJcExtWlM3NHBhMF9EUmd1VzRoVlhyc0ZUUzRMMlZUY0xiQ001OGJzRm9xajNRVUE1OUNsNktkWUhUNXMyb1hqakVaT25lNll4ZkhUS3NybFgwd1doRm9RbHU5dUVmdzNVbERwaGVuVTZ4UDk3dE9iMmtKaUJGdXpUa1c1ZGV0QXN1WWFyN2dTTWRHNllhUnM1NkZwTmlWc3UzY2h5elBPOWFXeWRuWW15N3dQamVlUlJqRUhHYVNZSmtyaw",
+        "why_it_matters": "Flight cancellations and route suspensions across the Middle East are continuing to pile up as the conflict spreads. Dubai — a major international transit hub for Australians travelling to Europe — is seeing significant disruption. Saudi Arabia has confirmed multiple new attacks on its territory. If you have travel through the region planned in coming weeks, it's worth checking your itinerary and airline communications."
       },
       {
         "title": "How the Iran war is reshaping the US military presence in the Middle East",
         "source": "Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd1lWbk8tVk1NdEplNmRSV2VFb1RGampOZmZQVy00VUUyRHZsYURmWFF6N3ZpRUI5MW45Y01oUUFxeW1vVkNEaXo3c1dqU0JuYmZEOXlVOXlZSlV6S200OEJZQXZTV1RHZ1RQRi1FcGROTTc5cFNkV084VHFfTWJ4dUhCbzgwSlZzUnZiVUYwVDZ3R3hHYVZ3b0F2Y3J1NDVSdmhMQWdfQTYwREE5UXFpeFZGd2J6d9IBuwFBVV95cUxPRzF3TWtNM1BFSFdlbV9wb1dyUjBPak0wUFlVYU1NSHRlVHhJNTRUT0x2bWhYT0g1NUlhTXRCMTM3aG9SLWZsd0FyMWxLRllNWnlXejZVYV9VY3pndkk3am1TaHRlNTFEdGhUM1FzR0k1RmZHc2FhemN2a3lJZHdnUUdrOVpvTGJkRmpVRzlMc2tMWWhuWjJPemJXc1RMaFFJYllzUTR0QXJHMi13aWkxeDJIb0JjMndreExr?oc=5",
-        "why_it_matters": "The ongoing Iran conflict is forcing the US to significantly rethink its military footprint across the Middle East. The US has repositioned naval assets and air defence systems in the region, and the conflict is now actively drawing in multiple state actors. For everyday Australians, the main concern is what this means for oil prices, global trade, and whether the conflict broadens further."
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd1lWbk8tVk1NdEplNmRSV2VFb1RGampOZmZQVy00VUUyRHZsYURmWFF6N3ZpRUI5MW45Y01oUUFxeW1vVkNEaXo3c1dqU0JuYmZEOXlVOXlZSlV6S200OEJZQXZTV1RHZ1RQRi1FcGROTTc5cFNkV084VHFfTWJ4dUhCbzgwSlZzUnZiVUYwVDZ3R3hHYVZ3b0F2Y3J1NDVSdmhMQWdfQTYwREE5UXFpeFZGd2J6d",
+        "why_it_matters": "The conflict is forcing the United States to significantly rethink how it deploys its military forces across the Middle East. With Iranian-backed groups engaging on multiple fronts — from Houthi attacks in Yemen and Saudi Arabia, to pressure on the Strait of Hormuz — the US is repositioning assets in the region. This is a major geopolitical shift that could affect global trade routes, energy supply, and Western foreign policy commitments for years."
       },
       {
-        "title": "Saudi-led coalition strikes Hodeidah port in Yemen",
-        "source": "The National",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXhnd0U5NHV1U0V6RmlPTGhnMlM3WFFQWWdJQjlTRFBkVUJreHQ3VVZKZnFtNmNpTGZucTZrbHRzZHVmd0JlN3ljLWlIWU8wWUJuZ0V1ZHBVT2FuYVVpUTJnQ1MzSkg3V3VQcFd3VkItQUNLTDJtM0ZORHBKbWJZUllENjdhZzZuSzR2T3ItTlBvRnhSQ09HTQ?oc=5",
-        "why_it_matters": "Saudi-led forces struck the Houthi-controlled port of Hodeidah in Yemen, a key logistics hub for the country. The strike is part of the broader regional war involving Iran-backed Houthi rebels, who have been launching attacks on shipping lanes and Gulf cities. This further escalates a conflict that is increasingly disrupting global trade routes — Hodeidah is one of Yemen's main import points and its damage worsens one of the world's worst humanitarian crises."
+        "title": "California beaches close as record-breaking tides and major flooding loom",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcldydTR5NWR6ZUlPdXFXSFBjcDhkcllyeElPSXprQm8ydlNoVkdQaTViNHk2UVpLQzZmY3paREFkd3RFSElVUmZwelhUV2N4NEtxeEJVWVZwTzBBZEJZXzdRbzZwZHVDcjBUUGpMOTNjUWpzaG9DZy1uaXJucHBtMXgyZ3M",
+        "why_it_matters": "Beaches up and down the California coast have been closed as the state prepares for record-breaking high tides and severe flooding. This is the latest in a string of extreme weather events battering the US west coast, and scientists are linking the intensity to long-term climate patterns. For Australian investors, California is a major centre of US economic activity — particularly tech — so sustained climate disruption there has real economic ripple effects."
       },
       {
-        "title": "Two arrested after break-in at Prince William and Kate's country estate",
-        "source": "New York Post / Daily Express",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWtmb2lYdnNFOEJsVDNQRDhScDdhSHA4UkEwNlR2VFNEeVcxQVpxRjNoSnVXaUp6M1dGNUk3SXgzV2VZSUJtVHVfNm5zR1ltdmJiVnlUejVnd2JyUjd1WnZmYW5YRVBpX0prZ1M2NTBzekxXRVBmSWpKNnFQVi1BdllENUJYa29Zb0FjMjNJZUoyQTQ4MjVkb25VZ09KeU9OdG9RN0FXZDJXZw?oc=5",
-        "why_it_matters": "Two men — reportedly Albanian nationals — were arrested after breaking into Adelaide Cottage (or Anmer Hall), the country estate gifted to Prince William and Kate by the late Queen Elizabeth II. The suspects were apprehended on the property and are in police custody. No members of the royal family were present at the time. The incident raises questions about the security arrangements around the royals' private residences outside of formal palace grounds."
-      },
-      {
-        "title": "Oregon National Guard major breaks world record with 425 L-sit chin-ups in an hour",
-        "source": "Central Oregon Daily",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYnJrX3BvRm5rdjZ6S2t5SEttbGRNZnBjQjZUVC1GUlVPRkpQZDdxeEx1THNIZWxOcndaNS1oNml0WEN1NHoxRS1nalY4dXFNRUVUWTBmc1QwYm5tVlozbkdhd2c1RjhEWVR3U1lXRkV5SUNHR25tMElGamZsdHRobmtEVmlxZHRodTVLdFRTa01ha1JpclJYVTg5RktLcEJ1ZWJ6aHN0R1NXNnppNFpHVElrSDUtVG1fTTdTWDFNMHhyUWR0b0xXTWdwSEFsa0s2Y19Rc2JGaURCalAzdWc?oc=5",
-        "why_it_matters": "Major Matthew Bott of the Oregon National Guard set a new Guinness World Record, completing 425 L-sit chin-ups (where you hold your legs parallel to the ground throughout each rep) in a single hour. It's a remarkable feat of strength and endurance — and a feel-good story to end the week on."
+        "title": "Fidelity releases 2027 economic and market outlook",
+        "source": "Fidelity Investments",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNazk1SWlkR0kxVUJrdThCMmhUVi12eXJ4ZS1haHNtbmdMelRQN3RwQkd4RlRlaVhxOEhjcUtYMVdMZU5KeEFiMFlPVVVCaUtJdVlXS2N2NGVMSEFxSml5djNGbnlXQVMwVnBZV3lDMmRuZDcyVUxRQ1F2VkVHZGFGX18xNDI3clQ2N011ZjlaOEs",
+        "why_it_matters": "Fidelity, one of the world's largest investment managers, has published its 2027 market outlook — a useful reference point as we head into the final months of 2026. While specific details weren't included in the article text, major institutional outlooks like this tend to shape sentiment and fund flows in the new year. Worth keeping an eye out for the full report if you're thinking about portfolio positioning heading into 2027."
       }
     ]
   },
   "markets": {
-    "summary": "It was a soft day on the ASX (down 0.4%) and a rough night on Wall Street last night, with the NASDAQ falling 1.5%. The Aussie dollar weakened, oil dipped despite Middle East chaos, and gold pulled back from recent highs.",
+    "summary": "It was a rough night in the US last night — the NASDAQ dropped 1.83% and the S&P 500 fell 1%, dragging most of the portfolio with it. Closer to home, the ASX closed down a modest 0.39% today. Oil jumped on Middle East tensions, while gold eased slightly and the Aussie dollar was barely changed.",
     "indicators": [
       {
         "name": "ASX 200",
         "value": "8,692",
         "change_pct": -0.39,
-        "note": "Soft close today — inflation data spooked the market and global risk-off sentiment weighed on local stocks."
+        "note": "Soft close today, down 0.39% — the inflation print and global jitters weighed on sentiment."
       },
       {
         "name": "S&P 500",
-        "value": "7,201",
-        "change_pct": -0.5,
-        "note": "Last night's session saw the S&P ease 0.5% — broad selling on Middle East tension and profit-taking after a strong run."
+        "value": "7,129",
+        "change_pct": -1.0,
+        "note": "Last night's session saw a 1% fall — broad risk-off selling across Wall Street."
       },
       {
-        "name": "NASDAQ Composite",
-        "value": "23,734",
-        "change_pct": -1.48,
-        "note": "Tech took a hit last night, down 1.5%. AI safety concerns and general risk-off mood hit growth stocks hard."
-      },
-      {
-        "name": "AUD/USD",
-        "value": "0.657",
-        "change_pct": -0.9,
-        "note": "The Aussie dollar weakened as hotter inflation data complicated the RBA's outlook and global risk appetite softened."
+        "name": "NASDAQ",
+        "value": "23,298",
+        "change_pct": -1.83,
+        "note": "Tech took the brunt of it last night, with the NASDAQ dropping 1.83%."
       },
       {
         "name": "Crude Oil (WTI)",
-        "value": "$80.53",
-        "change_pct": -1.85,
-        "note": "Oil fell despite the Strait of Hormuz crisis — markets seem to be betting on a resolution, but this feels complacent given 400 ships are stuck."
+        "value": "US$83.62",
+        "change_pct": 1.91,
+        "note": "Oil jumped nearly 2% last night as the Strait of Hormuz disruption rattled supply expectations."
       },
       {
         "name": "Gold",
-        "value": "$3,517",
-        "change_pct": -1.27,
-        "note": "Gold pulled back slightly from elevated levels. Still trading near historic highs — geopolitical uncertainty keeps a floor under the price."
+        "value": "US$3,547",
+        "change_pct": -0.42,
+        "note": "Gold slipped slightly last night — still near historically elevated levels."
+      },
+      {
+        "name": "AUD/USD",
+        "value": "0.6627",
+        "change_pct": -0.04,
+        "note": "The Aussie dollar was essentially unchanged — sitting at 66.3 US cents."
       }
     ]
   },
   "politics": {
-    "summary": "Australian inflation has jumped to 4.9%, fuelled by surging fuel prices. Treasurer Chalmers is warning of a 'very serious moment' for the economy while flagging spending cuts. The government is also moving on digital safety laws and pensioner health insurance relief.",
+    "summary": "Australia's economy is under real pressure today — fresh inflation data came in at 4.9%, driven by surging fuel costs, sparking a heated political debate about whether the RBA should hold rates or whether Chalmers needs to act. The Treasurer is walking a tightrope between recession fears and runaway prices.",
     "stories": [
       {
-        "title": "Inflation surges to 4.9% — RBA faces calls to hold rates despite the spike",
-        "source": "The Conversation / Bloomberg",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPck1WYWtSVW9FUWQzSHhmQkxtZkpKMnBIVUZGbE5UOTRFLUl5d0JZSUVIa00wYktvV2JBMUJWS3l6a2p0Rm9rMEsyb0NtSUVsU2JmTHNkdHlqZzU3OWJxdW9uc3otakRVYjRoY3RCMVQ0N25uMHlNYU1KOTc4OGFRZ1JLQ242NzZNQ21CQzFlWDlTdjY4NzVnekl4MURmQzVyOXhxN3J0SjZxTm1WekxYQ2NhLXI2dw?oc=5",
-        "why_it_matters": "Australia's inflation rate has jumped to 4.9%, well above where the Reserve Bank wants it. Fuel prices are the main culprit — the Middle East conflict is driving energy costs higher, which flows into everything from grocery delivery to public transport. Some economists are calling on the RBA to hold rates steady despite the spike, arguing the causes are external and rate hikes won't fix them. If the RBA disagrees and lifts rates, mortgage holders face more pain and the economy risks tipping toward recession."
-      },
-      {
-        "title": "Treasurer Chalmers warns of 'very serious moment' — rejects recession fears but flags spending cuts",
-        "source": "Yahoo Finance Australia / News.com.au",
-        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOGItV2pEaDlNWU9TZkx5M1ZCaTlpV1RsUmNuMFRnTkdTM1F0c2FuMVNPOWEyWVJpbnk1OUxLOXNna1BVUzJFeV93N0dRS1FfNTBJWmQ2bGttX2ZuN1JxaHVPY29zOXZfa0g4cWg3YlplNmExaE9tb3FPQWxaZENPWWs5XzBseWw4dTJUZmdVVjBMVzV1VExyTWVsMkhJLWltYk9XczRhNDI5amtwODVWb01ZekJxVmRNQWU1RF95TTFsNWFaTV82YVFac19LclhfTDV1Z3hyN0l4ckFEcWc?oc=5",
-        "why_it_matters": "Jim Chalmers has described the Australian economy as facing a 'very serious moment' ahead of the December mid-year budget update. He's pushing back on recession fears but acknowledging the economy is slowing, and signalling that spending cuts are coming. AFR reports that high tax and spending levels were already baked in before any downturn — meaning the government has limited wiggle room. For everyday Aussies, this likely means tighter government services and pressure on cost-of-living relief measures."
-      },
-      {
-        "title": "Labor and Greens strike deal on Digital Duty of Care laws — free speech debate erupts",
-        "source": "The Australian / News24",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQX2tqeWFISmJfNXZac0JlMVZ3c1pYNzVOdkw2ak5ZRUF2ZTRzX0tQRURMTWNDNTdwM2hBM1JTTUU4dDYtazAzejhtN3JfTGNvRG0zXzdVM3BuOUJTVVNrYUlON09vUkdCSlJUMVZtWEowMTFCdlA2cVdKcGpweWJpdlE0VGJaRVJyREN4MVVoazZlam1YX0t0UDg0eWFNQUY2RGlIVVhySGhIY0JLVEJNOTFyWmsxNmR1R1JXaGxDYTItWUR2ZmEyWGY1M3VIWWRUZ1NwQkFqLTdDQzVpUnV3c3NXRDdUcXZQaFVJVUFOdU1DSFJRWmJxTGNOTkdyQQ?oc=5",
-        "why_it_matters": "Labor has struck a deal with the Greens to pass its Digital Duty of Care bill, which will impose legal obligations on big tech platforms (think Meta, TikTok, X) to protect users — especially children — from harmful content. Critics, including some in the Coalition, are calling it a 'dirty deal' that risks suppressing free speech online. If passed, tech platforms operating in Australia will need to significantly change how they moderate content or face penalties. It's a world-first type of regulation and will be watched closely internationally."
-      },
-      {
-        "title": "Government to protect all pensioners from health insurance rebate cuts",
+        "title": "Inflation jumps to 4.9% as fuel prices surge",
         "source": "The Conversation",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHdYdFNPUmZ6X3B6SnlfYXhjV2FFT2NaWi16VkdzWTNHM0daWnJ0VkJpQnlJWTFPZUsxMXA2T2tzd1hOcEpvYlF5cmRFRkFyVjl2SzNjeWpsczAyMmM4U1F5b2RobUJqenZhQld4dXZmaWlyUlUtc1E3N1FEeEtyTkhqNzdxN1phN051OWJDSzUtUG5QUE5pZkdHOVdOM0VYMWVkT3pjMHo3dGJXVjE2c2V2ZzB5Zw?oc=5",
-        "why_it_matters": "The Albanese government has reversed course and will exempt all pensioners from planned cuts to the seniors' health insurance rebate. Previously only some pensioners were going to be protected. This is a direct cost-of-living win for retirees, who would have faced higher private health insurance premiums without the rebate. The backdown came after significant political pressure and suggests the government is sensitive to being seen as hurting vulnerable groups ahead of the budget."
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPck1WYWtSVW9FUWQzSHhmQkxtZkpKMnBIVUZGbE5UOTRFLUl5d0JZSUVIa00wYktvV2JBMUJWS3l6a2p0Rm9rMEsyb0NtSUVsU2JmTHNkdHlqZzU3OWJxdW9uc3otakRVYjRoY3RCMVQ0N25uMHlNYU1KOTc4OGFRZ1JLQ242NzZNQ21CQzFlWDlTdjY4NzVnekl4MURmQzVyOXhxN3J0SjZxTm1WekxYQ2NhLXI2dw",
+        "why_it_matters": "Australia's latest inflation figure came in at 4.9%, well above where the Reserve Bank wants it. The main culprit is surging fuel prices — not entirely within the RBA's control, since it's largely driven by the Middle East conflict and oil supply disruption. Some economists argue the RBA should hold rates steady rather than hike further, since rate rises don't fix supply-side oil shocks but do hurt mortgage holders. For everyday Australians, this means the cost of living squeeze is not letting up."
+      },
+      {
+        "title": "Treasurer Chalmers rejects recession fears but warns of 'very serious moment'",
+        "source": "Yahoo Finance Australia",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOGItV2pEaDlNWU9TZkx5M1ZCaTlpV1RsUmNuMFRnTkdTM1F0c2FuMVNPOWEyWVJpbnk1OUxLOXNna1BVUzJFeV93N0dRS1FfNTBJWmQ2bGttX2ZuN1JxaHVPY29zOXZfa0g4cWg3YlplNmExaE9tb3FPQWxaZENPWWs1XzBseWw0dTJUZmdVVjBMVzV1VExyTWVsMkhJLWltYk9XczRhNDI5amtwODVWb01ZekJxVmRNQWU1RF95TTFsNWFaTV82YVFac19LclhfTDV1Z3hyN0l4ckFEcWc",
+        "why_it_matters": "Treasurer Jim Chalmers pushed back on growing recession fears today, but acknowledged the economy is at a 'very serious moment'. With inflation at 4.9% and interest rates already biting, there's real tension in Canberra about what to do next. Chalmers also flagged a major budget update with spending cuts coming — suggesting the government is bracing for a deteriorating fiscal position. The balance between cutting spending (which could tip into recession) and spending to support growth is incredibly difficult right now."
+      },
+      {
+        "title": "Chalmers flags major budget update and spending cuts",
+        "source": "News.com.au",
+        "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPWUY0dWJoRm5FakdDTmVqWUVvWlFKQVNrNGtOQkRpcmU5QnU1clhyTUxjVVBrTHMteGRZbURyanpWWklybkZtU3ZwZUp2WFpuWGVXVWVHMlptRG1PY0JjWU0yU2NZTVJEMUtseEFZMDljaEZPVVhDUGlwZ2syTFBYVHRZaTVBX2RPV0labmRuV3pGVXViQ3RobWxxUUd0WFlMX1ZCckhVZkJYQUZqanc1b0RhRWNKWTlSOVV4WlBKTHVQUUowVmViRy1fNWotd1p2a1ZhOXNhelVqZzROY2ZramJKbmVqV3JxNDBLWXNSU05MeURkTS1FM0M0NnlRUEt3U0U2NWRUaGRDZzlscXU1NFRuUENmZkZUYktDT1FUam5ESTc2NklsWU9yN3liUQ",
+        "why_it_matters": "The Treasurer has signalled a major mid-year budget update is coming, with spending cuts on the table. This comes as Australia faces a tricky combination of high inflation, high interest rates, and slowing economic growth. Cuts to government spending could free up fiscal headroom but risk tipping the economy into a slowdown. Households that rely on government support payments or public services could feel the pinch directly."
+      },
+      {
+        "title": "RBA speech: Rates remain restrictive amid economic cross-currents",
+        "source": "Reserve Bank of Australia",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8weHN4Vi0tdFFIYmhmcmdIWUJVRVdWRmE2dTZwdmZvczFQbFBPNEo3c1BLWnlTTkU5NXh2ME14Zk5aN3p4TndaUE43aGhybUtlRF9fTXJrVGZCU2pwSTJrajRpZTJCdVJQRVE",
+        "why_it_matters": "The RBA delivered a speech overnight confirming that interest rates are still in 'restrictive' territory — meaning they're deliberately set high enough to slow the economy and cool inflation. The phrase 'cross-currents' signals the RBA is aware of competing forces: high inflation on one hand, rising recession risk on the other. In plain English: don't expect a rate cut soon, and don't expect a hike either — the RBA is watching and waiting."
+      },
+      {
+        "title": "Australia's Digital Duty of Care bill nears law — free speech concerns raised",
+        "source": "The Australian",
+        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQX2tqeWFISmJfNXZac0JlMVZ3c1pYNzVOdkw2ak5ZRUF2ZTRzX0tQRURMTWNDNTdwM2hBM1JTTUU4dDYtazAzejhtN3JfTGNvRG0zXzdVM3BuOUJTVVNrYUlON09vUkdCSlJUMVZtWEowMTFCdlA2cVdKcGpweWJpdlE0VGJaRVJyREN4MVVoazZlam1YX0t0UDg0eWFNQUY2RGlIVVhySGhIY0JLVEJNOTFyWmsxNmR1R1JXaGxDYTItWUR2ZmEyWGY1M3VIWWRUZ1NwQkFqLTdDQzVpUnV3c3NXRDdUcXZQaFVJVUFOdU1DSFJRWmJxTGNOTkdyQQ",
+        "why_it_matters": "Australia's new Digital Duty of Care legislation — which would force big tech platforms to protect users from harmful content — is moving closer to becoming law. Critics are raising concerns about free speech impacts, arguing the rules are too broad and could lead to over-censorship of legitimate content. For social media users and tech companies operating in Australia, this could mean significant changes to what gets moderated and how platforms are held accountable."
       }
     ]
   },
   "ai": {
-    "summary": "Big AI safety concerns emerged today, with reports that employees at both OpenAI and Anthropic fear some of their latest models are too dangerous to release. Meanwhile, Google unveiled Gemini 4 Neon claiming it beats GPT-6.2 Sol, and Australia passed world-first criminal penalties for harmful AI.",
+    "summary": "Big AI news today: Google launched Gemini 4 Neon claiming it beats rivals on most benchmarks, while OpenAI and Anthropic staff are reportedly worried some of their own unreleased models are too risky to release. Australia also made global headlines with world-first criminal penalties for AI misuse.",
     "stories": [
       {
-        "title": "OpenAI and Anthropic staff fear some new models are too risky to ship",
-        "source": "9to5Google / Digg",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObUYtbHFlSEZyY3JqVUdsUno2RUxKTEdKbGtUZ3hwTFp1YXp2UWdkOVZMSlNmamVpOV9OSFdlTFRMcU9hN0FvZG4xOG1xSVlCdmVndXBWWFVXbG52VkwxbUpyTlJ6bDZNSGw2akRad3NfRHNSdUk5WjFaTEFZVTJQTkZwR3VZTnZRWE1NR0pB?oc=5",
-        "why_it_matters": "Reports are circulating that employees inside both OpenAI and Anthropic — the two leading AI labs in the world — are privately raising alarms about unreleased models being too powerful or unpredictable to safely put out into the world. This isn't just theoretical hand-wringing: insiders reportedly fear these models could be misused or behave in unexpected ways that could cause real harm. It's a rare moment of public unease from within the industry, and raises serious questions about how close we might be to AI systems that are genuinely hard to control."
-      },
-      {
-        "title": "Google unveils Gemini 4 Neon — claims it beats OpenAI's GPT-6.2 Sol in benchmarks",
+        "title": "Google unveils Gemini 4 Neon — claims it beats GPT-6.2 and Claude Opus 5.5",
         "source": "Republic World",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMl9zUFM2TFM1Z05hQW8tS0ZuZXE2WkZJby1ET242T2NyVE1XZkF1UW1JaTVpWm0wSTJHVmRJZkRPVDlLc2xqakVpSks4TkJvQXJtQXdLNldpcXhRNTc4dVJoT09zT0Z2cjJHbHBMTmRrRU9NeEFnaDRjOWp4MzBoLTJ5RTVUVWlESUdXbENSWmxvQXJ1Z2N2eURkTndPYmxlN1BQNzl1bkhYRzJKcGEzSUZCeUFxOWFodkphRVV0TXBNeHlULTN5a05jc2MzN3ZoNnphaTVpWkN4QTNfcEQ1c1JZRkRHN1ZWVnZqT1ZJV3lDZXR5bTFv0gH8AUFVX3lxTE9kWmotSnFKMmxPc1VPRmlMM0Rja2RRY01CLWZCYWk0dS05bGRMWkE5eWw3Sm1IT1dwdXV2TUx6Q1VFbWkwb3Rqb2FGbXd1cUFhNXJ3cWpma0ZzWjVVT3NIdkNsLTZRM2RVS3hPZkZoM3dvSlNySEREaVY0Xzdad2lmbDhZa21FbkU1OFU1VS1FVWhYSXVKREhmNVlUTXJqRnV0dmIwVWZsNkQzVl95djJ4Y2lqeHFFUTVhekhUS0hIMmFTMEdvaTVqc3kzNTdLZHd6aEVPUXRySWZjWUVvYUxVNXdsRVVMdmJxZS1aajJKcDZDZ3ZvZmxvVkR2MA?oc=5",
-        "why_it_matters": "Google has released Gemini 4 Neon, its latest AI model, and is claiming it outperforms OpenAI's GPT-6.2 Sol and Anthropic's Claude Opus 5.5 on most standard benchmarks (tests that measure reasoning, coding, and language ability). The AI arms race between Google, OpenAI and Anthropic is running at full speed, and each new model release is quickly changing what these tools can do. For GOOG shareholders, this is a positive signal that Google is staying competitive in the AI race."
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMl9zUFM2TFM1Z05hQW8tS0ZuZXE2WkZJby1ET242T2NyVE1XZkF1UW1JaTVpWm0wSTJHVmRJZkRPVDlLc2xqakVpSks4TkJvQXJtQXdLNldpcXhRNTc4dVJoT09zT0Z2cjJHbHBMTmRrRU9NeEFnaDRjOWp4MzBoLTJ5RTVUVWlESUdXbENSWmxvQXJ1Z2N2eURkTndPYmxlN1BQNzl1bkhYRzJKcGEzSUZCeUFxOWFodkphRVV0TXBNeHlULTN5a05jc2MzN3ZoNnphaTVpWkN4QTNfcEQ1c1JZRkRHN1ZWVnZqT1ZJV3lDZXR5bTFv",
+        "why_it_matters": "Google dropped its latest flagship AI model — Gemini 4 Neon — and is claiming it outperforms OpenAI's GPT-6.2 Sol and Anthropic's Claude Opus 5.5 on most benchmarks. If true, this is a significant moment in the AI race: Google has been playing catch-up to OpenAI's ChatGPT for a couple of years, and a genuine lead on the most capable models would be a big deal for Alphabet's cloud and consumer products. Worth watching how independent testers rate it over coming days."
       },
       {
-        "title": "Australia introduces world-first criminal penalties for harmful AI",
+        "title": "OpenAI and Anthropic staff fear some unreleased models are too dangerous to ship",
+        "source": "Digg",
+        "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE94emtBWmhCWXBXaWJxcXloNE10V0lkSVNTN3VMSVE4eFFPV1M2emRxdXF1SmJDR1AyR2tBSmNwbzlmQQ",
+        "why_it_matters": "Reports are emerging that employees inside both OpenAI and Anthropic — the two leading AI labs — are privately worried that some of their next-generation models are too risky to release to the public. This is significant because it comes from insiders, not critics. The concern is likely around models that are becoming harder to control or that could be misused for serious harm. It raises real questions about the pace of AI development and whether the race to outcompete is overriding safety considerations."
+      },
+      {
+        "title": "Australia introduces world-first criminal penalties for AI misuse",
         "source": "SmartCompany",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbUpkUi04S2ZaNDhWdWpNUUVFMVIxZUVKTnp3Umg1aHVtQjNPRWxxb1FmM01qU2o3a3hWUkFwSC1MNVZndTZXSVFNMzJFcFRxQ29RbmN0enp4NjhTR1FmaGVqNkFLNDJtNjJtY2lSX25oUVZkWkIxWUxvZXktNlZaaGhrdjZVNTVxWVJheU5xcWk4cVA0ZHZ5bDR4RWkzcGxudEJTa0hjNUZsUlN3Qkc1bEsxWHg0d0ZGSnJncnJzQkxHeENoTExDSFJn?oc=5",
-        "why_it_matters": "Australia has become the first country in the world to introduce criminal penalties for people who use AI to cause harm. The new laws create a legal accountability framework where individuals — not just companies — could face criminal charges for deploying AI in ways that hurt people. The tricky bit, as SmartCompany notes, is figuring out who's actually responsible when an AI system causes harm: the developer, the deployer, or the user? It's a genuinely complex legal conundrum that will shape how AI is used and governed in Australia."
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbUpkUi04S2ZaNDhWdWpNUUVFMVIxZUVKTnp3Umg1aHVtQjNPRWxxb1FmM01qU2o3a3hWUkFwSC1MNVZndTZXSVFNMzJFcFRxQ29RbmN0enp4NjhTR1FmaGVqNkFLNDJtNjJtY2lSX25oUVZkWkIxWUxvZXktNlZaaGhrdjZVNTVxWVJheU5xcWk0cVA0ZHZ5bDR4RWkzcGxudEJTa0hjNUZsUlN3Qkc1bEsxWHg0d0ZGSnJncnJzQkxHeENoTExDSFJn",
+        "why_it_matters": "Australia has become the first country in the world to introduce criminal penalties specifically for AI misuse — meaning individuals or companies could face criminal charges (not just fines) for using AI in harmful ways. The new laws create an interesting accountability puzzle: if an AI system makes a harmful decision, who goes to jail — the developer, the company using it, or the person who deployed it? The specifics are still being worked through, but it marks a dramatic shift in how governments are approaching AI regulation."
       },
       {
-        "title": "Senator Pocock calls for tougher AI laws and a data centre levy",
-        "source": "Canberra CityNews",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbHRjclBLVXVidEZwTmlWSE8tbzRMa2dPekgycjJkLXlLV1V2ZWJmcUFuVFNxbFBuUl9YMkpxeUJTUE41dm9SSTZoVDZTcVpJdDVPMFZjLVFPS3Z4LV9wVWxPdThDV2dvTGJpS2JnTVVwRmowUzkyWFhXSXo1alhuV0Mxc29lZw?oc=5",
-        "why_it_matters": "Independent Senator David Pocock is pushing for stricter AI regulation and wants to impose a levy (a tax) on data centres — the massive energy-hungry facilities that power AI systems. Pocock argues that data centres consume enormous amounts of water and electricity, and that the companies running them should contribute more to the communities and infrastructure they depend on. This is an emerging policy debate that could affect tech investment in Australia."
+        "title": "The AI hardware loop threatening Nvidia's dominance",
+        "source": "Business Insider",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFl5SmFsSF9vTHJRTHRObUprWG5EUHpzTTBNQkpmMHNKYndvRTdDZjNXcjZqdkh6VElwZ3U0b3NBVzFSQ0Q2MUtuay0zaXN1Y0FsVVluWVZDX0djb19QTUhPbWptYnZ3dDZuTkN1bmxIemh5Tkw1VW9LMktCZEtmVGVGNjExUVlYSlNRd21rNktaVG5UZDZMXzZWdVNicGo5Y0I4OA",
+        "why_it_matters": "A new analysis argues that a structural shift is underway that could eventually undercut Nvidia's near-monopoly on AI chips. The 'hardware loop' refers to the cycle where AI labs build custom chips for their own models, reducing their need to buy from Nvidia. Companies like Google (with its TPUs), Amazon, and Meta are all developing in-house AI silicon. If this trend accelerates, Nvidia faces real long-term competition — relevant to anyone holding AI-focused investments like GXAI."
+      },
+      {
+        "title": "Google Cloud outpaces Microsoft and AWS on AI and cloud revenue",
+        "source": "Cloud Wars",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMEQzdk5HdmlXVmtKSG9BTExOaHY0QXp2d0IxQnFzLWEzbFR1MDE4YlBHUzhtbmtldVZTc19QUnBQdWc4LXYxNTJscGVQcWhxaGlSNTNQNTY5eFRzVFpaaVlOZ21BQWh1UU1pZHZNczRiWHdCR29zLXNqZkk5Qm5yenZzRVhlajB4UTRkZEhjeU52c3lKZHlKMg",
+        "why_it_matters": "According to Cloud Wars analysis, Google Cloud has pulled ahead of both Microsoft Azure and Amazon Web Services (AWS) in AI and cloud revenue growth. This is a meaningful reversal — Microsoft has dominated cloud AI headlines with its OpenAI partnership, while Google was seen as playing catch-up. If Google Cloud is genuinely accelerating, it's a positive signal for Alphabet's (GOOG) long-term earnings trajectory and validates the investment thesis for holding the stock through the current dip."
       }
     ]
   },
   "sport": {
-    "summary": "The Roosters won the NRL Grand Final by one point in a thriller, the PNG Chiefs are on a massive signing spree, Jannik Sinner's Australian Open participation is now in serious doubt after knee surgery, and the AFL handed out its MVP awards.",
+    "summary": "The NRL Grand Final delivered a thriller, Jannik Sinner is facing a potentially season-ending knee surgery, Cameron Munster has set the NRL free agency market on fire, and the AFL handed out its MVP awards.",
     "stories": [
       {
-        "title": "Roosters beat Knights 19-18 in a Grand Final classic",
+        "title": "Roosters defeat Knights 19-18 in NRL Grand Final thriller",
         "source": "NRL",
-        "link": "https://www.nrl.com/",
+        "link": "https://www.nrl.com",
         "category": "NRL",
-        "why_it_matters": "The Sydney Roosters have won the 2026 NRL Grand Final, defeating the Newcastle Knights 19-18 at Accor Stadium in an absolute thriller. One point in it at the final whistle. It's a dramatic end to the season — the Knights will be gutted having come so close, while the Roosters add another premiership to their storied record. If you were watching, it was the kind of game that reminds you why you love rugby league."
+        "why_it_matters": "The Sydney Roosters won the 2026 NRL premiership by the narrowest possible margin, defeating the Newcastle Knights 19-18 at Accor Stadium on Sunday. One point in a Grand Final — doesn't get more nerve-wracking than that. It's the Roosters' latest title in what has been a dynasty built on consistent roster management and big-game experience."
       },
       {
-        "title": "Cameron Munster rejects offer — NRL contract frenzy erupts",
-        "source": "News.com.au",
-        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbUhWWF96cEZIczl5cTZFNGZPM18wZk9YeE9RRHFxeGpYb0k2ckdVeTZwamptVjRXejZlWE9ya2NHUE1HZ1lSVk5wNzdwa3dTWGNaYm1odFhFNG5qbVp1b1J6MmNBQmo3TmFqemN1dkhfWUFCS0FkWkJ0M2gyclpsOXJDWmdiN1c5OUNBUkw2S1RIU3pPenFpZUt3dF9tN2oxaWR0LTFtNTd1Z3l0VjFkZGpiZWRCcUVPQUNWdHJqeEg0TWcxNnlYc1BqMFJhX3RnbTFsVnl4NVBNZGFCLTNiY1RtSzR1U1hRV2dtaHBYYUEwMmFyLUpTUEMxUGlFcTZ5NWZ3WXltZGl6YUU?oc=5",
-        "category": "NRL",
-        "why_it_matters": "Cameron Munster has reportedly knocked back a contract offer, throwing his future into serious doubt and sending the NRL transfer market into a spin. Munster is one of the game's elite playmakers, and clubs across the competition will be circling. His next move could reshape the competition's power balance heading into 2027. The article doesn't confirm where he's going, but the rejection alone is big news."
-      },
-      {
-        "title": "PNG Chiefs on a recruitment blitz: AJ Brimson, Hudson Young signed on big money",
-        "source": "CODE Sports / Papua New Guinea Today",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdk0wcFlmQ1VYbTRIU3ZrZkd4bjJGNmlTSmdUc0RGWk54NV9MWHlOZFU0NTZnbVU3M1QwVGxnZVJkTzR3MEdpeFMxUGgtSE1iaDU3N3RxSUFfcXZ0QWdwazVsM0xCSkZYdFd4V255YVFUdHBBMHZheGRvMkVkOGQtMmJSZ2RtdUtSRFZVampLX0lZNmFUYjBDczBrak5GT0dNaFYyQ0I3aHJ1OGF3Um9KSEpyUGVIRUFmUmtKc1hObUFfdG1hVjlaZkx1SkVRUGNuZFd5WTFzWnVHdUYw?oc=5",
-        "category": "NRL",
-        "why_it_matters": "The PNG Chiefs are absolutely throwing money around in the off-season. England international fullback AJ Brimson has signed a three-year deal, and Canberra Raiders forward Hudson Young is joining on a reported million-dollar-a-year contract. The SMH raised questions about whether the Chiefs are spending wisely, but the club is clearly serious about competing from day one. It's a remarkable transformation for a team that didn't exist in the NRL a couple of years ago."
-      },
-      {
-        "title": "Jannik Sinner undergoes knee surgery — Australian Open in serious doubt",
-        "source": "ABC News / The Guardian",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYko4OU9iWFhMRGpIY08tNncyNmhlUWN1OW1ubV9CNVJCOFM0SHNsYWU2aWMwU3N6XzlEaWJfa1dMRnBQTHFOQXVCdktqbEJyMWZZcGV4NHc2bkt5c3l3Y1o1RGo0MUxwcERCSHlwRnVNUXI1c3pIRF9nd3BocXl1LXdYY3NkQ3ptdGlRaFZOYXJxT1NWRWo?oc=5",
+        "title": "Jannik Sinner faces Australian Open absence after knee surgery",
+        "source": "The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdkd4TGVteUVpLWIxZVBPWkhKcDNWZ3pUMW1BTWU0VUQyWWZGaXZjMkNBdW1OTWUyOWxnTnJ2Zy1WVTNlTmowelI5MEhQek1rWHJYYnhham0yVlNNZng1OWMtNzJHcTNwaWVZOUs2UnlZbENFMWpjNDMxVVN2czNhUEFvbVpKRlBGUlJ2SF9fZGpLQjltWmU5TmdmM2JpME9VZHFJU25qamFRUlVJblFoMjJ4WVBURlZKaDhSajVhMFNkU0k",
         "category": "Tennis",
-        "why_it_matters": "World No. 1 Jannik Sinner has undergone knee surgery, casting serious doubt over his participation in the Australian Open in January. Sinner said he 'tried everything' to avoid the operation but was left with no choice. He is the defending Australian Open champion and his absence would be a massive blow for the tournament — and for tennis fans planning to watch in Melbourne. The timeline for his recovery isn't yet confirmed, but surgery this close to January makes it very tight."
+        "why_it_matters": "World number one Jannik Sinner has undergone what his camp is calling 'minor surgery' on his right knee, casting serious doubt over his appearance at the Australian Open in January. Sinner won the Australian Open title earlier this year (his second consecutive), making him the overwhelming favourite heading in. If he can't defend, it blows the men's draw wide open — good news for Aussie fans who might see a local challenger go deeper."
+      },
+      {
+        "title": "Cameron Munster rejects offer, sends NRL market into frenzy",
+        "source": "News.com.au",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPbUhWWF96cEZIczl5cTZFNGZPM18wZk9YeE9RRHFxeGpYb0k2ckdVeTZwamptVjRXejZlWE9ya2NHUE1HZ1lSVk5wNzdwa3dTWGNaYm1odFhFNG5qbVp1b1J6MmNBQmo3TmFqemN1dkhfWUFCS0FkWkJ0M2gyclpsOXJDWmdiN1c1OUNBUkw2S1RIU3pPenFpZUt3dF9tN2oxaWR0LTFtNTd1Z3l0VjFkZGpiZWRCcUVPQUNWdHJqeEg0TWcxNnlYc1BqMFJhX3RnbTFsVnl4NVBNZGFCLTNiY1RtSzR1U1hRV2dtaHBYYUEwMmFyLUpTUEMxUGlFcTZ5NWZ3WXltZGl6YUU",
+        "category": "NRL",
+        "why_it_matters": "Cameron Munster — one of the NRL's biggest stars — has knocked back a contract offer, sending clubs scrambling and the rumour mill into overdrive. Munster's destination is now one of the biggest storylines heading into the 2027 season. With the PNG Chiefs emerging as a well-funded expansion side that's already signing big names (including England's AJ Brimson on a three-year deal), Munster's next move could genuinely reshape the competition's balance of power."
+      },
+      {
+        "title": "PNG Chiefs spending big — are they blowing their money?",
+        "source": "SMH.com.au",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmZvRHlkWGVUcWYtWExBZEMzdkc4cmZXZEFKZVZ0UGdBaGNJdWZmOEo2Z2RjM1hYNUVvNFQ3Vzh4NU84NVlBak5EVjRDMzdoRk9VUUo3aW96UmE2WUZjZ2tjakE0VXUzYnN5STVYNU8wV21EOFI4cnNLWHZVUERBQ2xMcEdscU56SW5tZHJvMUNmakhYRUVkM0JSNFdEckFabjc5TnNkUWE3RDZaS2R3NVVPZy0",
+        "category": "NRL",
+        "why_it_matters": "The Herald is crunching the numbers on the PNG Chiefs' recruitment blitz ahead of their NRL debut. The expansion club is spending aggressively, confirming AJ Brimson (England international) on a three-year deal and chasing multiple big-name signings. The question the article poses is whether this spending spree is strategic roster-building or reckless. For NRL fans, a well-resourced PNG side could be one of the most exciting new additions to the competition in years."
       },
       {
         "title": "AFL MVP Awards: Geelong star takes top honour, Melbourne dominate",
-        "source": "AFL.com.au",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMXJMN0N6Ny1Db19ibTNnN0dYTFZIZlllUUotMHFheW9yd3VKWnJzZWxOaUFQRF9mZWo3ZGZxNlA2d1FyX1lCdzA2MUNBV0ZLc3BfQWZFc3V6T2QyNjZReVl0cmxFQWdfUUxkRE5CWVpUS3ZUMmhfUjVYOU1sTFhVV0tFNEdBUThBX2UwaVNEal9MYm1OZ3Z3RmtDMm9lazBlRFI1V0RydjRsNjdCSWtKN3pRLXRiOElFUjdPcURUMVd5RUJUanR4MXBOYkh0cDRvSTE3eU1rRmJUcHN5NGdhcWktVkdHZWdVYjJNeA?oc=5",
+        "source": "afl.com.au",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMXJMN0N6Ny1Db19ibTNnN0dYTFZIZlllUUotMHFheW9yd3VKWnJzZWxOaUFQRF9mZWo3ZGZxNlA2d1FyX1lCdzA2MUNBV0ZLc3BfQWZFc3V6T2QyNjZReVl0cmxFQWdfUUxkRE5CWVpUS3ZUMmhfUjVYOU1sTFhVV0tFNEdBUThBX2UwaVNEal9MYm1OZ3Z3RmtDMm9lazBlRFI1V0RydjRsNjdCSWtKN3pRLXRiOElFUjdPcURUMVd5RUJUanR4MXBOYkh0cDRvSTE3eU1rRmJUcHN5NGdhcWktVkdHZWdVYjJNeA",
         "category": "AFL",
-        "why_it_matters": "The AFL has handed out its end-of-season MVP awards. A Geelong Cats star capped a stellar season by taking the top individual honour, while Melbourne dominated the broader awards night, suggesting the Dees had a standout collective season. The article doesn't name the specific winner in the data provided, but it's worth noting if you follow the Cats or the Dees."
+        "why_it_matters": "The AFL MVP awards were handed out this week, with a Geelong Cats star capping a stellar season by taking the top individual honour. Melbourne (the Demons) dominated the team awards, suggesting they remain one of the competition's elite sides heading into the off-season. No article text with specific player names was available, so check afl.com.au for the full list of winners."
       }
     ]
   },
   "weather": {
     "location": "Gold Coast",
-    "icon": "🌤️",
-    "condition": "Mainly clear",
-    "temperature_c": 23.2,
-    "high_c": 25.2,
+    "icon": "☁️",
+    "condition": "Overcast",
+    "temperature_c": 20.7,
+    "high_c": 25.6,
     "low_c": 20.1,
-    "rain_chance_pct": 100,
-    "rain_mm": 10.1,
+    "rain_chance_pct": 91,
+    "rain_mm": 2.4,
     "tomorrow": {
       "icon": "🌦️",
-      "condition": "Light drizzle",
+      "condition": "Drizzle",
       "high_c": 25.9,
-      "low_c": 20.7,
-      "rain_chance_pct": 58,
-      "rain_mm": 1.8
+      "low_c": 21.0,
+      "rain_chance_pct": 94,
+      "rain_mm": 2.8
     }
   },
   "nrl_round": "Grand Final",
@@ -314,43 +326,43 @@
         "ticker": "GOOG",
         "shares": 0.2277,
         "currency": "USD",
-        "current_price": 276.58,
-        "current_value_native": 62.97,
-        "current_value_aud": 95.85,
+        "current_price": 268.54,
+        "current_value_native": 61.14,
+        "current_value_aud": 92.26,
         "total_invested": 70.0,
-        "total_invested_aud": 106.54,
-        "pnl_native": -7.03,
-        "pnl_aud": -10.69,
-        "pnl_pct": -10.04,
-        "day_change_pct": -1.06
+        "total_invested_aud": 105.63,
+        "pnl_native": -8.86,
+        "pnl_aud": -13.36,
+        "pnl_pct": -12.65,
+        "day_change_pct": -2.91
       },
       {
         "ticker": "MSFT",
         "shares": 0.6319,
         "currency": "USD",
-        "current_price": 496.13,
-        "current_value_native": 313.5,
-        "current_value_aud": 477.18,
+        "current_price": 487.75,
+        "current_value_native": 308.21,
+        "current_value_aud": 465.08,
         "total_invested": 280.0,
-        "total_invested_aud": 426.18,
-        "pnl_native": 33.5,
-        "pnl_aud": 51.0,
-        "pnl_pct": 11.97,
-        "day_change_pct": 0.74
+        "total_invested_aud": 422.51,
+        "pnl_native": 28.21,
+        "pnl_aud": 42.57,
+        "pnl_pct": 10.07,
+        "day_change_pct": -1.69
       },
       {
         "ticker": "TTWO",
         "shares": 4.4474,
         "currency": "USD",
-        "current_price": 220.41,
-        "current_value_native": 980.25,
-        "current_value_aud": 1492.0,
+        "current_price": 225.78,
+        "current_value_native": 1004.13,
+        "current_value_aud": 1515.21,
         "total_invested": 960.0,
-        "total_invested_aud": 1461.19,
-        "pnl_native": 20.25,
-        "pnl_aud": 30.81,
-        "pnl_pct": 2.11,
-        "day_change_pct": 5.28
+        "total_invested_aud": 1448.62,
+        "pnl_native": 44.13,
+        "pnl_aud": 66.59,
+        "pnl_pct": 4.6,
+        "day_change_pct": 2.44
       },
       {
         "ticker": "VDHG.AX",
@@ -437,11 +449,11 @@
         "day_change_pct": -0.63
       }
     ],
-    "total_invested_aud": 3379.73,
-    "total_value_aud": 3273.17,
-    "total_pnl_aud": -106.56,
-    "total_pnl_pct": -3.15,
-    "aud_usd_rate": 0.657
+    "total_invested_aud": 3362.58,
+    "total_value_aud": 3280.69,
+    "total_pnl_aud": -81.89,
+    "total_pnl_pct": -2.44,
+    "aud_usd_rate": 0.6627
   },
-  "generated_at_utc": "2026-11-25T07:38:04.211187+00:00"
+  "generated_at_utc": "2026-11-25T18:05:50.266855+00:00"
 }
